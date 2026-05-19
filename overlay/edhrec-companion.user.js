@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MTG Edge Lord for EDHREC
 // @namespace    mtg-edge-lord
-// @version      0.3.0
+// @version      0.3.1
 // @description  Auto-hiding EDHREC side panel for off-meta commander search and personal deck taste tracking.
 // @match        https://edhrec.com/*
 // @run-at       document-idle
@@ -29,7 +29,7 @@
   ];
 
   const state = loadState();
-  const page = readCurrentPage();
+  let page = readCurrentPage();
   const extensionIconUrl = extensionAssetUrl("assets/icons/icon-48.png");
   upsertVisitedCommander(page);
   saveState();
@@ -37,6 +37,7 @@
   injectStyles();
   mountOverlay();
   annotateCommanderLinks();
+  observeRouteChanges();
   observePageChanges();
 
   function mountOverlay() {
@@ -102,9 +103,13 @@
     if (actionName === "status") setCurrentIdeaStatus(action.dataset.value);
     if (actionName === "rating") setCurrentRating(Number(action.dataset.value));
     if (actionName === "add-profile") saveCurrentAsProfile();
+    if (actionName === "save-manual-profile") saveManualProfile();
     if (actionName === "remove-profile") removeProfile(action.dataset.key);
     if (actionName === "select-profile") openCommander(action.dataset.slug);
-    if (actionName === "load-commanders") loadCommanderIndex(Number(getInput("mel-pages")?.value || 4));
+    if (actionName === "load-commanders") {
+      loadCommanderIndex(Number(getInput("mel-pages")?.value || 4));
+      return;
+    }
     if (actionName === "export") exportJson();
     if (actionName === "copy-json") copyJson();
     if (actionName === "clear-search") {
@@ -215,6 +220,12 @@
           <button type="button" data-action="add-profile">Save as owned deck</button>
           <button type="button" data-action="export">Export</button>
         </div>
+        <div class="mel-section">
+          <h3>Deck builders</h3>
+          <div class="mel-button-row">
+            ${deckBuilderLinks(page.name)}
+          </div>
+        </div>
       ` : ""}
     `;
   }
@@ -248,6 +259,10 @@
   function renderSearchResults() {
     const target = document.querySelector("[data-search-results]");
     if (!target) return;
+    if (!state.commanders.length) {
+      target.innerHTML = `<div class="mel-empty">Click "Load EDHREC commanders" to build the local searchable index.</div>`;
+      return;
+    }
     const results = filteredCommanders().slice(0, 40);
     target.innerHTML = results.length ? results.map((card) => commanderResultHtml(card)).join("") : `<div class="mel-empty">No commanders match.</div>`;
   }
@@ -261,12 +276,41 @@
         <h2>Deck profile</h2>
         <p>${profiles.length ? `${profiles.length} owned deck profiles shape taste matching.` : "Save commanders as owned decks to build a taste profile."}</p>
       </div>
+      ${page.type === "commander" ? `
+        <div class="mel-section mel-current-profile">
+          <h3>Current EDHREC commander</h3>
+          <p>${escapeHtml(page.name)} is ready to save into your profile. Use Scout to tune the stars, likes, dislikes, power, complexity, and heat first.</p>
+          <div class="mel-button-row">
+            <button type="button" data-action="add-profile">Save current as owned</button>
+            ${deckBuilderLinks(page.name)}
+          </div>
+        </div>
+      ` : `
+        <div class="mel-section">
+          <h3>Build profile from EDHREC</h3>
+          <p>Open a commander page, rate the deck in Scout, then save it as owned here.</p>
+        </div>
+      `}
       <div class="mel-metrics">
         <div><b>${profiles.length}</b><span>decks</span></div>
         <div><b>${summary.avgRating || "0"}</b><span>stars</span></div>
         <div><b>${summary.avgPower || "0"}</b><span>power</span></div>
         <div><b>${summary.avgHeat || "0"}</b><span>heat</span></div>
       </div>
+      <details class="mel-section" ${profiles.length ? "" : "open"}>
+        <summary>Manual profile entry</summary>
+        <div class="mel-grid mel-manual-profile">
+          <label class="mel-field mel-wide"><span>Commander</span><input data-manual-profile="name" placeholder="Commander name"></label>
+          <label class="mel-field"><span>Stars</span><select data-manual-profile="rating">${optionList(["1", "2", "3", "4", "5"], "3")}</select></label>
+          <label class="mel-field"><span>Power</span><select data-manual-profile="power">${optionList(["1", "2", "3", "4", "5"], "3")}</select></label>
+          <label class="mel-field"><span>Heat</span><select data-manual-profile="tableHeat">${optionList(["1", "2", "3", "4", "5"], "3")}</select></label>
+          <label class="mel-field mel-wide"><span>Tags</span><input data-manual-profile="tags" placeholder="Artifacts, Politics, Lands"></label>
+          <label class="mel-field mel-wide"><span>Likes</span><input data-manual-profile="likes" placeholder="Puzzle turns, toolbox, low heat"></label>
+          <label class="mel-field mel-wide"><span>Dislikes</span><input data-manual-profile="dislikes" placeholder="Linear combo, too much shuffling"></label>
+          <label class="mel-field mel-wide"><span>Deck URL</span><input data-manual-profile="url" placeholder="Moxfield, Archidekt, or EDHREC URL"></label>
+        </div>
+        <button type="button" data-action="save-manual-profile">Save profile entry</button>
+      </details>
       <div class="mel-section">
         <h3>Liked signals</h3>
         <div class="mel-chip-row">${summary.likes.map(([tag, score]) => `<button type="button" data-action="open-theme" data-value="${escapeAttr(tag)}">${escapeHtml(tag)} ${Math.round(score)}</button>`).join("") || `<span class="mel-small">No likes yet.</span>`}</div>
@@ -303,6 +347,7 @@
         <div class="mel-chip-row">${profile.tags.slice(0, 5).map((tag) => `<button type="button" data-action="open-theme" data-value="${escapeAttr(tag)}">${escapeHtml(tag)}</button>`).join("")}</div>
         <div class="mel-button-row">
           <button type="button" data-action="select-profile" data-slug="${escapeAttr(profile.key)}">Open</button>
+          <a class="mel-link mel-builder-link" href="${escapeAttr(profile.url || `${CONFIG.edhrecBase}/commanders/${profile.key}`)}" target="_blank" rel="noopener">Source</a>
           <button type="button" data-action="remove-profile" data-key="${escapeAttr(profile.key)}">Remove</button>
         </div>
       </article>
@@ -380,9 +425,12 @@
     return `
       <article class="mel-card">
         <strong>${escapeHtml(card.name)}</strong>
-        <span>#${card.rank || "?"} / ${formatCompact(card.decks)} decks / edge ${Math.round(edgeScore(card))} / taste ${Math.round(tasteScore(card))}</span>
+        <span>#${card.rank || "?"} / ${formatCompact(card.decks)} decks / ${(card.colors || []).join("") || "C"} / edge ${Math.round(edgeScore(card))} / taste ${Math.round(tasteScore(card))}</span>
         <div class="mel-chip-row">${(card.tags || []).slice(0, 5).map((tag) => `<button type="button" data-action="open-theme" data-value="${escapeAttr(tag)}">${escapeHtml(tag)}</button>`).join("")}</div>
-        <a class="mel-link" href="${escapeAttr(card.url)}">Open on EDHREC</a>
+        <div class="mel-button-row">
+          <a class="mel-link" href="${escapeAttr(card.url)}">Open on EDHREC</a>
+          ${deckBuilderLinks(card.name)}
+        </div>
       </article>
     `;
   }
@@ -414,9 +462,48 @@
     let timer = 0;
     const observer = new MutationObserver(() => {
       window.clearTimeout(timer);
-      timer = window.setTimeout(annotateCommanderLinks, 350);
+      timer = window.setTimeout(() => {
+        refreshCurrentPage();
+        annotateCommanderLinks();
+      }, 350);
     });
     observer.observe(document.body, { childList: true, subtree: true });
+  }
+
+  function observeRouteChanges() {
+    const notify = () => window.dispatchEvent(new Event("mel-location-change"));
+    const originalPushState = history.pushState;
+    const originalReplaceState = history.replaceState;
+    history.pushState = function pushState(...args) {
+      const result = originalPushState.apply(this, args);
+      notify();
+      return result;
+    };
+    history.replaceState = function replaceState(...args) {
+      const result = originalReplaceState.apply(this, args);
+      notify();
+      return result;
+    };
+    window.addEventListener("popstate", notify);
+    window.addEventListener("mel-location-change", () => {
+      window.setTimeout(() => refreshCurrentPage(true), 150);
+      window.setTimeout(() => refreshCurrentPage(true), 900);
+    });
+  }
+
+  function refreshCurrentPage(force = false) {
+    const next = readCurrentPage();
+    if (!force && pageSignature(next) === pageSignature(page)) return;
+    page = next;
+    upsertVisitedCommander(page);
+    if (page.type === "commander") currentIdea();
+    saveState();
+    renderAll();
+    annotateCommanderLinks();
+  }
+
+  function pageSignature(item) {
+    return [item.type, item.key, item.name, item.rank, item.decks, (item.tags || []).join("|")].join("::");
   }
 
   function readCurrentPage() {
@@ -532,6 +619,30 @@
     state.profiles = mergeProfiles(state.profiles, [profile]);
   }
 
+  function saveManualProfile() {
+    const fields = {};
+    document.querySelectorAll("[data-manual-profile]").forEach((input) => {
+      fields[input.dataset.manualProfile] = input.value;
+    });
+    const name = String(fields.name || "").trim();
+    if (!name) return;
+    state.profiles = mergeProfiles(state.profiles, [normalizeProfile({
+      key: slugify(name),
+      name,
+      rating: Number(fields.rating || 3),
+      power: Number(fields.power || 3),
+      tableHeat: Number(fields.tableHeat || 3),
+      complexity: 3,
+      tags: parseTags(fields.tags || ""),
+      likes: parseTags(fields.likes || ""),
+      dislikes: parseTags(fields.dislikes || ""),
+      url: fields.url || `${CONFIG.edhrecBase}/commanders/${slugify(name)}`
+    })]);
+    saveState();
+    renderAll();
+    annotateCommanderLinks();
+  }
+
   function removeProfile(key) {
     state.profiles = state.profiles.filter((profile) => profile.key !== key);
   }
@@ -625,6 +736,7 @@
     for (const tag of item.tags || []) set.add(`tag:${normalize(tag)}`);
     for (const tag of item.likes || []) set.add(`tag:${normalize(tag)}`);
     for (const word of normalize(item.name).split(" ")) if (word.length > 3) set.add(`name:${word}`);
+    for (const color of item.colors || []) set.add(`color:${color}`);
     if (item.pattern) set.add(`pattern:${normalize(item.pattern)}`);
     if (item.speed) set.add(`speed:${normalize(item.speed)}`);
     return set;
@@ -686,9 +798,35 @@
   }
 
   async function fetchJson(path) {
-    const response = await fetch(/^https?:/i.test(path) ? path : CONFIG.jsonBase + path.replace(/^\/+/, ""), { headers: { Accept: "application/json" } });
+    const url = /^https?:/i.test(path) ? path : CONFIG.jsonBase + path.replace(/^\/+/, "");
+    const viaBackground = await fetchJsonViaBackground(url);
+    if (viaBackground) return viaBackground;
+    const response = await fetch(url, { headers: { Accept: "application/json" }, cache: "no-cache" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
+  }
+
+  function fetchJsonViaBackground(url) {
+    try {
+      if (typeof chrome === "undefined" || !chrome.runtime || typeof chrome.runtime.sendMessage !== "function") return null;
+      return new Promise((resolve, reject) => {
+        chrome.runtime.sendMessage({ type: "mel-fetch-json", url }, (response) => {
+          const runtimeError = chrome.runtime.lastError;
+          if (runtimeError) {
+            resolve(null);
+            return;
+          }
+          if (!response) {
+            resolve(null);
+            return;
+          }
+          if (response.ok) resolve(response.payload);
+          else reject(new Error(response.error || "Background fetch failed."));
+        });
+      });
+    } catch {
+      return null;
+    }
   }
 
   function selectCommanderList(payload) {
@@ -749,6 +887,7 @@
       pattern: item?.pattern || "value",
       speed: item?.speed || "mid",
       tags: parseTags(item?.tags || []),
+      colors: Array.isArray(item?.colors) ? item.colors : [],
       likes: parseTags(item?.likes || []),
       dislikes: parseTags(item?.dislikes || []),
       notes: String(item?.notes || ""),
@@ -768,6 +907,7 @@
         rank: Number(item.rank || 0),
         decks: Number(item.decks || item.num_decks || item.inclusion || item.count || 0),
         tags: parseTags(item.tags || item.sourceTags || []),
+        colors: Array.isArray(item.color_identity) ? item.color_identity : Array.isArray(item.colors) ? item.colors : [],
         url: item.url && /^https?:/i.test(item.url) ? item.url : `${CONFIG.edhrecBase}${item.url || `/commanders/${key}`}`,
         source: item.source || "edhrec"
       };
@@ -780,7 +920,12 @@
       const normalized = normalizeCommanderViews([card])[0];
       if (!normalized) continue;
       const existing = map.get(normalized.key);
-      map.set(normalized.key, existing ? { ...existing, ...normalized, tags: mergeTags(existing.tags || [], normalized.tags || []) } : normalized);
+      map.set(normalized.key, existing ? {
+        ...existing,
+        ...normalized,
+        tags: mergeTags(existing.tags || [], normalized.tags || []),
+        colors: normalized.colors.length ? normalized.colors : existing.colors || []
+      } : normalized);
     }
     return Array.from(map.values()).sort((a, b) => numberSort(a.rank, b.rank) || a.name.localeCompare(b.name));
   }
@@ -836,7 +981,7 @@
   }
 
   function commanderHaystack(card) {
-    return [card.name, card.rank, card.decks, ...(card.tags || [])].join(" ");
+    return [card.name, card.rank, card.decks, (card.colors || []).join(" "), ...(card.tags || [])].join(" ");
   }
 
   function profileHaystack(profile) {
@@ -844,7 +989,13 @@
   }
 
   function cleanHeading(value) {
-    return String(value || "").replace(/\s+/g, " ").replace(/\bEDHREC\b.*$/i, "").replace(/\bCommander\b.*$/i, "").trim();
+    return String(value || "")
+      .replace(/\s+/g, " ")
+      .replace(/\s*\((?:Commander|Card)\)\s*$/i, "")
+      .replace(/\bEDHREC\b.*$/i, "")
+      .replace(/\s+\bCommander\b.*$/i, "")
+      .replace(/[([]\s*$/g, "")
+      .trim();
   }
 
   function cleanTag(value) {
@@ -878,6 +1029,16 @@
 
   function getPanel(name) {
     return document.querySelector(`[data-panel="${name}"]`);
+  }
+
+  function deckBuilderLinks(name) {
+    const query = encodeURIComponent(name || "");
+    if (!query) return "";
+    return [
+      ["Moxfield", `https://www.moxfield.com/decks/public/advanced?commanderCardName=${query}`],
+      ["Archidekt", `https://archidekt.com/search/decks?commander=${query}`],
+      ["Scryfall", `https://scryfall.com/search?q=${query}+is%3Acommander`]
+    ].map(([label, url]) => `<a class="mel-link mel-builder-link" href="${url}" target="_blank" rel="noopener">${label}</a>`).join("");
   }
 
   function getInput(id) {
@@ -1140,6 +1301,12 @@
         padding: 10px;
         margin-bottom: 9px;
       }
+      #mel-root details.mel-section summary {
+        cursor: pointer;
+        color: #16201d;
+        font-weight: 800;
+        margin-bottom: 8px;
+      }
       #mel-root .mel-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1205,6 +1372,21 @@
       #mel-root .mel-metrics b { display: block; font-size: 16px; }
       #mel-root .mel-metrics span { color: #65736d; font-size: 10px; text-transform: uppercase; }
       #mel-root .mel-link { color: #236fae; font-size: 12px; }
+      #mel-root .mel-builder-link {
+        min-height: 30px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #d7ded9;
+        border-radius: 6px;
+        background: #fff;
+        padding: 0 9px;
+        text-decoration: none;
+      }
+      #mel-root .mel-builder-link:hover {
+        border-color: #236fae;
+        background: #e8f2fb;
+      }
       #mel-root .mel-file input { display: none; }
       .mel-inline-badge {
         display: inline-flex;

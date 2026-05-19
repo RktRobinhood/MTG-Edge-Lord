@@ -90,6 +90,14 @@ It stores your saved commanders, ratings, and profile data locally in your brows
 
 Open the side rail, go to `Find`, and click `Load EDHREC commanders`. The extension stores the loaded commander index locally after that.
 
+### The Find panel still will not load
+
+Version `0.3.1` routes EDHREC JSON loading through the extension background worker. After pulling the update, reload the extension in `chrome://extensions`, then refresh EDHREC before trying again.
+
+### The current commander looks wrong after navigating EDHREC
+
+Reload the EDHREC tab after updating the extension. Version `0.3.1` re-reads EDHREC route changes and delayed page content, but Chrome still needs the extension reloaded from `chrome://extensions` after local file changes.
+
 ### Changes do not show after editing files
 
 Go to `chrome://extensions` and click reload on the extension. Then refresh EDHREC.
