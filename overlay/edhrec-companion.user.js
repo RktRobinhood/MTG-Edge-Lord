@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MTG Edge Lord for EDHREC
 // @namespace    mtg-edge-lord
-// @version      0.2.0
+// @version      0.3.0
 // @description  Auto-hiding EDHREC side panel for off-meta commander search and personal deck taste tracking.
 // @match        https://edhrec.com/*
 // @run-at       document-idle
@@ -30,6 +30,7 @@
 
   const state = loadState();
   const page = readCurrentPage();
+  const extensionIconUrl = extensionAssetUrl("assets/icons/icon-48.png");
   upsertVisitedCommander(page);
   saveState();
 
@@ -53,9 +54,12 @@
       </nav>
       <section class="mel-panel">
         <header class="mel-header">
-          <div>
-            <strong>MTG Edge Lord</strong>
-            <span data-mel-subtitle>EDHREC overlay</span>
+          <div class="mel-brand">
+            ${extensionIconUrl ? `<img src="${escapeAttr(extensionIconUrl)}" alt="">` : `<span class="mel-brand-fallback">EL</span>`}
+            <div>
+              <strong>MTG Edge Lord</strong>
+              <span data-mel-subtitle>EDHREC overlay</span>
+            </div>
           </div>
           <button type="button" data-action="pin">${state.settings.pinned ? "Unpin" : "Pin"}</button>
         </header>
@@ -880,6 +884,17 @@
     return document.getElementById(id);
   }
 
+  function extensionAssetUrl(path) {
+    try {
+      if (typeof chrome !== "undefined" && chrome.runtime && typeof chrome.runtime.getURL === "function") {
+        return chrome.runtime.getURL(path);
+      }
+    } catch {
+      return "";
+    }
+    return "";
+  }
+
   function defaultSearch() {
     return { query: "", minRank: "500", maxDecks: "", sort: "edge", pages: 5, hideOwned: true };
   }
@@ -1078,6 +1093,31 @@
         padding: 9px 12px;
         border-bottom: 1px solid #d7ded9;
         background: #fff;
+      }
+      #mel-root .mel-brand {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        min-width: 0;
+      }
+      #mel-root .mel-brand img,
+      #mel-root .mel-brand-fallback {
+        width: 34px;
+        height: 34px;
+        flex: 0 0 34px;
+        border-radius: 7px;
+        background: #080909;
+      }
+      #mel-root .mel-brand img {
+        display: block;
+        object-fit: cover;
+      }
+      #mel-root .mel-brand-fallback {
+        display: grid;
+        place-items: center;
+        color: #e8ff00;
+        border: 1px solid #ff0081;
+        font-weight: 900;
       }
       #mel-root .mel-header strong,
       #mel-root h2,

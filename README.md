@@ -1,40 +1,119 @@
 # MTG Edge Lord
 
-MTG Edge Lord is an EDHREC overlay. EDHREC remains the app and this project adds an auto-hiding side rail for off-meta commander search, saved ideas, and personal deck taste tracking.
+MTG Edge Lord is a Chrome extension for EDHREC. It does not replace EDHREC. It adds a graffiti-styled, auto-hiding side rail on `edhrec.com` with commander scouting, off-meta search, saved ideas, and personal deck taste tracking.
 
-## Install
+![MTG Edge Lord overlay preview](assets/screens/overlay-preview.png)
 
-### Userscript
+## What You Get
 
-1. Install Tampermonkey or Violentmonkey.
-2. Open `overlay/edhrec-companion.user.js` from GitHub Pages or this repo.
-3. Accept the userscript install prompt.
-4. Open any `https://edhrec.com/*` page.
+- Auto-hiding right-side rail on EDHREC.
+- `Scout` panel for the current commander page.
+- 1-5 star commander/deck ratings.
+- Power, complexity, table heat, speed, and play-pattern tracking.
+- Likes, dislikes, tags, and notes per commander.
+- `Find` panel that loads EDHREC ranked commanders and sorts by edge, taste, off-meta score, difference, rank, or deck count.
+- `Profile` panel that summarizes owned deck habits.
+- `Saved` panel for commanders marked while browsing.
+- Owned/saved badges added beside EDHREC commander links.
 
-The overlay appears as a narrow rail on the right side of EDHREC. Hover, focus, or pin it to open the full panel.
+## Install As A Chrome Extension
 
-### Chrome extension
+### 1. Download The Repo
 
-1. Clone or download this repo.
-2. Open `chrome://extensions`.
-3. Enable Developer mode.
-4. Choose "Load unpacked".
-5. Select the repo root folder, the folder containing `manifest.json`.
+Use either method:
 
-## Overlay Panels
+- Click `Code` -> `Download ZIP` on GitHub, then extract the ZIP.
+- Or clone it:
 
-- `Scout` - current commander rating, status, likes, dislikes, profile metrics, and notes.
-- `Find` - loads EDHREC ranked commanders and searches by rank, deck count, taste, difference, and off-meta score.
-- `Profile` - owned deck profile summary, liked signals, avoid signals, and import/export.
-- `Saved` - commanders marked while browsing EDHREC.
+```powershell
+git clone https://github.com/RktRobinhood/MTG-Edge-Lord.git
+```
 
-## Why It Needs Installation
+The folder you need is the repo root, the one containing `manifest.json`.
 
-GitHub Pages cannot inject code into `edhrec.com` by itself because browsers isolate websites by origin. The userscript or unpacked extension is what makes the overlay run by default on EDHREC.
+### 2. Load The Extension
 
-## Files
+1. Open Chrome.
+2. Go to `chrome://extensions`.
+3. Turn on `Developer mode` in the top-right corner.
+4. Click `Load unpacked`.
+5. Select the `MTG-Edge-Lord` folder.
+6. Confirm that `MTG Edge Lord for EDHREC` appears in your extensions list.
 
-- `index.html` - installer / project landing page.
-- `overlay/edhrec-companion.user.js` - the EDHREC overlay.
-- `manifest.json` - optional Chrome extension wrapper.
-- `assets/` - legacy standalone prototype assets kept for reference.
+### 3. Use It On EDHREC
+
+1. Open `https://edhrec.com/commanders`.
+2. Open any commander page, for example `https://edhrec.com/commanders/the-ur-dragon`.
+3. Look for the narrow black rail on the right side of the page.
+4. Hover over it or tab into it to open the panel.
+5. Click `Pin` if you want it to stay open.
+
+The toolbar icon also has a small popup with quick links back to EDHREC and the GitHub repo.
+
+## Updating The Extension
+
+If you downloaded a ZIP:
+
+1. Download the latest ZIP.
+2. Replace the old extracted folder with the new one.
+3. Go to `chrome://extensions`.
+4. Click the reload button on `MTG Edge Lord for EDHREC`.
+
+If you cloned with Git:
+
+```powershell
+cd MTG-Edge-Lord
+git pull
+```
+
+Then go to `chrome://extensions` and reload the extension.
+
+## Permissions
+
+The extension asks for:
+
+- `https://edhrec.com/*` so it can add the side panel to EDHREC.
+- `https://json.edhrec.com/*` so the `Find` panel can load EDHREC ranked commander JSON.
+
+It stores your saved commanders, ratings, and profile data locally in your browser.
+
+## Troubleshooting
+
+### The rail does not appear
+
+- Confirm the extension is enabled at `chrome://extensions`.
+- Reload the EDHREC tab.
+- Make sure you are on `https://edhrec.com/*`, not a cached or embedded copy.
+- Check that you loaded the folder containing `manifest.json`.
+
+### The Find panel is empty
+
+Open the side rail, go to `Find`, and click `Load EDHREC commanders`. The extension stores the loaded commander index locally after that.
+
+### Changes do not show after editing files
+
+Go to `chrome://extensions` and click reload on the extension. Then refresh EDHREC.
+
+### Can this run from GitHub Pages alone?
+
+No. GitHub Pages can host the extension files, but it cannot inject code into `edhrec.com`. Browsers isolate websites by origin. The Chrome extension is what grants permission to run the overlay on EDHREC.
+
+## Optional Userscript Install
+
+If you prefer Tampermonkey or Violentmonkey, open:
+
+```text
+https://rktrobinhood.github.io/MTG-Edge-Lord/overlay/edhrec-companion.user.js
+```
+
+The Chrome extension path is recommended because it includes the toolbar popup and packaged icon assets.
+
+## Project Files
+
+- `manifest.json` - Chrome extension configuration.
+- `overlay/edhrec-companion.user.js` - EDHREC content-script overlay.
+- `extension/popup.html` - toolbar popup.
+- `extension/popup.css` - toolbar popup styling.
+- `assets/icons/` - generated graffiti icon assets.
+- `assets/screens/overlay-preview.png` - preview image.
+- `index.html` - GitHub Pages install page.
