@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "MTG Edge Lord for EDHREC",
+  "version": "0.2.0",
+  "description": "Auto-hiding EDHREC side panel for off-meta commander search and personal deck taste tracking.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://edhrec.com/*"
+      ],
+      "js": [
+        "overlay/edhrec-companion.user.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": [
+    "https://edhrec.com/*",
+    "https://json.edhrec.com/*"
+  ]
+}

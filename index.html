@@ -3,206 +3,76 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Commander Edgeboard</title>
+  <title>MTG Edge Lord EDHREC Overlay</title>
   <link rel="stylesheet" href="assets/styles.css">
-  <script src="assets/data.js" defer></script>
-  <script src="assets/app.js" defer></script>
 </head>
 <body>
   <header class="appbar">
     <div class="brand">
-      <span class="brand-mark" aria-hidden="true">CE</span>
+      <span class="brand-mark" aria-hidden="true">EL</span>
       <div>
-        <h1>Commander Edgeboard</h1>
-        <p>EDHREC companion</p>
+        <h1>MTG Edge Lord</h1>
+        <p>auto-hiding overlay for EDHREC</p>
       </div>
     </div>
     <div class="appbar-actions">
-      <a class="button active-link" href="index.html">Discovery</a>
-      <a class="button" href="profile.html">Profile</a>
-      <button id="syncEdhrecButton" class="button" type="button">Refresh EDHREC</button>
-      <button id="exportButton" class="button" type="button">Export</button>
-      <label class="button file-button" for="importFile">Import</label>
-      <input id="importFile" class="sr-only" type="file" accept="application/json,.json">
+      <a class="button active-link" href="index.html">Install</a>
+      <a class="button" href="https://edhrec.com/commanders" target="_blank" rel="noopener">Open EDHREC</a>
+      <a class="button" href="overlay/edhrec-companion.user.js">Userscript</a>
     </div>
   </header>
 
-  <main class="layout">
-    <section class="workbench" aria-label="Commander discovery">
-      <div class="control-strip">
-        <label class="search-field">
-          <span>Search</span>
-          <input id="searchInput" type="search" placeholder="Name, color, tag, mechanic">
-        </label>
-        <label>
-          <span>Sort</span>
-          <select id="sortSelect">
-            <option value="edgeFit">Best edge fit</option>
-            <option value="edge">Highest edge</option>
-            <option value="offMeta">Most off-meta</option>
-            <option value="different">Most different</option>
-            <option value="taste">Best taste match</option>
-            <option value="rank">EDHREC rank</option>
-            <option value="decksAsc">Fewest decks</option>
-            <option value="name">Name</option>
-          </select>
-        </label>
-        <label>
-          <span>Snapshot pages</span>
-          <input id="syncPagesInput" class="number-input" type="number" min="1" max="12" value="3">
-        </label>
-        <p id="statusText" class="status-text" role="status">Local seed loaded.</p>
+  <main class="profile-layout">
+    <section class="panel profile-entry">
+      <div class="panel-head">
+        <h2>Use EDHREC, Add Edge Lord</h2>
       </div>
-
-      <div class="filter-band">
-        <fieldset>
-          <legend>Edge target</legend>
-          <div class="segmented" id="edgeTargetGroup">
-            <button type="button" data-edge-target="adjacent">Adjacent</button>
-            <button type="button" data-edge-target="fresh">Fresh</button>
-            <button type="button" data-edge-target="weird">Weird</button>
-            <button type="button" data-edge-target="fringe">Fringe</button>
+      <div class="stack-list">
+        <div class="stack-item">
+          <strong>Recommended: userscript</strong>
+          <span>Install Tampermonkey or Violentmonkey, then open the userscript. It will run automatically on EDHREC pages.</span>
+          <div class="stack-actions">
+            <a class="button small" href="overlay/edhrec-companion.user.js">Open userscript</a>
+            <a class="button small" href="https://edhrec.com/commanders/the-ur-dragon" target="_blank" rel="noopener">Test on EDHREC</a>
           </div>
-        </fieldset>
-        <fieldset>
-          <legend>Popularity</legend>
-          <div class="segmented" id="popularityGroup">
-            <button type="button" data-popularity="all">All</button>
-            <button type="button" data-popularity="underplayed">Underplayed</button>
-            <button type="button" data-popularity="deep">Deep cuts</button>
-            <button type="button" data-popularity="fringe">Fringe</button>
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend>Colors</legend>
-          <div class="mana-filter" id="colorGroup">
-            <label><input type="checkbox" value="W"><span>W</span></label>
-            <label><input type="checkbox" value="U"><span>U</span></label>
-            <label><input type="checkbox" value="B"><span>B</span></label>
-            <label><input type="checkbox" value="R"><span>R</span></label>
-            <label><input type="checkbox" value="G"><span>G</span></label>
-            <label><input type="checkbox" value="C"><span>C</span></label>
-          </div>
-        </fieldset>
-        <label>
-          <span>Color mode</span>
-          <select id="colorModeSelect">
-            <option value="any">Any selected</option>
-            <option value="all">All selected</option>
-            <option value="exact">Exact identity</option>
-            <option value="exclude">Exclude selected</option>
-          </select>
-        </label>
-        <label>
-          <span>Tag filter</span>
-          <input id="tagInput" type="search" placeholder="Artifacts, graveyard">
-        </label>
-        <label>
-          <span>Min rank</span>
-          <input id="minRankInput" class="number-input" type="number" min="1" placeholder="Any">
-        </label>
-        <label>
-          <span>Max decks</span>
-          <input id="maxDecksInput" class="number-input" type="number" min="0" placeholder="Any">
-        </label>
-        <label class="checkline">
-          <input id="hideOwnedInput" type="checkbox">
-          <span>Hide owned</span>
-        </label>
-        <label class="checkline">
-          <input id="hideSkippedInput" type="checkbox" checked>
-          <span>Hide skipped</span>
-        </label>
+        </div>
+        <div class="stack-item">
+          <strong>Optional: Chrome extension</strong>
+          <span>Clone or download this repo, then load the repo folder as an unpacked Chrome extension. The same overlay runs by default on EDHREC.</span>
+        </div>
       </div>
-
-      <div id="metricStrip" class="metric-strip" aria-label="Current results"></div>
-
-      <div class="result-head">
-        <h2>Commanders</h2>
-        <span id="resultCount">0 results</span>
-      </div>
-      <div id="commanderGrid" class="commander-grid"></div>
     </section>
 
-    <aside class="inspector" aria-label="Deck profile and saved ideas">
-      <section class="panel selected-panel">
-        <div class="panel-head">
-          <h2>Selected</h2>
-          <a id="selectedEdhrecLink" href="https://edhrec.com/commanders" target="_blank" rel="noopener">EDHREC</a>
-        </div>
-        <div id="selectedCommander" class="selected-empty">Select a commander.</div>
-      </section>
-
-      <section class="panel">
-        <div class="panel-head">
-          <h2>Existing Decks</h2>
-          <a class="button small" href="profile.html">Edit profile</a>
-        </div>
-        <textarea id="ownedInput" rows="5" placeholder="Legacy quick entry: Muldrotha, the Gravetide | Graveyard, Lands | UBG&#10;Use Profile for ratings, likes, dislikes, power, complexity, and table heat."></textarea>
-        <button id="saveOwnedButton" class="button small" type="button">Analyze legacy text</button>
-        <div id="profileMetrics" class="compact-metrics"></div>
-        <div id="profileTags" class="tag-cloud"></div>
-      </section>
-
-      <section class="panel">
-        <div class="panel-head">
-          <h2>Idea Radar</h2>
-          <button id="copyRadarButton" class="button small" type="button">Copy</button>
-        </div>
-        <div id="radarList" class="stack-list"></div>
-      </section>
-
-      <section class="panel">
-        <div class="panel-head">
-          <h2>Saved Ideas</h2>
-          <button id="clearSavedButton" class="button small danger" type="button">Clear</button>
-        </div>
-        <div id="savedList" class="stack-list"></div>
-      </section>
-
-      <section class="panel">
-        <div class="panel-head">
-          <h2>Quick Links</h2>
-        </div>
-        <input id="quickLinkInput" type="search" placeholder="Card or commander">
-        <div class="link-grid">
-          <a id="quickEdhrec" target="_blank" rel="noopener">EDHREC</a>
-          <a id="quickScryfall" target="_blank" rel="noopener">Scryfall</a>
-          <a id="quickMoxfield" target="_blank" rel="noopener">Moxfield</a>
-          <a id="quickArchidekt" target="_blank" rel="noopener">Archidekt</a>
-        </div>
-      </section>
-
-      <section class="panel">
-        <div class="panel-head">
-          <h2>Overlay</h2>
-          <a href="overlay/edhrec-companion.user.js">Userscript</a>
-        </div>
-        <div class="overlay-actions">
-          <button id="copyOverlayUrlButton" class="button small" type="button">Copy URL</button>
-          <a class="button small" href="overlay/edhrec-companion.user.js">Open file</a>
-        </div>
-      </section>
-    </aside>
-  </main>
-
-  <template id="commanderTemplate">
-    <article class="commander-card">
-      <button class="commander-main" type="button" data-action="select">
-        <span class="rank-pill"></span>
-        <span class="commander-title"></span>
-        <span class="mana-row"></span>
-        <span class="tag-row"></span>
-      </button>
-      <div class="score-row"></div>
-      <div class="card-actions">
-        <button type="button" data-status="watch">Watch</button>
-        <button type="button" data-status="brew">Brew</button>
-        <button type="button" data-status="built">Built</button>
-        <button type="button" data-status="skip">Skip</button>
-        <a target="_blank" rel="noopener">EDHREC</a>
+    <section class="panel profile-list">
+      <div class="panel-head">
+        <h2>What It Adds</h2>
       </div>
-    </article>
-  </template>
+      <div class="stack-list">
+        <div class="stack-item">
+          <strong>Auto-hide side rail</strong>
+          <span>Scout, Find, Profile, and Saved panels stay tucked on the right side until hover, focus, or pin.</span>
+        </div>
+        <div class="stack-item">
+          <strong>Commander ratings</strong>
+          <span>Rate commanders 1-5 stars, set power, complexity, table heat, speed, and play pattern directly on EDHREC commander pages.</span>
+        </div>
+        <div class="stack-item">
+          <strong>Off-meta finder</strong>
+          <span>Load EDHREC ranked commanders inside the overlay, then search by rank, deck count, profile fit, taste match, and off-meta score.</span>
+        </div>
+        <div class="stack-item">
+          <strong>Profile-aware badges</strong>
+          <span>Owned and saved commanders are marked beside commander links on EDHREC pages.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel profile-insights">
+      <div class="panel-head">
+        <h2>Important Limitation</h2>
+      </div>
+      <p>A GitHub Pages site cannot automatically change edhrec.com because browsers isolate websites by origin. To make EDHREC itself gain the overlay by default, install the userscript or load the unpacked extension. After that, EDHREC remains the GUI and Edge Lord only adds the hidden side panels.</p>
+    </section>
+  </main>
 </body>
 </html>
