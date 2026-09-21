@@ -2,20 +2,34 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { manualConnector } from "../connectors/manual.js";
 import { scryfallConnector } from "../connectors/scryfall.js";
+import { edhrecConnector } from "../connectors/edhrec.js";
 import { sha256 } from "../shared/fingerprint.js";
 import { assertValid, createValidator } from "../shared/validation.js";
 import { buildDatasets } from "./datasets.js";
+import { deriveMomentumFindings, updateCommanderHistory } from "./history.js";
 import { buildRelationships, mergeDuplicateFindings, normalizeFinding } from "./normalize.js";
 
 export async function runPipeline({ root, network = false, now = new Date(), fetchImpl = fetch }) {
   const diagnostics = [];
+  const today = now.toISOString().slice(0, 10);
+  const previousFindings = (await readJson(path.join(root, "data", "findings.json")))?.findings ?? [];
   const manualResult = await manualConnector.collect({ root, fetch: fetchImpl });
   diagnostics.push(...manualResult.diagnostics.map((message) => `${manualConnector.id}: ${message}`));
-  const previousFindings = (await readJson(path.join(root, "data", "findings.json")))?.findings ?? [];
-  const manual = hydrateExistingMetadata(manualResult.findings, previousFindings);
+  const previousCommanders = (await readJson(path.join(root, "data", "commanders.json")))?.commanders ?? [];
+  const previousHistory = await readJson(path.join(root, "data", "commander-history.json"));
+  const reviewedInput = manualResult.failures > 0 && manualResult.findings.length === 0
+    ? previousFindings.filter((finding) => !finding.tags.includes("needs-research"))
+    : manualResult.findings;
+  const manual = hydrateExistingMetadata(reviewedInput, previousFindings);
+  let catalog = previousCommanders.filter((commander) => commander.popularity);
+  let history = previousHistory ?? { schemaVersion: 1, snapshots: [] };
   let findings = manual.map(normalizeFinding);
 
   if (network) {
+    const catalogResult = await safeCatalog(edhrecConnector, catalog, { root, fetch: fetchImpl, today, sleep }, diagnostics);
+    catalog = catalogResult.commanders;
+    if (catalogResult.changed) history = updateCommanderHistory(history, catalog, today);
+    findings.push(...deriveMomentumFindings(catalog, history, `${today}T00:00:00.000Z`).map(normalizeFinding));
     findings = await safeEnrich(scryfallConnector, findings, { root, fetch: fetchImpl }, diagnostics);
     findings = findings.map(normalizeFinding);
   }
@@ -26,7 +40,7 @@ export async function runPipeline({ root, network = false, now = new Date(), fet
   for (const finding of findings) assertValid(validateFinding, finding, `finding ${finding.id}`);
 
   const relationships = buildRelationships(findings);
-  const datasets = buildDatasets(findings, relationships);
+  const datasets = buildDatasets(findings, relationships, catalog, history);
   const result = await writeDatasets(root, datasets, now);
   return { ...result, findings: findings.length, relationships: relationships.length, diagnostics };
 }
@@ -39,6 +53,17 @@ async function safeEnrich(connector, findings, context, diagnostics) {
   } catch (error) {
     diagnostics.push(`${connector.id}: FAILED — ${error.message}; retained unenriched findings.`);
     return findings;
+  }
+}
+
+async function safeCatalog(connector, fallback, context, diagnostics) {
+  try {
+    const result = await connector.collectCatalog(context);
+    diagnostics.push(...result.diagnostics.map((message) => `${connector.id}: ${message}`));
+    return { commanders: result.commanders, changed: true };
+  } catch (error) {
+    diagnostics.push(`${connector.id}: FAILED — ${error.message}; retained the previous commander catalogue.`);
+    return { commanders: fallback, changed: false };
   }
 }
 
@@ -75,7 +100,7 @@ async function writeDatasets(root, datasets, now) {
   const generatedAt = now.toISOString();
   const manifest = { schemaVersion: 1, dataVersion, generatedAt, files };
   await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
-  const historyName = `${generatedAt.slice(0, 10)}-${dataVersion}.json`;
+  const historyName = `${generatedAt.slice(0, 10)}-${files["findings.json"].sha256.slice(0, 16)}.json`;
   await writeFile(path.join(root, "data", "history", historyName), rendered["findings.json"]);
   return { changed: true, dataVersion };
 }
@@ -87,4 +112,8 @@ async function readJson(filename) {
     if (error.code === "ENOENT") return null;
     throw error;
   }
+}
+
+function sleep(milliseconds) {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
 }

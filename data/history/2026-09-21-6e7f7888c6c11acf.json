@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "findings": [
+    {
+      "id": "massimo-vraska-spree-2026-09-20",
+      "findingType": "relationship_signal",
+      "title": "Massimo turns Vraska tokens and Spree spells into a repeatable engine",
+      "summary": "A repeat Massimo brewer and follow-up discussion connect Vraska's spell-triggered creature tokens to Massimo's bind ability. Multiple discussions also converge on one-mana Spree cards, especially Great Train Heist, because their additional costs remain payable when Massimo recasts them.",
+      "source": {
+        "name": "r/EDHBrews",
+        "type": "reddit",
+        "url": "https://www.reddit.com/r/EDHBrews/comments/1wlpa42/massimo_the_magician_need_suggestions_of_my_first/",
+        "creator": "Nivosus and r/EDHBrews contributors",
+        "resourceDepth": "discussion"
+      },
+      "publishedAt": "2026-09-20",
+      "observedAt": "2026-09-20T20:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Massimo, the Magician",
+          "slug": "massimo-the-magician",
+          "scryfallId": "bed6b0c6-6e25-4129-9d11-3e80157ddb42"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Great Train Heist",
+          "slug": "great-train-heist",
+          "scryfallId": "357dd9b2-5d2d-49f6-86f0-f5c4d63474dd"
+        },
+        {
+          "name": "Kykar, Wind's Fury",
+          "slug": "kykar-winds-fury",
+          "scryfallId": "fdb034c8-bae0-4f66-98f1-1b3cdc072f17"
+        },
+        {
+          "name": "Three Steps Ahead",
+          "slug": "three-steps-ahead",
+          "scryfallId": "8fffd839-2337-4a14-9312-cee085a17f4b"
+        },
+        {
+          "name": "Vraska, Soul of Stone",
+          "slug": "vraska-soul-of-stone",
+          "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+        }
+      ],
+      "evidence": {
+        "strength": 0.76,
+        "independentSourceCount": 2,
+        "conversationDepth": "tested",
+        "communityReasoned": true,
+        "tested": true,
+        "notes": [
+          "The brewer linked a maintained paper list and described Great Train Heist as a principal win condition.",
+          "The token engine and Spree rules interaction were explained mechanically rather than merely named."
+        ],
+        "corroboratingSources": [
+          {
+            "name": "Massimo. What the hell do we do with this?",
+            "url": "https://www.reddit.com/r/EDH/comments/1vdvd2t/massimo_what_the_hell_do_we_do_with_this/",
+            "creator": "r/EDH contributors"
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "Vraska tokens as immediate mana",
+            "status": "rejected",
+            "reason": "Without haste, Vraska's creature Treasures cannot tap immediately, and sacrificing a token carrying a bound spell loses that spell."
+          },
+          {
+            "name": "Kykar, Wind's Fury",
+            "status": "supporting",
+            "reason": "Kykar supplies evasive tokens and can convert Spirits to mana, strengthening the Great Train Heist line."
+          }
+        ]
+      },
+      "tags": [
+        "combat",
+        "jeskai",
+        "spell-copying",
+        "spree",
+        "tokens"
+      ],
+      "popularity": {
+        "edhrecRank": 1050,
+        "deckCount": 2200,
+        "asOf": "2026-09-20"
+      },
+      "movement": {
+        "7d": 22,
+        "30d": 38,
+        "90d": 44
+      },
+      "fingerprint": "7102dec0b49e351e050048e9c69f90bfbf21bcaa45395ce64622a5c9537e3c74",
+      "score": {
+        "total": 57.8,
+        "components": {
+          "obscurity": 63.8,
+          "community": 61.2,
+          "expert": 35,
+          "mechanical": 100,
+          "momentum": 44,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal.",
+          "The relationship has tested or maintained deck evidence.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    }
+  ]
+}
