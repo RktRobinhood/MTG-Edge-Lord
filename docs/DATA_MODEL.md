@@ -2,31 +2,60 @@
 
 ## Core entities
 
-`Finding` is an attributable research observation. It is the editorial unit rendered in Recent Finds.
+`Commander` is the primary searchable entity, identified by slug. Scryfall UUIDs are enrichment, not identity. Every commander carries card facts (from Scryfall bulk) and, within the scored band, EDHREC-derived quality data.
 
-`Commander` and `Card` are lightweight canonical entities identified by slug; Scryfall UUIDs are enrichment, not identity.
+`Finding` is an attributable research observation — the editorial unit rendered in the discovery feed.
 
-`CardCommanderRelationship` is a first-class edge. It joins exactly one card and commander and retains `findingIds`, `sourceUrls`, raw metrics, evidence strength, independent-source count, and a derived relationship score.
+`Card` is a lightweight canonical entity, currently referenced by findings rather than independently searchable.
 
-`CommunityResource` is a projection of a finding whose depth is greater than a mere mention. It directs users to original work.
+`CardCommanderRelationship` is a first-class edge joining exactly one card and commander, retaining `findingIds`, `sourceUrls`, raw metrics, evidence strength, independent-source count, and a derived relationship score.
+
+`CommunityResource` projects a finding whose depth exceeds a mere mention, directing users to the original work.
+
+## Commander record
+
+| Group | Fields | Source |
+| --- | --- | --- |
+| Identity | `name`, `slug`, `scryfallId` | Scryfall / EDHREC |
+| Card facts | `colorIdentity`, `manaValue`, `types`, `price`, `setCode`, `releasedAt` | Scryfall bulk |
+| Mechanics | `functionalTags` | Scryfall Tagger bulk |
+| Popularity | `edhrecRank`, `deckCount`, `asOf`, `tier` | EDHREC |
+| Quality | `bracketCounts`, `bracketFit`, `archetypeDepth`, `retention`, `worksScore`, `edgeScore` | EDHREC pages |
+| Themes | `themes` | EDHREC `tag_counts` |
+| Discovery | `findingIds`, `momentum`, `cohortScore` | Pipeline |
+
+`tier` is one of `meta`, `rare`, `edge`, `uncharted`, derived from rank. Quality fields are **absent rather than zero** for commanders below the confidence floor; the UI renders those as *insufficient data*.
 
 ## Generated datasets
 
 | File | Purpose |
 | --- | --- |
-| `manifest.json` | Content version, timestamp, file hashes, and sizes |
-| `findings.json` | Current normalized feed |
-| `commanders.json` | Commander search projection and maximum Diamond score |
+| `manifest.json` | Content version, timestamp, file hashes and sizes |
+| `commanders.json` | Columnar search projection — every commander, every filter axis |
+| `findings.json` | Current normalized discovery feed |
 | `hidden-cards.json` | Card-first projection with associated obscure commanders |
 | `community-resources.json` | Credited outbound resource index |
 | `relationships/card-commander.json` | Provenance-preserving edges |
+| `commander-history.json` | Rank/deck-count snapshots for momentum |
 | `trending/{7d,30d,90d}.json` | Time-window projections |
-| `history/*.json` | Compact finding snapshots written only on content change |
+| `history/*.json` | Dated finding snapshots, written only on content change |
+
+### Columnar encoding
+
+`commanders.json` stores **parallel arrays keyed by field**, not an array of objects. Per-record JSON repeats every key ~6,800 times and serialises floats at full precision; the columnar form holds the same data plus every new filter axis in roughly 1.2MB against 2.7MB, about 0.3MB gzipped.
+
+Numeric fields are rounded at write time to the precision actually displayed. A momentum value shown as `12.4` is stored as `12.4`, never `12.400000000000002`.
 
 ## Lifecycle
 
-The intended state machine is `unknown → candidate → emerging → breaking_out → established`. State is not yet guessed from one snapshot; it will be derived after enough historical popularity, discussion, and validation snapshots exist. Raw time series must remain available so scoring changes can be replayed.
+The intended state machine is `unknown → candidate → emerging → breaking_out → established`. State is not guessed from a single snapshot; it is derived once enough historical popularity, discussion, and validation snapshots exist. Raw time series stay available so scoring changes can be replayed.
+
+## Retention
+
+History files are permanent by default, since the dated record of what was surfaced and when is a deliberate product feature.
+
+**Exception:** content sourced from Reddit must be deleted when deleted upstream, swept roughly every 48 hours, per Reddit's platform obligations. Reddit-derived findings must therefore be identifiable and removable without rewriting unrelated history.
 
 ## Compatibility
 
-Every generated file has `schemaVersion`. Breaking changes increment it and require a userscript compatibility change. Manifest `dataVersion` identifies content, not a date.
+Every generated file carries `schemaVersion`. Breaking changes increment it and require a matching userscript change. Manifest `dataVersion` identifies content, not a date.

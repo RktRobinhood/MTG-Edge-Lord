@@ -1,50 +1,77 @@
 # Architecture
 
 ```text
-reviewed inbox + public structured sources
-               │
-        isolated connectors
-               │
-  normalize → validate → deduplicate
-               │
-     score + build card↔commander edges
-               │
- static JSON + manifest + compact history
-               │
-        GitHub Pages / raw GitHub
-               │
-     cached Tampermonkey userscript
-               │
-              EDHREC
+ Scryfall bulk            EDHREC pages            community sources
+ (all commanders)         (rank 500-3000)         (RSS, YouTube, Archidekt, Reddit)
+        │                        │                          │
+        │                        │                  heuristic pre-filter
+        │                        │                          │
+        │                        │                     LLM judgement
+        │                        │                          │
+        └────────────────┬───────┴──────────────────────────┘
+                         │
+            normalize → validate → deduplicate
+                         │
+         score (edge / cohort / finding / relationship)
+                         │
+        columnar JSON + manifest + dated history
+                         │
+             GitHub Pages / raw GitHub
+                         │
+        userscript (IndexedDB cache) on EDHREC
 ```
+
+## Two functions, two data paths
+
+**Advanced search** covers all ~6,800 commanders and is fed by **Scryfall bulk downloads** — one file per day, no crawling. This supplies colour identity, mana value, type line, price, and functional tags.
+
+**Edge Lord scoring** covers rank 500–3,000 and is fed by a **targeted EDHREC walk**, rotated across days so no single run is heavy. This supplies bracket distribution, themes, synergy, and save history.
+
+The split matters: search needs breadth and gets it cheaply from a sanctioned bulk file; scoring needs depth and pays for it with a polite, incremental crawl of a bounded set.
 
 ## Boundaries
 
-The userscript owns display, local search/filter/sort, route detection, caching, and outbound navigation. It does not perform research or fan out to third-party services.
+The userscript owns display, local search/filter/sort, route detection, caching, and outbound navigation. It performs no research and contacts no third party — only this repository's generated files.
 
-The build owns source access, normalization, history, scoring, and publication. Connectors return normalized candidates or enrich existing candidates. `runPipeline` catches connector errors so one provider cannot invalidate the last known good data.
+The build owns source access, normalization, judgement, scoring, and publication. Connectors return normalized candidates or enrich existing ones. `runPipeline` catches connector errors so one provider cannot invalidate the last known good data, and each discovery lane degrades independently.
 
-The static backend uses a content-derived `dataVersion`. If generated file hashes have not changed, the manifest and history are left untouched. This prevents a scheduled run from manufacturing daily churn.
+## The daily job
+
+1. Refresh Scryfall bulk and the EDHREC slice due for rotation.
+2. Poll community sources for new items.
+3. **Heuristic pre-filter** — match commander names, apply the rank band, drop anything in the top 500. Thousands of items become dozens.
+4. **LLM judgement** on the survivors only: is this genuine brewing effort or a passing mention? Extract cards, mechanics, and evidence quality.
+5. Score, validate, write, and commit only if content changed.
+
+Spending tokens only after the cheap filter keeps a daily run at a trivial cost. Model output is non-deterministic, so diffs are reviewed rather than trusted blindly.
+
+## Client storage
+
+The full searchable dataset is stored **columnar rather than as per-record objects**, which cuts it from ~2.7MB to ~1.2MB (about 0.3MB gzipped) while adding every planned filter axis. Repeated keys and full-precision floats were the bulk of the old size.
+
+Storage is **IndexedDB, not `localStorage`** — asynchronous, so parsing never stalls EDHREC's page load, and with headroom for the card-level dataset later.
 
 ## Publication and cache protocol
 
-1. Userscript requests `data/manifest.json` with cache-busting.
-2. Matching `dataVersion`: use local cache without downloading datasets.
-3. New version: fetch datasets in parallel, then atomically replace the browser cache.
-4. Network failure: render the last valid cache and identify it as cached.
+1. The userscript requests `data/manifest.json` with cache-busting.
+2. Matching `dataVersion`: use the local cache, download nothing.
+3. New version: fetch datasets in parallel, then atomically replace the cache.
+4. Network failure: render the last valid cache and label it as cached.
 5. Pages failure: retry against raw GitHub.
+
+`dataVersion` is content-derived. If generated hashes have not changed, the manifest and history are left untouched, so a scheduled run cannot manufacture daily churn.
 
 ## Resilience
 
 - The UI mounts in a shadow root and depends on the EDHREC URL, not fragile page selectors.
 - Schemas reject unattributed URLs, malformed entities, invalid dates, and out-of-range scores.
 - Every derived edge retains finding IDs and source URLs.
-- Generated history is written only when content changes.
+- History is written only when content changes.
+- A commander below the confidence floor is labelled *insufficient data*, never scored zero.
 
 ## Future seams
 
-- OAuth Reddit connector behind repository secrets.
-- YouTube channel-feed connector with an explicit allowlist.
-- EDHTop16 snapshot connector with tournament-level provenance.
-- Commander Spellbook delta connector using its public API/OpenAPI schema.
-- Compact EDHREC popularity snapshots if EDHREC grants/document access or a permitted export is supplied.
+- Reddit OAuth connector once approval lands, behind repository secrets.
+- EDHTop16 tournament snapshots as explicit validation evidence.
+- Commander Spellbook delta connector for combo lines.
+- Card-level search as a second dataset, once commander search is proven.
