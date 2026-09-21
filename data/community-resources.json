@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "resources": [
+    {
+      "findingId": "massimo-vraska-spree-2026-09-20",
+      "title": "Massimo turns Vraska tokens and Spree spells into a repeatable engine",
+      "summary": "A repeat Massimo brewer and follow-up discussion connect Vraska's spell-triggered creature tokens to Massimo's bind ability. Multiple discussions also converge on one-mana Spree cards, especially Great Train Heist, because their additional costs remain payable when Massimo recasts them.",
+      "name": "r/EDHBrews",
+      "type": "reddit",
+      "url": "https://www.reddit.com/r/EDHBrews/comments/1wlpa42/massimo_the_magician_need_suggestions_of_my_first/",
+      "creator": "Nivosus and r/EDHBrews contributors",
+      "resourceDepth": "discussion",
+      "commanders": [
+        {
+          "name": "Massimo, the Magician",
+          "slug": "massimo-the-magician",
+          "scryfallId": "bed6b0c6-6e25-4129-9d11-3e80157ddb42"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Great Train Heist",
+          "slug": "great-train-heist",
+          "scryfallId": "357dd9b2-5d2d-49f6-86f0-f5c4d63474dd"
+        },
+        {
+          "name": "Kykar, Wind's Fury",
+          "slug": "kykar-winds-fury",
+          "scryfallId": "fdb034c8-bae0-4f66-98f1-1b3cdc072f17"
+        },
+        {
+          "name": "Three Steps Ahead",
+          "slug": "three-steps-ahead",
+          "scryfallId": "8fffd839-2337-4a14-9312-cee085a17f4b"
+        },
+        {
+          "name": "Vraska, Soul of Stone",
+          "slug": "vraska-soul-of-stone",
+          "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+        }
+      ],
+      "publishedAt": "2026-09-20"
+    }
+  ]
+}

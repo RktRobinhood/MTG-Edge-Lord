@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rktrobinhood.github.io/MTG-Edge-Lord/schema/finding.schema.json",
+  "title": "MTG Edge Lord finding",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "findingType", "title", "summary", "source", "publishedAt", "observedAt", "commanders", "cards", "evidence", "tags"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{7,79}$" },
+    "findingType": { "enum": ["discovery_signal", "deep_dive_resource", "validation_signal", "hidden_card", "emerging_brew", "relationship_signal"] },
+    "title": { "type": "string", "minLength": 3, "maxLength": 140 },
+    "summary": { "type": "string", "minLength": 20, "maxLength": 700 },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "type", "url", "creator", "resourceDepth"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "type": { "enum": ["reddit", "video", "primer", "decklist", "tournament", "spellbook", "article", "manual", "other"] },
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "creator": { "type": "string", "minLength": 1 },
+        "resourceDepth": { "enum": ["mention", "discussion", "decklist", "primer", "deep_dive", "community_hub"] }
+      }
+    },
+    "publishedAt": { "type": "string", "format": "date" },
+    "observedAt": { "type": "string", "format": "date-time" },
+    "commanders": { "type": "array", "items": { "$ref": "#/$defs/entity" }, "uniqueItems": true },
+    "cards": { "type": "array", "items": { "$ref": "#/$defs/entity" }, "uniqueItems": true },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["strength", "independentSourceCount", "conversationDepth", "communityReasoned", "tested"],
+      "properties": {
+        "strength": { "type": "number", "minimum": 0, "maximum": 1 },
+        "independentSourceCount": { "type": "integer", "minimum": 1 },
+        "conversationDepth": { "enum": ["mention", "reasoned", "tested", "maintained", "validated"] },
+        "communityReasoned": { "type": "boolean" },
+        "tested": { "type": "boolean" },
+        "notes": { "type": "array", "items": { "type": "string", "maxLength": 280 } },
+        "corroboratingSources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "url"],
+            "properties": {
+              "name": { "type": "string", "minLength": 1 },
+              "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+              "creator": { "type": "string" }
+            }
+          }
+        },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "status", "reason"],
+            "properties": {
+              "name": { "type": "string" },
+              "status": { "enum": ["supporting", "rejected"] },
+              "reason": { "type": "string", "maxLength": 280 }
+            }
+          }
+        }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" }, "uniqueItems": true },
+    "popularity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "edhrecRank": { "type": "integer", "minimum": 1 },
+        "deckCount": { "type": "integer", "minimum": 0 },
+        "asOf": { "type": "string", "format": "date" }
+      }
+    },
+    "movement": {
+      "type": "object",
+      "additionalProperties": { "type": "number" },
+      "properties": { "7d": { "type": "number" }, "30d": { "type": "number" }, "90d": { "type": "number" } }
+    },
+    "score": { "$ref": "#/$defs/score" },
+    "fingerprint": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  },
+  "$defs": {
+    "entity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "slug"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "scryfallId": { "type": "string", "format": "uuid" }
+      }
+    },
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["total", "components", "reasons", "modelVersion"],
+      "properties": {
+        "total": { "type": "number", "minimum": 0, "maximum": 100 },
+        "modelVersion": { "type": "string" },
+        "components": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["obscurity", "community", "expert", "mechanical", "momentum", "validation"],
+          "properties": {
+            "obscurity": { "type": "number", "minimum": 0, "maximum": 100 },
+            "community": { "type": "number", "minimum": 0, "maximum": 100 },
+            "expert": { "type": "number", "minimum": 0, "maximum": 100 },
+            "mechanical": { "type": "number", "minimum": 0, "maximum": 100 },
+            "momentum": { "type": "number", "minimum": 0, "maximum": 100 },
+            "validation": { "type": "number", "minimum": 0, "maximum": 100 }
+          }
+        },
+        "reasons": { "type": "array", "minItems": 1, "maxItems": 5, "items": { "type": "string", "maxLength": 180 } }
+      }
+    }
+  }
+}

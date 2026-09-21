@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "cards": [
+    {
+      "name": "Great Train Heist",
+      "slug": "great-train-heist",
+      "scryfallId": "357dd9b2-5d2d-49f6-86f0-f5c4d63474dd",
+      "findingIds": [
+        "massimo-vraska-spree-2026-09-20"
+      ],
+      "diamondScore": 57.8,
+      "momentum": 44,
+      "commanders": [
+        {
+          "name": "Massimo, the Magician",
+          "slug": "massimo-the-magician",
+          "scryfallId": "bed6b0c6-6e25-4129-9d11-3e80157ddb42",
+          "relationshipScore": 39,
+          "findingIds": [
+            "massimo-vraska-spree-2026-09-20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kykar, Wind's Fury",
+      "slug": "kykar-winds-fury",
+      "scryfallId": "fdb034c8-bae0-4f66-98f1-1b3cdc072f17",
+      "findingIds": [
+        "massimo-vraska-spree-2026-09-20"
+      ],
+      "diamondScore": 57.8,
+      "momentum": 44,
+      "commanders": [
+        {
+          "name": "Massimo, the Magician",
+          "slug": "massimo-the-magician",
+          "scryfallId": "bed6b0c6-6e25-4129-9d11-3e80157ddb42",
+          "relationshipScore": 39,
+          "findingIds": [
+            "massimo-vraska-spree-2026-09-20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Three Steps Ahead",
+      "slug": "three-steps-ahead",
+      "scryfallId": "8fffd839-2337-4a14-9312-cee085a17f4b",
+      "findingIds": [
+        "massimo-vraska-spree-2026-09-20"
+      ],
+      "diamondScore": 57.8,
+      "momentum": 44,
+      "commanders": [
+        {
+          "name": "Massimo, the Magician",
+          "slug": "massimo-the-magician",
+          "scryfallId": "bed6b0c6-6e25-4129-9d11-3e80157ddb42",
+          "relationshipScore": 39,
+          "findingIds": [
+            "massimo-vraska-spree-2026-09-20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vraska, Soul of Stone",
+      "slug": "vraska-soul-of-stone",
+      "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be",
+      "findingIds": [
+        "massimo-vraska-spree-2026-09-20"
+      ],
+      "diamondScore": 57.8,
+      "momentum": 44,
+      "commanders": [
+        {
+          "name": "Massimo, the Magician",
+          "slug": "massimo-the-magician",
+          "scryfallId": "bed6b0c6-6e25-4129-9d11-3e80157ddb42",
+          "relationshipScore": 39,
+          "findingIds": [
+            "massimo-vraska-spree-2026-09-20"
+          ]
+        }
+      ]
+    }
+  ]
+}

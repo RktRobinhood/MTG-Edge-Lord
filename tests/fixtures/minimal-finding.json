@@ -1,0 +1,26 @@
+{
+  "id": "fixture-signal-2026-01-01",
+  "findingType": "discovery_signal",
+  "title": "A reasoned fixture signal",
+  "summary": "A sufficiently detailed factual summary used to exercise normalization and scoring.",
+  "source": {
+    "name": "Fixture",
+    "type": "manual",
+    "url": "https://example.com/source",
+    "creator": "Test author",
+    "resourceDepth": "discussion"
+  },
+  "publishedAt": "2026-01-01",
+  "observedAt": "2026-01-02T00:00:00.000Z",
+  "commanders": [{ "name": "Commander Example" }],
+  "cards": [{ "name": "Card Example" }],
+  "evidence": {
+    "strength": 0.5,
+    "independentSourceCount": 1,
+    "conversationDepth": "reasoned",
+    "communityReasoned": true,
+    "tested": false
+  },
+  "tags": ["Example Tag"],
+  "popularity": { "edhrecRank": 1500, "deckCount": 500, "asOf": "2026-01-02" }
+}

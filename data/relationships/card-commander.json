@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "relationships": [
+    {
+      "id": "great-train-heist--massimo-the-magician",
+      "card": {
+        "name": "Great Train Heist",
+        "slug": "great-train-heist",
+        "scryfallId": "357dd9b2-5d2d-49f6-86f0-f5c4d63474dd"
+      },
+      "commander": {
+        "name": "Massimo, the Magician",
+        "slug": "massimo-the-magician",
+        "scryfallId": "bed6b0c6-6e25-4129-9d11-3e80157ddb42"
+      },
+      "findingIds": [
+        "massimo-vraska-spree-2026-09-20"
+      ],
+      "sourceUrls": [
+        "https://www.reddit.com/r/EDHBrews/comments/1wlpa42/massimo_the_magician_need_suggestions_of_my_first/",
+        "https://www.reddit.com/r/EDH/comments/1vdvd2t/massimo_what_the_hell_do_we_do_with_this/"
+      ],
+      "evidenceStrength": 0.76,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 39
+    },
+    {
+      "id": "kykar-winds-fury--massimo-the-magician",
+      "card": {
+        "name": "Kykar, Wind's Fury",
+        "slug": "kykar-winds-fury",
+        "scryfallId": "fdb034c8-bae0-4f66-98f1-1b3cdc072f17"
+      },
+      "commander": {
+        "name": "Massimo, the Magician",
+        "slug": "massimo-the-magician",
+        "scryfallId": "bed6b0c6-6e25-4129-9d11-3e80157ddb42"
+      },
+      "findingIds": [
+        "massimo-vraska-spree-2026-09-20"
+      ],
+      "sourceUrls": [
+        "https://www.reddit.com/r/EDHBrews/comments/1wlpa42/massimo_the_magician_need_suggestions_of_my_first/",
+        "https://www.reddit.com/r/EDH/comments/1vdvd2t/massimo_what_the_hell_do_we_do_with_this/"
+      ],
+      "evidenceStrength": 0.76,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 39
+    },
+    {
+      "id": "three-steps-ahead--massimo-the-magician",
+      "card": {
+        "name": "Three Steps Ahead",
+        "slug": "three-steps-ahead",
+        "scryfallId": "8fffd839-2337-4a14-9312-cee085a17f4b"
+      },
+      "commander": {
+        "name": "Massimo, the Magician",
+        "slug": "massimo-the-magician",
+        "scryfallId": "bed6b0c6-6e25-4129-9d11-3e80157ddb42"
+      },
+      "findingIds": [
+        "massimo-vraska-spree-2026-09-20"
+      ],
+      "sourceUrls": [
+        "https://www.reddit.com/r/EDHBrews/comments/1wlpa42/massimo_the_magician_need_suggestions_of_my_first/",
+        "https://www.reddit.com/r/EDH/comments/1vdvd2t/massimo_what_the_hell_do_we_do_with_this/"
+      ],
+      "evidenceStrength": 0.76,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 39
+    },
+    {
+      "id": "vraska-soul-of-stone--massimo-the-magician",
+      "card": {
+        "name": "Vraska, Soul of Stone",
+        "slug": "vraska-soul-of-stone",
+        "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+      },
+      "commander": {
+        "name": "Massimo, the Magician",
+        "slug": "massimo-the-magician",
+        "scryfallId": "bed6b0c6-6e25-4129-9d11-3e80157ddb42"
+      },
+      "findingIds": [
+        "massimo-vraska-spree-2026-09-20"
+      ],
+      "sourceUrls": [
+        "https://www.reddit.com/r/EDHBrews/comments/1wlpa42/massimo_the_magician_need_suggestions_of_my_first/",
+        "https://www.reddit.com/r/EDH/comments/1vdvd2t/massimo_what_the_hell_do_we_do_with_this/"
+      ],
+      "evidenceStrength": 0.76,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 39
+    }
+  ]
+}

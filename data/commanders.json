@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "commanders": [
+    {
+      "name": "Massimo, the Magician",
+      "slug": "massimo-the-magician",
+      "scryfallId": "bed6b0c6-6e25-4129-9d11-3e80157ddb42",
+      "findingIds": [
+        "massimo-vraska-spree-2026-09-20"
+      ],
+      "diamondScore": 57.8,
+      "momentum": 44,
+      "popularity": {
+        "edhrecRank": 1050,
+        "deckCount": 2200,
+        "asOf": "2026-09-20"
+      }
+    }
+  ]
+}

@@ -5,3 +5,5 @@ desktop.ini
 node_modules/
 .env
 .env.*
+coverage/
+dist/

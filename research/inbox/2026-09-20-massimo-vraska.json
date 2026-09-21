@@ -1,0 +1,61 @@
+{
+  "id": "massimo-vraska-spree-2026-09-20",
+  "findingType": "relationship_signal",
+  "title": "Massimo turns Vraska tokens and Spree spells into a repeatable engine",
+  "summary": "A repeat Massimo brewer and follow-up discussion connect Vraska's spell-triggered creature tokens to Massimo's bind ability. Multiple discussions also converge on one-mana Spree cards, especially Great Train Heist, because their additional costs remain payable when Massimo recasts them.",
+  "source": {
+    "name": "r/EDHBrews",
+    "type": "reddit",
+    "url": "https://www.reddit.com/r/EDHBrews/comments/1wlpa42/massimo_the_magician_need_suggestions_of_my_first/",
+    "creator": "Nivosus and r/EDHBrews contributors",
+    "resourceDepth": "discussion"
+  },
+  "publishedAt": "2026-09-20",
+  "observedAt": "2026-09-20T20:00:00.000Z",
+  "commanders": [
+    { "name": "Massimo, the Magician", "slug": "massimo-the-magician" }
+  ],
+  "cards": [
+    { "name": "Vraska, Soul of Stone", "slug": "vraska-soul-of-stone" },
+    { "name": "Kykar, Wind's Fury", "slug": "kykar-winds-fury" },
+    { "name": "Great Train Heist", "slug": "great-train-heist" },
+    { "name": "Three Steps Ahead", "slug": "three-steps-ahead" }
+  ],
+  "evidence": {
+    "strength": 0.76,
+    "independentSourceCount": 2,
+    "conversationDepth": "tested",
+    "communityReasoned": true,
+    "tested": true,
+    "notes": [
+      "The brewer linked a maintained paper list and described Great Train Heist as a principal win condition.",
+      "The token engine and Spree rules interaction were explained mechanically rather than merely named."
+    ],
+    "corroboratingSources": [
+      {
+        "name": "Massimo. What the hell do we do with this?",
+        "url": "https://www.reddit.com/r/EDH/comments/1vdvd2t/massimo_what_the_hell_do_we_do_with_this/",
+        "creator": "r/EDH contributors"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Vraska tokens as immediate mana",
+        "status": "rejected",
+        "reason": "Without haste, Vraska's creature Treasures cannot tap immediately, and sacrificing a token carrying a bound spell loses that spell."
+      },
+      {
+        "name": "Kykar, Wind's Fury",
+        "status": "supporting",
+        "reason": "Kykar supplies evasive tokens and can convert Spirits to mana, strengthening the Great Train Heist line."
+      }
+    ]
+  },
+  "tags": ["spree", "tokens", "combat", "spell-copying", "jeskai"],
+  "popularity": {
+    "edhrecRank": 1050,
+    "deckCount": 2200,
+    "asOf": "2026-09-20"
+  },
+  "movement": { "7d": 22, "30d": 38, "90d": 44 }
+}
