@@ -59,7 +59,7 @@ function explainScore(components, finding) {
 export function scoreRelationship(edge) {
   const inclusion = clamp(edge.metrics?.commanderInclusionPct ?? 0);
   const synergy = clamp(edge.metrics?.edhrecSynergyPct ?? 0);
-  const inverseGlobal = clamp(100 - (edge.metrics?.globalPopularityPct ?? 0));
+  const inverseGlobal = edge.metrics?.globalPopularityPct == null ? 0 : clamp(100 - edge.metrics.globalPopularityPct);
   const evidence = clamp((edge.evidenceStrength ?? 0) * 100);
   return round(inclusion * 0.25 + synergy * 0.3 + inverseGlobal * 0.2 + evidence * 0.25);
 }

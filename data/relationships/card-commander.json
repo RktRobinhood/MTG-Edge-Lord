@@ -23,7 +23,7 @@
       "evidenceStrength": 0.76,
       "independentSourceCount": 2,
       "metrics": {},
-      "relationshipScore": 39
+      "relationshipScore": 19
     },
     {
       "id": "kykar-winds-fury--massimo-the-magician",
@@ -47,7 +47,7 @@
       "evidenceStrength": 0.76,
       "independentSourceCount": 2,
       "metrics": {},
-      "relationshipScore": 39
+      "relationshipScore": 19
     },
     {
       "id": "three-steps-ahead--massimo-the-magician",
@@ -71,7 +71,7 @@
       "evidenceStrength": 0.76,
       "independentSourceCount": 2,
       "metrics": {},
-      "relationshipScore": 39
+      "relationshipScore": 19
     },
     {
       "id": "vraska-soul-of-stone--massimo-the-magician",
@@ -95,7 +95,7 @@
       "evidenceStrength": 0.76,
       "independentSourceCount": 2,
       "metrics": {},
-      "relationshipScore": 39
+      "relationshipScore": 19
     }
   ]
 }

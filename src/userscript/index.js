@@ -1,7 +1,7 @@
 import { loadData } from "./data-client.js";
 import { styles } from "./styles.js";
 
-const state = { tab: "discover", query: "", sort: "diamond", minRank: "", maxDecks: "", data: null, loading: true, error: null };
+const state = { tab: "discover", query: "", sort: "diamond", minRank: "", maxRank: "", minDecks: "", maxDecks: "", data: null, loading: true, error: null };
 const host = document.createElement("div");
 host.id = "mtg-edge-lord-root";
 const shadow = host.attachShadow({ mode: "open" });
@@ -55,8 +55,8 @@ function render() {
 }
 
 function controls() {
-  const commanderFilters = state.tab === "commander" ? `<input data-field="minRank" type="number" min="1" value="${escapeAttr(state.minRank)}" placeholder="Min rank"><input data-field="maxDecks" type="number" min="0" value="${escapeAttr(state.maxDecks)}" placeholder="Max decks">` : "";
-  return `<div class="controls ${state.tab === "commander" ? "commander" : ""}"><input data-field="query" value="${escapeAttr(state.query)}" placeholder="Search names, cards, tags, reasons">${commanderFilters}<select data-field="sort">${option("diamond", "Diamond score")}${option("momentum", "Momentum")}${option("name", "Alphabetical")}${option("rank", "EDHREC rank")}</select></div>`;
+  const commanderFilters = state.tab === "commander" ? `<input data-field="minRank" type="number" min="1" value="${escapeAttr(state.minRank)}" placeholder="Min rank"><input data-field="maxRank" type="number" min="1" value="${escapeAttr(state.maxRank)}" placeholder="Max rank"><input data-field="minDecks" type="number" min="0" value="${escapeAttr(state.minDecks)}" placeholder="Min decks"><input data-field="maxDecks" type="number" min="0" value="${escapeAttr(state.maxDecks)}" placeholder="Max decks">` : "";
+  return `<div class="controls ${state.tab === "commander" ? "commander" : ""}"><input class="query" data-field="query" value="${escapeAttr(state.query)}" placeholder="Search names, cards, tags, reasons">${commanderFilters}<select data-field="sort">${option("diamond", "Diamond score")}${option("momentum", "Momentum")}${option("name", "Alphabetical")}${option("rank", "EDHREC rank")}</select></div>`;
 }
 
 function renderResults() {
@@ -76,8 +76,10 @@ function filteredCommanders() {
     const rank = item.popularity?.edhrecRank;
     const decks = item.popularity?.deckCount;
     const rankAllowed = !state.minRank || (Number.isFinite(rank) && rank >= Number(state.minRank));
+    const maxRankAllowed = !state.maxRank || (Number.isFinite(rank) && rank <= Number(state.maxRank));
+    const minDecksAllowed = !state.minDecks || (Number.isFinite(decks) && decks >= Number(state.minDecks));
     const decksAllowed = !state.maxDecks || (Number.isFinite(decks) && decks <= Number(state.maxDecks));
-    return matches && rankAllowed && decksAllowed;
+    return matches && rankAllowed && maxRankAllowed && minDecksAllowed && decksAllowed;
   }).sort(sortEntities).slice(0, 60);
 }
 
@@ -87,19 +89,28 @@ function filteredCards() {
 
 function findingCard(finding) {
   const entities = [...finding.commanders, ...finding.cards].map((item) => `<span class="chip">${escapeHtml(item.name)}</span>`).join("");
-  return `<article class="card"><div class="meta"><span class="score">${finding.score.total}</span><span class="chip">${label(finding.findingType)}</span><span class="muted">${finding.publishedAt}</span></div><h3>${escapeHtml(finding.title)}</h3><p>${escapeHtml(finding.summary)}</p><div class="chips">${entities}</div><ul class="why">${finding.score.reasons.map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")}</ul><a href="${escapeAttr(finding.source.url)}" target="_blank" rel="noopener">${escapeHtml(finding.source.creator)} · ${label(finding.source.resourceDepth)} ↗</a></article>`;
+  const components = Object.entries(finding.score.components).map(([name, value]) => `<span class="chip">${label(name)} ${value}</span>`).join("");
+  return `<article class="card"><div class="meta"><span class="score">${finding.score.total}</span><span class="chip">${label(finding.findingType)}</span><span class="muted">${finding.publishedAt}</span></div><h3>${escapeHtml(finding.title)}</h3><p>${escapeHtml(finding.summary)}</p><div class="chips">${entities}</div><div class="chips">${components}</div><ul class="why">${finding.score.reasons.map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")}</ul><a href="${escapeAttr(finding.source.url)}" target="_blank" rel="noopener">${escapeHtml(finding.source.creator)} · ${label(finding.source.resourceDepth)} ↗</a></article>`;
 }
 
 function commanderCard(commander) {
   const edges = state.data.relationships.relationships.filter((edge) => edge.commander.slug === commander.slug).slice(0, 5);
   const tech = edges.map((edge) => `<span class="chip">${escapeHtml(edge.card.name)} · ${edge.relationshipScore}</span>`).join("");
+  const resources = resourcesFor(commander.findingIds);
   const popularity = commander.popularity ? `#${commander.popularity.edhrecRank} · ${commander.popularity.deckCount.toLocaleString()} decks` : "Popularity awaiting snapshot";
-  return `<article class="card"><div class="meta"><span class="score">${commander.diamondScore}</span><span class="muted">${popularity}</span></div><h3>${escapeHtml(commander.name)}</h3><div class="chips">${tech}</div><p><a href="https://edhrec.com/commanders/${commander.slug}">Open on EDHREC ↗</a></p></article>`;
+  return `<article class="card"><div class="meta"><span class="score">${commander.diamondScore}</span><span class="muted">${popularity}</span></div><h3>${escapeHtml(commander.name)}</h3><div class="chips">${tech}</div>${resources}<p><a href="https://edhrec.com/commanders/${commander.slug}">Open on EDHREC ↗</a></p></article>`;
 }
 
 function hiddenCard(card) {
   const commanders = card.commanders.map((commander) => `<a class="chip" href="https://edhrec.com/commanders/${commander.slug}">${escapeHtml(commander.name)} · ${commander.relationshipScore}</a>`).join("");
-  return `<article class="card"><h3>${escapeHtml(card.name)}</h3><div class="chips">${commanders}</div></article>`;
+  return `<article class="card"><h3>${escapeHtml(card.name)}</h3><div class="chips">${commanders}</div>${resourcesFor(card.findingIds)}</article>`;
+}
+
+function resourcesFor(findingIds = []) {
+  const ids = new Set(findingIds);
+  const resources = state.data.resources.resources.filter((resource) => ids.has(resource.findingId)).slice(0, 3);
+  if (!resources.length) return "";
+  return `<p>${resources.map((resource) => `<a href="${escapeAttr(resource.url)}" target="_blank" rel="noopener">${escapeHtml(resource.creator)} · ${label(resource.resourceDepth)} ↗</a>`).join(" · ")}</p>`;
 }
 
 function matchesQuery(item) {

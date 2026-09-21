@@ -12,7 +12,8 @@ nav button { border:0; border-right:1px solid var(--mel-line); background:var(--
 nav button.active { color:var(--mel-green); box-shadow:inset 0 -2px var(--mel-green) }
 main { overflow:auto; padding:14px }
 .controls { display:grid; grid-template-columns:minmax(0,1fr) 120px; gap:8px; margin-bottom:12px }
-.controls.commander { grid-template-columns:minmax(0,1fr) repeat(3,105px) }
+.controls.commander { grid-template-columns:1fr 1fr }
+.controls.commander .query { grid-column:1/-1 }
 input,select { width:100%; border:1px solid var(--mel-line); border-radius:7px; background:var(--mel-panel); color:var(--mel-text); padding:8px }
 .stack { display:grid; gap:9px }
 .card { padding:12px; border:1px solid var(--mel-line); border-radius:9px; background:var(--mel-panel) }
@@ -24,5 +25,5 @@ a { color:var(--mel-green); text-decoration:none } a:hover { text-decoration:und
 .why { margin-top:7px; padding-left:18px; color:var(--mel-muted); font-size:12px }
 .empty { padding:25px 8px; text-align:center; color:var(--mel-muted) }
 .notice { padding:8px 12px; background:#4c361f; color:#ffdba3; font-size:12px }
-@media (max-width:560px) { #panel { right:0; bottom:0; width:100vw; height:100vh; border-radius:0 } #toggle { right:10px; bottom:10px } .controls.commander { grid-template-columns:1fr 1fr } .controls.commander input:first-child { grid-column:1/-1 } }
+@media (max-width:560px) { #panel { right:0; bottom:0; width:100vw; height:100vh; border-radius:0 } #toggle { right:10px; bottom:10px } }
 `;

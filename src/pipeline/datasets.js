@@ -1,5 +1,5 @@
-export function buildDatasets(findings, relationships) {
-  const commanders = aggregateEntities(findings, "commanders");
+export function buildDatasets(findings, relationships, catalog = [], commanderHistory = { schemaVersion: 1, snapshots: [] }) {
+  const commanders = mergeCommanderCatalog(catalog, aggregateEntities(findings, "commanders"));
   const cards = aggregateEntities(findings, "cards");
   const communityResources = findings
     .filter((finding) => finding.source.resourceDepth !== "mention")
@@ -29,10 +29,25 @@ export function buildDatasets(findings, relationships) {
     "hidden-cards.json": { schemaVersion: 1, cards: hiddenCards },
     "community-resources.json": { schemaVersion: 1, resources: communityResources },
     "relationships/card-commander.json": { schemaVersion: 1, relationships },
+    "commander-history.json": commanderHistory,
     "trending/7d.json": trending(findings, 7),
     "trending/30d.json": trending(findings, 30),
     "trending/90d.json": trending(findings, 90)
   };
+}
+
+function mergeCommanderCatalog(catalog, researched) {
+  const bySlug = new Map(catalog.map((commander) => [commander.slug, {
+    ...commander,
+    findingIds: [],
+    diamondScore: 0,
+    momentum: Math.max(0, Math.min(100, 50 + commander.trendZscore * 10))
+  }]));
+  for (const commander of researched) {
+    const existing = bySlug.get(commander.slug) ?? {};
+    bySlug.set(commander.slug, { ...existing, ...commander, popularity: commander.popularity ?? existing.popularity });
+  }
+  return [...bySlug.values()].sort((a, b) => b.diamondScore - a.diamondScore || (a.popularity?.edhrecRank ?? Infinity) - (b.popularity?.edhrecRank ?? Infinity));
 }
 
 function aggregateEntities(findings, field) {

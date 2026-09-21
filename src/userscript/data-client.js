@@ -5,16 +5,14 @@ const CACHE_KEY = "mtg-edge-lord:data:v1";
 export async function loadData({ force = false } = {}) {
   const cached = readCache();
   try {
-    const { manifest, base } = await loadManifest();
-    if (!force && cached?.manifest?.dataVersion === manifest.dataVersion) return { ...cached, stale: false };
-    const [findings, commanders, cards, resources, relationships] = await Promise.all([
-      requestJson(`${base}/findings.json`),
-      requestJson(`${base}/commanders.json`),
-      requestJson(`${base}/hidden-cards.json`),
-      requestJson(`${base}/community-resources.json`),
-      requestJson(`${base}/relationships/card-commander.json`)
-    ]);
-    const data = { manifest, findings, commanders, cards, resources, relationships, cachedAt: new Date().toISOString() };
+    let backend;
+    try {
+      backend = await loadBackend(PRIMARY_BASE, cached, force);
+    } catch {
+      backend = await loadBackend(FALLBACK_BASE, cached, force);
+    }
+    if (backend.cached) return { ...cached, stale: false };
+    const data = { manifest: backend.manifest, ...backend.datasets, cachedAt: new Date().toISOString() };
     localStorage.setItem(CACHE_KEY, JSON.stringify(data));
     return { ...data, stale: false };
   } catch (error) {
@@ -23,12 +21,17 @@ export async function loadData({ force = false } = {}) {
   }
 }
 
-async function loadManifest() {
-  try {
-    return { manifest: await requestJson(`${PRIMARY_BASE}/manifest.json?ts=${Date.now()}`), base: PRIMARY_BASE };
-  } catch {
-    return { manifest: await requestJson(`${FALLBACK_BASE}/manifest.json?ts=${Date.now()}`), base: FALLBACK_BASE };
-  }
+async function loadBackend(base, cached, force) {
+  const manifest = await requestJson(`${base}/manifest.json?ts=${Date.now()}`);
+  if (!force && cached?.manifest?.dataVersion === manifest.dataVersion) return { cached: true };
+  const [findings, commanders, cards, resources, relationships] = await Promise.all([
+    requestJson(`${base}/findings.json`),
+    requestJson(`${base}/commanders.json`),
+    requestJson(`${base}/hidden-cards.json`),
+    requestJson(`${base}/community-resources.json`),
+    requestJson(`${base}/relationships/card-commander.json`)
+  ]);
+  return { manifest, datasets: { findings, commanders, cards, resources, relationships } };
 }
 
 function readCache() {
