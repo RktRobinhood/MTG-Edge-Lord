@@ -1,3 +1,4 @@
+import { sha256 } from "../shared/fingerprint.js";
 import { slugify } from "../shared/slug.js";
 
 const MESSAGES_URL = "https://api.anthropic.com/v1/messages";
@@ -165,7 +166,10 @@ export function toFinding(candidate, verdict, context = {}) {
   ].filter(Boolean).map((note) => note.slice(0, 280));
 
   return {
-    id: `${slugify(candidate.title).slice(0, 60) || "finding"}-${candidate.publishedAt}`,
+    // The URL suffix is what makes the id unique. Two sources can publish
+    // pieces with the same title on the same day, and a collision would have
+    // them share a record in every `findingIds` lookup downstream.
+    id: `${slugify(candidate.title).slice(0, 50).replace(/-$/, "") || "finding"}-${candidate.publishedAt}-${sha256(candidate.source.url).slice(0, 8)}`,
     findingType: verdict.tested ? "emerging_brew" : "discovery_signal",
     title: candidate.title.slice(0, 140),
     summary,

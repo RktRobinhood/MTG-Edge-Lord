@@ -39,6 +39,13 @@ evidence, structured, unauthenticated and explicitly permitted.
 
 Reddit moves to the excluded list below, alongside its mirrors.
 
+The exclusion is about **automated access**, not about links. A human who reads
+a public Reddit thread, writes a short factual summary in their own words and
+files it through `research/inbox/` is doing what any reader does, and the
+resulting finding links back to the thread. What is excluded is a connector
+that queries Reddit on a schedule. `research/inbox/2026-09-20-massimo-vraska.json`
+is an existing example and stays.
+
 ## Excluded sources
 
 | Source | Reason |

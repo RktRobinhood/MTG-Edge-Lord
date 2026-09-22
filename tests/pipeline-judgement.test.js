@@ -114,6 +114,15 @@ test("a judged find becomes a finding that satisfies the public schema", async (
   assert.equal(normalized.source.url, "https://edhrec.com/articles/a");
 });
 
+test("two sources publishing the same title on the same day get distinct ids", async () => {
+  const result = await judge.judgeCandidates([
+    candidate({ id: "a", bestRank: 1050 }),
+    candidate({ id: "b", bestRank: 1050, source: { ...candidate().source, url: "https://mtggoldfish.com/x", name: "MTGGoldfish" } })
+  ], { apiKey: "k", fetch: anthropicFetch(verdictJson()) });
+  assert.equal(result.findings.length, 2);
+  assert.notEqual(result.findings[0].id, result.findings[1].id);
+});
+
 test("a passing mention is rejected", async () => {
   const result = await judge.judgeCandidates([candidate()], { apiKey: "k", fetch: anthropicFetch(verdictJson({ isFind: false })) });
   assert.deepEqual(result.findings, []);
