@@ -137,6 +137,26 @@ export function scoreCohort(commander, cohort, options = {}) {
 }
 
 /**
+ * Reasons for a cohort score, derived at render time from the stored
+ * `cohort` block rather than serialised. Same reasoning as `explainScore`:
+ * the sentences quote each commander's own numbers, so storing them costs
+ * far more than recomputing them.
+ */
+export function explainCohort(commander) {
+  const cohort = commander?.cohort;
+  if (!cohort) return [];
+  const decks = commander.popularity?.deckCount ?? 0;
+  const reasons = [
+    `${ordinal(cohort.position)} of ${cohort.size} new legends in ${String(cohort.setCode).toUpperCase()}, with ${decks.toLocaleString()} deck${decks === 1 ? "" : "s"} so far.`
+  ];
+  const interest = commander.mentionCount;
+  reasons.push(Number.isFinite(interest) && interest > 0
+    ? `${interest} deck-tech mention${interest === 1 ? "" : "s"} against ${decks.toLocaleString()} build${decks === 1 ? "" : "s"}.`
+    : "No deck-tech coverage found yet, so this is cohort position alone.");
+  return reasons;
+}
+
+/**
  * Attaches cohort scores across the catalogue.
  *
  * A new commander is **never surfaced merely for being new**: it must clear
@@ -163,7 +183,6 @@ export function applyCohortScores(commanders, today, options = {}) {
         size: score.cohortSize,
         position: score.cohortPosition
       },
-      cohortReasons: score.reasons,
       cohortModelVersion: score.modelVersion
     };
   });

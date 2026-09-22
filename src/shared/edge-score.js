@@ -155,12 +155,50 @@ export function scoreCommander(commander, weights = WORKS_WEIGHTS) {
     edgeScore: round(obscurity * worksScore * 100),
     quality: Object.fromEntries(available),
     partial: available.length < Object.keys(components).length,
-    reasons: explain(commander, { obscurity, worksScore, tier, components }),
+    reasons: explainScore(commander, { obscurity, worksScore, tier, components }),
     modelVersion: EDGE_MODEL_VERSION
   };
 }
 
-function explain(commander, { obscurity, worksScore, tier, components }) {
+/**
+ * Human-readable reasons for a score.
+ *
+ * Deliberately **not stored** in `commanders.json`. The reasons quote a
+ * commander's own rank and deck counts, so they are close to unique per
+ * record: serialising them cost about 700KB, most of a second megabyte, on
+ * the file that loads with every EDHREC page view.
+ *
+ * They are a pure function of the components, which *are* retained, so the
+ * userscript derives them at render time from this same module. The guarantee
+ * in `AGENTS.md` holds — a reader sees why a commander scored what it did —
+ * without paying to transmit a sentence that can be reconstructed exactly.
+ */
+export function explainScore(commander, { obscurity, worksScore, tier, components } = {}) {
+  obscurity ??= commander.obscurity ?? obscurityForRank(commander.popularity?.edhrecRank);
+  worksScore ??= commander.worksScore ?? 0;
+  tier ??= commander.tier ?? tierForRank(commander.popularity?.edhrecRank);
+  components ??= {
+    bracketFit: commander.quality?.bracketFit ?? null,
+    archetypeDepth: commander.quality?.archetypeDepth ?? null,
+    retention: commander.quality?.retention ?? null
+  };
+  return buildReasons(commander, { obscurity, worksScore, tier, components });
+}
+
+/**
+ * Why a commander has no score. Same reasoning as `explainScore`: derived at
+ * render time rather than stored, from the `unscored` flag the dataset keeps.
+ */
+export function explainUnscored(commander) {
+  const rank = commander.popularity?.edhrecRank;
+  if (!Number.isFinite(rank) || rank <= 0) return "No EDHREC rank yet, so obscurity cannot be judged.";
+  if (rank > MAX_SCORED_RANK) return `Past EDHREC rank ${MAX_SCORED_RANK.toLocaleString()}, where the evidence to say this works does not exist.`;
+  const tagged = bracketTaggedDecks(commander);
+  if (tagged > 0) return `Only ${tagged} bracket-tagged deck${tagged === 1 ? "" : "s"}, below the floor of ${BRACKET_CONFIDENCE_FLOOR}.`;
+  return "No EDHREC page data has been collected for this commander yet.";
+}
+
+function buildReasons(commander, { obscurity, worksScore, tier, components }) {
   const reasons = [];
   if (obscurity >= 1) reasons.push(`Sits at EDHREC rank ${commander.popularity.edhrecRank}, squarely in the Edge tier.`);
   else if (obscurity > 0) reasons.push(`Rank ${commander.popularity.edhrecRank} is on the edge of the Rare tier, so obscurity counts for less.`);

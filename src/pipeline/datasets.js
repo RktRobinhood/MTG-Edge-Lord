@@ -54,17 +54,22 @@ export function buildDatasets(findings, relationships, catalog = [], today = new
 }
 
 /**
- * Attaches the Edge score, or records why the commander has none.
+ * Attaches the Edge score, or marks the commander unscored.
  *
- * An unscored commander carries `unscored` and a readable `unscoredReason`
- * rather than a zero, so the UI can say *insufficient data*. Nothing here ever
- * writes `edgeScore: 0` to mean "we don't know".
+ * An unscored commander carries `unscored` rather than a zero, so the UI can
+ * say *insufficient data*. Nothing here ever writes `edgeScore: 0` to mean
+ * "we don't know".
+ *
+ * Components and raw inputs are stored; the human-readable reasons are not.
+ * They quote each commander's own rank and deck counts, so they are close to
+ * unique per record and cost about 700KB on the file that loads with every
+ * EDHREC page view. They are a pure function of the retained components, and
+ * the userscript derives them at render time through `explainScore` in the
+ * same module that produced the score.
  */
 function withEdgeScore(commander) {
   const score = scoreCommander(commander);
-  if (score.unscored) {
-    return { ...commander, tier: score.tier, unscored: true, unscoredReason: score.reason };
-  }
+  if (score.unscored) return { ...commander, tier: score.tier, unscored: true };
   return {
     ...commander,
     tier: score.tier,
@@ -72,7 +77,6 @@ function withEdgeScore(commander) {
     worksScore: score.worksScore,
     edgeScore: score.edgeScore,
     quality: score.quality,
-    edgeReasons: score.reasons,
     scoreModelVersion: score.modelVersion,
     ...(score.partial ? { partialScore: true } : {})
   };

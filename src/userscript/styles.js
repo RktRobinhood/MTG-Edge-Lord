@@ -37,6 +37,9 @@ input,select { width:100%; border:1px solid var(--mel-line); border-radius:7px; 
 .chip.quality { border-color:#4a6b57; color:#bfe6cd }
 .score { color:var(--mel-gold); font-weight:800; font-size:16px }
 .score.none { color:var(--mel-muted); font-weight:600 }
+.score.cohort { color:#9fd6ff }
+.score small { font-size:9px; text-transform:uppercase; letter-spacing:.08em; margin-left:3px; opacity:.8 }
+.cohort-note { color:#9fd6ff; font-size:12px }
 .tier { border-radius:999px; padding:2px 8px; font-size:11px; text-transform:uppercase; letter-spacing:.05em; border:1px solid var(--mel-line); color:var(--mel-muted) }
 .tier.edge { border-color:var(--mel-green); color:var(--mel-green) }
 .tier.rare { border-color:var(--mel-gold); color:var(--mel-gold) }

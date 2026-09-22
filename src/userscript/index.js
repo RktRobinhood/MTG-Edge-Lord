@@ -1,3 +1,5 @@
+import { explainCohort } from "../shared/cohort-score.js";
+import { explainScore, explainUnscored } from "../shared/edge-score.js";
 import { loadCommanderDetail, loadData } from "./data-client.js";
 import { attributableFindings, sourceLabel, truncateSummary } from "./digest.js";
 import {
@@ -274,9 +276,7 @@ function commanderCard(commander) {
       <span class="muted">#${rank?.toLocaleString() ?? "—"} · ${decks?.toLocaleString() ?? "—"} decks</span>
     </div>
     <h3>${escapeHtml(commander.name)}</h3>
-    ${commander.unscored
-      ? `<p class="insufficient">Insufficient data — ${escapeHtml(commander.unscoredReason ?? "not enough evidence to score this commander.")}</p>`
-      : `<ul class="why">${(commander.edgeReasons ?? []).map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")}</ul>`}
+    ${reasonsFor(commander)}
     ${qualityBar(commander)}
     <div class="chips">${(commander.themes ?? []).slice(0, 5).map((theme) => `<span class="chip">${escapeHtml(titleCase(theme))}</span>`).join("")}</div>
     ${resourcesFor(commander.findingIds)}
@@ -288,9 +288,29 @@ function commanderCard(commander) {
   </article>`;
 }
 
+/**
+ * The Edge score, or a cohort score for a new arrival, or a dash. Never a
+ * zero standing in for "we don't know".
+ */
 function scoreBadge(commander) {
-  if (commander.edgeScore === undefined) return `<span class="score none" title="Not enough evidence to score">—</span>`;
-  return `<span class="score">${commander.edgeScore}</span>`;
+  if (commander.edgeScore !== undefined) return `<span class="score">${commander.edgeScore}</span>`;
+  if (commander.cohortScore !== undefined) return `<span class="score cohort" title="Scored against its set cohort, not the whole format">${commander.cohortScore}<small>new</small></span>`;
+  return `<span class="score none" title="Not enough evidence to score">—</span>`;
+}
+
+/**
+ * Why this commander scored what it did. A commander with no score says so
+ * in words rather than showing a zero.
+ */
+function reasonsFor(commander) {
+  if (commander.cohortScore !== undefined) {
+    return `<p class="cohort-note">New arrival — scored against its ${escapeHtml(String(commander.cohort?.setCode ?? "").toUpperCase())} set cohort, not the whole format.</p>
+      <ul class="why">${explainCohort(commander).map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")}</ul>`;
+  }
+  if (commander.unscored) {
+    return `<p class="insufficient">Insufficient data — ${escapeHtml(explainUnscored(commander))}</p>`;
+  }
+  return `<ul class="why">${explainScore(commander).map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")}</ul>`;
 }
 
 function qualityBar(commander) {
