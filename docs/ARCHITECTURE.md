@@ -2,7 +2,7 @@
 
 ```text
  Scryfall bulk            EDHREC pages            community sources
- (all commanders)         (rank 500-3000)         (RSS, YouTube, Archidekt, Reddit)
+ (all commanders)         (rank 500-3000)         (RSS, YouTube, Archidekt)    
         │                        │                          │
         │                        │                  heuristic pre-filter
         │                        │                          │
@@ -105,7 +105,7 @@ where the last one stopped.
 
 ## Future seams
 
-- Reddit OAuth connector once approval lands, behind repository secrets.
+- Reddit is excluded, not pending. See `docs/SOURCES.md` and `.out-of-scope/third-party-outreach.md`.
 - EDHTop16 tournament snapshots as explicit validation evidence.
 - Commander Spellbook delta connector for combo lines.
 - Card-level search as a second dataset, once commander search is proven.
