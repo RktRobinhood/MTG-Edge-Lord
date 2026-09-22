@@ -1,7 +1,9 @@
+import { DETAIL_FACT_FIELDS } from "../connectors/edhrec-pages.js";
 import { encodeCommanders } from "../shared/catalog.js";
+import { scoreCommander } from "../shared/edge-score.js";
 
 export function buildDatasets(findings, relationships, catalog = [], commanderHistory = { schemaVersion: 1, snapshots: [] }) {
-  const commanders = mergeCommanderCatalog(catalog, aggregateEntities(findings, "commanders"));
+  const commanders = mergeCommanderCatalog(catalog, aggregateEntities(findings, "commanders")).map(withEdgeScore);
   const cards = aggregateEntities(findings, "cards");
   const communityResources = findings
     .filter((finding) => finding.source.resourceDepth !== "mention")
@@ -25,9 +27,12 @@ export function buildDatasets(findings, relationships, catalog = [], commanderHi
     }))
     .filter((card) => card.commanders.length);
 
+  const { search, detail } = splitCommanderDetail(commanders);
+
   return {
     "findings.json": { schemaVersion: 1, findings },
-    "commanders.json": encodeCommanders(commanders),
+    "commanders.json": encodeCommanders(search),
+    "commander-detail.json": { schemaVersion: 1, detail },
     "hidden-cards.json": { schemaVersion: 1, cards: hiddenCards },
     "community-resources.json": { schemaVersion: 1, resources: communityResources },
     "relationships/card-commander.json": { schemaVersion: 1, relationships },
@@ -36,6 +41,54 @@ export function buildDatasets(findings, relationships, catalog = [], commanderHi
     "trending/30d.json": trending(findings, 30),
     "trending/90d.json": trending(findings, 90)
   };
+}
+
+/**
+ * Attaches the Edge score, or records why the commander has none.
+ *
+ * An unscored commander carries `unscored` and a readable `unscoredReason`
+ * rather than a zero, so the UI can say *insufficient data*. Nothing here ever
+ * writes `edgeScore: 0` to mean "we don't know".
+ */
+function withEdgeScore(commander) {
+  const score = scoreCommander(commander);
+  if (score.unscored) {
+    return { ...commander, tier: score.tier, unscored: true, unscoredReason: score.reason };
+  }
+  return {
+    ...commander,
+    tier: score.tier,
+    obscurity: score.obscurity,
+    worksScore: score.worksScore,
+    edgeScore: score.edgeScore,
+    quality: score.quality,
+    edgeReasons: score.reasons,
+    scoreModelVersion: score.modelVersion,
+    ...(score.partial ? { partialScore: true } : {})
+  };
+}
+
+/**
+ * `commanders.json` is loaded on every EDHREC page view, so it carries only
+ * what filtering and scoring need. The high-synergy pool and the similar-
+ * commander list are per-commander detail: they are read when someone opens a
+ * commander, which is rare enough that half a megabyte does not belong in the
+ * page-load path.
+ */
+function splitCommanderDetail(commanders) {
+  const detail = {};
+  const search = commanders.map((commander) => {
+    const kept = {};
+    const stripped = { ...commander };
+    for (const field of DETAIL_FACT_FIELDS) {
+      if (stripped[field] === undefined) continue;
+      kept[field] = stripped[field];
+      delete stripped[field];
+    }
+    if (Object.keys(kept).length) detail[commander.slug] = kept;
+    return stripped;
+  });
+  return { search, detail };
 }
 
 function mergeCommanderCatalog(catalog, researched) {

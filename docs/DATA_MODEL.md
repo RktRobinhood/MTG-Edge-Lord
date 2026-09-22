@@ -20,8 +20,9 @@
 | Card facts | `colorIdentity`, `manaValue`, `types`, `creatureTypes`, `price`, `setCode`, `releasedAt` | Scryfall bulk |
 | Mechanics | `functionalTags` | Scryfall Tagger bulk |
 | Popularity | `edhrecRank`, `deckCount`, `asOf`, `tier` | EDHREC |
-| Quality | `bracketCounts`, `bracketFit`, `archetypeDepth`, `retention`, `worksScore`, `edgeScore` | EDHREC pages |
+| Quality | `bracketCounts`, `bracketFit`, `archetypeDepth`, `retentionTrend`, `retention`, `worksScore`, `edgeScore` | EDHREC pages |
 | Themes | `themes` | EDHREC `tag_counts` |
+| Detail | `highSynergyCards`, `similar`, `comboCount` | EDHREC pages (detail dataset) |
 | Discovery | `findingIds`, `momentum`, `cohortScore` | Pipeline |
 
 `tier` is one of `meta`, `rare`, `edge`, `uncharted`, derived from rank. Quality fields are **absent rather than zero** for commanders below the confidence floor; the UI renders those as *insufficient data*.
@@ -44,6 +45,7 @@ Commanders are joined to Scryfall **by name, not by id**. Scryfall's `id` identi
 | --- | --- |
 | `manifest.json` | Content version, timestamp, file hashes and sizes |
 | `commanders.json` | Columnar search projection — every commander, every filter axis |
+| `commander-detail.json` | Per-commander high-synergy pool and similar commanders, fetched lazily |
 | `findings.json` | Current normalized discovery feed |
 | `hidden-cards.json` | Card-first projection with associated obscure commanders |
 | `community-resources.json` | Credited outbound resource index |

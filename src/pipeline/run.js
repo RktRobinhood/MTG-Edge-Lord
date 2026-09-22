@@ -4,6 +4,7 @@ import { manualConnector } from "../connectors/manual.js";
 import { scryfallConnector } from "../connectors/scryfall.js";
 import { CARD_FACT_FIELDS, scryfallBulkConnector } from "../connectors/scryfall-bulk.js";
 import { edhrecConnector } from "../connectors/edhrec.js";
+import { PAGE_FACT_FIELDS, edhrecPagesConnector } from "../connectors/edhrec-pages.js";
 import { readPipelineState, writePipelineState } from "./state.js";
 import { sha256 } from "../shared/fingerprint.js";
 import { assertValid, createValidator } from "../shared/validation.js";
@@ -12,7 +13,7 @@ import { buildDatasets } from "./datasets.js";
 import { deriveMomentumFindings, updateCommanderHistory } from "./history.js";
 import { buildRelationships, mergeDuplicateFindings, normalizeFinding } from "./normalize.js";
 
-export async function runPipeline({ root, network = false, now = new Date(), fetchImpl = fetch }) {
+export async function runPipeline({ root, network = false, now = new Date(), fetchImpl = fetch, pagesPerRun }) {
   const diagnostics = [];
   const today = now.toISOString().slice(0, 10);
   const previousFindings = (await readJson(path.join(root, "data", "findings.json")))?.findings ?? [];
@@ -39,6 +40,17 @@ export async function runPipeline({ root, network = false, now = new Date(), fet
     }, diagnostics);
     catalog = enrichment.commanders;
     pipelineState[scryfallBulkConnector.id] = enrichment.state;
+
+    const pages = await safeCatalogEnrich(edhrecPagesConnector, catalog, {
+      root,
+      fetch: fetchImpl,
+      sleep,
+      today,
+      pagesPerRun,
+      state: pipelineState[edhrecPagesConnector.id] ?? {}
+    }, diagnostics);
+    catalog = pages.commanders;
+    pipelineState[edhrecPagesConnector.id] = pages.state;
     await writePipelineState(root, pipelineState);
     if (catalogResult.changed) history = updateCommanderHistory(history, catalog, today);
     findings.push(...deriveMomentumFindings(catalog, history, `${today}T00:00:00.000Z`).map(normalizeFinding));
@@ -69,17 +81,22 @@ async function safeEnrich(connector, findings, context, diagnostics) {
 }
 
 /**
- * A fresh EDHREC crawl returns rank and deck count only. Card facts from a
- * previous run are still valid — a commander's colour identity does not change
- * — so they are carried across before enrichment runs. That is what lets the
- * Scryfall connector skip its download when the bulk file has not moved.
+ * A fresh EDHREC catalogue walk returns rank and deck count only. Facts from
+ * earlier runs are still valid: a commander's colour identity does not change,
+ * and its bracket distribution was true as of the rotation that fetched it. So
+ * they are carried across before enrichment runs.
+ *
+ * This is what makes the rotation work at all. Only ~300 of ~2,500 in-band
+ * commanders are crawled per run; the other 2,200 keep the data an earlier run
+ * fetched rather than losing it every night. It is also what lets the Scryfall
+ * connector skip its download when the bulk file has not moved.
  */
 function carryCardFacts(fresh, previous) {
   const bySlug = new Map(previous.map((commander) => [commander.slug, commander]));
   return fresh.map((commander) => {
     const prior = bySlug.get(commander.slug);
     if (!prior) return commander;
-    const facts = Object.fromEntries(CARD_FACT_FIELDS
+    const facts = Object.fromEntries([...CARD_FACT_FIELDS, ...PAGE_FACT_FIELDS]
       .filter((field) => prior[field] !== undefined)
       .map((field) => [field, prior[field]]));
     return { ...commander, ...facts };

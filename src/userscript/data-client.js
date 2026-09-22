@@ -1,10 +1,28 @@
 import { decodeCommanders } from "../shared/catalog.js";
+import { idbDelete, idbGet, idbPut } from "./idb.js";
+
 const PRIMARY_BASE = "https://rktrobinhood.github.io/MTG-Edge-Lord/data";
 const FALLBACK_BASE = "https://raw.githubusercontent.com/RktRobinhood/MTG-Edge-Lord/main/data";
-const CACHE_KEY = "mtg-edge-lord:data:v1";
 
+const CACHE_KEY = "datasets:v2";
+const DETAIL_KEY = "commander-detail:v2";
+
+/** The pre-IndexedDB cache. Removed on first run so it stops occupying quota. */
+const LEGACY_LOCAL_STORAGE_KEY = "mtg-edge-lord:data:v1";
+
+/**
+ * Loads the published backend, preferring the cache.
+ *
+ * Protocol, per `docs/ARCHITECTURE.md`:
+ *   1. request the manifest with cache-busting
+ *   2. matching `dataVersion` — use the cache, download nothing
+ *   3. new version — fetch datasets in parallel, then replace the cache atomically
+ *   4. network failure — render the last valid cache, labelled as cached
+ *   5. Pages failure — retry against raw GitHub
+ */
 export async function loadData({ force = false } = {}) {
-  const cached = readCache();
+  discardLegacyCache();
+  const cached = await idbGet(CACHE_KEY);
   try {
     let backend;
     try {
@@ -13,13 +31,39 @@ export async function loadData({ force = false } = {}) {
       backend = await loadBackend(FALLBACK_BASE, cached, force);
     }
     if (backend.cached) return { ...cached, stale: false };
+
     const data = { manifest: backend.manifest, ...backend.datasets, cachedAt: new Date().toISOString() };
-    localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+    // A cache write that fails on quota is not fatal — this page already has
+    // the data, and the next load fetches it again.
+    await idbPut(CACHE_KEY, data);
+    if (cached?.manifest?.dataVersion !== backend.manifest.dataVersion) await idbDelete(DETAIL_KEY);
     return { ...data, stale: false };
   } catch (error) {
     if (cached) return { ...cached, stale: true, error: error.message };
     throw error;
   }
+}
+
+/**
+ * Per-commander high-synergy pools and similar commanders.
+ *
+ * Deliberately not part of `loadData`: it is around half a megabyte and is
+ * only wanted once someone opens a commander, so paying for it on every
+ * EDHREC page view would undo the reason `commanders.json` is kept lean.
+ */
+export async function loadCommanderDetail(dataVersion) {
+  const cached = await idbGet(DETAIL_KEY);
+  if (cached?.dataVersion === dataVersion) return cached.detail;
+  for (const base of [PRIMARY_BASE, FALLBACK_BASE]) {
+    try {
+      const { detail } = await requestJson(`${base}/commander-detail.json`);
+      await idbPut(DETAIL_KEY, { dataVersion, detail });
+      return detail;
+    } catch {
+      // Try the fallback base before giving up.
+    }
+  }
+  return cached?.detail ?? {};
 }
 
 async function loadBackend(base, cached, force) {
@@ -44,11 +88,11 @@ function toCommanderList(dataset) {
   return { schemaVersion: dataset?.schemaVersion ?? 1, commanders: decodeCommanders(dataset) };
 }
 
-function readCache() {
+function discardLegacyCache() {
   try {
-    return JSON.parse(localStorage.getItem(CACHE_KEY));
+    localStorage.removeItem(LEGACY_LOCAL_STORAGE_KEY);
   } catch {
-    return null;
+    // Storage can be blocked entirely. Nothing to migrate in that case.
   }
 }
 

@@ -160,6 +160,33 @@
           }
         }
       }
+    },
+    {
+      "required": [
+        "detail"
+      ],
+      "properties": {
+        "detail": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "highSynergyCards": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "similar": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   ],
   "$defs": {
@@ -226,7 +253,8 @@
                 "enum": [
                   "raw",
                   "dict",
-                  "sparse"
+                  "sparse",
+                  "tokens"
                 ]
               },
               "values": {
@@ -236,12 +264,15 @@
                 "type": "array"
               },
               "index": {
+                "type": "array"
+              },
+              "fill": true,
+              "vocabulary": {
                 "type": "array",
                 "items": {
-                  "type": "integer"
+                  "type": "string"
                 }
-              },
-              "fill": true
+              }
             }
           }
         }

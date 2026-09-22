@@ -63,13 +63,15 @@ function roundValue(value, path, precision) {
 
 // --- column kinds -----------------------------------------------------------
 //
-// Three shapes, chosen per column by whichever serialises smallest:
+// Four shapes, chosen per column by whichever serialises smallest:
 //
 //   raw     one entry per record
 //   dict    few distinct values; stores each once plus an index per record.
 //           Arrays and objects count, which is what makes `colorIdentity`
 //           cheap: 6,792 records share at most 32 distinct colour identities.
 //   sparse  one value dominates; stores that `fill` plus the exceptions
+//   tokens  arrays of strings; stores the shared vocabulary once and an
+//           index per element
 //
 // `sparse` covers more than missing data. A column that is `0` for every
 // commander but one, or an empty array for every commander but one, costs a
@@ -79,6 +81,7 @@ function chooseColumn(values) {
   const distinct = distinctValues(values);
   const candidates = [rawColumn(values), sparseColumn(values, modalValue(values))];
   if (distinct.length * 3 < values.length) candidates.push(dictColumn(values, distinct));
+  if (values.some(isStringArray)) candidates.push(tokensColumn(values));
   return candidates.reduce((best, candidate) => weight(candidate) < weight(best) ? candidate : best);
 }
 
@@ -104,8 +107,37 @@ function dictColumn(values, distinct) {
   return { kind: "dict", keys, index: values.map((value) => value === ABSENT ? -1 : position.get(valueKey(value))) };
 }
 
+/**
+ * A column of string arrays — themes, functional tags, creature types — shares
+ * a vocabulary far smaller than the number of records. Storing the vocabulary
+ * once and an index per element turns a 20-character theme slug repeated
+ * across hundreds of commanders into two or three characters each.
+ */
+function tokensColumn(values) {
+  const vocabulary = [];
+  const position = new Map();
+  const index = values.map((value) => {
+    if (!isStringArray(value)) return null;
+    return value.map((token) => {
+      if (!position.has(token)) {
+        position.set(token, vocabulary.length);
+        vocabulary.push(token);
+      }
+      return position.get(token);
+    });
+  });
+  return { kind: "tokens", vocabulary, index };
+}
+
+function isStringArray(value) {
+  return Array.isArray(value) && value.every((item) => typeof item === "string");
+}
+
 function expandColumn(column, count) {
   if (column.kind === "raw") return column.values;
+  if (column.kind === "tokens") {
+    return column.index.map((tokens) => tokens === null ? ABSENT : tokens.map((at) => column.vocabulary[at]));
+  }
   if (column.kind === "dict") return column.index.map((at) => at === -1 ? ABSENT : clone(column.keys[at]));
   if (column.kind === "sparse") {
     const values = Array.from({ length: count }, () => clone(column.fill));
