@@ -5,6 +5,7 @@ import { scryfallConnector } from "../connectors/scryfall.js";
 import { edhrecConnector } from "../connectors/edhrec.js";
 import { sha256 } from "../shared/fingerprint.js";
 import { assertValid, createValidator } from "../shared/validation.js";
+import { decodeCommanders, isColumnar } from "../shared/catalog.js";
 import { buildDatasets } from "./datasets.js";
 import { deriveMomentumFindings, updateCommanderHistory } from "./history.js";
 import { buildRelationships, mergeDuplicateFindings, normalizeFinding } from "./normalize.js";
@@ -15,7 +16,7 @@ export async function runPipeline({ root, network = false, now = new Date(), fet
   const previousFindings = (await readJson(path.join(root, "data", "findings.json")))?.findings ?? [];
   const manualResult = await manualConnector.collect({ root, fetch: fetchImpl });
   diagnostics.push(...manualResult.diagnostics.map((message) => `${manualConnector.id}: ${message}`));
-  const previousCommanders = (await readJson(path.join(root, "data", "commanders.json")))?.commanders ?? [];
+  const previousCommanders = decodeCommanders(await readJson(path.join(root, "data", "commanders.json")));
   const previousHistory = await readJson(path.join(root, "data", "commander-history.json"));
   const reviewedInput = manualResult.failures > 0 && manualResult.findings.length === 0
     ? previousFindings.filter((finding) => !finding.tags.includes("needs-research"))
@@ -82,7 +83,7 @@ function hydrateExistingMetadata(findings, previousFindings) {
 }
 
 async function writeDatasets(root, datasets, now) {
-  const rendered = Object.fromEntries(Object.entries(datasets).map(([name, value]) => [name, `${JSON.stringify(value, null, 2)}\n`]));
+  const rendered = Object.fromEntries(Object.entries(datasets).map(([name, value]) => [name, `${serialize(value)}\n`]));
   const files = Object.fromEntries(Object.entries(rendered).map(([name, content]) => [name, {
     sha256: sha256(content),
     bytes: Buffer.byteLength(content)
@@ -103,6 +104,16 @@ async function writeDatasets(root, datasets, now) {
   const historyName = `${generatedAt.slice(0, 10)}-${files["findings.json"].sha256.slice(0, 16)}.json`;
   await writeFile(path.join(root, "data", "history", historyName), rendered["findings.json"]);
   return { changed: true, dataVersion };
+}
+
+/**
+ * Record-shaped datasets are indented so a generated diff can be reviewed, as
+ * `AGENTS.md` requires. A columnar dataset gets no indentation: pretty-printed
+ * it is thousands of lines holding one number each, which is worse to read and
+ * three times the size.
+ */
+function serialize(value) {
+  return isColumnar(value) ? JSON.stringify(value) : JSON.stringify(value, null, 2);
 }
 
 async function readJson(filename) {

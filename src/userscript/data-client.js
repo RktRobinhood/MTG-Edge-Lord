@@ -1,3 +1,4 @@
+import { decodeCommanders } from "../shared/catalog.js";
 const PRIMARY_BASE = "https://rktrobinhood.github.io/MTG-Edge-Lord/data";
 const FALLBACK_BASE = "https://raw.githubusercontent.com/RktRobinhood/MTG-Edge-Lord/main/data";
 const CACHE_KEY = "mtg-edge-lord:data:v1";
@@ -26,12 +27,21 @@ async function loadBackend(base, cached, force) {
   if (!force && cached?.manifest?.dataVersion === manifest.dataVersion) return { cached: true };
   const [findings, commanders, cards, resources, relationships] = await Promise.all([
     requestJson(`${base}/findings.json`),
-    requestJson(`${base}/commanders.json`),
+    requestJson(`${base}/commanders.json`).then(toCommanderList),
     requestJson(`${base}/hidden-cards.json`),
     requestJson(`${base}/community-resources.json`),
     requestJson(`${base}/relationships/card-commander.json`)
   ]);
   return { manifest, datasets: { findings, commanders, cards, resources, relationships } };
+}
+
+/**
+ * The catalogue arrives columnar (see `src/shared/catalog.js`). Decoding here
+ * means the rest of the userscript only ever sees plain records, and a backend
+ * still serving the old array shape keeps working.
+ */
+function toCommanderList(dataset) {
+  return { schemaVersion: dataset?.schemaVersion ?? 1, commanders: decodeCommanders(dataset) };
 }
 
 function readCache() {

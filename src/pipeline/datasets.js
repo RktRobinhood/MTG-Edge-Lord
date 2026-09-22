@@ -1,3 +1,5 @@
+import { encodeCommanders } from "../shared/catalog.js";
+
 export function buildDatasets(findings, relationships, catalog = [], commanderHistory = { schemaVersion: 1, snapshots: [] }) {
   const commanders = mergeCommanderCatalog(catalog, aggregateEntities(findings, "commanders"));
   const cards = aggregateEntities(findings, "cards");
@@ -25,7 +27,7 @@ export function buildDatasets(findings, relationships, catalog = [], commanderHi
 
   return {
     "findings.json": { schemaVersion: 1, findings },
-    "commanders.json": { schemaVersion: 1, commanders },
+    "commanders.json": encodeCommanders(commanders),
     "hidden-cards.json": { schemaVersion: 1, cards: hiddenCards },
     "community-resources.json": { schemaVersion: 1, resources: communityResources },
     "relationships/card-commander.json": { schemaVersion: 1, relationships },

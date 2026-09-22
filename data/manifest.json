@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "e4b0eebf2f561b46",
-  "generatedAt": "2026-09-21T18:44:05.673Z",
+  "dataVersion": "6132a60096c88408",
+  "generatedAt": "2026-09-22T04:26:04.291Z",
   "files": {
     "findings.json": {
       "sha256": "6e7f7888c6c11acfe96da469a89f4416f34e873b87b4c5b8a11cf40efc6871ba",
       "bytes": 4069
     },
     "commanders.json": {
-      "sha256": "cbd3659dfac31c35658c7ee54a659cc31761960f471ff712c2dc421fe0d15192",
-      "bytes": 2722611
+      "sha256": "6d42ed191ad2f592326993782aa13d911e18aa7ea5f980622f23b96235b66189",
+      "bytes": 850861
     },
     "hidden-cards.json": {
       "sha256": "5cfda272748462e73601d3c025a7e0317121876816b6b47d5271286d7c5f3905",

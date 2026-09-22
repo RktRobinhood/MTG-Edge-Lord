@@ -42,9 +42,27 @@
 
 ### Columnar encoding
 
-`commanders.json` stores **parallel arrays keyed by field**, not an array of objects. Per-record JSON repeats every key ~6,800 times and serialises floats at full precision; the columnar form holds the same data plus every new filter axis in roughly 1.2MB against 2.7MB, about 0.3MB gzipped.
+`commanders.json` stores **parallel arrays keyed by field**, not an array of objects. Per-record JSON repeats every key ~6,800 times and serialises floats at full precision. The columnar form holds the same data in **0.81MB against 2.60MB**, about 0.21MB gzipped, with headroom for the filter axes still to land.
 
-Numeric fields are rounded at write time to the precision actually displayed. A momentum value shown as `12.4` is stored as `12.4`, never `12.400000000000002`.
+`src/shared/columnar.js` is the single encoder and decoder, used by both the pipeline and the userscript. The encoded form is self-describing, so the client needs no field spec to read it.
+
+Each column picks whichever of three shapes serialises smallest:
+
+| Kind | Stores | Good for |
+| --- | --- | --- |
+| `raw` | one entry per record | `name`, `slug`, `scryfallId` |
+| `dict` | each distinct value once, plus an index per record | `momentum`, `trendZscore` |
+| `sparse` | one dominant `fill` value, plus the exceptions | `diamondScore`, `findingIds`, `asOf` |
+
+`sparse` is the reason the file is small. A column that is `0` for every commander but one, or an empty array for every commander but one, costs a few dozen bytes rather than 6,792 entries.
+
+A field missing from a record stays missing on decode. That distinction matters: an unscored commander must render as *insufficient data*, never as a zero.
+
+Numeric fields are rounded at write time to the precision actually displayed, per the map in `src/shared/catalog.js`. A momentum value shown as `12.4` is stored as `12.4`, never `12.400000000000002`.
+
+The file is written **without indentation**. Record-shaped datasets stay indented so a generated diff can be reviewed, as `AGENTS.md` requires; pretty-printing a columnar file produces thousands of lines holding one number each, which is both harder to read and three times the size.
+
+`commanders.json` is at `schemaVersion` 2. The decoder still accepts the version 1 array shape, so a stale client cache or a half-deployed backend degrades to old data rather than to an empty panel.
 
 ## Lifecycle
 
