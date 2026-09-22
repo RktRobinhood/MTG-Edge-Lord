@@ -71,12 +71,13 @@ test("retention measures saves against the commander's own peak", () => {
 });
 
 test("a trend too small to read is not measured", () => {
-  // At four saves a week one deck moves the ratio by a quarter, so the
-  // number would reflect noise rather than whether interest held.
-  assert.equal(retention([5, 1, 4, 2, 3, 1, 1, 1]), null);
-  assert.equal(retention([4, 1, 5, 7, 1, 2, 1, 1]), null);
-  assert.ok(retention([40, 10, 50, 20, 30, 10, 10, 10]) !== null, "the same shape at real volume is measurable");
-  assert.equal(RETENTION_VOLUME_FLOOR, 10);
+  // The floor is where one extra deck stops being able to move the ratio by
+  // more than a tenth: it shifts the fortnight mean by half a save, so by
+  // 0.5/peak. At a peak of 4 that is 13%, at 5 it is 10%.
+  assert.equal(retention([4, 1, 3, 2, 3, 1, 1, 1]), null, "peak 4: one deck swings this 13%");
+  assert.ok(retention([9, 1, 5, 7, 1, 2, 1, 1]) !== null, "peak 9 is readable");
+  assert.ok(retention([40, 10, 50, 20, 30, 10, 10, 10]) !== null);
+  assert.equal(RETENTION_VOLUME_FLOOR, 5);
 });
 
 test("a spike that sheds most of its volume is penalised, not rewarded", () => {

@@ -3,7 +3,8 @@ import test from "node:test";
 import { buildDatasets } from "../src/pipeline/datasets.js";
 import { decodeCommanders } from "../src/shared/catalog.js";
 import { hydrateCommanders } from "../src/userscript/search.js";
-import { scoreCommander } from "../src/shared/edge-score.js";
+import { EDGE_MODEL_VERSION, scoreCommander } from "../src/shared/edge-score.js";
+import { COHORT_MODEL_VERSION } from "../src/shared/cohort-score.js";
 
 const catalog = [{
   name: "Massimo, the Magician",
@@ -32,8 +33,12 @@ test("the published catalogue carries the raw inputs and the headline score, not
 
 test("model versions are dataset metadata, not a field on every commander", () => {
   const dataset = build(catalog)["commanders.json"];
-  assert.equal(dataset.modelVersions.edge, "edge-v1");
-  assert.equal(dataset.modelVersions.cohort, "cohort-v1");
+  assert.equal(dataset.modelVersions.edge, EDGE_MODEL_VERSION);
+  assert.equal(dataset.modelVersions.cohort, COHORT_MODEL_VERSION);
+  // The version must move when the model does, or two datasets stamped the
+  // same version hold scores that cannot be compared.
+  assert.match(EDGE_MODEL_VERSION, /^edge-v[2-9]/);
+  assert.match(COHORT_MODEL_VERSION, /^cohort-v[2-9]/);
 });
 
 test("per-commander detail is split out of the page-load path", () => {

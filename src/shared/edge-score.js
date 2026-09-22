@@ -11,7 +11,14 @@
  * See `docs/SCORING.md`.
  */
 
-export const EDGE_MODEL_VERSION = "edge-v1";
+/**
+ * Bumped whenever the model changes, so two datasets can be told apart.
+ *
+ * v2 (2026-09-22): bracket fit gates the score; retention measures the recent
+ * fortnight against the peak week rather than comparing two halves, and is
+ * absent below a volume floor or after a step change.
+ */
+export const EDGE_MODEL_VERSION = "edge-v2";
 
 /** Weights for the works score, exported so they can be recalibrated. */
 export const WORKS_WEIGHTS = Object.freeze({
@@ -93,16 +100,22 @@ const RECENT_WEEKS = 2;
 /**
  * Saves in the peak week below which retention is not measurable.
  *
- * At four saves a week, one deck either way moves the ratio by a quarter, so
- * the number reflects noise rather than whether interest held. Retention
- * carries 20% of the works score, and a commander reached the top 100 on a
- * peak of four. Below this the component is absent and the score renormalises
- * onto bracket fit and archetype depth, which rest on far larger samples.
+ * Derived from a stated tolerance rather than picked. One extra deck moves
+ * the recent-fortnight mean by half a save, so it moves the ratio by
+ * `0.5 / peak`: 10% at a peak of 5, 17% at 3. Five is the smallest peak at
+ * which a single deck cannot swing the component by more than a tenth.
+ *
+ * An earlier value of 10 was an eyeball, and it was doing far more than
+ * intended — it sat at the 25th percentile of peak weeks and accounted for
+ * 538 of 607 absent retentions, cutting into the body of the distribution
+ * rather than trimming a tail. At 5 it excludes 74 of 2,501 while still
+ * catching the case that prompted it: a commander reached the top 100 on a
+ * peak of four.
  *
  * Low volume is not thereby ignored — obscurity and deck count already
  * measure it. This says only that a *trend* needs enough signal to read.
  */
-export const RETENTION_VOLUME_FLOOR = 10;
+export const RETENTION_VOLUME_FLOOR = 5;
 
 /**
  * A final window this far above the fortnight **immediately before it** is a

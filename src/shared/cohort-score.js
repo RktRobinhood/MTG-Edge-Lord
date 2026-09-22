@@ -14,7 +14,11 @@ import { MAX_SCORED_RANK } from "./edge-score.js";
  * See `docs/SCORING.md`.
  */
 
-export const COHORT_MODEL_VERSION = "cohort-v1";
+/**
+ * v2 (2026-09-22): a deck floor before a set position is read, and no
+ * renormalisation when the interest component is absent.
+ */
+export const COHORT_MODEL_VERSION = "cohort-v2";
 
 /** How long after release a commander is scored against its cohort. */
 export const COHORT_WINDOW_DAYS = 120;
@@ -34,9 +38,11 @@ const COMPONENT_WEIGHTS = Object.freeze({ cohortPosition: 0.6, interestToTractio
 /**
  * Decks a new commander needs before its cohort position means anything.
  *
- * Below this the ordering within a set is noise: on 2026-09-22, a commander
- * with 16 decks sat 141st of 231 new legends, which is a fact about nobody
- * having built anything yet rather than about that commander.
+ * **A judgement, not a measurement.** There is no elbow in the distribution
+ * to find: survivors fall smoothly from 342 at no floor through 177 at 25 and
+ * 124 at 50 to 74 at 100. The worked example it is set against is a commander
+ * with 16 decks sitting 141st of 231 new legends on 2026-09-22 — a fact about
+ * nobody having built anything yet rather than about that commander.
  */
 export const MIN_COHORT_DECKS = 50;
 
@@ -133,12 +139,23 @@ export function scoreCohort(commander, cohort, options = {}) {
   }
 
   // Weights are **not** renormalised over the available components, unlike
-  // the Edge score. Interest-to-traction is the discriminating half of this
-  // lane — cohort position alone says only "mid-pack in your set", which is
-  // not a discovery claim — so a position-only score is discounted to the
-  // evidence behind it and tops out at 60 rather than 100. Without that,
-  // every commander scored while the YouTube lane was disabled came back
-  // near the top of the scale.
+  // the Edge score. The rule behind the asymmetry: renormalise when the
+  // missing component is substitutable evidence for the same claim, discount
+  // when the missing component *is* the claim. The Edge score's three
+  // components are partial views of one proposition, so losing one leaves
+  // weaker evidence of the same thing. Here the claim is "interest without
+  // traction", and position is only the denominator it is measured against —
+  // without interest there is no weaker version of the thesis, there is none
+  // of it.
+  //
+  // So a position-only score tops out at 0.6, which is not a cap but simply
+  // `cohortPosition`'s weight with nothing else present.
+  //
+  // **This is a stand-in for a gate.** By the precedent bracket fit sets for
+  // the Edge score, the consistent end state is to refuse a cohort score
+  // without an interest signal outright. That is unaffordable while the
+  // YouTube lane has no key, so the discount holds the line until #25 lands.
+  // It should not quietly become the principle.
   const available = Object.entries(components);
   const total = available.reduce((sum, [name, value]) => sum + value * COMPONENT_WEIGHTS[name], 0);
 
