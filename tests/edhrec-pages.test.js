@@ -68,6 +68,11 @@ test("a cursor pointing at a commander that left the band restarts rather than s
   assert.deepEqual(rotateSlice(band, "rank-9999", 1).map((c) => c.slug), ["rank-500"]);
 });
 
+test("a band smaller than the run budget is crawled once, not repeated", () => {
+  const band = inBand(commandersAtRanks(500, 600));
+  assert.deepEqual(rotateSlice(band, undefined, 10).map((c) => c.slug), ["rank-500", "rank-600"]);
+});
+
 test("a full rotation covers the band in the documented number of runs", () => {
   const band = inBand(...[Array.from({ length: 2501 }, (_, index) => ({ slug: `c-${index}`, popularity: { edhrecRank: 500 + index } }))]);
   assert.equal(Math.ceil(band.length / PAGES_PER_RUN), 9);
@@ -97,8 +102,8 @@ test("page facts pick out exactly the fields scoring and search need", () => {
   assert.deepEqual(facts.themes, ["spellslinger", "unblockable", "burn"]);
   assert.deepEqual(facts.highSynergyCards, ["lightning-bolt", "brainstorm"]);
   assert.deepEqual(facts.similar, ["Kess, Dissident Mage", "Narset, Enlightened Master"]);
-  assert.equal(facts.comboCount, 2);
   assert.equal(facts.pageAsOf, "2026-09-14");
+  assert.equal(facts.comboCount, undefined, "combo counts belong to the Spellbook connector, which covers every commander");
 });
 
 test("the colourless slug is special-cased, because `c` returns 403", () => {

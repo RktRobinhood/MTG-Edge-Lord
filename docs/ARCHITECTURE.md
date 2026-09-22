@@ -61,6 +61,40 @@ Storage is **IndexedDB, not `localStorage`** — asynchronous, so parsing never 
 
 `dataVersion` is content-derived. If generated hashes have not changed, the manifest and history are left untouched, so a scheduled run cannot manufacture daily churn.
 
+## Discovery lanes
+
+Connectors fall into two kinds.
+
+**Enrichment** connectors join facts onto the commander catalogue: Scryfall
+bulk (card facts), the EDHREC page crawl (brackets, themes, synergy),
+Commander Spellbook (combo counts), EDHTop16 (tournament validation), the cEDH
+Decklist Database (dedicated communities) and Archidekt (deck counts). Each
+runs in sequence and each failure degrades only its own fields, because the
+pipeline carries every connector's previous output forward before enrichment
+begins.
+
+**Discovery** connectors produce *candidates* — a title, a canonical link, a
+date and the commanders named. RSS feeds and the YouTube Data API are the two.
+A candidate is not a finding.
+
+Candidates then pass through two stages:
+
+1. **`src/pipeline/prefilter.js`** — free, deterministic and testable. Match
+   against the catalogue, apply the rank band, drop the top 500. Thousands
+   become dozens, and nothing it rejects ever reaches a model.
+2. **`src/pipeline/judge.js`** — a model reads what survived and decides
+   whether it is genuine brewing effort or a passing mention. That distinction
+   is semantic; upvote counts and keyword frequency cannot make it.
+
+The model sees **source metadata only** — title, tags, counts — never an
+article body, a decklist or a primer's prose. Judgements below a confidence
+floor are discarded rather than published, and the daily workflow opens a pull
+request for feed changes rather than pushing them.
+
+Rotation cursors, bulk-file timestamps, per-feed seen lists and the rolling
+coverage window live in `state/connectors.json`, committed so a run can pick up
+where the last one stopped.
+
 ## Resilience
 
 - The UI mounts in a shadow root and depends on the EDHREC URL, not fragile page selectors.

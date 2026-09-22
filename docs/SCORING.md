@@ -40,7 +40,13 @@ Brackets 1 (Exhibition) and 2 (Core) contribute nothing to the numerator but sta
 
 ### Confidence floor
 
-Roughly 12% of decks carry bracket tags. Below a minimum bracket-tagged deck count, bracket distribution is **displayed but contributes zero** to the score, and the commander is labelled *insufficient data* rather than scored low. Absence of evidence is not evidence of jank.
+Roughly 12% of decks carry bracket tags. Below **30 bracket-tagged decks**, bracket distribution is **displayed but contributes zero** to the score, and the commander is labelled *insufficient data* rather than scored low. Absence of evidence is not evidence of jank.
+
+A commander missing one component entirely — no save history yet, say — is not scored zero on it either. The missing component is dropped and the remaining weights renormalise, and the result is flagged `partialScore`. A commander with no components at all is `unscored`, with a readable reason, and sorts last rather than being ranked as a zero.
+
+### Implementation
+
+`src/shared/edge-score.js`. Obscurity is zero inside the top 500, rises linearly through the Rare tier, is flat at 1 across rank 1,000–3,000 and is zero past 3,000. Archetype depth is the mean synergy of the high-synergy card pool scaled by how full that pool is, so two strong cards cannot beat eight. Retention compares the most recent half of the weekly save trend against the earlier half, where holding steady maps to 0.5.
 
 ## Cohort score v1 (new commanders)
 
@@ -49,7 +55,11 @@ Global rank is meaningless for a card released three weeks ago — everything ne
 - **Cohort position:** where it sits among the legends released in the same set.
 - **Interest-to-traction ratio:** discussion volume ÷ deck count. High chatter with low builds means people are intrigued but nobody has committed. That is the sleeper.
 
-The high flyers score badly on the ratio precisely because everyone is already building them, which is the intended behaviour. A commander graduates from cohort scoring to the normal Edge score once it has enough decks to clear the confidence floor.
+The high flyers score badly on the ratio precisely because everyone is already building them, which is the intended behaviour. A commander **graduates** to the normal Edge score at 400 decks, or when it ages out of the 120-day release window; the two scores never sit on the same record, so a cohort score cannot be mistaken for an Edge score.
+
+Cohort position rewards the overlooked middle of a set, not its top: the set leader is the commander everyone is already building. The interest numerator comes from the discovery lanes' rolling 60-day coverage window; without it the score degrades to cohort position alone and is flagged partial. A new commander is **never surfaced merely for being new** — it must clear a minimum cohort score to carry one at all.
+
+`src/shared/cohort-score.js`.
 
 ## Finding score v1
 

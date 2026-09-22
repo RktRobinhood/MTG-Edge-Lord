@@ -1,9 +1,23 @@
 import { DETAIL_FACT_FIELDS } from "../connectors/edhrec-pages.js";
 import { encodeCommanders } from "../shared/catalog.js";
 import { scoreCommander } from "../shared/edge-score.js";
+import { applyCohortScores } from "../shared/cohort-score.js";
 
-export function buildDatasets(findings, relationships, catalog = [], commanderHistory = { schemaVersion: 1, snapshots: [] }) {
-  const commanders = mergeCommanderCatalog(catalog, aggregateEntities(findings, "commanders")).map(withEdgeScore);
+/**
+ * Builds the **published** backend: every file here is fetched by the
+ * userscript, eagerly or on demand. Nothing is written speculatively.
+ *
+ * Two datasets were removed in #10. `trending/{7d,30d,90d}.json` were pure
+ * date-filtered projections of `findings.json` that nothing fetched; the
+ * client can filter by date itself. `commander-history.json` is real, but it
+ * is read by the momentum pipeline rather than by any client, so it lives in
+ * `state/` with the other pipeline bookkeeping.
+ */
+export function buildDatasets(findings, relationships, catalog = [], today = new Date().toISOString().slice(0, 10)) {
+  const scored = mergeCommanderCatalog(catalog, aggregateEntities(findings, "commanders")).map(withEdgeScore);
+  // Cohort scoring runs after Edge scoring and only touches commanders that
+  // have not graduated, so a record never carries both.
+  const commanders = applyCohortScores(scored, today).commanders;
   const cards = aggregateEntities(findings, "cards");
   const communityResources = findings
     .filter((finding) => finding.source.resourceDepth !== "mention")
@@ -35,11 +49,7 @@ export function buildDatasets(findings, relationships, catalog = [], commanderHi
     "commander-detail.json": { schemaVersion: 1, detail },
     "hidden-cards.json": { schemaVersion: 1, cards: hiddenCards },
     "community-resources.json": { schemaVersion: 1, resources: communityResources },
-    "relationships/card-commander.json": { schemaVersion: 1, relationships },
-    "commander-history.json": commanderHistory,
-    "trending/7d.json": trending(findings, 7),
-    "trending/30d.json": trending(findings, 30),
-    "trending/90d.json": trending(findings, 90)
+    "relationships/card-commander.json": { schemaVersion: 1, relationships }
   };
 }
 
@@ -119,10 +129,4 @@ function aggregateEntities(findings, field) {
   }
   return [...entities.values()].map((item) => ({ ...item, findingIds: [...new Set(item.findingIds)] }))
     .sort((a, b) => b.diamondScore - a.diamondScore || a.name.localeCompare(b.name));
-}
-
-function trending(findings, days) {
-  const newest = findings.reduce((latest, finding) => finding.observedAt > latest ? finding.observedAt : latest, "1970-01-01T00:00:00.000Z");
-  const cutoff = new Date(new Date(newest).getTime() - days * 86400000).toISOString();
-  return { schemaVersion: 1, windowDays: days, asOf: newest, findings: findings.filter((finding) => finding.observedAt >= cutoff) };
 }

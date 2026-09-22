@@ -21,16 +21,23 @@ Access status below was verified on 2026-09-21.
 | **YouTube Data API v3** | Deck-tech coverage as an interest signal | Free API key, no billing. Swap `UC`→`UU` for the uploads playlist and poll `playlistItems.list` at 1 unit each. |
 | **MTGGoldfish Atom / SCG commander feed** | Article coverage | Permissive `robots.txt`, no anti-scraping clause. |
 | **MTGJSON** | Set and card metadata | Open bulk. |
-| **cEDH Decklist Database** | Commander→community mapping | Public web page pairing commander names with dedicated Discord invites. A legitimate proxy for community energy without touching Discord's API. |
-| **Reddit** | Brewing discussion, reasoning, negative evidence | **Pending.** OAuth only — no unauthenticated tier survives. Requires approval under the Responsible Builder Policy before access; start early. |
+| **cEDH Decklist Database** | Commander→community mapping | Public web page pairing commander names with dedicated Discord invites, verified 2026-09-22: 158 pairs parsed, 113 matching the catalogue. Only the invite link is stored; no community content is read. A legitimate proxy for community energy without touching Discord's API. |
 
-### Reddit specifics
+### What replaces Reddit
 
-Target subs, ranked by density of obscure-commander brewing: **r/EDHBrews** (29k, highest ratio), **r/DegenerateEDH** (24k), **r/PauperEDH** (23k, the format forces obscurity), **r/EDH** (384k, highest volume), r/BudgetBrews (77k), r/CompetitiveEDH (119k).
+Reddit would be the best brewing signal that exists. It is also unreachable
+without approval: `robots.txt` is total exclusion, unauthenticated `.json`
+endpoints return 403, and the Responsible Builder Policy requires approval
+*before* access.
 
-Earlier drafts of this document listed **r/EDHJank** and **r/CommanderPrecons** — neither exists. r/jankEDH exists but is ~3.6k members with negligible volume.
+**We are not pursuing that approval** (decided 2026-09-22; see
+`.out-of-scope/third-party-outreach.md`). Approaching a company for an
+exception is something to do with a shipped product and a volume that warrants
+the conversation, and the signal is available elsewhere: **Archidekt primers
+and per-card notes** are the same "someone is trying to make this work"
+evidence, structured, unauthenticated and explicitly permitted.
 
-Constraints once approved: 100 queries/min per client ID, a mandatory User-Agent format, and an obligation to **delete content that has been deleted on Reddit**, sweeping roughly every 48 hours. That last point constrains permanent snapshots in `data/history/`.
+Reddit moves to the excluded list below, alongside its mirrors.
 
 ## Excluded sources
 
@@ -41,7 +48,10 @@ Constraints once approved: 100 queries/min per client ID, a mandatory User-Agent
 | **Cubecobra** | Terms prohibit data mining; `robots.txt` blocks all `/api/`. Cube content, not Commander. |
 | **Discord** | No read API exists for servers a bot has not joined. Developer Policy #20 bans mining, #15 restricts API data to stated functionality, and **#21 bans LLM use of message content** without express permission. |
 | **X / Twitter** | `robots.txt` is `Disallow: /`. No free read tier. |
+| **Reddit** | `robots.txt` is `Disallow: /`, unauthenticated `.json` returns 403, and the Responsible Builder Policy requires approval before access. We are not seeking it (2026-09-22) — see `.out-of-scope/third-party-outreach.md`. |
 | **Reddit scraped mirrors** | Technically open and current, but route around Reddit's own terms. Rejected deliberately, not overlooked. |
+| **YouTube RSS** (`/feeds/videos.xml`) | Works without a key, but YouTube's `robots.txt` explicitly disallows it and their terms permit automated access only for search engines honouring robots.txt. The Data API is the clean path and is what this project uses. |
+| **Commander's Herald** | Not a terms problem: its budget, pauper and deckbuilding categories last published in April 2025, and the live feed is political satire. Wiring it in would inject US political commentary into a Magic tool. |
 | **Legacy forums** (MTG Salvation, MTG Nexus, No Goblins Allowed) | All serve bot challenges or `Disallow: /`. |
 | **Commander's Herald** | Not a permissions issue — the site is effectively dead for brewing. Budget, pauper and deckbuilding categories last published April 2025; the live feed is political satire. |
 | **Twitch** | Permitted via Helix, but the signal is structurally absent: constructed-format streams name decks in titles, **Commander streams name the night or the set, never the commander** — a pod of four players over several hours has no single commander to name. Also note Developer Agreement §VI restricts redistributing Twitch Data, which a public `data/` directory would do. |
@@ -75,3 +85,31 @@ Current position: proceed on `robots.txt` plus the explicit staff grant, while r
 Connectors have an ID and return findings, or enrich existing findings, plus diagnostics. Network connectors are opt-in locally, fail closed, and cannot erase reviewed input. One connector's failure must degrade only its own lane.
 
 New connectors must document authentication, rate limits, pagination, cache strategy, terms, and test fixtures before being enabled in the daily workflow.
+
+## Terms tension, and the position we take
+
+EDHREC and Archidekt ship the same generic terms template, which prohibits
+using automated agents to *"generate automated searches, requests, or
+queries."* That sits awkwardly beside both sites' own `robots.txt`, which
+permit the paths used here, and beside Archidekt staff's public grant in
+[forum thread 2832338](https://archidekt.com/forum/thread/2832338).
+
+**We are not seeking a written exception** (decided 2026-09-22;
+`.out-of-scope/third-party-outreach.md`). The resolution is to reduce what we
+store rather than ask permission to store more:
+
+- Reads are targeted, identified, rate-limited and rotated. The EDHREC crawl
+  is ~300 pages a day at 600ms; Archidekt is held to the 40 req/min its staff
+  stated.
+- Every request carries a User-Agent naming this repository.
+- We store source metadata, a short factual summary in our own words, and a
+  canonical link. Never a decklist, a primer's prose, an article body or a
+  transcript.
+- The UI makes the original source more prominent than anything we wrote, and
+  the whole finding card links out.
+
+That makes this project a referrer rather than a mirror, which is the
+substance of what an exception would have been asking for.
+
+**Reopen the question** if a source asks us to stop, if crawl volume grows
+past the rotated budgets above, or if the project takes money.

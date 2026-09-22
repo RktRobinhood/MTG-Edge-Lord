@@ -20,6 +20,9 @@
 | Card facts | `colorIdentity`, `manaValue`, `types`, `creatureTypes`, `price`, `setCode`, `releasedAt` | Scryfall bulk |
 | Mechanics | `functionalTags` | Scryfall Tagger bulk |
 | Popularity | `edhrecRank`, `deckCount`, `asOf`, `tier` | EDHREC |
+| Coverage | `mentionCount`, `archidektDecks` | Discovery lanes, Archidekt |
+| Validation | `tournament`, `dedicatedCommunity`, `comboCount`, `comboUrl` | EDHTop16, cEDH DDB, Commander Spellbook |
+| Cohort | `cohortScore`, `cohort` | Pipeline (new arrivals only) |
 | Quality | `bracketCounts`, `bracketFit`, `archetypeDepth`, `retentionTrend`, `retention`, `worksScore`, `edgeScore` | EDHREC pages |
 | Themes | `themes` | EDHREC `tag_counts` |
 | Detail | `highSynergyCards`, `similar`, `comboCount` | EDHREC pages (detail dataset) |
@@ -50,8 +53,6 @@ Commanders are joined to Scryfall **by name, not by id**. Scryfall's `id` identi
 | `hidden-cards.json` | Card-first projection with associated obscure commanders |
 | `community-resources.json` | Credited outbound resource index |
 | `relationships/card-commander.json` | Provenance-preserving edges |
-| `commander-history.json` | Rank/deck-count snapshots for momentum |
-| `trending/{7d,30d,90d}.json` | Time-window projections |
 | `history/*.json` | Dated finding snapshots, written only on content change |
 
 ### Columnar encoding
@@ -78,6 +79,35 @@ The file is written **without indentation**. Record-shaped datasets stay indente
 
 `commanders.json` is at `schemaVersion` 2. The decoder still accepts the version 1 array shape, so a stale client cache or a half-deployed backend degrades to old data rather than to an empty panel.
 
+### Published, or pipeline-internal
+
+Every file in `data/` is fetched by the userscript: five on load, and
+`commander-detail.json` when a reader opens a commander. Nothing is written
+speculatively.
+
+Pipeline bookkeeping lives in `state/connectors.json`, which is committed but
+never published: bulk-file timestamps, crawl rotation cursors, per-feed seen
+lists, the rolling coverage window, and the rank/deck snapshot history that
+momentum is derived from.
+
+Two datasets were removed. `trending/{7d,30d,90d}.json` were date-filtered
+projections of `findings.json` that nothing fetched, and the client can filter
+by date itself. `commander-history.json` is real data but is read only by the
+momentum pipeline, so it moved to `state/`.
+
+### Combo presence
+
+`comboCount` and `comboUrl` come from Commander Spellbook and are **displayed,
+never scored**. Combo density correlates with cEDH, and scoring it would drag
+results back toward the meta this product exists to escape.
+
+### Tournament validation
+
+`tournament` records cEDH results from EDHTop16 with their own provenance. It
+is **evidence, not a quality claim**, and its *absence* is the norm for the
+Edge tier — a commander with no EDHTop16 presence must never be presented as
+unvalidated or weak.
+
 ## Lifecycle
 
 The intended state machine is `unknown → candidate → emerging → breaking_out → established`. State is not guessed from a single snapshot; it is derived once enough historical popularity, discussion, and validation snapshots exist. Raw time series stay available so scoring changes can be replayed.
@@ -86,7 +116,9 @@ The intended state machine is `unknown → candidate → emerging → breaking_o
 
 History files are permanent by default, since the dated record of what was surfaced and when is a deliberate product feature.
 
-**Exception:** content sourced from Reddit must be deleted when deleted upstream, swept roughly every 48 hours, per Reddit's platform obligations. Reddit-derived findings must therefore be identifiable and removable without rewriting unrelated history.
+**Reddit is not collected** (see `docs/SOURCES.md` and `.out-of-scope/third-party-outreach.md`), so the 48-hour deletion obligation that once applied here does not arise.
+
+The discipline behind it still does, and now applies to every source: a snapshot stores a **reference** to source content, never a copy. Metadata, a short factual summary in our own words, and a canonical link. That makes any future takedown a one-line change rather than a recurring cleanup job, and it is why this project is a referrer rather than a mirror.
 
 ## Compatibility
 

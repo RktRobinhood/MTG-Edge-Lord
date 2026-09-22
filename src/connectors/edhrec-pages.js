@@ -83,13 +83,15 @@ export function inBand(commanders) {
 
 /**
  * Takes the `size` commanders after `cursor`, wrapping at the end of the band.
- * An unknown cursor starts from the beginning rather than skipping a rotation.
+ * An unknown cursor starts from the beginning rather than skipping a rotation,
+ * and a band smaller than `size` is returned once rather than repeated.
  */
 export function rotateSlice(band, cursor, size) {
+  const take = Math.min(size, band.length);
   const start = cursor ? band.findIndex((commander) => commander.slug === cursor) + 1 : 0;
   const from = start > 0 && start <= band.length ? start : 0;
-  const slice = band.slice(from, from + size);
-  return slice.length >= size ? slice : [...slice, ...band.slice(0, size - slice.length)];
+  const slice = band.slice(from, from + take);
+  return slice.length >= take ? slice : [...slice, ...band.slice(0, take - slice.length)];
 }
 
 /**
@@ -125,7 +127,6 @@ export function pageFacts(payload) {
     ...(similar.length ? { similar } : {}),
     ...(retentionTrend.length ? { retentionTrend } : {}),
     ...(highSynergyCards.length ? { archetypeDepth: archetypeDepthFrom(payload) } : {}),
-    ...(Array.isArray(payload?.panels?.combocounts) ? { comboCount: payload.panels.combocounts.length } : {}),
     pageAsOf: todayFrom(payload)
   };
 }
@@ -216,7 +217,6 @@ export const PAGE_FACT_FIELDS = Object.freeze([
   "themes",
   "retentionTrend",
   "archetypeDepth",
-  "comboCount",
   "pageAsOf",
   ...DETAIL_FACT_FIELDS
 ]);
