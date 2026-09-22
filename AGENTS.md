@@ -1,6 +1,6 @@
 # Repository operating notes
 
-MTG Edge Lord is a Tampermonkey userscript backed by static, generated JSON. It does two things: **advanced search across every Commander**, and **a daily Edge Lord discovery feed** for off-meta commanders that demonstrably work. The old Chrome extension architecture is intentionally retired.
+MTG Edge Lord is a Tampermonkey userscript backed by static, generated JSON. It does three things: **advanced search across every Commander**, **a daily Edge Lord discovery feed** for off-meta commanders that demonstrably work, and **an append-only archive** of every commander the feed has surfaced. The old Chrome extension architecture is intentionally retired.
 
 ## Invariants
 
@@ -9,6 +9,7 @@ MTG Edge Lord is a Tampermonkey userscript backed by static, generated JSON. It 
 - Treat every external source as a replaceable connector. One failure must degrade only its own lane.
 - Derived scores retain components and human-readable reasons. An unscored entity is labelled unscored, never given a zero.
 - Generated files live in `data/` and must pass validation. `research/inbox/` remains valid for human-reviewed input.
+- The archive is append-only and records the rank a commander held **when it was surfaced**. A later run may add to an entry; nothing may unsay one, and refreshing that rank would erase the only claim the archive makes.
 - Search covers every commander. **Edge Lord surfacing never goes deeper than EDHREC rank 3,000** — past that the evidence to say "this works" does not exist.
 
 ## Source access
