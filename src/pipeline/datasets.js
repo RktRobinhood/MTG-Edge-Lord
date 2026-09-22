@@ -1,7 +1,7 @@
 import { DETAIL_FACT_FIELDS } from "../connectors/edhrec-pages.js";
 import { encodeCommanders } from "../shared/catalog.js";
-import { scoreCommander } from "../shared/edge-score.js";
-import { applyCohortScores } from "../shared/cohort-score.js";
+import { EDGE_MODEL_VERSION, scoreCommander } from "../shared/edge-score.js";
+import { COHORT_MODEL_VERSION, applyCohortScores } from "../shared/cohort-score.js";
 
 /**
  * Builds the **published** backend: every file here is fetched by the
@@ -45,7 +45,7 @@ export function buildDatasets(findings, relationships, catalog = [], today = new
 
   return {
     "findings.json": { schemaVersion: 1, findings },
-    "commanders.json": encodeCommanders(search),
+    "commanders.json": encodeCommanders(search, { edge: EDGE_MODEL_VERSION, cohort: COHORT_MODEL_VERSION }),
     "commander-detail.json": { schemaVersion: 1, detail },
     "hidden-cards.json": { schemaVersion: 1, cards: hiddenCards },
     "community-resources.json": { schemaVersion: 1, resources: communityResources },
@@ -54,30 +54,50 @@ export function buildDatasets(findings, relationships, catalog = [], today = new
 }
 
 /**
- * Attaches the Edge score, or marks the commander unscored.
+ * Attaches the Edge score, or leaves the commander without one.
  *
- * An unscored commander carries `unscored` rather than a zero, so the UI can
- * say *insufficient data*. Nothing here ever writes `edgeScore: 0` to mean
- * "we don't know".
+ * **The absence of `edgeScore` is the signal.** There is no `unscored: true`
+ * flag, because a flag can disagree with the number beside it; nothing here
+ * ever writes `edgeScore: 0` to mean "we don't know".
  *
- * Components and raw inputs are stored; the human-readable reasons are not.
+ * **Only the raw inputs and the headline number are stored.** `tier`,
+ * `obscurity`, `worksScore` and every `quality` component are exact functions
+ * of `bracketCounts`, `archetypeDepth`, `retentionTrend` and the rank, all of
+ * which the record already carries. The client runs the same `scoreCommander`
+ * over them at load and gets identical values, so transmitting them would be
+ * paying ~110KB to avoid a few microseconds of arithmetic.
+ *
+ * Model versions live in the dataset header rather than on every record.
+ *
+ * Components and raw inputs are recoverable; the human-readable reasons are
  * They quote each commander's own rank and deck counts, so they are close to
  * unique per record and cost about 700KB on the file that loads with every
  * EDHREC page view. They are a pure function of the retained components, and
  * the userscript derives them at render time through `explainScore` in the
  * same module that produced the score.
  */
+/**
+ * Fields the client recomputes. Stripped on every build, because a run reads
+ * the previous `commanders.json` as its starting catalogue: without this, a
+ * field that used to be published would persist forever as whatever the last
+ * build that emitted it happened to say.
+ */
+const DERIVED_FIELDS = Object.freeze([
+  "tier", "obscurity", "worksScore", "quality", "unscored",
+  "scoreModelVersion", "cohortModelVersion", "edgeReasons", "unscoredReason", "cohortReasons"
+]);
+
 function withEdgeScore(commander) {
+  const record = { ...commander };
+  for (const field of DERIVED_FIELDS) delete record[field];
+  delete record.edgeScore;
+  delete record.partialScore;
+
   const score = scoreCommander(commander);
-  if (score.unscored) return { ...commander, tier: score.tier, unscored: true };
+  if (score.unscored) return record;
   return {
-    ...commander,
-    tier: score.tier,
-    obscurity: score.obscurity,
-    worksScore: score.worksScore,
+    ...record,
     edgeScore: score.edgeScore,
-    quality: score.quality,
-    scoreModelVersion: score.modelVersion,
     ...(score.partial ? { partialScore: true } : {})
   };
 }

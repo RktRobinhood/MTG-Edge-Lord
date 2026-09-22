@@ -13,17 +13,21 @@ export const COMMANDER_PRECISION = Object.freeze({
   momentum: 1,
   diamondScore: 1,
   edgeScore: 1,
-  obscurity: 3,
-  worksScore: 3,
+  cohortScore: 1,
   "quality.bracketFit": 3,
   "quality.archetypeDepth": 3,
   "quality.retention": 3,
   price: 2
 });
 
-export function encodeCommanders(commanders) {
+/**
+ * `modelVersions` is dataset metadata, not a per-commander fact. Stored on
+ * each record it was a kilobyte per thousand commanders repeating one string.
+ */
+export function encodeCommanders(commanders, modelVersions = {}) {
   return {
     schemaVersion: COMMANDER_SCHEMA_VERSION,
+    modelVersions,
     commanders: encodeColumnar(commanders, { precision: COMMANDER_PRECISION })
   };
 }

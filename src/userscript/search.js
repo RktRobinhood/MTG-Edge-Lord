@@ -1,3 +1,5 @@
+import { scoreCommander } from "../shared/edge-score.js";
+
 /**
  * Commander search: index, filter, sort.
  *
@@ -51,6 +53,29 @@ export const DEFAULT_FILTERS = Object.freeze({
 });
 
 /**
+ * Recomputes everything the dataset leaves out.
+ *
+ * `commanders.json` carries the raw inputs and the headline `edgeScore`, not
+ * the tier, obscurity, works score or quality components — all of which are
+ * exact functions of what it does carry. Running the pipeline's own scorer
+ * here costs microseconds per record and saves about 110KB on a file that
+ * loads with every EDHREC page view.
+ */
+export function hydrateCommanders(commanders) {
+  return commanders.map((commander) => {
+    const score = scoreCommander(commander);
+    if (score.unscored) return { ...commander, tier: score.tier };
+    return {
+      ...commander,
+      tier: score.tier,
+      obscurity: score.obscurity,
+      worksScore: score.worksScore,
+      quality: score.quality
+    };
+  });
+}
+
+/**
  * Builds the searchable text **once per dataset load**, from named fields only.
  *
  * The previous implementation ran `JSON.stringify(record)` on every keystroke
@@ -58,7 +83,8 @@ export const DEFAULT_FILTERS = Object.freeze({
  * and it matched field names and internal values, so searching `score` matched
  * everything.
  */
-export function buildSearchIndex(commanders) {
+export function buildSearchIndex(input) {
+  const commanders = hydrateCommanders(input);
   const haystacks = commanders.map((commander) => [
     commander.name,
     ...(commander.themes ?? []),

@@ -42,7 +42,10 @@ export async function runPipeline({ root, network = false, now = new Date(), fet
   const previousFindings = (await readJson(path.join(root, "data", "findings.json")))?.findings ?? [];
   const manualResult = await manualConnector.collect({ root, fetch: fetchImpl });
   diagnostics.push(...manualResult.diagnostics.map((message) => `${manualConnector.id}: ${message}`));
-  const previousCommanders = decodeCommanders(await readJson(path.join(root, "data", "commanders.json")));
+  const previousCommanders = mergeCommanderDetail(
+    decodeCommanders(await readJson(path.join(root, "data", "commanders.json"))),
+    (await readJson(path.join(root, "data", "commander-detail.json")))?.detail
+  );
   const reviewedInput = manualResult.failures > 0 && manualResult.findings.length === 0
     ? previousFindings.filter((finding) => !finding.tags.includes("needs-research"))
     : manualResult.findings;
@@ -132,6 +135,22 @@ async function safeEnrich(connector, findings, context, diagnostics) {
     diagnostics.push(`${connector.id}: FAILED — ${error.message}; retained unenriched findings.`);
     return findings;
   }
+}
+
+/**
+ * Puts the detail dataset back onto the catalogue records.
+ *
+ * `buildDatasets` splits the high-synergy pool and similar-commander list out
+ * of `commanders.json` so the page-load path stays small. Without this, the
+ * next run reads the stripped catalogue, finds no detail, and publishes an
+ * empty detail file — losing data that took a full band crawl to collect.
+ */
+function mergeCommanderDetail(commanders, detail) {
+  if (!detail) return commanders;
+  return commanders.map((commander) => {
+    const extra = detail[commander.slug];
+    return extra ? { ...commander, ...extra } : commander;
+  });
 }
 
 /**

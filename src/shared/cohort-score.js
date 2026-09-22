@@ -169,7 +169,12 @@ export function applyCohortScores(commanders, today, options = {}) {
   const minScore = options.minScore ?? 35;
   let scored = 0;
 
-  const result = commanders.map((commander) => {
+  const result = commanders.map((input) => {
+    // Rebuilt every run, never inherited: a commander that graduates must
+    // lose its cohort score rather than carry a stale one beside an Edge score.
+    const commander = { ...input };
+    delete commander.cohortScore;
+    delete commander.cohort;
     if (hasGraduated(commander, today)) return commander;
     const cohort = cohorts.get(commander.setCode);
     const score = scoreCohort(commander, cohort, options);
@@ -182,8 +187,7 @@ export function applyCohortScores(commanders, today, options = {}) {
         setCode: score.cohortSetCode,
         size: score.cohortSize,
         position: score.cohortPosition
-      },
-      cohortModelVersion: score.modelVersion
+      }
     };
   });
 

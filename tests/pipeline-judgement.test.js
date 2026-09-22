@@ -3,6 +3,7 @@ import test from "node:test";
 import { MAX_RANK, MIN_RANK, prefilter } from "../src/pipeline/prefilter.js";
 import { CONFIDENCE_FLOOR, judge, parseVerdict, toFinding } from "../src/pipeline/judge.js";
 import {
+  COHORT_MODEL_VERSION,
   GRADUATION_DECK_COUNT,
   applyCohortScores,
   buildCohorts,
@@ -234,5 +235,12 @@ test("cohort scores are labelled distinctly, so they cannot be read as an Edge s
   const scored = commanders.find((commander) => commander.cohortScore !== undefined);
   assert.equal(scored.edgeScore, undefined);
   assert.ok(scored.cohort.setCode);
-  assert.ok(scored.cohortModelVersion.startsWith("cohort-"));
+  assert.ok(scored.cohort.size >= scored.cohort.position);
+});
+
+test("the cohort model version is dataset metadata, not a per-record field", () => {
+  const cohort = cohortMembers(20);
+  const { commanders } = applyCohortScores(cohort, "2026-09-22", { minScore: 0 });
+  assert.equal("cohortModelVersion" in commanders.find((c) => c.cohortScore !== undefined), false);
+  assert.equal(COHORT_MODEL_VERSION.startsWith("cohort-"), true);
 });

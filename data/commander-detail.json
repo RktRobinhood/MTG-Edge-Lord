@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "detail": {
+    "massimo-the-magician": {
+      "highSynergyCards": [
+        "lightning-bolt",
+        "brainstorm"
+      ],
+      "similar": [
+        "Kess, Dissident Mage"
+      ]
+    }
+  }
+}
