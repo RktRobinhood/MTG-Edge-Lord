@@ -29,3 +29,27 @@ Never feed a model content from a source whose terms forbid it — Discord's Dev
 ## Definition of done
 
 Run `npm run check`. Review generated-data diffs for attribution, dates, URLs, score sanity, and meaningful novelty before committing.
+
+## Attribution and traffic
+
+MTG Edge Lord surfaces other people's work. It never substitutes for it.
+
+Every finding renders as a **digest**: enough to decide whether it is worth your time, and a canonical link that is more prominent than anything this project wrote. The digest is a short factual summary in our own words — never a creator's prose, never a decklist, never an article body.
+
+The rule of thumb: if a reader could get what they wanted without clicking through to the source, the digest is too long. We drive traffic to creators; we do not intercept it.
+
+This applies to every connector. Sources are read through their public, permitted surfaces — published feeds, documented APIs, and pages their own `robots.txt` allows. Where a source's terms are ambiguous, the resolution is to reduce what we store, not to ask for an exception.
+
+## Agent skills
+
+### Issue tracker
+
+Issues live in GitHub Issues for `RktRobinhood/MTG-Edge-Lord`, driven through the `gh` CLI. External PRs are not a request surface. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The five canonical roles use their own names as label strings, plus local `in-progress` and `epic` labels. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
