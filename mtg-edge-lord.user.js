@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MTG Edge Lord — EDHREC Discovery
 // @namespace    https://github.com/RktRobinhood/MTG-Edge-Lord
-// @version      1.0.0
+// @version      1.1.0
 // @description  Advanced off-meta Commander search, recent finds, and card-first discovery on EDHREC.
 // @match        https://edhrec.com/*
 // @connect      rktrobinhood.github.io
