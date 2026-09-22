@@ -2,7 +2,7 @@
 
 MTG Edge Lord is an off-meta Commander discovery layer for [EDHREC](https://edhrec.com), delivered as one Tampermonkey userscript backed by versioned JSON generated in this repository.
 
-It runs as a panel over EDHREC itself. The `EL` button, bottom right, opens it on any `edhrec.com` page.
+It runs as a panel over EDHREC itself. The **Advanced** button in EDHREC's own navbar, between the search box and the account buttons, drops it open on any `edhrec.com` page.
 
 ![The search panel open over an EDHREC commander page, filtered to the rank 1,000–3,000 band and sorted by Edge score](docs/screenshots/search.png)
 

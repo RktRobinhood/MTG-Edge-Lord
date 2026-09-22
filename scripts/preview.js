@@ -23,12 +23,26 @@ const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript; ch
 const PAGE = `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><title>MTG Edge Lord preview</title>
 <style>body{margin:0;font:15px/1.55 system-ui,sans-serif;background:#f6f7f6;color:#222}
-.page{max-width:720px;margin:0 auto;padding:48px 20px}h1{font-size:22px}code{background:#e6e9e7;padding:1px 5px;border-radius:4px}</style>
-</head><body><div class="page">
+.page{max-width:720px;margin:0 auto;padding:48px 20px}h1{font-size:22px}code{background:#e6e9e7;padding:1px 5px;border-radius:4px}
+header nav{position:fixed;top:0;left:0;right:0;height:50px;display:flex;align-items:center;gap:10px;padding:0 14px;background:#212529;color:#fff}
+header nav .brand{font-weight:800;margin-right:auto}
+header nav input{height:38px;border:1px solid #495057;border-radius:5px;background:#2b3035;color:#fff;padding:0 10px;width:207px}
+header nav a{display:inline-flex;align-items:center;height:38px;padding:0 13px;border-radius:5px;background:#f8f9fa;color:#212529;text-decoration:none;font-size:13px}
+header nav a.up{background:#0d6efd;color:#fff}</style>
+</head><body>
+<!-- A stand-in for EDHREC's navbar, in the shape the userscript anchors to:
+     a labelled search input inside an input group, followed by the account
+     buttons. The Advanced button belongs between the two. -->
+<header><nav>
+  <span class="brand">EDHREC</span>
+  <div class="Navbar_search___preview input-group"><div class="rbt"><input type="text" aria-label="Search" class="rbt-input-main form-control rbt-input" placeholder="Search"></div></div>
+  <div class="accounts"><a href="#">Sign In</a> <a class="up" href="#">Sign Up</a></div>
+</nav></header>
+<div class="page" style="padding-top:98px">
 <h1>MTG Edge Lord preview</h1>
 <p>A stand-in for an EDHREC page, serving this checkout's <code>data/</code> directory.
 What the panel shows here is what this working tree would ship.</p>
-<p>Open the <strong>EL</strong> button, bottom right.</p>
+<p>Open the <strong>Advanced</strong> button in the navbar, beside the search box.</p>
 </div>
 <script>
 const BASES = [

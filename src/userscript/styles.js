@@ -2,12 +2,27 @@ export const styles = `
 :host { all: initial; --mel-bg:#111513; --mel-panel:#1a211e; --mel-line:#34423c; --mel-text:#f2f6f3; --mel-muted:#9cafa6; --mel-green:#8ee6a8; --mel-gold:#f2ce72; color:var(--mel-text); font:14px/1.45 Inter,ui-sans-serif,system-ui,sans-serif }
 * { box-sizing:border-box }
 button,input,select { font:inherit }
-#toggle { position:fixed; z-index:2147483646; right:14px; bottom:18px; width:52px; height:52px; border:1px solid var(--mel-line); border-radius:50%; background:var(--mel-bg); color:var(--mel-green); font-weight:900; cursor:pointer; box-shadow:0 8px 28px #0008 }
-#panel { position:fixed; z-index:2147483645; right:14px; bottom:82px; width:min(430px,calc(100vw - 28px)); height:min(760px,calc(100vh - 110px)); display:grid; grid-template-rows:auto auto 1fr; background:var(--mel-bg); border:1px solid var(--mel-line); border-radius:14px; box-shadow:0 20px 60px #000b; overflow:hidden }
+
+/* The opener rides in EDHREC's navbar, so it is sized to the search input it
+   sits beside rather than to us. When there is no navbar to ride in it floats,
+   which is the only reason the fixed variant still exists. */
+:host(#mtg-edge-lord-button) { display:inline-flex; align-items:center; margin-left:6px }
+#toggle { display:inline-flex; align-items:center; height:38px; padding:0 13px; border:1px solid var(--mel-line); border-radius:7px; background:var(--mel-panel); color:var(--mel-green); font-size:13px; font-weight:700; cursor:pointer; white-space:nowrap }
+#toggle:hover { border-color:var(--mel-green) }
+#toggle.on { background:var(--mel-green); border-color:var(--mel-green); color:#0d130f }
+:host(.floating) #toggle { position:fixed; z-index:2147483646; right:14px; bottom:18px; box-shadow:0 8px 28px #0008 }
+
+/* The panel falls from the button rather than rising from the corner:
+   --mel-top and --mel-right are written inline when it opens, and the
+   narrow-screen rule below overrides the properties they feed, not the
+   properties themselves, so it still wins. */
+#panel { position:fixed; z-index:2147483645; top:var(--mel-top,56px); right:var(--mel-right,14px); width:min(430px,calc(100vw - 28px)); height:min(760px,calc(100vh - var(--mel-top,56px) - 16px)); display:grid; grid-template-rows:auto auto 1fr; background:var(--mel-bg); border:1px solid var(--mel-line); border-radius:14px; box-shadow:0 20px 60px #000b; overflow:hidden; animation:mel-drop .16s ease-out }
 #panel[hidden] { display:none }
+@keyframes mel-drop { from { opacity:0; transform:translateY(-10px) } to { opacity:1; transform:none } }
+@media (prefers-reduced-motion:reduce) { #panel { animation:none } }
 header { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:15px 16px; border-bottom:1px solid var(--mel-line) }
 header strong { display:block; font-size:16px } header span,.muted { color:var(--mel-muted); font-size:12px }
-nav { display:grid; grid-template-columns:repeat(3,1fr); border-bottom:1px solid var(--mel-line) }
+nav { display:grid; grid-template-columns:repeat(4,1fr); border-bottom:1px solid var(--mel-line) }
 nav button { border:0; border-right:1px solid var(--mel-line); background:var(--mel-panel); color:var(--mel-muted); padding:10px; cursor:pointer }
 nav button.active { color:var(--mel-green); box-shadow:inset 0 -2px var(--mel-green) }
 main { overflow:auto; padding:14px }
@@ -67,5 +82,5 @@ a { color:var(--mel-green); text-decoration:none } a:hover { text-decoration:und
 
 .empty { padding:25px 8px; text-align:center; color:var(--mel-muted) }
 .notice { padding:8px 12px; margin-bottom:10px; border-radius:7px; background:#4c361f; color:#ffdba3; font-size:12px }
-@media (max-width:560px) { #panel { right:0; bottom:0; width:100vw; height:100vh; border-radius:0 } #toggle { right:10px; bottom:10px } }
+@media (max-width:560px) { #panel { top:0; right:0; width:100vw; height:100vh; border-radius:0 } :host(.floating) #toggle { right:10px; bottom:10px } }
 `;

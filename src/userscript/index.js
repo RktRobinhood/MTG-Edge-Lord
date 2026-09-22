@@ -51,16 +51,31 @@ const state = {
 
 let queryTimer = null;
 
-const host = document.createElement("div");
-host.id = "mtg-edge-lord-root";
-const shadow = host.attachShadow({ mode: "open" });
-document.body.append(host);
+const panelHost = document.createElement("div");
+panelHost.id = "mtg-edge-lord-root";
+const shadow = panelHost.attachShadow({ mode: "open" });
+
+/**
+ * The opener lives in EDHREC's own navbar, so it gets its own host and its own
+ * shadow root: the panel stays a fixed overlay on `body`, where nothing in the
+ * page's layout can clip it, while the button is free to sit inside an element
+ * we do not control.
+ */
+const buttonHost = document.createElement("div");
+buttonHost.id = "mtg-edge-lord-button";
+const buttonShadow = buttonHost.attachShadow({ mode: "open" });
+
+document.body.append(panelHost);
 renderShell();
+mountButton();
+watchNavbar();
 refresh();
 
 function renderShell() {
+  buttonShadow.innerHTML = `<style>${styles}</style>
+    <button id="toggle" type="button" aria-expanded="false" aria-label="MTG Edge Lord advanced search">Advanced</button>`;
+
   shadow.innerHTML = `<style>${styles}</style>
-    <button id="toggle" type="button" aria-label="Open MTG Edge Lord">EL</button>
     <section id="panel" aria-label="MTG Edge Lord" hidden>
       <header>
         <div><strong>MTG Edge Lord</strong><span id="status">Loading…</span></div>
@@ -70,10 +85,7 @@ function renderShell() {
       <main></main>
     </section>`;
 
-  shadow.getElementById("toggle").addEventListener("click", () => {
-    const panel = shadow.getElementById("panel");
-    panel.hidden = !panel.hidden;
-  });
+  buttonShadow.getElementById("toggle").addEventListener("click", togglePanel);
 
   shadow.querySelector("nav").addEventListener("click", (event) => {
     const button = event.target.closest("button[data-tab]");
@@ -82,6 +94,91 @@ function renderShell() {
     state.shown = PAGE_SIZE;
     render();
   });
+}
+
+// --- placement --------------------------------------------------------------
+//
+// The opener sits in EDHREC's navbar, between its search box and its account
+// buttons, and the panel falls from underneath it. EDHREC is the host, so
+// every selector here is a guess that has to be allowed to fail: the fallback
+// is a floating button, never a missing one.
+
+/**
+ * EDHREC's own navbar search box.
+ *
+ * The class names are hashed per build (`Navbar_search___AXHe`), so they are a
+ * hint rather than a contract. What holds across builds is that the navbar
+ * carries a labelled search input inside a Bootstrap input group. The narrow
+ * layout keeps a second, hidden copy of that search box, so a candidate only
+ * counts once it has been laid out.
+ */
+function navbarSearchGroup() {
+  for (const input of document.querySelectorAll(`header nav input[aria-label="Search"], header nav input.rbt-input-main`)) {
+    const group = input.closest(`[class*="Navbar_search"], .input-group`);
+    if (group?.getBoundingClientRect().width) return group;
+  }
+  return null;
+}
+
+/**
+ * Put the button after EDHREC's search box, or fall back to floating it.
+ *
+ * Idempotent, because it runs again on every navbar mutation: if the button is
+ * already in place this changes nothing, which is also what keeps the observer
+ * from re-triggering itself.
+ */
+function mountButton() {
+  const group = navbarSearchGroup();
+  if (group) {
+    buttonHost.classList.remove("floating");
+    if (buttonHost.previousElementSibling !== group) group.after(buttonHost);
+    return;
+  }
+  // Narrow viewport, or a navbar we no longer recognise. Either way the
+  // product still has to be reachable, so it floats rather than disappears.
+  buttonHost.classList.add("floating");
+  if (buttonHost.parentElement !== document.body) document.body.append(buttonHost);
+}
+
+/**
+ * EDHREC is a client-routed app, so its navbar can be replaced under us and
+ * take the button with it. Re-mounting is cheap and re-mounting in place is
+ * free, so the cure for both a re-render and a breakpoint change is the same.
+ */
+function watchNavbar() {
+  let pending = null;
+  const remount = () => {
+    clearTimeout(pending);
+    pending = setTimeout(() => {
+      mountButton();
+      if (!shadow.getElementById("panel").hidden) positionPanel();
+    }, 100);
+  };
+  new MutationObserver(remount).observe(document.body, { childList: true, subtree: true });
+  addEventListener("resize", remount);
+}
+
+function togglePanel() {
+  const panel = shadow.getElementById("panel");
+  const opening = panel.hidden;
+  if (opening) positionPanel();
+  panel.hidden = !opening;
+  const toggle = buttonShadow.getElementById("toggle");
+  toggle.setAttribute("aria-expanded", String(opening));
+  toggle.classList.toggle("on", opening);
+}
+
+/**
+ * Hang the panel off the button. Positioning is written as custom properties
+ * rather than `top`/`right` so the narrow-screen rules, which take the panel
+ * full-bleed, can still win against what we set inline here.
+ */
+function positionPanel() {
+  const panel = shadow.getElementById("panel");
+  const rect = buttonHost.getBoundingClientRect();
+  const anchored = !buttonHost.classList.contains("floating");
+  panel.style.setProperty("--mel-top", `${anchored ? Math.round(rect.bottom) + 8 : 14}px`);
+  panel.style.setProperty("--mel-right", `${anchored ? Math.max(8, Math.round(innerWidth - rect.right)) : 14}px`);
 }
 
 async function refresh() {
