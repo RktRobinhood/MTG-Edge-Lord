@@ -94,6 +94,28 @@ Applies to individual community findings in the discovery feed.
 
 Missing popularity data is treated conservatively rather than automatically making a result obscure. Weights are exported constants, deliberately easy to recalibrate once historical labels exist.
 
+### Two momentum axes, never collapsed
+
+The `Momentum` component above scores **movement**, whichever axis produced it. The two axes that feed the feed are different claims and are derived separately, in `src/pipeline/history.js`:
+
+| Axis | Fires when | Derived from | Reads |
+| --- | --- | --- | --- |
+| **Adoption** | People are already building it | Rank and deck-count change between consecutive snapshots | `deriveMomentumFindings` |
+| **Discussion** | People are talking and nobody has committed yet | Coverage records rising while deck count stays flat or falls | `deriveDiscussionMomentumFindings` |
+
+Discussion momentum is the earlier and more valuable of the two — it is the same interest-over-traction thesis the cohort score uses for new arrivals, applied to the whole catalogue instead of to a 120-day release window. It is **a finding, not a scoring component**: it does not enter the Edge score, and it does not change the 10% above.
+
+Coverage and decks rising together is adoption, and the adoption lane already reports it, so the discussion lane deliberately stays silent on it. Reporting both would make one commander look like two signals.
+
+The gates are all counts, because the 60-day coverage window ships mostly empty and a ratio against an empty baseline is the failure mode:
+
+- **Two independent sources minimum.** One creator posting three videos is one creator. `AGENTS.md`: *never boost raw mention volume without independence or depth signals*.
+- **Two distinct days minimum.** A single day is a spike, not a trend.
+- **A smoothed ratio.** A first-ever mention is bounded growth, not infinite growth.
+- **A baseline snapshot, or nothing.** Without one, coverage rising against flat decks cannot be told from coverage rising with them, and the divergence is the whole claim.
+
+Coverage therefore stores a source name alongside each date. It stores no titles, no categories and no bodies — attribution is what makes the count mean anything, content is what the project does not keep.
+
 ## Relationship score v1
 
 Card↔commander edges:

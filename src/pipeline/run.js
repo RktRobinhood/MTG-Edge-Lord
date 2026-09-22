@@ -19,7 +19,7 @@ import { sha256 } from "../shared/fingerprint.js";
 import { assertValid, createValidator } from "../shared/validation.js";
 import { decodeCommanders, isColumnar } from "../shared/catalog.js";
 import { buildDatasets } from "./datasets.js";
-import { deriveMomentumFindings, updateCommanderHistory } from "./history.js";
+import { deriveDiscussionMomentumFindings, deriveMomentumFindings, updateCommanderHistory } from "./history.js";
 import { buildRelationships, mergeDuplicateFindings, normalizeFinding } from "./normalize.js";
 
 /**
@@ -111,6 +111,10 @@ export async function runPipeline({ root, network = false, now = new Date(), fet
     pipelineState.commanderHistory = history;
     await writePipelineState(root, pipelineState);
     findings.push(...deriveMomentumFindings(catalog, history, `${today}T00:00:00.000Z`).map(normalizeFinding));
+    // The other momentum axis: coverage climbing while the deck count is flat.
+    // Adoption fires once people are building; this fires while they are still
+    // only talking. Both read the same snapshots, neither reports the other.
+    findings.push(...deriveDiscussionMomentumFindings(catalog, pipelineState.coverage, history, `${today}T00:00:00.000Z`).map(normalizeFinding));
     findings = await safeEnrich(scryfallConnector, findings, { root, fetch: fetchImpl }, diagnostics);
     findings = findings.map(normalizeFinding);
   }
