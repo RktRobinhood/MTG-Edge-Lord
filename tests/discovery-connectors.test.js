@@ -114,6 +114,33 @@ test("combo counts attach only to commanders the line actually uses", async () =
   assert.equal(arcum.comboCount, undefined);
 });
 
+test("a rate-limited pass discards its partial counts rather than publishing a floor as a total", async () => {
+  let calls = 0;
+  const existing = commanders.map((commander) => ({ ...commander, comboCount: 7 }));
+  const result = await spellbookConnector.enrichCatalog(existing, {
+    ...noSleep, today: "2026-09-22", state: {},
+    fetch: async () => {
+      calls += 1;
+      return calls === 1
+        ? response({ next: "https://backend.commanderspellbook.com/variants/?offset=500", results: variantPage.results })
+        : response("", { status: 429 });
+    }
+  });
+  assert.equal(result.commanders[0].comboCount, 7, "the previous count is kept, not replaced by a partial one");
+  assert.equal(result.state.lastPassAt, undefined, "a throttled pass does not reset the refresh clock");
+  assert.ok(result.diagnostics[0].includes("Rate-limited"));
+});
+
+test("pages are spaced, because firing a full pass back to back earns a 429", async () => {
+  const waits = [];
+  await spellbookConnector.enrichCatalog(commanders, {
+    today: "2026-09-22", state: {},
+    sleep: async (ms) => waits.push(ms),
+    fetch: (() => { let n = 0; return async () => response(++n === 1 ? { next: "https://x/2", results: [] } : { next: null, results: [] }); })()
+  });
+  assert.deepEqual(waits, [250]);
+});
+
 test("a full pass is not repeated inside the refresh window", async () => {
   let requests = 0;
   const result = await spellbookConnector.enrichCatalog(commanders, {

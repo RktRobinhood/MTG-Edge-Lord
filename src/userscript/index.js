@@ -336,7 +336,9 @@ function commanderDetail(commander) {
   return `<div class="detail">
     ${detail.highSynergyCards?.length ? `<p class="label">Cards that want to be here</p><div class="chips">${detail.highSynergyCards.map((slug) => `<a class="chip" href="https://edhrec.com/cards/${encodeURIComponent(slug)}" target="_blank" rel="noopener noreferrer">${escapeHtml(titleCase(slug))}</a>`).join("")}</div>` : ""}
     ${detail.similar?.length ? `<p class="label">Plays like</p><div class="chips">${detail.similar.map((name) => `<span class="chip">${escapeHtml(name)}</span>`).join("")}</div>` : ""}
-    ${commander.comboCount ? `<p class="muted">${commander.comboCount} known combo line${commander.comboCount === 1 ? "" : "s"} — shown, never scored.</p>` : ""}
+    ${commander.comboCount && commander.comboUrl
+      ? `<p class="muted"><a href="${escapeAttr(commander.comboUrl)}" target="_blank" rel="noopener noreferrer">${commander.comboCount} known combo line${commander.comboCount === 1 ? "" : "s"} on Commander Spellbook ↗</a> — shown, never scored.</p>`
+      : ""}
   </div>`;
 }
 

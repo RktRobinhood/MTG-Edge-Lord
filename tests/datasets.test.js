@@ -58,6 +58,13 @@ test("a commander with no evidence carries no score at all, rather than a zero",
   assert.equal("edgeScore" in commander, false);
 });
 
+test("a combo count with no canonical link is not published", () => {
+  const orphan = [{ ...catalog[0], comboCount: 12 }];
+  const linked = [{ ...catalog[0], comboCount: 12, comboUrl: "https://commanderspellbook.com/search/?q=x" }];
+  assert.equal("comboCount" in decodeCommanders(build(orphan)["commanders.json"])[0], false);
+  assert.equal(decodeCommanders(build(linked)["commanders.json"])[0].comboCount, 12);
+});
+
 test("only the files the userscript fetches are published", () => {
   assert.deepEqual(Object.keys(build(catalog)).sort(), [
     "commander-detail.json",

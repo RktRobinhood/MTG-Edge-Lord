@@ -18,6 +18,13 @@ const MAX_PAGES = 250;
 export const REFRESH_DAYS = 7;
 
 /**
+ * Pause between pages. A full pass is 100+ requests, and firing them
+ * back to back earns a 429 — which is what happened on 2026-09-22. This is
+ * an open API being polite to, not a limit anyone published.
+ */
+export const REQUEST_DELAY_MS = 250;
+
+/**
  * Commander Spellbook combo lines.
  *
  * **Displayed, never scored.** Combo density correlates with cEDH, so feeding
@@ -47,8 +54,19 @@ export const spellbookConnector = {
     let pages = 0;
     let variants = 0;
 
+    let throttled = false;
     while (url && pages < MAX_PAGES) {
-      const payload = await fetchJson(url, context.fetch);
+      let payload;
+      try {
+        payload = await fetchJson(url, context.fetch);
+      } catch (error) {
+        // A 429 part-way through is not a failure of the run. Counts
+        // gathered so far are a floor, so they are discarded rather than
+        // published as if they were totals, and the pass retries tomorrow.
+        if (!/HTTP 429/.test(error.message)) throw error;
+        throttled = true;
+        break;
+      }
       for (const variant of payload.results ?? []) {
         variants += 1;
         for (const slug of commanderSlugsFor(variant, wanted)) {
@@ -57,6 +75,15 @@ export const spellbookConnector = {
       }
       url = payload.next ?? "";
       pages += 1;
+      if (url) await context.sleep(REQUEST_DELAY_MS);
+    }
+
+    if (throttled) {
+      return {
+        commanders,
+        diagnostics: [`Rate-limited after ${pages} page(s); partial counts discarded and the pass will retry. Previous combo counts retained.`],
+        state
+      };
     }
 
     const complete = !url;

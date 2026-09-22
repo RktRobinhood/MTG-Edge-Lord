@@ -90,6 +90,12 @@ const DERIVED_FIELDS = Object.freeze([
 function withEdgeScore(commander) {
   const record = { ...commander };
   for (const field of DERIVED_FIELDS) delete record[field];
+
+  // A combo count with no canonical link is unattributable, so it is not
+  // published — the same rule the finding feed applies. This drops counts
+  // left behind by an earlier build that sourced them elsewhere; Commander
+  // Spellbook repopulates both fields together on its next pass.
+  if (record.comboUrl === undefined) delete record.comboCount;
   delete record.edgeScore;
   delete record.partialScore;
 

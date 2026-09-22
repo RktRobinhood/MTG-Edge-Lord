@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "8511baf72c6c2d74",
-  "generatedAt": "2026-09-22T05:30:34.668Z",
+  "dataVersion": "94c496429713275c",
+  "generatedAt": "2026-09-22T06:03:16.603Z",
   "files": {
     "findings.json": {
       "sha256": "6e7f7888c6c11acfe96da469a89f4416f34e873b87b4c5b8a11cf40efc6871ba",
       "bytes": 4069
     },
     "commanders.json": {
-      "sha256": "29d4acc521e1c857f1d59972621ce643b5c7c7632c81ff20062271cec02e2976",
-      "bytes": 1369865
+      "sha256": "58f49e6ad96c5b9aee92370baa4b3290213ce92f7ac50b2969b63bc0105b2da6",
+      "bytes": 1441290
     },
     "commander-detail.json": {
-      "sha256": "326142777bfd8507502f215150b25e1c2dbd550b4c4602c998cfcde548657bb4",
-      "bytes": 222
+      "sha256": "54cf66b16120bea00f395bc7898fc671c1959e8b7cd6d1e9736ea644347fe0c4",
+      "bytes": 1244168
     },
     "hidden-cards.json": {
       "sha256": "5cfda272748462e73601d3c025a7e0317121876816b6b47d5271286d7c5f3905",
