@@ -44,6 +44,7 @@ Useful commands:
 - `npm run research` — deterministic offline build from reviewed inbox data.
 - `npm run research:network` — run every connector against the live sources. `-- --pages=N` and `-- --commanders=N` shrink the rotated crawls for a quick local run.
 - `npm run build` — bundle `src/userscript/` to the installable root userscript.
+- `npm run preview` — serve the built userscript against this checkout's `data/` on <http://localhost:8731>, so a data or UI change can be seen without deploying.
 - `npm test` — schema, scoring, normalization, and relationship tests.
 - `npm run validate` — verify generated data against schemas and manifest metadata.
 
