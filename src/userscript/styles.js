@@ -15,6 +15,8 @@ main { overflow:auto; padding:14px }
 .controls { display:grid; gap:7px; margin-bottom:10px }
 .controls .row { display:flex; flex-wrap:wrap; align-items:center; gap:6px }
 .controls .row > select { flex:1 1 120px; min-width:0 }
+.controls .colors { flex-wrap:nowrap }
+.controls .colors > select { flex:0 1 108px }
 .controls .row > input[type=number] { flex:0 0 74px }
 .controls .row > input[type=date] { flex:1 1 130px; min-width:0 }
 .label { color:var(--mel-muted); font-size:11px; text-transform:uppercase; letter-spacing:.04em }

@@ -100,69 +100,6 @@
     },
     {
       "required": [
-        "windowDays",
-        "asOf",
-        "findings"
-      ],
-      "properties": {
-        "windowDays": {
-          "enum": [
-            7,
-            30,
-            90
-          ]
-        },
-        "asOf": {
-          "type": "string",
-          "format": "date-time"
-        }
-      }
-    },
-    {
-      "required": [
-        "snapshots"
-      ],
-      "properties": {
-        "snapshots": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "required": [
-              "date",
-              "commanders"
-            ],
-            "properties": {
-              "date": {
-                "type": "string",
-                "format": "date"
-              },
-              "commanders": {
-                "type": "object",
-                "additionalProperties": {
-                  "type": "object",
-                  "required": [
-                    "rank",
-                    "decks"
-                  ],
-                  "properties": {
-                    "rank": {
-                      "type": "integer",
-                      "minimum": 0
-                    },
-                    "decks": {
-                      "type": "integer",
-                      "minimum": 0
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "required": [
         "detail"
       ],
       "properties": {

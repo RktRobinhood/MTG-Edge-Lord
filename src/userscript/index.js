@@ -269,7 +269,7 @@ function commanderCard(commander) {
   return `<article class="card">
     <div class="meta">
       ${scoreBadge(commander)}
-      <span class="tier ${commander.tier ?? ""}">${escapeHtml(commander.tier ?? "unranked")}</span>
+      ${commander.tier ? `<span class="tier ${commander.tier}">${escapeHtml(commander.tier)}</span>` : ""}
       ${commander.colorIdentity !== undefined ? `<span class="chip">${escapeHtml(commander.colorIdentity || "Colourless")}</span>` : ""}
       ${Number.isFinite(commander.manaValue) ? `<span class="chip">MV ${commander.manaValue}</span>` : ""}
       ${commander.price !== undefined ? `<span class="chip">$${commander.price.toFixed(2)}</span>` : ""}
@@ -301,13 +301,18 @@ function scoreBadge(commander) {
 /**
  * Why this commander scored what it did. A commander with no score says so
  * in words rather than showing a zero.
+ *
+ * The branch is on the **absence of a score**, not on the `unscored` flag.
+ * A backend mid-deploy can serve a record with neither, and explaining a
+ * score that is not there would print "the evidence is weak" about a
+ * commander nobody has evaluated.
  */
 function reasonsFor(commander) {
   if (commander.cohortScore !== undefined) {
     return `<p class="cohort-note">New arrival — scored against its ${escapeHtml(String(commander.cohort?.setCode ?? "").toUpperCase())} set cohort, not the whole format.</p>
       <ul class="why">${explainCohort(commander).map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")}</ul>`;
   }
-  if (commander.unscored) {
+  if (commander.edgeScore === undefined) {
     return `<p class="insufficient">Insufficient data — ${escapeHtml(explainUnscored(commander))}</p>`;
   }
   return `<ul class="why">${explainScore(commander).map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")}</ul>`;
