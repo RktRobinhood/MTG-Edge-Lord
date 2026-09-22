@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "archive": [
+    {
+      "slug": "massimo-the-magician",
+      "name": "Massimo, the Magician",
+      "firstSurfacedAt": "2026-09-22",
+      "lastSurfacedAt": "2026-09-22",
+      "findingIds": [
+        "massimo-vraska-spree-2026-09-20"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "relationship_signal"
+      ],
+      "sources": [
+        {
+          "name": "r/EDHBrews",
+          "url": "https://www.reddit.com/r/EDHBrews/comments/1wlpa42/massimo_the_magician_need_suggestions_of_my_first/",
+          "creator": "Nivosus and r/EDHBrews contributors"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1050,
+        "deckCount": 2200,
+        "asOf": "2026-09-20"
+      }
+    }
+  ]
+}

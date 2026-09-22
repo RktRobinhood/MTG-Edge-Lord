@@ -69,14 +69,19 @@ export async function loadCommanderDetail(dataVersion) {
 async function loadBackend(base, cached, force) {
   const manifest = await requestJson(`${base}/manifest.json?ts=${Date.now()}`);
   if (!force && cached?.manifest?.dataVersion === manifest.dataVersion) return { cached: true };
-  const [findings, commanders, cards, resources, relationships] = await Promise.all([
+  const [findings, commanders, cards, resources, relationships, archive] = await Promise.all([
     requestJson(`${base}/findings.json`),
     requestJson(`${base}/commanders.json`).then(toCommanderList),
     requestJson(`${base}/hidden-cards.json`),
     requestJson(`${base}/community-resources.json`),
-    requestJson(`${base}/relationships/card-commander.json`)
+    requestJson(`${base}/relationships/card-commander.json`),
+    // The archive is the newest dataset, so a backend that predates it is a
+    // real state: an installed script must not break against one. An empty
+    // archive is the honest answer, and it costs the Archive tab alone
+    // rather than every tab.
+    requestJson(`${base}/archive.json`).catch(() => ({ schemaVersion: 1, archive: [] }))
   ]);
-  return { manifest, datasets: { findings, commanders, cards, resources, relationships } };
+  return { manifest, datasets: { findings, commanders, cards, resources, relationships, archive } };
 }
 
 /**

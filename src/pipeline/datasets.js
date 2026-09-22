@@ -2,6 +2,7 @@ import { DETAIL_FACT_FIELDS } from "../connectors/edhrec-pages.js";
 import { encodeCommanders } from "../shared/catalog.js";
 import { EDGE_MODEL_VERSION, scoreCommander } from "../shared/edge-score.js";
 import { COHORT_MODEL_VERSION, applyCohortScores } from "../shared/cohort-score.js";
+import { updateArchive } from "./archive.js";
 
 /**
  * Builds the **published** backend: every file here is fetched by the
@@ -13,7 +14,7 @@ import { COHORT_MODEL_VERSION, applyCohortScores } from "../shared/cohort-score.
  * is read by the momentum pipeline rather than by any client, so it lives in
  * `state/` with the other pipeline bookkeeping.
  */
-export function buildDatasets(findings, relationships, catalog = [], today = new Date().toISOString().slice(0, 10)) {
+export function buildDatasets(findings, relationships, catalog = [], today = new Date().toISOString().slice(0, 10), previousArchive = null) {
   const scored = mergeCommanderCatalog(catalog, aggregateEntities(findings, "commanders")).map(withEdgeScore);
   // Cohort scoring runs after Edge scoring and only touches commanders that
   // have not graduated, so a record never carries both.
@@ -49,7 +50,10 @@ export function buildDatasets(findings, relationships, catalog = [], today = new
     "commander-detail.json": { schemaVersion: 1, detail },
     "hidden-cards.json": { schemaVersion: 1, cards: hiddenCards },
     "community-resources.json": { schemaVersion: 1, resources: communityResources },
-    "relationships/card-commander.json": { schemaVersion: 1, relationships }
+    "relationships/card-commander.json": { schemaVersion: 1, relationships },
+    // Append-only, and the only dataset that carries anything from before this
+    // run. Everything else here is rebuilt from the current findings.
+    "archive.json": updateArchive(previousArchive, findings, today, commanders)
   };
 }
 

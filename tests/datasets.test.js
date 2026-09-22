@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { readFileSync } from "node:fs";
 import { buildDatasets } from "../src/pipeline/datasets.js";
 import { decodeCommanders } from "../src/shared/catalog.js";
 import { hydrateCommanders } from "../src/userscript/search.js";
@@ -114,13 +115,17 @@ test("the client reproduces the published Edge score exactly", () => {
   }
 });
 
+/**
+ * #10 removed datasets nothing fetched. Asserting that against a second
+ * hardcoded list only moves the problem: both lists drift together and the
+ * guard passes while the claim is false. Read what the client actually asks
+ * for, so adding a dataset the userscript never fetches fails here.
+ */
 test("only the files the userscript fetches are published", () => {
-  assert.deepEqual(Object.keys(build(catalog)).sort(), [
-    "commander-detail.json",
-    "commanders.json",
-    "community-resources.json",
-    "findings.json",
-    "hidden-cards.json",
-    "relationships/card-commander.json"
-  ]);
+  const client = readFileSync(new URL("../src/userscript/data-client.js", import.meta.url), "utf8");
+  const fetched = [...client.matchAll(/\$\{base\}\/([a-z0-9/-]+\.json)/g)]
+    .map((match) => match[1])
+    .filter((name) => name !== "manifest.json");
+  assert.ok(fetched.length, "no dataset URLs found in the data client");
+  assert.deepEqual(Object.keys(build(catalog)).sort(), [...new Set(fetched)].sort());
 });

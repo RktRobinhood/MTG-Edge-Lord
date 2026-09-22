@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "052b0049622e7c8a",
-  "generatedAt": "2026-09-22T06:57:26.664Z",
+  "dataVersion": "8b1147eeeaadf5a7",
+  "generatedAt": "2026-09-22T09:14:25.979Z",
   "files": {
     "findings.json": {
       "sha256": "6e7f7888c6c11acfe96da469a89f4416f34e873b87b4c5b8a11cf40efc6871ba",
@@ -26,6 +26,10 @@
     "relationships/card-commander.json": {
       "sha256": "8a9df9cfe37ed80230d39bf7641082c44ede2fa69bae9734fc4ed1f5fcf89df7",
       "bytes": 3391
+    },
+    "archive.json": {
+      "sha256": "9aa492424196cc3e77aebb5222678d26f6f6fbbd5b8d2c3dfafb25e769361a7e",
+      "bytes": 762
     }
   }
 }

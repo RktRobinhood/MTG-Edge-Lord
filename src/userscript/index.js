@@ -66,7 +66,7 @@ function renderShell() {
         <div><strong>MTG Edge Lord</strong><span id="status">Loading…</span></div>
         <a href="https://github.com/RktRobinhood/MTG-Edge-Lord" target="_blank" rel="noopener noreferrer">About</a>
       </header>
-      <nav>${tabButton("search", "Search")}${tabButton("discover", "Recent finds")}${tabButton("card", "Card-first")}</nav>
+      <nav>${tabButton("search", "Search")}${tabButton("discover", "Recent finds")}${tabButton("card", "Card-first")}${tabButton("archive", "Archive")}</nav>
       <main></main>
     </section>`;
 
@@ -174,6 +174,17 @@ function renderResults() {
       .sort((a, b) => b.score.total - a.score.total);
     summary.textContent = `${findings.length} find${findings.length === 1 ? "" : "s"}`;
     results.innerHTML = findings.slice(0, state.shown).map(findingCard).join("") || empty("No finds match that search yet.");
+    return bindResults(results);
+  }
+
+  if (state.tab === "archive") {
+    const archived = (state.data.archive?.archive ?? [])
+      .filter((entry) => matchesText(entry.name, state.filters.query));
+    summary.textContent = archived.length
+      ? `${archived.length} commander${archived.length === 1 ? "" : "s"} surfaced to date`
+      : "Nothing surfaced yet";
+    results.innerHTML = archived.slice(0, state.shown).map(archiveCard).join("")
+      || empty("No commander has been surfaced under that name yet.");
     return bindResults(results);
   }
 
@@ -386,6 +397,31 @@ function findingCard(finding) {
     <div class="chips">${entities}</div>
     <span class="readon">Read it at ${escapeHtml(sourceLabel(finding.source))} ↗</span>
   </a>`;
+}
+
+/**
+ * One commander the feed has surfaced, and when.
+ *
+ * The rank shown is the one recorded the day it was first surfaced, not the
+ * rank now. A commander that was 2,400 when we found it and is 700 today is
+ * the archive earning its keep, so the card says "when found" rather than
+ * quietly showing a number that has moved.
+ */
+function archiveCard(entry) {
+  const found = entry.popularityAtFirstSurface?.edhrecRank;
+  const links = (entry.sources ?? [])
+    .filter((source) => typeof source.url === "string" && source.url.startsWith("https://"))
+    .map((source) => `<a class="chip" href="${escapeAttr(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.creator || source.name)} ↗</a>`)
+    .join("");
+  const again = entry.timesSurfaced > 1 ? ` · surfaced ${entry.timesSurfaced} times` : "";
+  return `<article class="card">
+    <div class="credit">
+      <span class="muted">First surfaced ${escapeHtml(entry.firstSurfacedAt)}${again}</span>
+    </div>
+    <h3><a href="https://edhrec.com/commanders/${encodeURIComponent(entry.slug)}" target="_blank" rel="noopener noreferrer">${escapeHtml(entry.name)}</a></h3>
+    ${found ? `<p class="muted">Rank ${found.toLocaleString()} when found${entry.popularityAtFirstSurface.deckCount ? ` · ${entry.popularityAtFirstSurface.deckCount.toLocaleString()} decks` : ""}</p>` : ""}
+    <div class="chips">${links}</div>
+  </article>`;
 }
 
 function hiddenCard(card) {

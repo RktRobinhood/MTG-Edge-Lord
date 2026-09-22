@@ -100,6 +100,57 @@
     },
     {
       "required": [
+        "archive"
+      ],
+      "properties": {
+        "archive": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "slug",
+              "name",
+              "firstSurfacedAt",
+              "lastSurfacedAt",
+              "timesSurfaced",
+              "findingIds",
+              "sources"
+            ],
+            "properties": {
+              "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+              "name": { "type": "string", "minLength": 1 },
+              "firstSurfacedAt": { "type": "string", "format": "date" },
+              "lastSurfacedAt": { "type": "string", "format": "date" },
+              "timesSurfaced": { "type": "integer", "minimum": 1 },
+              "findingIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+              "findingTypes": { "type": "array", "items": { "type": "string" } },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["name", "url"],
+                  "properties": {
+                    "name": { "type": "string", "minLength": 1 },
+                    "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+                    "creator": { "type": "string" }
+                  }
+                }
+              },
+              "popularityAtFirstSurface": {
+                "type": "object",
+                "properties": {
+                  "edhrecRank": { "type": "integer", "minimum": 1 },
+                  "deckCount": { "type": "integer", "minimum": 0 },
+                  "asOf": { "type": "string", "format": "date" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "required": [
         "detail"
       ],
       "properties": {

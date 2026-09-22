@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { manualConnector } from "../connectors/manual.js";
 import { scryfallConnector } from "../connectors/scryfall.js";
@@ -125,7 +125,8 @@ export async function runPipeline({ root, network = false, now = new Date(), fet
   for (const finding of findings) assertValid(validateFinding, finding, `finding ${finding.id}`);
 
   const relationships = buildRelationships(findings);
-  const datasets = buildDatasets(findings, relationships, catalog, today);
+  const previousArchive = await readJson(path.join(root, "data", "archive.json"));
+  const datasets = buildDatasets(findings, relationships, catalog, today, previousArchive);
   const result = await writeDatasets(root, datasets, now);
   return { ...result, findings: findings.length, relationships: relationships.length, diagnostics };
 }
@@ -263,8 +264,18 @@ async function writeDatasets(root, datasets, now) {
   const generatedAt = now.toISOString();
   const manifest = { schemaVersion: 1, dataVersion, generatedAt, files };
   await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
-  const historyName = `${generatedAt.slice(0, 10)}-${files["findings.json"].sha256.slice(0, 16)}.json`;
-  await writeFile(path.join(root, "data", "history", historyName), rendered["findings.json"]);
+  // `dataVersion` covers all six datasets, so a catalogue-only refresh reaches
+  // here with findings.json untouched. Writing a snapshot anyway produced a
+  // byte-identical copy under a new date every day, and — because the workflow
+  // classifies a change by diffing `data/findings.json data/history` — made
+  // every deterministic catalogue refresh look like a findings change, so the
+  // auto-commit path could never be taken. Snapshot only what is actually new.
+  const findingsHash = files["findings.json"].sha256.slice(0, 16);
+  if ((await latestHistoryHash(root)) !== findingsHash) {
+    const historyName = `${generatedAt.slice(0, 10)}-${findingsHash}.json`;
+    await mkdir(path.join(root, "data", "history"), { recursive: true });
+    await writeFile(path.join(root, "data", "history", historyName), rendered["findings.json"]);
+  }
   return { changed: true, dataVersion };
 }
 
@@ -276,6 +287,17 @@ async function writeDatasets(root, datasets, now) {
  */
 function serialize(value) {
   return isColumnar(value) ? JSON.stringify(value) : JSON.stringify(value, null, 2);
+}
+
+/** The findings hash of the newest snapshot, or null where none exists. */
+async function latestHistoryHash(root) {
+  try {
+    const names = (await readdir(path.join(root, "data", "history"))).filter((name) => name.endsWith(".json")).sort();
+    const newest = names.at(-1);
+    return newest ? newest.slice(0, -5).split("-").at(-1) : null;
+  } catch {
+    return null;
+  }
 }
 
 async function readJson(filename) {
