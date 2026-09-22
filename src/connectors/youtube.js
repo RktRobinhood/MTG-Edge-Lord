@@ -4,6 +4,11 @@ const USER_AGENT = "MTG-Edge-Lord/1.0 (https://github.com/RktRobinhood/MTG-Edge-
 /**
  * Channels monitored for deck-tech coverage. Config, not logic.
  *
+ * This list is the lane's **targeting**, and it is the difference between
+ * "someone made a deck tech" and "someone who hunts obscure commanders made a
+ * deck tech". A channel earns a place by covering commanders the meta does
+ * not, not by being large.
+ *
  * **Known dead — do not re-add:** Commander's Brew (last upload 2023), Jumbo
  * Commander (2025-06), Budget EDH, King of Jank, SmoothBrainEDH.
  */
@@ -13,7 +18,13 @@ export const CHANNELS = Object.freeze([
   { id: "UCjzqELhNFU3-4vDNfR_MdOA", name: "Salubrious Snail" },
   { id: "UCFCQ1uJIqTOAxMNbXfV8qHQ", name: "MTGGoldfish Commander Clash" },
   { id: "UCbtaLo9zn6T9sSUOGLC5LnQ", name: "EDHdex" },
-  { id: "UC9nbYUTPBLTDMLNzOFF3sOQ", name: "Niche EDH" }
+  { id: "UC9nbYUTPBLTDMLNzOFF3sOQ", name: "Niche EDH" },
+  // Added from the daily-search creator list (#26). Both channel ids come
+  // from public search results rather than from the API, because the lane has
+  // no key yet — the first live run under #25 is what confirms them. An id
+  // that is wrong yields an empty playlist and a diagnostic, never a failure.
+  { id: "UC_YMCEoT58NiZR0yyy9T2yg", name: "Panzer MTG", unverified: true },
+  { id: "UC3Fbsnf6oqWofOCSbRgvNvQ", name: "Unpopular MTG", unverified: true }
 ]);
 
 /** Uploads fetched per channel per run. */

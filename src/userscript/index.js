@@ -339,6 +339,10 @@ function commanderDetail(commander) {
     ${commander.comboCount && commander.comboUrl
       ? `<p class="muted"><a href="${escapeAttr(commander.comboUrl)}" target="_blank" rel="noopener noreferrer">${commander.comboCount} known combo line${commander.comboCount === 1 ? "" : "s"} on Commander Spellbook ↗</a> — shown, never scored.</p>`
       : ""}
+    ${cedhListing(commander)}
+    ${commander.dedicatedCommunity
+      ? `<p class="muted"><a href="${escapeAttr(commander.dedicatedCommunity.url)}" target="_blank" rel="noopener noreferrer">Has a dedicated community ↗</a> — via ${escapeHtml(commander.dedicatedCommunity.source)}.</p>`
+      : ""}
   </div>`;
 }
 
@@ -347,6 +351,29 @@ function commanderDetail(commander) {
  * whole card links out, and the summary is capped so it cannot grow into a
  * replacement for the original.
  */
+/**
+ * Which list the cEDH Decklist Database keeps this commander on.
+ *
+ * **Shown, never scored** — the same rule as combo presence, for the same
+ * reason: presence on a cEDH database correlates with cEDH, and scoring it
+ * would pull recommendations back toward the meta this product exists to
+ * escape. The Brewer's Corner is nonetheless the most interesting line here,
+ * because it is where the database puts a commander that does not fit any
+ * archetype it already tracks.
+ */
+function cedhListing(commander) {
+  const listing = commander.cedhListing;
+  if (!listing?.sourceUrl) return "";
+  const label = {
+    brew: "In the Brewer's Corner",
+    competitive: "Listed as an established competitive deck",
+    outdated: "Listed, but its entry is marked outdated"
+  }[listing.section];
+  if (!label) return "";
+  const seen = listing.updatedAt ? ` · entry updated ${escapeHtml(listing.updatedAt.slice(0, 10))}` : "";
+  return `<p class="muted"><a href="${escapeAttr(listing.sourceUrl)}" target="_blank" rel="noopener noreferrer">${label} on the cEDH Decklist Database ↗</a>${seen} — shown, never scored.</p>`;
+}
+
 function findingCard(finding) {
   const entities = [...finding.commanders, ...finding.cards].map((item) => `<span class="chip">${escapeHtml(item.name)}</span>`).join("");
   return `<a class="card digest" href="${escapeAttr(finding.source.url)}" target="_blank" rel="noopener noreferrer">

@@ -21,7 +21,55 @@ Access status below was verified on 2026-09-21.
 | **YouTube Data API v3** | Deck-tech coverage as an interest signal | Free API key, no billing. Swap `UC`→`UU` for the uploads playlist and poll `playlistItems.list` at 1 unit each. |
 | **MTGGoldfish Atom / SCG commander feed** | Article coverage | Permissive `robots.txt`, no anti-scraping clause. |
 | **MTGJSON** | Set and card metadata | Open bulk. |
-| **cEDH Decklist Database** | Commander→community mapping | Public web page pairing commander names with dedicated Discord invites, verified 2026-09-22: 158 pairs parsed, 113 matching the catalogue. Only the invite link is stored; no community content is read. A legitimate proxy for community energy without touching Discord's API. |
+| **cEDH Decklist Database** | Commander→community mapping, **and which list an entry sits on** | Public web page pairing commander names with dedicated Discord invites, verified 2026-09-22: 158 pairs parsed, 113 matching the catalogue. The same page labels every entry `BREW`, `COMPETITIVE` or `OUTDATED` (9 / 56 / 72 on 2026-09-22) — see *Brewer's Corner* below. Only the invite link, the section and the entry date are stored; no community content, decklist or deck title is read. A legitimate proxy for community energy without touching Discord's API. |
+
+### Brewer's Corner
+
+The database sorts every entry into one of three sections, exposed in the page
+markup we already fetch. Two of them are signals in their own right:
+
+- **`BREW`** — the Brewer's Corner. Where a commander goes when it fits no
+  existing archetype entry. In the database's own words, these are judged on
+  *"optimizing the commander, rather than comparing them to existing entries"*.
+  A **discovery signal**: someone is building competitively around a commander
+  that has no established shell yet.
+- **`COMPETITIVE`** — promoted onto the main database. A **validation signal**,
+  and an unusually good one, because promotion is a human review decision
+  rather than a popularity threshold.
+- **`OUTDATED`** — the entry is no longer maintained. Negative evidence, which
+  `AGENTS.md` requires stay readable rather than silently disappear.
+
+The review cycle behind those moves is the same question this project asks:
+the managers revisit entries to see *"how well the decks are maintained and
+perform, and how frequently they're played after the initial hype"*. That is
+the retention thesis, done by hand.
+
+**Displayed, never scored** — the combo rule, for the combo reason. Presence
+on a cEDH database correlates with cEDH, and scoring it would drag
+recommendations back toward the meta this product exists to escape.
+
+### Creator targeting
+
+The YouTube lane's channel list is **targeting, not plumbing**. A channel earns
+its place by covering commanders the meta does not, and the list is the
+difference between "someone made a deck tech" and "someone who hunts obscure
+commanders made a deck tech". `Panzer MTG` and `Unpopular MTG` were added from
+the daily-search creator list on 2026-09-22; their channel ids come from public
+search results rather than from the API, because the lane still has no key, and
+the first live run under #25 is what confirms them. A wrong id yields an empty
+playlist and a diagnostic, never a failed run.
+
+Panzer MTG also publishes decks at `archidekt.com/u/Panzer-MTG`, which the
+Archidekt connector already reaches.
+
+### Evaluated, not wired
+
+Sources checked and deliberately not connected. Recorded so the check is not
+repeated from scratch.
+
+| Source | Verified | Finding |
+| --- | --- | --- |
+| **Commander Labs** (`commanderlabsmtg.com`) | 2026-09-22 | `robots.txt` is `Allow: /` with only a lightbox exclusion. Terms §4 forbids reproducing content but contains **no clause against automated access** — a constraint our digest-and-link posture already satisfies. Not wired because the signal is not there yet: no feed exists (`/blog-feed.xml` 404s) and the sitemap lists **9 deck-tech pages, every one `lastmod 2026-06-30`**. Long-form off-meta deck essays are exactly on-thesis, so revisit if it resumes publishing. |
 
 ### What replaces Reddit
 

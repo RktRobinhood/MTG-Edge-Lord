@@ -4,7 +4,7 @@ import { parseFeedItems } from "../src/shared/feed-parse.js";
 import { rssConnector } from "../src/connectors/rss.js";
 import { spellbookConnector } from "../src/connectors/spellbook.js";
 import { edhtop16Connector } from "../src/connectors/edhtop16.js";
-import { cedhDdbConnector, parseCommunities } from "../src/connectors/cedh-ddb.js";
+import { cedhDdbConnector, parseCommunities, parseEntries } from "../src/connectors/cedh-ddb.js";
 import { archidektConnector, primerCandidates } from "../src/connectors/archidekt.js";
 import { CHANNELS, uploadsPlaylistId, youtubeConnector } from "../src/connectors/youtube.js";
 
@@ -188,7 +188,26 @@ test("a GraphQL error throws rather than silently zeroing tournament data", asyn
 
 // --- cEDH Decklist Database -------------------------------------------------
 
-const ddbHtml = `
+// Mirrors the live page: one `<li>` per entry, carrying the section label and
+// a `data-title` that is the database's own editorial deck name.
+const ddbEntry = (id, updated, alts, { invite, section } = {}) => `
+  <li id="${id}" data-updated="${updated}" data-title="Editorial Deck Name" data-colors="w" class="hidden">
+    <div class="main btn flex"><div class="ddb-colors flex"></div></div>
+    <div class="sub hidden flex">
+      <div class="ddb-images">${alts.map((alt) => `<img data-src="x.webp" alt="${alt}">`).join("")}</div>
+      <div class="ddb-links flex-column">${invite ? `<a class="ddb-discord btn" target="_blank" href="${invite}">Discord</a>` : ""}</div>
+      <div class="ddb-info flex-column">${section ? `<div class="ddb-section flex">${section}</div>` : ""}</div>
+    </div>
+  </li>`;
+
+const ddbHtml = `<ul>
+${ddbEntry("a1", "2026-08-19T20:19:53.916Z", ["Massimo, the Magician"], { invite: "https://discord.gg/AAA", section: "BREW" })}
+${ddbEntry("a2", "2026-07-01T00:00:00.000Z", ["Rograkh, Son of Rohgahh", "Arcum Dagsson"], { invite: "https://discord.gg/BBB", section: "COMPETITIVE" })}
+${ddbEntry("a3", "2026-01-05T00:00:00.000Z", ["Krenko, Mob Boss"], { section: "OUTDATED" })}
+</ul>`;
+
+// The pre-`<li>` markup, kept so the fallback scan stays covered.
+const ddbFlatHtml = `
 <div class="ddb-images"><img data-src="a.webp" alt="Massimo, the Magician"/></div>
 <div class="ddb-links"><a class="ddb-discord btn" href="https://discord.gg/AAA">Discord</a></div>
 <div class="ddb-images"><img data-src="b.webp" alt="Rograkh, Son of Rohgahh"/><img data-src="c.webp" alt="Arcum Dagsson"/></div>
@@ -199,13 +218,12 @@ const ddbHtml = `
 
 test("commander-to-community pairs are parsed, and a partner pair credits both", () => {
   const pairs = parseCommunities(ddbHtml);
-  assert.deepEqual(pairs.find((pair) => pair.commander === "Massimo, the Magician").invite, "https://discord.gg/AAA");
+  assert.equal(pairs.find((pair) => pair.commander === "Massimo, the Magician").invite, "https://discord.gg/AAA");
   assert.deepEqual(pairs.filter((pair) => pair.invite === "https://discord.gg/BBB").map((pair) => pair.commander), ["Rograkh, Son of Rohgahh", "Arcum Dagsson"]);
 });
 
 test("an entry with no community does not borrow the next entry's invite", () => {
-  const pairs = parseCommunities(ddbHtml);
-  assert.equal(pairs.some((pair) => pair.commander === "Krenko, Mob Boss"), false);
+  assert.equal(parseCommunities(ddbHtml).some((pair) => pair.commander === "Krenko, Mob Boss"), false);
 });
 
 test("changed markup yields fewer pairs rather than an exception", () => {
@@ -213,10 +231,44 @@ test("changed markup yields fewer pairs rather than an exception", () => {
   assert.deepEqual(parseCommunities(undefined), []);
 });
 
-test("only the invite link is stored, never community content", async () => {
+test("a page with no list items still yields communities, losing only the sections", () => {
+  const entries = parseEntries(ddbFlatHtml);
+  assert.equal(entries.length, 2, "the entry with no invite is skipped by the flat scan");
+  assert.equal(entries.every((entry) => entry.section === undefined), true);
+  assert.equal(parseCommunities(ddbFlatHtml).find((pair) => pair.commander === "Arcum Dagsson").invite, "https://discord.gg/BBB");
+});
+
+test("which list an entry sits on is captured, including one with no community", () => {
+  const entries = parseEntries(ddbHtml);
+  assert.deepEqual(entries.map((entry) => entry.section), ["brew", "competitive", "outdated"]);
+  const krenko = entries.find((entry) => entry.commanders.includes("Krenko, Mob Boss"));
+  assert.equal(krenko.invite, undefined, "an entry can be listed without running a community");
+  assert.equal(krenko.section, "outdated");
+});
+
+test("only links and facts are stored, never the database's editorial content", async () => {
   const result = await cedhDdbConnector.enrichCatalog(commanders, { today: "2026-09-22", state: {}, fetch: async () => response(ddbHtml) });
-  const [massimo] = result.commanders;
+  const [massimo, arcum, krenko] = result.commanders;
+
   assert.deepEqual(Object.keys(massimo.dedicatedCommunity).sort(), ["source", "sourceUrl", "url"]);
+  assert.deepEqual(massimo.cedhListing, {
+    section: "brew",
+    updatedAt: "2026-08-19T20:19:53.916Z",
+    sourceUrl: "https://cedh-decklist-database.com/"
+  });
+  assert.equal(arcum.cedhListing.section, "competitive");
+
+  // Listed but community-less: the fact survives, and nothing invents a link.
+  assert.equal(krenko.cedhListing.section, "outdated");
+  assert.equal(krenko.dedicatedCommunity, undefined);
+
+  // `data-title` is the database's own writing and must not reach the dataset.
+  assert.equal(JSON.stringify(result.commanders).includes("Editorial Deck Name"), false);
+});
+
+test("the Brewer's Corner count is reported so a parser change is visible", async () => {
+  const result = await cedhDdbConnector.enrichCatalog(commanders, { today: "2026-09-22", state: {}, fetch: async () => response(ddbHtml) });
+  assert.match(result.diagnostics[0], /1 of them in the Brewer's Corner/);
 });
 
 // --- Archidekt --------------------------------------------------------------
@@ -287,6 +339,13 @@ test("a video naming a catalogued commander becomes a candidate crediting the ch
   assert.equal(result.candidates[0].source.url, "https://www.youtube.com/watch?v=v1");
   assert.equal(result.candidates[0].source.creator, "A Channel");
   assert.deepEqual(result.candidates[0].commanders, [{ slug: "arcum-dagsson", name: "Arcum Dagsson" }]);
+});
+
+test("every monitored channel is a distinct, well-formed channel id", () => {
+  const ids = CHANNELS.map((channel) => channel.id);
+  assert.deepEqual(ids, [...new Set(ids)], "a duplicate channel would be polled and charged twice");
+  assert.equal(ids.every((id) => /^UC[\w-]{22}$/.test(id)), true);
+  assert.equal(CHANNELS.every((channel) => channel.name?.trim()), true, "a channel is credited by name on every finding it produces");
 });
 
 test("the uploads playlist id is the channel id with UC swapped for UU", () => {

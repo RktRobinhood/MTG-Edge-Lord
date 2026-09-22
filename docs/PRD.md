@@ -66,6 +66,46 @@ Bracket data is self-reported and thin for obscure commanders, so a **confidence
 2. **New arrivals.** New commanders are judged **against their own set cohort**, not the whole format, since everything new sits at rank 3,000 by default. The target is not the high flyer — it is the commander with genuine interest whose build numbers lag its chatter. High interest ÷ low builds = a sleeper.
 3. **Derived momentum.** Movement in EDHREC's own numbers, labelled as an aggregate signal requiring follow-up, never as community consensus.
 
+### What a finding claims
+
+Every finding declares which of three claims it is making. They are not
+degrees of confidence in the same statement; they are different statements,
+and conflating them is how a mention becomes evidence.
+
+| Claim | Means | Typical source |
+| --- | --- | --- |
+| **Discovery signal** | Someone is working on this and it is not established | A Brewer's Corner entry, a new primer, a deck tech from an off-meta channel |
+| **Deep-dive resource** | Someone has already done the reading, and you should go read it | A primer, per-card notes, a long-form deck essay |
+| **Validation signal** | This has been tested against something outside its own author | A tournament result, promotion onto a curated database |
+
+A source can produce more than one. The cEDH Decklist Database produces a
+discovery signal when a commander enters the Brewer's Corner and a validation
+signal when a human review cycle promotes it out — see `docs/SOURCES.md`.
+
+### Two kinds of momentum
+
+Deck-count momentum and discussion momentum are different axes and must not be
+collapsed. A commander whose deck count is climbing has already been adopted;
+a commander whose *coverage* is climbing while its deck count is flat has not
+been adopted yet, which is the earlier and more valuable signal — it is the
+same interest-over-traction shape the cohort score uses for new arrivals.
+
+Only deck-count momentum is currently derived, from consecutive EDHREC
+snapshots. The rolling 60-day per-commander coverage window in
+`src/pipeline/coverage.js` is the seam for the other, and already accumulates
+the counts; nothing yet reads them as a trend.
+
+### The novelty gate
+
+A run that finds nothing meaningful **publishes nothing**. Silence is a valid
+and expected outcome, not a failure to be padded.
+
+Deduplication is not the same as novelty. `fingerprintFinding` stops the
+identical finding being reported twice; it says nothing about whether a
+first-time finding was worth surfacing. A finding earns its place by clearing
+the heuristic pre-filter and the judgement stage, and neither an unchanged
+source nor a re-crawl of the same page is a reason to emit one.
+
 ## Non-goals
 
 - Rebuilding EDHREC or mirroring its datasets. Filtering their public data better is in scope; copying it is not.

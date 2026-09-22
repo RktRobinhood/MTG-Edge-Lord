@@ -165,6 +165,14 @@ test("combo presence never reaches the score", () => {
   assert.equal(withCombos.edgeScore, without.edgeScore);
 });
 
+test("a cEDH database listing never reaches the score, for the same reason combos do not", () => {
+  const brewing = scoreCommander({ ...massimo, cedhListing: { section: "brew", sourceUrl: "https://cedh-decklist-database.com/" } });
+  const established = scoreCommander({ ...massimo, cedhListing: { section: "competitive", sourceUrl: "https://cedh-decklist-database.com/" } });
+  const unlisted = scoreCommander(massimo);
+  assert.equal(brewing.edgeScore, unlisted.edgeScore);
+  assert.equal(established.edgeScore, unlisted.edgeScore);
+});
+
 test("an uncrawled commander inside the band is unscored, not zero", () => {
   const score = scoreCommander({ name: "Unknown", slug: "unknown", popularity: { edhrecRank: 1800 } });
   assert.equal(score.unscored, true);
