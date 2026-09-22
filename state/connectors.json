@@ -1,10 +1,10 @@
 {
   "scryfall-bulk": {
-    "oracleCardsUpdatedAt": "2026-09-21T21:01:55.006+00:00",
-    "oracleTagsUpdatedAt": "2026-09-21T21:00:33.445+00:00"
+    "oracleCardsUpdatedAt": "2026-09-22T09:01:55.367+00:00",
+    "oracleTagsUpdatedAt": "2026-09-22T09:00:32.523+00:00"
   },
   "edhrec-pages": {
-    "cursor": "the-tenth-doctor-rose-tyler",
+    "cursor": "sophia-dogged-detective",
     "lastRunAt": "2026-09-22"
   },
   "spellbook": {},
@@ -15,7 +15,7 @@
     "lastRunAt": "2026-09-22"
   },
   "archidekt": {
-    "cursor": "otrimi-the-ever-playful",
+    "cursor": "adeline-resplendent-cathar",
     "lastRunAt": "2026-09-22"
   },
   "rss": {
@@ -36,8 +36,33 @@
       ]
     },
     "mtggoldfish": {
-      "etag": "W/\"70ae69389c80f16180be383c146e0bb9\"",
+      "etag": "W/\"0f32f5cf4a46cba3a2738f9c23a2dcc9\"",
       "seen": [
+        "tag:www.mtggoldfish.com,2005:Article/11652",
+        "tag:www.mtggoldfish.com,2005:Article/11651",
+        "tag:www.mtggoldfish.com,2005:Article/11623",
+        "tag:www.mtggoldfish.com,2005:Article/11650",
+        "tag:www.mtggoldfish.com,2005:Article/11637",
+        "tag:www.mtggoldfish.com,2005:Article/11643",
+        "tag:www.mtggoldfish.com,2005:Article/11639",
+        "tag:www.mtggoldfish.com,2005:Article/11648",
+        "tag:www.mtggoldfish.com,2005:Article/11646",
+        "tag:www.mtggoldfish.com,2005:Article/11595",
+        "tag:www.mtggoldfish.com,2005:Article/11633",
+        "tag:www.mtggoldfish.com,2005:Article/11640",
+        "tag:www.mtggoldfish.com,2005:Article/11630",
+        "tag:www.mtggoldfish.com,2005:Article/11632",
+        "tag:www.mtggoldfish.com,2005:Article/11642",
+        "tag:www.mtggoldfish.com,2005:Article/11641",
+        "tag:www.mtggoldfish.com,2005:Article/11631",
+        "tag:www.mtggoldfish.com,2005:Article/11609",
+        "tag:www.mtggoldfish.com,2005:Article/11638",
+        "tag:www.mtggoldfish.com,2005:Article/11625",
+        "tag:www.mtggoldfish.com,2005:Article/11636",
+        "tag:www.mtggoldfish.com,2005:Article/11635",
+        "tag:www.mtggoldfish.com,2005:Article/11634",
+        "tag:www.mtggoldfish.com,2005:Article/11608",
+        "tag:www.mtggoldfish.com,2005:Article/11629",
         "tag:www.mtggoldfish.com,2005:Article/11652",
         "tag:www.mtggoldfish.com,2005:Article/11651",
         "tag:www.mtggoldfish.com,2005:Article/11623",
@@ -113,6 +138,16 @@
         "https://articles.starcitygames.com/?p=199344",
         "https://articles.starcitygames.com/?p=199115",
         "https://articles.starcitygames.com/?p=198850",
+        "https://articles.starcitygames.com/?p=198836",
+        "https://articles.starcitygames.com/?p=200213",
+        "https://articles.starcitygames.com/?p=200174",
+        "https://articles.starcitygames.com/?p=200081",
+        "https://articles.starcitygames.com/?p=199755",
+        "https://articles.starcitygames.com/?p=199652",
+        "https://articles.starcitygames.com/?p=199630",
+        "https://articles.starcitygames.com/?p=199344",
+        "https://articles.starcitygames.com/?p=199115",
+        "https://articles.starcitygames.com/?p=198850",
         "https://articles.starcitygames.com/?p=198836"
       ]
     }
@@ -120,458 +155,1082 @@
   "youtube": {},
   "coverage": {
     "zurgo-helmsmasher": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "alesha-who-smiles-at-death": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "emmara-soul-of-the-accord": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "rhys-the-redeemed": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "jarad-golgari-lich-lord": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "tatsunari-toad-rider": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "scion-of-the-ur-dragon": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "beorn-the-fierce": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "splinter-radical-rat": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "baba-lysaga-night-witch": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "sophia-dogged-detective": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "raphael-fiendish-savior": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "garth-one-eye": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "toph-hardheaded-teacher": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "zask-skittering-swarmlord": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "faldorn-dread-wolf-herald": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "sami-wildcat-captain": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "muerra-trash-tactician": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "quandrix-the-proof": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "arcum-dagsson": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "lyra-archangel-of-dawn": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "the-unluckiest-planeswalker": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "taii-wakeen-perfect-shot": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "xantcha-sleeper-agent": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "neera-wild-mage": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "karona-false-god": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "riku-of-two-reflections": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "asmoranomardicadaistinaculdacar": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "ian-malcolm-chaotician": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "kros-defense-contractor": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "solphim-mayhem-dominus": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "kumena-tyrant-of-orazca": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "rakdos-the-muscle": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "heliod-sun-crowned": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "captain-america-team-leader": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "syr-vondam-sunstar-exemplar": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "ghired-mirror-of-the-wilds": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "liberty-prime-recharged": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "the-council-of-four": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "king-of-the-oathbreakers": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "lonis-cryptozoologist": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "jared-carthalion": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "otharri-suns-glory": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "rat-king-verminister": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "odric-lunarch-marshal": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "tinybones-trinket-thief": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "plagon-lord-of-the-beach": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "sergeant-john-benton": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "osgir-the-reconstructor": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "ashling-flame-dancer": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "braids-conjurer-adept": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "elsha-of-the-infinite": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "imskir-iron-eater": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "sokrates-athenian-teacher": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "purphoros-god-of-the-forge": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "toph-earthbending-master": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "ultron-artificial-malevolence": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "graha-tia-scion-reborn": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "xu-ifit-osteoharmonist": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "mogis-god-of-slaughter": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "gwenom-remorseless": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "azami-lady-of-scrolls": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "will-scion-of-peace": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "gavi-nest-warden": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "lady-octopus-inspired-inventor": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "jhoira-of-the-ghitu": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "zacama-primal-calamity": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "selvala-explorer-returned": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "ruby-daring-tracker": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "kruphix-god-of-horizons": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "gornog-the-red-reaper": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "zevlor-elturel-exile": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "rukarumel-biologist": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "dionus-elvish-archdruid": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "grimgrin-corpse-born": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "muddle-the-ever-changing": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "falco-spara-pactweaver": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "eris-roar-of-the-storm": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "niv-mizzet-reborn": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "carmen-cruel-skymarcher": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "edea-possessed-sorceress": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "torbran-thane-of-red-fell": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "the-serpent-society": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "kathril-aspect-warper": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "rev-tithe-extractor": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "the-astonishing-ant-man": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "river-song": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "avacyn-angel-of-hope": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "urza-lord-protector": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "bumi-unleashed": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "teysa-orzhov-scion": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "kutzil-malamet-exemplar": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "chiss-goria-forge-tyrant": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "the-cabbage-merchant": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "heroes-in-a-half-shell": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "the-capitoline-triad": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "valgavoth-terror-eater": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "tchalla-the-black-panther": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "the-watcher-in-the-water": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "gandalf-party-guest": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "the-master-transcendent": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "crystal-inhuman-princess": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "knuckles-the-echidna": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "mayael-the-anima": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "vaevictis-asmadi-the-dire": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "kykar-zephyr-awakener": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "volrath-the-shapestealer": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "ardyn-the-usurper": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "lathliss-dragon-queen": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "the-howling-abomination": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "kami-of-the-crescent-moon": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "myra-the-magnificent": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "yenna-redtooth-regent": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "araumi-of-the-dead-tide": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "jolene-the-plunder-queen": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "kamiz-obscura-oculus": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "esix-fractal-bloom": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "homer-the-hermit": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "bard-king-of-dale": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "cormela-glamour-thief": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "octavia-living-thesis": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "uugguu-the-omniplasm": [
-      "2026-09-22",
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "primo-the-unbounded": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "general-tazri": [
-      "2026-09-22",
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      },
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "hidetsugu-and-kairi": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "gix-yawgmoth-praetor": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
     ],
     "shiko-paragon-of-the-way": [
-      "2026-09-22"
+      {
+        "date": "2026-09-22",
+        "source": null
+      }
+    ],
+    "omnath-locus-of-the-roil": [
+      {
+        "date": "2026-09-22",
+        "source": "jonespaulr"
+      },
+      {
+        "date": "2026-09-22",
+        "source": "Hotdogfbgg"
+      },
+      {
+        "date": "2026-09-22",
+        "source": "xccoaster"
+      }
+    ],
+    "adeline-resplendent-cathar": [
+      {
+        "date": "2026-09-22",
+        "source": "pierre.st.gelais@hotmail.fr"
+      },
+      {
+        "date": "2026-09-22",
+        "source": "_HaP"
+      }
     ]
   },
   "commanderHistory": {
