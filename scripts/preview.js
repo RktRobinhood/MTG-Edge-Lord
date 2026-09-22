@@ -47,7 +47,7 @@ history.replaceState({}, "", "/commanders/massimo-the-magician");
 <script src="/mtg-edge-lord.user.js"></script>
 </body></html>`;
 
-createServer(async (request, response) => {
+const server = createServer(async (request, response) => {
   const { pathname } = new URL(request.url, "http://localhost");
   const file = pathname.startsWith("/data/") ? pathname.slice(1)
     : pathname === "/mtg-edge-lord.user.js" ? "mtg-edge-lord.user.js"
@@ -65,4 +65,20 @@ createServer(async (request, response) => {
     response.writeHead(404);
     response.end(`Not found: ${file}. Run \`npm run build\` first if the userscript is missing.`);
   }
-}).listen(port, () => console.log(`MTG Edge Lord preview on http://localhost:${port}`));
+});
+
+// A busy port is the ordinary case — running this twice, or leaving one open
+// in another terminal — so it gets an instruction rather than a stack trace.
+server.on("error", (error) => {
+  if (error.code === "EADDRINUSE") {
+    console.error(`Port ${port} is already in use. Either stop what is on it, or pick another:
+
+  PORT=${port + 1} npm run preview
+`);
+    process.exitCode = 1;
+    return;
+  }
+  throw error;
+});
+
+server.listen(port, () => console.log(`MTG Edge Lord preview on http://localhost:${port}`));
