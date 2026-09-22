@@ -223,6 +223,25 @@ test("without a coverage signal the score degrades to cohort position alone", ()
   assert.ok(score.reasons.some((reason) => reason.includes("No deck-tech coverage")));
 });
 
+test("a position-only score is discounted to the evidence behind it", () => {
+  const cohort = cohortMembers(20);
+  const positionOnly = scoreCohort(cohort[12], cohort);
+  const withInterest = scoreCohort({ ...cohort[12], mentionCount: 6 }, cohort);
+  assert.ok(positionOnly.cohortScore <= 60, `position alone must not reach the top of the scale, got ${positionOnly.cohortScore}`);
+  assert.ok(withInterest.cohortScore > positionOnly.cohortScore, "the interest signal is what unlocks the rest of the scale");
+  assert.equal(positionOnly.partial, true);
+});
+
+test("a commander nobody has built yet has no cohort position worth reading", () => {
+  const cohort = cohortMembers(20).map((member, index) => ({
+    ...member,
+    popularity: { ...member.popularity, deckCount: index === 12 ? 16 : 300 }
+  }));
+  const score = scoreCohort(cohort.find((m) => m.popularity.deckCount === 16), cohort);
+  assert.equal(score.unscored, true);
+  assert.match(score.reason, /too few for a position/);
+});
+
 test("a new commander is not surfaced merely for being new", () => {
   const cohort = cohortMembers(20);
   const { commanders } = applyCohortScores(cohort, "2026-09-22", { minScore: 101 });

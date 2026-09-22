@@ -38,7 +38,9 @@ Brackets 1 (Exhibition) and 2 (Core) contribute nothing to the numerator but sta
 
 It measures the most recent fortnight against the commander's **own highest week**, not against its earlier average. The question is whether the interest it attracted is still there, and "is it growing" is already answered independently by `momentum` — rewarding growth here would count it twice. Holding steady therefore scores 1, and a commander that shed two thirds of a spike scores about 0.3.
 
-A peak inside the final fortnight that sits well above the earlier baseline returns **no value at all**, and the component is dropped. That is a commander people have only just picked up, where no retention evidence exists in either direction; an earlier two-half comparison gave those full marks, which handed maximum retention to precisely the untested spike this component exists to catch.
+Retention is also **not measured below ten saves in the peak week**. At four a week one deck moves the ratio by a quarter, and the component carries 20% of the works score — a commander reached the top 100 on a peak of four. Low volume is not thereby ignored; obscurity and deck count already measure it. This says only that reading a *trend* needs enough signal.
+
+A peak inside the final fortnight that sits well above the preceding fortnight returns **no value at all**, and the component is dropped. That is a commander people have only just picked up, where no retention evidence exists in either direction; an earlier two-half comparison gave those full marks, which handed maximum retention to precisely the untested spike this component exists to catch.
 
 **Combo presence is displayed but never scored.** Combo density correlates with cEDH, and scoring it would quietly drag recommendations back toward the meta this product exists to escape.
 
@@ -62,6 +64,8 @@ Global rank is meaningless for a card released three weeks ago — everything ne
 - **Interest-to-traction ratio:** discussion volume ÷ deck count. High chatter with low builds means people are intrigued but nobody has committed. That is the sleeper.
 
 The high flyers score badly on the ratio precisely because everyone is already building them, which is the intended behaviour. A commander **graduates** to the normal Edge score at 400 decks, or when it ages out of the 120-day release window.
+
+Two guards keep this lane honest. A new commander needs **at least 50 decks** before its position in a set means anything — at 16 decks, sitting 141st of 231 is a fact about nobody having built anything yet. And the two components are **not renormalised** when one is missing, unlike the Edge score: interest-to-traction is the discriminating half, so a position-only score is discounted to the evidence behind it and tops out at **60** rather than 100. Without that, every commander scored while the YouTube lane was off came back near the top of the scale.
 
 **The two scores are mutually exclusive.** Inside the window, before graduation, a commander carries a cohort score or nothing — never an Edge score, because the rank that score is built on is the very thing this section says is meaningless for a new card. A new arrival that misses the cohort bar is unscored rather than falling back to an Edge score.
 

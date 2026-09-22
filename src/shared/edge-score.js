@@ -91,6 +91,20 @@ export function bracketFit(bracketCounts) {
 const RECENT_WEEKS = 2;
 
 /**
+ * Saves in the peak week below which retention is not measurable.
+ *
+ * At four saves a week, one deck either way moves the ratio by a quarter, so
+ * the number reflects noise rather than whether interest held. Retention
+ * carries 20% of the works score, and a commander reached the top 100 on a
+ * peak of four. Below this the component is absent and the score renormalises
+ * onto bracket fit and archetype depth, which rest on far larger samples.
+ *
+ * Low volume is not thereby ignored — obscurity and deck count already
+ * measure it. This says only that a *trend* needs enough signal to read.
+ */
+export const RETENTION_VOLUME_FLOOR = 10;
+
+/**
  * A final window this far above the fortnight **immediately before it** is a
  * step change rather than a trend.
  *
@@ -125,7 +139,7 @@ export function retention(retentionTrend) {
   if (!Array.isArray(retentionTrend) || retentionTrend.length < 4) return null;
   const weeks = retentionTrend.map((count) => Math.max(0, Number(count) || 0));
   const peak = Math.max(...weeks);
-  if (peak <= 0) return null;
+  if (peak < RETENTION_VOLUME_FLOOR) return null;
 
   const recentWeeks = weeks.slice(-RECENT_WEEKS);
   const precedingWeeks = weeks.slice(-RECENT_WEEKS * 2, -RECENT_WEEKS);

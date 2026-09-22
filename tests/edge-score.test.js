@@ -3,6 +3,7 @@ import test from "node:test";
 import {
   BRACKET_CONFIDENCE_FLOOR,
   EDGE_MODEL_VERSION,
+  RETENTION_VOLUME_FLOOR,
   bracketFit,
   obscurityForRank,
   retention,
@@ -67,6 +68,15 @@ test("retention measures saves against the commander's own peak", () => {
   assert.equal(retention([10, 10]), null, "too little history to judge");
   assert.equal(retention(undefined), null);
   assert.equal(retention([0, 0, 0, 0]), null, "no saves at all is not retention data");
+});
+
+test("a trend too small to read is not measured", () => {
+  // At four saves a week one deck moves the ratio by a quarter, so the
+  // number would reflect noise rather than whether interest held.
+  assert.equal(retention([5, 1, 4, 2, 3, 1, 1, 1]), null);
+  assert.equal(retention([4, 1, 5, 7, 1, 2, 1, 1]), null);
+  assert.ok(retention([40, 10, 50, 20, 30, 10, 10, 10]) !== null, "the same shape at real volume is measurable");
+  assert.equal(RETENTION_VOLUME_FLOOR, 10);
 });
 
 test("a spike that sheds most of its volume is penalised, not rewarded", () => {

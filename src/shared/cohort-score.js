@@ -31,6 +31,15 @@ export const GRADUATION_DECK_COUNT = 400;
 
 const COMPONENT_WEIGHTS = Object.freeze({ cohortPosition: 0.6, interestToTraction: 0.4 });
 
+/**
+ * Decks a new commander needs before its cohort position means anything.
+ *
+ * Below this the ordering within a set is noise: on 2026-09-22, a commander
+ * with 16 decks sat 141st of 231 new legends, which is a fact about nobody
+ * having built anything yet rather than about that commander.
+ */
+export const MIN_COHORT_DECKS = 50;
+
 const round = (value) => Math.round(value * 10) / 10;
 const round3 = (value) => Math.round(value * 1000) / 1000;
 
@@ -95,6 +104,9 @@ export function scoreCohort(commander, cohort, options = {}) {
 
   const position = cohort.findIndex((member) => member.slug === commander.slug);
   if (position === -1) return { unscored: true, reason: "Not part of a scored set cohort." };
+  if ((commander.popularity?.deckCount ?? 0) < (options.minDecks ?? MIN_COHORT_DECKS)) {
+    return { unscored: true, reason: `Only ${commander.popularity?.deckCount ?? 0} decks so far, too few for a position in its set to mean anything.` };
+  }
 
   // Middle of the pack scores best. The top of a cohort is the commander
   // everyone is already building; the bottom is the one nobody wanted.
@@ -120,9 +132,15 @@ export function scoreCohort(commander, cohort, options = {}) {
     reasons.push("No deck-tech coverage found yet, so this is cohort position alone.");
   }
 
+  // Weights are **not** renormalised over the available components, unlike
+  // the Edge score. Interest-to-traction is the discriminating half of this
+  // lane — cohort position alone says only "mid-pack in your set", which is
+  // not a discovery claim — so a position-only score is discounted to the
+  // evidence behind it and tops out at 60 rather than 100. Without that,
+  // every commander scored while the YouTube lane was disabled came back
+  // near the top of the scale.
   const available = Object.entries(components);
-  const totalWeight = available.reduce((sum, [name]) => sum + COMPONENT_WEIGHTS[name], 0);
-  const total = available.reduce((sum, [name, value]) => sum + value * COMPONENT_WEIGHTS[name], 0) / totalWeight;
+  const total = available.reduce((sum, [name, value]) => sum + value * COMPONENT_WEIGHTS[name], 0);
 
   return {
     cohortScore: round(total * 100),

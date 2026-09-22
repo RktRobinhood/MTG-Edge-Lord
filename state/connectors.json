@@ -15,7 +15,7 @@
     "lastRunAt": "2026-09-22"
   },
   "archidekt": {
-    "cursor": "quandrix-the-proof",
+    "cursor": "otrimi-the-ever-playful",
     "lastRunAt": "2026-09-22"
   },
   "rss": {
@@ -36,8 +36,33 @@
       ]
     },
     "mtggoldfish": {
-      "etag": "W/\"2c9eb25d2b10c07870f36bec9eead9f6\"",
+      "etag": "W/\"70ae69389c80f16180be383c146e0bb9\"",
       "seen": [
+        "tag:www.mtggoldfish.com,2005:Article/11652",
+        "tag:www.mtggoldfish.com,2005:Article/11651",
+        "tag:www.mtggoldfish.com,2005:Article/11623",
+        "tag:www.mtggoldfish.com,2005:Article/11650",
+        "tag:www.mtggoldfish.com,2005:Article/11637",
+        "tag:www.mtggoldfish.com,2005:Article/11643",
+        "tag:www.mtggoldfish.com,2005:Article/11639",
+        "tag:www.mtggoldfish.com,2005:Article/11648",
+        "tag:www.mtggoldfish.com,2005:Article/11646",
+        "tag:www.mtggoldfish.com,2005:Article/11595",
+        "tag:www.mtggoldfish.com,2005:Article/11633",
+        "tag:www.mtggoldfish.com,2005:Article/11640",
+        "tag:www.mtggoldfish.com,2005:Article/11630",
+        "tag:www.mtggoldfish.com,2005:Article/11632",
+        "tag:www.mtggoldfish.com,2005:Article/11642",
+        "tag:www.mtggoldfish.com,2005:Article/11641",
+        "tag:www.mtggoldfish.com,2005:Article/11631",
+        "tag:www.mtggoldfish.com,2005:Article/11609",
+        "tag:www.mtggoldfish.com,2005:Article/11638",
+        "tag:www.mtggoldfish.com,2005:Article/11625",
+        "tag:www.mtggoldfish.com,2005:Article/11636",
+        "tag:www.mtggoldfish.com,2005:Article/11635",
+        "tag:www.mtggoldfish.com,2005:Article/11634",
+        "tag:www.mtggoldfish.com,2005:Article/11608",
+        "tag:www.mtggoldfish.com,2005:Article/11629",
         "tag:www.mtggoldfish.com,2005:Article/11652",
         "tag:www.mtggoldfish.com,2005:Article/11651",
         "tag:www.mtggoldfish.com,2005:Article/11623",
@@ -69,6 +94,16 @@
       "etag": "W/\"c820bfa5ac5e8750ce6147472371e4b5\"",
       "lastModified": "Mon, 21 Sep 2026 19:28:09 GMT",
       "seen": [
+        "https://articles.starcitygames.com/?p=200213",
+        "https://articles.starcitygames.com/?p=200174",
+        "https://articles.starcitygames.com/?p=200081",
+        "https://articles.starcitygames.com/?p=199755",
+        "https://articles.starcitygames.com/?p=199652",
+        "https://articles.starcitygames.com/?p=199630",
+        "https://articles.starcitygames.com/?p=199344",
+        "https://articles.starcitygames.com/?p=199115",
+        "https://articles.starcitygames.com/?p=198850",
+        "https://articles.starcitygames.com/?p=198836",
         "https://articles.starcitygames.com/?p=200213",
         "https://articles.starcitygames.com/?p=200174",
         "https://articles.starcitygames.com/?p=200081",
@@ -161,6 +196,381 @@
       "2026-09-22"
     ],
     "the-unluckiest-planeswalker": [
+      "2026-09-22"
+    ],
+    "taii-wakeen-perfect-shot": [
+      "2026-09-22"
+    ],
+    "xantcha-sleeper-agent": [
+      "2026-09-22"
+    ],
+    "neera-wild-mage": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "karona-false-god": [
+      "2026-09-22"
+    ],
+    "riku-of-two-reflections": [
+      "2026-09-22"
+    ],
+    "asmoranomardicadaistinaculdacar": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "ian-malcolm-chaotician": [
+      "2026-09-22"
+    ],
+    "kros-defense-contractor": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "solphim-mayhem-dominus": [
+      "2026-09-22"
+    ],
+    "kumena-tyrant-of-orazca": [
+      "2026-09-22"
+    ],
+    "rakdos-the-muscle": [
+      "2026-09-22"
+    ],
+    "heliod-sun-crowned": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "captain-america-team-leader": [
+      "2026-09-22"
+    ],
+    "syr-vondam-sunstar-exemplar": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "ghired-mirror-of-the-wilds": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "liberty-prime-recharged": [
+      "2026-09-22"
+    ],
+    "the-council-of-four": [
+      "2026-09-22"
+    ],
+    "king-of-the-oathbreakers": [
+      "2026-09-22"
+    ],
+    "lonis-cryptozoologist": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "jared-carthalion": [
+      "2026-09-22"
+    ],
+    "otharri-suns-glory": [
+      "2026-09-22"
+    ],
+    "rat-king-verminister": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "odric-lunarch-marshal": [
+      "2026-09-22"
+    ],
+    "tinybones-trinket-thief": [
+      "2026-09-22"
+    ],
+    "plagon-lord-of-the-beach": [
+      "2026-09-22"
+    ],
+    "sergeant-john-benton": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "osgir-the-reconstructor": [
+      "2026-09-22"
+    ],
+    "ashling-flame-dancer": [
+      "2026-09-22"
+    ],
+    "braids-conjurer-adept": [
+      "2026-09-22"
+    ],
+    "elsha-of-the-infinite": [
+      "2026-09-22"
+    ],
+    "imskir-iron-eater": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "sokrates-athenian-teacher": [
+      "2026-09-22"
+    ],
+    "purphoros-god-of-the-forge": [
+      "2026-09-22"
+    ],
+    "toph-earthbending-master": [
+      "2026-09-22"
+    ],
+    "ultron-artificial-malevolence": [
+      "2026-09-22"
+    ],
+    "graha-tia-scion-reborn": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "xu-ifit-osteoharmonist": [
+      "2026-09-22"
+    ],
+    "mogis-god-of-slaughter": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "gwenom-remorseless": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "azami-lady-of-scrolls": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "will-scion-of-peace": [
+      "2026-09-22"
+    ],
+    "gavi-nest-warden": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "lady-octopus-inspired-inventor": [
+      "2026-09-22"
+    ],
+    "jhoira-of-the-ghitu": [
+      "2026-09-22"
+    ],
+    "zacama-primal-calamity": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "selvala-explorer-returned": [
+      "2026-09-22"
+    ],
+    "ruby-daring-tracker": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "kruphix-god-of-horizons": [
+      "2026-09-22"
+    ],
+    "gornog-the-red-reaper": [
+      "2026-09-22"
+    ],
+    "zevlor-elturel-exile": [
+      "2026-09-22"
+    ],
+    "rukarumel-biologist": [
+      "2026-09-22"
+    ],
+    "dionus-elvish-archdruid": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "grimgrin-corpse-born": [
+      "2026-09-22"
+    ],
+    "muddle-the-ever-changing": [
+      "2026-09-22"
+    ],
+    "falco-spara-pactweaver": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "eris-roar-of-the-storm": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "niv-mizzet-reborn": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "carmen-cruel-skymarcher": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "edea-possessed-sorceress": [
+      "2026-09-22"
+    ],
+    "torbran-thane-of-red-fell": [
+      "2026-09-22"
+    ],
+    "the-serpent-society": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "kathril-aspect-warper": [
+      "2026-09-22"
+    ],
+    "rev-tithe-extractor": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "the-astonishing-ant-man": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "river-song": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "avacyn-angel-of-hope": [
+      "2026-09-22"
+    ],
+    "urza-lord-protector": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "bumi-unleashed": [
+      "2026-09-22"
+    ],
+    "teysa-orzhov-scion": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "kutzil-malamet-exemplar": [
+      "2026-09-22"
+    ],
+    "chiss-goria-forge-tyrant": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "the-cabbage-merchant": [
+      "2026-09-22"
+    ],
+    "heroes-in-a-half-shell": [
+      "2026-09-22"
+    ],
+    "the-capitoline-triad": [
+      "2026-09-22"
+    ],
+    "valgavoth-terror-eater": [
+      "2026-09-22"
+    ],
+    "tchalla-the-black-panther": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "the-watcher-in-the-water": [
+      "2026-09-22"
+    ],
+    "gandalf-party-guest": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "the-master-transcendent": [
+      "2026-09-22"
+    ],
+    "crystal-inhuman-princess": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "knuckles-the-echidna": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "mayael-the-anima": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "vaevictis-asmadi-the-dire": [
+      "2026-09-22"
+    ],
+    "kykar-zephyr-awakener": [
+      "2026-09-22"
+    ],
+    "volrath-the-shapestealer": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "ardyn-the-usurper": [
+      "2026-09-22"
+    ],
+    "lathliss-dragon-queen": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "the-howling-abomination": [
+      "2026-09-22"
+    ],
+    "kami-of-the-crescent-moon": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "myra-the-magnificent": [
+      "2026-09-22"
+    ],
+    "yenna-redtooth-regent": [
+      "2026-09-22"
+    ],
+    "araumi-of-the-dead-tide": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "jolene-the-plunder-queen": [
+      "2026-09-22"
+    ],
+    "kamiz-obscura-oculus": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "esix-fractal-bloom": [
+      "2026-09-22"
+    ],
+    "homer-the-hermit": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "bard-king-of-dale": [
+      "2026-09-22"
+    ],
+    "cormela-glamour-thief": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "octavia-living-thesis": [
+      "2026-09-22"
+    ],
+    "uugguu-the-omniplasm": [
+      "2026-09-22",
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "primo-the-unbounded": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "general-tazri": [
+      "2026-09-22",
+      "2026-09-22"
+    ],
+    "hidetsugu-and-kairi": [
+      "2026-09-22"
+    ],
+    "gix-yawgmoth-praetor": [
+      "2026-09-22"
+    ],
+    "shiko-paragon-of-the-way": [
       "2026-09-22"
     ]
   },
