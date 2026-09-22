@@ -99,18 +99,32 @@ test("a commander past rank 3,000 is not scored at all", () => {
 });
 
 test("below the floor the commander is unscored and its bracket counts are still shown", () => {
-  const score = scoreCommander({ ...massimo, bracketCounts: [1, 2, 3, 1, 1], archetypeDepth: undefined, retentionTrend: undefined });
+  const score = scoreCommander({ ...massimo, bracketCounts: [1, 2, 3, 1, 1] });
   assert.equal(score.unscored, true);
   assert.equal(score.edgeScore, undefined);
   assert.deepEqual(score.bracketCounts, [1, 2, 3, 1, 1]);
   assert.match(score.reason, /below the floor/);
 });
 
-test("a missing component is dropped rather than counted as zero", () => {
+test("a missing non-gating component is dropped rather than counted as zero", () => {
   const full = scoreCommander({ ...massimo, archetypeDepth: 0.576, retentionTrend: undefined });
   assert.equal(full.quality.retention, undefined);
   assert.equal(full.partial, true);
   assert.equal(full.worksScore, 0.576, "two equal components renormalise to their shared value");
+});
+
+test("bracket fit is the gating component: without it there is no score at all", () => {
+  const noBrackets = scoreCommander({ ...massimo, bracketCounts: [1, 2, 3, 1, 1] });
+  assert.equal(noBrackets.unscored, true);
+  assert.equal(noBrackets.edgeScore, undefined);
+  assert.match(noBrackets.reason, /below the floor/);
+});
+
+test("a commander we know least about cannot top a commander with real bracket evidence", () => {
+  const thin = scoreCommander({ ...massimo, bracketCounts: [0, 0, 8, 0, 0], archetypeDepth: 1, retentionTrend: [10, 10, 40, 40] });
+  const evidenced = scoreCommander({ ...massimo, archetypeDepth: 0.5, retentionTrend: [10, 10, 12, 12] });
+  assert.equal(thin.unscored, true);
+  assert.ok(evidenced.edgeScore > 0);
 });
 
 test("combo presence never reaches the score", () => {

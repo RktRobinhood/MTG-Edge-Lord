@@ -42,7 +42,9 @@ Brackets 1 (Exhibition) and 2 (Core) contribute nothing to the numerator but sta
 
 Roughly 12% of decks carry bracket tags. Below **30 bracket-tagged decks**, bracket distribution is **displayed but contributes zero** to the score, and the commander is labelled *insufficient data* rather than scored low. Absence of evidence is not evidence of jank.
 
-A commander missing one component entirely — no save history yet, say — is not scored zero on it either. The missing component is dropped and the remaining weights renormalise, and the result is flagged `partialScore`. A commander with no components at all is `unscored`, with a readable reason, and sorts last rather than being ranked as a zero.
+**Bracket fit gates the score.** It is the only direct evidence that a commander is built to win, so a commander below the floor is unscored rather than ranked on the other two components. Without that rule the top of the default sort fills with commanders we know least about: archetype depth and retention alone put a commander with 13 bracket-tagged decks above one with 438. In practice the rule costs little — 2,457 of the 2,501 commanders in the scored band clear the floor.
+
+A commander missing one of the *other* components — no save history yet, say — is not scored zero on it. The missing component is dropped, the remaining weights renormalise, and the result is flagged `partialScore`. An unscored commander carries a readable reason and sorts last rather than being ranked as a zero.
 
 ### Implementation
 
