@@ -17,7 +17,7 @@
 | Group | Fields | Source |
 | --- | --- | --- |
 | Identity | `name`, `slug`, `scryfallId` | Scryfall / EDHREC |
-| Card facts | `colorIdentity`, `manaValue`, `types`, `price`, `setCode`, `releasedAt` | Scryfall bulk |
+| Card facts | `colorIdentity`, `manaValue`, `types`, `creatureTypes`, `price`, `setCode`, `releasedAt` | Scryfall bulk |
 | Mechanics | `functionalTags` | Scryfall Tagger bulk |
 | Popularity | `edhrecRank`, `deckCount`, `asOf`, `tier` | EDHREC |
 | Quality | `bracketCounts`, `bracketFit`, `archetypeDepth`, `retention`, `worksScore`, `edgeScore` | EDHREC pages |
@@ -25,6 +25,18 @@
 | Discovery | `findingIds`, `momentum`, `cohortScore` | Pipeline |
 
 `tier` is one of `meta`, `rare`, `edge`, `uncharted`, derived from rank. Quality fields are **absent rather than zero** for commanders below the confidence floor; the UI renders those as *insufficient data*.
+
+### Card facts
+
+`colorIdentity` is a **WUBRG-ordered string**, not an array: `"BG"`, or `""` for colourless. There are only 32 possible values, so the column costs almost nothing once dictionary-encoded, and `"BG".includes("B")` is the whole of the *includes* filter semantics. *Exact* compares the string; *at most* checks every character of the commander's identity against the selection.
+
+`types` holds the card types with `Legendary` stripped (`["Artifact", "Creature"]`). `creatureTypes` holds the subtypes, and is empty for a non-creature commander. Both come from the front face of a double-faced card.
+
+`price` is USD, non-foil where Scryfall has one and foil otherwise. It is **absent rather than zero** when Scryfall has no price, which is normal for an unreleased set.
+
+`functionalTags` are Scryfall Tagger oracle tags **rolled up to a configured root**. Tagger's taxonomy is ~4,500 tags, most far too granular to filter on (`tutor-creature-giant`); each root in `src/connectors/scryfall-bulk.js` absorbs its whole subtree, so that commander filters under `tutor`. Adding a root there adds a filter axis.
+
+Commanders are joined to Scryfall **by name, not by id**. Scryfall's `id` identifies one chosen printing, which need not be the printing EDHREC references. Partner and background pairings arrive from EDHREC as combined names, match no single card, and correctly keep their card facts absent.
 
 ## Generated datasets
 

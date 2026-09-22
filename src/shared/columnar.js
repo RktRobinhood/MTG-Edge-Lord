@@ -66,7 +66,9 @@ function roundValue(value, path, precision) {
 // Three shapes, chosen per column by whichever serialises smallest:
 //
 //   raw     one entry per record
-//   dict    few distinct values; stores each once plus an index per record
+//   dict    few distinct values; stores each once plus an index per record.
+//           Arrays and objects count, which is what makes `colorIdentity`
+//           cheap: 6,792 records share at most 32 distinct colour identities.
 //   sparse  one value dominates; stores that `fill` plus the exceptions
 //
 // `sparse` covers more than missing data. A column that is `0` for every
@@ -76,9 +78,7 @@ function roundValue(value, path, precision) {
 function chooseColumn(values) {
   const distinct = distinctValues(values);
   const candidates = [rawColumn(values), sparseColumn(values, modalValue(values))];
-  if (distinct.length * 3 < values.length && distinct.every(isDictable)) {
-    candidates.push(dictColumn(values, distinct));
-  }
+  if (distinct.length * 3 < values.length) candidates.push(dictColumn(values, distinct));
   return candidates.reduce((best, candidate) => weight(candidate) < weight(best) ? candidate : best);
 }
 
@@ -106,7 +106,7 @@ function dictColumn(values, distinct) {
 
 function expandColumn(column, count) {
   if (column.kind === "raw") return column.values;
-  if (column.kind === "dict") return column.index.map((at) => at === -1 ? ABSENT : column.keys[at]);
+  if (column.kind === "dict") return column.index.map((at) => at === -1 ? ABSENT : clone(column.keys[at]));
   if (column.kind === "sparse") {
     const values = Array.from({ length: count }, () => clone(column.fill));
     column.index.forEach((position, at) => { values[position] = column.values[at]; });
@@ -135,11 +135,6 @@ function clone(value) {
 /** Serialised size, used only to pick between candidate encodings. */
 function weight(column) {
   return JSON.stringify(column).length;
-}
-
-/** Dictionary keys must survive a Map lookup, so only primitives qualify. */
-function isDictable(value) {
-  return value === ABSENT || typeof value !== "object";
 }
 
 function valueKey(value) {

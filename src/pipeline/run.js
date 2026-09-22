@@ -2,7 +2,9 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { manualConnector } from "../connectors/manual.js";
 import { scryfallConnector } from "../connectors/scryfall.js";
+import { CARD_FACT_FIELDS, scryfallBulkConnector } from "../connectors/scryfall-bulk.js";
 import { edhrecConnector } from "../connectors/edhrec.js";
+import { readPipelineState, writePipelineState } from "./state.js";
 import { sha256 } from "../shared/fingerprint.js";
 import { assertValid, createValidator } from "../shared/validation.js";
 import { decodeCommanders, isColumnar } from "../shared/catalog.js";
@@ -27,8 +29,17 @@ export async function runPipeline({ root, network = false, now = new Date(), fet
   let findings = manual.map(normalizeFinding);
 
   if (network) {
+    const pipelineState = await readPipelineState(root);
     const catalogResult = await safeCatalog(edhrecConnector, catalog, { root, fetch: fetchImpl, today, sleep }, diagnostics);
-    catalog = catalogResult.commanders;
+    catalog = carryCardFacts(catalogResult.commanders, previousCommanders);
+    const enrichment = await safeCatalogEnrich(scryfallBulkConnector, catalog, {
+      root,
+      fetch: fetchImpl,
+      state: pipelineState[scryfallBulkConnector.id] ?? {}
+    }, diagnostics);
+    catalog = enrichment.commanders;
+    pipelineState[scryfallBulkConnector.id] = enrichment.state;
+    await writePipelineState(root, pipelineState);
     if (catalogResult.changed) history = updateCommanderHistory(history, catalog, today);
     findings.push(...deriveMomentumFindings(catalog, history, `${today}T00:00:00.000Z`).map(normalizeFinding));
     findings = await safeEnrich(scryfallConnector, findings, { root, fetch: fetchImpl }, diagnostics);
@@ -54,6 +65,35 @@ async function safeEnrich(connector, findings, context, diagnostics) {
   } catch (error) {
     diagnostics.push(`${connector.id}: FAILED — ${error.message}; retained unenriched findings.`);
     return findings;
+  }
+}
+
+/**
+ * A fresh EDHREC crawl returns rank and deck count only. Card facts from a
+ * previous run are still valid — a commander's colour identity does not change
+ * — so they are carried across before enrichment runs. That is what lets the
+ * Scryfall connector skip its download when the bulk file has not moved.
+ */
+function carryCardFacts(fresh, previous) {
+  const bySlug = new Map(previous.map((commander) => [commander.slug, commander]));
+  return fresh.map((commander) => {
+    const prior = bySlug.get(commander.slug);
+    if (!prior) return commander;
+    const facts = Object.fromEntries(CARD_FACT_FIELDS
+      .filter((field) => prior[field] !== undefined)
+      .map((field) => [field, prior[field]]));
+    return { ...commander, ...facts };
+  });
+}
+
+async function safeCatalogEnrich(connector, commanders, context, diagnostics) {
+  try {
+    const result = await connector.enrichCatalog(commanders, context);
+    diagnostics.push(...result.diagnostics.map((message) => `${connector.id}: ${message}`));
+    return result;
+  } catch (error) {
+    diagnostics.push(`${connector.id}: FAILED — ${error.message}; retained the previous card facts.`);
+    return { commanders, state: context.state ?? {} };
   }
 }
 

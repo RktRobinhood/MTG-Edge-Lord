@@ -26,6 +26,7 @@ The `EL` button opens search, recent finds, and card-first discovery. Data is ca
 - `research/inbox/` — reviewed, attributable findings awaiting/generated into the feed.
 - `schema/` — public JSON schemas.
 - `data/` — generated static backend and compact history.
+- `state/` — pipeline bookkeeping that must survive between scheduled runs; never published.
 - `docs/` — product, architecture, scoring, data, schema, and source policy.
 - `.github/workflows/` — daily research build and Pages publication.
 

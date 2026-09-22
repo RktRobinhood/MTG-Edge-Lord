@@ -12,7 +12,7 @@ Access status below was verified on 2026-09-21.
 
 | Source | Signal | Access |
 | --- | --- | --- |
-| **Scryfall bulk** | Card identity, colours, types, mana value, price | `oracle_cards` (~25MB gz) + `oracle_tags` (~6MB gz), daily. Scryfall asks broad consumers to use bulk rather than the API. |
+| **Scryfall bulk** | Card identity, colours, types, mana value, price, functional tags | `oracle_cards` (24MB gz) + `oracle_tags` (6MB gz), verified 2026-09-22. Both published as gzipped JSONL and streamed line by line. Scryfall asks broad consumers to use bulk rather than the API; `updated_at` on the bulk index is checked first, so an unchanged file costs one request. |
 | **EDHREC commander JSON** | Rank, deck count, brackets, themes, synergy, save history | Targeted daily walk of public commander pages. `robots.txt` permits; a commanders sitemap is published. |
 | **EDHREC articles RSS** | Daily deck tech on specific commanders | `https://edhrec.com/articles/feed`. Supports ETag/Last-Modified. |
 | **Archidekt API** | New/updated decks, per-commander deck counts, primers, per-card notes, self-reported bracket | Unauthenticated JSON. `/api/` permitted by `robots.txt`; staff grant permission publicly in [forum thread 2832338](https://archidekt.com/forum/thread/2832338). **Rate limit: 40 req/min** per staff. |
