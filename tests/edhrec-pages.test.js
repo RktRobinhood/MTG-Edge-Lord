@@ -89,6 +89,32 @@ test("daily save counts collapse into weekly totals, oldest first", () => {
   assert.deepEqual(weeklyRetention(undefined), []);
 });
 
+test("weeks are calendar windows, so a sparse series does not distort them", () => {
+  // EDHREC omits days with no saves rather than reporting a zero. Grouping
+  // every seven entries would let one "week" span months.
+  // Five complete weeks back from 2026-09-05. The 08-01 entry falls outside
+  // them and is dropped rather than padding a sixth, partial week.
+  assert.deepEqual(
+    weeklyRetention({ "2026-08-01": 5, "2026-08-20": 3, "2026-09-01": 2, "2026-09-05": 9 }),
+    [0, 0, 3, 0, 11]
+  );
+  // A week with no saves at all is a real zero, not a gap. Weeks are counted
+  // back from the newest day, so 09-02..09-22 is three of them and the 09-01
+  // entry sits one day outside.
+  assert.deepEqual(weeklyRetention({ "2026-09-02": 4, "2026-09-22": 6 }), [4, 0, 6]);
+  assert.deepEqual(weeklyRetention({ "2026-09-01": 4, "2026-09-22": 6 }), [0, 0, 6]);
+});
+
+test("an incomplete trailing week is dropped rather than compared against full ones", () => {
+  // 50 days is seven weeks and a spare day. Counting that day as an eighth
+  // week would put a one-day total beside seven-day ones.
+  const fifty = Object.fromEntries(Array.from({ length: 50 }, (_, day) => {
+    const date = new Date(Date.UTC(2026, 7, 3) + day * 86400000).toISOString().slice(0, 10);
+    return [date, 10];
+  }));
+  assert.deepEqual(weeklyRetention(fifty), [70, 70, 70, 70, 70, 70, 70]);
+});
+
 test("archetype depth scales mean synergy by how full the high-synergy list is", () => {
   const deep = archetypeDepthFrom({ container: { json_dict: { cardlists: [{ tag: "highsynergycards", cardviews: Array.from({ length: 8 }, () => ({ synergy: 0.5 })) }] } } });
   const shallow = archetypeDepthFrom(page);

@@ -176,8 +176,21 @@ export function applyCohortScores(commanders, today, options = {}) {
     delete commander.cohortScore;
     delete commander.cohort;
     if (hasGraduated(commander, today)) return commander;
+
+    // **A new arrival never keeps an Edge score.** `withEdgeScore` runs first
+    // and attaches one to anything clearing the bracket gate, but inside the
+    // release window the rank that score is built on is meaningless — which
+    // is the whole reason cohort scoring exists. Leaving both on the record
+    // let the two renderers disagree: the badge showed the Edge score while
+    // every word beneath it described the cohort one, 36 points apart at
+    // worst. The scores are mutually exclusive by construction here.
+    delete commander.edgeScore;
+    delete commander.partialScore;
+
     const cohort = cohorts.get(commander.setCode);
     const score = scoreCohort(commander, cohort, options);
+    // Missing the cohort bar means no score at all, not a fallback to the
+    // Edge score: "new commanders are never surfaced purely for being new".
     if (score.unscored || score.cohortScore < minScore) return commander;
     scored += 1;
     return {
@@ -187,7 +200,8 @@ export function applyCohortScores(commanders, today, options = {}) {
         setCode: score.cohortSetCode,
         size: score.cohortSize,
         position: score.cohortPosition
-      }
+      },
+      ...(score.partial ? { partialScore: true } : {})
     };
   });
 

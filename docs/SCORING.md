@@ -36,6 +36,10 @@ Brackets 1 (Exhibition) and 2 (Core) contribute nothing to the numerator but sta
 
 **Retention** catches the set-release trap. Jank gets tried once. Edge gets rebuilt.
 
+It measures the most recent fortnight against the commander's **own highest week**, not against its earlier average. The question is whether the interest it attracted is still there, and "is it growing" is already answered independently by `momentum` — rewarding growth here would count it twice. Holding steady therefore scores 1, and a commander that shed two thirds of a spike scores about 0.3.
+
+A peak inside the final fortnight that sits well above the earlier baseline returns **no value at all**, and the component is dropped. That is a commander people have only just picked up, where no retention evidence exists in either direction; an earlier two-half comparison gave those full marks, which handed maximum retention to precisely the untested spike this component exists to catch.
+
 **Combo presence is displayed but never scored.** Combo density correlates with cEDH, and scoring it would quietly drag recommendations back toward the meta this product exists to escape.
 
 ### Confidence floor
@@ -57,7 +61,9 @@ Global rank is meaningless for a card released three weeks ago — everything ne
 - **Cohort position:** where it sits among the legends released in the same set.
 - **Interest-to-traction ratio:** discussion volume ÷ deck count. High chatter with low builds means people are intrigued but nobody has committed. That is the sleeper.
 
-The high flyers score badly on the ratio precisely because everyone is already building them, which is the intended behaviour. A commander **graduates** to the normal Edge score at 400 decks, or when it ages out of the 120-day release window; the two scores never sit on the same record, so a cohort score cannot be mistaken for an Edge score.
+The high flyers score badly on the ratio precisely because everyone is already building them, which is the intended behaviour. A commander **graduates** to the normal Edge score at 400 decks, or when it ages out of the 120-day release window.
+
+**The two scores are mutually exclusive.** Inside the window, before graduation, a commander carries a cohort score or nothing — never an Edge score, because the rank that score is built on is the very thing this section says is meaningless for a new card. A new arrival that misses the cohort bar is unscored rather than falling back to an Edge score.
 
 Cohort position rewards the overlooked middle of a set, not its top: the set leader is the commander everyone is already building. The interest numerator comes from the discovery lanes' rolling 60-day coverage window; without it the score degrades to cohort position alone and is flagged partial. A new commander is **never surfaced merely for being new** — it must clear a minimum cohort score to carry one at all.
 

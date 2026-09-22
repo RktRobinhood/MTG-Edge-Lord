@@ -87,23 +87,55 @@ export function bracketFit(bracketCounts) {
   return round3(weighted / tagged);
 }
 
+/** Weeks compared against the peak when judging retention. */
+const RECENT_WEEKS = 2;
+
 /**
- * Whether saves are holding up or falling away, in 0..1.
+ * A final window this far above the fortnight **immediately before it** is a
+ * step change rather than a trend.
+ *
+ * Compared against the preceding window, not the whole earlier history: a
+ * commander climbing steadily for two months ends at its peak too, and
+ * against a long-run mean that looks identical to a spike. At 1.5x versus the
+ * long-run mean, 492 commanders on gentle upward trends were being discarded
+ * as unjudgeable.
+ */
+const SPIKE_RATIO = 2;
+
+/**
+ * Whether saves are holding up against this commander's own peak, in 0..1.
  *
  * This catches the set-release trap: jank gets tried once, edge gets rebuilt.
- * The most recent half of the trend is compared against the earlier half, so a
- * commander whose saves have held steady scores 0.5 and one still climbing
- * scores above it. A single week of data says nothing, so it returns `null`.
+ * So the question is not "is it growing" — `momentum` already answers that,
+ * and rewarding growth here would count it twice — but "is the interest it
+ * attracted still there".
+ *
+ * Measured as the recent fortnight against the highest week on record. A
+ * commander holding at its peak scores 1; one that shed two thirds of a spike
+ * scores about 0.3.
+ *
+ * Returns `null` when there is nothing to judge yet: too little history, or a
+ * peak in the final window that is well above the earlier baseline. That
+ * second case is a commander people have only just picked up, where no
+ * retention evidence exists in either direction. Scoring it full marks — as
+ * an earlier two-half comparison did — handed maximum retention to precisely
+ * the untested spike this component exists to catch.
  */
 export function retention(retentionTrend) {
   if (!Array.isArray(retentionTrend) || retentionTrend.length < 4) return null;
   const weeks = retentionTrend.map((count) => Math.max(0, Number(count) || 0));
-  const split = Math.floor(weeks.length / 2);
-  const earlier = mean(weeks.slice(0, split));
-  const later = mean(weeks.slice(split));
-  if (earlier <= 0) return later > 0 ? 1 : null;
-  // A ratio of 1 (holding steady) maps to 0.5; doubling saturates at 1.
-  return round3(clamp01(later / earlier / 2));
+  const peak = Math.max(...weeks);
+  if (peak <= 0) return null;
+
+  const recentWeeks = weeks.slice(-RECENT_WEEKS);
+  const precedingWeeks = weeks.slice(-RECENT_WEEKS * 2, -RECENT_WEEKS);
+  const recent = mean(recentWeeks);
+  const preceding = mean(precedingWeeks);
+
+  const stepChange = Math.max(...recentWeeks) === peak && recent > preceding * SPIKE_RATIO;
+  if (stepChange) return null;
+
+  return round3(clamp01(recent / peak));
 }
 
 /**

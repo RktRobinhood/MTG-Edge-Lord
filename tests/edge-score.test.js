@@ -60,12 +60,33 @@ test("tiers come from rank", () => {
   assert.equal(tierForRank(undefined), "uncharted");
 });
 
-test("retention reads the trend, and one week of data says nothing", () => {
-  assert.equal(retention([10, 10, 10, 10]), 0.5);
-  assert.ok(retention([10, 10, 40, 40]) > 0.5);
-  assert.ok(retention([40, 40, 10, 10]) < 0.5);
-  assert.equal(retention([10, 10]), null);
+test("retention measures saves against the commander's own peak", () => {
+  assert.equal(retention([10, 10, 10, 10]), 1, "holding steady is full retention, not half");
+  assert.equal(retention([40, 40, 10, 10]), 0.25);
+  assert.equal(retention([200, 150, 40, 20]), 0.15);
+  assert.equal(retention([10, 10]), null, "too little history to judge");
   assert.equal(retention(undefined), null);
+  assert.equal(retention([0, 0, 0, 0]), null, "no saves at all is not retention data");
+});
+
+test("a spike that sheds most of its volume is penalised, not rewarded", () => {
+  // Horobi, Death's Wail on 2026-09-22: tried once, then abandoned. A
+  // two-half comparison scored this 1.0, because it cannot see decay inside
+  // the later half.
+  assert.ok(retention([34, 46, 40, 38, 222, 114, 76, 77]) < 0.4);
+});
+
+test("a peak in the final fortnight is no evidence either way, so it is unscored", () => {
+  // Jace, Vryn's Prodigy: picked up in the last two weeks. Nothing yet says
+  // whether the interest sticks, and full marks would be a guess.
+  assert.equal(retention([21, 21, 29, 27, 23, 32, 126, 130]), null);
+});
+
+test("retention does not double-count growth, which momentum already measures", () => {
+  const holding = retention([50, 50, 50, 50, 50, 50, 50, 50]);
+  const creeping = retention([10, 11, 12, 13, 14, 15, 16, 17]);
+  assert.equal(holding, 1);
+  assert.ok(creeping <= 1 && creeping > 0.9, "gentle growth is retained, not extra-rewarded");
 });
 
 test("the edge score is multiplicative, so both halves must hold", () => {

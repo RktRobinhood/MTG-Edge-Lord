@@ -6,6 +6,7 @@ import {
   SORTS,
   buildSearchIndex,
   filterCommanders,
+  hydrateCommanders,
   matchesColors,
   sortCommanders
 } from "../src/userscript/search.js";
@@ -14,29 +15,34 @@ const commanders = [
   {
     name: "Massimo, the Magician", slug: "massimo", colorIdentity: "WUR", manaValue: 3, price: 4.27,
     types: ["Creature"], creatureTypes: ["Cat", "Wizard"], themes: ["spellslinger", "burn"],
-    functionalTags: ["copy", "recursion"], tier: "edge", edgeScore: 57.6, worksScore: 0.576, momentum: 44,
+    functionalTags: ["copy", "recursion"], momentum: 44,
+    bracketCounts: [4, 109, 142, 11, 6], archetypeDepth: 0.42, retentionTrend: [66, 71, 86, 105, 114, 91, 103, 117],
     releasedAt: "2026-11-09", popularity: { edhrecRank: 1050, deckCount: 2200 }
   },
   {
     name: "Krenko, Mob Boss", slug: "krenko", colorIdentity: "R", manaValue: 4, price: 0.5,
     types: ["Creature"], creatureTypes: ["Goblin", "Warrior"], themes: ["tokens", "goblins"],
-    functionalTags: ["ramp"], tier: "meta", momentum: 47.8,
+    functionalTags: ["ramp"], momentum: 47.8,
     releasedAt: "2012-07-13", popularity: { edhrecRank: 5, deckCount: 44161 }
   },
   {
     name: "Sidar Jabari of Zhalfir", slug: "sidar", colorIdentity: "W", manaValue: 2, price: 1.1,
     types: ["Creature"], creatureTypes: ["Human", "Knight"], themes: ["knights", "aggro"],
-    functionalTags: ["evasion"], tier: "edge", edgeScore: 31.2, worksScore: 0.312, momentum: 12,
+    functionalTags: ["evasion"], momentum: 12,
+    bracketCounts: [10, 60, 30, 5, 0], archetypeDepth: 0.2, retentionTrend: [30, 30, 30, 30],
     releasedAt: "2024-02-09", popularity: { edhrecRank: 2100, deckCount: 900 }
   },
   {
     name: "Unscored Legend", slug: "unscored", colorIdentity: "BG", manaValue: 5,
-    types: ["Creature"], creatureTypes: ["Elf"], tier: "edge", momentum: 8,
+    types: ["Creature"], creatureTypes: ["Elf"], momentum: 8,
     popularity: { edhrecRank: 2800, deckCount: 140 }
   }
 ];
 
+// The index hydrates: tier and every score component are recomputed from the
+// raw inputs, exactly as the userscript does with the published dataset.
 const index = buildSearchIndex(commanders);
+const hydrated = hydrateCommanders(commanders);
 const filters = (overrides) => ({ ...DEFAULT_FILTERS, ...overrides });
 
 test("the index is built from named fields, so field names are not matchable", () => {
@@ -94,35 +100,43 @@ test("a commander with no price is not treated as expensive", () => {
   assert.deepEqual(budget.map((c) => c.slug).sort(), ["krenko", "unscored"]);
 });
 
-test("scoredOnly hides commanders the pipeline could not score", () => {
+test("scoredOnly hides commanders with no bracket evidence", () => {
   const scored = filterCommanders(index, filters({ tier: "edge", scoredOnly: true }));
   assert.deepEqual(scored.map((c) => c.slug).sort(), ["massimo", "sidar"]);
+});
+
+test("the index recomputes tier and score from the raw inputs", () => {
+  const massimo = index.commanders.find((c) => c.slug === "massimo");
+  assert.equal(massimo.tier, "edge");
+  assert.equal(massimo.edgeScore, 58.6);
+  assert.equal(massimo.quality.bracketFit, 0.576);
+  assert.equal(index.commanders.find((c) => c.slug === "unscored").edgeScore, undefined);
 });
 
 test("the default sort is Edge score, and popularity is never the fallback", () => {
   assert.equal(DEFAULT_SORT, "edge");
   assert.notEqual(DEFAULT_SORT, "deckCount");
   assert.equal(SORTS[0].id, "edge");
-  const sorted = sortCommanders(commanders, DEFAULT_SORT);
+  const sorted = sortCommanders(hydrated, DEFAULT_SORT);
   assert.deepEqual(sorted.map((c) => c.slug), ["massimo", "sidar", "krenko", "unscored"]);
 });
 
 test("an unrecognised sort falls back to Edge score, not to popularity", () => {
-  assert.deepEqual(sortCommanders(commanders, "nonsense").map((c) => c.slug), sortCommanders(commanders, DEFAULT_SORT).map((c) => c.slug));
+  assert.deepEqual(sortCommanders(hydrated, "nonsense").map((c) => c.slug), sortCommanders(hydrated, DEFAULT_SORT).map((c) => c.slug));
 });
 
 test("an unscored commander sorts last rather than being ranked as a zero", () => {
-  const sorted = sortCommanders(commanders, "edge");
+  const sorted = sortCommanders(hydrated, "edge");
   assert.equal(sorted.at(-1).slug, "unscored");
   assert.equal(sorted.at(-1).edgeScore, undefined);
 });
 
 test("cheapest-first puts the unpriced commander last, not first", () => {
-  assert.deepEqual(sortCommanders(commanders, "price").map((c) => c.slug), ["krenko", "sidar", "massimo", "unscored"]);
+  assert.deepEqual(sortCommanders(hydrated, "price").map((c) => c.slug), ["krenko", "sidar", "massimo", "unscored"]);
 });
 
 test("popularity is available as a sort, it is just never the default", () => {
-  assert.deepEqual(sortCommanders(commanders, "deckCount").map((c) => c.slug), ["krenko", "massimo", "sidar", "unscored"]);
+  assert.deepEqual(sortCommanders(hydrated, "deckCount").map((c) => c.slug), ["krenko", "massimo", "sidar", "unscored"]);
 });
 
 test("filter vocabularies come from the data, most-used first", () => {

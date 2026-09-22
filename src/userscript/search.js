@@ -1,4 +1,4 @@
-import { scoreCommander } from "../shared/edge-score.js";
+import { scoreCommander, tierForRank } from "../shared/edge-score.js";
 
 /**
  * Commander search: index, filter, sort.
@@ -60,16 +60,36 @@ export const DEFAULT_FILTERS = Object.freeze({
  * exact functions of what it does carry. Running the pipeline's own scorer
  * here costs microseconds per record and saves about 110KB on a file that
  * loads with every EDHREC page view.
+ *
+ * The **recomputed** score is what gets rendered, not the stored one. An
+ * earlier version computed a fresh score and then threw it away in favour of
+ * the published number: the components on screen and the headline above them
+ * could have come from different model versions and nothing would have
+ * noticed. Using one source for both makes that disagreement impossible
+ * rather than merely unlikely, and `tests/datasets.test.js` asserts the two
+ * agree across the published catalogue so a real drift still fails the build.
+ *
+ * A cohort-scored commander has no Edge score by construction, so its
+ * `cohortScore` is left exactly as published.
  */
 export function hydrateCommanders(commanders) {
   return commanders.map((commander) => {
+    if (commander.cohortScore !== undefined) return { ...commander, tier: tierForRank(commander.popularity?.edhrecRank) };
     const score = scoreCommander(commander);
-    if (score.unscored) return { ...commander, tier: score.tier };
+    if (score.unscored) {
+      // A stored score the client cannot reproduce is a backend/client skew.
+      // Dropping it means the panel says "insufficient data" rather than
+      // rendering a number it does not stand behind.
+      const rest = { ...commander, tier: score.tier };
+      delete rest.edgeScore;
+      return rest;
+    }
     return {
       ...commander,
       tier: score.tier,
       obscurity: score.obscurity,
       worksScore: score.worksScore,
+      edgeScore: score.edgeScore,
       quality: score.quality
     };
   });

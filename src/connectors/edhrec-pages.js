@@ -153,19 +153,38 @@ function selectSynergyCards(payload) {
 
 /**
  * EDHREC publishes ~50 days of daily save counts. Stored raw that is a
- * kilobyte per commander, and retention is a trend rather than a daily series,
- * so days collapse into weekly totals oldest-first.
+ * kilobyte per commander, and retention is a trend rather than a daily
+ * series, so days collapse into weekly totals, oldest first.
+ *
+ * Bucketed by **calendar date, not by array position**. EDHREC omits days
+ * with no saves rather than reporting a zero, so a quiet commander's entries
+ * are sparse: grouping every seven entries would let one "week" span months
+ * and stop the halves being comparable windows. Weeks are counted back from
+ * the most recent day, and a week with no saves at all is a real zero.
  */
 export function weeklyRetention(savedateCounts) {
   if (!savedateCounts || typeof savedateCounts !== "object") return [];
   const days = Object.entries(savedateCounts)
     .filter(([date]) => /^\d{4}-\d{2}-\d{2}$/.test(date))
-    .sort(([a], [b]) => a.localeCompare(b));
+    .map(([date, count]) => [Date.parse(`${date}T00:00:00Z`), Math.max(0, Number(count) || 0)])
+    .filter(([time]) => Number.isFinite(time));
   if (!days.length) return [];
 
-  const weeks = [];
-  for (let index = Math.max(0, days.length - RETENTION_WEEKS * 7); index < days.length; index += 7) {
-    weeks.push(days.slice(index, index + 7).reduce((sum, [, count]) => sum + (Number(count) || 0), 0));
+  const latest = Math.max(...days.map(([time]) => time));
+  const earliest = Math.min(...days.map(([time]) => time));
+  const week = 7 * 86400000;
+  // Complete weeks only. EDHREC publishes 50 days, which is seven weeks and a
+  // day; counting that spare day as an eighth week would put a one-day total
+  // beside seven-day ones and make the windows incomparable.
+  const spanWeeks = Math.min(RETENTION_WEEKS, Math.floor((latest - earliest + 86400000) / week));
+  if (spanWeeks < 1) return [];
+
+  // Index 0 is the oldest kept week; the newest week ends on `latest`.
+  const weeks = Array.from({ length: spanWeeks }, () => 0);
+  for (const [time, count] of days) {
+    const weeksBack = Math.floor((latest - time) / week);
+    if (weeksBack >= spanWeeks) continue;
+    weeks[spanWeeks - 1 - weeksBack] += count;
   }
   return weeks;
 }
