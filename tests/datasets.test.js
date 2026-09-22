@@ -90,6 +90,21 @@ test("a new arrival never carries both an Edge score and a cohort score", () => 
   assert.equal(published.every((c) => c.cohortScore === undefined || c.edgeScore === undefined), true);
 });
 
+test("the client never invents a score the pipeline withheld", () => {
+  // A new arrival that missed the cohort bar carries no score by design.
+  // The client cannot see that reasoning, so it must not re-derive one.
+  const withheld = [{
+    ...catalog[0],
+    setCode: "msh",
+    releasedAt: "2026-08-15",
+    popularity: { edhrecRank: 2338, deckCount: 398, asOf: "2026-09-22" }
+  }];
+  const published = decodeCommanders(build(withheld)["commanders.json"]);
+  assert.equal(published[0].edgeScore, undefined, "the pipeline withholds it");
+  assert.equal(published[0].cohortScore, undefined, "and it missed the cohort bar");
+  assert.equal(hydrateCommanders(published)[0].edgeScore, undefined, "so the client must leave it withheld");
+});
+
 test("the client reproduces the published Edge score exactly", () => {
   const published = decodeCommanders(build(catalog)["commanders.json"]);
   for (const commander of hydrateCommanders(published)) {

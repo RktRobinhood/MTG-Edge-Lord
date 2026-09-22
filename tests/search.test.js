@@ -11,11 +11,14 @@ import {
   sortCommanders
 } from "../src/userscript/search.js";
 
+// Shaped like published records: the pipeline's `edgeScore` is present and
+// the client recomputes the components around it. A record with no published
+// score is one the pipeline withheld, and stays withheld.
 const commanders = [
   {
     name: "Massimo, the Magician", slug: "massimo", colorIdentity: "WUR", manaValue: 3, price: 4.27,
     types: ["Creature"], creatureTypes: ["Cat", "Wizard"], themes: ["spellslinger", "burn"],
-    functionalTags: ["copy", "recursion"], momentum: 44,
+    functionalTags: ["copy", "recursion"], momentum: 44, edgeScore: 58.6,
     bracketCounts: [4, 109, 142, 11, 6], archetypeDepth: 0.42, retentionTrend: [66, 71, 86, 105, 114, 91, 103, 117],
     releasedAt: "2026-11-09", popularity: { edhrecRank: 1050, deckCount: 2200 }
   },
@@ -28,7 +31,7 @@ const commanders = [
   {
     name: "Sidar Jabari of Zhalfir", slug: "sidar", colorIdentity: "W", manaValue: 2, price: 1.1,
     types: ["Creature"], creatureTypes: ["Human", "Knight"], themes: ["knights", "aggro"],
-    functionalTags: ["evasion"], momentum: 12,
+    functionalTags: ["evasion"], momentum: 12, edgeScore: 41.3,
     bracketCounts: [10, 60, 30, 5, 0], archetypeDepth: 0.2, retentionTrend: [30, 30, 30, 30],
     releasedAt: "2024-02-09", popularity: { edhrecRank: 2100, deckCount: 900 }
   },
@@ -105,12 +108,13 @@ test("scoredOnly hides commanders with no bracket evidence", () => {
   assert.deepEqual(scored.map((c) => c.slug).sort(), ["massimo", "sidar"]);
 });
 
-test("the index recomputes tier and score from the raw inputs", () => {
+test("the index recomputes tier and components, and agrees with the published score", () => {
   const massimo = index.commanders.find((c) => c.slug === "massimo");
   assert.equal(massimo.tier, "edge");
-  assert.equal(massimo.edgeScore, 58.6);
+  assert.equal(massimo.edgeScore, 58.6, "the client's own arithmetic reproduces the published number");
   assert.equal(massimo.quality.bracketFit, 0.576);
   assert.equal(index.commanders.find((c) => c.slug === "unscored").edgeScore, undefined);
+  assert.equal(index.commanders.find((c) => c.slug === "krenko").tier, "meta");
 });
 
 test("the default sort is Edge score, and popularity is never the fallback", () => {

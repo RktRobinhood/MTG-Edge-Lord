@@ -75,6 +75,16 @@ export const DEFAULT_FILTERS = Object.freeze({
 export function hydrateCommanders(commanders) {
   return commanders.map((commander) => {
     if (commander.cohortScore !== undefined) return { ...commander, tier: tierForRank(commander.popularity?.edhrecRank) };
+
+    // Recompute a score, never invent one. A commander the pipeline left
+    // unscored stays unscored: the pipeline withholds a score for reasons
+    // this function cannot see — a new arrival inside its release window is
+    // deliberately given neither an Edge score nor, if it missed the cohort
+    // bar, any score at all. Scoring it here resurrected 23 Edge scores the
+    // pipeline had just removed, undoing the mutual exclusion one layer up
+    // from where it was enforced.
+    if (commander.edgeScore === undefined) return { ...commander, tier: tierForRank(commander.popularity?.edhrecRank) };
+
     const score = scoreCommander(commander);
     if (score.unscored) {
       // A stored score the client cannot reproduce is a backend/client skew.
