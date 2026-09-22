@@ -1,0 +1,15 @@
+# The generated files in `data/` are validated byte-for-byte against the
+# sha256 and byte count recorded in `data/manifest.json`. Git's autocrlf on a
+# Windows checkout rewrites every newline and the file no longer matches the
+# manifest that describes it, so `npm run validate` fails on a clean clone
+# while CI, which runs on Linux, stays green.
+#
+# Normalise to LF everywhere. The pipeline writes LF, so this keeps the
+# working tree identical to what was hashed.
+* text=auto eol=lf
+
+# Binary, never touched.
+*.png binary
+*.jpg binary
+*.gif binary
+*.webp binary
