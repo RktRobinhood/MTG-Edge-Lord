@@ -1,7 +1,7 @@
 {
   "id": "lagrella-the-magpie-bounce-not-blink-2026-09-23",
   "findingType": "emerging_brew",
-  "title": "Build Bant value as a bounce-to-hand deck rather than a blink deck, because returning your own permanent to hand re-triggers cast triggers that flickering never gives you.",
+  "title": "Bounce beats blink for Lagrella, because recasting re-fires cast triggers",
   "summary": "The argument is that cheap creatures which return one of your own permanents to hand beat the standard blink package on three counts: they mostly cost two mana, they can save noncreature permanents and lands, and recasting re-fires cast triggers a flicker skips. That last point is the whole reason the shell exists, and it is what makes Shardless Agent and The One Ring work here. Lagrella was picked last, chosen to fit a game plan already built rather than to define it, so the deck survives her being answered.",
   "source": {
     "name": "EDHREC Articles",

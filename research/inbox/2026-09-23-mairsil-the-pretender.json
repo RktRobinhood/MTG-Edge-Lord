@@ -1,7 +1,7 @@
 {
   "id": "mairsil-the-pretender-caged-loyalty-2026-09-23",
   "findingType": "deep_dive_resource",
-  "title": "Encroaching Mycosynth makes planeswalker cards in hand and graveyard artifacts, so Mairsil can cage them and use their loyalty abilities — and because the once-per-turn loyalty limit is per permanent, every token copy of Mairsil gets a fresh activation.",
+  "title": "Encroaching Mycosynth lets Mairsil cage planeswalkers for their loyalty abilities",
   "summary": "Encroaching Mycosynth turns planeswalker cards into artifacts, which is a card type Mairsil's cage trigger can exile, so he gains loyalty abilities without ever being a planeswalker. A caged Chandra, Flameshaper is the engine: her plus ability makes a hasty token copy of Mairsil, and because the per-turn loyalty restriction applies per permanent, each new token can activate again. The primer catalogues a dozen loyalty-ability kill routes and works through the rules edges, including why making Mairsil an actual planeswalker kills him to state-based actions.",
   "source": {
     "name": "Archidekt",

@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "537bcece5cdde789",
-  "generatedAt": "2026-09-22T20:10:33.016Z",
+  "dataVersion": "f36d385e1fef681c",
+  "generatedAt": "2026-09-23T07:08:24.324Z",
   "files": {
     "findings.json": {
-      "sha256": "6e7f7888c6c11acfe96da469a89f4416f34e873b87b4c5b8a11cf40efc6871ba",
-      "bytes": 4069
+      "sha256": "9cf3e9e7337762f55a12ebccf97a4010b85512567be8b80ad60f17176b2122c8",
+      "bytes": 45661
     },
     "commanders.json": {
-      "sha256": "b8ca7a3bac8061e275f3506f72e34928e9776b8bf928d36887f6dad474a98d71",
-      "bytes": 1463155
+      "sha256": "122b23ee3c4c50363e33f6bb124976cb69ce9c103d61a09d68c2a412305a3d11",
+      "bytes": 1463487
     },
     "commander-detail.json": {
-      "sha256": "54cf66b16120bea00f395bc7898fc671c1959e8b7cd6d1e9736ea644347fe0c4",
+      "sha256": "5626b46bd3b9c43601a4103b1ed7017d9e002a29945471822ae2e21012ab327e",
       "bytes": 1244168
     },
     "hidden-cards.json": {
-      "sha256": "5cfda272748462e73601d3c025a7e0317121876816b6b47d5271286d7c5f3905",
-      "bytes": 2385
+      "sha256": "326b35cd4334914c94e2b27c6f3e91cdddc87b6b3f1382bb4682c867ed8358ce",
+      "bytes": 37445
     },
     "community-resources.json": {
-      "sha256": "bf988a28bb290ad93562ee0abe683e591d3bb9bbe2c222ffa49f191f3624db50",
-      "bytes": 1685
+      "sha256": "c0328cd494bb19292cbab26c3e963670fae06a3c2a9c65ff314af7c20b6a9825",
+      "bytes": 19713
     },
     "relationships/card-commander.json": {
-      "sha256": "8a9df9cfe37ed80230d39bf7641082c44ede2fa69bae9734fc4ed1f5fcf89df7",
-      "bytes": 3391
+      "sha256": "ca07ab55024a8ed13db032a2e68c2ad967109b76bd7dea6c7561fea2a9664677",
+      "bytes": 46689
     },
     "archive.json": {
-      "sha256": "9aa492424196cc3e77aebb5222678d26f6f6fbbd5b8d2c3dfafb25e769361a7e",
-      "bytes": 762
+      "sha256": "6ad72e9abe3d3ade343710403f033a169f725ba85b789517b855050d60c8b12b",
+      "bytes": 7328
     }
   }
 }

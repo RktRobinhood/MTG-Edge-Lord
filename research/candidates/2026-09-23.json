@@ -101,7 +101,7 @@
   {
     "id": "baron-helmut-zemo-landless-boast-2026-09-23",
     "findingType": "emerging_brew",
-    "title": "A landless mono-black Oops All Spells deck where Zemo's boast trigger is the reanimation spell, so milling the library with Balustrade Spy needs nothing else in hand to become a kill.",
+    "title": "Zemo's boast is the reanimation spell, so Oops All Spells needs nothing in hand",
     "summary": "Cutting lands entirely lets a self-targeted Balustrade Spy mill the whole deck, after which attacking with Zemo and paying his boast free-casts three creatures out of the graveyard to drain the table. Zemo also fixes the archetype's usual dead-draw problem, because his connive filters toward combo pieces and the boast casts from the graveyard rather than the hand, so it never bricks the Oops line. Cards stranded in hand are dumped with Phantasmagorian before the mill.",
     "source": {
       "name": "Archidekt",
@@ -197,7 +197,7 @@
   {
     "id": "the-scarlet-witch-ritual-threshold-2026-09-23",
     "findingType": "emerging_brew",
-    "title": "She only discounts instants and sorceries of mana value 4 or greater, so the deck fills with expensive rituals instead of cheap cantrips and every spell is mana-positive.",
+    "title": "The Scarlet Witch only discounts big spells, so the deck runs rituals not cantrips",
     "summary": "Spells are selected to clear the mana-value-four threshold and give red mana back, so each cast is mana-neutral or better once her power reduces the cost, with refund effects bolted onto the spells that do not produce mana themselves. Her power is then pumped by equipment that scales off instants and sorceries in the graveyard, which the wheels are already filling. The finish is an X spell whose own mana value carries the discount, and the primer gives the power threshold each option needs.",
     "source": {
       "name": "Archidekt",
@@ -285,7 +285,7 @@
   {
     "id": "yshtola-rhul-extra-end-step-2026-09-23",
     "findingType": "relationship_signal",
-    "title": "Y'shtola is not a blink commander but an extra-end-step commander: her first trigger each turn grants an additional end step, so every end-step payoff in the deck fires twice.",
+    "title": "Y'shtola is an extra-end-step commander, not a blink one, so payoffs fire twice",
     "summary": "The primer states the rules boundary plainly — only the first end step grants the bonus, so the loop is exactly two iterations and does not chain — and then builds payoffs that cash in the second end step directly rather than simply adding more blink outlets. Independent blink engines are kept deliberately so the plan survives losing a six-mana commander to removal. The write-up is candid about the shell's thin removal and missing finisher.",
     "source": {
       "name": "Archidekt",
@@ -373,7 +373,7 @@
   {
     "id": "mairsil-the-pretender-caged-loyalty-2026-09-23",
     "findingType": "deep_dive_resource",
-    "title": "Encroaching Mycosynth makes planeswalker cards in hand and graveyard artifacts, so Mairsil can cage them and use their loyalty abilities — and because the once-per-turn loyalty limit is per permanent, every token copy of Mairsil gets a fresh activation.",
+    "title": "Encroaching Mycosynth lets Mairsil cage planeswalkers for their loyalty abilities",
     "summary": "Encroaching Mycosynth turns planeswalker cards into artifacts, which is a card type Mairsil's cage trigger can exile, so he gains loyalty abilities without ever being a planeswalker. A caged Chandra, Flameshaper is the engine: her plus ability makes a hasty token copy of Mairsil, and because the per-turn loyalty restriction applies per permanent, each new token can activate again. The primer catalogues a dozen loyalty-ability kill routes and works through the rules edges, including why making Mairsil an actual planeswalker kills him to state-based actions.",
     "source": {
       "name": "Archidekt",
@@ -467,7 +467,7 @@
   {
     "id": "selenia-dark-angel-lifecost-loop-2026-09-23",
     "findingType": "emerging_brew",
-    "title": "Stack enough cost reduction that Selenia's recast costs no mana at all, only life, turning her self-bounce into a mana-free loop priced at six life a lap.",
+    "title": "Cost-reduce Selenia to zero mana and her bounce loop costs only life",
     "summary": "Generic cost reducers take Selenia down to one white and one black pip, and the two Defilers let both pips be paid with life, so each bounce-and-recast loop costs six life and no mana. The deck treats the draining life total as the resource rather than the problem: cumulative-upkeep creatures are run deliberately as life sinks, proliferate adds age counters to the builder's own permanents to spend life faster, and life-total swap effects reset the clock. The primer is honest that this is six laps from a full life total, not an infinite combo.",
     "source": {
       "name": "Archidekt",
@@ -564,7 +564,7 @@
   {
     "id": "lagrella-the-magpie-bounce-not-blink-2026-09-23",
     "findingType": "emerging_brew",
-    "title": "Build Bant value as a bounce-to-hand deck rather than a blink deck, because returning your own permanent to hand re-triggers cast triggers that flickering never gives you.",
+    "title": "Bounce beats blink for Lagrella, because recasting re-fires cast triggers",
     "summary": "The argument is that cheap creatures which return one of your own permanents to hand beat the standard blink package on three counts: they mostly cost two mana, they can save noncreature permanents and lands, and recasting re-fires cast triggers a flicker skips. That last point is the whole reason the shell exists, and it is what makes Shardless Agent and The One Ring work here. Lagrella was picked last, chosen to fit a game plan already built rather than to define it, so the deck survives her being answered.",
     "source": {
       "name": "EDHREC Articles",
@@ -664,7 +664,7 @@
   {
     "id": "liliana-the-faultless-spellshaper-outlet-2026-09-23",
     "findingType": "relationship_signal",
-    "title": "Her activated ability is templated like a Spellshaper — pay mana, discard a card — which gives mono-white Reanimator the repeatable discard outlet it has never had.",
+    "title": "Liliana is templated like a Spellshaper, giving mono-white its discard outlet",
     "summary": "The build is around the cost of the ability rather than its effect: the discard is the point and the hexproof is incidental. Because the ability needs another creature to target, the deck backfills with actual Spellshapers that share the template and so never lack a target, then treats the cleanup step as a second outlet by running catch-up land tutors to push the grip past seven while the one-land-per-turn rule keeps the excess there. Recursion runs off Emeria, the Sky Ruin, duplicated with land-copying effects rather than tutored for once.",
     "source": {
       "name": "EDHREC Articles",
@@ -761,7 +761,7 @@
   {
     "id": "uldaros-theorix-no-ramp-dredge-2026-09-23",
     "findingType": "emerging_brew",
-    "title": "Cut essentially all traditional ramp, because a turn-two Arcane Signet is slower than a turn-two Merfolk Looter when the deck's clock is dredge velocity rather than mana.",
+    "title": "Uldaros cuts all ramp, because a turn-two looter beats a turn-two Signet",
     "summary": "The commander's exile-copy-cast trigger invites a two-card graveyard combo, and the author deliberately builds away from it, running a looter-plus-dredge engine instead that activates at instant speed in response to graveyard hate. The no-ramp decision is argued on mulligan and sequencing grounds rather than curve: ramp muddies which opening hands are keepable. Uldaros bridges to the mass-reanimation top end by casting a cheap reanimate effect that returns a spell-recurring creature, and the manabase runs multi-type lands so card-type-counting payoffs stay live.",
     "source": {
       "name": "EDHREC Articles",
@@ -858,7 +858,7 @@
   {
     "id": "the-muckslinger-gang-noncombat-anthem-2026-09-23",
     "findingType": "relationship_signal",
-    "title": "Its +3/+3 anthem switches off the moment a creature attacks or blocks, so the deck must cash in size everywhere except combat — including on creature cards sitting in the graveyard, which get the buff too.",
+    "title": "The Muckslinger Gang's anthem switches off in combat, so cash in size elsewhere",
     "summary": "The commander pumps your other creatures only while they are not attacking or blocking, and separately pumps creature cards you own in every zone but the battlefield and the stack. A Jund build treats that as a deckbuilding instruction rather than an anthem: it grows creatures with permanent counters, then converts power into damage and cards through sacrifice, fling effects and power-threshold payoffs, leaving the team home as blockers. Because the buff reaches the graveyard, effects that read power off a card in the yard get bigger for free.",
     "source": {
       "name": "Archidekt",
@@ -954,7 +954,7 @@
   {
     "id": "calamity-galloping-inferno-double-saddle-2026-09-23",
     "findingType": "relationship_signal",
-    "title": "The saddle trigger ends with \"Repeat this process once\", so one attack makes two attacking copies of whichever nonlegendary creature saddled it, doubling that creature's enter-the-battlefield trigger.",
+    "title": "Calamity's saddle trigger repeats, making two copies and doubling an ETB",
     "summary": "A budget mono-red build is organised around the second half of the attack trigger, which runs the copy process twice rather than once. Because the commander has haste it can be cast, saddled with a cheap enter-the-battlefield creature and attack on the same turn, doubling that trigger immediately for mana, cards, removal or damage. The copy only happens for a nonlegendary saddler, which pushes the creature base toward cheap repeatable enter triggers instead of marquee legends.",
     "source": {
       "name": "Archidekt",

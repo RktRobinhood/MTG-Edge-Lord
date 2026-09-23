@@ -2,6 +2,307 @@
   "schemaVersion": 1,
   "relationships": [
     {
+      "id": "aetherling--mairsil-the-pretender",
+      "card": {
+        "name": "Aetherling",
+        "slug": "aetherling"
+      },
+      "commander": {
+        "name": "Mairsil, the Pretender",
+        "slug": "mairsil-the-pretender"
+      },
+      "findingIds": [
+        "mairsil-the-pretender-caged-loyalty-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/3698836"
+      ],
+      "evidenceStrength": 0.85,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 21.3
+    },
+    {
+      "id": "chandra-flameshaper--mairsil-the-pretender",
+      "card": {
+        "name": "Chandra, Flameshaper",
+        "slug": "chandra-flameshaper"
+      },
+      "commander": {
+        "name": "Mairsil, the Pretender",
+        "slug": "mairsil-the-pretender"
+      },
+      "findingIds": [
+        "mairsil-the-pretender-caged-loyalty-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/3698836"
+      ],
+      "evidenceStrength": 0.85,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 21.3
+    },
+    {
+      "id": "encroaching-mycosynth--mairsil-the-pretender",
+      "card": {
+        "name": "Encroaching Mycosynth",
+        "slug": "encroaching-mycosynth"
+      },
+      "commander": {
+        "name": "Mairsil, the Pretender",
+        "slug": "mairsil-the-pretender"
+      },
+      "findingIds": [
+        "mairsil-the-pretender-caged-loyalty-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/3698836"
+      ],
+      "evidenceStrength": 0.85,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 21.3
+    },
+    {
+      "id": "jeska-thrice-reborn--mairsil-the-pretender",
+      "card": {
+        "name": "Jeska, Thrice Reborn",
+        "slug": "jeska-thrice-reborn"
+      },
+      "commander": {
+        "name": "Mairsil, the Pretender",
+        "slug": "mairsil-the-pretender"
+      },
+      "findingIds": [
+        "mairsil-the-pretender-caged-loyalty-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/3698836"
+      ],
+      "evidenceStrength": 0.85,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 21.3
+    },
+    {
+      "id": "nicol-bolas-dragon-god--mairsil-the-pretender",
+      "card": {
+        "name": "Nicol Bolas, Dragon-God",
+        "slug": "nicol-bolas-dragon-god"
+      },
+      "commander": {
+        "name": "Mairsil, the Pretender",
+        "slug": "mairsil-the-pretender"
+      },
+      "findingIds": [
+        "mairsil-the-pretender-caged-loyalty-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/3698836"
+      ],
+      "evidenceStrength": 0.85,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 21.3
+    },
+    {
+      "id": "tevesh-szat-doom-of-fools--mairsil-the-pretender",
+      "card": {
+        "name": "Tevesh Szat, Doom of Fools",
+        "slug": "tevesh-szat-doom-of-fools"
+      },
+      "commander": {
+        "name": "Mairsil, the Pretender",
+        "slug": "mairsil-the-pretender"
+      },
+      "findingIds": [
+        "mairsil-the-pretender-caged-loyalty-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/3698836"
+      ],
+      "evidenceStrength": 0.85,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 21.3
+    },
+    {
+      "id": "the-ozolith--mairsil-the-pretender",
+      "card": {
+        "name": "The Ozolith",
+        "slug": "the-ozolith"
+      },
+      "commander": {
+        "name": "Mairsil, the Pretender",
+        "slug": "mairsil-the-pretender"
+      },
+      "findingIds": [
+        "mairsil-the-pretender-caged-loyalty-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/3698836"
+      ],
+      "evidenceStrength": 0.85,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 21.3
+    },
+    {
+      "id": "balustrade-spy--baron-helmut-zemo",
+      "card": {
+        "name": "Balustrade Spy",
+        "slug": "balustrade-spy"
+      },
+      "commander": {
+        "name": "Baron Helmut Zemo",
+        "slug": "baron-helmut-zemo"
+      },
+      "findingIds": [
+        "baron-helmut-zemo-landless-boast-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/18424569",
+        "https://archidekt.com/decks/25691642"
+      ],
+      "evidenceStrength": 0.78,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 19.5
+    },
+    {
+      "id": "bloodletter-of-aclazotz--baron-helmut-zemo",
+      "card": {
+        "name": "Bloodletter of Aclazotz",
+        "slug": "bloodletter-of-aclazotz"
+      },
+      "commander": {
+        "name": "Baron Helmut Zemo",
+        "slug": "baron-helmut-zemo"
+      },
+      "findingIds": [
+        "baron-helmut-zemo-landless-boast-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/18424569",
+        "https://archidekt.com/decks/25691642"
+      ],
+      "evidenceStrength": 0.78,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 19.5
+    },
+    {
+      "id": "bridge-from-below--baron-helmut-zemo",
+      "card": {
+        "name": "Bridge from Below",
+        "slug": "bridge-from-below"
+      },
+      "commander": {
+        "name": "Baron Helmut Zemo",
+        "slug": "baron-helmut-zemo"
+      },
+      "findingIds": [
+        "baron-helmut-zemo-landless-boast-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/18424569",
+        "https://archidekt.com/decks/25691642"
+      ],
+      "evidenceStrength": 0.78,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 19.5
+    },
+    {
+      "id": "dread-return--baron-helmut-zemo",
+      "card": {
+        "name": "Dread Return",
+        "slug": "dread-return"
+      },
+      "commander": {
+        "name": "Baron Helmut Zemo",
+        "slug": "baron-helmut-zemo"
+      },
+      "findingIds": [
+        "baron-helmut-zemo-landless-boast-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/18424569",
+        "https://archidekt.com/decks/25691642"
+      ],
+      "evidenceStrength": 0.78,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 19.5
+    },
+    {
+      "id": "gray-merchant-of-asphodel--baron-helmut-zemo",
+      "card": {
+        "name": "Gray Merchant of Asphodel",
+        "slug": "gray-merchant-of-asphodel"
+      },
+      "commander": {
+        "name": "Baron Helmut Zemo",
+        "slug": "baron-helmut-zemo"
+      },
+      "findingIds": [
+        "baron-helmut-zemo-landless-boast-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/18424569",
+        "https://archidekt.com/decks/25691642"
+      ],
+      "evidenceStrength": 0.78,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 19.5
+    },
+    {
+      "id": "phantasmagorian--baron-helmut-zemo",
+      "card": {
+        "name": "Phantasmagorian",
+        "slug": "phantasmagorian"
+      },
+      "commander": {
+        "name": "Baron Helmut Zemo",
+        "slug": "baron-helmut-zemo"
+      },
+      "findingIds": [
+        "baron-helmut-zemo-landless-boast-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/18424569",
+        "https://archidekt.com/decks/25691642"
+      ],
+      "evidenceStrength": 0.78,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 19.5
+    },
+    {
+      "id": "twilight-diviner--baron-helmut-zemo",
+      "card": {
+        "name": "Twilight Diviner",
+        "slug": "twilight-diviner"
+      },
+      "commander": {
+        "name": "Baron Helmut Zemo",
+        "slug": "baron-helmut-zemo"
+      },
+      "findingIds": [
+        "baron-helmut-zemo-landless-boast-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/18424569",
+        "https://archidekt.com/decks/25691642"
+      ],
+      "evidenceStrength": 0.78,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 19.5
+    },
+    {
       "id": "great-train-heist--massimo-the-magician",
       "card": {
         "name": "Great Train Heist",
@@ -96,6 +397,1236 @@
       "independentSourceCount": 2,
       "metrics": {},
       "relationshipScore": 19
+    },
+    {
+      "id": "chandra-s-ignition--the-muckslinger-gang",
+      "card": {
+        "name": "Chandra's Ignition",
+        "slug": "chandra-s-ignition"
+      },
+      "commander": {
+        "name": "The Muckslinger Gang",
+        "slug": "the-muckslinger-gang"
+      },
+      "findingIds": [
+        "the-muckslinger-gang-noncombat-anthem-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/25857066",
+        "https://edhrec.com/articles/deck-tech-the-muckslinger-gang"
+      ],
+      "evidenceStrength": 0.75,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18.8
+    },
+    {
+      "id": "garruk-s-uprising--the-muckslinger-gang",
+      "card": {
+        "name": "Garruk's Uprising",
+        "slug": "garruk-s-uprising"
+      },
+      "commander": {
+        "name": "The Muckslinger Gang",
+        "slug": "the-muckslinger-gang"
+      },
+      "findingIds": [
+        "the-muckslinger-gang-noncombat-anthem-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/25857066",
+        "https://edhrec.com/articles/deck-tech-the-muckslinger-gang"
+      ],
+      "evidenceStrength": 0.75,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18.8
+    },
+    {
+      "id": "greater-good--the-muckslinger-gang",
+      "card": {
+        "name": "Greater Good",
+        "slug": "greater-good"
+      },
+      "commander": {
+        "name": "The Muckslinger Gang",
+        "slug": "the-muckslinger-gang"
+      },
+      "findingIds": [
+        "the-muckslinger-gang-noncombat-anthem-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/25857066",
+        "https://edhrec.com/articles/deck-tech-the-muckslinger-gang"
+      ],
+      "evidenceStrength": 0.75,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18.8
+    },
+    {
+      "id": "kazuul-s-fury--the-muckslinger-gang",
+      "card": {
+        "name": "Kazuul's Fury",
+        "slug": "kazuul-s-fury"
+      },
+      "commander": {
+        "name": "The Muckslinger Gang",
+        "slug": "the-muckslinger-gang"
+      },
+      "findingIds": [
+        "the-muckslinger-gang-noncombat-anthem-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/25857066",
+        "https://edhrec.com/articles/deck-tech-the-muckslinger-gang"
+      ],
+      "evidenceStrength": 0.75,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18.8
+    },
+    {
+      "id": "terror-of-the-peaks--the-muckslinger-gang",
+      "card": {
+        "name": "Terror of the Peaks",
+        "slug": "terror-of-the-peaks"
+      },
+      "commander": {
+        "name": "The Muckslinger Gang",
+        "slug": "the-muckslinger-gang"
+      },
+      "findingIds": [
+        "the-muckslinger-gang-noncombat-anthem-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/25857066",
+        "https://edhrec.com/articles/deck-tech-the-muckslinger-gang"
+      ],
+      "evidenceStrength": 0.75,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18.8
+    },
+    {
+      "id": "the-great-henge--the-muckslinger-gang",
+      "card": {
+        "name": "The Great Henge",
+        "slug": "the-great-henge"
+      },
+      "commander": {
+        "name": "The Muckslinger Gang",
+        "slug": "the-muckslinger-gang"
+      },
+      "findingIds": [
+        "the-muckslinger-gang-noncombat-anthem-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/25857066",
+        "https://edhrec.com/articles/deck-tech-the-muckslinger-gang"
+      ],
+      "evidenceStrength": 0.75,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18.8
+    },
+    {
+      "id": "varolz-the-scar-striped--the-muckslinger-gang",
+      "card": {
+        "name": "Varolz, the Scar-Striped",
+        "slug": "varolz-the-scar-striped"
+      },
+      "commander": {
+        "name": "The Muckslinger Gang",
+        "slug": "the-muckslinger-gang"
+      },
+      "findingIds": [
+        "the-muckslinger-gang-noncombat-anthem-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/25857066",
+        "https://edhrec.com/articles/deck-tech-the-muckslinger-gang"
+      ],
+      "evidenceStrength": 0.75,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18.8
+    },
+    {
+      "id": "big-score--the-scarlet-witch",
+      "card": {
+        "name": "Big Score",
+        "slug": "big-score"
+      },
+      "commander": {
+        "name": "The Scarlet Witch",
+        "slug": "the-scarlet-witch"
+      },
+      "findingIds": [
+        "the-scarlet-witch-ritual-threshold-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23886957"
+      ],
+      "evidenceStrength": 0.74,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 18.5
+    },
+    {
+      "id": "birgi-god-of-storytelling--the-scarlet-witch",
+      "card": {
+        "name": "Birgi, God of Storytelling",
+        "slug": "birgi-god-of-storytelling"
+      },
+      "commander": {
+        "name": "The Scarlet Witch",
+        "slug": "the-scarlet-witch"
+      },
+      "findingIds": [
+        "the-scarlet-witch-ritual-threshold-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23886957"
+      ],
+      "evidenceStrength": 0.74,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 18.5
+    },
+    {
+      "id": "comet-storm--the-scarlet-witch",
+      "card": {
+        "name": "Comet Storm",
+        "slug": "comet-storm"
+      },
+      "commander": {
+        "name": "The Scarlet Witch",
+        "slug": "the-scarlet-witch"
+      },
+      "findingIds": [
+        "the-scarlet-witch-ritual-threshold-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23886957"
+      ],
+      "evidenceStrength": 0.74,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 18.5
+    },
+    {
+      "id": "crackle-with-power--the-scarlet-witch",
+      "card": {
+        "name": "Crackle with Power",
+        "slug": "crackle-with-power"
+      },
+      "commander": {
+        "name": "The Scarlet Witch",
+        "slug": "the-scarlet-witch"
+      },
+      "findingIds": [
+        "the-scarlet-witch-ritual-threshold-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23886957"
+      ],
+      "evidenceStrength": 0.74,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 18.5
+    },
+    {
+      "id": "glamdring--the-scarlet-witch",
+      "card": {
+        "name": "Glamdring",
+        "slug": "glamdring"
+      },
+      "commander": {
+        "name": "The Scarlet Witch",
+        "slug": "the-scarlet-witch"
+      },
+      "findingIds": [
+        "the-scarlet-witch-ritual-threshold-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23886957"
+      ],
+      "evidenceStrength": 0.74,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 18.5
+    },
+    {
+      "id": "runechanter-s-pike--the-scarlet-witch",
+      "card": {
+        "name": "Runechanter's Pike",
+        "slug": "runechanter-s-pike"
+      },
+      "commander": {
+        "name": "The Scarlet Witch",
+        "slug": "the-scarlet-witch"
+      },
+      "findingIds": [
+        "the-scarlet-witch-ritual-threshold-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23886957"
+      ],
+      "evidenceStrength": 0.74,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 18.5
+    },
+    {
+      "id": "unexpected-windfall--the-scarlet-witch",
+      "card": {
+        "name": "Unexpected Windfall",
+        "slug": "unexpected-windfall"
+      },
+      "commander": {
+        "name": "The Scarlet Witch",
+        "slug": "the-scarlet-witch"
+      },
+      "findingIds": [
+        "the-scarlet-witch-ritual-threshold-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23886957"
+      ],
+      "evidenceStrength": 0.74,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 18.5
+    },
+    {
+      "id": "alibou-ancient-witness--vraska-soul-of-stone",
+      "card": {
+        "name": "Alibou, Ancient Witness",
+        "slug": "alibou-ancient-witness"
+      },
+      "commander": {
+        "name": "Vraska, Soul of Stone",
+        "slug": "vraska-soul-of-stone",
+        "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+      },
+      "findingIds": [
+        "vraska-soul-of-stone-sculpture-tempo-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/vraska-soul-of-stone-jeskai-weaponized-treasures-on-a-budget/",
+        "https://archidekt.com/decks/26289709"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "brudiclad-telchor-engineer--vraska-soul-of-stone",
+      "card": {
+        "name": "Brudiclad, Telchor Engineer",
+        "slug": "brudiclad-telchor-engineer"
+      },
+      "commander": {
+        "name": "Vraska, Soul of Stone",
+        "slug": "vraska-soul-of-stone",
+        "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+      },
+      "findingIds": [
+        "vraska-soul-of-stone-sculpture-tempo-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/vraska-soul-of-stone-jeskai-weaponized-treasures-on-a-budget/",
+        "https://archidekt.com/decks/26289709"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "losheel-clockwork-scholar--vraska-soul-of-stone",
+      "card": {
+        "name": "Losheel, Clockwork Scholar",
+        "slug": "losheel-clockwork-scholar"
+      },
+      "commander": {
+        "name": "Vraska, Soul of Stone",
+        "slug": "vraska-soul-of-stone",
+        "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+      },
+      "findingIds": [
+        "vraska-soul-of-stone-sculpture-tempo-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/vraska-soul-of-stone-jeskai-weaponized-treasures-on-a-budget/",
+        "https://archidekt.com/decks/26289709"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "springleaf-drum--vraska-soul-of-stone",
+      "card": {
+        "name": "Springleaf Drum",
+        "slug": "springleaf-drum"
+      },
+      "commander": {
+        "name": "Vraska, Soul of Stone",
+        "slug": "vraska-soul-of-stone",
+        "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+      },
+      "findingIds": [
+        "vraska-soul-of-stone-sculpture-tempo-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/vraska-soul-of-stone-jeskai-weaponized-treasures-on-a-budget/",
+        "https://archidekt.com/decks/26289709"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "the-regalia--vraska-soul-of-stone",
+      "card": {
+        "name": "The Regalia",
+        "slug": "the-regalia"
+      },
+      "commander": {
+        "name": "Vraska, Soul of Stone",
+        "slug": "vraska-soul-of-stone",
+        "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+      },
+      "findingIds": [
+        "vraska-soul-of-stone-sculpture-tempo-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/vraska-soul-of-stone-jeskai-weaponized-treasures-on-a-budget/",
+        "https://archidekt.com/decks/26289709"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "third-path-iconoclast--vraska-soul-of-stone",
+      "card": {
+        "name": "Third Path Iconoclast",
+        "slug": "third-path-iconoclast"
+      },
+      "commander": {
+        "name": "Vraska, Soul of Stone",
+        "slug": "vraska-soul-of-stone",
+        "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+      },
+      "findingIds": [
+        "vraska-soul-of-stone-sculpture-tempo-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/vraska-soul-of-stone-jeskai-weaponized-treasures-on-a-budget/",
+        "https://archidekt.com/decks/26289709"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "ambrosia-whiteheart--lagrella-the-magpie",
+      "card": {
+        "name": "Ambrosia Whiteheart",
+        "slug": "ambrosia-whiteheart"
+      },
+      "commander": {
+        "name": "Lagrella, the Magpie",
+        "slug": "lagrella-the-magpie"
+      },
+      "findingIds": [
+        "lagrella-the-magpie-bounce-not-blink-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
+        "https://edhrec.com/articles/nurturing-pixie-the-best-one-drop-you-arent-playing"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "displacer-kitten--lagrella-the-magpie",
+      "card": {
+        "name": "Displacer Kitten",
+        "slug": "displacer-kitten"
+      },
+      "commander": {
+        "name": "Lagrella, the Magpie",
+        "slug": "lagrella-the-magpie"
+      },
+      "findingIds": [
+        "lagrella-the-magpie-bounce-not-blink-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
+        "https://edhrec.com/articles/nurturing-pixie-the-best-one-drop-you-arent-playing"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "kor-skyfisher--lagrella-the-magpie",
+      "card": {
+        "name": "Kor Skyfisher",
+        "slug": "kor-skyfisher"
+      },
+      "commander": {
+        "name": "Lagrella, the Magpie",
+        "slug": "lagrella-the-magpie"
+      },
+      "findingIds": [
+        "lagrella-the-magpie-bounce-not-blink-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
+        "https://edhrec.com/articles/nurturing-pixie-the-best-one-drop-you-arent-playing"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "nurturing-pixie--lagrella-the-magpie",
+      "card": {
+        "name": "Nurturing Pixie",
+        "slug": "nurturing-pixie"
+      },
+      "commander": {
+        "name": "Lagrella, the Magpie",
+        "slug": "lagrella-the-magpie"
+      },
+      "findingIds": [
+        "lagrella-the-magpie-bounce-not-blink-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
+        "https://edhrec.com/articles/nurturing-pixie-the-best-one-drop-you-arent-playing"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "shardless-agent--lagrella-the-magpie",
+      "card": {
+        "name": "Shardless Agent",
+        "slug": "shardless-agent"
+      },
+      "commander": {
+        "name": "Lagrella, the Magpie",
+        "slug": "lagrella-the-magpie"
+      },
+      "findingIds": [
+        "lagrella-the-magpie-bounce-not-blink-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
+        "https://edhrec.com/articles/nurturing-pixie-the-best-one-drop-you-arent-playing"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "the-one-ring--lagrella-the-magpie",
+      "card": {
+        "name": "The One Ring",
+        "slug": "the-one-ring"
+      },
+      "commander": {
+        "name": "Lagrella, the Magpie",
+        "slug": "lagrella-the-magpie"
+      },
+      "findingIds": [
+        "lagrella-the-magpie-bounce-not-blink-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
+        "https://edhrec.com/articles/nurturing-pixie-the-best-one-drop-you-arent-playing"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "whitemane-lion--lagrella-the-magpie",
+      "card": {
+        "name": "Whitemane Lion",
+        "slug": "whitemane-lion"
+      },
+      "commander": {
+        "name": "Lagrella, the Magpie",
+        "slug": "lagrella-the-magpie"
+      },
+      "findingIds": [
+        "lagrella-the-magpie-bounce-not-blink-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
+        "https://edhrec.com/articles/nurturing-pixie-the-best-one-drop-you-arent-playing"
+      ],
+      "evidenceStrength": 0.72,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18
+    },
+    {
+      "id": "adarkar-valkyrie--liliana-the-faultless",
+      "card": {
+        "name": "Adarkar Valkyrie",
+        "slug": "adarkar-valkyrie"
+      },
+      "commander": {
+        "name": "Liliana the Faultless",
+        "slug": "liliana-the-faultless"
+      },
+      "findingIds": [
+        "liliana-the-faultless-spellshaper-outlet-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "devout-witness--liliana-the-faultless",
+      "card": {
+        "name": "Devout Witness",
+        "slug": "devout-witness"
+      },
+      "commander": {
+        "name": "Liliana the Faultless",
+        "slug": "liliana-the-faultless"
+      },
+      "findingIds": [
+        "liliana-the-faultless-spellshaper-outlet-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "emeria-the-sky-ruin--liliana-the-faultless",
+      "card": {
+        "name": "Emeria, the Sky Ruin",
+        "slug": "emeria-the-sky-ruin"
+      },
+      "commander": {
+        "name": "Liliana the Faultless",
+        "slug": "liliana-the-faultless"
+      },
+      "findingIds": [
+        "liliana-the-faultless-spellshaper-outlet-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "gift-of-estates--liliana-the-faultless",
+      "card": {
+        "name": "Gift of Estates",
+        "slug": "gift-of-estates"
+      },
+      "commander": {
+        "name": "Liliana the Faultless",
+        "slug": "liliana-the-faultless"
+      },
+      "findingIds": [
+        "liliana-the-faultless-spellshaper-outlet-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "oreskos-explorer--liliana-the-faultless",
+      "card": {
+        "name": "Oreskos Explorer",
+        "slug": "oreskos-explorer"
+      },
+      "commander": {
+        "name": "Liliana the Faultless",
+        "slug": "liliana-the-faultless"
+      },
+      "findingIds": [
+        "liliana-the-faultless-spellshaper-outlet-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "reya-dawnbringer--liliana-the-faultless",
+      "card": {
+        "name": "Reya Dawnbringer",
+        "slug": "reya-dawnbringer"
+      },
+      "commander": {
+        "name": "Liliana the Faultless",
+        "slug": "liliana-the-faultless"
+      },
+      "findingIds": [
+        "liliana-the-faultless-spellshaper-outlet-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "thespian-s-stage--liliana-the-faultless",
+      "card": {
+        "name": "Thespian's Stage",
+        "slug": "thespian-s-stage"
+      },
+      "commander": {
+        "name": "Liliana the Faultless",
+        "slug": "liliana-the-faultless"
+      },
+      "findingIds": [
+        "liliana-the-faultless-spellshaper-outlet-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "tonic-peddler--liliana-the-faultless",
+      "card": {
+        "name": "Tonic Peddler",
+        "slug": "tonic-peddler"
+      },
+      "commander": {
+        "name": "Liliana the Faultless",
+        "slug": "liliana-the-faultless"
+      },
+      "findingIds": [
+        "liliana-the-faultless-spellshaper-outlet-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "magus-of-the-bazaar--uldaros-theorix",
+      "card": {
+        "name": "Magus of the Bazaar",
+        "slug": "magus-of-the-bazaar"
+      },
+      "commander": {
+        "name": "Uldaros Theorix",
+        "slug": "uldaros-theorix"
+      },
+      "findingIds": [
+        "uldaros-theorix-no-ramp-dredge-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "merfolk-looter--uldaros-theorix",
+      "card": {
+        "name": "Merfolk Looter",
+        "slug": "merfolk-looter"
+      },
+      "commander": {
+        "name": "Uldaros Theorix",
+        "slug": "uldaros-theorix"
+      },
+      "findingIds": [
+        "uldaros-theorix-no-ramp-dredge-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "monument-to-endurance--uldaros-theorix",
+      "card": {
+        "name": "Monument to Endurance",
+        "slug": "monument-to-endurance"
+      },
+      "commander": {
+        "name": "Uldaros Theorix",
+        "slug": "uldaros-theorix"
+      },
+      "findingIds": [
+        "uldaros-theorix-no-ramp-dredge-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "polluted-cistern--uldaros-theorix",
+      "card": {
+        "name": "Polluted Cistern",
+        "slug": "polluted-cistern"
+      },
+      "commander": {
+        "name": "Uldaros Theorix",
+        "slug": "uldaros-theorix"
+      },
+      "findingIds": [
+        "uldaros-theorix-no-ramp-dredge-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "rise-of-the-dark-realms--uldaros-theorix",
+      "card": {
+        "name": "Rise of the Dark Realms",
+        "slug": "rise-of-the-dark-realms"
+      },
+      "commander": {
+        "name": "Uldaros Theorix",
+        "slug": "uldaros-theorix"
+      },
+      "findingIds": [
+        "uldaros-theorix-no-ramp-dredge-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "scholar-of-the-lost-trove--uldaros-theorix",
+      "card": {
+        "name": "Scholar of the Lost Trove",
+        "slug": "scholar-of-the-lost-trove"
+      },
+      "commander": {
+        "name": "Uldaros Theorix",
+        "slug": "uldaros-theorix"
+      },
+      "findingIds": [
+        "uldaros-theorix-no-ramp-dredge-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "stinkweed-imp--uldaros-theorix",
+      "card": {
+        "name": "Stinkweed Imp",
+        "slug": "stinkweed-imp"
+      },
+      "commander": {
+        "name": "Uldaros Theorix",
+        "slug": "uldaros-theorix"
+      },
+      "findingIds": [
+        "uldaros-theorix-no-ramp-dredge-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "teval-s-judgment--uldaros-theorix",
+      "card": {
+        "name": "Teval's Judgment",
+        "slug": "teval-s-judgment"
+      },
+      "commander": {
+        "name": "Uldaros Theorix",
+        "slug": "uldaros-theorix"
+      },
+      "findingIds": [
+        "uldaros-theorix-no-ramp-dredge-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "combat-celebrant--calamity-galloping-inferno",
+      "card": {
+        "name": "Combat Celebrant",
+        "slug": "combat-celebrant"
+      },
+      "commander": {
+        "name": "Calamity, Galloping Inferno",
+        "slug": "calamity-galloping-inferno"
+      },
+      "findingIds": [
+        "calamity-galloping-inferno-double-saddle-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/26597078"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "emrakul-s-hatcher--calamity-galloping-inferno",
+      "card": {
+        "name": "Emrakul's Hatcher",
+        "slug": "emrakul-s-hatcher"
+      },
+      "commander": {
+        "name": "Calamity, Galloping Inferno",
+        "slug": "calamity-galloping-inferno"
+      },
+      "findingIds": [
+        "calamity-galloping-inferno-double-saddle-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/26597078"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "flameshadow-conjuring--calamity-galloping-inferno",
+      "card": {
+        "name": "Flameshadow Conjuring",
+        "slug": "flameshadow-conjuring"
+      },
+      "commander": {
+        "name": "Calamity, Galloping Inferno",
+        "slug": "calamity-galloping-inferno"
+      },
+      "findingIds": [
+        "calamity-galloping-inferno-double-saddle-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/26597078"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "hoarding-dragon--calamity-galloping-inferno",
+      "card": {
+        "name": "Hoarding Dragon",
+        "slug": "hoarding-dragon"
+      },
+      "commander": {
+        "name": "Calamity, Galloping Inferno",
+        "slug": "calamity-galloping-inferno"
+      },
+      "findingIds": [
+        "calamity-galloping-inferno-double-saddle-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/26597078"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "meteor-golem--calamity-galloping-inferno",
+      "card": {
+        "name": "Meteor Golem",
+        "slug": "meteor-golem"
+      },
+      "commander": {
+        "name": "Calamity, Galloping Inferno",
+        "slug": "calamity-galloping-inferno"
+      },
+      "findingIds": [
+        "calamity-galloping-inferno-double-saddle-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/26597078"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "panharmonicon--calamity-galloping-inferno",
+      "card": {
+        "name": "Panharmonicon",
+        "slug": "panharmonicon"
+      },
+      "commander": {
+        "name": "Calamity, Galloping Inferno",
+        "slug": "calamity-galloping-inferno"
+      },
+      "findingIds": [
+        "calamity-galloping-inferno-double-saddle-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/26597078"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "seize-the-day--calamity-galloping-inferno",
+      "card": {
+        "name": "Seize the Day",
+        "slug": "seize-the-day"
+      },
+      "commander": {
+        "name": "Calamity, Galloping Inferno",
+        "slug": "calamity-galloping-inferno"
+      },
+      "findingIds": [
+        "calamity-galloping-inferno-double-saddle-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/26597078"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "axis-of-mortality--selenia-dark-angel",
+      "card": {
+        "name": "Axis of Mortality",
+        "slug": "axis-of-mortality"
+      },
+      "commander": {
+        "name": "Selenia, Dark Angel",
+        "slug": "selenia-dark-angel"
+      },
+      "findingIds": [
+        "selenia-dark-angel-lifecost-loop-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23210749",
+        "https://archidekt.com/decks/14950356"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "contagion-clasp--selenia-dark-angel",
+      "card": {
+        "name": "Contagion Clasp",
+        "slug": "contagion-clasp"
+      },
+      "commander": {
+        "name": "Selenia, Dark Angel",
+        "slug": "selenia-dark-angel"
+      },
+      "findingIds": [
+        "selenia-dark-angel-lifecost-loop-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23210749",
+        "https://archidekt.com/decks/14950356"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "defiler-of-faith--selenia-dark-angel",
+      "card": {
+        "name": "Defiler of Faith",
+        "slug": "defiler-of-faith"
+      },
+      "commander": {
+        "name": "Selenia, Dark Angel",
+        "slug": "selenia-dark-angel"
+      },
+      "findingIds": [
+        "selenia-dark-angel-lifecost-loop-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23210749",
+        "https://archidekt.com/decks/14950356"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "defiler-of-flesh--selenia-dark-angel",
+      "card": {
+        "name": "Defiler of Flesh",
+        "slug": "defiler-of-flesh"
+      },
+      "commander": {
+        "name": "Selenia, Dark Angel",
+        "slug": "selenia-dark-angel"
+      },
+      "findingIds": [
+        "selenia-dark-angel-lifecost-loop-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23210749",
+        "https://archidekt.com/decks/14950356"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "gideon-of-the-trials--selenia-dark-angel",
+      "card": {
+        "name": "Gideon of the Trials",
+        "slug": "gideon-of-the-trials"
+      },
+      "commander": {
+        "name": "Selenia, Dark Angel",
+        "slug": "selenia-dark-angel"
+      },
+      "findingIds": [
+        "selenia-dark-angel-lifecost-loop-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23210749",
+        "https://archidekt.com/decks/14950356"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "karn-s-bastion--selenia-dark-angel",
+      "card": {
+        "name": "Karn's Bastion",
+        "slug": "karn-s-bastion"
+      },
+      "commander": {
+        "name": "Selenia, Dark Angel",
+        "slug": "selenia-dark-angel"
+      },
+      "findingIds": [
+        "selenia-dark-angel-lifecost-loop-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23210749",
+        "https://archidekt.com/decks/14950356"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 15
+    },
+    {
+      "id": "phyrexian-vindicator--selenia-dark-angel",
+      "card": {
+        "name": "Phyrexian Vindicator",
+        "slug": "phyrexian-vindicator"
+      },
+      "commander": {
+        "name": "Selenia, Dark Angel",
+        "slug": "selenia-dark-angel"
+      },
+      "findingIds": [
+        "selenia-dark-angel-lifecost-loop-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/23210749",
+        "https://archidekt.com/decks/14950356"
+      ],
+      "evidenceStrength": 0.6,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 15
     }
   ]
 }

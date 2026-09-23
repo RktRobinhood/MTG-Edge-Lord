@@ -1,7 +1,7 @@
 {
   "id": "baron-helmut-zemo-landless-boast-2026-09-23",
   "findingType": "emerging_brew",
-  "title": "A landless mono-black Oops All Spells deck where Zemo's boast trigger is the reanimation spell, so milling the library with Balustrade Spy needs nothing else in hand to become a kill.",
+  "title": "Zemo's boast is the reanimation spell, so Oops All Spells needs nothing in hand",
   "summary": "Cutting lands entirely lets a self-targeted Balustrade Spy mill the whole deck, after which attacking with Zemo and paying his boast free-casts three creatures out of the graveyard to drain the table. Zemo also fixes the archetype's usual dead-draw problem, because his connive filters toward combo pieces and the boast casts from the graveyard rather than the hand, so it never bricks the Oops line. Cards stranded in hand are dumped with Phantasmagorian before the mill.",
   "source": {
     "name": "Archidekt",

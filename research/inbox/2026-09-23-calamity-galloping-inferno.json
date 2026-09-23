@@ -1,7 +1,7 @@
 {
   "id": "calamity-galloping-inferno-double-saddle-2026-09-23",
   "findingType": "relationship_signal",
-  "title": "The saddle trigger ends with \"Repeat this process once\", so one attack makes two attacking copies of whichever nonlegendary creature saddled it, doubling that creature's enter-the-battlefield trigger.",
+  "title": "Calamity's saddle trigger repeats, making two copies and doubling an ETB",
   "summary": "A budget mono-red build is organised around the second half of the attack trigger, which runs the copy process twice rather than once. Because the commander has haste it can be cast, saddled with a cheap enter-the-battlefield creature and attack on the same turn, doubling that trigger immediately for mana, cards, removal or damage. The copy only happens for a nonlegendary saddler, which pushes the creature base toward cheap repeatable enter triggers instead of marquee legends.",
   "source": {
     "name": "Archidekt",

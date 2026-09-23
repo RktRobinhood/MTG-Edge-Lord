@@ -1,7 +1,7 @@
 {
   "id": "the-muckslinger-gang-noncombat-anthem-2026-09-23",
   "findingType": "relationship_signal",
-  "title": "Its +3/+3 anthem switches off the moment a creature attacks or blocks, so the deck must cash in size everywhere except combat — including on creature cards sitting in the graveyard, which get the buff too.",
+  "title": "The Muckslinger Gang's anthem switches off in combat, so cash in size elsewhere",
   "summary": "The commander pumps your other creatures only while they are not attacking or blocking, and separately pumps creature cards you own in every zone but the battlefield and the stack. A Jund build treats that as a deckbuilding instruction rather than an anthem: it grows creatures with permanent counters, then converts power into damage and cards through sacrifice, fling effects and power-threshold payoffs, leaving the team home as blockers. Because the buff reaches the graveyard, effects that read power off a card in the yard get bigger for free.",
   "source": {
     "name": "Archidekt",

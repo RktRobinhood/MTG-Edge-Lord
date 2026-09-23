@@ -98,6 +98,21 @@ jq '[.[] | select(.tags | index("band-2000-3000"))]' *.json
 jq '[.[] | select(.tags[] | startswith("mech-"))]' *.json
 ```
 
+## Validate with the repo's validator, not a hand-rolled one
+
+Before committing, run every record through `createValidator` from
+`src/shared/validation.js` against `schema/finding.schema.json` — the same call
+`src/pipeline/run.js` makes. Checking required fields and enums by hand is not
+enough and has already failed once: on 2026-09-23 nine of ten records were filed
+with a `title` over the schema's 140-character limit, which a hand-written check
+missed entirely. Nothing caught it until the pipeline refused to build, and
+because publication is the only thing that reads the inbox, the records would
+have sat there looking filed while every scheduled run died on them.
+
+`title` is a **headline**, not the idea sentence. The claim belongs in `summary`,
+which has room for it. If a title runs past about 90 characters it is a sentence
+wearing a title's clothes.
+
 ## Honesty fields
 
 `evidence.tested` means someone reported games played, not that the line is

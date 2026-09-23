@@ -1,7 +1,7 @@
 {
   "id": "selenia-dark-angel-lifecost-loop-2026-09-23",
   "findingType": "emerging_brew",
-  "title": "Stack enough cost reduction that Selenia's recast costs no mana at all, only life, turning her self-bounce into a mana-free loop priced at six life a lap.",
+  "title": "Cost-reduce Selenia to zero mana and her bounce loop costs only life",
   "summary": "Generic cost reducers take Selenia down to one white and one black pip, and the two Defilers let both pips be paid with life, so each bounce-and-recast loop costs six life and no mana. The deck treats the draining life total as the resource rather than the problem: cumulative-upkeep creatures are run deliberately as life sinks, proliferate adds age counters to the builder's own permanents to spend life faster, and life-total swap effects reset the clock. The primer is honest that this is six laps from a full life total, not an infinite combo.",
   "source": {
     "name": "Archidekt",

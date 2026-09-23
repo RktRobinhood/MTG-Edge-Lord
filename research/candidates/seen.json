@@ -70,7 +70,7 @@
       "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "promoted to research/inbox/ on 2026-09-23; A landless mono-black Oops All Spells deck where Zemo's boast trigger is the reanimation spell, so milling the library with Balustrade Spy needs nothing else in",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Zemo's boast is the reanimation spell, so Oops All Spells needs nothing in hand",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ]
@@ -81,7 +81,7 @@
       "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "promoted to research/inbox/ on 2026-09-23; She only discounts instants and sorceries of mana value 4 or greater, so the deck fills with expensive rituals instead of cheap cantrips and every spell is mana",
+      "reason": "promoted to research/inbox/ on 2026-09-23; The Scarlet Witch only discounts big spells, so the deck runs rituals not cantrips",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ]
@@ -92,7 +92,7 @@
       "status": "candidate",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "Y'shtola is not a blink commander but an extra-end-step commander: her first trigger each turn grants an additional end step, so every end-step payoff in the de",
+      "reason": "Y'shtola is an extra-end-step commander, not a blink one, so payoffs fire twice",
       "findingIds": [
         "yshtola-rhul-extra-end-step-2026-09-23"
       ]
@@ -103,7 +103,7 @@
       "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "promoted to research/inbox/ on 2026-09-23; Encroaching Mycosynth makes planeswalker cards in hand and graveyard artifacts, so Mairsil can cage them and use their loyalty abilities — and because the once-",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Encroaching Mycosynth lets Mairsil cage planeswalkers for their loyalty abilities",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ]
@@ -114,7 +114,7 @@
       "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "promoted to research/inbox/ on 2026-09-23; Stack enough cost reduction that Selenia's recast costs no mana at all, only life, turning her self-bounce into a mana-free loop priced at six life a lap.",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Cost-reduce Selenia to zero mana and her bounce loop costs only life",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ]
@@ -125,7 +125,7 @@
       "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "promoted to research/inbox/ on 2026-09-23; Build Bant value as a bounce-to-hand deck rather than a blink deck, because returning your own permanent to hand re-triggers cast triggers that flickering never",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Bounce beats blink for Lagrella, because recasting re-fires cast triggers",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ]
@@ -136,7 +136,7 @@
       "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "promoted to research/inbox/ on 2026-09-23; Her activated ability is templated like a Spellshaper — pay mana, discard a card — which gives mono-white Reanimator the repeatable discard outlet it has never ",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Liliana is templated like a Spellshaper, giving mono-white its discard outlet",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ]
@@ -147,7 +147,7 @@
       "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "promoted to research/inbox/ on 2026-09-23; Cut essentially all traditional ramp, because a turn-two Arcane Signet is slower than a turn-two Merfolk Looter when the deck's clock is dredge velocity rather ",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Uldaros cuts all ramp, because a turn-two looter beats a turn-two Signet",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ]
@@ -158,7 +158,7 @@
       "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "promoted to research/inbox/ on 2026-09-23; Its +3/+3 anthem switches off the moment a creature attacks or blocks, so the deck must cash in size everywhere except combat — including on creature cards sitt",
+      "reason": "promoted to research/inbox/ on 2026-09-23; The Muckslinger Gang's anthem switches off in combat, so cash in size elsewhere",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ]
@@ -169,7 +169,7 @@
       "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "promoted to research/inbox/ on 2026-09-23; The saddle trigger ends with \"Repeat this process once\", so one attack makes two attacking copies of whichever nonlegendary creature saddled it, doubling that c",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Calamity's saddle trigger repeats, making two copies and doubling an ETB",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ]

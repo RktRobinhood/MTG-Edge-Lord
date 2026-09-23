@@ -1,7 +1,7 @@
 {
   "id": "the-scarlet-witch-ritual-threshold-2026-09-23",
   "findingType": "emerging_brew",
-  "title": "She only discounts instants and sorceries of mana value 4 or greater, so the deck fills with expensive rituals instead of cheap cantrips and every spell is mana-positive.",
+  "title": "The Scarlet Witch only discounts big spells, so the deck runs rituals not cantrips",
   "summary": "Spells are selected to clear the mana-value-four threshold and give red mana back, so each cast is mana-neutral or better once her power reduces the cost, with refund effects bolted onto the spells that do not produce mana themselves. Her power is then pumped by equipment that scales off instants and sorceries in the graveyard, which the wheels are already filling. The finish is an X spell whose own mana value carries the discount, and the primer gives the power threshold each option needs.",
   "source": {
     "name": "Archidekt",

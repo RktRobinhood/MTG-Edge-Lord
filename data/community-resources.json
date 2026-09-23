@@ -2,6 +2,50 @@
   "schemaVersion": 1,
   "resources": [
     {
+      "findingId": "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
+      "title": "Vraska's Sculpture tokens are creatures, and two builders route around it differently",
+      "summary": "Reality Fracture's Jeskai Vraska turns every noncreature spell into a 1/1 Sculpture Treasure, but the tokens are artifact creatures, so they cannot tap for mana the turn they arrive. A budget EDHREC deck tech and an unrelated high-power Archidekt primer each build around that constraint and land on opposite answers: the budget list spends the tokens on costs that tap a summoning-sick creature, while the primer adds haste granters so they tap for mana straight away.",
+      "name": "EDHREC Articles",
+      "type": "article",
+      "url": "https://edhrec.com/articles/vraska-soul-of-stone-jeskai-weaponized-treasures-on-a-budget/",
+      "creator": "Tyler Bucks",
+      "resourceDepth": "deep_dive",
+      "commanders": [
+        {
+          "name": "Vraska, Soul of Stone",
+          "slug": "vraska-soul-of-stone",
+          "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Alibou, Ancient Witness",
+          "slug": "alibou-ancient-witness"
+        },
+        {
+          "name": "Brudiclad, Telchor Engineer",
+          "slug": "brudiclad-telchor-engineer"
+        },
+        {
+          "name": "Losheel, Clockwork Scholar",
+          "slug": "losheel-clockwork-scholar"
+        },
+        {
+          "name": "Springleaf Drum",
+          "slug": "springleaf-drum"
+        },
+        {
+          "name": "The Regalia",
+          "slug": "the-regalia"
+        },
+        {
+          "name": "Third Path Iconoclast",
+          "slug": "third-path-iconoclast"
+        }
+      ],
+      "publishedAt": "2026-09-22"
+    },
+    {
       "findingId": "massimo-vraska-spree-2026-09-20",
       "title": "Massimo turns Vraska tokens and Spree spells into a repeatable engine",
       "summary": "A repeat Massimo brewer and follow-up discussion connect Vraska's spell-triggered creature tokens to Massimo's bind ability. Multiple discussions also converge on one-mana Spree cards, especially Great Train Heist, because their additional costs remain payable when Massimo recasts them.",
@@ -40,6 +84,437 @@
         }
       ],
       "publishedAt": "2026-09-20"
+    },
+    {
+      "findingId": "calamity-galloping-inferno-double-saddle-2026-09-23",
+      "title": "Calamity's saddle trigger repeats, making two copies and doubling an ETB",
+      "summary": "A budget mono-red build is organised around the second half of the attack trigger, which runs the copy process twice rather than once. Because the commander has haste it can be cast, saddled with a cheap enter-the-battlefield creature and attack on the same turn, doubling that trigger immediately for mana, cards, removal or damage. The copy only happens for a nonlegendary saddler, which pushes the creature base toward cheap repeatable enter triggers instead of marquee legends.",
+      "name": "Archidekt",
+      "type": "primer",
+      "url": "https://archidekt.com/decks/26597078",
+      "creator": "Panzer-MTG",
+      "resourceDepth": "primer",
+      "commanders": [
+        {
+          "name": "Calamity, Galloping Inferno",
+          "slug": "calamity-galloping-inferno"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Combat Celebrant",
+          "slug": "combat-celebrant"
+        },
+        {
+          "name": "Emrakul's Hatcher",
+          "slug": "emrakul-s-hatcher"
+        },
+        {
+          "name": "Flameshadow Conjuring",
+          "slug": "flameshadow-conjuring"
+        },
+        {
+          "name": "Hoarding Dragon",
+          "slug": "hoarding-dragon"
+        },
+        {
+          "name": "Meteor Golem",
+          "slug": "meteor-golem"
+        },
+        {
+          "name": "Panharmonicon",
+          "slug": "panharmonicon"
+        },
+        {
+          "name": "Seize the Day",
+          "slug": "seize-the-day"
+        }
+      ],
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "findingId": "the-scarlet-witch-ritual-threshold-2026-09-23",
+      "title": "The Scarlet Witch only discounts big spells, so the deck runs rituals not cantrips",
+      "summary": "Spells are selected to clear the mana-value-four threshold and give red mana back, so each cast is mana-neutral or better once her power reduces the cost, with refund effects bolted onto the spells that do not produce mana themselves. Her power is then pumped by equipment that scales off instants and sorceries in the graveyard, which the wheels are already filling. The finish is an X spell whose own mana value carries the discount, and the primer gives the power threshold each option needs.",
+      "name": "Archidekt",
+      "type": "primer",
+      "url": "https://archidekt.com/decks/23886957",
+      "creator": "Verisarity",
+      "resourceDepth": "primer",
+      "commanders": [
+        {
+          "name": "The Scarlet Witch",
+          "slug": "the-scarlet-witch"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Big Score",
+          "slug": "big-score"
+        },
+        {
+          "name": "Birgi, God of Storytelling",
+          "slug": "birgi-god-of-storytelling"
+        },
+        {
+          "name": "Comet Storm",
+          "slug": "comet-storm"
+        },
+        {
+          "name": "Crackle with Power",
+          "slug": "crackle-with-power"
+        },
+        {
+          "name": "Glamdring",
+          "slug": "glamdring"
+        },
+        {
+          "name": "Runechanter's Pike",
+          "slug": "runechanter-s-pike"
+        },
+        {
+          "name": "Unexpected Windfall",
+          "slug": "unexpected-windfall"
+        }
+      ],
+      "publishedAt": "2026-09-18"
+    },
+    {
+      "findingId": "uldaros-theorix-no-ramp-dredge-2026-09-23",
+      "title": "Uldaros cuts all ramp, because a turn-two looter beats a turn-two Signet",
+      "summary": "The commander's exile-copy-cast trigger invites a two-card graveyard combo, and the author deliberately builds away from it, running a looter-plus-dredge engine instead that activates at instant speed in response to graveyard hate. The no-ramp decision is argued on mulligan and sequencing grounds rather than curve: ramp muddies which opening hands are keepable. Uldaros bridges to the mass-reanimation top end by casting a cheap reanimate effect that returns a spell-recurring creature, and the manabase runs multi-type lands so card-type-counting payoffs stay live.",
+      "name": "EDHREC Articles",
+      "type": "article",
+      "url": "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/",
+      "creator": "Kara Blinebry",
+      "resourceDepth": "deep_dive",
+      "commanders": [
+        {
+          "name": "Uldaros Theorix",
+          "slug": "uldaros-theorix"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Magus of the Bazaar",
+          "slug": "magus-of-the-bazaar"
+        },
+        {
+          "name": "Merfolk Looter",
+          "slug": "merfolk-looter"
+        },
+        {
+          "name": "Monument to Endurance",
+          "slug": "monument-to-endurance"
+        },
+        {
+          "name": "Polluted Cistern",
+          "slug": "polluted-cistern"
+        },
+        {
+          "name": "Rise of the Dark Realms",
+          "slug": "rise-of-the-dark-realms"
+        },
+        {
+          "name": "Scholar of the Lost Trove",
+          "slug": "scholar-of-the-lost-trove"
+        },
+        {
+          "name": "Stinkweed Imp",
+          "slug": "stinkweed-imp"
+        },
+        {
+          "name": "Teval's Judgment",
+          "slug": "teval-s-judgment"
+        }
+      ],
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "findingId": "liliana-the-faultless-spellshaper-outlet-2026-09-23",
+      "title": "Liliana is templated like a Spellshaper, giving mono-white its discard outlet",
+      "summary": "The build is around the cost of the ability rather than its effect: the discard is the point and the hexproof is incidental. Because the ability needs another creature to target, the deck backfills with actual Spellshapers that share the template and so never lack a target, then treats the cleanup step as a second outlet by running catch-up land tutors to push the grip past seven while the one-land-per-turn rule keeps the excess there. Recursion runs off Emeria, the Sky Ruin, duplicated with land-copying effects rather than tutored for once.",
+      "name": "EDHREC Articles",
+      "type": "article",
+      "url": "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/",
+      "creator": "John Sherwood",
+      "resourceDepth": "deep_dive",
+      "commanders": [
+        {
+          "name": "Liliana the Faultless",
+          "slug": "liliana-the-faultless"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Adarkar Valkyrie",
+          "slug": "adarkar-valkyrie"
+        },
+        {
+          "name": "Devout Witness",
+          "slug": "devout-witness"
+        },
+        {
+          "name": "Emeria, the Sky Ruin",
+          "slug": "emeria-the-sky-ruin"
+        },
+        {
+          "name": "Gift of Estates",
+          "slug": "gift-of-estates"
+        },
+        {
+          "name": "Oreskos Explorer",
+          "slug": "oreskos-explorer"
+        },
+        {
+          "name": "Reya Dawnbringer",
+          "slug": "reya-dawnbringer"
+        },
+        {
+          "name": "Thespian's Stage",
+          "slug": "thespian-s-stage"
+        },
+        {
+          "name": "Tonic Peddler",
+          "slug": "tonic-peddler"
+        }
+      ],
+      "publishedAt": "2026-09-07"
+    },
+    {
+      "findingId": "lagrella-the-magpie-bounce-not-blink-2026-09-23",
+      "title": "Bounce beats blink for Lagrella, because recasting re-fires cast triggers",
+      "summary": "The argument is that cheap creatures which return one of your own permanents to hand beat the standard blink package on three counts: they mostly cost two mana, they can save noncreature permanents and lands, and recasting re-fires cast triggers a flicker skips. That last point is the whole reason the shell exists, and it is what makes Shardless Agent and The One Ring work here. Lagrella was picked last, chosen to fit a game plan already built rather than to define it, so the deck survives her being answered.",
+      "name": "EDHREC Articles",
+      "type": "article",
+      "url": "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
+      "creator": "Benjamin Levin",
+      "resourceDepth": "deep_dive",
+      "commanders": [
+        {
+          "name": "Lagrella, the Magpie",
+          "slug": "lagrella-the-magpie"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Ambrosia Whiteheart",
+          "slug": "ambrosia-whiteheart"
+        },
+        {
+          "name": "Displacer Kitten",
+          "slug": "displacer-kitten"
+        },
+        {
+          "name": "Kor Skyfisher",
+          "slug": "kor-skyfisher"
+        },
+        {
+          "name": "Nurturing Pixie",
+          "slug": "nurturing-pixie"
+        },
+        {
+          "name": "Shardless Agent",
+          "slug": "shardless-agent"
+        },
+        {
+          "name": "The One Ring",
+          "slug": "the-one-ring"
+        },
+        {
+          "name": "Whitemane Lion",
+          "slug": "whitemane-lion"
+        }
+      ],
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "findingId": "the-muckslinger-gang-noncombat-anthem-2026-09-23",
+      "title": "The Muckslinger Gang's anthem switches off in combat, so cash in size elsewhere",
+      "summary": "The commander pumps your other creatures only while they are not attacking or blocking, and separately pumps creature cards you own in every zone but the battlefield and the stack. A Jund build treats that as a deckbuilding instruction rather than an anthem: it grows creatures with permanent counters, then converts power into damage and cards through sacrifice, fling effects and power-threshold payoffs, leaving the team home as blockers. Because the buff reaches the graveyard, effects that read power off a card in the yard get bigger for free.",
+      "name": "Archidekt",
+      "type": "primer",
+      "url": "https://archidekt.com/decks/25857066",
+      "creator": "Panzer-MTG",
+      "resourceDepth": "primer",
+      "commanders": [
+        {
+          "name": "The Muckslinger Gang",
+          "slug": "the-muckslinger-gang"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Chandra's Ignition",
+          "slug": "chandra-s-ignition"
+        },
+        {
+          "name": "Garruk's Uprising",
+          "slug": "garruk-s-uprising"
+        },
+        {
+          "name": "Greater Good",
+          "slug": "greater-good"
+        },
+        {
+          "name": "Kazuul's Fury",
+          "slug": "kazuul-s-fury"
+        },
+        {
+          "name": "Terror of the Peaks",
+          "slug": "terror-of-the-peaks"
+        },
+        {
+          "name": "The Great Henge",
+          "slug": "the-great-henge"
+        },
+        {
+          "name": "Varolz, the Scar-Striped",
+          "slug": "varolz-the-scar-striped"
+        }
+      ],
+      "publishedAt": "2026-08-29"
+    },
+    {
+      "findingId": "baron-helmut-zemo-landless-boast-2026-09-23",
+      "title": "Zemo's boast is the reanimation spell, so Oops All Spells needs nothing in hand",
+      "summary": "Cutting lands entirely lets a self-targeted Balustrade Spy mill the whole deck, after which attacking with Zemo and paying his boast free-casts three creatures out of the graveyard to drain the table. Zemo also fixes the archetype's usual dead-draw problem, because his connive filters toward combo pieces and the boast casts from the graveyard rather than the hand, so it never bricks the Oops line. Cards stranded in hand are dumped with Phantasmagorian before the mill.",
+      "name": "Archidekt",
+      "type": "primer",
+      "url": "https://archidekt.com/decks/18424569",
+      "creator": "ShinyChicken",
+      "resourceDepth": "primer",
+      "commanders": [
+        {
+          "name": "Baron Helmut Zemo",
+          "slug": "baron-helmut-zemo"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Balustrade Spy",
+          "slug": "balustrade-spy"
+        },
+        {
+          "name": "Bloodletter of Aclazotz",
+          "slug": "bloodletter-of-aclazotz"
+        },
+        {
+          "name": "Bridge from Below",
+          "slug": "bridge-from-below"
+        },
+        {
+          "name": "Dread Return",
+          "slug": "dread-return"
+        },
+        {
+          "name": "Gray Merchant of Asphodel",
+          "slug": "gray-merchant-of-asphodel"
+        },
+        {
+          "name": "Phantasmagorian",
+          "slug": "phantasmagorian"
+        },
+        {
+          "name": "Twilight Diviner",
+          "slug": "twilight-diviner"
+        }
+      ],
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "findingId": "selenia-dark-angel-lifecost-loop-2026-09-23",
+      "title": "Cost-reduce Selenia to zero mana and her bounce loop costs only life",
+      "summary": "Generic cost reducers take Selenia down to one white and one black pip, and the two Defilers let both pips be paid with life, so each bounce-and-recast loop costs six life and no mana. The deck treats the draining life total as the resource rather than the problem: cumulative-upkeep creatures are run deliberately as life sinks, proliferate adds age counters to the builder's own permanents to spend life faster, and life-total swap effects reset the clock. The primer is honest that this is six laps from a full life total, not an infinite combo.",
+      "name": "Archidekt",
+      "type": "primer",
+      "url": "https://archidekt.com/decks/23210749",
+      "creator": "GlitchHunter",
+      "resourceDepth": "primer",
+      "commanders": [
+        {
+          "name": "Selenia, Dark Angel",
+          "slug": "selenia-dark-angel"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Axis of Mortality",
+          "slug": "axis-of-mortality"
+        },
+        {
+          "name": "Contagion Clasp",
+          "slug": "contagion-clasp"
+        },
+        {
+          "name": "Defiler of Faith",
+          "slug": "defiler-of-faith"
+        },
+        {
+          "name": "Defiler of Flesh",
+          "slug": "defiler-of-flesh"
+        },
+        {
+          "name": "Gideon of the Trials",
+          "slug": "gideon-of-the-trials"
+        },
+        {
+          "name": "Karn's Bastion",
+          "slug": "karn-s-bastion"
+        },
+        {
+          "name": "Phyrexian Vindicator",
+          "slug": "phyrexian-vindicator"
+        }
+      ],
+      "publishedAt": "2026-06-20"
+    },
+    {
+      "findingId": "mairsil-the-pretender-caged-loyalty-2026-09-23",
+      "title": "Encroaching Mycosynth lets Mairsil cage planeswalkers for their loyalty abilities",
+      "summary": "Encroaching Mycosynth turns planeswalker cards into artifacts, which is a card type Mairsil's cage trigger can exile, so he gains loyalty abilities without ever being a planeswalker. A caged Chandra, Flameshaper is the engine: her plus ability makes a hasty token copy of Mairsil, and because the per-turn loyalty restriction applies per permanent, each new token can activate again. The primer catalogues a dozen loyalty-ability kill routes and works through the rules edges, including why making Mairsil an actual planeswalker kills him to state-based actions.",
+      "name": "Archidekt",
+      "type": "primer",
+      "url": "https://archidekt.com/decks/3698836",
+      "creator": "kws",
+      "resourceDepth": "deep_dive",
+      "commanders": [
+        {
+          "name": "Mairsil, the Pretender",
+          "slug": "mairsil-the-pretender"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Aetherling",
+          "slug": "aetherling"
+        },
+        {
+          "name": "Chandra, Flameshaper",
+          "slug": "chandra-flameshaper"
+        },
+        {
+          "name": "Encroaching Mycosynth",
+          "slug": "encroaching-mycosynth"
+        },
+        {
+          "name": "Jeska, Thrice Reborn",
+          "slug": "jeska-thrice-reborn"
+        },
+        {
+          "name": "Nicol Bolas, Dragon-God",
+          "slug": "nicol-bolas-dragon-god"
+        },
+        {
+          "name": "Tevesh Szat, Doom of Fools",
+          "slug": "tevesh-szat-doom-of-fools"
+        },
+        {
+          "name": "The Ozolith",
+          "slug": "the-ozolith"
+        }
+      ],
+      "publishedAt": "2026-05-27"
     }
   ]
 }

@@ -2,10 +2,260 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "baron-helmut-zemo",
+      "name": "Baron Helmut Zemo",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "baron-helmut-zemo-landless-boast-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "emerging_brew"
+      ],
+      "sources": [
+        {
+          "name": "Archidekt",
+          "url": "https://archidekt.com/decks/18424569",
+          "creator": "ShinyChicken"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1001,
+        "deckCount": 2412,
+        "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "calamity-galloping-inferno",
+      "name": "Calamity, Galloping Inferno",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "calamity-galloping-inferno-double-saddle-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "relationship_signal"
+      ],
+      "sources": [
+        {
+          "name": "Archidekt",
+          "url": "https://archidekt.com/decks/26597078",
+          "creator": "Panzer-MTG"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1219,
+        "deckCount": 1793,
+        "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "lagrella-the-magpie",
+      "name": "Lagrella, the Magpie",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "lagrella-the-magpie-bounce-not-blink-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "emerging_brew"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC Articles",
+          "url": "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
+          "creator": "Benjamin Levin"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1102,
+        "deckCount": 2092,
+        "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "liliana-the-faultless",
+      "name": "Liliana the Faultless",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "liliana-the-faultless-spellshaper-outlet-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "relationship_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC Articles",
+          "url": "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/",
+          "creator": "John Sherwood"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 2386,
+        "deckCount": 374,
+        "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "mairsil-the-pretender",
+      "name": "Mairsil, the Pretender",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "mairsil-the-pretender-caged-loyalty-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "deep_dive_resource"
+      ],
+      "sources": [
+        {
+          "name": "Archidekt",
+          "url": "https://archidekt.com/decks/3698836",
+          "creator": "kws"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1036,
+        "deckCount": 2315,
+        "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "selenia-dark-angel",
+      "name": "Selenia, Dark Angel",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "selenia-dark-angel-lifecost-loop-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "emerging_brew"
+      ],
+      "sources": [
+        {
+          "name": "Archidekt",
+          "url": "https://archidekt.com/decks/23210749",
+          "creator": "GlitchHunter"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1676,
+        "deckCount": 975,
+        "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "the-muckslinger-gang",
+      "name": "The Muckslinger Gang",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "the-muckslinger-gang-noncombat-anthem-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "relationship_signal"
+      ],
+      "sources": [
+        {
+          "name": "Archidekt",
+          "url": "https://archidekt.com/decks/25857066",
+          "creator": "Panzer-MTG"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1179,
+        "deckCount": 1879,
+        "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "the-scarlet-witch",
+      "name": "The Scarlet Witch",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "the-scarlet-witch-ritual-threshold-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "emerging_brew"
+      ],
+      "sources": [
+        {
+          "name": "Archidekt",
+          "url": "https://archidekt.com/decks/23886957",
+          "creator": "Verisarity"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1121,
+        "deckCount": 2042,
+        "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "uldaros-theorix",
+      "name": "Uldaros Theorix",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "uldaros-theorix-no-ramp-dredge-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "emerging_brew"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC Articles",
+          "url": "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/",
+          "creator": "Kara Blinebry"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 2449,
+        "deckCount": 344,
+        "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "vraska-soul-of-stone",
+      "name": "Vraska, Soul of Stone",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "vraska-soul-of-stone-sculpture-tempo-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "emerging_brew"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC Articles",
+          "url": "https://edhrec.com/articles/vraska-soul-of-stone-jeskai-weaponized-treasures-on-a-budget/",
+          "creator": "Tyler Bucks"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1501,
+        "deckCount": 1225,
+        "asOf": "2026-09-22"
+      }
+    },
+    {
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-09-22",
+      "lastSurfacedAt": "2026-09-23",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],

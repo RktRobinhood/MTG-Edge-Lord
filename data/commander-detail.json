@@ -1,6 +1,106 @@
 {
   "schemaVersion": 1,
   "detail": {
+    "mairsil-the-pretender": {
+      "highSynergyCards": [
+        "aetherling",
+        "arcanis-the-omnipotent",
+        "torchling",
+        "asmodeus-the-archfiend",
+        "buried-alive",
+        "endling",
+        "nevinyrrals-disk",
+        "anger"
+      ],
+      "similar": [
+        "Trazyn the Infinite",
+        "Experiment Kraj",
+        "Lazav, the Multifarious",
+        "Rayami, First of the Fallen",
+        "Volrath, the Shapestealer",
+        "Ashnod the Uncaring"
+      ]
+    },
+    "liliana-the-faultless": {
+      "highSynergyCards": [
+        "souls-attendant",
+        "haliya-guided-by-light",
+        "soul-warden",
+        "cleric-class",
+        "archangel-of-thune",
+        "exemplar-of-light",
+        "guide-of-souls",
+        "celestine-the-living-saint"
+      ],
+      "similar": [
+        "Daxos, Blessed by the Sun",
+        "Eight-and-a-Half-Tails",
+        "Niambi, Esteemed Speaker",
+        "Ayli, Eternal Pilgrim",
+        "Orah, Skyclave Hierophant",
+        "Heliod, Sun-Crowned"
+      ]
+    },
+    "uldaros-theorix": {
+      "highSynergyCards": [
+        "phantasmal-image",
+        "deceptive-frostkite",
+        "flesh-duplicate",
+        "ripples-of-undeath",
+        "glimpse-the-unthinkable",
+        "singularity-rupture",
+        "brain-freeze",
+        "stitchers-supplier"
+      ],
+      "similar": [
+        "Muldrotha, the Gravetide",
+        "Kess, Dissident Mage",
+        "Sedris, the Traitor King",
+        "Tormod, the Desecrator",
+        "Wrexial, the Risen Deep",
+        "Taigam, Sidisi's Hand"
+      ]
+    },
+    "vraska-soul-of-stone": {
+      "highSynergyCards": [
+        "skullclamp",
+        "harmonic-prodigy",
+        "xorn",
+        "academy-manufactor",
+        "an-offer-you-cant-refuse",
+        "roar-of-resistance",
+        "whirlwind-of-thought",
+        "reckless-fireweaver"
+      ],
+      "similar": [
+        "Kykar, Wind's Fury",
+        "Galazeth Prismari",
+        "Elsha of the Infinite",
+        "Alela, Artful Provocateur",
+        "Ovika, Enigma Goliath",
+        "Narset, Enlightened Master"
+      ]
+    },
+    "lagrella-the-magpie": {
+      "highSynergyCards": [
+        "ephemerate",
+        "soulherder",
+        "coiling-oracle",
+        "cloudshift",
+        "eternal-witness",
+        "ghostly-flicker",
+        "momentary-blink",
+        "aether-channeler"
+      ],
+      "similar": [
+        "Roon of the Hidden Realm",
+        "Chulane, Teller of Tales",
+        "Brago, King Eternal",
+        "Yorion, Sky Nomad",
+        "Ranar the Ever-Watchful",
+        "Emiel the Blessed"
+      ]
+    },
     "massimo-the-magician": {
       "highSynergyCards": [
         "lightning-bolt",
@@ -19,6 +119,106 @@
         "Taigam, Ojutai Master",
         "Kess, Dissident Mage",
         "Sevinne, the Chronoclasm"
+      ]
+    },
+    "selenia-dark-angel": {
+      "highSynergyCards": [
+        "repay-in-kind",
+        "axis-of-mortality",
+        "children-of-korlis",
+        "tainted-sigil",
+        "near-death-experience",
+        "phyrexian-unlife",
+        "angels-grace",
+        "reverse-the-sands"
+      ],
+      "similar": [
+        "Liesa, Shroud of Dusk",
+        "Vona, Butcher of Magan",
+        "Verrak, Warped Sengir",
+        "Ayli, Eternal Pilgrim",
+        "Karlov of the Ghost Council",
+        "Kambal, Consul of Allocation"
+      ]
+    },
+    "the-muckslinger-gang": {
+      "highSynergyCards": [
+        "fanatic-of-rhonas",
+        "goreclaw-terror-of-qal-sisma",
+        "garruks-uprising",
+        "outcaster-trailblazer",
+        "warstorm-surge",
+        "sarkhans-unsealing",
+        "ilysian-caryatid",
+        "selvala-heart-of-the-wilds"
+      ],
+      "similar": [
+        "Mr. Orfeo, the Boulder",
+        "Kresh the Bloodbraided",
+        "Henzie \"Toolbox\" Torre",
+        "Gyrus, Waker of Corpses",
+        "Ziatora, the Incinerator",
+        "Prossh, Skyraider of Kher"
+      ]
+    },
+    "baron-helmut-zemo": {
+      "highSynergyCards": [
+        "doomsday-excruciator",
+        "zodiark-umbral-god",
+        "stitchers-supplier",
+        "pox-plague",
+        "archenemys-charm",
+        "buried-alive",
+        "ripples-of-undeath",
+        "phyrexian-obliterator"
+      ],
+      "similar": [
+        "Ayara, First of Locthwain",
+        "Toshiro Umezawa",
+        "K'rrik, Son of Yawgmoth",
+        "Yawgmoth, Thran Physician",
+        "Chainer, Dementia Master",
+        "Erebos, God of the Dead"
+      ]
+    },
+    "the-scarlet-witch": {
+      "highSynergyCards": [
+        "apex-of-power",
+        "inspired-tinkering",
+        "mizzixs-mastery",
+        "past-in-flames",
+        "livaan-cultist-of-tiamat",
+        "will-of-the-jeskai",
+        "electro-assaulting-battery",
+        "storm-kiln-artist"
+      ],
+      "similar": [
+        "Vadrik, Astral Archmage",
+        "Mizzix of the Izmagnus",
+        "Birgi, God of Storytelling",
+        "Urabrask",
+        "Syr Carah, the Bold",
+        "Kaza, Roil Chaser"
+      ]
+    },
+    "calamity-galloping-inferno": {
+      "highSynergyCards": [
+        "patron-of-the-arts",
+        "solemn-simulacrum",
+        "trumpeting-carnosaur",
+        "fanatic-of-mogis",
+        "charming-scoundrel",
+        "plundering-barbarian",
+        "circuit-mender",
+        "combustible-gearhulk"
+      ],
+      "similar": [
+        "Delina, Wild Mage",
+        "Rionya, Fire Dancer",
+        "Orthion, Hero of Lavabrink",
+        "Jaxis, the Troublemaker",
+        "Kiki-Jiki, Mirror Breaker",
+        "Ilharg, the Raze-Boar"
       ]
     },
     "olivia-opulent-outlaw": {
@@ -9782,26 +9982,6 @@
         "Varina, Lich Queen"
       ]
     },
-    "baron-helmut-zemo": {
-      "highSynergyCards": [
-        "doomsday-excruciator",
-        "zodiark-umbral-god",
-        "stitchers-supplier",
-        "pox-plague",
-        "archenemys-charm",
-        "buried-alive",
-        "ripples-of-undeath",
-        "phyrexian-obliterator"
-      ],
-      "similar": [
-        "Ayara, First of Locthwain",
-        "Toshiro Umezawa",
-        "K'rrik, Son of Yawgmoth",
-        "Yawgmoth, Thran Physician",
-        "Chainer, Dementia Master",
-        "Erebos, God of the Dead"
-      ]
-    },
     "kethis-the-hidden-hand": {
       "highSynergyCards": [
         "urzas-ruinous-blast",
@@ -10472,26 +10652,6 @@
         "Syr Ginger, the Meal Ender",
         "Karn, Silver Golem",
         "The Peregrine Dynamo"
-      ]
-    },
-    "mairsil-the-pretender": {
-      "highSynergyCards": [
-        "aetherling",
-        "arcanis-the-omnipotent",
-        "torchling",
-        "asmodeus-the-archfiend",
-        "buried-alive",
-        "endling",
-        "nevinyrrals-disk",
-        "anger"
-      ],
-      "similar": [
-        "Trazyn the Infinite",
-        "Experiment Kraj",
-        "Lazav, the Multifarious",
-        "Rayami, First of the Fallen",
-        "Volrath, the Shapestealer",
-        "Ashnod the Uncaring"
       ]
     },
     "tazri-stalwart-survivor": {
@@ -11750,26 +11910,6 @@
         "Birgi, God of Storytelling"
       ]
     },
-    "lagrella-the-magpie": {
-      "highSynergyCards": [
-        "ephemerate",
-        "soulherder",
-        "coiling-oracle",
-        "cloudshift",
-        "eternal-witness",
-        "ghostly-flicker",
-        "momentary-blink",
-        "aether-channeler"
-      ],
-      "similar": [
-        "Roon of the Hidden Realm",
-        "Chulane, Teller of Tales",
-        "Brago, King Eternal",
-        "Yorion, Sky Nomad",
-        "Ranar the Ever-Watchful",
-        "Emiel the Blessed"
-      ]
-    },
     "samut-voice-of-dissent": {
       "highSynergyCards": [
         "odric-lunarch-marshal",
@@ -12128,26 +12268,6 @@
         "Valki, God of Lies",
         "Nekusar, the Mindrazer",
         "Juri, Master of the Revue"
-      ]
-    },
-    "the-scarlet-witch": {
-      "highSynergyCards": [
-        "apex-of-power",
-        "inspired-tinkering",
-        "mizzixs-mastery",
-        "past-in-flames",
-        "livaan-cultist-of-tiamat",
-        "will-of-the-jeskai",
-        "electro-assaulting-battery",
-        "storm-kiln-artist"
-      ],
-      "similar": [
-        "Vadrik, Astral Archmage",
-        "Mizzix of the Izmagnus",
-        "Birgi, God of Storytelling",
-        "Urabrask",
-        "Syr Carah, the Bold",
-        "Kaza, Roil Chaser"
       ]
     },
     "bartolome-del-presidio": {
@@ -13266,26 +13386,6 @@
         "Jazal Goldmane"
       ]
     },
-    "the-muckslinger-gang": {
-      "highSynergyCards": [
-        "fanatic-of-rhonas",
-        "goreclaw-terror-of-qal-sisma",
-        "garruks-uprising",
-        "outcaster-trailblazer",
-        "warstorm-surge",
-        "sarkhans-unsealing",
-        "ilysian-caryatid",
-        "selvala-heart-of-the-wilds"
-      ],
-      "similar": [
-        "Mr. Orfeo, the Boulder",
-        "Kresh the Bloodbraided",
-        "Henzie \"Toolbox\" Torre",
-        "Gyrus, Waker of Corpses",
-        "Ziatora, the Incinerator",
-        "Prossh, Skyraider of Kher"
-      ]
-    },
     "marvin-murderous-mimic": {
       "highSynergyCards": [
         "pili-pala",
@@ -14032,26 +14132,6 @@
         "Raksha Golden Cub",
         "Nahiri, the Lithomancer",
         "Danitha Capashen, Paragon"
-      ]
-    },
-    "calamity-galloping-inferno": {
-      "highSynergyCards": [
-        "patron-of-the-arts",
-        "solemn-simulacrum",
-        "trumpeting-carnosaur",
-        "fanatic-of-mogis",
-        "charming-scoundrel",
-        "plundering-barbarian",
-        "circuit-mender",
-        "combustible-gearhulk"
-      ],
-      "similar": [
-        "Delina, Wild Mage",
-        "Rionya, Fire Dancer",
-        "Orthion, Hero of Lavabrink",
-        "Jaxis, the Troublemaker",
-        "Kiki-Jiki, Mirror Breaker",
-        "Ilharg, the Raze-Boar"
       ]
     },
     "kodama-of-the-west-tree": {
@@ -19413,26 +19493,6 @@
         "Maja, Bretagard Protector"
       ]
     },
-    "vraska-soul-of-stone": {
-      "highSynergyCards": [
-        "skullclamp",
-        "harmonic-prodigy",
-        "xorn",
-        "academy-manufactor",
-        "an-offer-you-cant-refuse",
-        "roar-of-resistance",
-        "whirlwind-of-thought",
-        "reckless-fireweaver"
-      ],
-      "similar": [
-        "Kykar, Wind's Fury",
-        "Galazeth Prismari",
-        "Elsha of the Infinite",
-        "Alela, Artful Provocateur",
-        "Ovika, Enigma Goliath",
-        "Narset, Enlightened Master"
-      ]
-    },
     "sheoldred-whispering-one": {
       "highSynergyCards": [
         "buried-alive",
@@ -22663,26 +22723,6 @@
         "Mahadi, Emporium Master",
         "Grenzo, Havoc Raiser",
         "Neheb, the Eternal"
-      ]
-    },
-    "selenia-dark-angel": {
-      "highSynergyCards": [
-        "repay-in-kind",
-        "axis-of-mortality",
-        "children-of-korlis",
-        "tainted-sigil",
-        "near-death-experience",
-        "phyrexian-unlife",
-        "angels-grace",
-        "reverse-the-sands"
-      ],
-      "similar": [
-        "Liesa, Shroud of Dusk",
-        "Vona, Butcher of Magan",
-        "Verrak, Warped Sengir",
-        "Ayli, Eternal Pilgrim",
-        "Karlov of the Ghost Council",
-        "Kambal, Consul of Allocation"
       ]
     },
     "annie-flash-the-veteran": {
@@ -35746,26 +35786,6 @@
         "Zopandrel, Hunger Dominus"
       ]
     },
-    "liliana-the-faultless": {
-      "highSynergyCards": [
-        "souls-attendant",
-        "haliya-guided-by-light",
-        "soul-warden",
-        "cleric-class",
-        "archangel-of-thune",
-        "exemplar-of-light",
-        "guide-of-souls",
-        "celestine-the-living-saint"
-      ],
-      "similar": [
-        "Daxos, Blessed by the Sun",
-        "Eight-and-a-Half-Tails",
-        "Niambi, Esteemed Speaker",
-        "Ayli, Eternal Pilgrim",
-        "Orah, Skyclave Hierophant",
-        "Heliod, Sun-Crowned"
-      ]
-    },
     "bruse-tarl-boorish-herder-tymna-the-weaver": {
       "highSynergyCards": [
         "serra-ascendant",
@@ -36844,26 +36864,6 @@
         "Vona, Butcher of Magan",
         "Teysa Karlov",
         "Liesa, Shroud of Dusk"
-      ]
-    },
-    "uldaros-theorix": {
-      "highSynergyCards": [
-        "phantasmal-image",
-        "deceptive-frostkite",
-        "flesh-duplicate",
-        "ripples-of-undeath",
-        "glimpse-the-unthinkable",
-        "singularity-rupture",
-        "brain-freeze",
-        "stitchers-supplier"
-      ],
-      "similar": [
-        "Muldrotha, the Gravetide",
-        "Kess, Dissident Mage",
-        "Sedris, the Traitor King",
-        "Tormod, the Desecrator",
-        "Wrexial, the Risen Deep",
-        "Taigam, Sidisi's Hand"
       ]
     },
     "shizuko-caller-of-autumn": {
