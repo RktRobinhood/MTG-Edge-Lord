@@ -10,6 +10,7 @@ MTG Edge Lord is a Tampermonkey userscript backed by static, generated JSON. It 
 - Derived scores retain components and human-readable reasons. An unscored entity is labelled unscored, never given a zero.
 - Generated files live in `data/` and must pass validation. `research/inbox/` remains valid for human-reviewed input.
 - The archive is append-only and records the rank a commander held **when it was surfaced**. A later run may add to an entry; nothing may unsay one, and refreshing that rank would erase the only claim the archive makes.
+- **Any change the userscript ships raises its version.** `package.json` is the single source of `@version`, and Tampermonkey updates an installed script only when that number rises. An unbumped change reaches nobody, and from the user's side it is indistinguishable from a change that did not work.
 - Search covers every commander. **Edge Lord surfacing never goes deeper than EDHREC rank 3,000** — past that the evidence to say "this works" does not exist.
 
 ## Source access
@@ -30,6 +31,10 @@ Never feed a model content from a source whose terms forbid it — Discord's Dev
 ## Definition of done
 
 Run `npm run check`. Review generated-data diffs for attribution, dates, URLs, score sanity, and meaningful novelty before committing.
+
+**If the change touches anything the built script carries** — `src/userscript/`, the `src/shared/` modules it imports, or the build itself — raise `version` in `package.json` in the same commit and rebuild, so `mtg-edge-lord.user.js` and its `@version` ship together. `npm run check` rebuilds but it cannot know that the behaviour changed, so the bump is a judgement and never automatic. Patch for a fix nobody would describe, minor for anything a user would notice.
+
+Changes to `data/`, `research/` or the docs do not bump it: the panel re-reads published data on its own, and versioning it would push a script update for content the installed script already handles.
 
 ## Attribution and traffic
 
