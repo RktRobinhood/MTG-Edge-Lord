@@ -10,6 +10,7 @@
   "scripts": {
     "build": "node scripts/build-userscript.js",
     "preview": "node scripts/preview.js",
+    "screenshots": "node scripts/screenshots.js",
     "research": "node scripts/run-research.js",
     "research:network": "node scripts/run-research.js --network",
     "validate": "node scripts/validate-data.js",

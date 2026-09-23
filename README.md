@@ -4,7 +4,7 @@ MTG Edge Lord is an off-meta Commander discovery layer for [EDHREC](https://edhr
 
 It runs as a panel over EDHREC itself. The **Advanced** button in EDHREC's own navbar, between the search box and the account buttons, drops it open on any `edhrec.com` page.
 
-![The search panel open over an EDHREC commander page, filtered to the rank 1,000–3,000 band and sorted by Edge score](docs/screenshots/search.png)
+![The search panel open over EDHREC, sorted by Edge score, each result carrying its printed mana cost, its score and tier, and a question mark holding the reasoning](docs/screenshots/search.png)
 
 ## What it does
 
@@ -15,6 +15,8 @@ The Edge score combines obscurity with evidence that the commander actually work
 Each result is a card: the name, what it costs in printed mana symbols, the score, how obscure it is, and what it plays like. The card itself opens the commander on EDHREC; the `?` in its corner unfolds the reasoning behind the score, the quality components, and the cards that want to be in the deck.
 
 **On the commander's own page.** Follow a card through to EDHREC and the verdict follows you: a banner above the page repeats the score and why it was given, at the moment you are actually deciding whether to build the thing. Dismiss it and it stays dismissed for that commander.
+
+![The Edge Lord banner above an EDHREC commander page, showing the score, tier, printed mana cost, rank and deck count, and the reasons behind the score](docs/screenshots/commander-page.png)
 
 **Edge Lord discovery.** A daily feed of off-meta commanders that demonstrably work, found by a scheduled job that reads public community sources and judges what it finds. The quality bar is the brand: cool, different, still competitive — not jank.
 
@@ -64,6 +66,7 @@ Useful commands:
 - `npm run research:network` — run every connector against the live sources. `-- --pages=N` and `-- --commanders=N` shrink the rotated crawls for a quick local run.
 - `npm run build` — bundle `src/userscript/` to the installable root userscript.
 - `npm run preview` — serve the built userscript against this checkout's `data/` on <http://localhost:8731>, so a data or UI change can be seen without deploying.
+- `npm run screenshots` — recapture the README screenshots from that same harness, using an installed Chrome or Edge. Run it after any UI change: a stale screenshot is a picture of software that no longer exists.
 - `npm test` — schema, scoring, normalization, archive, and relationship tests.
 - `npm run validate` — verify generated data against schemas and manifest metadata.
 

@@ -60,8 +60,42 @@ window.fetch = (input, init) => {
   for (const base of BASES) if (url.startsWith(base)) url = url.replace(base, "/data");
   return realFetch(url, init);
 };
-// Route detection reads the path, so give it a commander page to read.
-history.replaceState({}, "", "/commanders/massimo-the-magician");
+// Route detection reads the path, so give it a commander page to read —
+// except when a shot is of the panel, which is a thing you open anywhere on
+// EDHREC. Staying on a non-commander route keeps that shot to one subject.
+const open = new URLSearchParams(location.search).get("open");
+if (!open) history.replaceState({}, "", "/commanders/massimo-the-magician");
+
+// ?open=<tab> drives the panel for a repeatable screenshot — see
+// scripts/screenshots.js. Everything it touches lives in a shadow root the
+// userscript owns, so it polls rather than assuming anything has mounted.
+const started = Date.now();
+if (!open) {
+  // The commander-page shot waits on the insight banner instead of the panel.
+  const wait = setInterval(() => {
+    if (document.getElementById("mtg-edge-lord-insight")?.shadowRoot?.querySelector("article")) {
+      document.documentElement.dataset.ready = "true";
+      clearInterval(wait);
+    } else if (Date.now() - started > 15000) clearInterval(wait);
+  }, 120);
+}
+if (open) {
+  const tick = setInterval(() => {
+    if (Date.now() - started > 15000) return clearInterval(tick);
+
+    const toggle = document.getElementById("mtg-edge-lord-button")?.shadowRoot?.getElementById("toggle");
+    const panel = document.getElementById("mtg-edge-lord-root")?.shadowRoot;
+    if (!toggle || !panel) return;
+    if (panel.getElementById("panel").hidden) return toggle.click();
+    if (!panel.querySelector("#results")) return;
+    const tab = panel.querySelector('nav button[data-tab="' + open + '"]');
+    if (tab && !tab.classList.contains("active")) return tab.click();
+    if (panel.querySelector("#results .card, #results .empty")) {
+      document.documentElement.dataset.ready = "true";
+      clearInterval(tick);
+    }
+  }, 120);
+}
 </script>
 <script src="/mtg-edge-lord.user.js"></script>
 </body></html>`;
