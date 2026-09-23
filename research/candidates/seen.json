@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-23",
+  "commanders": [
+    {
+      "slug": "massimo-the-magician",
+      "name": "Massimo, the Magician",
+      "status": "published",
+      "firstSeenAt": "2026-09-22",
+      "lastSeenAt": "2026-09-22",
+      "findingIds": [
+        "massimo-vraska-spree-2026-09-20"
+      ],
+      "reason": "surfaced by the feed"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.reddit.com/r/EDHBrews/comments/1wlpa42/massimo_the_magician_need_suggestions_of_my_first/",
+      "name": "r/EDHBrews",
+      "status": "published",
+      "firstSeenAt": "2026-09-20",
+      "lastSeenAt": "2026-09-20",
+      "reason": "Massimo turns Vraska tokens and Spree spells into a repeatable engine"
+    },
+    {
+      "url": "https://www.reddit.com/r/EDH/comments/1vdvd2t/massimo_what_the_hell_do_we_do_with_this/",
+      "name": "Massimo. What the hell do we do with this?",
+      "status": "published",
+      "firstSeenAt": "2026-09-20",
+      "lastSeenAt": "2026-09-20",
+      "reason": "corroborating source for massimo-vraska-spree-2026-09-20"
+    }
+  ]
+}

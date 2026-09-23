@@ -45,6 +45,7 @@ Data is cached in the browser. The script checks `data/manifest.json` and refres
 - `src/connectors/` — isolated source adapters; failures are non-fatal. Scryfall bulk, EDHREC index and page crawl, Archidekt, Commander Spellbook, EDHTop16, cEDH Decklist Database, RSS feeds, YouTube Data API.
 - `src/pipeline/` — normalization, scoring, relationship generation, the archive, and publishing.
 - `research/inbox/` — reviewed, attributable findings written by hand, and the backlog the daily job adds to.
+- `research/candidates/` — unreviewed proposals from the daily finds run, plus the ledger of what it has already seen. Nothing here reaches a user until a reviewer moves it into `research/inbox/`.
 - `data/` — the generated static backend the userscript fetches, plus `archive.json` and a compact findings history.
 - `schema/` — public JSON schemas, enforced by `npm run validate`.
 - `state/` — pipeline bookkeeping that must survive between scheduled runs; never published.

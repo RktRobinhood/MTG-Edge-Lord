@@ -51,6 +51,13 @@ Issues live in GitHub Issues for `RktRobinhood/MTG-Edge-Lord`, driven through th
 
 The five canonical roles use their own names as label strings, plus local `in-progress` and `epic` labels. See `docs/agents/triage-labels.md`.
 
+### Daily finds
+
+A scheduled agent run reads permitted community sources once a day and files
+what it finds as unreviewed candidates under `research/candidates/`. It never
+runs the pipeline, never writes `data/`, and never opens an excluded source.
+See `docs/agents/daily-finds.md`.
+
 ### Domain docs
 
 Single-context: `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
