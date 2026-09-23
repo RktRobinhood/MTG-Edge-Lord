@@ -53,13 +53,18 @@ Storage is **IndexedDB, not `localStorage`** — asynchronous, so parsing never 
 
 ## Publication and cache protocol
 
-1. The userscript requests `data/manifest.json` with cache-busting.
-2. Matching `dataVersion`: use the local cache, download nothing.
+0. A cache checked within the last 24 hours is served without any request.
+1. Otherwise the userscript requests `data/manifest.json` with cache-busting.
+2. Matching `dataVersion`: use the local cache, download nothing, stamp the check.
 3. New version: fetch datasets in parallel, then atomically replace the cache.
 4. Network failure: render the last valid cache and label it as cached.
 5. Pages failure: retry against raw GitHub.
 
 `dataVersion` is content-derived. If generated hashes have not changed, the manifest and history are left untouched, so a scheduled run cannot manufacture daily churn.
+
+**Opening the panel is what triggers a check**, not loading an EDHREC page. Page load renders from cache alone; the panel calls `loadData` normally and the 24-hour interval decides whether that reaches the network. Publication is a once-a-day scheduled build, so a per-page-view check could not find anything the next panel open would miss, and most page views never open the tool.
+
+The interval gates *checking*, never *serving*: a cache older than a day still renders immediately while the check runs behind it. Step 2 stamps `checkedAt` on an unchanged backend as well, because otherwise an unchanged catalogue would be re-requested on every open and the interval would buy nothing.
 
 ## Discovery lanes
 

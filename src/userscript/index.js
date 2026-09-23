@@ -71,7 +71,10 @@ document.body.append(panelHost);
 renderShell();
 mountButton();
 watchNavbar();
-refresh();
+// Page load renders from cache alone. Asking the backend is the panel's job,
+// because the publish cadence is daily and most EDHREC page views never open
+// the tool at all.
+refresh({ checkRemote: false });
 
 function renderShell() {
   buttonShadow.innerHTML = `<style>${styles}</style>
@@ -169,6 +172,10 @@ function togglePanel() {
   const toggle = buttonShadow.getElementById("toggle");
   toggle.setAttribute("aria-expanded", String(opening));
   toggle.classList.toggle("on", opening);
+  // Opening the tool is the trigger for a freshness check. `loadData` throttles
+  // it to once a day, so holding the panel open and shut costs one request at
+  // most; the panel renders from cache meanwhile and swaps in if it moved.
+  if (opening) refresh();
 }
 
 /**
@@ -195,10 +202,13 @@ function positionPanel() {
   panel.style.setProperty("--mel-right", `${PANEL_GUTTER}px`);
 }
 
-async function refresh() {
+async function refresh({ checkRemote = true } = {}) {
   try {
-    state.data = await loadData();
+    state.data = await loadData({ checkRemote });
     state.index = buildSearchIndex(state.data.commanders.commanders);
+    // Cleared on success because this now runs again every time the panel is
+    // opened: without it, one failed load would outlive its own cause.
+    state.error = null;
   } catch (error) {
     state.error = error.message;
   } finally {
@@ -235,7 +245,23 @@ function render() {
 function statusText() {
   if (!state.data) return "Discovery data unavailable";
   const count = state.index?.commanders.length ?? 0;
-  return `${count.toLocaleString()} commanders · ${state.data.manifest.dataVersion}${state.data.stale ? " · cached" : ""}`;
+  const checked = state.data.stale ? "offline" : checkedLabel(state.data.checkedAt);
+  return `${count.toLocaleString()} commanders · ${state.data.manifest.dataVersion}${checked ? ` · ${checked}` : ""}`;
+}
+
+/**
+ * When the backend was last asked, not when the data was published.
+ *
+ * Worth the line because the two diverge: the catalogue can sit unchanged for
+ * days, and without this a correct, current cache is indistinguishable from a
+ * check that never happened.
+ */
+function checkedLabel(checkedAt) {
+  const age = Date.now() - Date.parse(checkedAt);
+  if (!Number.isFinite(age) || age < 0) return "";
+  const hours = Math.floor(age / 3600000);
+  if (hours < 1) return "checked just now";
+  return hours < 24 ? `checked ${hours}h ago` : "checking…";
 }
 
 function bindControls(main) {
