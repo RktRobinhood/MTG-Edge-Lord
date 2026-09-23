@@ -63,10 +63,31 @@ input,select { width:100%; border:1px solid var(--mel-line); border-radius:7px; 
 .insufficient { color:var(--mel-muted); font-size:12px; font-style:italic }
 a { color:var(--mel-green); text-decoration:none } a:hover { text-decoration:underline }
 .why { margin:7px 0 0; padding-left:18px; color:var(--mel-muted); font-size:12px }
-.actions { margin-top:9px; justify-content:space-between }
-.link { border:0; background:none; color:var(--mel-green); cursor:pointer; padding:0; font-size:13px }
 .detail { margin-top:10px; padding-top:9px; border-top:1px solid var(--mel-line) }
 .detail .label { display:block; margin:8px 0 4px }
+.more-detail { margin-top:8px }
+.more-detail .label { display:block; margin:8px 0 4px }
+
+/* A card is a link. Nothing on it needs to say so a second time. */
+[data-open] { cursor:pointer }
+[data-open]:hover { border-color:#4d6b5c; background:#1f2925 }
+.card .head { display:flex; align-items:flex-start; justify-content:space-between; gap:8px }
+.card .head h3 { flex:1 1 auto; margin:0 }
+.card .line { display:flex; flex-wrap:wrap; align-items:center; gap:7px; margin-top:5px }
+.card .foot { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:8px }
+.card .foot .chips { flex:1 1 auto }
+
+/* The question mark is the whole of the "why" affordance: small, out of the
+   way, and the only thing on the card that does not open EDHREC. */
+.why-toggle { flex:0 0 auto; width:22px; height:22px; border-radius:50%; border:1px solid var(--mel-line); background:transparent; color:var(--mel-muted); font-size:12px; font-weight:700; line-height:1; cursor:pointer; padding:0 }
+.why-toggle:hover { border-color:var(--mel-green); color:var(--mel-green) }
+.why-toggle.on { background:var(--mel-green); border-color:var(--mel-green); color:#0d130f }
+
+/* Mana symbols are drawn, never fetched: mana.js explains why. The disc
+   colour is written inline per pip, so only the shape lives here. */
+.mana { display:inline-flex; gap:2px; flex:0 0 auto; white-space:nowrap }
+.pip-mana { display:inline-flex; align-items:center; justify-content:center; width:17px; height:17px; border-radius:50%; color:#17130f; font-size:11px; font-weight:800; font-style:normal; letter-spacing:-.02em; box-shadow:inset 0 -1px 1px #0003 }
+.pip-split { align-self:center; color:var(--mel-muted); font-style:normal; font-size:10px; margin:0 1px }
 .more { width:100%; border:1px dashed var(--mel-line); border-radius:9px; background:transparent; color:var(--mel-muted); padding:10px; cursor:pointer }
 .sources { font-size:12px }
 
@@ -79,6 +100,19 @@ a { color:var(--mel-green); text-decoration:none } a:hover { text-decoration:und
 .source { color:var(--mel-green); font-weight:700; font-size:13px }
 .clamp { display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden }
 .readon { display:block; margin-top:8px; color:var(--mel-green); font-size:12px; font-weight:600 }
+
+/* The same verdict as the panel's card, on EDHREC's own commander page —
+   read at the moment it is being acted on. A banner between EDHREC's header
+   and its content, never a thing that floats over what you came to read. */
+:host(#mtg-edge-lord-insight) { display:block }
+#insight article { max-width:1080px; margin:12px auto; padding:11px 14px; border:1px solid var(--mel-line); border-left:3px solid var(--mel-green); border-radius:10px; background:var(--mel-panel); box-shadow:0 6px 24px #0004 }
+#insight .head { display:flex; align-items:center; justify-content:space-between }
+#insight .brand { color:var(--mel-green); font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.09em }
+#insight #dismiss { border:0; background:none; color:var(--mel-muted); font-size:18px; line-height:1; cursor:pointer; padding:0 2px }
+#insight #dismiss:hover { color:var(--mel-text) }
+#insight .line { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-top:4px }
+#insight .why { columns:2; column-gap:22px; margin-top:6px }
+@media (max-width:720px) { #insight .why { columns:1 } }
 
 .empty { padding:25px 8px; text-align:center; color:var(--mel-muted) }
 .notice { padding:8px 12px; margin-bottom:10px; border-radius:7px; background:#4c361f; color:#ffdba3; font-size:12px }

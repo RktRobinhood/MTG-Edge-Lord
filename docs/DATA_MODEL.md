@@ -17,7 +17,7 @@
 | Group | Fields | Source |
 | --- | --- | --- |
 | Identity | `name`, `slug`, `scryfallId` | Scryfall / EDHREC |
-| Card facts | `colorIdentity`, `manaValue`, `types`, `creatureTypes`, `price`, `setCode`, `releasedAt` | Scryfall bulk |
+| Card facts | `colorIdentity`, `manaCost`, `manaValue`, `types`, `creatureTypes`, `price`, `setCode`, `releasedAt` | Scryfall bulk |
 | Mechanics | `functionalTags` | Scryfall Tagger bulk |
 | Popularity | `edhrecRank`, `deckCount`, `asOf`, `tier` | EDHREC |
 | Coverage | `mentionCount`, `archidektDecks` | Discovery lanes, Archidekt |

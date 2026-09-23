@@ -1,6 +1,8 @@
 import { explainCohort } from "../shared/cohort-score.js";
 import { explainScore, explainUnscored } from "../shared/edge-score.js";
+import { syncCommanderInsight } from "./commander-page.js";
 import { loadCommanderDetail, loadData } from "./data-client.js";
+import { manaCostHtml } from "./mana.js";
 import { attributableFindings, sourceLabel, truncateSummary } from "./digest.js";
 import {
   COLOR_MODES,
@@ -151,6 +153,7 @@ function watchNavbar() {
     clearTimeout(pending);
     pending = setTimeout(() => {
       mountButton();
+      syncCommanderInsight(state.index?.commanders);
       if (!shadow.getElementById("panel").hidden) positionPanel();
     }, 100);
   };
@@ -190,6 +193,7 @@ async function refresh() {
   } finally {
     state.loading = false;
     render();
+    syncCommanderInsight(state.index?.commanders);
   }
 }
 
@@ -246,6 +250,16 @@ function bindControls(main) {
     persistFilters();
     renderResults();
   }));
+
+  // A card is its own link out. The listener lives on `main`, which is rebuilt
+  // by every `render`, so it is never bound twice to the same element — and it
+  // stands aside for anything that is already interactive, so the `?` toggle
+  // and the credited source links keep their own behaviour.
+  main.addEventListener("click", (event) => {
+    if (event.target.closest("a, button, input, select, label")) return;
+    const card = event.target.closest("[data-open]");
+    if (card) open(card.dataset.open, "_blank", "noopener");
+  });
 
   main.querySelector("#reset")?.addEventListener("click", () => {
     state.filters = { ...DEFAULT_FILTERS };
@@ -369,31 +383,74 @@ function simpleControls() {
 
 // --- cards ------------------------------------------------------------------
 
+/**
+ * One commander, at a glance.
+ *
+ * The card carries what decides whether to look further — name, what it costs,
+ * the verdict, how obscure it is, what it plays like — and nothing else. The
+ * reasoning behind the verdict is a click away under the `?`, because a wall
+ * of justification on every row is how a list stops being readable.
+ *
+ * The whole card opens EDHREC. An "Open on EDHREC" button said out loud what
+ * the card was already going to do, and cost a row to say it.
+ */
 function commanderCard(commander) {
+  const expanded = state.expanded === commander.slug;
+  const url = commanderUrl(commander.slug);
+  const themes = (commander.themes ?? []).slice(0, 3);
+  return `<article class="card commander" data-open="${escapeAttr(url)}">
+    <div class="head">
+      <h3><a href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(commander.name)}</a></h3>
+      ${costOf(commander)}
+    </div>
+    <div class="line">
+      ${scoreBadge(commander)}
+      ${commander.tier ? `<span class="tier ${escapeAttr(commander.tier)}">${escapeHtml(commander.tier)}</span>` : ""}
+      <span class="muted">${escapeHtml(factLine(commander))}</span>
+    </div>
+    ${resourcesFor(commander.findingIds)}
+    <div class="foot">
+      <div class="chips">${themes.map((theme) => `<span class="chip">${escapeHtml(titleCase(theme))}</span>`).join("")}</div>
+      <button type="button" class="why-toggle${expanded ? " on" : ""}" data-expand="${escapeAttr(commander.slug)}" aria-expanded="${expanded}" aria-label="Why it works" title="Why it works">?</button>
+    </div>
+    ${expanded ? whyItWorks(commander) : ""}
+  </article>`;
+}
+
+function commanderUrl(slug) {
+  return `https://edhrec.com/commanders/${encodeURIComponent(slug)}`;
+}
+
+/**
+ * The printed cost, in symbols. A commander whose card facts never arrived —
+ * a partner pairing has no single card — falls back to its colour identity,
+ * which is the most the catalogue knows about what it costs to cast.
+ */
+function costOf(commander) {
+  const cost = manaCostHtml(commander.manaCost);
+  if (cost) return cost;
+  if (commander.colorIdentity === undefined) return "";
+  return `<span class="chip">${escapeHtml(commander.colorIdentity || "Colourless")}</span>`;
+}
+
+/** Rank, decks, price: the three numbers the eye actually uses to triage. */
+function factLine(commander) {
   const rank = commander.popularity?.edhrecRank;
   const decks = commander.popularity?.deckCount;
-  const expanded = state.expanded === commander.slug;
+  return [
+    rank ? `#${rank.toLocaleString()}` : null,
+    decks ? `${decks.toLocaleString()} decks` : null,
+    commander.price !== undefined ? `$${commander.price.toFixed(2)}` : null
+  ].filter(Boolean).join(" · ");
+}
 
-  return `<article class="card">
-    <div class="meta">
-      ${scoreBadge(commander)}
-      ${commander.tier ? `<span class="tier ${commander.tier}">${escapeHtml(commander.tier)}</span>` : ""}
-      ${commander.colorIdentity !== undefined ? `<span class="chip">${escapeHtml(commander.colorIdentity || "Colourless")}</span>` : ""}
-      ${Number.isFinite(commander.manaValue) ? `<span class="chip">MV ${commander.manaValue}</span>` : ""}
-      ${commander.price !== undefined ? `<span class="chip">$${commander.price.toFixed(2)}</span>` : ""}
-      <span class="muted">#${rank?.toLocaleString() ?? "—"} · ${decks?.toLocaleString() ?? "—"} decks</span>
-    </div>
-    <h3>${escapeHtml(commander.name)}</h3>
+/** Everything the card deliberately does not say until it is asked. */
+function whyItWorks(commander) {
+  return `<div class="detail">
     ${reasonsFor(commander)}
     ${qualityBar(commander)}
-    <div class="chips">${(commander.themes ?? []).slice(0, 5).map((theme) => `<span class="chip">${escapeHtml(titleCase(theme))}</span>`).join("")}</div>
-    ${resourcesFor(commander.findingIds)}
-    <div class="row actions">
-      <a href="https://edhrec.com/commanders/${encodeURIComponent(commander.slug)}" target="_blank" rel="noopener noreferrer">Open on EDHREC ↗</a>
-      <button type="button" class="link" data-expand="${escapeAttr(commander.slug)}">${expanded ? "Hide detail" : "Why it works"}</button>
-    </div>
-    ${expanded ? commanderDetail(commander) : ""}
-  </article>`;
+    ${commanderDetail(commander)}
+  </div>`;
 }
 
 /**
@@ -440,8 +497,8 @@ function qualityBar(commander) {
 
 function commanderDetail(commander) {
   const detail = state.detail?.[commander.slug];
-  if (!detail) return `<div class="detail">No per-commander detail has been collected yet.</div>`;
-  return `<div class="detail">
+  if (!detail) return "";
+  return `<div class="more-detail">
     ${detail.highSynergyCards?.length ? `<p class="label">Cards that want to be here</p><div class="chips">${detail.highSynergyCards.map((slug) => `<a class="chip" href="https://edhrec.com/cards/${encodeURIComponent(slug)}" target="_blank" rel="noopener noreferrer">${escapeHtml(titleCase(slug))}</a>`).join("")}</div>` : ""}
     ${detail.similar?.length ? `<p class="label">Plays like</p><div class="chips">${detail.similar.map((name) => `<span class="chip">${escapeHtml(name)}</span>`).join("")}</div>` : ""}
     ${commander.comboCount && commander.comboUrl
@@ -511,18 +568,18 @@ function archiveCard(entry) {
     .map((source) => `<a class="chip" href="${escapeAttr(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.creator || source.name)} ↗</a>`)
     .join("");
   const again = entry.timesSurfaced > 1 ? ` · surfaced ${entry.timesSurfaced} times` : "";
-  return `<article class="card">
+  return `<article class="card" data-open="${escapeAttr(commanderUrl(entry.slug))}">
     <div class="credit">
       <span class="muted">First surfaced ${escapeHtml(entry.firstSurfacedAt)}${again}</span>
     </div>
-    <h3><a href="https://edhrec.com/commanders/${encodeURIComponent(entry.slug)}" target="_blank" rel="noopener noreferrer">${escapeHtml(entry.name)}</a></h3>
+    <h3><a href="${escapeAttr(commanderUrl(entry.slug))}" target="_blank" rel="noopener noreferrer">${escapeHtml(entry.name)}</a></h3>
     ${found ? `<p class="muted">Rank ${found.toLocaleString()} when found${entry.popularityAtFirstSurface.deckCount ? ` · ${entry.popularityAtFirstSurface.deckCount.toLocaleString()} decks` : ""}</p>` : ""}
     <div class="chips">${links}</div>
   </article>`;
 }
 
 function hiddenCard(card) {
-  const commanders = card.commanders.map((commander) => `<a class="chip" href="https://edhrec.com/commanders/${encodeURIComponent(commander.slug)}" target="_blank" rel="noopener noreferrer">${escapeHtml(commander.name)} · ${commander.relationshipScore}</a>`).join("");
+  const commanders = card.commanders.map((commander) => `<a class="chip" href="${escapeAttr(commanderUrl(commander.slug))}" target="_blank" rel="noopener noreferrer">${escapeHtml(commander.name)} · ${commander.relationshipScore}</a>`).join("");
   return `<article class="card"><h3>${escapeHtml(card.name)}</h3><div class="chips">${commanders}</div>${resourcesFor(card.findingIds)}</article>`;
 }
 

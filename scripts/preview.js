@@ -28,7 +28,8 @@ header nav{position:fixed;top:0;left:0;right:0;height:50px;display:flex;align-it
 header nav .brand{font-weight:800;margin-right:auto}
 header nav input{height:38px;border:1px solid #495057;border-radius:5px;background:#2b3035;color:#fff;padding:0 10px;width:207px}
 header nav a{display:inline-flex;align-items:center;height:38px;padding:0 13px;border-radius:5px;background:#f8f9fa;color:#212529;text-decoration:none;font-size:13px}
-header nav a.up{background:#0d6efd;color:#fff}</style>
+header nav a.up{background:#0d6efd;color:#fff}
+body{padding-top:50px}</style>
 </head><body>
 <!-- A stand-in for EDHREC's navbar, in the shape the userscript anchors to:
      a labelled search input inside an input group, followed by the account
@@ -38,12 +39,16 @@ header nav a.up{background:#0d6efd;color:#fff}</style>
   <div class="Navbar_search___preview input-group"><div class="rbt"><input type="text" aria-label="Search" class="rbt-input-main form-control rbt-input" placeholder="Search"></div></div>
   <div class="accounts"><a href="#">Sign In</a> <a class="up" href="#">Sign Up</a></div>
 </nav></header>
-<div class="page" style="padding-top:98px">
+<!-- The commander-page insight mounts itself between the header and the main
+     element, the way EDHREC's own pages are laid out, so the stand-in has one. -->
+<main>
+<div class="page">
 <h1>MTG Edge Lord preview</h1>
 <p>A stand-in for an EDHREC page, serving this checkout's <code>data/</code> directory.
 What the panel shows here is what this working tree would ship.</p>
 <p>Open the <strong>Advanced</strong> button in the navbar, beside the search box.</p>
 </div>
+</main>
 <script>
 const BASES = [
   "https://rktrobinhood.github.io/MTG-Edge-Lord/data",

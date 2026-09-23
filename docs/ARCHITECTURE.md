@@ -23,7 +23,7 @@
 
 ## Two functions, two data paths
 
-**Advanced search** covers all ~6,800 commanders and is fed by **Scryfall bulk downloads** — one file per day, no crawling. This supplies colour identity, mana value, type line, price, and functional tags.
+**Advanced search** covers all ~6,800 commanders and is fed by **Scryfall bulk downloads** — one file per day, no crawling. This supplies colour identity, printed mana cost, mana value, type line, price, and functional tags.
 
 **Edge Lord scoring** covers rank 500–3,000 and is fed by a **targeted EDHREC walk**, rotated across days so no single run is heavy. This supplies bracket distribution, themes, synergy, and save history.
 

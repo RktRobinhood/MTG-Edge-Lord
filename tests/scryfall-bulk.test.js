@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { gzipSync } from "node:zlib";
-import { FUNCTIONAL_TAG_ROOTS, orderColors, scryfallBulkConnector, splitTypeLine } from "../src/connectors/scryfall-bulk.js";
+import { FUNCTIONAL_TAG_ROOTS, frontFaceManaCost, orderColors, scryfallBulkConnector, splitTypeLine } from "../src/connectors/scryfall-bulk.js";
 
 const CARDS_URI = "https://data.scryfall.io/oracle-cards/test.jsonl.gz";
 const TAGS_URI = "https://data.scryfall.io/oracle-tags/test.jsonl.gz";
@@ -19,6 +19,7 @@ const cards = [
     name: "Massimo, the Magician",
     type_line: "Legendary Creature — Cat Wizard",
     color_identity: ["R", "U", "W"],
+    mana_cost: "{1}{U}{R}",
     cmc: 3,
     set: "mbc",
     released_at: "2026-11-09",
@@ -29,6 +30,7 @@ const cards = [
     name: "Jetmir, Nexus of Revels",
     type_line: "Legendary Creature — Cat Demon",
     color_identity: ["G", "R", "W"],
+    mana_cost: "{1}{R}{G}{W}",
     cmc: 4,
     set: "snc",
     released_at: "2022-04-29",
@@ -76,12 +78,19 @@ test("card facts land on every matched commander", async () => {
   const result = await scryfallBulkConnector.enrichCatalog(commanders, { fetch: fakeFetch(), state: {} });
   const [massimo] = result.commanders;
   assert.equal(massimo.colorIdentity, "WUR");
+  assert.equal(massimo.manaCost, "{1}{U}{R}");
   assert.equal(massimo.manaValue, 3);
   assert.deepEqual(massimo.types, ["Creature"]);
   assert.deepEqual(massimo.creatureTypes, ["Cat", "Wizard"]);
   assert.equal(massimo.setCode, "mbc");
   assert.equal(massimo.releasedAt, "2026-11-09");
   assert.equal(massimo.price, 4.27);
+});
+
+test("a two-faced commander takes the cost of the face you cast", () => {
+  assert.equal(frontFaceManaCost({ card_faces: [{ mana_cost: "{2}{G}" }, { mana_cost: "{4}{G}{G}" }] }), "{2}{G}");
+  assert.equal(frontFaceManaCost({ mana_cost: "" }), "");
+  assert.equal(frontFaceManaCost({}), "");
 });
 
 test("a commander with no matching card keeps its fields absent rather than empty", async () => {

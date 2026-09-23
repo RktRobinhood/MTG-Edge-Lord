@@ -12,6 +12,10 @@ It runs as a panel over EDHREC itself. The **Advanced** button in EDHREC's own n
 
 The Edge score combines obscurity with evidence that the commander actually works: how much of its bracket-tagged pool is built at Bracket 3 or above, whether there is a deep enough high-synergy pool to call it an archetype, and whether deck saves are holding rather than fading after release. A commander with no evidence carries **no score at all**, never a zero.
 
+Each result is a card: the name, what it costs in printed mana symbols, the score, how obscure it is, and what it plays like. The card itself opens the commander on EDHREC; the `?` in its corner unfolds the reasoning behind the score, the quality components, and the cards that want to be in the deck.
+
+**On the commander's own page.** Follow a card through to EDHREC and the verdict follows you: a banner above the page repeats the score and why it was given, at the moment you are actually deciding whether to build the thing. Dismiss it and it stays dismissed for that commander.
+
 **Edge Lord discovery.** A daily feed of off-meta commanders that demonstrably work, found by a scheduled job that reads public community sources and judges what it finds. The quality bar is the brand: cool, different, still competitive — not jank.
 
 Every find renders as a digest: enough to decide whether it is worth your time, with the creator credited above it and a canonical link more prominent than anything this project wrote. The point is to send you to their work, not to replace it.

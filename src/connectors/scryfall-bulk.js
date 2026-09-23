@@ -48,6 +48,7 @@ const COLOR_ORDER = ["W", "U", "B", "R", "G"];
  */
 export const CARD_FACT_FIELDS = Object.freeze([
   "colorIdentity",
+  "manaCost",
   "manaValue",
   "types",
   "creatureTypes",
@@ -157,10 +158,12 @@ async function readCardFacts(url, wanted, fetchImpl) {
 
 export function cardFacts(card) {
   const { types, creatureTypes } = splitTypeLine(card.type_line ?? "");
+  const manaCost = frontFaceManaCost(card);
   const price = Number.parseFloat(card.prices?.usd ?? card.prices?.usd_foil ?? "");
   return {
     oracleId: card.oracle_id,
     colorIdentity: orderColors(card.color_identity ?? []),
+    ...(manaCost ? { manaCost } : {}),
     manaValue: Number(card.cmc ?? 0),
     types,
     creatureTypes,
@@ -168,6 +171,19 @@ export function cardFacts(card) {
     releasedAt: card.released_at,
     ...(Number.isFinite(price) ? { price } : {})
   };
+}
+
+/**
+ * The printed cost of the face you cast from the command zone.
+ *
+ * A double-faced or split card carries no top-level `mana_cost` — the cost
+ * lives on each face — so the front face is the one that answers "what does
+ * this commander cost". Anything with neither returns nothing rather than
+ * `{0}`, because a cost we do not know is not a cost of nothing.
+ */
+export function frontFaceManaCost(card) {
+  const cost = card.mana_cost || card.card_faces?.[0]?.mana_cost || "";
+  return /\{/.test(cost) ? cost : "";
 }
 
 /**
