@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "a676f7457d61e8c0",
-  "generatedAt": "2026-09-22T09:25:02.665Z",
+  "dataVersion": "537bcece5cdde789",
+  "generatedAt": "2026-09-22T20:10:33.016Z",
   "files": {
     "findings.json": {
       "sha256": "6e7f7888c6c11acfe96da469a89f4416f34e873b87b4c5b8a11cf40efc6871ba",
       "bytes": 4069
     },
     "commanders.json": {
-      "sha256": "9b2a5ea9849529f2c6e1be92c75417fe6df317b96939d5149cc490644ceeed21",
-      "bytes": 1433344
+      "sha256": "b8ca7a3bac8061e275f3506f72e34928e9776b8bf928d36887f6dad474a98d71",
+      "bytes": 1463155
     },
     "commander-detail.json": {
       "sha256": "54cf66b16120bea00f395bc7898fc671c1959e8b7cd6d1e9736ea644347fe0c4",
