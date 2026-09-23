@@ -40,3 +40,43 @@ export function sourceLabel(source) {
   if (creator && name && creator.toLowerCase() !== name.toLowerCase()) return `${creator} · ${name}`;
   return creator || name || "Source";
 }
+
+/**
+ * Finds painted in the feed at once.
+ *
+ * The feed is a digest, not an archive: ten is what a reader will actually
+ * read before scrolling stops being reading. Everything else is still in the
+ * dataset and still reachable — by searching, or by asking for more — so this
+ * caps what is *shown* and never what is *there*.
+ */
+export const FEED_PAGE_SIZE = 10;
+
+/**
+ * Newest first, by when we surfaced it rather than when the creator wrote it.
+ *
+ * `observedAt` is the feed's clock: a primer from June that we read today is
+ * new to the reader today, and burying it under an article published
+ * yesterday would hide the thing the run just found.
+ *
+ * It is compared by **day**, not by timestamp. Within one run the minute a
+ * page was fetched is an artifact of the crawl order and says nothing to a
+ * reader, so a batch is ordered by `publishedAt` instead — freshest source at
+ * the top — and the score settles what is left.
+ */
+export function recentFirst(findings) {
+  return [...(findings ?? [])].sort((a, b) =>
+    day(b.observedAt).localeCompare(day(a.observedAt))
+    || stamp(b.publishedAt) - stamp(a.publishedAt)
+    || (b.score?.total ?? 0) - (a.score?.total ?? 0));
+}
+
+/** ISO dates and ISO timestamps both start with the day, which is all this compares. */
+function day(value) {
+  return String(value ?? "").slice(0, 10);
+}
+
+/** An unparseable or missing date sorts last rather than throwing the order out. */
+function stamp(value) {
+  const parsed = Date.parse(value);
+  return Number.isNaN(parsed) ? -Infinity : parsed;
+}

@@ -3,7 +3,7 @@ import { explainScore, explainUnscored } from "../shared/edge-score.js";
 import { syncCommanderInsight } from "./commander-page.js";
 import { loadCommanderDetail, loadData } from "./data-client.js";
 import { manaCostHtml } from "./mana.js";
-import { attributableFindings, sourceLabel, truncateSummary } from "./digest.js";
+import { FEED_PAGE_SIZE, attributableFindings, recentFirst, sourceLabel, truncateSummary } from "./digest.js";
 import {
   COLOR_MODES,
   DEFAULT_FILTERS,
@@ -16,6 +16,17 @@ import { styles } from "./styles.js";
 
 /** Results rendered at once. A cap on painting, never a substitute for filtering. */
 const PAGE_SIZE = 60;
+
+/**
+ * The feed pages at ten and everything else paints a screenful.
+ *
+ * A reader opens Recent finds to see what is new, not to scroll a list, so it
+ * shows the ten newest and offers the rest. Search is the way through the
+ * whole dataset, and it searches all of it — the cap is on painting only.
+ */
+function pageSize(tab = state.tab) {
+  return tab === "discover" ? FEED_PAGE_SIZE : PAGE_SIZE;
+}
 
 /** Keystrokes settle before the list is rebuilt. */
 const QUERY_DEBOUNCE_MS = 140;
@@ -106,7 +117,7 @@ function renderShell() {
     const button = event.target.closest("button[data-tab]");
     if (!button) return;
     state.tab = button.dataset.tab;
-    state.shown = PAGE_SIZE;
+    state.shown = pageSize();
     render();
   });
 }
@@ -282,7 +293,7 @@ function bindControls(main) {
     control.addEventListener(event, () => {
       const value = control.type === "checkbox" ? control.checked : control.value;
       state.filters[control.dataset.field] = value;
-      state.shown = PAGE_SIZE;
+      state.shown = pageSize();
       persistFilters();
       if (event === "input") debounceResults(); else renderResults();
     });
@@ -295,7 +306,7 @@ function bindControls(main) {
       : [...state.filters.colors, color];
     state.filters.colors = colors;
     button.classList.toggle("on", colors.includes(color));
-    state.shown = PAGE_SIZE;
+    state.shown = pageSize();
     persistFilters();
     renderResults();
   }));
@@ -312,7 +323,7 @@ function bindControls(main) {
 
   main.querySelector("#reset")?.addEventListener("click", () => {
     state.filters = { ...DEFAULT_FILTERS };
-    state.shown = PAGE_SIZE;
+    state.shown = pageSize();
     persistFilters();
     render();
   });
@@ -329,11 +340,16 @@ function renderResults() {
   if (!results) return;
 
   if (state.tab === "discover") {
-    const findings = attributableFindings(state.data.findings.findings)
-      .filter((finding) => matchesText(`${finding.title} ${finding.summary}`, state.filters.query))
-      .sort((a, b) => b.score.total - a.score.total);
-    summary.textContent = `${findings.length} find${findings.length === 1 ? "" : "s"}`;
-    results.innerHTML = findings.slice(0, state.shown).map(findingCard).join("") || empty("No finds match that search yet.");
+    const findings = recentFirst(attributableFindings(state.data.findings.findings)
+      .filter((finding) => matchesText(`${finding.title} ${finding.summary}`, state.filters.query)));
+    const painted = findings.slice(0, state.shown);
+    summary.textContent = findings.length > painted.length
+      ? `Newest ${painted.length} of ${findings.length.toLocaleString()} finds`
+      : findings.length
+        ? `${findings.length} find${findings.length === 1 ? "" : "s"}, newest first`
+        : "No finds";
+    results.innerHTML = painted.map(findingCard).join("") || empty("No finds match that search yet.");
+    appendMore(results, findings.length);
     return bindResults(results);
   }
 
@@ -360,15 +376,20 @@ function renderResults() {
   summary.innerHTML = `<strong>${matched.length.toLocaleString()}</strong> commanders · ${scored.toLocaleString()} scored · sorted by ${escapeHtml(sortLabel(state.filters.sort))}`;
   results.innerHTML = matched.slice(0, state.shown).map(commanderCard).join("")
     || empty("Nothing matches those filters. Widen the rank band or clear a colour.");
-  if (matched.length > state.shown) {
-    results.insertAdjacentHTML("beforeend", `<button class="more" id="more" type="button">Show ${Math.min(PAGE_SIZE, matched.length - state.shown)} more of ${(matched.length - state.shown).toLocaleString()}</button>`);
-  }
+  appendMore(results, matched.length);
   bindResults(results);
+}
+
+/** The rest of a capped list is one click away rather than gone. */
+function appendMore(results, total) {
+  const remaining = total - state.shown;
+  if (remaining <= 0) return;
+  results.insertAdjacentHTML("beforeend", `<button class="more" id="more" type="button">Show ${Math.min(pageSize(), remaining)} more of ${remaining.toLocaleString()}</button>`);
 }
 
 function bindResults(results) {
   results.querySelector("#more")?.addEventListener("click", () => {
-    state.shown += PAGE_SIZE;
+    state.shown += pageSize();
     renderResults();
   });
   results.querySelectorAll("[data-expand]").forEach((button) => button.addEventListener("click", async () => {
