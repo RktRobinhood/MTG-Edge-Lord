@@ -1,0 +1,94 @@
+{
+  "id": "mairsil-the-pretender-caged-loyalty-2026-09-23",
+  "findingType": "deep_dive_resource",
+  "title": "Encroaching Mycosynth makes planeswalker cards in hand and graveyard artifacts, so Mairsil can cage them and use their loyalty abilities — and because the once-per-turn loyalty limit is per permanent, every token copy of Mairsil gets a fresh activation.",
+  "summary": "Encroaching Mycosynth turns planeswalker cards into artifacts, which is a card type Mairsil's cage trigger can exile, so he gains loyalty abilities without ever being a planeswalker. A caged Chandra, Flameshaper is the engine: her plus ability makes a hasty token copy of Mairsil, and because the per-turn loyalty restriction applies per permanent, each new token can activate again. The primer catalogues a dozen loyalty-ability kill routes and works through the rules edges, including why making Mairsil an actual planeswalker kills him to state-based actions.",
+  "source": {
+    "name": "Archidekt",
+    "type": "primer",
+    "url": "https://archidekt.com/decks/3698836",
+    "creator": "kws",
+    "resourceDepth": "deep_dive"
+  },
+  "publishedAt": "2026-05-27",
+  "observedAt": "2026-09-23T07:10:00.000Z",
+  "commanders": [
+    {
+      "name": "Mairsil, the Pretender",
+      "slug": "mairsil-the-pretender"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Encroaching Mycosynth",
+      "slug": "encroaching-mycosynth"
+    },
+    {
+      "name": "Chandra, Flameshaper",
+      "slug": "chandra-flameshaper"
+    },
+    {
+      "name": "Jeska, Thrice Reborn",
+      "slug": "jeska-thrice-reborn"
+    },
+    {
+      "name": "The Ozolith",
+      "slug": "the-ozolith"
+    },
+    {
+      "name": "Tevesh Szat, Doom of Fools",
+      "slug": "tevesh-szat-doom-of-fools"
+    },
+    {
+      "name": "Aetherling",
+      "slug": "aetherling"
+    },
+    {
+      "name": "Nicol Bolas, Dragon-God",
+      "slug": "nicol-bolas-dragon-god"
+    }
+  ],
+  "evidence": {
+    "strength": 0.85,
+    "independentSourceCount": 1,
+    "conversationDepth": "maintained",
+    "communityReasoned": true,
+    "tested": true,
+    "notes": [
+      "Four years of maintained revision notes, with per-card reasoning recording why cards were cut after play.",
+      "The rules section resolves five specific interactions rather than asserting the line works."
+    ],
+    "alternatives": [
+      {
+        "name": "Mycosynth Lattice",
+        "status": "rejected",
+        "reason": "It makes opponents' cards artifacts too, handing the same caging options to anyone who steals or copies Mairsil; Encroaching Mycosynth is ownership-scoped and reaches hand and graveyard, which is where the cage trigger looks."
+      },
+      {
+        "name": "Clone effects that give Mairsil the planeswalker type",
+        "status": "rejected",
+        "reason": "State-based actions bin any permanent with the planeswalker type and no loyalty counters, so making Mairsil a real planeswalker kills him instead of enabling him."
+      },
+      {
+        "name": "The Nevinyrral's Disk cage shell",
+        "status": "rejected",
+        "reason": "The published Mairsil line; this build deliberately goes past it into loyalty abilities rather than repeating it."
+      }
+    ]
+  },
+  "tags": [
+    "arch-combo",
+    "arch-toolbox",
+    "band-1000-2000",
+    "ci-ubr",
+    "mech-loyalty-abilities",
+    "mech-type-changing",
+    "recheck-90d",
+    "seed-2026-09"
+  ],
+  "popularity": {
+    "edhrecRank": 1036,
+    "deckCount": 2315,
+    "asOf": "2026-09-22"
+  }
+}

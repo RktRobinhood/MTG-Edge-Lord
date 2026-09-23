@@ -1,0 +1,97 @@
+{
+  "id": "uldaros-theorix-no-ramp-dredge-2026-09-23",
+  "findingType": "emerging_brew",
+  "title": "Cut essentially all traditional ramp, because a turn-two Arcane Signet is slower than a turn-two Merfolk Looter when the deck's clock is dredge velocity rather than mana.",
+  "summary": "The commander's exile-copy-cast trigger invites a two-card graveyard combo, and the author deliberately builds away from it, running a looter-plus-dredge engine instead that activates at instant speed in response to graveyard hate. The no-ramp decision is argued on mulligan and sequencing grounds rather than curve: ramp muddies which opening hands are keepable. Uldaros bridges to the mass-reanimation top end by casting a cheap reanimate effect that returns a spell-recurring creature, and the manabase runs multi-type lands so card-type-counting payoffs stay live.",
+  "source": {
+    "name": "EDHREC Articles",
+    "type": "article",
+    "url": "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/",
+    "creator": "Kara Blinebry",
+    "resourceDepth": "deep_dive"
+  },
+  "publishedAt": "2026-09-17",
+  "observedAt": "2026-09-23T07:10:00.000Z",
+  "commanders": [
+    {
+      "name": "Uldaros Theorix",
+      "slug": "uldaros-theorix"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Merfolk Looter",
+      "slug": "merfolk-looter"
+    },
+    {
+      "name": "Magus of the Bazaar",
+      "slug": "magus-of-the-bazaar"
+    },
+    {
+      "name": "Stinkweed Imp",
+      "slug": "stinkweed-imp"
+    },
+    {
+      "name": "Monument to Endurance",
+      "slug": "monument-to-endurance"
+    },
+    {
+      "name": "Teval's Judgment",
+      "slug": "teval-s-judgment"
+    },
+    {
+      "name": "Scholar of the Lost Trove",
+      "slug": "scholar-of-the-lost-trove"
+    },
+    {
+      "name": "Rise of the Dark Realms",
+      "slug": "rise-of-the-dark-realms"
+    },
+    {
+      "name": "Polluted Cistern",
+      "slug": "polluted-cistern"
+    }
+  ],
+  "evidence": {
+    "strength": 0.66,
+    "independentSourceCount": 1,
+    "conversationDepth": "reasoned",
+    "communityReasoned": true,
+    "tested": false,
+    "notes": [
+      "A stated and defended deckbuilding heresy — no ramp — with the sequencing reasoning behind it rather than an assertion.",
+      "Pre-release commander: the rank and deck count are still forming and should be re-read once the set is out."
+    ],
+    "alternatives": [
+      {
+        "name": "Thassa's Oracle plus Tainted Pact, the default line",
+        "status": "rejected",
+        "reason": "The commander's trigger invites it, but the author deliberately builds away from instant-win two-card combos."
+      },
+      {
+        "name": "Arcane Signet and the usual ramp suite",
+        "status": "rejected",
+        "reason": "It slows the turn-two looter into turn-three payoff curve and clouds mulligan decisions."
+      },
+      {
+        "name": "The Mimeoplasm dredge shell",
+        "status": "rejected",
+        "reason": "The closest analogue and it shares the engine, but it reanimates an army of small creatures rather than a few heavy hitters."
+      }
+    ]
+  },
+  "tags": [
+    "arch-reanimator",
+    "arch-self-mill",
+    "band-2000-3000",
+    "ci-ub",
+    "mech-dredge",
+    "recheck-30d",
+    "seed-2026-09"
+  ],
+  "popularity": {
+    "edhrecRank": 2449,
+    "deckCount": 344,
+    "asOf": "2026-09-22"
+  }
+}

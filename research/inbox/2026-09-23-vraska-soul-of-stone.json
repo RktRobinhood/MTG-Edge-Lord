@@ -1,0 +1,99 @@
+{
+  "id": "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
+  "findingType": "emerging_brew",
+  "title": "Vraska's Sculpture tokens are creatures, and two builders route around it differently",
+  "summary": "Reality Fracture's Jeskai Vraska turns every noncreature spell into a 1/1 Sculpture Treasure, but the tokens are artifact creatures, so they cannot tap for mana the turn they arrive. A budget EDHREC deck tech and an unrelated high-power Archidekt primer each build around that constraint and land on opposite answers: the budget list spends the tokens on costs that tap a summoning-sick creature, while the primer adds haste granters so they tap for mana straight away.",
+  "source": {
+    "name": "EDHREC Articles",
+    "type": "article",
+    "url": "https://edhrec.com/articles/vraska-soul-of-stone-jeskai-weaponized-treasures-on-a-budget/",
+    "creator": "Tyler Bucks",
+    "resourceDepth": "deep_dive"
+  },
+  "publishedAt": "2026-09-22",
+  "observedAt": "2026-09-23T06:20:00.000Z",
+  "commanders": [
+    {
+      "name": "Vraska, Soul of Stone",
+      "slug": "vraska-soul-of-stone"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Springleaf Drum",
+      "slug": "springleaf-drum"
+    },
+    {
+      "name": "The Regalia",
+      "slug": "the-regalia"
+    },
+    {
+      "name": "Third Path Iconoclast",
+      "slug": "third-path-iconoclast"
+    },
+    {
+      "name": "Alibou, Ancient Witness",
+      "slug": "alibou-ancient-witness"
+    },
+    {
+      "name": "Brudiclad, Telchor Engineer",
+      "slug": "brudiclad-telchor-engineer"
+    },
+    {
+      "name": "Losheel, Clockwork Scholar",
+      "slug": "losheel-clockwork-scholar"
+    }
+  ],
+  "evidence": {
+    "strength": 0.72,
+    "independentSourceCount": 2,
+    "conversationDepth": "reasoned",
+    "communityReasoned": true,
+    "tested": false,
+    "notes": [
+      "Both sources name the summoning-sickness limit explicitly and build to answer it, rather than listing the commander as a set-review highlight.",
+      "The two answers are mechanically distinct: costs that tap an untapped creature ignore summoning sickness, whereas haste lets the token use its own mana ability.",
+      "Neither source reports games played, so this is reasoned rather than tested.",
+      "Highest deck count in the Reality Fracture cohort outside Tetsuko, at 1,225 decks against a catalogue trend z-score of 4.77."
+    ],
+    "corroboratingSources": [
+      {
+        "name": "Vraska, Soul of Stone: Sculpture of Limitations",
+        "url": "https://archidekt.com/decks/26289709",
+        "creator": "MTGDeckVault"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Haste granters for the Sculpture tokens",
+        "status": "supporting",
+        "reason": "Alibou and Brudiclad let a freshly made Sculpture tap for mana or attack the turn it is created."
+      },
+      {
+        "name": "Costs that tap a creature without using its own ability",
+        "status": "supporting",
+        "reason": "Springleaf Drum and crewing a Vehicle both tap a summoning-sick creature legally, so the token converts to value immediately without haste."
+      },
+      {
+        "name": "Chaining spells off token mana the turn they are made",
+        "status": "rejected",
+        "reason": "The tokens are creatures, so their mana ability is unavailable until they have been controlled since the start of a turn."
+      }
+    ]
+  },
+  "tags": [
+    "ci-wur",
+    "arch-artifacts",
+    "arch-tokens",
+    "mech-summoning-sickness",
+    "mech-crew",
+    "band-1000-2000",
+    "recheck-30d",
+    "seed-2026-09"
+  ],
+  "popularity": {
+    "edhrecRank": 1501,
+    "deckCount": 1225,
+    "asOf": "2026-09-22"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "lagrella-the-magpie-bounce-not-blink-2026-09-23",
+  "findingType": "emerging_brew",
+  "title": "Build Bant value as a bounce-to-hand deck rather than a blink deck, because returning your own permanent to hand re-triggers cast triggers that flickering never gives you.",
+  "summary": "The argument is that cheap creatures which return one of your own permanents to hand beat the standard blink package on three counts: they mostly cost two mana, they can save noncreature permanents and lands, and recasting re-fires cast triggers a flicker skips. That last point is the whole reason the shell exists, and it is what makes Shardless Agent and The One Ring work here. Lagrella was picked last, chosen to fit a game plan already built rather than to define it, so the deck survives her being answered.",
+  "source": {
+    "name": "EDHREC Articles",
+    "type": "article",
+    "url": "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
+    "creator": "Benjamin Levin",
+    "resourceDepth": "deep_dive"
+  },
+  "publishedAt": "2026-09-01",
+  "observedAt": "2026-09-23T07:10:00.000Z",
+  "commanders": [
+    {
+      "name": "Lagrella, the Magpie",
+      "slug": "lagrella-the-magpie"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Nurturing Pixie",
+      "slug": "nurturing-pixie"
+    },
+    {
+      "name": "Shardless Agent",
+      "slug": "shardless-agent"
+    },
+    {
+      "name": "The One Ring",
+      "slug": "the-one-ring"
+    },
+    {
+      "name": "Whitemane Lion",
+      "slug": "whitemane-lion"
+    },
+    {
+      "name": "Kor Skyfisher",
+      "slug": "kor-skyfisher"
+    },
+    {
+      "name": "Displacer Kitten",
+      "slug": "displacer-kitten"
+    },
+    {
+      "name": "Ambrosia Whiteheart",
+      "slug": "ambrosia-whiteheart"
+    }
+  ],
+  "evidence": {
+    "strength": 0.72,
+    "independentSourceCount": 2,
+    "conversationDepth": "reasoned",
+    "communityReasoned": true,
+    "tested": false,
+    "notes": [
+      "The archetype thesis is defended against the obvious alternative rather than asserted, with three named and rejected alternative commanders.",
+      "The author answers a reader who pushed back on the same premise in a prior column, so the reasoning has been contested."
+    ],
+    "corroboratingSources": [
+      {
+        "name": "Nurturing Pixie: The Best One-Drop You Aren't Playing",
+        "url": "https://edhrec.com/articles/nurturing-pixie-the-best-one-drop-you-arent-playing",
+        "creator": "Benjamin Levin"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "The standard white blink package",
+        "status": "rejected",
+        "reason": "Flickering skips the cast trigger, so it does nothing for Shardless Agent or The One Ring, which are the payoffs the shell is built on."
+      },
+      {
+        "name": "Aang, at the Crossroads",
+        "status": "rejected",
+        "reason": "Reaches almost every creature in the shell and flips easily, but misses the two evoke five-drops the curve leans on."
+      },
+      {
+        "name": "Amareth, the Lustrous",
+        "status": "rejected",
+        "reason": "A strong value engine, but six mana is out of step with a deliberately low curve."
+      }
+    ]
+  },
+  "tags": [
+    "arch-blink",
+    "arch-combo",
+    "band-1000-2000",
+    "ci-wug",
+    "mech-cast-triggers",
+    "recheck-180d",
+    "seed-2026-09"
+  ],
+  "popularity": {
+    "edhrecRank": 1102,
+    "deckCount": 2092,
+    "asOf": "2026-09-22"
+  }
+}

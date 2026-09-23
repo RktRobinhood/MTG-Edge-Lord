@@ -1,0 +1,97 @@
+{
+  "id": "liliana-the-faultless-spellshaper-outlet-2026-09-23",
+  "findingType": "relationship_signal",
+  "title": "Her activated ability is templated like a Spellshaper — pay mana, discard a card — which gives mono-white Reanimator the repeatable discard outlet it has never had.",
+  "summary": "The build is around the cost of the ability rather than its effect: the discard is the point and the hexproof is incidental. Because the ability needs another creature to target, the deck backfills with actual Spellshapers that share the template and so never lack a target, then treats the cleanup step as a second outlet by running catch-up land tutors to push the grip past seven while the one-land-per-turn rule keeps the excess there. Recursion runs off Emeria, the Sky Ruin, duplicated with land-copying effects rather than tutored for once.",
+  "source": {
+    "name": "EDHREC Articles",
+    "type": "article",
+    "url": "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/",
+    "creator": "John Sherwood",
+    "resourceDepth": "deep_dive"
+  },
+  "publishedAt": "2026-09-07",
+  "observedAt": "2026-09-23T07:10:00.000Z",
+  "commanders": [
+    {
+      "name": "Liliana the Faultless",
+      "slug": "liliana-the-faultless"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Tonic Peddler",
+      "slug": "tonic-peddler"
+    },
+    {
+      "name": "Devout Witness",
+      "slug": "devout-witness"
+    },
+    {
+      "name": "Gift of Estates",
+      "slug": "gift-of-estates"
+    },
+    {
+      "name": "Oreskos Explorer",
+      "slug": "oreskos-explorer"
+    },
+    {
+      "name": "Emeria, the Sky Ruin",
+      "slug": "emeria-the-sky-ruin"
+    },
+    {
+      "name": "Thespian's Stage",
+      "slug": "thespian-s-stage"
+    },
+    {
+      "name": "Adarkar Valkyrie",
+      "slug": "adarkar-valkyrie"
+    },
+    {
+      "name": "Reya Dawnbringer",
+      "slug": "reya-dawnbringer"
+    }
+  ],
+  "evidence": {
+    "strength": 0.68,
+    "independentSourceCount": 1,
+    "conversationDepth": "reasoned",
+    "communityReasoned": true,
+    "tested": false,
+    "notes": [
+      "The effort is a template observation — that the ability reads like a Spellshaper — and a worked answer to mono-white's missing discard outlet.",
+      "Pre-release commander: the rank and deck count are still forming and should be re-read once the set is out."
+    ],
+    "alternatives": [
+      {
+        "name": "Reliquary Tower",
+        "status": "rejected",
+        "reason": "Raising maximum hand size is anti-synergy here, because the cleanup-step discard is the engine rather than a cost to be avoided."
+      },
+      {
+        "name": "Reya Dawnbringer as the commander",
+        "status": "rejected",
+        "reason": "A fine mono-white reanimator general in her own right, but she completes the loop from the 99 instead of setting it up."
+      },
+      {
+        "name": "Esper Sentinel or Secret Rendezvous as the draw",
+        "status": "rejected",
+        "reason": "White's card draw is either too expensive or hands opponents cards, so land tutors fill the hand instead."
+      }
+    ]
+  },
+  "tags": [
+    "arch-reanimator",
+    "band-2000-3000",
+    "ci-w",
+    "mech-cleanup-step",
+    "mech-spellshaper",
+    "recheck-30d",
+    "seed-2026-09"
+  ],
+  "popularity": {
+    "edhrecRank": 2386,
+    "deckCount": 374,
+    "asOf": "2026-09-22"
+  }
+}

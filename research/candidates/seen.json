@@ -16,10 +16,10 @@
     {
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "Vraska's Sculpture tokens are creatures, and two builders route around it differently",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Vraska's Sculpture tokens are creatures, and two builders route around it differently",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23"
       ]
@@ -67,10 +67,10 @@
     {
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "A landless mono-black Oops All Spells deck where Zemo's boast trigger is the reanimation spell, so milling the library with Balustrade Spy needs nothing else in",
+      "reason": "promoted to research/inbox/ on 2026-09-23; A landless mono-black Oops All Spells deck where Zemo's boast trigger is the reanimation spell, so milling the library with Balustrade Spy needs nothing else in",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ]
@@ -78,10 +78,10 @@
     {
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "She only discounts instants and sorceries of mana value 4 or greater, so the deck fills with expensive rituals instead of cheap cantrips and every spell is mana",
+      "reason": "promoted to research/inbox/ on 2026-09-23; She only discounts instants and sorceries of mana value 4 or greater, so the deck fills with expensive rituals instead of cheap cantrips and every spell is mana",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ]
@@ -100,10 +100,10 @@
     {
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "Encroaching Mycosynth makes planeswalker cards in hand and graveyard artifacts, so Mairsil can cage them and use their loyalty abilities — and because the once-",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Encroaching Mycosynth makes planeswalker cards in hand and graveyard artifacts, so Mairsil can cage them and use their loyalty abilities — and because the once-",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ]
@@ -111,10 +111,10 @@
     {
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "Stack enough cost reduction that Selenia's recast costs no mana at all, only life, turning her self-bounce into a mana-free loop priced at six life a lap.",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Stack enough cost reduction that Selenia's recast costs no mana at all, only life, turning her self-bounce into a mana-free loop priced at six life a lap.",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ]
@@ -122,10 +122,10 @@
     {
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "Build Bant value as a bounce-to-hand deck rather than a blink deck, because returning your own permanent to hand re-triggers cast triggers that flickering never",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Build Bant value as a bounce-to-hand deck rather than a blink deck, because returning your own permanent to hand re-triggers cast triggers that flickering never",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ]
@@ -133,10 +133,10 @@
     {
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "Her activated ability is templated like a Spellshaper — pay mana, discard a card — which gives mono-white Reanimator the repeatable discard outlet it has never ",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Her activated ability is templated like a Spellshaper — pay mana, discard a card — which gives mono-white Reanimator the repeatable discard outlet it has never ",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ]
@@ -144,10 +144,10 @@
     {
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "Cut essentially all traditional ramp, because a turn-two Arcane Signet is slower than a turn-two Merfolk Looter when the deck's clock is dredge velocity rather ",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Cut essentially all traditional ramp, because a turn-two Arcane Signet is slower than a turn-two Merfolk Looter when the deck's clock is dredge velocity rather ",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ]
@@ -155,10 +155,10 @@
     {
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "Its +3/+3 anthem switches off the moment a creature attacks or blocks, so the deck must cash in size everywhere except combat — including on creature cards sitt",
+      "reason": "promoted to research/inbox/ on 2026-09-23; Its +3/+3 anthem switches off the moment a creature attacks or blocks, so the deck must cash in size everywhere except combat — including on creature cards sitt",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ]
@@ -166,10 +166,10 @@
     {
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "The saddle trigger ends with \"Repeat this process once\", so one attack makes two attacking copies of whichever nonlegendary creature saddled it, doubling that c",
+      "reason": "promoted to research/inbox/ on 2026-09-23; The saddle trigger ends with \"Repeat this process once\", so one attack makes two attacking copies of whichever nonlegendary creature saddled it, doubling that c",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ]
@@ -563,7 +563,7 @@
     {
       "url": "https://edhrec.com/articles/vraska-soul-of-stone-jeskai-weaponized-treasures-on-a-budget/",
       "name": "EDHREC Articles",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "source for vraska-soul-of-stone-sculpture-tempo-2026-09-23"
@@ -571,7 +571,7 @@
     {
       "url": "https://archidekt.com/decks/26289709",
       "name": "Vraska, Soul of Stone: Sculpture of Limitations",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "corroborating source for vraska-soul-of-stone-sculpture-tempo-2026-09-23"
@@ -619,7 +619,7 @@
     {
       "url": "https://archidekt.com/decks/18424569",
       "name": "Archidekt",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "source for baron-helmut-zemo-landless-boast-2026-09-23"
@@ -627,7 +627,7 @@
     {
       "url": "https://archidekt.com/decks/25691642",
       "name": "A Captive Audience - Baron Helmut Zemo",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "corroborating source for baron-helmut-zemo-landless-boast-2026-09-23"
@@ -635,7 +635,7 @@
     {
       "url": "https://archidekt.com/decks/23886957",
       "name": "Archidekt",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "source for the-scarlet-witch-ritual-threshold-2026-09-23"
@@ -651,7 +651,7 @@
     {
       "url": "https://archidekt.com/decks/3698836",
       "name": "Archidekt",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "source for mairsil-the-pretender-caged-loyalty-2026-09-23"
@@ -659,7 +659,7 @@
     {
       "url": "https://archidekt.com/decks/23210749",
       "name": "Archidekt",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "source for selenia-dark-angel-lifecost-loop-2026-09-23"
@@ -667,7 +667,7 @@
     {
       "url": "https://archidekt.com/decks/14950356",
       "name": "Selenia - Life Shennanigans",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "corroborating source for selenia-dark-angel-lifecost-loop-2026-09-23"
@@ -675,7 +675,7 @@
     {
       "url": "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
       "name": "EDHREC Articles",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "source for lagrella-the-magpie-bounce-not-blink-2026-09-23"
@@ -683,7 +683,7 @@
     {
       "url": "https://edhrec.com/articles/nurturing-pixie-the-best-one-drop-you-arent-playing",
       "name": "Nurturing Pixie: The Best One-Drop You Aren't Playing",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "corroborating source for lagrella-the-magpie-bounce-not-blink-2026-09-23"
@@ -691,7 +691,7 @@
     {
       "url": "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/",
       "name": "EDHREC Articles",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "source for liliana-the-faultless-spellshaper-outlet-2026-09-23"
@@ -699,7 +699,7 @@
     {
       "url": "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/",
       "name": "EDHREC Articles",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "source for uldaros-theorix-no-ramp-dredge-2026-09-23"
@@ -707,7 +707,7 @@
     {
       "url": "https://archidekt.com/decks/25857066",
       "name": "Archidekt",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "source for the-muckslinger-gang-noncombat-anthem-2026-09-23"
@@ -715,7 +715,7 @@
     {
       "url": "https://edhrec.com/articles/deck-tech-the-muckslinger-gang",
       "name": "Deck Tech: The Muckslinger Gang",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "corroborating source for the-muckslinger-gang-noncombat-anthem-2026-09-23"
@@ -723,7 +723,7 @@
     {
       "url": "https://archidekt.com/decks/26597078",
       "name": "Archidekt",
-      "status": "candidate",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "source for calamity-galloping-inferno-double-saddle-2026-09-23"

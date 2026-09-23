@@ -1,0 +1,96 @@
+{
+  "id": "the-muckslinger-gang-noncombat-anthem-2026-09-23",
+  "findingType": "relationship_signal",
+  "title": "Its +3/+3 anthem switches off the moment a creature attacks or blocks, so the deck must cash in size everywhere except combat — including on creature cards sitting in the graveyard, which get the buff too.",
+  "summary": "The commander pumps your other creatures only while they are not attacking or blocking, and separately pumps creature cards you own in every zone but the battlefield and the stack. A Jund build treats that as a deckbuilding instruction rather than an anthem: it grows creatures with permanent counters, then converts power into damage and cards through sacrifice, fling effects and power-threshold payoffs, leaving the team home as blockers. Because the buff reaches the graveyard, effects that read power off a card in the yard get bigger for free.",
+  "source": {
+    "name": "Archidekt",
+    "type": "primer",
+    "url": "https://archidekt.com/decks/25857066",
+    "creator": "Panzer-MTG",
+    "resourceDepth": "primer"
+  },
+  "publishedAt": "2026-08-29",
+  "observedAt": "2026-09-23T07:10:00.000Z",
+  "commanders": [
+    {
+      "name": "The Muckslinger Gang",
+      "slug": "the-muckslinger-gang"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Varolz, the Scar-Striped",
+      "slug": "varolz-the-scar-striped"
+    },
+    {
+      "name": "Terror of the Peaks",
+      "slug": "terror-of-the-peaks"
+    },
+    {
+      "name": "Greater Good",
+      "slug": "greater-good"
+    },
+    {
+      "name": "Kazuul's Fury",
+      "slug": "kazuul-s-fury"
+    },
+    {
+      "name": "Garruk's Uprising",
+      "slug": "garruk-s-uprising"
+    },
+    {
+      "name": "The Great Henge",
+      "slug": "the-great-henge"
+    },
+    {
+      "name": "Chandra's Ignition",
+      "slug": "chandra-s-ignition"
+    }
+  ],
+  "evidence": {
+    "strength": 0.75,
+    "independentSourceCount": 2,
+    "conversationDepth": "reasoned",
+    "communityReasoned": true,
+    "tested": false,
+    "notes": [
+      "Two independent builders — an off-meta channel's primer and an EDHREC columnist — reach the same non-obvious reading, that the combat exclusion is the build instruction.",
+      "The graveyard half of the anthem is the part most readings miss, and it is what makes the power-from-the-yard effects work."
+    ],
+    "corroboratingSources": [
+      {
+        "name": "Deck Tech: The Muckslinger Gang",
+        "url": "https://edhrec.com/articles/deck-tech-the-muckslinger-gang",
+        "creator": "Bennie Smith"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Treating it as a conventional Jund aggro anthem",
+        "status": "rejected",
+        "reason": "The bonus is removed exactly when a creature attacks or blocks, so every combat step gives the whole thing back."
+      },
+      {
+        "name": "A standard Jund sacrifice-value pile",
+        "status": "rejected",
+        "reason": "It ignores the zone clause and the non-combat restriction, so the commander adds nothing a generic aristocrats build was not already doing."
+      }
+    ]
+  },
+  "tags": [
+    "arch-aristocrats",
+    "arch-power-matters",
+    "band-1000-2000",
+    "ci-brg",
+    "mech-fling",
+    "mech-zone-anthem",
+    "recheck-90d",
+    "seed-2026-09"
+  ],
+  "popularity": {
+    "edhrecRank": 1179,
+    "deckCount": 1879,
+    "asOf": "2026-09-22"
+  }
+}

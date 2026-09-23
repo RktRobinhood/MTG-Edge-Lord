@@ -1,0 +1,97 @@
+{
+  "id": "selenia-dark-angel-lifecost-loop-2026-09-23",
+  "findingType": "emerging_brew",
+  "title": "Stack enough cost reduction that Selenia's recast costs no mana at all, only life, turning her self-bounce into a mana-free loop priced at six life a lap.",
+  "summary": "Generic cost reducers take Selenia down to one white and one black pip, and the two Defilers let both pips be paid with life, so each bounce-and-recast loop costs six life and no mana. The deck treats the draining life total as the resource rather than the problem: cumulative-upkeep creatures are run deliberately as life sinks, proliferate adds age counters to the builder's own permanents to spend life faster, and life-total swap effects reset the clock. The primer is honest that this is six laps from a full life total, not an infinite combo.",
+  "source": {
+    "name": "Archidekt",
+    "type": "primer",
+    "url": "https://archidekt.com/decks/23210749",
+    "creator": "GlitchHunter",
+    "resourceDepth": "primer"
+  },
+  "publishedAt": "2026-06-20",
+  "observedAt": "2026-09-23T07:10:00.000Z",
+  "commanders": [
+    {
+      "name": "Selenia, Dark Angel",
+      "slug": "selenia-dark-angel"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Defiler of Faith",
+      "slug": "defiler-of-faith"
+    },
+    {
+      "name": "Defiler of Flesh",
+      "slug": "defiler-of-flesh"
+    },
+    {
+      "name": "Contagion Clasp",
+      "slug": "contagion-clasp"
+    },
+    {
+      "name": "Karn's Bastion",
+      "slug": "karn-s-bastion"
+    },
+    {
+      "name": "Axis of Mortality",
+      "slug": "axis-of-mortality"
+    },
+    {
+      "name": "Phyrexian Vindicator",
+      "slug": "phyrexian-vindicator"
+    },
+    {
+      "name": "Gideon of the Trials",
+      "slug": "gideon-of-the-trials"
+    }
+  ],
+  "evidence": {
+    "strength": 0.6,
+    "independentSourceCount": 2,
+    "conversationDepth": "reasoned",
+    "communityReasoned": true,
+    "tested": false,
+    "notes": [
+      "The builder does the cost-reduction arithmetic out loud and caps the loop honestly rather than calling it infinite.",
+      "A second Selenia primer reaches the same colours from the opposite direction and is kept as corroboration, not as a separate idea."
+    ],
+    "corroboratingSources": [
+      {
+        "name": "Selenia - Life Shennanigans",
+        "url": "https://archidekt.com/decks/14950356",
+        "creator": "Gjezuz"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Inner Sanctum",
+        "status": "rejected",
+        "reason": "The builder flags that it switches off the Phyrexian Vindicator damage line the deck also runs, and keeps it only for boards where the Vindicator is absent."
+      },
+      {
+        "name": "Conventional Orzhov lifegain",
+        "status": "rejected",
+        "reason": "Gaining life makes the two-life bounce cheap but removes the reason to swap totals; this deck wants a low life total as the resource state, not a high one."
+      }
+    ]
+  },
+  "tags": [
+    "arch-combo",
+    "arch-life-exchange",
+    "band-1000-2000",
+    "ci-wb",
+    "mech-cost-reduction",
+    "mech-cumulative-upkeep",
+    "mech-proliferate",
+    "recheck-90d",
+    "seed-2026-09"
+  ],
+  "popularity": {
+    "edhrecRank": 1676,
+    "deckCount": 975,
+    "asOf": "2026-09-22"
+  }
+}

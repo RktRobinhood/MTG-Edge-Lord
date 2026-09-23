@@ -1,0 +1,96 @@
+{
+  "id": "baron-helmut-zemo-landless-boast-2026-09-23",
+  "findingType": "emerging_brew",
+  "title": "A landless mono-black Oops All Spells deck where Zemo's boast trigger is the reanimation spell, so milling the library with Balustrade Spy needs nothing else in hand to become a kill.",
+  "summary": "Cutting lands entirely lets a self-targeted Balustrade Spy mill the whole deck, after which attacking with Zemo and paying his boast free-casts three creatures out of the graveyard to drain the table. Zemo also fixes the archetype's usual dead-draw problem, because his connive filters toward combo pieces and the boast casts from the graveyard rather than the hand, so it never bricks the Oops line. Cards stranded in hand are dumped with Phantasmagorian before the mill.",
+  "source": {
+    "name": "Archidekt",
+    "type": "primer",
+    "url": "https://archidekt.com/decks/18424569",
+    "creator": "ShinyChicken",
+    "resourceDepth": "primer"
+  },
+  "publishedAt": "2026-06-22",
+  "observedAt": "2026-09-23T07:10:00.000Z",
+  "commanders": [
+    {
+      "name": "Baron Helmut Zemo",
+      "slug": "baron-helmut-zemo"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Balustrade Spy",
+      "slug": "balustrade-spy"
+    },
+    {
+      "name": "Phantasmagorian",
+      "slug": "phantasmagorian"
+    },
+    {
+      "name": "Bloodletter of Aclazotz",
+      "slug": "bloodletter-of-aclazotz"
+    },
+    {
+      "name": "Twilight Diviner",
+      "slug": "twilight-diviner"
+    },
+    {
+      "name": "Dread Return",
+      "slug": "dread-return"
+    },
+    {
+      "name": "Gray Merchant of Asphodel",
+      "slug": "gray-merchant-of-asphodel"
+    },
+    {
+      "name": "Bridge from Below",
+      "slug": "bridge-from-below"
+    }
+  ],
+  "evidence": {
+    "strength": 0.78,
+    "independentSourceCount": 2,
+    "conversationDepth": "reasoned",
+    "communityReasoned": true,
+    "tested": false,
+    "notes": [
+      "A written step-by-step win line with a stated reason this commander is the right one for it, rather than a list of black staples.",
+      "A second Zemo primer, kept as corroboration, adds the rules point that boast only needs an attacker to have been declared, so it can be activated before blockers."
+    ],
+    "corroboratingSources": [
+      {
+        "name": "A Captive Audience - Baron Helmut Zemo",
+        "url": "https://archidekt.com/decks/25691642",
+        "creator": "MidFrequency"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Battlecruiser reanimator Zemo",
+        "status": "rejected",
+        "reason": "The more common shell plays lands, so the boast recurs value rather than closing the game and the commander stops being the payoff."
+      },
+      {
+        "name": "Yawgmoth's Will storm as the primary line",
+        "status": "rejected",
+        "reason": "Kept only as a fallback for when Zemo is not on the battlefield; it needs real mana and a separate finisher rather than the free boast cast."
+      }
+    ]
+  },
+  "tags": [
+    "arch-combo",
+    "arch-reanimator",
+    "band-1000-2000",
+    "ci-b",
+    "mech-boast",
+    "mech-self-mill",
+    "recheck-90d",
+    "seed-2026-09"
+  ],
+  "popularity": {
+    "edhrecRank": 1001,
+    "deckCount": 2412,
+    "asOf": "2026-09-22"
+  }
+}
