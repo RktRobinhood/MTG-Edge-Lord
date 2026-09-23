@@ -22,6 +22,12 @@ button,input,select { font:inherit }
 @media (prefers-reduced-motion:reduce) { #panel { animation:none } }
 header { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:15px 16px; border-bottom:1px solid var(--mel-line) }
 header strong { display:block; font-size:16px } header span,.muted { color:var(--mel-muted); font-size:12px }
+
+/* The status line doubles as the manual re-check, so it is a button that has
+   to keep reading as the quiet caption it replaced: chrome only on hover. */
+#status { display:block; padding:0; border:0; background:none; color:var(--mel-muted); font-size:12px; text-align:left; cursor:pointer; text-decoration:underline dotted transparent; text-underline-offset:3px }
+#status:hover { color:var(--mel-text); text-decoration-color:var(--mel-muted) }
+#status:focus-visible { outline:2px solid var(--mel-green); outline-offset:2px; border-radius:3px }
 nav { display:grid; grid-template-columns:repeat(4,1fr); border-bottom:1px solid var(--mel-line) }
 nav button { border:0; border-right:1px solid var(--mel-line); background:var(--mel-panel); color:var(--mel-muted); padding:10px; cursor:pointer }
 nav button.active { color:var(--mel-green); box-shadow:inset 0 -2px var(--mel-green) }

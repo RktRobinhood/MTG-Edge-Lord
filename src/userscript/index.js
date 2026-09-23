@@ -83,7 +83,7 @@ function renderShell() {
   shadow.innerHTML = `<style>${styles}</style>
     <section id="panel" aria-label="MTG Edge Lord" hidden>
       <header>
-        <div><strong>MTG Edge Lord</strong><span id="status">Loading…</span></div>
+        <div><strong>MTG Edge Lord</strong><button id="status" type="button" title="Check the backend for new finds now">Loading…</button></div>
         <a href="https://github.com/RktRobinhood/MTG-Edge-Lord" target="_blank" rel="noopener noreferrer">About</a>
       </header>
       <nav>${tabButton("search", "Search")}${tabButton("discover", "Recent finds")}${tabButton("card", "Card-first")}${tabButton("archive", "Archive")}</nav>
@@ -91,6 +91,16 @@ function renderShell() {
     </section>`;
 
   buttonShadow.getElementById("toggle").addEventListener("click", togglePanel);
+
+  // The override the daily interval needs. Without it, someone who has just
+  // checked cannot look again for a day, which is precisely when a published
+  // finding is most worth seeing.
+  shadow.getElementById("status").addEventListener("click", async () => {
+    if (state.checking) return;
+    state.checking = true;
+    shadow.getElementById("status").textContent = statusText();
+    await refresh({ force: true });
+  });
 
   shadow.querySelector("nav").addEventListener("click", (event) => {
     const button = event.target.closest("button[data-tab]");
@@ -202,9 +212,9 @@ function positionPanel() {
   panel.style.setProperty("--mel-right", `${PANEL_GUTTER}px`);
 }
 
-async function refresh({ checkRemote = true } = {}) {
+async function refresh({ checkRemote = true, force = false } = {}) {
   try {
-    state.data = await loadData({ checkRemote });
+    state.data = await loadData({ checkRemote, force });
     state.index = buildSearchIndex(state.data.commanders.commanders);
     // Cleared on success because this now runs again every time the panel is
     // opened: without it, one failed load would outlive its own cause.
@@ -213,6 +223,7 @@ async function refresh({ checkRemote = true } = {}) {
     state.error = error.message;
   } finally {
     state.loading = false;
+    state.checking = false;
     render();
     syncCommanderInsight(state.index?.commanders);
   }
@@ -243,6 +254,7 @@ function render() {
 }
 
 function statusText() {
+  if (state.checking) return "Checking…";
   if (!state.data) return "Discovery data unavailable";
   const count = state.index?.commanders.length ?? 0;
   const checked = state.data.stale ? "offline" : checkedLabel(state.data.checkedAt);
