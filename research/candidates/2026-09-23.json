@@ -1039,5 +1039,91 @@
       "deckCount": 1793,
       "asOf": "2026-09-22"
     }
+  },
+  {
+    "id": "niv-mizzet-supreme-eidolon-package-2026-09-23",
+    "findingType": "deep_dive_resource",
+    "title": "Niv-Mizzet, Supreme plays a package it never casts, because the Eidolons return themselves",
+    "summary": "Two months of iteration on the five Dissension Eidolons, which return from the graveyard to hand whenever their controller casts a multicolored spell. That inverts the usual cost of looting and rummaging: the discard is free, so every modern discard payoff becomes an engine rather than a resource trade. The write-up prices the constraint openly at roughly two dozen multicolored cards, which is why the least-played of the seven Niv-Mizzets is the all-in home rather than a tighter Grixis shell, and it names the commanders in other colours the same package slots into. Pauper, Vintage and Premodern precedent is cited as evidence the engine is real rather than cute.",
+    "source": {
+      "name": "EDHREC Articles",
+      "type": "article",
+      "url": "https://edhrec.com/articles/the-best-cards-youre-not-playing-are-ones-youll-never-cast/",
+      "creator": "Jesse Barker Plotkin",
+      "resourceDepth": "deep_dive"
+    },
+    "publishedAt": "2026-09-23",
+    "observedAt": "2026-09-23T11:19:34.000Z",
+    "commanders": [
+      {
+        "name": "Niv-Mizzet, Supreme",
+        "slug": "niv-mizzet-supreme"
+      }
+    ],
+    "cards": [
+      {
+        "name": "Sandstorm Eidolon",
+        "slug": "sandstorm-eidolon"
+      },
+      {
+        "name": "Aurora Eidolon",
+        "slug": "aurora-eidolon"
+      },
+      {
+        "name": "Krovikan Horror",
+        "slug": "krovikan-horror"
+      },
+      {
+        "name": "Magus of the Bazaar",
+        "slug": "magus-of-the-bazaar"
+      },
+      {
+        "name": "Monument to Endurance",
+        "slug": "monument-to-endurance"
+      },
+      {
+        "name": "Psychic Frog",
+        "slug": "psychic-frog"
+      }
+    ],
+    "evidence": {
+      "strength": 0.66,
+      "independentSourceCount": 1,
+      "conversationDepth": "tested",
+      "communityReasoned": true,
+      "tested": true,
+      "notes": [
+        "The author reports two months of iterating variants and names the resulting list their favourite deck to play.",
+        "The deckbuilding cost is stated as a number rather than waved at: the Eidolons need enough multicolored spells to fire, and the five-colour build is what pays it.",
+        "The package is portable — the same eight-or-so cards are offered to Varina, Raffine, Quintorius and Rydia decks, so the idea is not locked to one commander."
+      ],
+      "alternatives": [
+        {
+          "name": "A Grixis shell under a popular commander",
+          "status": "rejected",
+          "reason": "Named as the seamless fit, but passed over because it runs fewer multicolored spells and the Eidolons come back less often."
+        },
+        {
+          "name": "Squee and Master of Death alone",
+          "status": "rejected",
+          "reason": "Easier, but already in tens of thousands of decks, which is why the article reaches past them."
+        }
+      ]
+    },
+    "tags": [
+      "arch-discard",
+      "arch-spellslinger",
+      "arch-graveyard",
+      "band-1000-2000",
+      "mech-return-to-hand",
+      "mech-multicolor-matters",
+      "ci-wubrg",
+      "recheck-180d"
+    ],
+    "popularity": {
+      "edhrecRank": 1030,
+      "deckCount": 2331,
+      "asOf": "2026-09-22"
+    }
   }
 ]

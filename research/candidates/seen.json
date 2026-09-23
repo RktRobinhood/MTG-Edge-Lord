@@ -541,6 +541,49 @@
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "straightforward typal build, no surprising claim"
+    },
+    {
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "slug": "niv-mizzet-supreme",
+      "name": "Niv-Mizzet, Supreme",
+      "status": "filed",
+      "reason": "the Eidolon package turns looting into free card advantage, and the five-colour build is the one that pays its multicolour price",
+      "findingIds": [
+        "niv-mizzet-supreme-eidolon-package-2026-09-23"
+      ]
+    },
+    {
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "slug": "arjun-the-shifting-flame",
+      "name": "Arjun, the Shifting Flame",
+      "status": "rejected",
+      "reason": "in band at rank 1,096 and a genuinely inverted reading of the hand-tuck, but a deck of twenty-odd copies of one card is single-track by construction and the article evaluates the card rather than reporting a build"
+    },
+    {
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "slug": "unesh-criosphinx-sovereign",
+      "name": "Unesh, Criosphinx Sovereign",
+      "status": "rejected",
+      "reason": "in band, but named as the obvious Sphinx-typal home for a new Sphinx card, which is the default read rather than a find"
+    },
+    {
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "slug": "etali-primal-conqueror",
+      "name": "Etali, Primal Conqueror",
+      "status": "rejected",
+      "reason": "rank 106 is the meta baseline; a budget-trim column on it is never a find"
+    },
+    {
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "slug": "norman-osborn",
+      "name": "Norman Osborn",
+      "status": "rejected",
+      "reason": "the same article builds a Grixis Eidolon list under him, but rank 90 puts him in the meta baseline"
     }
   ],
   "sources": [
@@ -839,6 +882,54 @@
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "no commander-specific deck tech in the current window; podcasts and precon patches"
+    },
+    {
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "url": "https://edhrec.com/articles/the-best-cards-youre-not-playing-are-ones-youll-never-cast/",
+      "name": "EDHREC Articles",
+      "status": "filed",
+      "reason": "source for niv-mizzet-supreme-eidolon-package-2026-09-23"
+    },
+    {
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "url": "https://edhrec.com/articles/is-sphinxs-approach-a-new-commander-staple/",
+      "name": "EDHREC Articles",
+      "status": "rejected",
+      "reason": "careful card analysis, but the shell it lands on is one-track and no build is reported"
+    },
+    {
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "url": "https://edhrec.com/articles/the-best-planeswalkers-in-reality-fracture/",
+      "name": "EDHREC Articles",
+      "status": "rejected",
+      "reason": "set-review roundup; mentions, not effort"
+    },
+    {
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "url": "https://edhrec.com/articles/reign-supreme-budget-trimmed-etali-primal-conqueror-build/",
+      "name": "EDHREC Articles",
+      "status": "rejected",
+      "reason": "budget column on a rank-106 commander"
+    },
+    {
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "url": "https://edhrec.com/articles/am-i-the-bolas-downplaying-power/",
+      "name": "EDHREC Articles",
+      "status": "rejected",
+      "reason": "pod-etiquette column, no commander idea"
+    },
+    {
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "url": "https://archidekt.com/api/decks/v3/?commanderName=Niv-Mizzet%2C+Supreme",
+      "name": "Archidekt",
+      "status": "rejected",
+      "reason": "checked for a second independent Eidolon build; the most-viewed Niv-Mizzet Supreme decks are modal/gates lists with no primer, so the finding rests on one source"
     }
   ]
 }
