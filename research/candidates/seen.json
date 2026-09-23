@@ -12,6 +12,54 @@
         "massimo-vraska-spree-2026-09-20"
       ],
       "reason": "surfaced by the feed"
+    },
+    {
+      "slug": "vraska-soul-of-stone",
+      "name": "Vraska, Soul of Stone",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "rank 1,501 with the cohort-leading trend score; two independent builders solve the Sculpture summoning-sickness constraint in different ways"
+    },
+    {
+      "slug": "jiang-yanggu-alone",
+      "name": "Jiang Yanggu, Alone",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "rank 3,457 is past the surfacing limit and its cohort z-score of 0.247 means the chatter does not outrun the 87 decks, despite a genuinely good rules write-up"
+    },
+    {
+      "slug": "tam-the-possibility",
+      "name": "Tam, the Possibility",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "cohort-topping momentum but the only primer is the established Superfriends package (Doubling Season, Chain Veil plus Teferi, Ichormoon Gauntlet) with no line specific to this commander"
+    },
+    {
+      "slug": "daxos-the-returned",
+      "name": "Daxos the Returned",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the coverage is a budget precon remaster of Commander 2015, a deckbuilding exercise on a known enchantress shell rather than a new interaction"
+    },
+    {
+      "slug": "arcum-dagsson",
+      "name": "Arcum Dagsson",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the coverage is an inclusion-rate trends column about cards already played in the deck, which is statistics about the existing meta, not a brew"
+    },
+    {
+      "slug": "winota-joiner-of-forces",
+      "name": "Winota, Joiner of Forces",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "rank 144 is the meta baseline and never a find"
     }
   ],
   "sources": [
@@ -30,6 +78,62 @@
       "firstSeenAt": "2026-09-20",
       "lastSeenAt": "2026-09-20",
       "reason": "corroborating source for massimo-vraska-spree-2026-09-20"
+    },
+    {
+      "url": "https://edhrec.com/articles/vraska-soul-of-stone-jeskai-weaponized-treasures-on-a-budget/",
+      "name": "EDHREC Articles",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "budget deck tech that explains the Sculpture summoning-sickness limit and builds around it"
+    },
+    {
+      "url": "https://archidekt.com/decks/26289709",
+      "name": "Vraska, Soul of Stone: Sculpture of Limitations",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "independent high-power primer reaching the same constraint via haste granters"
+    },
+    {
+      "url": "https://edhrec.com/articles/jian-yanggu-alone-discard-aggro-bracket-3-beatdown/",
+      "name": "EDHREC Articles",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "strong rules explanation of attacks-a-player-alone, but the commander sits at rank 3,457 with 87 decks"
+    },
+    {
+      "url": "https://archidekt.com/decks/26495455",
+      "name": "F.R.I.E.N.D.S - Superfriends Tam, the possibility",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "elaborate presentation over a standard Superfriends list; no commander-specific novelty"
+    },
+    {
+      "url": "https://edhrec.com/articles/commander-20215s-call-the-spirits-precon-remastered/",
+      "name": "EDHREC Articles",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "precon budget remaster column, no new mechanical idea"
+    },
+    {
+      "url": "https://edhrec.com/articles/fire-and-ice-which-cards-are-hot-and-cold-for-arcum-dagsson/",
+      "name": "EDHREC Articles",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "data column on inclusion-rate movement, not a brew"
+    },
+    {
+      "url": "https://cedh-decklist-database.com/",
+      "name": "cEDH Decklist Database",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "Brewers Corner unchanged at 9 BREW / 56 COMPETITIVE / 72 OUTDATED since the 2026-09-22 verification; no new movement to read"
     }
   ]
 }
