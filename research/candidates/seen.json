@@ -19,7 +19,10 @@
       "status": "candidate",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "rank 1,501 with the cohort-leading trend score; two independent builders solve the Sculpture summoning-sickness constraint in different ways"
+      "reason": "Vraska's Sculpture tokens are creatures, and two builders route around it differently",
+      "findingIds": [
+        "vraska-soul-of-stone-sculpture-tempo-2026-09-23"
+      ]
     },
     {
       "slug": "jiang-yanggu-alone",
@@ -60,6 +63,484 @@
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "rank 144 is the meta baseline and never a find"
+    },
+    {
+      "slug": "baron-helmut-zemo",
+      "name": "Baron Helmut Zemo",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "A landless mono-black Oops All Spells deck where Zemo's boast trigger is the reanimation spell, so milling the library with Balustrade Spy needs nothing else in",
+      "findingIds": [
+        "baron-helmut-zemo-landless-boast-2026-09-23"
+      ]
+    },
+    {
+      "slug": "the-scarlet-witch",
+      "name": "The Scarlet Witch",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "She only discounts instants and sorceries of mana value 4 or greater, so the deck fills with expensive rituals instead of cheap cantrips and every spell is mana",
+      "findingIds": [
+        "the-scarlet-witch-ritual-threshold-2026-09-23"
+      ]
+    },
+    {
+      "slug": "yshtola-rhul",
+      "name": "Y'shtola Rhul",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "Y'shtola is not a blink commander but an extra-end-step commander: her first trigger each turn grants an additional end step, so every end-step payoff in the de",
+      "findingIds": [
+        "yshtola-rhul-extra-end-step-2026-09-23"
+      ]
+    },
+    {
+      "slug": "mairsil-the-pretender",
+      "name": "Mairsil, the Pretender",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "Encroaching Mycosynth makes planeswalker cards in hand and graveyard artifacts, so Mairsil can cage them and use their loyalty abilities — and because the once-",
+      "findingIds": [
+        "mairsil-the-pretender-caged-loyalty-2026-09-23"
+      ]
+    },
+    {
+      "slug": "selenia-dark-angel",
+      "name": "Selenia, Dark Angel",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "Stack enough cost reduction that Selenia's recast costs no mana at all, only life, turning her self-bounce into a mana-free loop priced at six life a lap.",
+      "findingIds": [
+        "selenia-dark-angel-lifecost-loop-2026-09-23"
+      ]
+    },
+    {
+      "slug": "lagrella-the-magpie",
+      "name": "Lagrella, the Magpie",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "Build Bant value as a bounce-to-hand deck rather than a blink deck, because returning your own permanent to hand re-triggers cast triggers that flickering never",
+      "findingIds": [
+        "lagrella-the-magpie-bounce-not-blink-2026-09-23"
+      ]
+    },
+    {
+      "slug": "liliana-the-faultless",
+      "name": "Liliana the Faultless",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "Her activated ability is templated like a Spellshaper — pay mana, discard a card — which gives mono-white Reanimator the repeatable discard outlet it has never ",
+      "findingIds": [
+        "liliana-the-faultless-spellshaper-outlet-2026-09-23"
+      ]
+    },
+    {
+      "slug": "uldaros-theorix",
+      "name": "Uldaros Theorix",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "Cut essentially all traditional ramp, because a turn-two Arcane Signet is slower than a turn-two Merfolk Looter when the deck's clock is dredge velocity rather ",
+      "findingIds": [
+        "uldaros-theorix-no-ramp-dredge-2026-09-23"
+      ]
+    },
+    {
+      "slug": "the-muckslinger-gang",
+      "name": "The Muckslinger Gang",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "Its +3/+3 anthem switches off the moment a creature attacks or blocks, so the deck must cash in size everywhere except combat — including on creature cards sitt",
+      "findingIds": [
+        "the-muckslinger-gang-noncombat-anthem-2026-09-23"
+      ]
+    },
+    {
+      "slug": "calamity-galloping-inferno",
+      "name": "Calamity, Galloping Inferno",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "The saddle trigger ends with \"Repeat this process once\", so one attack makes two attacking copies of whichever nonlegendary creature saddled it, doubling that c",
+      "findingIds": [
+        "calamity-galloping-inferno-double-saddle-2026-09-23"
+      ]
+    },
+    {
+      "slug": "vadrik-astral-archmage",
+      "name": "Vadrik, Astral Archmage",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the Searing Touch line is the commander default, not a discovery: Commander Spellbook records it in 1,440 decks against 3,579 for the commander itself"
+    },
+    {
+      "slug": "trazyn-the-infinite",
+      "name": "Trazyn the Infinite",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the Sol Ring plus Staff of Domination line sits in 3,299 Spellbook decks, more than the commander has on EDHREC - fully absorbed, and its EDHTop16 presence is already carried in data/"
+    },
+    {
+      "slug": "teferi-temporal-archmage",
+      "name": "Teferi, Temporal Archmage",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "48.5% conversion but Teferi plus Thrasios is a standing cEDH pillar - meta to subtract"
+    },
+    {
+      "slug": "prime-speaker-vannifar",
+      "name": "Prime Speaker Vannifar",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "pod-chain Vannifar is a documented archetype with no surprise left"
+    },
+    {
+      "slug": "emiel-the-blessed",
+      "name": "Emiel the Blessed",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the headline Spellbook line sits in 16,840 decks - fully absorbed"
+    },
+    {
+      "slug": "teshar-ancestor-s-apostle",
+      "name": "Teshar, Ancestor's Apostle",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "already carries a cEDH Decklist Database community entry in our own catalogue"
+    },
+    {
+      "slug": "mm-menon-the-right-hand",
+      "name": "Mm'menon, the Right Hand",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "genuinely novel artifact-chain engine but 3,828 decks and edge 30.1 - mainstream; re-look if it drifts up the band"
+    },
+    {
+      "slug": "nezahal-primal-tide",
+      "name": "Nezahal, Primal Tide",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "surprising tournament presence for a seven-mana mono-blue commander, but no line verifiable from a permitted source; chase if a primer appears"
+    },
+    {
+      "slug": "tekuthal-inquiry-dominus",
+      "name": "Tekuthal, Inquiry Dominus",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "zero primers in the top 60 Archidekt decks despite 2,453 decks - built but not written about"
+    },
+    {
+      "slug": "patron-of-the-moon",
+      "name": "Patron of the Moon",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "zero Archidekt primers to judge"
+    },
+    {
+      "slug": "kairi-the-swirling-sky",
+      "name": "Kairi, the Swirling Sky",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "zero Archidekt primers to judge"
+    },
+    {
+      "slug": "krang-the-all-powerful",
+      "name": "Krang, the All-Powerful",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "zero Archidekt primers to judge"
+    },
+    {
+      "slug": "numot-the-devastator",
+      "name": "Numot, the Devastator",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "zero Archidekt primers despite 1,726 decks"
+    },
+    {
+      "slug": "erestor-of-the-council",
+      "name": "Erestor of the Council",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "zero Archidekt primers to judge"
+    },
+    {
+      "slug": "saffi-eriksdotter",
+      "name": "Saffi Eriksdotter",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "zero Archidekt primers despite a well-known combo identity"
+    },
+    {
+      "slug": "venser-corpse-puppet",
+      "name": "Venser, Corpse Puppet",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "zero Archidekt primers to judge"
+    },
+    {
+      "slug": "shang-chi-master-of-kung-fu",
+      "name": "Shang-Chi, Master of Kung Fu",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "zero Archidekt primers, and EDHREC already tags it cedh so new-set hype is not separable from effort"
+    },
+    {
+      "slug": "daredevil-fearless-fighter",
+      "name": "Daredevil, Fearless Fighter",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "long primer, no rules interaction explained and no line - a well-presented pile of the obvious plan"
+    },
+    {
+      "slug": "braids-cabal-minion",
+      "name": "Braids, Cabal Minion",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "card clusters grouped by function with no reasoning attached"
+    },
+    {
+      "slug": "monk-gyatso",
+      "name": "Monk Gyatso",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "correctly spots that Airbending is exile-and-recast rather than blink, but names no cards for the payoff; insight real, effort not shown"
+    },
+    {
+      "slug": "hokori-dust-drinker",
+      "name": "Hokori, Dust Drinker",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "good writing and a real answer to the stax-cannot-close problem, but both load-bearing ideas are the standard Hokori reasoning - closest miss in its lane"
+    },
+    {
+      "slug": "mishra-artificer-prodigy",
+      "name": "Mishra, Artificer Prodigy",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the author states the Possibility Storm engine is an old and widely-seen combo; the rest is a budget purchase journal"
+    },
+    {
+      "slug": "toph-greatest-earthbender",
+      "name": "Toph, Greatest Earthbender",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "reads as generated boilerplate with format-generic combos"
+    },
+    {
+      "slug": "codie-ravenous-codex",
+      "name": "Codie, Ravenous Codex",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the primer is built around casting a board of permanents, which Codie's own text forbids - rejected on correctness"
+    },
+    {
+      "slug": "the-ur-sphinx",
+      "name": "The Ur-Sphinx",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the idea is the obvious one: a Sphinx lord that discounts Sphinxes, built as Sphinx tribal"
+    },
+    {
+      "slug": "astonishing-spider-man",
+      "name": "Astonishing Spider-Man",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "genuine effort, but a wheel commander wanting discard payoffs and burn is not a surprising sentence"
+    },
+    {
+      "slug": "sliver-queen",
+      "name": "Sliver Queen",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the only primer is a price flex, not a build idea; no route past the known combo shell"
+    },
+    {
+      "slug": "seluma-light-of-aysen",
+      "name": "Seluma, Light of Aysen",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "a nice puzzle - the only mono-coloured commander that wants Krosan Verge and cannot run Command Tower - but a theme-first low-bracket build; closest miss of the whole run and worth a re-read"
+    },
+    {
+      "slug": "chong-and-lily-nomads",
+      "name": "Chong and Lily, Nomads",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the author self-describes it as low-power Bracket 1-2, so it fails still-competitive"
+    },
+    {
+      "slug": "lyra-archangel-of-dawn",
+      "name": "Lyra, Archangel of Dawn",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "rank 3,671, past the surfacing limit"
+    },
+    {
+      "slug": "nekusar-the-mindrazer",
+      "name": "Nekusar, the Mindrazer",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "rank 18, meta baseline"
+    },
+    {
+      "slug": "marchesa-the-black-rose",
+      "name": "Marchesa, the Black Rose",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "rank 146, meta baseline"
+    },
+    {
+      "slug": "duskana-the-rage-mother",
+      "name": "Duskana, the Rage Mother",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "rank 399, meta baseline"
+    },
+    {
+      "slug": "the-great-goblin",
+      "name": "The Great Goblin",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "rank 496, meta baseline"
+    },
+    {
+      "slug": "vren-the-relentless",
+      "name": "Vren, the Relentless",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "rank 172, meta baseline"
+    },
+    {
+      "slug": "hapatra-vizier-of-poisons",
+      "name": "Hapatra, Vizier of Poisons",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "rank 467, meta baseline despite off-meta framing from a creator"
+    },
+    {
+      "slug": "faldorn-dread-wolf-herald",
+      "name": "Faldorn, Dread Wolf Herald",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "in band at 535 but edge 5.2, long established, and the primer is a build summary rather than a mechanical claim"
+    },
+    {
+      "slug": "ingris-stingerquill",
+      "name": "Ingris Stingerquill",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "budget column, and budget framing is not a build idea"
+    },
+    {
+      "slug": "kwia-vigorbloom",
+      "name": "Kwia Vigorbloom",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "real deck tech but a straightforward on-theme build with no surprising mechanical claim"
+    },
+    {
+      "slug": "elda-conjurer-of-spectacle",
+      "name": "Elda, Conjurer of Spectacle",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "straightforward on-theme build, no surprising claim"
+    },
+    {
+      "slug": "depala-pilot-exemplar",
+      "name": "Depala, Pilot Exemplar",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "straightforward typal build, no surprising claim"
+    },
+    {
+      "slug": "zagorka-mother-of-sanctum",
+      "name": "Zagorka, Mother of Sanctum",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "straightforward on-theme build, no surprising claim"
+    },
+    {
+      "slug": "valko-indorian",
+      "name": "Valko Indorian",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "straightforward on-theme build, no surprising claim"
+    },
+    {
+      "slug": "glava-five-advents-mage",
+      "name": "Glava, Five-Advents Mage",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "straightforward on-theme build, no surprising claim"
+    },
+    {
+      "slug": "chief-of-the-wilds",
+      "name": "Chief of the Wilds",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "straightforward typal build, no surprising claim"
+    },
+    {
+      "slug": "dain-of-the-ancient-halls",
+      "name": "Dain of the Ancient Halls",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "straightforward typal build, no surprising claim"
     }
   ],
   "sources": [
@@ -85,7 +566,7 @@
       "status": "candidate",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "budget deck tech that explains the Sculpture summoning-sickness limit and builds around it"
+      "reason": "source for vraska-soul-of-stone-sculpture-tempo-2026-09-23"
     },
     {
       "url": "https://archidekt.com/decks/26289709",
@@ -93,7 +574,7 @@
       "status": "candidate",
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
-      "reason": "independent high-power primer reaching the same constraint via haste granters"
+      "reason": "corroborating source for vraska-soul-of-stone-sculpture-tempo-2026-09-23"
     },
     {
       "url": "https://edhrec.com/articles/jian-yanggu-alone-discard-aggro-bracket-3-beatdown/",
@@ -134,6 +615,230 @@
       "firstSeenAt": "2026-09-23",
       "lastSeenAt": "2026-09-23",
       "reason": "Brewers Corner unchanged at 9 BREW / 56 COMPETITIVE / 72 OUTDATED since the 2026-09-22 verification; no new movement to read"
+    },
+    {
+      "url": "https://archidekt.com/decks/18424569",
+      "name": "Archidekt",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "source for baron-helmut-zemo-landless-boast-2026-09-23"
+    },
+    {
+      "url": "https://archidekt.com/decks/25691642",
+      "name": "A Captive Audience - Baron Helmut Zemo",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "corroborating source for baron-helmut-zemo-landless-boast-2026-09-23"
+    },
+    {
+      "url": "https://archidekt.com/decks/23886957",
+      "name": "Archidekt",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "source for the-scarlet-witch-ritual-threshold-2026-09-23"
+    },
+    {
+      "url": "https://archidekt.com/decks/14442064",
+      "name": "Archidekt",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "source for yshtola-rhul-extra-end-step-2026-09-23"
+    },
+    {
+      "url": "https://archidekt.com/decks/3698836",
+      "name": "Archidekt",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "source for mairsil-the-pretender-caged-loyalty-2026-09-23"
+    },
+    {
+      "url": "https://archidekt.com/decks/23210749",
+      "name": "Archidekt",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "source for selenia-dark-angel-lifecost-loop-2026-09-23"
+    },
+    {
+      "url": "https://archidekt.com/decks/14950356",
+      "name": "Selenia - Life Shennanigans",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "corroborating source for selenia-dark-angel-lifecost-loop-2026-09-23"
+    },
+    {
+      "url": "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
+      "name": "EDHREC Articles",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "source for lagrella-the-magpie-bounce-not-blink-2026-09-23"
+    },
+    {
+      "url": "https://edhrec.com/articles/nurturing-pixie-the-best-one-drop-you-arent-playing",
+      "name": "Nurturing Pixie: The Best One-Drop You Aren't Playing",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "corroborating source for lagrella-the-magpie-bounce-not-blink-2026-09-23"
+    },
+    {
+      "url": "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/",
+      "name": "EDHREC Articles",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "source for liliana-the-faultless-spellshaper-outlet-2026-09-23"
+    },
+    {
+      "url": "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/",
+      "name": "EDHREC Articles",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "source for uldaros-theorix-no-ramp-dredge-2026-09-23"
+    },
+    {
+      "url": "https://archidekt.com/decks/25857066",
+      "name": "Archidekt",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "source for the-muckslinger-gang-noncombat-anthem-2026-09-23"
+    },
+    {
+      "url": "https://edhrec.com/articles/deck-tech-the-muckslinger-gang",
+      "name": "Deck Tech: The Muckslinger Gang",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "corroborating source for the-muckslinger-gang-noncombat-anthem-2026-09-23"
+    },
+    {
+      "url": "https://archidekt.com/decks/26597078",
+      "name": "Archidekt",
+      "status": "candidate",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "source for calamity-galloping-inferno-double-saddle-2026-09-23"
+    },
+    {
+      "url": "https://edhtop16.com/commander/Vadrik%2C%20Astral%20Archmage",
+      "name": "EDHTop16",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the line it evidences is in 1,440 Spellbook decks - the commander default"
+    },
+    {
+      "url": "https://commanderspellbook.com/combo/2645-3918-5034/",
+      "name": "Commander Spellbook",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "3,299 decks already run this combo; absorbed, not a find"
+    },
+    {
+      "url": "https://archidekt.com/decks/23950353",
+      "name": "Daredevil primer",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "no rules interaction explained and no line"
+    },
+    {
+      "url": "https://archidekt.com/decks/15722779",
+      "name": "Braids primer",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "function-grouped card clusters with no reasoning"
+    },
+    {
+      "url": "https://archidekt.com/decks/24309923",
+      "name": "Monk Gyatso primer",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "names no cards for the payoff it proposes"
+    },
+    {
+      "url": "https://archidekt.com/decks/11726306",
+      "name": "Hokori primer",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "standard Hokori reasoning, well written; revisit if updated with game reports"
+    },
+    {
+      "url": "https://archidekt.com/decks/22746182",
+      "name": "Mishra primer",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the author calls the engine old and widely seen"
+    },
+    {
+      "url": "https://archidekt.com/decks/17908040",
+      "name": "Toph primer",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "generated boilerplate, format-generic combos"
+    },
+    {
+      "url": "https://archidekt.com/decks/26584299",
+      "name": "Codie primer",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the build contradicts the commander's own restriction"
+    },
+    {
+      "url": "https://archidekt.com/decks/26480873",
+      "name": "Ur-Sphinx primer",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "the obvious Sphinx-tribal read"
+    },
+    {
+      "url": "https://archidekt.com/decks/25802812",
+      "name": "Astonishing Spider-Man primer",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "effort without a surprising idea"
+    },
+    {
+      "url": "https://archidekt.com/decks/12251838",
+      "name": "Sliver Queen primer",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "a price flex, not a build idea"
+    },
+    {
+      "url": "https://articles.starcitygames.com/magic-the-gathering/the-spike-feeders-new-reality-fracture-commander-brews/",
+      "name": "SCG Articles",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "decklists with the reasoning kept off-page in video"
+    },
+    {
+      "url": "https://www.mtggoldfish.com/feed",
+      "name": "MTGGoldfish Atom",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-23",
+      "lastSeenAt": "2026-09-23",
+      "reason": "no commander-specific deck tech in the current window; podcasts and precon patches"
     }
   ]
 }
