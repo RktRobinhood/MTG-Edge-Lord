@@ -16,6 +16,16 @@ It is the reading half of Edge Lord discovery. The `.github/workflows/daily-rese
 
 The separator is **effort, not mention**. A primer, an explained mechanical interaction, a report of games played, per-card notes, a considered deck tech — those are effort. A name in a set review, a top-ten roundup, a commander used as an example — those are mentions, however enthusiastic.
 
+The second separator is **range, not just novelty**. A commander that does one
+thing, does it the only way it can be done, and is finished once you have seen
+it is a boring find however obscure it is. Prefer the ones that reward a
+deckbuilder: several plausible shells, a decision to make each game, a package
+that ports to other commanders, an ability that can be pointed at more than one
+plan. When two records clear the effort bar, file the one with more room in it.
+
+Added 2026-09-23, after a review of the first ten published records found
+several that were one-dimensional once the trick was stated.
+
 Surfacing band, from `docs/PRD.md`:
 
 | Rank | Treatment for this run |
