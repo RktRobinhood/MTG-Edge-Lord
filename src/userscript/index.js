@@ -172,16 +172,27 @@ function togglePanel() {
 }
 
 /**
- * Hang the panel off the button. Positioning is written as custom properties
- * rather than `top`/`right` so the narrow-screen rules, which take the panel
- * full-bleed, can still win against what we set inline here.
+ * Drop the panel from under the button, along the window's right edge.
+ *
+ * It used to line its right edge up with the button's, which is tidier on
+ * paper and worse on a screen: EDHREC puts the navbar's buttons well short of
+ * the window, so the panel sat in the middle with a strip of nothing beside it
+ * and the page's own content underneath it. Against the right edge it covers
+ * the rail rather than the card.
+ *
+ * Only the top still follows the button, so the panel still reads as having
+ * come from it. Positioning is written as custom properties rather than
+ * `top`/`right` so the narrow-screen rules, which take the panel full-bleed,
+ * can still win against what we set inline here.
  */
+const PANEL_GUTTER = 14;
+
 function positionPanel() {
   const panel = shadow.getElementById("panel");
   const rect = buttonHost.getBoundingClientRect();
   const anchored = !buttonHost.classList.contains("floating");
-  panel.style.setProperty("--mel-top", `${anchored ? Math.round(rect.bottom) + 8 : 14}px`);
-  panel.style.setProperty("--mel-right", `${anchored ? Math.max(8, Math.round(innerWidth - rect.right)) : 14}px`);
+  panel.style.setProperty("--mel-top", `${anchored ? Math.round(rect.bottom) + 8 : PANEL_GUTTER}px`);
+  panel.style.setProperty("--mel-right", `${PANEL_GUTTER}px`);
 }
 
 async function refresh() {
