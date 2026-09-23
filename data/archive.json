@@ -2,6 +2,31 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "avacyn-angel-of-horror",
+      "name": "Avacyn, Angel of Horror",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "avacyn-angel-of-horror-edhrec-momentum-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/avacyn-angel-of-horror",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 2095,
+        "deckCount": 570,
+        "asOf": "2026-09-23"
+      }
+    },
+    {
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
@@ -49,6 +74,106 @@
         "edhrecRank": 1219,
         "deckCount": 1793,
         "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "codie-ravenous-codex",
+      "name": "Codie, Ravenous Codex",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "codie-ravenous-codex-edhrec-momentum-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/codie-ravenous-codex",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 2015,
+        "deckCount": 625,
+        "asOf": "2026-09-23"
+      }
+    },
+    {
+      "slug": "dack-fayden-helping-hand",
+      "name": "Dack Fayden, Helping Hand",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "dack-fayden-helping-hand-edhrec-momentum-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/dack-fayden-helping-hand",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 2125,
+        "deckCount": 544,
+        "asOf": "2026-09-23"
+      }
+    },
+    {
+      "slug": "geist-of-saint-thalia",
+      "name": "Geist of Saint Thalia",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "geist-of-saint-thalia-edhrec-momentum-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/geist-of-saint-thalia",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 2893,
+        "deckCount": 188,
+        "asOf": "2026-09-23"
+      }
+    },
+    {
+      "slug": "jace-multiverse-architect",
+      "name": "Jace, Multiverse Architect",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "jace-multiverse-architect-edhrec-momentum-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/jace-multiverse-architect",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1177,
+        "deckCount": 1885,
+        "asOf": "2026-09-23"
       }
     },
     {
@@ -127,6 +252,106 @@
       }
     },
     {
+      "slug": "nissa-leyline-tamer",
+      "name": "Nissa, Leyline Tamer",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "nissa-leyline-tamer-edhrec-momentum-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/nissa-leyline-tamer",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1812,
+        "deckCount": 824,
+        "asOf": "2026-09-23"
+      }
+    },
+    {
+      "slug": "niv-mizzet-ghost-counsel",
+      "name": "Niv-Mizzet, Ghost Counsel",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/niv-mizzet-ghost-counsel",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1481,
+        "deckCount": 1253,
+        "asOf": "2026-09-23"
+      }
+    },
+    {
+      "slug": "niv-mizzet-supreme",
+      "name": "Niv-Mizzet, Supreme",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "niv-mizzet-supreme-eidolon-package-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "deep_dive_resource"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC Articles",
+          "url": "https://edhrec.com/articles/the-best-cards-youre-not-playing-are-ones-youll-never-cast/",
+          "creator": "Jesse Barker Plotkin"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1030,
+        "deckCount": 2331,
+        "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "omnath-locus-of-the-void",
+      "name": "Omnath, Locus of the Void",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "omnath-locus-of-the-void-edhrec-momentum-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/omnath-locus-of-the-void",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1828,
+        "deckCount": 812,
+        "asOf": "2026-09-23"
+      }
+    },
+    {
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
@@ -149,6 +374,31 @@
         "edhrecRank": 1676,
         "deckCount": 975,
         "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "tam-the-possibility",
+      "name": "Tam, the Possibility",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "tam-the-possibility-edhrec-momentum-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/tam-the-possibility",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1567,
+        "deckCount": 1131,
+        "asOf": "2026-09-23"
       }
     },
     {
@@ -199,6 +449,31 @@
         "edhrecRank": 1121,
         "deckCount": 2042,
         "asOf": "2026-09-22"
+      }
+    },
+    {
+      "slug": "the-ur-sphinx",
+      "name": "The Ur-Sphinx",
+      "firstSurfacedAt": "2026-09-23",
+      "lastSurfacedAt": "2026-09-23",
+      "findingIds": [
+        "the-ur-sphinx-edhrec-momentum-2026-09-23"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/the-ur-sphinx",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1193,
+        "deckCount": 1854,
+        "asOf": "2026-09-23"
       }
     },
     {
