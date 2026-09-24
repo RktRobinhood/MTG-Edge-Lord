@@ -1,13 +1,13 @@
 # Daily finds: the research run
 
-A scheduled agent run that hunts for **diamonds in the rough** — off-meta commanders and off-meta ideas that people are visibly doing the work on — and files what it finds as reviewable candidates.
+A scheduled agent run that hunts for **diamonds in the rough** — off-meta commanders and off-meta ideas that people are visibly doing the work on — files what it finds, and promotes the best of it into the feed.
 
 It is the reading half of Edge Lord discovery. The `.github/workflows/daily-research.yml` build is the counting half: it crawls, scores and judges connector metadata at volume. This run does the thing that build cannot — it follows a link, reads what a person actually wrote, and decides whether there is a real idea in it.
 
 ## What this run is not
 
 - **It never runs the pipeline.** `npm run research:network` walks EDHREC and Archidekt for tens of minutes and moves the rotation cursors in `state/connectors.json`. That is the scheduled workflow's job, and a second walk would start tomorrow's crawl from the wrong place. This run reads `data/` as it stands and leaves `state/` alone.
-- **It never writes `data/`.** Nothing this run produces reaches a user's browser. Generated data comes from the pipeline, and model-written findings reach the feed only after a human moves them.
+- **It never writes `data/`.** Generated data comes from the pipeline. What this run promotes into `research/inbox/` reaches the feed when the scheduled build runs after it, the same morning.
 - **It never crawls.** A handful of targeted page reads, spaced out. If a question needs a hundred requests to answer, it is the pipeline's question, not this one's.
 
 ## The bar
@@ -84,11 +84,9 @@ Deduplication is not novelty. `check-candidate.js` stops a repeat; it says nothi
 
 ## Committing
 
-Commit only `research/candidates/`. Push to `main`.
+**Promotion is this run's call.** File every candidate to `research/candidates/`, then copy each record that clears the bar into `research/inbox/` as `YYYY-MM-DD-<commander-slug>.json` and flip its `seen.json` status from `candidate` to `filed`. The `manual` connector reads the inbox, and the scheduled build (`.github/workflows/daily-research.yml`, 10:17 UTC) runs after this one and publishes it. There is no human review step; the source link on every finding is how a reader checks the work.
 
-Candidates are inert: no connector reads that directory, so nothing here can reach a user by accident. That is what makes a direct commit safe, and it is also why a candidate is not a finding yet.
-
-**Promotion is a human act.** A reviewer who agrees with a candidate moves the record into `research/inbox/`, where the `manual` connector picks it up as reviewed input and the next pipeline run publishes it. Moving the file *is* the review; that is the whole ceremony.
+Commit `research/candidates/` and `research/inbox/` together, straight to `main`: no branches, no pull requests. `git pull --rebase` before pushing, because the build may have pushed `data/` meanwhile.
 
 ## Reporting
 

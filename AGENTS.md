@@ -8,7 +8,7 @@ MTG Edge Lord is a Tampermonkey userscript backed by static, generated JSON. It 
 - Preserve raw evidence and canonical outbound URLs. Never copy substantial creator prose, decklists, videos, or primers.
 - Treat every external source as a replaceable connector. One failure must degrade only its own lane.
 - Derived scores retain components and human-readable reasons. An unscored entity is labelled unscored, never given a zero.
-- Generated files live in `data/` and must pass validation. `research/inbox/` remains valid for human-reviewed input.
+- Generated files live in `data/` and must pass validation. `research/inbox/` is curated input: the daily finds run files into it, and so can a person.
 - The archive is append-only and records the rank a commander held **when it was surfaced**. A later run may add to an entry; nothing may unsay one, and refreshing that rank would erase the only claim the archive makes.
 - **Any change the userscript ships raises its version.** `package.json` is the single source of `@version`, and Tampermonkey updates an installed script only when that number rises. An unbumped change reaches nobody, and from the user's side it is indistinguishable from a change that did not work.
 - Search covers every commander. **Edge Lord surfacing never goes deeper than EDHREC rank 3,000** — past that the evidence to say "this works" does not exist.
@@ -24,13 +24,17 @@ Approved automated reads are targeted, identified, rate-limited, cached, and con
 
 ## LLM use in the pipeline
 
-The daily job uses a model to judge whether a community signal is a genuine find. Findings it produces are non-deterministic, so **generated-data diffs must be reviewed before they are trusted**, and every finding keeps its source link prominent so a reader can check the model's work.
+The daily job uses a model to judge whether a community signal is a genuine find. Findings it produces are non-deterministic, so every finding keeps its source link prominent and a reader can check the model's work.
+
+**Findings publish straight to `main`, with no review gate.** The feed is meant to be a slow daily trickle, and a gate that waited on a human stranded eleven finds on an unopened PR branch for a day. A bad finding is fixed forward in a later commit. The archive's append-only rule still holds: a fix may correct a finding, never unsay that it was surfaced.
+
+**No pull requests and no side branches.** Every agent and workflow commits to `main` directly. A branch nobody is watching is where work goes to be forgotten.
 
 Never feed a model content from a source whose terms forbid it — Discord's Developer Policy #21 is the explicit case.
 
 ## Definition of done
 
-Run `npm run check`. Review generated-data diffs for attribution, dates, URLs, score sanity, and meaningful novelty before committing.
+Run `npm run check`. It regenerates `data/` offline as a side effect, so on a change that is not about data, `git restore data` and delete any new `data/history/` file before committing. When you do commit data by hand, skim the diff for attribution, dates, URLs and score sanity.
 
 **If the change touches anything the built script carries** — `src/userscript/`, the `src/shared/` modules it imports, or the build itself — raise `version` in `package.json` in the same commit and rebuild, so `mtg-edge-lord.user.js` and its `@version` ship together. `npm run check` rebuilds but it cannot know that the behaviour changed, so the bump is a judgement and never automatic. Patch for a fix nobody would describe, minor for anything a user would notice.
 
@@ -58,10 +62,12 @@ The five canonical roles use their own names as label strings, plus local `in-pr
 
 ### Daily finds
 
-A scheduled agent run reads permitted community sources once a day and files
-what it finds as unreviewed candidates under `research/candidates/`. It never
-runs the pipeline, never writes `data/`, and never opens an excluded source.
-See `docs/agents/daily-finds.md`.
+A scheduled agent run reads permitted community sources once a day, files
+what it finds under `research/candidates/`, promotes the ones that clear the
+bar into `research/inbox/`, and pushes to `main`. The scheduled build runs
+after it and publishes those records the same day. The finds run never runs
+the network pipeline, never writes `data/`, and never opens an excluded
+source. See `docs/agents/daily-finds.md`.
 
 ### Domain docs
 
