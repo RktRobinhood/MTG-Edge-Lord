@@ -1,0 +1,99 @@
+{
+  "id": "the-queen-of-dale-soldiers-as-resources-2026-09-24",
+  "findingType": "deep_dive_resource",
+  "title": "Two Queen of Dale builds disagree on whether the Soldiers are a board or ramp",
+  "summary": "The Queen of Dale recruits on each opponent's first noncreature spell each turn, which hands mono-white a repeatable discard outlet it normally has no access to. An EDHREC deck tech spends the triggers binning oversized Angels for Restoration Seminar and Emeria, and plays the Human Soldier tokens as a board to anthem and convoke. An unrelated Archidekt primer keeps the reanimator half and spends the same tokens as resources instead: Ashnod's Altar converts them to mana for the expensive value spells, and Settle the Wreckage aimed at his own attack exiles them for basic Plains, which is what turns Emeria on.",
+  "source": {
+    "name": "The Queen of Dale | A Mono-White Reanimator Deck",
+    "type": "article",
+    "url": "https://edhrec.com/articles/the-queen-of-dale-a-mono-white-reanimator-deck",
+    "creator": "Brian Cain",
+    "resourceDepth": "deep_dive"
+  },
+  "publishedAt": "2026-08-03",
+  "observedAt": "2026-09-24T07:45:00.000Z",
+  "commanders": [
+    {
+      "name": "The Queen of Dale",
+      "slug": "the-queen-of-dale"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Restoration Seminar",
+      "slug": "restoration-seminar"
+    },
+    {
+      "name": "Emeria, the Sky Ruin",
+      "slug": "emeria-the-sky-ruin"
+    },
+    {
+      "name": "Ashnod's Altar",
+      "slug": "ashnods-altar"
+    },
+    {
+      "name": "Settle the Wreckage",
+      "slug": "settle-the-wreckage"
+    },
+    {
+      "name": "Blasting Station",
+      "slug": "blasting-station"
+    },
+    {
+      "name": "Moonshaker Cavalry",
+      "slug": "moonshaker-cavalry"
+    }
+  ],
+  "evidence": {
+    "strength": 0.68,
+    "independentSourceCount": 2,
+    "conversationDepth": "reasoned",
+    "communityReasoned": true,
+    "tested": false,
+    "notes": [
+      "The article walks the trigger's wording out as a worked example - one trigger per opponent per turn, counterspells on other players' turns included - rather than asserting that the commander draws cards.",
+      "Settle the Wreckage pointed at your own attacking tokens is the non-obvious half: it exiles them and fetches that many basic Plains, so a wide board converts into the land count Emeria wants.",
+      "The two reads diverge on the same question and neither is a variation of the other: tokens as an attacking board with anthems and Divine Visitation, against tokens as altar fodder and ramp.",
+      "Caveat for review: this commander has broad coverage for its rank and has been called a staple elsewhere, so the novelty is in the resource reading, not in the commander.",
+      "Neither source reports games played."
+    ],
+    "corroboratingSources": [
+      {
+        "name": "Reanimator? I hardly know 'er!",
+        "url": "https://archidekt.com/decks/25210724",
+        "creator": "Devitar"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Soldiers as altar fodder and ramp",
+        "status": "supporting",
+        "reason": "Ashnod's Altar turns a token into mana the turn it arrives, and Settle the Wreckage converts the rest of the board into basic Plains for Emeria."
+      },
+      {
+        "name": "Soldiers as an attacking board",
+        "status": "supporting",
+        "reason": "Anthems, convoke outlets and Moonshaker Cavalry make the same tokens a clock, which is the reading the article builds toward."
+      },
+      {
+        "name": "Treating recruit as pure card draw",
+        "status": "rejected",
+        "reason": "Recruit draws then discards, so it is filtering rather than advantage; the value comes from what the discard puts in the graveyard and what the token is then spent on."
+      }
+    ]
+  },
+  "tags": [
+    "ci-w",
+    "arch-reanimator",
+    "arch-tokens",
+    "mech-recruit",
+    "mech-discard-outlet",
+    "band-1000-2000",
+    "recheck-90d"
+  ],
+  "popularity": {
+    "edhrecRank": 1644,
+    "deckCount": 1014,
+    "asOf": "2026-09-22"
+  }
+}

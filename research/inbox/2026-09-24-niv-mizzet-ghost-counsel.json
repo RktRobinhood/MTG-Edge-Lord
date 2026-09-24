@@ -1,0 +1,100 @@
+{
+  "id": "niv-mizzet-ghost-counsel-life-neutral-draw-2026-09-24",
+  "findingType": "emerging_brew",
+  "title": "Confessor makes Niv's draw life-neutral, so Skirge Familiar's discard pays for itself",
+  "summary": "Reality Fracture's Orzhov Niv-Mizzet converts any life gained into that many cards, paid for with the same life. A bracket-4 Archidekt primer pairs it with Confessor, which gains a life whenever any player discards. Each Skirge Familiar activation then discards a card for a black mana, gains one life, and Niv turns that life back into the replacement draw: life neutral, hand neutral, one mana ahead. Discarding Kozilek shuffles the graveyard back, so the library never empties. A second builder deliberately avoids the instant-kill loops and runs the same commander as a bracket-2 lifegain draw engine, and Commander Spellbook already registers two-card infinite draw with Sheoldred.",
+  "source": {
+    "name": "Niv-Spirret",
+    "type": "decklist",
+    "url": "https://archidekt.com/decks/26575861",
+    "creator": "amber-card-addict",
+    "resourceDepth": "primer"
+  },
+  "publishedAt": "2026-09-22",
+  "observedAt": "2026-09-24T07:40:00.000Z",
+  "commanders": [
+    {
+      "name": "Niv-Mizzet, Ghost Counsel",
+      "slug": "niv-mizzet-ghost-counsel"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Confessor",
+      "slug": "confessor"
+    },
+    {
+      "name": "Skirge Familiar",
+      "slug": "skirge-familiar"
+    },
+    {
+      "name": "Kozilek, Butcher of Truth",
+      "slug": "kozilek-butcher-of-truth"
+    },
+    {
+      "name": "Sheoldred, the Apocalypse",
+      "slug": "sheoldred-the-apocalypse"
+    },
+    {
+      "name": "Mana Tithe",
+      "slug": "mana-tithe"
+    }
+  ],
+  "evidence": {
+    "strength": 0.74,
+    "independentSourceCount": 2,
+    "conversationDepth": "reasoned",
+    "communityReasoned": true,
+    "tested": false,
+    "notes": [
+      "The primer states the loop mechanically - discard outlet into the lifegain trigger into the draw - rather than naming the commander as a set-review highlight.",
+      "The pieces are old and cheap: Confessor is an Odyssey common and Skirge Familiar a Modern Horizons 2 uncommon, so the line does not depend on Reality Fracture cards.",
+      "The same lifegain-on-discard shape is already registered on Commander Spellbook with Oloro in the Niv slot, which is independent support for the mechanism.",
+      "Two builders reached different shells on purpose - a bracket-4 control-into-combo list and a bracket-2 engine that skips the instant kills - so the commander has room in it rather than one line.",
+      "Neither builder reports games played, so this is reasoned rather than tested."
+    ],
+    "corroboratingSources": [
+      {
+        "name": "Niv-Mizzet, Ghost Counsel: Parun-Normal Activity",
+        "url": "https://archidekt.com/decks/26511556",
+        "creator": "MTGDeckVault"
+      },
+      {
+        "name": "Commander Spellbook: Niv-Mizzet, Ghost Counsel with Sheoldred, the Apocalypse",
+        "url": "https://commanderspellbook.com/combo/2498-8192/",
+        "creator": "Commander Spellbook"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Confessor plus a free discard outlet",
+        "status": "supporting",
+        "reason": "Confessor triggers on any player discarding, so a repeatable outlet converts the commander's life-for-cards clause into a mana engine that costs nothing."
+      },
+      {
+        "name": "Kozilek, Butcher of Truth as the fuel tank",
+        "status": "supporting",
+        "reason": "Being put into the graveyard from anywhere shuffles the graveyard into the library, so discarding it refills the deck the loop is drawing through."
+      },
+      {
+        "name": "Sanguine Bond style symmetric lifegain kills",
+        "status": "rejected",
+        "reason": "The second builder cut them on purpose, because the drain loops end the game before the draw engine does anything and make the commander interchangeable."
+      }
+    ]
+  },
+  "tags": [
+    "ci-wb",
+    "arch-combo",
+    "arch-lifegain",
+    "mech-lifegain-triggers",
+    "mech-discard-outlet",
+    "band-1000-2000",
+    "recheck-30d"
+  ],
+  "popularity": {
+    "edhrecRank": 1587,
+    "deckCount": 1090,
+    "asOf": "2026-09-22"
+  }
+}

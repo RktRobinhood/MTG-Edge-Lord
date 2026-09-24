@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23",
+  "updatedAt": "2026-09-24",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -584,6 +584,108 @@
       "name": "Norman Osborn",
       "status": "rejected",
       "reason": "the same article builds a Grixis Eidolon list under him, but rank 90 puts him in the meta baseline"
+    },
+    {
+      "slug": "niv-mizzet-ghost-counsel",
+      "name": "Niv-Mizzet, Ghost Counsel",
+      "status": "filed",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "promoted to research/inbox/ on 2026-09-24; Confessor plus a discard outlet makes the commander's life-for-cards clause life-neutral, and two builders take it to different brackets",
+      "findingIds": [
+        "niv-mizzet-ghost-counsel-life-neutral-draw-2026-09-24"
+      ]
+    },
+    {
+      "slug": "the-queen-of-dale",
+      "name": "The Queen of Dale",
+      "status": "filed",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "promoted to research/inbox/ on 2026-09-24; an EDHREC deck tech and an unrelated Archidekt primer disagree on whether the recruit Soldiers are an attacking board or altar fodder and Plains",
+      "findingIds": [
+        "the-queen-of-dale-soldiers-as-resources-2026-09-24"
+      ]
+    },
+    {
+      "slug": "the-notary-hobbits",
+      "name": "The Notary Hobbits",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "the one primer is a real piece of work but opens by telling readers not to build it, and the Helix Pinnacle and Millennium Calendar wincons are the jank the bar excludes"
+    },
+    {
+      "slug": "jace-multiverse-architect",
+      "name": "Jace, Multiverse Architect",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "the largest trend z-score in the catalogue at 48.5, but it is the face of the Reality Fracture Multiverse Reforged precon and the only primer is an upgrade guide for that precon"
+    },
+    {
+      "slug": "nissa-leyline-tamer",
+      "name": "Nissa, Leyline Tamer",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "same precon as Jace; the only reads are that upgrade guide and a series entry covering every commander in the set"
+    },
+    {
+      "slug": "aerid-konstrari",
+      "name": "Aerid Konstrari",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "Heartwood tokens on enter and on death is a clean engine, but the two primers are a set-wide series entry and a ramp list with no interaction explained"
+    },
+    {
+      "slug": "denzilore-fatehold",
+      "name": "Denzilore Fatehold",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "strong momentum for a Reality Fracture legend, but the coverage is a set-wide series entry plus a flyers list that names cards rather than explaining a line"
+    },
+    {
+      "slug": "omnath-locus-of-the-void",
+      "name": "Omnath, Locus of the Void",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "colorless Tron-style Omnath is genuinely different, but both primers are Reality Fracture series coverage with no interaction argued"
+    },
+    {
+      "slug": "avacyn-angel-of-horror",
+      "name": "Avacyn, Angel of Horror",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "the two primers are by the same builder and both are themed lists rather than a build thesis"
+    },
+    {
+      "slug": "karn-gilded-guardian",
+      "name": "Karn, Gilded Guardian",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "no primer on Archidekt at all; nothing to read yet"
+    },
+    {
+      "slug": "dack-fayden-helping-hand",
+      "name": "Dack Fayden, Helping Hand",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "a mono-white commander that donates goaded creatures out of your own library is the most interesting card seen today, but there is no primer and no write-up anywhere permitted - worth re-checking once someone builds it"
+    },
+    {
+      "slug": "mister-fantastic",
+      "name": "Mister Fantastic",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "the single primer was last touched in July and is an upgrade of a precon list"
     }
   ],
   "sources": [
@@ -880,8 +982,8 @@
       "name": "MTGGoldfish Atom",
       "status": "rejected",
       "firstSeenAt": "2026-09-23",
-      "lastSeenAt": "2026-09-23",
-      "reason": "no commander-specific deck tech in the current window; podcasts and precon patches"
+      "lastSeenAt": "2026-09-24",
+      "reason": "re-read on 2026-09-24: Standard, Legacy and Pauper plus Reality Fracture roundups, no commander deck tech"
     },
     {
       "firstSeenAt": "2026-09-23",
@@ -930,6 +1032,78 @@
       "name": "Archidekt",
       "status": "rejected",
       "reason": "checked for a second independent Eidolon build; the most-viewed Niv-Mizzet Supreme decks are modal/gates lists with no primer, so the finding rests on one source"
+    },
+    {
+      "url": "https://archidekt.com/decks/26575861",
+      "name": "Niv-Spirret (Archidekt)",
+      "status": "filed",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "bracket-4 Niv-Mizzet, Ghost Counsel primer by amber-card-addict; explains the Confessor and Skirge Familiar loop"
+    },
+    {
+      "url": "https://archidekt.com/decks/26511556",
+      "name": "Niv-Mizzet, Ghost Counsel: Parun-Normal Activity (Archidekt)",
+      "status": "filed",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "second Niv-Mizzet, Ghost Counsel primer, bracket 2, that deliberately skips the instant-kill lifegain loops"
+    },
+    {
+      "url": "https://commanderspellbook.com/combo/2498-8192/",
+      "name": "Commander Spellbook variant 2498-8192",
+      "status": "filed",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "registered two-card infinite draw with Sheoldred, used as independent support for the mechanism"
+    },
+    {
+      "url": "https://edhrec.com/articles/the-queen-of-dale-a-mono-white-reanimator-deck",
+      "name": "EDHREC Articles",
+      "status": "filed",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "Brian Cain deck tech; works the recruit trigger out as a rules example and plays the tokens as a board"
+    },
+    {
+      "url": "https://archidekt.com/decks/25210724",
+      "name": "Reanimator? I hardly know 'er! (Archidekt)",
+      "status": "filed",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "Devitar primer that spends the same tokens as altar mana and Settle the Wreckage ramp"
+    },
+    {
+      "url": "https://archidekt.com/decks/24871439",
+      "name": "The Notary Hobbits: Law Offices of Grubb, Grubb, & Burrowes (Archidekt)",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "The Notary Hobbits primer; well written but self-declared jank"
+    },
+    {
+      "url": "https://archidekt.com/decks/22541414",
+      "name": "Reality Fracture - Multiverse Reforged Upgrade (Archidekt)",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "Reality Fracture precon upgrade guide behind the Jace and Nissa spikes"
+    },
+    {
+      "url": "https://edhrec.com/articles/feed",
+      "name": "EDHREC articles feed",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "no items newer than 2026-09-23; yesterday's run had already read every entry"
+    },
+    {
+      "url": "https://articles.starcitygames.com/feed/",
+      "name": "StarCityGames feed",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-24",
+      "lastSeenAt": "2026-09-24",
+      "reason": "no Commander deck tech in the current window; set previews and news only"
     }
   ]
 }
