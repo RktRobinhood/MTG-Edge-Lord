@@ -5,11 +5,13 @@
       "id": "aetherling--mairsil-the-pretender",
       "card": {
         "name": "Aetherling",
-        "slug": "aetherling"
+        "slug": "aetherling",
+        "scryfallId": "9c93313b-cf43-47e9-a911-717b4d14b0b5"
       },
       "commander": {
         "name": "Mairsil, the Pretender",
-        "slug": "mairsil-the-pretender"
+        "slug": "mairsil-the-pretender",
+        "scryfallId": "87b71b08-668c-4b32-8243-8def1a9acf26"
       },
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
@@ -26,11 +28,13 @@
       "id": "chandra-flameshaper--mairsil-the-pretender",
       "card": {
         "name": "Chandra, Flameshaper",
-        "slug": "chandra-flameshaper"
+        "slug": "chandra-flameshaper",
+        "scryfallId": "a22d21ec-0fb3-4574-a803-6442ec13167e"
       },
       "commander": {
         "name": "Mairsil, the Pretender",
-        "slug": "mairsil-the-pretender"
+        "slug": "mairsil-the-pretender",
+        "scryfallId": "87b71b08-668c-4b32-8243-8def1a9acf26"
       },
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
@@ -47,11 +51,13 @@
       "id": "encroaching-mycosynth--mairsil-the-pretender",
       "card": {
         "name": "Encroaching Mycosynth",
-        "slug": "encroaching-mycosynth"
+        "slug": "encroaching-mycosynth",
+        "scryfallId": "65a2fcc9-2317-48a1-a5eb-234fb3300364"
       },
       "commander": {
         "name": "Mairsil, the Pretender",
-        "slug": "mairsil-the-pretender"
+        "slug": "mairsil-the-pretender",
+        "scryfallId": "87b71b08-668c-4b32-8243-8def1a9acf26"
       },
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
@@ -68,11 +74,13 @@
       "id": "jeska-thrice-reborn--mairsil-the-pretender",
       "card": {
         "name": "Jeska, Thrice Reborn",
-        "slug": "jeska-thrice-reborn"
+        "slug": "jeska-thrice-reborn",
+        "scryfallId": "48caf4c4-745c-4072-bf3d-1a3fa7c3bc9c"
       },
       "commander": {
         "name": "Mairsil, the Pretender",
-        "slug": "mairsil-the-pretender"
+        "slug": "mairsil-the-pretender",
+        "scryfallId": "87b71b08-668c-4b32-8243-8def1a9acf26"
       },
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
@@ -89,11 +97,13 @@
       "id": "nicol-bolas-dragon-god--mairsil-the-pretender",
       "card": {
         "name": "Nicol Bolas, Dragon-God",
-        "slug": "nicol-bolas-dragon-god"
+        "slug": "nicol-bolas-dragon-god",
+        "scryfallId": "c5408607-af8f-48fe-bc40-32828d1976de"
       },
       "commander": {
         "name": "Mairsil, the Pretender",
-        "slug": "mairsil-the-pretender"
+        "slug": "mairsil-the-pretender",
+        "scryfallId": "87b71b08-668c-4b32-8243-8def1a9acf26"
       },
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
@@ -110,11 +120,13 @@
       "id": "tevesh-szat-doom-of-fools--mairsil-the-pretender",
       "card": {
         "name": "Tevesh Szat, Doom of Fools",
-        "slug": "tevesh-szat-doom-of-fools"
+        "slug": "tevesh-szat-doom-of-fools",
+        "scryfallId": "8f244716-78ab-46f5-b6e9-fc1e6db28052"
       },
       "commander": {
         "name": "Mairsil, the Pretender",
-        "slug": "mairsil-the-pretender"
+        "slug": "mairsil-the-pretender",
+        "scryfallId": "87b71b08-668c-4b32-8243-8def1a9acf26"
       },
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
@@ -131,11 +143,13 @@
       "id": "the-ozolith--mairsil-the-pretender",
       "card": {
         "name": "The Ozolith",
-        "slug": "the-ozolith"
+        "slug": "the-ozolith",
+        "scryfallId": "9341ed06-53db-4604-b60a-3ea9129afbc2"
       },
       "commander": {
         "name": "Mairsil, the Pretender",
-        "slug": "mairsil-the-pretender"
+        "slug": "mairsil-the-pretender",
+        "scryfallId": "87b71b08-668c-4b32-8243-8def1a9acf26"
       },
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
@@ -152,11 +166,13 @@
       "id": "balustrade-spy--baron-helmut-zemo",
       "card": {
         "name": "Balustrade Spy",
-        "slug": "balustrade-spy"
+        "slug": "balustrade-spy",
+        "scryfallId": "24c852a5-4f38-464b-89b6-2100cf405ff5"
       },
       "commander": {
         "name": "Baron Helmut Zemo",
-        "slug": "baron-helmut-zemo"
+        "slug": "baron-helmut-zemo",
+        "scryfallId": "c2aadc25-7755-4bc8-a8af-b01d27eec364"
       },
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
@@ -174,11 +190,13 @@
       "id": "bloodletter-of-aclazotz--baron-helmut-zemo",
       "card": {
         "name": "Bloodletter of Aclazotz",
-        "slug": "bloodletter-of-aclazotz"
+        "slug": "bloodletter-of-aclazotz",
+        "scryfallId": "d4f6027a-003a-4f9d-929a-0b6da1fa42c9"
       },
       "commander": {
         "name": "Baron Helmut Zemo",
-        "slug": "baron-helmut-zemo"
+        "slug": "baron-helmut-zemo",
+        "scryfallId": "c2aadc25-7755-4bc8-a8af-b01d27eec364"
       },
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
@@ -196,11 +214,13 @@
       "id": "bridge-from-below--baron-helmut-zemo",
       "card": {
         "name": "Bridge from Below",
-        "slug": "bridge-from-below"
+        "slug": "bridge-from-below",
+        "scryfallId": "3faaa657-8b02-41a9-8a99-31a223d2caa5"
       },
       "commander": {
         "name": "Baron Helmut Zemo",
-        "slug": "baron-helmut-zemo"
+        "slug": "baron-helmut-zemo",
+        "scryfallId": "c2aadc25-7755-4bc8-a8af-b01d27eec364"
       },
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
@@ -218,11 +238,13 @@
       "id": "dread-return--baron-helmut-zemo",
       "card": {
         "name": "Dread Return",
-        "slug": "dread-return"
+        "slug": "dread-return",
+        "scryfallId": "34a87901-98bb-41dd-b566-bcb510c20022"
       },
       "commander": {
         "name": "Baron Helmut Zemo",
-        "slug": "baron-helmut-zemo"
+        "slug": "baron-helmut-zemo",
+        "scryfallId": "c2aadc25-7755-4bc8-a8af-b01d27eec364"
       },
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
@@ -240,11 +262,13 @@
       "id": "gray-merchant-of-asphodel--baron-helmut-zemo",
       "card": {
         "name": "Gray Merchant of Asphodel",
-        "slug": "gray-merchant-of-asphodel"
+        "slug": "gray-merchant-of-asphodel",
+        "scryfallId": "00d001d0-fd29-4b7c-9d0e-9131b995f910"
       },
       "commander": {
         "name": "Baron Helmut Zemo",
-        "slug": "baron-helmut-zemo"
+        "slug": "baron-helmut-zemo",
+        "scryfallId": "c2aadc25-7755-4bc8-a8af-b01d27eec364"
       },
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
@@ -262,11 +286,13 @@
       "id": "phantasmagorian--baron-helmut-zemo",
       "card": {
         "name": "Phantasmagorian",
-        "slug": "phantasmagorian"
+        "slug": "phantasmagorian",
+        "scryfallId": "19bcd780-70a6-4c25-8611-8b750a50aa3d"
       },
       "commander": {
         "name": "Baron Helmut Zemo",
-        "slug": "baron-helmut-zemo"
+        "slug": "baron-helmut-zemo",
+        "scryfallId": "c2aadc25-7755-4bc8-a8af-b01d27eec364"
       },
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
@@ -284,11 +310,13 @@
       "id": "twilight-diviner--baron-helmut-zemo",
       "card": {
         "name": "Twilight Diviner",
-        "slug": "twilight-diviner"
+        "slug": "twilight-diviner",
+        "scryfallId": "443b6f30-1493-4d48-93d9-a91e22a7ebb3"
       },
       "commander": {
         "name": "Baron Helmut Zemo",
-        "slug": "baron-helmut-zemo"
+        "slug": "baron-helmut-zemo",
+        "scryfallId": "c2aadc25-7755-4bc8-a8af-b01d27eec364"
       },
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
@@ -402,11 +430,13 @@
       "id": "chandra-s-ignition--the-muckslinger-gang",
       "card": {
         "name": "Chandra's Ignition",
-        "slug": "chandra-s-ignition"
+        "slug": "chandra-s-ignition",
+        "scryfallId": "960f45a3-f9cf-41e6-b813-f3dee620a944"
       },
       "commander": {
         "name": "The Muckslinger Gang",
-        "slug": "the-muckslinger-gang"
+        "slug": "the-muckslinger-gang",
+        "scryfallId": "99e4f6ac-c998-4ab3-a554-0503b16e936e"
       },
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
@@ -424,11 +454,13 @@
       "id": "garruk-s-uprising--the-muckslinger-gang",
       "card": {
         "name": "Garruk's Uprising",
-        "slug": "garruk-s-uprising"
+        "slug": "garruk-s-uprising",
+        "scryfallId": "b58c4033-f764-42f6-966f-b7202a2babbf"
       },
       "commander": {
         "name": "The Muckslinger Gang",
-        "slug": "the-muckslinger-gang"
+        "slug": "the-muckslinger-gang",
+        "scryfallId": "99e4f6ac-c998-4ab3-a554-0503b16e936e"
       },
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
@@ -446,11 +478,13 @@
       "id": "greater-good--the-muckslinger-gang",
       "card": {
         "name": "Greater Good",
-        "slug": "greater-good"
+        "slug": "greater-good",
+        "scryfallId": "9dd8b16f-3dfd-4e04-a2e9-ec87d0e007c9"
       },
       "commander": {
         "name": "The Muckslinger Gang",
-        "slug": "the-muckslinger-gang"
+        "slug": "the-muckslinger-gang",
+        "scryfallId": "99e4f6ac-c998-4ab3-a554-0503b16e936e"
       },
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
@@ -472,7 +506,8 @@
       },
       "commander": {
         "name": "The Muckslinger Gang",
-        "slug": "the-muckslinger-gang"
+        "slug": "the-muckslinger-gang",
+        "scryfallId": "99e4f6ac-c998-4ab3-a554-0503b16e936e"
       },
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
@@ -490,11 +525,13 @@
       "id": "terror-of-the-peaks--the-muckslinger-gang",
       "card": {
         "name": "Terror of the Peaks",
-        "slug": "terror-of-the-peaks"
+        "slug": "terror-of-the-peaks",
+        "scryfallId": "904ff94a-4db4-44a6-8593-89c32905b3fc"
       },
       "commander": {
         "name": "The Muckslinger Gang",
-        "slug": "the-muckslinger-gang"
+        "slug": "the-muckslinger-gang",
+        "scryfallId": "99e4f6ac-c998-4ab3-a554-0503b16e936e"
       },
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
@@ -512,11 +549,13 @@
       "id": "the-great-henge--the-muckslinger-gang",
       "card": {
         "name": "The Great Henge",
-        "slug": "the-great-henge"
+        "slug": "the-great-henge",
+        "scryfallId": "6340e0f3-7f9c-4d71-8daf-e1be5505eb5b"
       },
       "commander": {
         "name": "The Muckslinger Gang",
-        "slug": "the-muckslinger-gang"
+        "slug": "the-muckslinger-gang",
+        "scryfallId": "99e4f6ac-c998-4ab3-a554-0503b16e936e"
       },
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
@@ -534,11 +573,13 @@
       "id": "varolz-the-scar-striped--the-muckslinger-gang",
       "card": {
         "name": "Varolz, the Scar-Striped",
-        "slug": "varolz-the-scar-striped"
+        "slug": "varolz-the-scar-striped",
+        "scryfallId": "4c3ae3db-c14a-4ffc-805c-a3a51da9370d"
       },
       "commander": {
         "name": "The Muckslinger Gang",
-        "slug": "the-muckslinger-gang"
+        "slug": "the-muckslinger-gang",
+        "scryfallId": "99e4f6ac-c998-4ab3-a554-0503b16e936e"
       },
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
@@ -556,11 +597,13 @@
       "id": "big-score--the-scarlet-witch",
       "card": {
         "name": "Big Score",
-        "slug": "big-score"
+        "slug": "big-score",
+        "scryfallId": "3383a939-4ab3-4546-9995-6c65cd3f4441"
       },
       "commander": {
         "name": "The Scarlet Witch",
-        "slug": "the-scarlet-witch"
+        "slug": "the-scarlet-witch",
+        "scryfallId": "407e8993-e56d-477d-ab85-d10a2522eab3"
       },
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
@@ -581,7 +624,8 @@
       },
       "commander": {
         "name": "The Scarlet Witch",
-        "slug": "the-scarlet-witch"
+        "slug": "the-scarlet-witch",
+        "scryfallId": "407e8993-e56d-477d-ab85-d10a2522eab3"
       },
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
@@ -598,11 +642,13 @@
       "id": "comet-storm--the-scarlet-witch",
       "card": {
         "name": "Comet Storm",
-        "slug": "comet-storm"
+        "slug": "comet-storm",
+        "scryfallId": "bb5f586d-6bf0-4590-ad73-2d46b2a45b1a"
       },
       "commander": {
         "name": "The Scarlet Witch",
-        "slug": "the-scarlet-witch"
+        "slug": "the-scarlet-witch",
+        "scryfallId": "407e8993-e56d-477d-ab85-d10a2522eab3"
       },
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
@@ -619,11 +665,13 @@
       "id": "crackle-with-power--the-scarlet-witch",
       "card": {
         "name": "Crackle with Power",
-        "slug": "crackle-with-power"
+        "slug": "crackle-with-power",
+        "scryfallId": "de547f52-3798-4b3a-947d-24873251204b"
       },
       "commander": {
         "name": "The Scarlet Witch",
-        "slug": "the-scarlet-witch"
+        "slug": "the-scarlet-witch",
+        "scryfallId": "407e8993-e56d-477d-ab85-d10a2522eab3"
       },
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
@@ -640,11 +688,13 @@
       "id": "glamdring--the-scarlet-witch",
       "card": {
         "name": "Glamdring",
-        "slug": "glamdring"
+        "slug": "glamdring",
+        "scryfallId": "8296ebf7-45ed-4b38-acf2-b48d9fb3e706"
       },
       "commander": {
         "name": "The Scarlet Witch",
-        "slug": "the-scarlet-witch"
+        "slug": "the-scarlet-witch",
+        "scryfallId": "407e8993-e56d-477d-ab85-d10a2522eab3"
       },
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
@@ -661,11 +711,13 @@
       "id": "runechanter-s-pike--the-scarlet-witch",
       "card": {
         "name": "Runechanter's Pike",
-        "slug": "runechanter-s-pike"
+        "slug": "runechanter-s-pike",
+        "scryfallId": "0f54e38b-b4a0-4406-a635-7a5ab3722f25"
       },
       "commander": {
         "name": "The Scarlet Witch",
-        "slug": "the-scarlet-witch"
+        "slug": "the-scarlet-witch",
+        "scryfallId": "407e8993-e56d-477d-ab85-d10a2522eab3"
       },
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
@@ -682,11 +734,13 @@
       "id": "unexpected-windfall--the-scarlet-witch",
       "card": {
         "name": "Unexpected Windfall",
-        "slug": "unexpected-windfall"
+        "slug": "unexpected-windfall",
+        "scryfallId": "bae6a5fb-39f5-4cf8-85f7-661cb4570507"
       },
       "commander": {
         "name": "The Scarlet Witch",
-        "slug": "the-scarlet-witch"
+        "slug": "the-scarlet-witch",
+        "scryfallId": "407e8993-e56d-477d-ab85-d10a2522eab3"
       },
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
@@ -703,7 +757,8 @@
       "id": "alibou-ancient-witness--vraska-soul-of-stone",
       "card": {
         "name": "Alibou, Ancient Witness",
-        "slug": "alibou-ancient-witness"
+        "slug": "alibou-ancient-witness",
+        "scryfallId": "10ff4bac-1f93-4dd3-987a-523a6f733a1e"
       },
       "commander": {
         "name": "Vraska, Soul of Stone",
@@ -726,7 +781,8 @@
       "id": "brudiclad-telchor-engineer--vraska-soul-of-stone",
       "card": {
         "name": "Brudiclad, Telchor Engineer",
-        "slug": "brudiclad-telchor-engineer"
+        "slug": "brudiclad-telchor-engineer",
+        "scryfallId": "d24bf1df-5087-4ad6-a1aa-4eda2340cd8b"
       },
       "commander": {
         "name": "Vraska, Soul of Stone",
@@ -749,7 +805,8 @@
       "id": "losheel-clockwork-scholar--vraska-soul-of-stone",
       "card": {
         "name": "Losheel, Clockwork Scholar",
-        "slug": "losheel-clockwork-scholar"
+        "slug": "losheel-clockwork-scholar",
+        "scryfallId": "ee6b54de-8e79-4f60-b642-3d259bf74ea0"
       },
       "commander": {
         "name": "Vraska, Soul of Stone",
@@ -772,7 +829,8 @@
       "id": "springleaf-drum--vraska-soul-of-stone",
       "card": {
         "name": "Springleaf Drum",
-        "slug": "springleaf-drum"
+        "slug": "springleaf-drum",
+        "scryfallId": "e15ab0aa-4059-4923-9816-6f7a9e5b5a18"
       },
       "commander": {
         "name": "Vraska, Soul of Stone",
@@ -795,7 +853,8 @@
       "id": "the-regalia--vraska-soul-of-stone",
       "card": {
         "name": "The Regalia",
-        "slug": "the-regalia"
+        "slug": "the-regalia",
+        "scryfallId": "dc420e79-c483-474f-97cd-e9c6a636c306"
       },
       "commander": {
         "name": "Vraska, Soul of Stone",
@@ -818,7 +877,8 @@
       "id": "third-path-iconoclast--vraska-soul-of-stone",
       "card": {
         "name": "Third Path Iconoclast",
-        "slug": "third-path-iconoclast"
+        "slug": "third-path-iconoclast",
+        "scryfallId": "ca29f373-7051-4cbe-bda8-e711fda4f9bb"
       },
       "commander": {
         "name": "Vraska, Soul of Stone",
@@ -841,11 +901,13 @@
       "id": "ambrosia-whiteheart--lagrella-the-magpie",
       "card": {
         "name": "Ambrosia Whiteheart",
-        "slug": "ambrosia-whiteheart"
+        "slug": "ambrosia-whiteheart",
+        "scryfallId": "f2596767-7d19-4110-86ed-3cfc93ac7483"
       },
       "commander": {
         "name": "Lagrella, the Magpie",
-        "slug": "lagrella-the-magpie"
+        "slug": "lagrella-the-magpie",
+        "scryfallId": "dd20f271-26c8-429f-a422-e7d95f3bda74"
       },
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
@@ -863,11 +925,13 @@
       "id": "displacer-kitten--lagrella-the-magpie",
       "card": {
         "name": "Displacer Kitten",
-        "slug": "displacer-kitten"
+        "slug": "displacer-kitten",
+        "scryfallId": "c7a401b8-29fb-46ef-a663-427f66724d5c"
       },
       "commander": {
         "name": "Lagrella, the Magpie",
-        "slug": "lagrella-the-magpie"
+        "slug": "lagrella-the-magpie",
+        "scryfallId": "dd20f271-26c8-429f-a422-e7d95f3bda74"
       },
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
@@ -885,11 +949,13 @@
       "id": "kor-skyfisher--lagrella-the-magpie",
       "card": {
         "name": "Kor Skyfisher",
-        "slug": "kor-skyfisher"
+        "slug": "kor-skyfisher",
+        "scryfallId": "d7501662-1216-4e08-bd2b-e0a459057942"
       },
       "commander": {
         "name": "Lagrella, the Magpie",
-        "slug": "lagrella-the-magpie"
+        "slug": "lagrella-the-magpie",
+        "scryfallId": "dd20f271-26c8-429f-a422-e7d95f3bda74"
       },
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
@@ -907,11 +973,13 @@
       "id": "nurturing-pixie--lagrella-the-magpie",
       "card": {
         "name": "Nurturing Pixie",
-        "slug": "nurturing-pixie"
+        "slug": "nurturing-pixie",
+        "scryfallId": "0fe155f6-888b-41a0-a9a0-be7bea998718"
       },
       "commander": {
         "name": "Lagrella, the Magpie",
-        "slug": "lagrella-the-magpie"
+        "slug": "lagrella-the-magpie",
+        "scryfallId": "dd20f271-26c8-429f-a422-e7d95f3bda74"
       },
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
@@ -929,11 +997,13 @@
       "id": "shardless-agent--lagrella-the-magpie",
       "card": {
         "name": "Shardless Agent",
-        "slug": "shardless-agent"
+        "slug": "shardless-agent",
+        "scryfallId": "b0824e77-c84b-464a-aa0c-44af5f6faa50"
       },
       "commander": {
         "name": "Lagrella, the Magpie",
-        "slug": "lagrella-the-magpie"
+        "slug": "lagrella-the-magpie",
+        "scryfallId": "dd20f271-26c8-429f-a422-e7d95f3bda74"
       },
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
@@ -951,11 +1021,13 @@
       "id": "the-one-ring--lagrella-the-magpie",
       "card": {
         "name": "The One Ring",
-        "slug": "the-one-ring"
+        "slug": "the-one-ring",
+        "scryfallId": "d5806e68-1054-458e-866d-1f2470f682b2"
       },
       "commander": {
         "name": "Lagrella, the Magpie",
-        "slug": "lagrella-the-magpie"
+        "slug": "lagrella-the-magpie",
+        "scryfallId": "dd20f271-26c8-429f-a422-e7d95f3bda74"
       },
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
@@ -973,11 +1045,13 @@
       "id": "whitemane-lion--lagrella-the-magpie",
       "card": {
         "name": "Whitemane Lion",
-        "slug": "whitemane-lion"
+        "slug": "whitemane-lion",
+        "scryfallId": "a358def9-65a0-4741-896c-b2a8c8947768"
       },
       "commander": {
         "name": "Lagrella, the Magpie",
-        "slug": "lagrella-the-magpie"
+        "slug": "lagrella-the-magpie",
+        "scryfallId": "dd20f271-26c8-429f-a422-e7d95f3bda74"
       },
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
@@ -995,11 +1069,13 @@
       "id": "adarkar-valkyrie--liliana-the-faultless",
       "card": {
         "name": "Adarkar Valkyrie",
-        "slug": "adarkar-valkyrie"
+        "slug": "adarkar-valkyrie",
+        "scryfallId": "fc2a4abc-85da-46a6-a616-9aa607ce7372"
       },
       "commander": {
         "name": "Liliana the Faultless",
-        "slug": "liliana-the-faultless"
+        "slug": "liliana-the-faultless",
+        "scryfallId": "70d8c400-87dc-4f15-808f-e54a95d779fc"
       },
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
@@ -1016,11 +1092,13 @@
       "id": "devout-witness--liliana-the-faultless",
       "card": {
         "name": "Devout Witness",
-        "slug": "devout-witness"
+        "slug": "devout-witness",
+        "scryfallId": "fdafbdbd-002d-4a4d-a9f9-f6d365b9cf0b"
       },
       "commander": {
         "name": "Liliana the Faultless",
-        "slug": "liliana-the-faultless"
+        "slug": "liliana-the-faultless",
+        "scryfallId": "70d8c400-87dc-4f15-808f-e54a95d779fc"
       },
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
@@ -1037,11 +1115,13 @@
       "id": "emeria-the-sky-ruin--liliana-the-faultless",
       "card": {
         "name": "Emeria, the Sky Ruin",
-        "slug": "emeria-the-sky-ruin"
+        "slug": "emeria-the-sky-ruin",
+        "scryfallId": "90f148e6-1a5e-46fc-9557-40c5c0038069"
       },
       "commander": {
         "name": "Liliana the Faultless",
-        "slug": "liliana-the-faultless"
+        "slug": "liliana-the-faultless",
+        "scryfallId": "70d8c400-87dc-4f15-808f-e54a95d779fc"
       },
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
@@ -1058,11 +1138,13 @@
       "id": "gift-of-estates--liliana-the-faultless",
       "card": {
         "name": "Gift of Estates",
-        "slug": "gift-of-estates"
+        "slug": "gift-of-estates",
+        "scryfallId": "561e1994-0b8d-436c-9934-41c486dc8ff8"
       },
       "commander": {
         "name": "Liliana the Faultless",
-        "slug": "liliana-the-faultless"
+        "slug": "liliana-the-faultless",
+        "scryfallId": "70d8c400-87dc-4f15-808f-e54a95d779fc"
       },
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
@@ -1079,11 +1161,13 @@
       "id": "oreskos-explorer--liliana-the-faultless",
       "card": {
         "name": "Oreskos Explorer",
-        "slug": "oreskos-explorer"
+        "slug": "oreskos-explorer",
+        "scryfallId": "5ebabe38-a035-4c2d-89b5-760712f311b8"
       },
       "commander": {
         "name": "Liliana the Faultless",
-        "slug": "liliana-the-faultless"
+        "slug": "liliana-the-faultless",
+        "scryfallId": "70d8c400-87dc-4f15-808f-e54a95d779fc"
       },
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
@@ -1100,11 +1184,13 @@
       "id": "reya-dawnbringer--liliana-the-faultless",
       "card": {
         "name": "Reya Dawnbringer",
-        "slug": "reya-dawnbringer"
+        "slug": "reya-dawnbringer",
+        "scryfallId": "44b45bdd-829a-4fc1-ad37-17c2bd57fac8"
       },
       "commander": {
         "name": "Liliana the Faultless",
-        "slug": "liliana-the-faultless"
+        "slug": "liliana-the-faultless",
+        "scryfallId": "70d8c400-87dc-4f15-808f-e54a95d779fc"
       },
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
@@ -1121,11 +1207,13 @@
       "id": "thespian-s-stage--liliana-the-faultless",
       "card": {
         "name": "Thespian's Stage",
-        "slug": "thespian-s-stage"
+        "slug": "thespian-s-stage",
+        "scryfallId": "269a926d-7788-4668-8bd8-7572dbf5f5eb"
       },
       "commander": {
         "name": "Liliana the Faultless",
-        "slug": "liliana-the-faultless"
+        "slug": "liliana-the-faultless",
+        "scryfallId": "70d8c400-87dc-4f15-808f-e54a95d779fc"
       },
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
@@ -1142,11 +1230,13 @@
       "id": "tonic-peddler--liliana-the-faultless",
       "card": {
         "name": "Tonic Peddler",
-        "slug": "tonic-peddler"
+        "slug": "tonic-peddler",
+        "scryfallId": "334bbd9d-3549-4352-9635-d772aab28503"
       },
       "commander": {
         "name": "Liliana the Faultless",
-        "slug": "liliana-the-faultless"
+        "slug": "liliana-the-faultless",
+        "scryfallId": "70d8c400-87dc-4f15-808f-e54a95d779fc"
       },
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
@@ -1160,14 +1250,154 @@
       "relationshipScore": 17
     },
     {
+      "id": "aurora-eidolon--niv-mizzet-supreme",
+      "card": {
+        "name": "Aurora Eidolon",
+        "slug": "aurora-eidolon",
+        "scryfallId": "51bb3d0b-8630-4373-b863-bc831cf08098"
+      },
+      "commander": {
+        "name": "Niv-Mizzet, Supreme",
+        "slug": "niv-mizzet-supreme",
+        "scryfallId": "da1ff886-d3c8-43e5-8bf0-ba4f0b259781"
+      },
+      "findingIds": [
+        "niv-mizzet-supreme-eidolon-package-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/the-best-cards-youre-not-playing-are-ones-youll-never-cast/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "krovikan-horror--niv-mizzet-supreme",
+      "card": {
+        "name": "Krovikan Horror",
+        "slug": "krovikan-horror",
+        "scryfallId": "8321977d-69bf-4e10-a776-8d714b0b9d46"
+      },
+      "commander": {
+        "name": "Niv-Mizzet, Supreme",
+        "slug": "niv-mizzet-supreme",
+        "scryfallId": "da1ff886-d3c8-43e5-8bf0-ba4f0b259781"
+      },
+      "findingIds": [
+        "niv-mizzet-supreme-eidolon-package-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/the-best-cards-youre-not-playing-are-ones-youll-never-cast/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "magus-of-the-bazaar--niv-mizzet-supreme",
+      "card": {
+        "name": "Magus of the Bazaar",
+        "slug": "magus-of-the-bazaar",
+        "scryfallId": "d117ed81-7b5c-4e29-b958-6126d48ac5a6"
+      },
+      "commander": {
+        "name": "Niv-Mizzet, Supreme",
+        "slug": "niv-mizzet-supreme",
+        "scryfallId": "da1ff886-d3c8-43e5-8bf0-ba4f0b259781"
+      },
+      "findingIds": [
+        "niv-mizzet-supreme-eidolon-package-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/the-best-cards-youre-not-playing-are-ones-youll-never-cast/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "monument-to-endurance--niv-mizzet-supreme",
+      "card": {
+        "name": "Monument to Endurance",
+        "slug": "monument-to-endurance",
+        "scryfallId": "d21433ba-0a14-42bc-ad0b-a4ef823a3295"
+      },
+      "commander": {
+        "name": "Niv-Mizzet, Supreme",
+        "slug": "niv-mizzet-supreme",
+        "scryfallId": "da1ff886-d3c8-43e5-8bf0-ba4f0b259781"
+      },
+      "findingIds": [
+        "niv-mizzet-supreme-eidolon-package-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/the-best-cards-youre-not-playing-are-ones-youll-never-cast/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "psychic-frog--niv-mizzet-supreme",
+      "card": {
+        "name": "Psychic Frog",
+        "slug": "psychic-frog",
+        "scryfallId": "68924203-c3d9-41ce-8ca8-c6dd491eb3ca"
+      },
+      "commander": {
+        "name": "Niv-Mizzet, Supreme",
+        "slug": "niv-mizzet-supreme",
+        "scryfallId": "da1ff886-d3c8-43e5-8bf0-ba4f0b259781"
+      },
+      "findingIds": [
+        "niv-mizzet-supreme-eidolon-package-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/the-best-cards-youre-not-playing-are-ones-youll-never-cast/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
+      "id": "sandstorm-eidolon--niv-mizzet-supreme",
+      "card": {
+        "name": "Sandstorm Eidolon",
+        "slug": "sandstorm-eidolon",
+        "scryfallId": "49e61ce3-e2cc-401c-b998-8baf8836e83a"
+      },
+      "commander": {
+        "name": "Niv-Mizzet, Supreme",
+        "slug": "niv-mizzet-supreme",
+        "scryfallId": "da1ff886-d3c8-43e5-8bf0-ba4f0b259781"
+      },
+      "findingIds": [
+        "niv-mizzet-supreme-eidolon-package-2026-09-23"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/the-best-cards-youre-not-playing-are-ones-youll-never-cast/"
+      ],
+      "evidenceStrength": 0.66,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 16.5
+    },
+    {
       "id": "magus-of-the-bazaar--uldaros-theorix",
       "card": {
         "name": "Magus of the Bazaar",
-        "slug": "magus-of-the-bazaar"
+        "slug": "magus-of-the-bazaar",
+        "scryfallId": "d117ed81-7b5c-4e29-b958-6126d48ac5a6"
       },
       "commander": {
         "name": "Uldaros Theorix",
-        "slug": "uldaros-theorix"
+        "slug": "uldaros-theorix",
+        "scryfallId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387"
       },
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
@@ -1184,11 +1414,13 @@
       "id": "merfolk-looter--uldaros-theorix",
       "card": {
         "name": "Merfolk Looter",
-        "slug": "merfolk-looter"
+        "slug": "merfolk-looter",
+        "scryfallId": "6d740928-bf61-4420-a403-63097538b97d"
       },
       "commander": {
         "name": "Uldaros Theorix",
-        "slug": "uldaros-theorix"
+        "slug": "uldaros-theorix",
+        "scryfallId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387"
       },
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
@@ -1205,11 +1437,13 @@
       "id": "monument-to-endurance--uldaros-theorix",
       "card": {
         "name": "Monument to Endurance",
-        "slug": "monument-to-endurance"
+        "slug": "monument-to-endurance",
+        "scryfallId": "d21433ba-0a14-42bc-ad0b-a4ef823a3295"
       },
       "commander": {
         "name": "Uldaros Theorix",
-        "slug": "uldaros-theorix"
+        "slug": "uldaros-theorix",
+        "scryfallId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387"
       },
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
@@ -1230,7 +1464,8 @@
       },
       "commander": {
         "name": "Uldaros Theorix",
-        "slug": "uldaros-theorix"
+        "slug": "uldaros-theorix",
+        "scryfallId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387"
       },
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
@@ -1247,11 +1482,13 @@
       "id": "rise-of-the-dark-realms--uldaros-theorix",
       "card": {
         "name": "Rise of the Dark Realms",
-        "slug": "rise-of-the-dark-realms"
+        "slug": "rise-of-the-dark-realms",
+        "scryfallId": "8645bf0c-631f-4003-bd24-3e069ae23513"
       },
       "commander": {
         "name": "Uldaros Theorix",
-        "slug": "uldaros-theorix"
+        "slug": "uldaros-theorix",
+        "scryfallId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387"
       },
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
@@ -1268,11 +1505,13 @@
       "id": "scholar-of-the-lost-trove--uldaros-theorix",
       "card": {
         "name": "Scholar of the Lost Trove",
-        "slug": "scholar-of-the-lost-trove"
+        "slug": "scholar-of-the-lost-trove",
+        "scryfallId": "aa254a86-3c30-408d-9c14-befd472f9740"
       },
       "commander": {
         "name": "Uldaros Theorix",
-        "slug": "uldaros-theorix"
+        "slug": "uldaros-theorix",
+        "scryfallId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387"
       },
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
@@ -1289,11 +1528,13 @@
       "id": "stinkweed-imp--uldaros-theorix",
       "card": {
         "name": "Stinkweed Imp",
-        "slug": "stinkweed-imp"
+        "slug": "stinkweed-imp",
+        "scryfallId": "2ab08d69-210b-4b06-88a2-45281a1a4e1e"
       },
       "commander": {
         "name": "Uldaros Theorix",
-        "slug": "uldaros-theorix"
+        "slug": "uldaros-theorix",
+        "scryfallId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387"
       },
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
@@ -1310,11 +1551,13 @@
       "id": "teval-s-judgment--uldaros-theorix",
       "card": {
         "name": "Teval's Judgment",
-        "slug": "teval-s-judgment"
+        "slug": "teval-s-judgment",
+        "scryfallId": "40ed0cef-8ff6-4169-a9f3-7dd5cf56b79f"
       },
       "commander": {
         "name": "Uldaros Theorix",
-        "slug": "uldaros-theorix"
+        "slug": "uldaros-theorix",
+        "scryfallId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387"
       },
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
@@ -1331,11 +1574,13 @@
       "id": "combat-celebrant--calamity-galloping-inferno",
       "card": {
         "name": "Combat Celebrant",
-        "slug": "combat-celebrant"
+        "slug": "combat-celebrant",
+        "scryfallId": "28b63c3d-2e55-4343-b49a-11fa602ec473"
       },
       "commander": {
         "name": "Calamity, Galloping Inferno",
-        "slug": "calamity-galloping-inferno"
+        "slug": "calamity-galloping-inferno",
+        "scryfallId": "e7a70f5a-2056-4c26-b6ea-9f751b5d0d8c"
       },
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
@@ -1352,11 +1597,13 @@
       "id": "emrakul-s-hatcher--calamity-galloping-inferno",
       "card": {
         "name": "Emrakul's Hatcher",
-        "slug": "emrakul-s-hatcher"
+        "slug": "emrakul-s-hatcher",
+        "scryfallId": "35fab29d-1bcc-4ba0-90bf-427d95bf6699"
       },
       "commander": {
         "name": "Calamity, Galloping Inferno",
-        "slug": "calamity-galloping-inferno"
+        "slug": "calamity-galloping-inferno",
+        "scryfallId": "e7a70f5a-2056-4c26-b6ea-9f751b5d0d8c"
       },
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
@@ -1373,11 +1620,13 @@
       "id": "flameshadow-conjuring--calamity-galloping-inferno",
       "card": {
         "name": "Flameshadow Conjuring",
-        "slug": "flameshadow-conjuring"
+        "slug": "flameshadow-conjuring",
+        "scryfallId": "ae113258-288f-47d5-8f79-e2e51b6326de"
       },
       "commander": {
         "name": "Calamity, Galloping Inferno",
-        "slug": "calamity-galloping-inferno"
+        "slug": "calamity-galloping-inferno",
+        "scryfallId": "e7a70f5a-2056-4c26-b6ea-9f751b5d0d8c"
       },
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
@@ -1394,11 +1643,13 @@
       "id": "hoarding-dragon--calamity-galloping-inferno",
       "card": {
         "name": "Hoarding Dragon",
-        "slug": "hoarding-dragon"
+        "slug": "hoarding-dragon",
+        "scryfallId": "c3a35b3b-0c92-4b40-8210-86a5b5f275eb"
       },
       "commander": {
         "name": "Calamity, Galloping Inferno",
-        "slug": "calamity-galloping-inferno"
+        "slug": "calamity-galloping-inferno",
+        "scryfallId": "e7a70f5a-2056-4c26-b6ea-9f751b5d0d8c"
       },
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
@@ -1415,11 +1666,13 @@
       "id": "meteor-golem--calamity-galloping-inferno",
       "card": {
         "name": "Meteor Golem",
-        "slug": "meteor-golem"
+        "slug": "meteor-golem",
+        "scryfallId": "a1a1cfec-72ca-499b-b621-fa2d8502ea20"
       },
       "commander": {
         "name": "Calamity, Galloping Inferno",
-        "slug": "calamity-galloping-inferno"
+        "slug": "calamity-galloping-inferno",
+        "scryfallId": "e7a70f5a-2056-4c26-b6ea-9f751b5d0d8c"
       },
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
@@ -1436,11 +1689,13 @@
       "id": "panharmonicon--calamity-galloping-inferno",
       "card": {
         "name": "Panharmonicon",
-        "slug": "panharmonicon"
+        "slug": "panharmonicon",
+        "scryfallId": "998d0cc8-ca2a-41c3-ab65-d05c26ab8278"
       },
       "commander": {
         "name": "Calamity, Galloping Inferno",
-        "slug": "calamity-galloping-inferno"
+        "slug": "calamity-galloping-inferno",
+        "scryfallId": "e7a70f5a-2056-4c26-b6ea-9f751b5d0d8c"
       },
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
@@ -1457,11 +1712,13 @@
       "id": "seize-the-day--calamity-galloping-inferno",
       "card": {
         "name": "Seize the Day",
-        "slug": "seize-the-day"
+        "slug": "seize-the-day",
+        "scryfallId": "9cb5d064-f474-4db9-b349-b9f71c587742"
       },
       "commander": {
         "name": "Calamity, Galloping Inferno",
-        "slug": "calamity-galloping-inferno"
+        "slug": "calamity-galloping-inferno",
+        "scryfallId": "e7a70f5a-2056-4c26-b6ea-9f751b5d0d8c"
       },
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
@@ -1478,11 +1735,13 @@
       "id": "axis-of-mortality--selenia-dark-angel",
       "card": {
         "name": "Axis of Mortality",
-        "slug": "axis-of-mortality"
+        "slug": "axis-of-mortality",
+        "scryfallId": "3b9d72a8-8acf-42c6-8adf-cbaecb4a985a"
       },
       "commander": {
         "name": "Selenia, Dark Angel",
-        "slug": "selenia-dark-angel"
+        "slug": "selenia-dark-angel",
+        "scryfallId": "664b57e3-9476-4d6a-8301-5a2f96bcfbf7"
       },
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
@@ -1500,11 +1759,13 @@
       "id": "contagion-clasp--selenia-dark-angel",
       "card": {
         "name": "Contagion Clasp",
-        "slug": "contagion-clasp"
+        "slug": "contagion-clasp",
+        "scryfallId": "edd7f08a-3baf-4fb0-921e-b0e7b4a1a545"
       },
       "commander": {
         "name": "Selenia, Dark Angel",
-        "slug": "selenia-dark-angel"
+        "slug": "selenia-dark-angel",
+        "scryfallId": "664b57e3-9476-4d6a-8301-5a2f96bcfbf7"
       },
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
@@ -1522,11 +1783,13 @@
       "id": "defiler-of-faith--selenia-dark-angel",
       "card": {
         "name": "Defiler of Faith",
-        "slug": "defiler-of-faith"
+        "slug": "defiler-of-faith",
+        "scryfallId": "2cfe404d-1a27-4627-9284-56188d92d5d5"
       },
       "commander": {
         "name": "Selenia, Dark Angel",
-        "slug": "selenia-dark-angel"
+        "slug": "selenia-dark-angel",
+        "scryfallId": "664b57e3-9476-4d6a-8301-5a2f96bcfbf7"
       },
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
@@ -1544,11 +1807,13 @@
       "id": "defiler-of-flesh--selenia-dark-angel",
       "card": {
         "name": "Defiler of Flesh",
-        "slug": "defiler-of-flesh"
+        "slug": "defiler-of-flesh",
+        "scryfallId": "61a4dd11-6166-4a54-95c0-728c623d0fbc"
       },
       "commander": {
         "name": "Selenia, Dark Angel",
-        "slug": "selenia-dark-angel"
+        "slug": "selenia-dark-angel",
+        "scryfallId": "664b57e3-9476-4d6a-8301-5a2f96bcfbf7"
       },
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
@@ -1566,11 +1831,13 @@
       "id": "gideon-of-the-trials--selenia-dark-angel",
       "card": {
         "name": "Gideon of the Trials",
-        "slug": "gideon-of-the-trials"
+        "slug": "gideon-of-the-trials",
+        "scryfallId": "959ce13f-519f-4472-bbd1-f26a972723d7"
       },
       "commander": {
         "name": "Selenia, Dark Angel",
-        "slug": "selenia-dark-angel"
+        "slug": "selenia-dark-angel",
+        "scryfallId": "664b57e3-9476-4d6a-8301-5a2f96bcfbf7"
       },
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
@@ -1588,11 +1855,13 @@
       "id": "karn-s-bastion--selenia-dark-angel",
       "card": {
         "name": "Karn's Bastion",
-        "slug": "karn-s-bastion"
+        "slug": "karn-s-bastion",
+        "scryfallId": "22017ec2-3552-4865-af76-dba042b141f5"
       },
       "commander": {
         "name": "Selenia, Dark Angel",
-        "slug": "selenia-dark-angel"
+        "slug": "selenia-dark-angel",
+        "scryfallId": "664b57e3-9476-4d6a-8301-5a2f96bcfbf7"
       },
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
@@ -1610,11 +1879,13 @@
       "id": "phyrexian-vindicator--selenia-dark-angel",
       "card": {
         "name": "Phyrexian Vindicator",
-        "slug": "phyrexian-vindicator"
+        "slug": "phyrexian-vindicator",
+        "scryfallId": "e18780ce-add4-4346-8028-4bc3b4099d71"
       },
       "commander": {
         "name": "Selenia, Dark Angel",
-        "slug": "selenia-dark-angel"
+        "slug": "selenia-dark-angel",
+        "scryfallId": "664b57e3-9476-4d6a-8301-5a2f96bcfbf7"
       },
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
