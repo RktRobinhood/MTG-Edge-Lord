@@ -15,6 +15,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 # Two runs must never race on the rotation cursors in state/connectors.json:
 # both would start from the same commander and one would overwrite the other.
@@ -84,7 +85,11 @@ jobs:
       # never pushed unreviewed. This is AGENTS.md's diff-review rule enforced
       # by the workflow rather than by anyone remembering it.
       - name: Open a review PR for feed changes
+        id: review
         if: steps.change.outputs.kind == 'findings'
+        # The branch is pushed before the PR is requested, so a refused PR
+        # still leaves the finds safe on it. The next step makes that loud.
+        continue-on-error: true
         uses: peter-evans/create-pull-request@v7
         with:
           branch: data/findings-${{ github.run_id }}
@@ -111,3 +116,23 @@ jobs:
             - [ ] Scores look sane against the components shown
 
             Auto-merge is deliberately not enabled on this PR.
+
+      # The 2026-09-23 build pushed its branch and then could not open the PR,
+      # because the repository does not let Actions create pull requests. The
+      # finds sat on a branch nobody knew about, and every installed script
+      # kept showing the same list. An issue is allowed where a PR is not, so
+      # a stranded branch always leaves a trail with a one-click PR link.
+      - name: Flag a review branch that could not become a PR
+        if: steps.change.outputs.kind == 'findings' && steps.review.outputs.pull-request-number == ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: data/findings-${{ github.run_id }}
+        run: |
+          {
+            echo "The daily build found new or changed findings and pushed them to \`$BRANCH\`, but could not open the review PR."
+            echo
+            echo "Open it here: https://github.com/$GITHUB_REPOSITORY/compare/main...$BRANCH?expand=1"
+            echo
+            echo "Until it is merged, no installed script sees these finds. To stop this recurring, enable *Settings → Actions → General → Allow GitHub Actions to create and approve pull requests*."
+          } > stranded.md
+          gh issue create --title "Review: new discovery findings stranded on $BRANCH" --body-file stranded.md
