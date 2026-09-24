@@ -102,6 +102,51 @@
       "publishedAt": "2026-09-22"
     },
     {
+      "findingId": "niv-mizzet-ghost-counsel-life-neutral-draw-2026-09-24",
+      "title": "Confessor makes Niv's draw life-neutral, so Skirge Familiar's discard pays for itself",
+      "summary": "Reality Fracture's Orzhov Niv-Mizzet converts any life gained into that many cards, paid for with the same life. A bracket-4 Archidekt primer pairs it with Confessor, which gains a life whenever any player discards. Each Skirge Familiar activation then discards a card for a black mana, gains one life, and Niv turns that life back into the replacement draw: life neutral, hand neutral, one mana ahead. Discarding Kozilek shuffles the graveyard back, so the library never empties. A second builder deliberately avoids the instant-kill loops and runs the same commander as a bracket-2 lifegain draw engine, and Commander Spellbook already registers two-card infinite draw with Sheoldred.",
+      "name": "Niv-Spirret",
+      "type": "decklist",
+      "url": "https://archidekt.com/decks/26575861",
+      "creator": "amber-card-addict",
+      "resourceDepth": "primer",
+      "commanders": [
+        {
+          "name": "Niv-Mizzet, Ghost Counsel",
+          "slug": "niv-mizzet-ghost-counsel",
+          "scryfallId": "0ad0e168-ac5c-4e1b-83f2-0488067a58d7"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Confessor",
+          "slug": "confessor",
+          "scryfallId": "984c0bdb-e9e2-435e-aa68-2dbad52c3dbd"
+        },
+        {
+          "name": "Kozilek, Butcher of Truth",
+          "slug": "kozilek-butcher-of-truth",
+          "scryfallId": "d27cf7b7-7982-46bd-a559-7789c0e74bae"
+        },
+        {
+          "name": "Mana Tithe",
+          "slug": "mana-tithe",
+          "scryfallId": "9ae707d5-d81d-4320-b947-6016dc188898"
+        },
+        {
+          "name": "Sheoldred, the Apocalypse",
+          "slug": "sheoldred-the-apocalypse",
+          "scryfallId": "d67be074-cdd4-41d9-ac89-0a0456c4e4b2"
+        },
+        {
+          "name": "Skirge Familiar",
+          "slug": "skirge-familiar",
+          "scryfallId": "2d92fcf1-2ccd-47d2-9a24-f44b766a0b68"
+        }
+      ],
+      "publishedAt": "2026-09-22"
+    },
+    {
       "findingId": "massimo-vraska-spree-2026-09-20",
       "title": "Massimo turns Vraska tokens and Spree spells into a repeatable engine",
       "summary": "A repeat Massimo brewer and follow-up discussion connect Vraska's spell-triggered creature tokens to Massimo's bind ability. Multiple discussions also converge on one-mana Spree cards, especially Great Train Heist, because their additional costs remain payable when Massimo recasts them.",
@@ -477,6 +522,56 @@
         }
       ],
       "publishedAt": "2026-08-29"
+    },
+    {
+      "findingId": "the-queen-of-dale-soldiers-as-resources-2026-09-24",
+      "title": "Two Queen of Dale builds disagree on whether the Soldiers are a board or ramp",
+      "summary": "The Queen of Dale recruits on each opponent's first noncreature spell each turn, which hands mono-white a repeatable discard outlet it normally has no access to. An EDHREC deck tech spends the triggers binning oversized Angels for Restoration Seminar and Emeria, and plays the Human Soldier tokens as a board to anthem and convoke. An unrelated Archidekt primer keeps the reanimator half and spends the same tokens as resources instead: Ashnod's Altar converts them to mana for the expensive value spells, and Settle the Wreckage aimed at his own attack exiles them for basic Plains, which is what turns Emeria on.",
+      "name": "The Queen of Dale | A Mono-White Reanimator Deck",
+      "type": "article",
+      "url": "https://edhrec.com/articles/the-queen-of-dale-a-mono-white-reanimator-deck",
+      "creator": "Brian Cain",
+      "resourceDepth": "deep_dive",
+      "commanders": [
+        {
+          "name": "The Queen of Dale",
+          "slug": "the-queen-of-dale",
+          "scryfallId": "c977fb5f-4436-41d0-af68-93b6d05897e5"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Ashnod's Altar",
+          "slug": "ashnods-altar",
+          "scryfallId": "3c0f7157-a375-499c-92c7-d47d2e95dbad"
+        },
+        {
+          "name": "Blasting Station",
+          "slug": "blasting-station",
+          "scryfallId": "71e2f832-6601-4232-b250-fd1c88538fbd"
+        },
+        {
+          "name": "Emeria, the Sky Ruin",
+          "slug": "emeria-the-sky-ruin",
+          "scryfallId": "90f148e6-1a5e-46fc-9557-40c5c0038069"
+        },
+        {
+          "name": "Moonshaker Cavalry",
+          "slug": "moonshaker-cavalry",
+          "scryfallId": "ca90d382-7e13-4637-a624-2a1b82abe56c"
+        },
+        {
+          "name": "Restoration Seminar",
+          "slug": "restoration-seminar",
+          "scryfallId": "9ebc4ecf-2fa2-4ab8-afde-3b91cf5eadb6"
+        },
+        {
+          "name": "Settle the Wreckage",
+          "slug": "settle-the-wreckage",
+          "scryfallId": "31a7a5e2-4cb8-48fc-8351-18344b4a7560"
+        }
+      ],
+      "publishedAt": "2026-08-03"
     },
     {
       "findingId": "baron-helmut-zemo-landless-boast-2026-09-23",

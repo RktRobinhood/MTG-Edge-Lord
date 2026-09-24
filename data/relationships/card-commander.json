@@ -594,6 +594,131 @@
       "relationshipScore": 18.8
     },
     {
+      "id": "confessor--niv-mizzet-ghost-counsel",
+      "card": {
+        "name": "Confessor",
+        "slug": "confessor",
+        "scryfallId": "984c0bdb-e9e2-435e-aa68-2dbad52c3dbd"
+      },
+      "commander": {
+        "name": "Niv-Mizzet, Ghost Counsel",
+        "slug": "niv-mizzet-ghost-counsel",
+        "scryfallId": "0ad0e168-ac5c-4e1b-83f2-0488067a58d7"
+      },
+      "findingIds": [
+        "niv-mizzet-ghost-counsel-life-neutral-draw-2026-09-24"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/26575861",
+        "https://archidekt.com/decks/26511556",
+        "https://commanderspellbook.com/combo/2498-8192/"
+      ],
+      "evidenceStrength": 0.74,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18.5
+    },
+    {
+      "id": "kozilek-butcher-of-truth--niv-mizzet-ghost-counsel",
+      "card": {
+        "name": "Kozilek, Butcher of Truth",
+        "slug": "kozilek-butcher-of-truth",
+        "scryfallId": "d27cf7b7-7982-46bd-a559-7789c0e74bae"
+      },
+      "commander": {
+        "name": "Niv-Mizzet, Ghost Counsel",
+        "slug": "niv-mizzet-ghost-counsel",
+        "scryfallId": "0ad0e168-ac5c-4e1b-83f2-0488067a58d7"
+      },
+      "findingIds": [
+        "niv-mizzet-ghost-counsel-life-neutral-draw-2026-09-24"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/26575861",
+        "https://archidekt.com/decks/26511556",
+        "https://commanderspellbook.com/combo/2498-8192/"
+      ],
+      "evidenceStrength": 0.74,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18.5
+    },
+    {
+      "id": "mana-tithe--niv-mizzet-ghost-counsel",
+      "card": {
+        "name": "Mana Tithe",
+        "slug": "mana-tithe",
+        "scryfallId": "9ae707d5-d81d-4320-b947-6016dc188898"
+      },
+      "commander": {
+        "name": "Niv-Mizzet, Ghost Counsel",
+        "slug": "niv-mizzet-ghost-counsel",
+        "scryfallId": "0ad0e168-ac5c-4e1b-83f2-0488067a58d7"
+      },
+      "findingIds": [
+        "niv-mizzet-ghost-counsel-life-neutral-draw-2026-09-24"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/26575861",
+        "https://archidekt.com/decks/26511556",
+        "https://commanderspellbook.com/combo/2498-8192/"
+      ],
+      "evidenceStrength": 0.74,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18.5
+    },
+    {
+      "id": "sheoldred-the-apocalypse--niv-mizzet-ghost-counsel",
+      "card": {
+        "name": "Sheoldred, the Apocalypse",
+        "slug": "sheoldred-the-apocalypse",
+        "scryfallId": "d67be074-cdd4-41d9-ac89-0a0456c4e4b2"
+      },
+      "commander": {
+        "name": "Niv-Mizzet, Ghost Counsel",
+        "slug": "niv-mizzet-ghost-counsel",
+        "scryfallId": "0ad0e168-ac5c-4e1b-83f2-0488067a58d7"
+      },
+      "findingIds": [
+        "niv-mizzet-ghost-counsel-life-neutral-draw-2026-09-24"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/26575861",
+        "https://archidekt.com/decks/26511556",
+        "https://commanderspellbook.com/combo/2498-8192/"
+      ],
+      "evidenceStrength": 0.74,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18.5
+    },
+    {
+      "id": "skirge-familiar--niv-mizzet-ghost-counsel",
+      "card": {
+        "name": "Skirge Familiar",
+        "slug": "skirge-familiar",
+        "scryfallId": "2d92fcf1-2ccd-47d2-9a24-f44b766a0b68"
+      },
+      "commander": {
+        "name": "Niv-Mizzet, Ghost Counsel",
+        "slug": "niv-mizzet-ghost-counsel",
+        "scryfallId": "0ad0e168-ac5c-4e1b-83f2-0488067a58d7"
+      },
+      "findingIds": [
+        "niv-mizzet-ghost-counsel-life-neutral-draw-2026-09-24"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/26575861",
+        "https://archidekt.com/decks/26511556",
+        "https://commanderspellbook.com/combo/2498-8192/"
+      ],
+      "evidenceStrength": 0.74,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 18.5
+    },
+    {
       "id": "big-score--the-scarlet-witch",
       "card": {
         "name": "Big Score",
@@ -1246,6 +1371,150 @@
       ],
       "evidenceStrength": 0.68,
       "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "ashnods-altar--the-queen-of-dale",
+      "card": {
+        "name": "Ashnod's Altar",
+        "slug": "ashnods-altar",
+        "scryfallId": "3c0f7157-a375-499c-92c7-d47d2e95dbad"
+      },
+      "commander": {
+        "name": "The Queen of Dale",
+        "slug": "the-queen-of-dale",
+        "scryfallId": "c977fb5f-4436-41d0-af68-93b6d05897e5"
+      },
+      "findingIds": [
+        "the-queen-of-dale-soldiers-as-resources-2026-09-24"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/the-queen-of-dale-a-mono-white-reanimator-deck",
+        "https://archidekt.com/decks/25210724"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "blasting-station--the-queen-of-dale",
+      "card": {
+        "name": "Blasting Station",
+        "slug": "blasting-station",
+        "scryfallId": "71e2f832-6601-4232-b250-fd1c88538fbd"
+      },
+      "commander": {
+        "name": "The Queen of Dale",
+        "slug": "the-queen-of-dale",
+        "scryfallId": "c977fb5f-4436-41d0-af68-93b6d05897e5"
+      },
+      "findingIds": [
+        "the-queen-of-dale-soldiers-as-resources-2026-09-24"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/the-queen-of-dale-a-mono-white-reanimator-deck",
+        "https://archidekt.com/decks/25210724"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "emeria-the-sky-ruin--the-queen-of-dale",
+      "card": {
+        "name": "Emeria, the Sky Ruin",
+        "slug": "emeria-the-sky-ruin",
+        "scryfallId": "90f148e6-1a5e-46fc-9557-40c5c0038069"
+      },
+      "commander": {
+        "name": "The Queen of Dale",
+        "slug": "the-queen-of-dale",
+        "scryfallId": "c977fb5f-4436-41d0-af68-93b6d05897e5"
+      },
+      "findingIds": [
+        "the-queen-of-dale-soldiers-as-resources-2026-09-24"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/the-queen-of-dale-a-mono-white-reanimator-deck",
+        "https://archidekt.com/decks/25210724"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "moonshaker-cavalry--the-queen-of-dale",
+      "card": {
+        "name": "Moonshaker Cavalry",
+        "slug": "moonshaker-cavalry",
+        "scryfallId": "ca90d382-7e13-4637-a624-2a1b82abe56c"
+      },
+      "commander": {
+        "name": "The Queen of Dale",
+        "slug": "the-queen-of-dale",
+        "scryfallId": "c977fb5f-4436-41d0-af68-93b6d05897e5"
+      },
+      "findingIds": [
+        "the-queen-of-dale-soldiers-as-resources-2026-09-24"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/the-queen-of-dale-a-mono-white-reanimator-deck",
+        "https://archidekt.com/decks/25210724"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "restoration-seminar--the-queen-of-dale",
+      "card": {
+        "name": "Restoration Seminar",
+        "slug": "restoration-seminar",
+        "scryfallId": "9ebc4ecf-2fa2-4ab8-afde-3b91cf5eadb6"
+      },
+      "commander": {
+        "name": "The Queen of Dale",
+        "slug": "the-queen-of-dale",
+        "scryfallId": "c977fb5f-4436-41d0-af68-93b6d05897e5"
+      },
+      "findingIds": [
+        "the-queen-of-dale-soldiers-as-resources-2026-09-24"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/the-queen-of-dale-a-mono-white-reanimator-deck",
+        "https://archidekt.com/decks/25210724"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 17
+    },
+    {
+      "id": "settle-the-wreckage--the-queen-of-dale",
+      "card": {
+        "name": "Settle the Wreckage",
+        "slug": "settle-the-wreckage",
+        "scryfallId": "31a7a5e2-4cb8-48fc-8351-18344b4a7560"
+      },
+      "commander": {
+        "name": "The Queen of Dale",
+        "slug": "the-queen-of-dale",
+        "scryfallId": "c977fb5f-4436-41d0-af68-93b6d05897e5"
+      },
+      "findingIds": [
+        "the-queen-of-dale-soldiers-as-resources-2026-09-24"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/the-queen-of-dale-a-mono-white-reanimator-deck",
+        "https://archidekt.com/decks/25210724"
+      ],
+      "evidenceStrength": 0.68,
+      "independentSourceCount": 2,
       "metrics": {},
       "relationshipScore": 17
     },
