@@ -2,14 +2,115 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "fblthp-impossibly-lost",
+      "name": "Fblthp, Impossibly Lost",
+      "firstSurfacedAt": "2026-09-26",
+      "lastSurfacedAt": "2026-09-26",
+      "findingIds": [
+        "fblthp-impossibly-lost-edhrec-momentum-2026-09-26"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/fblthp-impossibly-lost",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 2865,
+        "deckCount": 195,
+        "asOf": "2026-09-26"
+      }
+    },
+    {
+      "slug": "lyra-tolarian-archangel",
+      "name": "Lyra, Tolarian Archangel",
+      "firstSurfacedAt": "2026-09-26",
+      "lastSurfacedAt": "2026-09-26",
+      "findingIds": [
+        "lyra-tolarian-archangel-edhrec-momentum-2026-09-26"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/lyra-tolarian-archangel",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 2684,
+        "deckCount": 243,
+        "asOf": "2026-09-26"
+      }
+    },
+    {
+      "slug": "memnarch-the-warden",
+      "name": "Memnarch, the Warden",
+      "firstSurfacedAt": "2026-09-26",
+      "lastSurfacedAt": "2026-09-26",
+      "findingIds": [
+        "memnarch-the-warden-edhrec-momentum-2026-09-26"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/memnarch-the-warden",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 3237,
+        "deckCount": 117,
+        "asOf": "2026-09-26"
+      }
+    },
+    {
+      "slug": "tamiyo-upriser-crowned",
+      "name": "Tamiyo, Upriser Crowned",
+      "firstSurfacedAt": "2026-09-26",
+      "lastSurfacedAt": "2026-09-26",
+      "findingIds": [
+        "tamiyo-upriser-crowned-edhrec-momentum-2026-09-26"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/tamiyo-upriser-crowned",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 2932,
+        "deckCount": 180,
+        "asOf": "2026-09-26"
+      }
+    },
+    {
       "slug": "ginger-queen-of-sweets",
       "name": "Ginger, Queen of Sweets",
       "firstSurfacedAt": "2026-09-25",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
-        "ginger-queen-of-sweets-edhrec-momentum-2026-09-25"
+        "ginger-queen-of-sweets-edhrec-momentum-2026-09-25",
+        "ginger-queen-of-sweets-edhrec-momentum-2026-09-26"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -130,11 +231,12 @@
       "slug": "saheeli-jewel-of-avishkar",
       "name": "Saheeli, Jewel of Avishkar",
       "firstSurfacedAt": "2026-09-25",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
-        "saheeli-jewel-of-avishkar-edhrec-momentum-2026-09-25"
+        "saheeli-jewel-of-avishkar-edhrec-momentum-2026-09-25",
+        "saheeli-jewel-of-avishkar-edhrec-momentum-2026-09-26"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -155,11 +257,12 @@
       "slug": "samut-hazorets-champion",
       "name": "Samut, Hazoret's Champion",
       "firstSurfacedAt": "2026-09-25",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
-        "samut-hazorets-champion-edhrec-momentum-2026-09-25"
+        "samut-hazorets-champion-edhrec-momentum-2026-09-25",
+        "samut-hazorets-champion-edhrec-momentum-2026-09-26"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -305,7 +408,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -355,7 +458,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -380,7 +483,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -431,12 +534,13 @@
       "slug": "dack-fayden-helping-hand",
       "name": "Dack Fayden, Helping Hand",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "dack-fayden-helping-hand-edhrec-momentum-2026-09-23",
-        "dack-fayden-helping-hand-edhrec-momentum-2026-09-25"
+        "dack-fayden-helping-hand-edhrec-momentum-2026-09-25",
+        "dack-fayden-helping-hand-edhrec-momentum-2026-09-26"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -482,12 +586,13 @@
       "slug": "jace-multiverse-architect",
       "name": "Jace, Multiverse Architect",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-24",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "jace-multiverse-architect-edhrec-momentum-2026-09-23",
-        "jace-multiverse-architect-edhrec-momentum-2026-09-24"
+        "jace-multiverse-architect-edhrec-momentum-2026-09-24",
+        "jace-multiverse-architect-edhrec-momentum-2026-09-26"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -508,7 +613,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -533,7 +638,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -558,7 +663,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -609,7 +714,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -642,7 +747,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -692,7 +797,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -717,12 +822,13 @@
       "slug": "tam-the-possibility",
       "name": "Tam, the Possibility",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-24",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "tam-the-possibility-edhrec-momentum-2026-09-23",
-        "tam-the-possibility-edhrec-momentum-2026-09-24"
+        "tam-the-possibility-edhrec-momentum-2026-09-24",
+        "tam-the-possibility-edhrec-momentum-2026-09-26"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -743,7 +849,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -768,7 +874,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -819,7 +925,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -844,7 +950,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24"
@@ -876,7 +982,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-09-26",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
