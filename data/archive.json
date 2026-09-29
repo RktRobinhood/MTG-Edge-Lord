@@ -2,6 +2,31 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "karn-gilded-guardian",
+      "name": "Karn, Gilded Guardian",
+      "firstSurfacedAt": "2026-09-29",
+      "lastSurfacedAt": "2026-09-29",
+      "findingIds": [
+        "karn-gilded-guardian-edhrec-momentum-2026-09-29"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/karn-gilded-guardian",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 1971,
+        "deckCount": 662,
+        "asOf": "2026-09-29"
+      }
+    },
+    {
       "slug": "pia-aether-ascetic",
       "name": "Pia, Aether Ascetic",
       "firstSurfacedAt": "2026-09-27",
@@ -131,12 +156,13 @@
       "slug": "ginger-queen-of-sweets",
       "name": "Ginger, Queen of Sweets",
       "firstSurfacedAt": "2026-09-25",
-      "lastSurfacedAt": "2026-09-26",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "ginger-queen-of-sweets-edhrec-momentum-2026-09-25",
-        "ginger-queen-of-sweets-edhrec-momentum-2026-09-26"
+        "ginger-queen-of-sweets-edhrec-momentum-2026-09-26",
+        "ginger-queen-of-sweets-edhrec-momentum-2026-09-29"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -257,12 +283,13 @@
       "slug": "saheeli-jewel-of-avishkar",
       "name": "Saheeli, Jewel of Avishkar",
       "firstSurfacedAt": "2026-09-25",
-      "lastSurfacedAt": "2026-09-26",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "saheeli-jewel-of-avishkar-edhrec-momentum-2026-09-25",
-        "saheeli-jewel-of-avishkar-edhrec-momentum-2026-09-26"
+        "saheeli-jewel-of-avishkar-edhrec-momentum-2026-09-26",
+        "saheeli-jewel-of-avishkar-edhrec-momentum-2026-09-29"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -360,13 +387,14 @@
       "slug": "denzilore-fatehold",
       "name": "Denzilore Fatehold",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "denzilore-fatehold-edhrec-momentum-2026-09-24",
         "denzilore-fatehold-edhrec-momentum-2026-09-27",
-        "denzilore-fatehold-edhrec-momentum-2026-09-28"
+        "denzilore-fatehold-edhrec-momentum-2026-09-28",
+        "denzilore-fatehold-edhrec-momentum-2026-09-29"
       ],
-      "timesSurfaced": 3,
+      "timesSurfaced": 4,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -412,13 +440,14 @@
       "slug": "kwia-vigorbloom",
       "name": "Kwia Vigorbloom",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "kwia-vigorbloom-edhrec-momentum-2026-09-24",
         "kwia-vigorbloom-edhrec-momentum-2026-09-27",
-        "kwia-vigorbloom-edhrec-momentum-2026-09-28"
+        "kwia-vigorbloom-edhrec-momentum-2026-09-28",
+        "kwia-vigorbloom-edhrec-momentum-2026-09-29"
       ],
-      "timesSurfaced": 3,
+      "timesSurfaced": 4,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -439,7 +468,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -464,12 +493,13 @@
       "slug": "avacyn-angel-of-horror",
       "name": "Avacyn, Angel of Horror",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "avacyn-angel-of-horror-edhrec-momentum-2026-09-23",
-        "avacyn-angel-of-horror-edhrec-momentum-2026-09-28"
+        "avacyn-angel-of-horror-edhrec-momentum-2026-09-28",
+        "avacyn-angel-of-horror-edhrec-momentum-2026-09-29"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -490,7 +520,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -515,7 +545,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -540,14 +570,15 @@
       "slug": "codie-ravenous-codex",
       "name": "Codie, Ravenous Codex",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "codie-ravenous-codex-edhrec-momentum-2026-09-23",
         "codie-ravenous-codex-edhrec-momentum-2026-09-25",
         "codie-ravenous-codex-edhrec-momentum-2026-09-27",
-        "codie-ravenous-codex-edhrec-momentum-2026-09-28"
+        "codie-ravenous-codex-edhrec-momentum-2026-09-28",
+        "codie-ravenous-codex-edhrec-momentum-2026-09-29"
       ],
-      "timesSurfaced": 4,
+      "timesSurfaced": 5,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -623,15 +654,16 @@
       "slug": "jace-multiverse-architect",
       "name": "Jace, Multiverse Architect",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "jace-multiverse-architect-edhrec-momentum-2026-09-23",
         "jace-multiverse-architect-edhrec-momentum-2026-09-24",
         "jace-multiverse-architect-edhrec-momentum-2026-09-26",
         "jace-multiverse-architect-edhrec-momentum-2026-09-27",
-        "jace-multiverse-architect-edhrec-momentum-2026-09-28"
+        "jace-multiverse-architect-edhrec-momentum-2026-09-28",
+        "jace-multiverse-architect-edhrec-momentum-2026-09-29"
       ],
-      "timesSurfaced": 5,
+      "timesSurfaced": 6,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -652,7 +684,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -677,7 +709,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -702,7 +734,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -754,7 +786,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -787,7 +819,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -837,7 +869,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -862,15 +894,16 @@
       "slug": "tam-the-possibility",
       "name": "Tam, the Possibility",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "tam-the-possibility-edhrec-momentum-2026-09-23",
         "tam-the-possibility-edhrec-momentum-2026-09-24",
         "tam-the-possibility-edhrec-momentum-2026-09-26",
         "tam-the-possibility-edhrec-momentum-2026-09-27",
-        "tam-the-possibility-edhrec-momentum-2026-09-28"
+        "tam-the-possibility-edhrec-momentum-2026-09-28",
+        "tam-the-possibility-edhrec-momentum-2026-09-29"
       ],
-      "timesSurfaced": 5,
+      "timesSurfaced": 6,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -891,7 +924,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -916,7 +949,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -967,7 +1000,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -992,14 +1025,15 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-27",
-        "vraska-soul-of-stone-edhrec-momentum-2026-09-28"
+        "vraska-soul-of-stone-edhrec-momentum-2026-09-28",
+        "vraska-soul-of-stone-edhrec-momentum-2026-09-29"
       ],
-      "timesSurfaced": 4,
+      "timesSurfaced": 5,
       "findingTypes": [
         "discovery_signal",
         "emerging_brew"
@@ -1026,7 +1060,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-09-28",
+      "lastSurfacedAt": "2026-09-29",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
