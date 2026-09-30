@@ -1191,6 +1191,156 @@
       "relationshipScore": 18
     },
     {
+      "id": "giggling-skitterspike--oswald-fiddlebender",
+      "card": {
+        "name": "Giggling Skitterspike",
+        "slug": "giggling-skitterspike",
+        "scryfallId": "fba20e7e-9581-4a9b-bdda-5c85d3450d4c"
+      },
+      "commander": {
+        "name": "Oswald Fiddlebender",
+        "slug": "oswald-fiddlebender",
+        "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa"
+      },
+      "findingIds": [
+        "oswald-fiddlebender-secret-commander-2026-09-30"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/12375268",
+        "https://archidekt.com/decks/23426010",
+        "https://cedh-decklist-database.com/"
+      ],
+      "evidenceStrength": 0.7,
+      "independentSourceCount": 3,
+      "metrics": {},
+      "relationshipScore": 17.5
+    },
+    {
+      "id": "marvin-murderous-mimic--oswald-fiddlebender",
+      "card": {
+        "name": "Marvin, Murderous Mimic",
+        "slug": "marvin-murderous-mimic",
+        "scryfallId": "66898970-b99b-48f2-9240-68c301c95500"
+      },
+      "commander": {
+        "name": "Oswald Fiddlebender",
+        "slug": "oswald-fiddlebender",
+        "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa"
+      },
+      "findingIds": [
+        "oswald-fiddlebender-secret-commander-2026-09-30"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/12375268",
+        "https://archidekt.com/decks/23426010",
+        "https://cedh-decklist-database.com/"
+      ],
+      "evidenceStrength": 0.7,
+      "independentSourceCount": 3,
+      "metrics": {},
+      "relationshipScore": 17.5
+    },
+    {
+      "id": "mirage-mirror--oswald-fiddlebender",
+      "card": {
+        "name": "Mirage Mirror",
+        "slug": "mirage-mirror",
+        "scryfallId": "e516bc14-749c-4da6-b5d3-cb5c16316e0c"
+      },
+      "commander": {
+        "name": "Oswald Fiddlebender",
+        "slug": "oswald-fiddlebender",
+        "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa"
+      },
+      "findingIds": [
+        "oswald-fiddlebender-secret-commander-2026-09-30"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/12375268",
+        "https://archidekt.com/decks/23426010",
+        "https://cedh-decklist-database.com/"
+      ],
+      "evidenceStrength": 0.7,
+      "independentSourceCount": 3,
+      "metrics": {},
+      "relationshipScore": 17.5
+    },
+    {
+      "id": "monument-to-endurance--oswald-fiddlebender",
+      "card": {
+        "name": "Monument to Endurance",
+        "slug": "monument-to-endurance",
+        "scryfallId": "d21433ba-0a14-42bc-ad0b-a4ef823a3295"
+      },
+      "commander": {
+        "name": "Oswald Fiddlebender",
+        "slug": "oswald-fiddlebender",
+        "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa"
+      },
+      "findingIds": [
+        "oswald-fiddlebender-secret-commander-2026-09-30"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/12375268",
+        "https://archidekt.com/decks/23426010",
+        "https://cedh-decklist-database.com/"
+      ],
+      "evidenceStrength": 0.7,
+      "independentSourceCount": 3,
+      "metrics": {},
+      "relationshipScore": 17.5
+    },
+    {
+      "id": "patchwork-gnomes--oswald-fiddlebender",
+      "card": {
+        "name": "Patchwork Gnomes",
+        "slug": "patchwork-gnomes",
+        "scryfallId": "3002ccef-5322-4f99-9fce-3b4303347240"
+      },
+      "commander": {
+        "name": "Oswald Fiddlebender",
+        "slug": "oswald-fiddlebender",
+        "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa"
+      },
+      "findingIds": [
+        "oswald-fiddlebender-secret-commander-2026-09-30"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/12375268",
+        "https://archidekt.com/decks/23426010",
+        "https://cedh-decklist-database.com/"
+      ],
+      "evidenceStrength": 0.7,
+      "independentSourceCount": 3,
+      "metrics": {},
+      "relationshipScore": 17.5
+    },
+    {
+      "id": "pili-pala--oswald-fiddlebender",
+      "card": {
+        "name": "Pili-Pala",
+        "slug": "pili-pala",
+        "scryfallId": "4892c152-1f4a-4616-8e7f-0ca4911e621a"
+      },
+      "commander": {
+        "name": "Oswald Fiddlebender",
+        "slug": "oswald-fiddlebender",
+        "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa"
+      },
+      "findingIds": [
+        "oswald-fiddlebender-secret-commander-2026-09-30"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/12375268",
+        "https://archidekt.com/decks/23426010",
+        "https://cedh-decklist-database.com/"
+      ],
+      "evidenceStrength": 0.7,
+      "independentSourceCount": 3,
+      "metrics": {},
+      "relationshipScore": 17.5
+    },
+    {
       "id": "adarkar-valkyrie--liliana-the-faultless",
       "card": {
         "name": "Adarkar Valkyrie",

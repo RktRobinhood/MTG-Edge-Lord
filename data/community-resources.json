@@ -2,6 +2,56 @@
   "schemaVersion": 1,
   "resources": [
     {
+      "findingId": "oswald-fiddlebender-secret-commander-2026-09-30",
+      "title": "Oswald Fiddlebender is a tutor chassis, and three builders aim it at three different artifacts",
+      "summary": "Oswald sacrifices an artifact to put one costing exactly one more onto the battlefield, so a mono-white deck gets to pick its real win condition from the library each game. One primer climbs from two-drops to Monument to Endurance, then copies it, because each copy can make every opponent lose 3 life once a turn off a discard. An unrelated build climbs one step further to Giggling Skitterspike and grows it with Modular counters. The cEDH Decklist Database's Brewer's Corner lists a third, competitive route that chains into Marvin, Murderous Mimic and Pili-Pala for combo turns 3-4. Same commander, three payloads that share little beyond the chain.",
+      "name": "Monumental Oswald - Primer",
+      "type": "primer",
+      "url": "https://archidekt.com/decks/12375268",
+      "creator": "NoahReden",
+      "resourceDepth": "deep_dive",
+      "commanders": [
+        {
+          "name": "Oswald Fiddlebender",
+          "slug": "oswald-fiddlebender",
+          "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Giggling Skitterspike",
+          "slug": "giggling-skitterspike",
+          "scryfallId": "fba20e7e-9581-4a9b-bdda-5c85d3450d4c"
+        },
+        {
+          "name": "Marvin, Murderous Mimic",
+          "slug": "marvin-murderous-mimic",
+          "scryfallId": "66898970-b99b-48f2-9240-68c301c95500"
+        },
+        {
+          "name": "Mirage Mirror",
+          "slug": "mirage-mirror",
+          "scryfallId": "e516bc14-749c-4da6-b5d3-cb5c16316e0c"
+        },
+        {
+          "name": "Monument to Endurance",
+          "slug": "monument-to-endurance",
+          "scryfallId": "d21433ba-0a14-42bc-ad0b-a4ef823a3295"
+        },
+        {
+          "name": "Patchwork Gnomes",
+          "slug": "patchwork-gnomes",
+          "scryfallId": "3002ccef-5322-4f99-9fce-3b4303347240"
+        },
+        {
+          "name": "Pili-Pala",
+          "slug": "pili-pala",
+          "scryfallId": "4892c152-1f4a-4616-8e7f-0ca4911e621a"
+        }
+      ],
+      "publishedAt": "2026-09-23"
+    },
+    {
       "findingId": "niv-mizzet-supreme-eidolon-package-2026-09-23",
       "title": "Niv-Mizzet, Supreme plays a package it never casts, because the Eidolons return themselves",
       "summary": "Two months of iteration on the five Dissension Eidolons, which return from the graveyard to hand whenever their controller casts a multicolored spell. That inverts the usual cost of looting and rummaging: the discard is free, so every modern discard payoff becomes an engine rather than a resource trade. The write-up prices the constraint openly at roughly two dozen multicolored cards, which is why the least-played of the seven Niv-Mizzets is the all-in home rather than a tighter Grixis shell, and it names the commanders in other colours the same package slots into. Pauper, Vintage and Premodern precedent is cited as evidence the engine is real rather than cute.",

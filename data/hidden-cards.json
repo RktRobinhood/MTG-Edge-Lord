@@ -149,6 +149,152 @@
       ]
     },
     {
+      "name": "Giggling Skitterspike",
+      "slug": "giggling-skitterspike",
+      "scryfallId": "fba20e7e-9581-4a9b-bdda-5c85d3450d4c",
+      "findingIds": [
+        "oswald-fiddlebender-secret-commander-2026-09-30"
+      ],
+      "diamondScore": 64.7,
+      "momentum": 0,
+      "commanders": [
+        {
+          "name": "Oswald Fiddlebender",
+          "slug": "oswald-fiddlebender",
+          "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa",
+          "relationshipScore": 17.5,
+          "findingIds": [
+            "oswald-fiddlebender-secret-commander-2026-09-30"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marvin, Murderous Mimic",
+      "slug": "marvin-murderous-mimic",
+      "scryfallId": "66898970-b99b-48f2-9240-68c301c95500",
+      "findingIds": [
+        "oswald-fiddlebender-secret-commander-2026-09-30"
+      ],
+      "diamondScore": 64.7,
+      "momentum": 0,
+      "commanders": [
+        {
+          "name": "Oswald Fiddlebender",
+          "slug": "oswald-fiddlebender",
+          "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa",
+          "relationshipScore": 17.5,
+          "findingIds": [
+            "oswald-fiddlebender-secret-commander-2026-09-30"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mirage Mirror",
+      "slug": "mirage-mirror",
+      "scryfallId": "e516bc14-749c-4da6-b5d3-cb5c16316e0c",
+      "findingIds": [
+        "oswald-fiddlebender-secret-commander-2026-09-30"
+      ],
+      "diamondScore": 64.7,
+      "momentum": 0,
+      "commanders": [
+        {
+          "name": "Oswald Fiddlebender",
+          "slug": "oswald-fiddlebender",
+          "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa",
+          "relationshipScore": 17.5,
+          "findingIds": [
+            "oswald-fiddlebender-secret-commander-2026-09-30"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monument to Endurance",
+      "slug": "monument-to-endurance",
+      "scryfallId": "d21433ba-0a14-42bc-ad0b-a4ef823a3295",
+      "findingIds": [
+        "oswald-fiddlebender-secret-commander-2026-09-30",
+        "niv-mizzet-supreme-eidolon-package-2026-09-23",
+        "uldaros-theorix-no-ramp-dredge-2026-09-23"
+      ],
+      "diamondScore": 64.7,
+      "momentum": 0,
+      "commanders": [
+        {
+          "name": "Oswald Fiddlebender",
+          "slug": "oswald-fiddlebender",
+          "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa",
+          "relationshipScore": 17.5,
+          "findingIds": [
+            "oswald-fiddlebender-secret-commander-2026-09-30"
+          ]
+        },
+        {
+          "name": "Niv-Mizzet, Supreme",
+          "slug": "niv-mizzet-supreme",
+          "scryfallId": "da1ff886-d3c8-43e5-8bf0-ba4f0b259781",
+          "relationshipScore": 16.5,
+          "findingIds": [
+            "niv-mizzet-supreme-eidolon-package-2026-09-23"
+          ]
+        },
+        {
+          "name": "Uldaros Theorix",
+          "slug": "uldaros-theorix",
+          "scryfallId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387",
+          "relationshipScore": 16.5,
+          "findingIds": [
+            "uldaros-theorix-no-ramp-dredge-2026-09-23"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patchwork Gnomes",
+      "slug": "patchwork-gnomes",
+      "scryfallId": "3002ccef-5322-4f99-9fce-3b4303347240",
+      "findingIds": [
+        "oswald-fiddlebender-secret-commander-2026-09-30"
+      ],
+      "diamondScore": 64.7,
+      "momentum": 0,
+      "commanders": [
+        {
+          "name": "Oswald Fiddlebender",
+          "slug": "oswald-fiddlebender",
+          "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa",
+          "relationshipScore": 17.5,
+          "findingIds": [
+            "oswald-fiddlebender-secret-commander-2026-09-30"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pili-Pala",
+      "slug": "pili-pala",
+      "scryfallId": "4892c152-1f4a-4616-8e7f-0ca4911e621a",
+      "findingIds": [
+        "oswald-fiddlebender-secret-commander-2026-09-30"
+      ],
+      "diamondScore": 64.7,
+      "momentum": 0,
+      "commanders": [
+        {
+          "name": "Oswald Fiddlebender",
+          "slug": "oswald-fiddlebender",
+          "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa",
+          "relationshipScore": 17.5,
+          "findingIds": [
+            "oswald-fiddlebender-secret-commander-2026-09-30"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Aurora Eidolon",
       "slug": "aurora-eidolon",
       "scryfallId": "51bb3d0b-8630-4373-b863-bc831cf08098",
@@ -194,37 +340,6 @@
       "name": "Magus of the Bazaar",
       "slug": "magus-of-the-bazaar",
       "scryfallId": "d117ed81-7b5c-4e29-b958-6126d48ac5a6",
-      "findingIds": [
-        "niv-mizzet-supreme-eidolon-package-2026-09-23",
-        "uldaros-theorix-no-ramp-dredge-2026-09-23"
-      ],
-      "diamondScore": 62.4,
-      "momentum": 0,
-      "commanders": [
-        {
-          "name": "Niv-Mizzet, Supreme",
-          "slug": "niv-mizzet-supreme",
-          "scryfallId": "da1ff886-d3c8-43e5-8bf0-ba4f0b259781",
-          "relationshipScore": 16.5,
-          "findingIds": [
-            "niv-mizzet-supreme-eidolon-package-2026-09-23"
-          ]
-        },
-        {
-          "name": "Uldaros Theorix",
-          "slug": "uldaros-theorix",
-          "scryfallId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387",
-          "relationshipScore": 16.5,
-          "findingIds": [
-            "uldaros-theorix-no-ramp-dredge-2026-09-23"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Monument to Endurance",
-      "slug": "monument-to-endurance",
-      "scryfallId": "d21433ba-0a14-42bc-ad0b-a4ef823a3295",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23",
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
