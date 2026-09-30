@@ -1,0 +1,103 @@
+{
+  "id": "oswald-fiddlebender-secret-commander-2026-09-30",
+  "findingType": "deep_dive_resource",
+  "title": "Oswald Fiddlebender is a tutor chassis, and three builders aim it at three different artifacts",
+  "summary": "Oswald sacrifices an artifact to put one costing exactly one more onto the battlefield, so a mono-white deck gets to pick its real win condition from the library each game. One primer climbs from two-drops to Monument to Endurance, then copies it, because each copy can make every opponent lose 3 life once a turn off a discard. An unrelated build climbs one step further to Giggling Skitterspike and grows it with Modular counters. The cEDH Decklist Database's Brewer's Corner lists a third, competitive route that chains into Marvin, Murderous Mimic and Pili-Pala for combo turns 3-4. Same commander, three payloads that share little beyond the chain.",
+  "source": {
+    "name": "Monumental Oswald - Primer",
+    "type": "primer",
+    "url": "https://archidekt.com/decks/12375268",
+    "creator": "NoahReden",
+    "resourceDepth": "deep_dive"
+  },
+  "publishedAt": "2026-09-23",
+  "observedAt": "2026-09-30T08:05:00.000Z",
+  "commanders": [
+    {
+      "name": "Oswald Fiddlebender",
+      "slug": "oswald-fiddlebender"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Monument to Endurance",
+      "slug": "monument-to-endurance"
+    },
+    {
+      "name": "Patchwork Gnomes",
+      "slug": "patchwork-gnomes"
+    },
+    {
+      "name": "Mirage Mirror",
+      "slug": "mirage-mirror"
+    },
+    {
+      "name": "Giggling Skitterspike",
+      "slug": "giggling-skitterspike"
+    },
+    {
+      "name": "Marvin, Murderous Mimic",
+      "slug": "marvin-murderous-mimic"
+    },
+    {
+      "name": "Pili-Pala",
+      "slug": "pili-pala"
+    }
+  ],
+  "evidence": {
+    "strength": 0.7,
+    "independentSourceCount": 3,
+    "conversationDepth": "reasoned",
+    "communityReasoned": true,
+    "tested": true,
+    "notes": [
+      "The Monument primer is long-form and still maintained (updated 2026-09-23, about 8,700 views): it gives a turn-by-turn opening, what to tutor first depending on whether a discard outlet is already down, and the damage maths once the Monument is copied.",
+      "The Monument primer reports its own play experience - consistent in multiplayer, strong in Two-Headed Giant, weak to repeat games against people who learn to exile the Monument - but no game logs.",
+      "The Skitterspike build is an independent author and a different payload: a four-drop reached one sacrifice later, with a Modular and counter-doubling package feeding it.",
+      "The cEDH Decklist Database lists Oswald in the Brewer's Corner (entry dated 2026-08-19), describing a toolbox that dumps artifacts early and breaks parity on stax like Trinisphere. Its decklists are on Moxfield and were not opened.",
+      "Range is the case for filing: the chain is the constant and the top of it is a deckbuilding choice, which is the several-shells shape the bar asks for."
+    ],
+    "corroboratingSources": [
+      {
+        "name": "Oswald Secret Commander=Giggling Skitterspike",
+        "url": "https://archidekt.com/decks/23426010",
+        "creator": "ErichEichenkrug"
+      },
+      {
+        "name": "cEDH Decklist Database - Brewer's Corner: Fancy a Fiddle",
+        "url": "https://cedh-decklist-database.com/",
+        "creator": "cEDH Decklist Database"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Monument to Endurance as the payload",
+        "status": "supporting",
+        "reason": "A three-drop reached from any two-drop artifact; free discard creatures and copies of the Monument turn it into a burn clock."
+      },
+      {
+        "name": "Giggling Skitterspike as the payload",
+        "status": "supporting",
+        "reason": "An indestructible four-drop that deals its power to each opponent whenever it attacks, blocks or is targeted, grown by Modular creatures dying around it."
+      },
+      {
+        "name": "Marvin and Pili-Pala combo",
+        "status": "supporting",
+        "reason": "The competitive route: Marvin copies Oswald's ability, and the chain assembles a combo while the deck plays under its own stax."
+      }
+    ]
+  },
+  "tags": [
+    "ci-w",
+    "arch-artifacts",
+    "arch-toolbox",
+    "mech-tutor-chain",
+    "band-1000-2000",
+    "recheck-90d"
+  ],
+  "popularity": {
+    "edhrecRank": 1028,
+    "deckCount": 2358,
+    "asOf": "2026-09-29"
+  }
+}

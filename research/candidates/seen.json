@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24",
+  "updatedAt": "2026-09-30",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -644,8 +644,8 @@
       "name": "Denzilore Fatehold",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-09-24",
-      "reason": "strong momentum for a Reality Fracture legend, but the coverage is a set-wide series entry plus a flyers list that names cards rather than explaining a line"
+      "lastSeenAt": "2026-09-30",
+      "reason": "re-checked 2026-09-30 against a new Panzer MTG video guide: the on-page write-up restates the commander (scry/surveil into counters, go wide) and the reasoning lives in the video - straightforward on-theme build; already surfaced by the momentum feed"
     },
     {
       "slug": "omnath-locus-of-the-void",
@@ -686,6 +686,54 @@
       "firstSeenAt": "2026-09-24",
       "lastSeenAt": "2026-09-24",
       "reason": "the single primer was last touched in July and is an upgrade of a precon list"
+    },
+    {
+      "slug": "oswald-fiddlebender",
+      "name": "Oswald Fiddlebender",
+      "status": "filed",
+      "firstSeenAt": "2026-09-30",
+      "lastSeenAt": "2026-09-30",
+      "reason": "promoted to research/inbox/ on 2026-09-30; three independent builds point the same artifact tutor chain at Monument to Endurance, Giggling Skitterspike and a Marvin/Pili-Pala cEDH combo"
+    },
+    {
+      "slug": "superior-spider-man",
+      "name": "Superior Spider-Man",
+      "status": "lead",
+      "firstSeenAt": "2026-09-30",
+      "lastSeenAt": "2026-09-30",
+      "reason": "in band at 1,570 with a cEDH Brewer's Corner entry claiming Breach lines without red, but the decklist is on Moxfield and no Archidekt deck has a primer - parked in LEADS.md"
+    },
+    {
+      "slug": "crystal-inhuman-princess",
+      "name": "Crystal, Inhuman Princess",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-30",
+      "lastSeenAt": "2026-09-30",
+      "reason": "in band at 682 via the Brewer's Corner, but Izzet storm into Underworld Breach is the established shape and edge 24.9 says mainstream"
+    },
+    {
+      "slug": "ms-bumbleflower",
+      "name": "Ms. Bumbleflower",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-30",
+      "lastSeenAt": "2026-09-30",
+      "reason": "rank 11, meta baseline; EDHREC makeover column"
+    },
+    {
+      "slug": "ragost-deft-gastronaut",
+      "name": "Ragost, Deft Gastronaut",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-30",
+      "lastSeenAt": "2026-09-30",
+      "reason": "rank 87, meta baseline; hot/cold inclusion-rate column"
+    },
+    {
+      "slug": "ginger-queen-of-sweets",
+      "name": "Ginger, Queen of Sweets",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-30",
+      "lastSeenAt": "2026-09-30",
+      "reason": "already surfaced by the momentum feed (archived 2026-09-25)"
     }
   ],
   "sources": [
@@ -756,10 +804,10 @@
     {
       "url": "https://cedh-decklist-database.com/",
       "name": "cEDH Decklist Database",
-      "status": "rejected",
+      "status": "filed",
       "firstSeenAt": "2026-09-23",
-      "lastSeenAt": "2026-09-23",
-      "reason": "Brewers Corner unchanged at 9 BREW / 56 COMPETITIVE / 72 OUTDATED since the 2026-09-22 verification; no new movement to read"
+      "lastSeenAt": "2026-09-30",
+      "reason": "Brewer's Corner unchanged at 9 BREW entries on 2026-09-30; its Oswald entry corroborates oswald-fiddlebender-secret-commander-2026-09-30"
     },
     {
       "url": "https://archidekt.com/decks/18424569",
@@ -1094,16 +1142,56 @@
       "name": "EDHREC articles feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-09-24",
-      "reason": "no items newer than 2026-09-23; yesterday's run had already read every entry"
+      "lastSeenAt": "2026-09-30",
+      "reason": "read pages 1-3 on 2026-09-30 back to 2026-09-21: Reality Fracture set reviews, precon guides, meta-commander columns; only Ginger and Lyra were deck-specific and both are already surfaced"
     },
     {
       "url": "https://articles.starcitygames.com/feed/",
       "name": "StarCityGames feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-09-24",
-      "reason": "no Commander deck tech in the current window; set previews and news only"
+      "lastSeenAt": "2026-09-30",
+      "reason": "2026-09-30: news, Secret Lair and a Spike Feeders episode; no single-commander deck tech"
+    },
+    {
+      "url": "https://archidekt.com/decks/12375268",
+      "name": "Monumental Oswald - Primer (Archidekt)",
+      "status": "filed",
+      "firstSeenAt": "2026-09-30",
+      "lastSeenAt": "2026-09-30",
+      "reason": "source for oswald-fiddlebender-secret-commander-2026-09-30; long-form, maintained, reports play experience"
+    },
+    {
+      "url": "https://archidekt.com/decks/23426010",
+      "name": "Oswald Secret Commander=Giggling Skitterspike (Archidekt)",
+      "status": "filed",
+      "firstSeenAt": "2026-09-30",
+      "lastSeenAt": "2026-09-30",
+      "reason": "corroborating source for oswald-fiddlebender-secret-commander-2026-09-30"
+    },
+    {
+      "url": "https://archidekt.com/decks/26769080",
+      "name": "SCRY UNTIL THEY DIE - Denzilore (Panzer MTG, Archidekt)",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-30",
+      "lastSeenAt": "2026-09-30",
+      "reason": "on-page text restates the commander; per-card reasoning is in the video"
+    },
+    {
+      "url": "https://edhrec.com/articles/ginger-queen-of-sweets-go-wide-artifact-aggro-deck/",
+      "name": "Ginger, Queen of Sweets Go Wide Artifact Aggro Deck (EDHREC)",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-30",
+      "lastSeenAt": "2026-09-30",
+      "reason": "commander already surfaced by the momentum feed"
+    },
+    {
+      "url": "https://www.mtggoldfish.com/feed.atom",
+      "name": "MTGGoldfish Atom",
+      "status": "rejected",
+      "firstSeenAt": "2026-09-30",
+      "lastSeenAt": "2026-09-30",
+      "reason": "2026-09-30: Reality Fracture roundups, precon upgrades and non-Commander formats"
     }
   ]
 }

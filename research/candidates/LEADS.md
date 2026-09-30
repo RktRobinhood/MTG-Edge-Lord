@@ -6,6 +6,15 @@ The route that is open is the one `docs/SOURCES.md` describes: a person reads th
 
 Newest first. Delete a lead once it has been read, filed or dismissed.
 
+## 2026-09-30
+
+- **Superior Spider-Man** (rank 1,570) — https://moxfield.com/decks/Mt8wIwcy0kie4A1o6pQHog
+  Linked from the cEDH Decklist Database Brewer's Corner ("Superior Spiderman", entry
+  dated 2026-08-19). The blurb claims a Dimir reanimator that runs Underworld Breach
+  lines without red, alongside Bolas's Citadel and Thassa's Oracle. That claim is the
+  interesting part and it can only be checked in the decklist. No Archidekt deck for
+  this commander has a primer, so the run had nothing permitted to read.
+
 ## 2026-09-23
 
 YouTube, not Reddit. The Data API needs a key this project does not have, and the
