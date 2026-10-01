@@ -2,6 +2,231 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "arni-humble-scribe",
+      "name": "Arni, Humble Scribe",
+      "firstSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-01",
+      "findingIds": [
+        "arni-humble-scribe-edhrec-momentum-2026-10-01"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/arni-humble-scribe",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4247,
+        "deckCount": 34,
+        "asOf": "2026-10-01"
+      }
+    },
+    {
+      "slug": "hapatra-the-desert-fang",
+      "name": "Hapatra, the Desert Fang",
+      "firstSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-01",
+      "findingIds": [
+        "hapatra-the-desert-fang-edhrec-momentum-2026-10-01"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/hapatra-the-desert-fang",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5289,
+        "deckCount": 11,
+        "asOf": "2026-10-01"
+      }
+    },
+    {
+      "slug": "jhoira-weatherlight-corsair",
+      "name": "Jhoira, Weatherlight Corsair",
+      "firstSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-01",
+      "findingIds": [
+        "jhoira-weatherlight-corsair-edhrec-momentum-2026-10-01"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/jhoira-weatherlight-corsair",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 3581,
+        "deckCount": 75,
+        "asOf": "2026-10-01"
+      }
+    },
+    {
+      "slug": "marwyn-the-clearcutter",
+      "name": "Marwyn, the Clearcutter",
+      "firstSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-01",
+      "findingIds": [
+        "marwyn-the-clearcutter-edhrec-momentum-2026-10-01"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/marwyn-the-clearcutter",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4955,
+        "deckCount": 16,
+        "asOf": "2026-10-01"
+      }
+    },
+    {
+      "slug": "traxos-scourge-eternal",
+      "name": "Traxos, Scourge Eternal",
+      "firstSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-01",
+      "findingIds": [
+        "traxos-scourge-eternal-edhrec-momentum-2026-10-01"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/traxos-scourge-eternal",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5142,
+        "deckCount": 13,
+        "asOf": "2026-10-01"
+      }
+    },
+    {
+      "slug": "winter-tormented-loner",
+      "name": "Winter, Tormented Loner",
+      "firstSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-01",
+      "findingIds": [
+        "winter-tormented-loner-edhrec-momentum-2026-10-01"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/winter-tormented-loner",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5071,
+        "deckCount": 14,
+        "asOf": "2026-10-01"
+      }
+    },
+    {
+      "slug": "wyll-blade-of-frontiers-popular-entertainer",
+      "name": "Wyll, Blade of Frontiers // Popular Entertainer",
+      "firstSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-01",
+      "findingIds": [
+        "wyll-blade-of-frontiers-popular-entertainer-edhrec-momentum-2026-10-01"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/wyll-blade-of-frontiers-popular-entertainer",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5328,
+        "deckCount": 10,
+        "asOf": "2026-10-01"
+      }
+    },
+    {
+      "slug": "yoshimaru-beloved-companion",
+      "name": "Yoshimaru, Beloved Companion",
+      "firstSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-01",
+      "findingIds": [
+        "yoshimaru-beloved-companion-edhrec-momentum-2026-10-01"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/yoshimaru-beloved-companion",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4683,
+        "deckCount": 21,
+        "asOf": "2026-10-01"
+      }
+    },
+    {
+      "slug": "yuriko-hope-from-the-shadows",
+      "name": "Yuriko, Hope from the Shadows",
+      "firstSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-01",
+      "findingIds": [
+        "yuriko-hope-from-the-shadows-edhrec-momentum-2026-10-01"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/yuriko-hope-from-the-shadows",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4643,
+        "deckCount": 22,
+        "asOf": "2026-10-01"
+      }
+    },
+    {
       "slug": "edgar-ancient-bloodlord",
       "name": "Edgar, Ancient Bloodlord",
       "firstSurfacedAt": "2026-09-30",
@@ -80,7 +305,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -621,7 +846,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -674,7 +899,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -699,7 +924,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -753,16 +978,17 @@
       "slug": "dack-fayden-helping-hand",
       "name": "Dack Fayden, Helping Hand",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "dack-fayden-helping-hand-edhrec-momentum-2026-09-23",
         "dack-fayden-helping-hand-edhrec-momentum-2026-09-25",
         "dack-fayden-helping-hand-edhrec-momentum-2026-09-26",
         "dack-fayden-helping-hand-edhrec-momentum-2026-09-27",
         "dack-fayden-helping-hand-edhrec-momentum-2026-09-28",
-        "dack-fayden-helping-hand-edhrec-momentum-2026-09-30"
+        "dack-fayden-helping-hand-edhrec-momentum-2026-09-30",
+        "dack-fayden-helping-hand-edhrec-momentum-2026-10-01"
       ],
-      "timesSurfaced": 6,
+      "timesSurfaced": 7,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -839,7 +1065,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -864,7 +1090,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -889,7 +1115,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -941,7 +1167,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -974,7 +1200,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -1024,7 +1250,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -1079,7 +1305,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -1104,7 +1330,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -1155,7 +1381,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -1180,7 +1406,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -1215,7 +1441,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-01",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
