@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-02",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -734,6 +734,54 @@
       "firstSeenAt": "2026-09-30",
       "lastSeenAt": "2026-09-30",
       "reason": "already surfaced by the momentum feed (archived 2026-09-25)"
+    },
+    {
+      "slug": "thalia-the-survivor",
+      "name": "Thalia, the Survivor",
+      "status": "rejected",
+      "reason": "rank 5,856 with 6 decks on release day; the EDHREC deck tech is the expected white-weenie asymmetric stax build with no surprising interaction",
+      "firstSeenAt": "2026-10-02",
+      "lastSeenAt": "2026-10-02"
+    },
+    {
+      "slug": "lonis-genetics-expert",
+      "name": "Lonis, Genetics Expert",
+      "status": "rejected",
+      "reason": "in band at 1,529 with a Panzer MTG video (Moxfield, not opened); the one live Archidekt primer is a bullet summary of the printed clue-theft ability with no line or card reasoning",
+      "firstSeenAt": "2026-10-02",
+      "lastSeenAt": "2026-10-02"
+    },
+    {
+      "slug": "kefka-dancing-mad",
+      "name": "Kefka, Dancing Mad",
+      "status": "rejected",
+      "reason": "in band at 1,329 but no Archidekt primer for it; the one hit was a Kefka, Court Mage list",
+      "firstSeenAt": "2026-10-02",
+      "lastSeenAt": "2026-10-02"
+    },
+    {
+      "slug": "scion-of-the-ur-dragon",
+      "name": "Scion of the Ur-Dragon",
+      "status": "rejected",
+      "reason": "rank 510, edge 1.3: Brewer's Corner entry, but five-colour dragon toolbox is long established",
+      "firstSeenAt": "2026-10-02",
+      "lastSeenAt": "2026-10-02"
+    },
+    {
+      "slug": "nick-fury-agent-of-shield",
+      "name": "Nick Fury, Agent of S.H.I.E.L.D.",
+      "status": "rejected",
+      "reason": "rank 539, edge 4.6: Brewer's Corner five-colour storm partner pairing, but no permitted surface to read the line",
+      "firstSeenAt": "2026-10-02",
+      "lastSeenAt": "2026-10-02"
+    },
+    {
+      "slug": "rograkh-son-of-rohgahh",
+      "name": "Rograkh, Son of Rohgahh",
+      "status": "rejected",
+      "reason": "Rog/Reyhan Oops All Spells is a known cEDH partner shell, not a discovery",
+      "firstSeenAt": "2026-10-02",
+      "lastSeenAt": "2026-10-02"
     }
   ],
   "sources": [
@@ -806,8 +854,8 @@
       "name": "cEDH Decklist Database",
       "status": "filed",
       "firstSeenAt": "2026-09-23",
-      "lastSeenAt": "2026-09-30",
-      "reason": "Brewer's Corner unchanged at 9 BREW entries on 2026-09-30; its Oswald entry corroborates oswald-fiddlebender-secret-commander-2026-09-30"
+      "lastSeenAt": "2026-10-02",
+      "reason": "Brewer's Corner unchanged at 9 BREW entries on 2026-10-02; its Oswald entry corroborates oswald-fiddlebender-secret-commander-2026-09-30"
     },
     {
       "url": "https://archidekt.com/decks/18424569",
@@ -1142,8 +1190,8 @@
       "name": "EDHREC articles feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-09-30",
-      "reason": "read pages 1-3 on 2026-09-30 back to 2026-09-21: Reality Fracture set reviews, precon guides, meta-commander columns; only Ginger and Lyra were deck-specific and both are already surfaced"
+      "lastSeenAt": "2026-10-02",
+      "reason": "2026-10-02: items since 2026-09-30 are a Lift changelog, news, a precon guide, typal and Phyrexian roundups, a salt column, and one deck tech (Thalia, the Survivor, out of band)"
     },
     {
       "url": "https://articles.starcitygames.com/feed/",
@@ -1190,8 +1238,24 @@
       "name": "MTGGoldfish Atom",
       "status": "rejected",
       "firstSeenAt": "2026-09-30",
-      "lastSeenAt": "2026-09-30",
-      "reason": "2026-09-30: Reality Fracture roundups, precon upgrades and non-Commander formats"
+      "lastSeenAt": "2026-10-02",
+      "reason": "2026-10-02: Reality Fracture budget roundup, Standard/Vintage/Legacy and an opening video"
+    },
+    {
+      "url": "https://edhrec.com/articles/thalia-the-survivor-aggressive-stax-deck/",
+      "name": "Thalia, the Survivor | Aggressive Stax Deck (EDHREC)",
+      "status": "rejected",
+      "reason": "on-theme stax build on a rank-5,856 commander",
+      "firstSeenAt": "2026-10-02",
+      "lastSeenAt": "2026-10-02"
+    },
+    {
+      "url": "https://archidekt.com/decks/15227279",
+      "name": "Lonis, Cryptozoologist (Archidekt)",
+      "status": "rejected",
+      "reason": "short bullet primer restating the commander's ability; no line",
+      "firstSeenAt": "2026-10-02",
+      "lastSeenAt": "2026-10-02"
     }
   ]
 }
