@@ -2,6 +2,106 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "danitha-spear-of-agony",
+      "name": "Danitha, Spear of Agony",
+      "firstSurfacedAt": "2026-10-02",
+      "lastSurfacedAt": "2026-10-02",
+      "findingIds": [
+        "danitha-spear-of-agony-edhrec-momentum-2026-10-02"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/danitha-spear-of-agony",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4685,
+        "deckCount": 21,
+        "asOf": "2026-10-02"
+      }
+    },
+    {
+      "slug": "gallia-the-merrymaker",
+      "name": "Gallia, the Merrymaker",
+      "firstSurfacedAt": "2026-10-02",
+      "lastSurfacedAt": "2026-10-02",
+      "findingIds": [
+        "gallia-the-merrymaker-edhrec-momentum-2026-10-02"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/gallia-the-merrymaker",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4780,
+        "deckCount": 19,
+        "asOf": "2026-10-02"
+      }
+    },
+    {
+      "slug": "lulu-loyal-hollyphant-noble-heritage",
+      "name": "Lulu, Loyal Hollyphant // Noble Heritage",
+      "firstSurfacedAt": "2026-10-02",
+      "lastSurfacedAt": "2026-10-02",
+      "findingIds": [
+        "lulu-loyal-hollyphant-noble-heritage-edhrec-momentum-2026-10-02"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/lulu-loyal-hollyphant-noble-heritage",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4575,
+        "deckCount": 23,
+        "asOf": "2026-10-02"
+      }
+    },
+    {
+      "slug": "marwyn-the-preserver",
+      "name": "Marwyn, the Preserver",
+      "firstSurfacedAt": "2026-10-02",
+      "lastSurfacedAt": "2026-10-02",
+      "findingIds": [
+        "marwyn-the-preserver-edhrec-momentum-2026-10-02"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/marwyn-the-preserver",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4250,
+        "deckCount": 34,
+        "asOf": "2026-10-02"
+      }
+    },
+    {
       "slug": "arni-humble-scribe",
       "name": "Arni, Humble Scribe",
       "firstSurfacedAt": "2026-10-01",
@@ -230,11 +330,12 @@
       "slug": "edgar-ancient-bloodlord",
       "name": "Edgar, Ancient Bloodlord",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
-        "edgar-ancient-bloodlord-edhrec-momentum-2026-09-30"
+        "edgar-ancient-bloodlord-edhrec-momentum-2026-09-30",
+        "edgar-ancient-bloodlord-edhrec-momentum-2026-10-02"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -305,7 +406,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -558,11 +659,12 @@
       "slug": "jiang-yanggu-never-alone",
       "name": "Jiang Yanggu, Never Alone",
       "firstSurfacedAt": "2026-09-25",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
-        "jiang-yanggu-never-alone-edhrec-momentum-2026-09-25"
+        "jiang-yanggu-never-alone-edhrec-momentum-2026-09-25",
+        "jiang-yanggu-never-alone-edhrec-momentum-2026-10-02"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -583,11 +685,12 @@
       "slug": "karn-argent-defender",
       "name": "Karn, Argent Defender",
       "firstSurfacedAt": "2026-09-25",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
-        "karn-argent-defender-edhrec-momentum-2026-09-25"
+        "karn-argent-defender-edhrec-momentum-2026-09-25",
+        "karn-argent-defender-edhrec-momentum-2026-10-02"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -608,11 +711,12 @@
       "slug": "koth-of-the-homestead",
       "name": "Koth of the Homestead",
       "firstSurfacedAt": "2026-09-25",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
-        "koth-of-the-homestead-edhrec-momentum-2026-09-25"
+        "koth-of-the-homestead-edhrec-momentum-2026-09-25",
+        "koth-of-the-homestead-edhrec-momentum-2026-10-02"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -633,11 +737,12 @@
       "slug": "loot-the-nexus",
       "name": "Loot, the Nexus",
       "firstSurfacedAt": "2026-09-25",
-      "lastSurfacedAt": "2026-09-25",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
-        "loot-the-nexus-edhrec-momentum-2026-09-25"
+        "loot-the-nexus-edhrec-momentum-2026-09-25",
+        "loot-the-nexus-edhrec-momentum-2026-10-02"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -658,14 +763,15 @@
       "slug": "saheeli-jewel-of-avishkar",
       "name": "Saheeli, Jewel of Avishkar",
       "firstSurfacedAt": "2026-09-25",
-      "lastSurfacedAt": "2026-09-30",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "saheeli-jewel-of-avishkar-edhrec-momentum-2026-09-25",
         "saheeli-jewel-of-avishkar-edhrec-momentum-2026-09-26",
         "saheeli-jewel-of-avishkar-edhrec-momentum-2026-09-29",
-        "saheeli-jewel-of-avishkar-edhrec-momentum-2026-09-30"
+        "saheeli-jewel-of-avishkar-edhrec-momentum-2026-09-30",
+        "saheeli-jewel-of-avishkar-edhrec-momentum-2026-10-02"
       ],
-      "timesSurfaced": 4,
+      "timesSurfaced": 5,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -846,7 +952,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -899,7 +1005,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -924,7 +1030,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -1065,7 +1171,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -1090,7 +1196,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -1115,7 +1221,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -1167,7 +1273,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -1200,7 +1306,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -1250,7 +1356,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -1305,7 +1411,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -1330,7 +1436,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -1381,7 +1487,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -1406,7 +1512,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -1441,7 +1547,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-02",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
