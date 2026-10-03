@@ -782,6 +782,14 @@
       "reason": "Rog/Reyhan Oops All Spells is a known cEDH partner shell, not a discovery",
       "firstSeenAt": "2026-10-02",
       "lastSeenAt": "2026-10-02"
+    },
+    {
+      "slug": "leori-sparktouched-hunter",
+      "name": "Leori, Sparktouched Hunter",
+      "status": "rejected",
+      "reason": "in band at 1,289 with real range (pick a walker type per hit), but the only reads are a Draftsim listicle mention and an Archidekt list with no primer; revisit if someone writes one",
+      "firstSeenAt": "2026-10-03",
+      "lastSeenAt": "2026-10-03"
     }
   ],
   "sources": [
@@ -1190,8 +1198,8 @@
       "name": "EDHREC articles feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-02",
-      "reason": "2026-10-02: items since 2026-09-30 are a Lift changelog, news, a precon guide, typal and Phyrexian roundups, a salt column, and one deck tech (Thalia, the Survivor, out of band)"
+      "lastSeenAt": "2026-10-03",
+      "reason": "2026-10-03: items since 2026-10-02 are a salt-poll notice, two Foundations precon guides, and single-commander pieces on Pia (archived 2026-09-27), Kibo (rank 133) and Aerid (archived, rejected 2026-09-24)"
     },
     {
       "url": "https://articles.starcitygames.com/feed/",
@@ -1256,6 +1264,22 @@
       "reason": "short bullet primer restating the commander's ability; no line",
       "firstSeenAt": "2026-10-02",
       "lastSeenAt": "2026-10-02"
+    },
+    {
+      "url": "https://www.mtggoldfish.com/feed",
+      "name": "MTGGoldfish feed",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-03",
+      "lastSeenAt": "2026-10-03",
+      "reason": "2026-10-03: Standard, Pauper, Vintage and a Commander Clash partners episode; no single-commander deck tech"
+    },
+    {
+      "url": "https://archidekt.com/decks/4953547/sparktouched_hunter",
+      "name": "Sparktouched Hunter (Archidekt)",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-03",
+      "lastSeenAt": "2026-10-03",
+      "reason": "Leori list with no description or primer; last updated ~21 months ago"
     }
   ]
 }
