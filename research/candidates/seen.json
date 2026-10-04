@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-04T07:46:49.205Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -790,6 +790,30 @@
       "reason": "in band at 1,289 with real range (pick a walker type per hit), but the only reads are a Draftsim listicle mention and an Archidekt list with no primer; revisit if someone writes one",
       "firstSeenAt": "2026-10-03",
       "lastSeenAt": "2026-10-03"
+    },
+    {
+      "slug": "gretchen-titchwillow",
+      "name": "Gretchen Titchwillow",
+      "status": "rejected",
+      "reason": "in band at 1,166, but a 2021 Simic lands commander with an established ramp/landfall identity; the top Archidekt lists carry no primer beyond a bare combo list, and nothing new is being argued",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-04"
+    },
+    {
+      "slug": "rona-herald-of-invasion",
+      "name": "Rona, Herald of Invasion",
+      "status": "rejected",
+      "reason": "in band at 902 with a cEDH Brewer's Corner entry and a reasoned Doomsday primer, but the Mox/Retraction Helix untap lines are on Commander Spellbook and well known since 2023; established combo shell, like Crystal and Scion before it",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-04"
+    },
+    {
+      "slug": "ghalta-the-immovable",
+      "name": "Ghalta the Immovable",
+      "status": "rejected",
+      "reason": "new Reality Fracture commander at 2,355; the only read is one SCG brew-column slot building the expected defenders/toughness deck, with no games reported",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-04"
     }
   ],
   "sources": [
@@ -1086,8 +1110,8 @@
       "name": "MTGGoldfish Atom",
       "status": "rejected",
       "firstSeenAt": "2026-09-23",
-      "lastSeenAt": "2026-09-24",
-      "reason": "re-read on 2026-09-24: Standard, Legacy and Pauper plus Reality Fracture roundups, no commander deck tech"
+      "lastSeenAt": "2026-10-04",
+      "reason": "2026-10-04: Standard, Pioneer, Pauper, Legacy, Vintage, a $50 Reality Fracture precon roundup and a Commander Clash partners episode; no single-commander deck tech"
     },
     {
       "firstSeenAt": "2026-09-23",
@@ -1198,8 +1222,8 @@
       "name": "EDHREC articles feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-03",
-      "reason": "2026-10-03: items since 2026-10-02 are a salt-poll notice, two Foundations precon guides, and single-commander pieces on Pia (archived 2026-09-27), Kibo (rank 133) and Aerid (archived, rejected 2026-09-24)"
+      "lastSeenAt": "2026-10-04",
+      "reason": "2026-10-04: no items since 2026-10-02; feed unchanged from yesterday's read"
     },
     {
       "url": "https://articles.starcitygames.com/feed/",
@@ -1280,6 +1304,30 @@
       "firstSeenAt": "2026-10-03",
       "lastSeenAt": "2026-10-03",
       "reason": "Leori list with no description or primer; last updated ~21 months ago"
+    },
+    {
+      "url": "https://articles.starcitygames.com/magic-the-gathering/the-spike-feeders-commander-brews-from-the-echoverse/",
+      "name": "SCG Articles",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-04",
+      "reason": "four-commander brew column (Aerid, Ghalta the Immovable, Uldaros, Vraska), one list each, no games reported; Ghalta is the only new name and the build is on-theme"
+    },
+    {
+      "url": "https://archidekt.com/decks/7030355/",
+      "name": "Rona, Herald of DOOMSDAY (Archidekt)",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-04",
+      "reason": "reasoned cEDH Doomsday primer, but last updated January 2026 and the lines are established"
+    },
+    {
+      "url": "https://archidekt.com/decks/4768304/",
+      "name": "Rona Self-Ping (Archidekt)",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-04",
+      "lastSeenAt": "2026-10-04",
+      "reason": "self-ping Rona is a distinct idea, but this list and a second one (5458215) have no description or card notes"
     }
   ]
 }
