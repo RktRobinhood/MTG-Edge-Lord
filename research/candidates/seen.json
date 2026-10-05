@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T07:46:49.205Z",
+  "updatedAt": "2026-10-05T07:45:26.793Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -814,6 +814,22 @@
       "reason": "new Reality Fracture commander at 2,355; the only read is one SCG brew-column slot building the expected defenders/toughness deck, with no games reported",
       "firstSeenAt": "2026-10-04",
       "lastSeenAt": "2026-10-04"
+    },
+    {
+      "slug": "brigid-hero-of-kinsbaile",
+      "name": "Brigid, Hero of Kinsbaile",
+      "status": "rejected",
+      "reason": "in band at 2,347 and never surfaced, but a Kithkin typal/pinger commander with one plan; the most-viewed Archidekt lists carry empty descriptions and the one primer dates from 2021",
+      "firstSeenAt": "2026-10-05",
+      "lastSeenAt": "2026-10-05"
+    },
+    {
+      "slug": "brigid-clachans-heart",
+      "name": "Brigid, Clachan's Heart",
+      "status": "rejected",
+      "reason": "rank 402, meta baseline; the cEDH Brewer's Corner tap/untap entry (listed under its back face, Doun's Mind) does not change that",
+      "firstSeenAt": "2026-10-05",
+      "lastSeenAt": "2026-10-05"
     }
   ],
   "sources": [
@@ -1222,8 +1238,8 @@
       "name": "EDHREC articles feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-04",
-      "reason": "2026-10-04: no items since 2026-10-02; feed unchanged from yesterday's read"
+      "lastSeenAt": "2026-10-05",
+      "reason": "2026-10-05: no items since 2026-10-02; Kibo hot/cold (rank 132) and Pia top-10 list (already archived) are the only commander pieces"
     },
     {
       "url": "https://articles.starcitygames.com/feed/",
@@ -1328,6 +1344,14 @@
       "firstSeenAt": "2026-10-04",
       "lastSeenAt": "2026-10-04",
       "reason": "self-ping Rona is a distinct idea, but this list and a second one (5458215) have no description or card notes"
+    },
+    {
+      "url": "https://archidekt.com/decks/27021297",
+      "name": "Attacking BURNS The Entire Table | Ingris Stingerquill (Panzer MTG, Archidekt)",
+      "status": "rejected",
+      "reason": "commander already surfaced by the momentum feed (archived 2026-09-24); on-page text is a video pitch, per-card reasoning is in the video",
+      "firstSeenAt": "2026-10-05",
+      "lastSeenAt": "2026-10-05"
     }
   ]
 }
