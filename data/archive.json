@@ -2,6 +2,131 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "hapatra-the-desert-frost",
+      "name": "Hapatra, the Desert Frost",
+      "firstSurfacedAt": "2026-10-05",
+      "lastSurfacedAt": "2026-10-05",
+      "findingIds": [
+        "hapatra-the-desert-frost-edhrec-momentum-2026-10-05"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/hapatra-the-desert-frost",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4791,
+        "deckCount": 19,
+        "asOf": "2026-10-05"
+      }
+    },
+    {
+      "slug": "keleth-sunmane-familiar-radiant-serra-archangel",
+      "name": "Keleth, Sunmane Familiar // Radiant, Serra Archangel",
+      "firstSurfacedAt": "2026-10-05",
+      "lastSurfacedAt": "2026-10-05",
+      "findingIds": [
+        "keleth-sunmane-familiar-radiant-serra-archangel-edhrec-momentum-2026-10-05"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/keleth-sunmane-familiar-radiant-serra-archangel",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5241,
+        "deckCount": 11,
+        "asOf": "2026-10-05"
+      }
+    },
+    {
+      "slug": "ludevic-necro-alchemist-prava-of-the-steel-legion",
+      "name": "Ludevic, Necro-Alchemist // Prava of the Steel Legion",
+      "firstSurfacedAt": "2026-10-05",
+      "lastSurfacedAt": "2026-10-05",
+      "findingIds": [
+        "ludevic-necro-alchemist-prava-of-the-steel-legion-edhrec-momentum-2026-10-05"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/ludevic-necro-alchemist-prava-of-the-steel-legion",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4845,
+        "deckCount": 17,
+        "asOf": "2026-10-05"
+      }
+    },
+    {
+      "slug": "mabel-bitter-recluse",
+      "name": "Mabel, Bitter Recluse",
+      "firstSurfacedAt": "2026-10-05",
+      "lastSurfacedAt": "2026-10-05",
+      "findingIds": [
+        "mabel-bitter-recluse-edhrec-momentum-2026-10-05"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/mabel-bitter-recluse",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4331,
+        "deckCount": 31,
+        "asOf": "2026-10-05"
+      }
+    },
+    {
+      "slug": "ruric-thar-biomagus",
+      "name": "Ruric Thar, Biomagus",
+      "firstSurfacedAt": "2026-10-05",
+      "lastSurfacedAt": "2026-10-05",
+      "findingIds": [
+        "ruric-thar-biomagus-edhrec-momentum-2026-10-05"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/ruric-thar-biomagus",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 3482,
+        "deckCount": 87,
+        "asOf": "2026-10-05"
+      }
+    },
+    {
       "slug": "black-panther-claws-of-bast",
       "name": "Black Panther, Claws of Bast",
       "firstSurfacedAt": "2026-10-04",
@@ -30,11 +155,12 @@
       "slug": "ruric-thar-magecrusher",
       "name": "Ruric Thar, Magecrusher",
       "firstSurfacedAt": "2026-10-04",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
-        "ruric-thar-magecrusher-edhrec-momentum-2026-10-04"
+        "ruric-thar-magecrusher-edhrec-momentum-2026-10-04",
+        "ruric-thar-magecrusher-edhrec-momentum-2026-10-05"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -231,12 +357,13 @@
       "slug": "tomik-izzet-sparkmage",
       "name": "Tomik, Izzet Sparkmage",
       "firstSurfacedAt": "2026-10-03",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "tomik-izzet-sparkmage-edhrec-momentum-2026-10-03",
-        "tomik-izzet-sparkmage-edhrec-momentum-2026-10-04"
+        "tomik-izzet-sparkmage-edhrec-momentum-2026-10-04",
+        "tomik-izzet-sparkmage-edhrec-momentum-2026-10-05"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -486,11 +613,12 @@
       "slug": "winter-tormented-loner",
       "name": "Winter, Tormented Loner",
       "firstSurfacedAt": "2026-10-01",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
-        "winter-tormented-loner-edhrec-momentum-2026-10-01"
+        "winter-tormented-loner-edhrec-momentum-2026-10-01",
+        "winter-tormented-loner-edhrec-momentum-2026-10-05"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -562,12 +690,13 @@
       "slug": "yuriko-hope-from-the-shadows",
       "name": "Yuriko, Hope from the Shadows",
       "firstSurfacedAt": "2026-10-01",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "yuriko-hope-from-the-shadows-edhrec-momentum-2026-10-01",
-        "yuriko-hope-from-the-shadows-edhrec-momentum-2026-10-04"
+        "yuriko-hope-from-the-shadows-edhrec-momentum-2026-10-04",
+        "yuriko-hope-from-the-shadows-edhrec-momentum-2026-10-05"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -588,12 +717,13 @@
       "slug": "edgar-ancient-bloodlord",
       "name": "Edgar, Ancient Bloodlord",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-10-02",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "edgar-ancient-bloodlord-edhrec-momentum-2026-09-30",
-        "edgar-ancient-bloodlord-edhrec-momentum-2026-10-02"
+        "edgar-ancient-bloodlord-edhrec-momentum-2026-10-02",
+        "edgar-ancient-bloodlord-edhrec-momentum-2026-10-05"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -664,7 +794,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -1211,7 +1341,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -1264,7 +1394,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -1289,7 +1419,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -1431,7 +1561,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -1456,7 +1586,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -1481,7 +1611,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -1533,7 +1663,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -1566,7 +1696,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -1616,7 +1746,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -1671,7 +1801,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -1696,7 +1826,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -1747,7 +1877,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -1772,7 +1902,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -1807,7 +1937,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-05",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
