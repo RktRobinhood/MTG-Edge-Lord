@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T07:45:26.793Z",
+  "updatedAt": "2026-10-06T07:47:59.300Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -902,8 +902,8 @@
       "name": "cEDH Decklist Database",
       "status": "filed",
       "firstSeenAt": "2026-09-23",
-      "lastSeenAt": "2026-10-02",
-      "reason": "Brewer's Corner unchanged at 9 BREW entries on 2026-10-02; its Oswald entry corroborates oswald-fiddlebender-secret-commander-2026-09-30"
+      "lastSeenAt": "2026-10-06",
+      "reason": "2026-10-06: Brewer's Corner still 9 entries, newest dated 2026-08-19, every one already in this ledger; its Oswald entry corroborates oswald-fiddlebender-secret-commander-2026-09-30"
     },
     {
       "url": "https://archidekt.com/decks/18424569",
@@ -1238,16 +1238,16 @@
       "name": "EDHREC articles feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-05",
-      "reason": "2026-10-05: no items since 2026-10-02; Kibo hot/cold (rank 132) and Pia top-10 list (already archived) are the only commander pieces"
+      "lastSeenAt": "2026-10-06",
+      "reason": "2026-10-06: salt-score week (three salt pieces), Time Spiral top-10, Secret Lair and booster news, and a Foundations precon guide; no single-commander deck tech in band"
     },
     {
       "url": "https://articles.starcitygames.com/feed/",
       "name": "StarCityGames feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-09-30",
-      "reason": "2026-09-30: news, Secret Lair and a Spike Feeders episode; no single-commander deck tech"
+      "lastSeenAt": "2026-10-06",
+      "reason": "2026-10-06: news, Secret Lair, Riftbound and booster changes since the 2026-10-01 Spike Feeders column already rejected; no single-commander deck tech"
     },
     {
       "url": "https://archidekt.com/decks/12375268",
@@ -1286,8 +1286,8 @@
       "name": "MTGGoldfish Atom",
       "status": "rejected",
       "firstSeenAt": "2026-09-30",
-      "lastSeenAt": "2026-10-02",
-      "reason": "2026-10-02: Reality Fracture budget roundup, Standard/Vintage/Legacy and an opening video"
+      "lastSeenAt": "2026-10-06",
+      "reason": "2026-10-06: podcast, Standard history, 0 Reality Fracture precon update, Modern and Pioneer; no single-commander deck tech"
     },
     {
       "url": "https://edhrec.com/articles/thalia-the-survivor-aggressive-stax-deck/",
