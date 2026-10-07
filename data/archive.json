@@ -2,14 +2,165 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "alharu-solemn-ritualist-tevesh-szat-doom-of-fools",
+      "name": "Alharu, Solemn Ritualist // Tevesh Szat, Doom of Fools",
+      "firstSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-07",
+      "findingIds": [
+        "alharu-solemn-ritualist-tevesh-szat-doom-of-fools-edhrec-momentum-2026-10-07"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/alharu-solemn-ritualist-tevesh-szat-doom-of-fools",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4805,
+        "deckCount": 18,
+        "asOf": "2026-10-07"
+      }
+    },
+    {
+      "slug": "amber-gristle-omaul-shameless-charlatan",
+      "name": "Amber Gristle O'Maul // Shameless Charlatan",
+      "firstSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-07",
+      "findingIds": [
+        "amber-gristle-omaul-shameless-charlatan-edhrec-momentum-2026-10-07"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/amber-gristle-omaul-shameless-charlatan",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5339,
+        "deckCount": 10,
+        "asOf": "2026-10-07"
+      }
+    },
+    {
+      "slug": "graham-obrien",
+      "name": "Graham O'Brien",
+      "firstSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-07",
+      "findingIds": [
+        "graham-obrien-edhrec-momentum-2026-10-07"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/graham-obrien",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5366,
+        "deckCount": 10,
+        "asOf": "2026-10-07"
+      }
+    },
+    {
+      "slug": "jennika-bad-apple-big-sister",
+      "name": "Jennika, Bad Apple Big Sister",
+      "firstSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-07",
+      "findingIds": [
+        "jennika-bad-apple-big-sister-edhrec-momentum-2026-10-07"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/jennika-bad-apple-big-sister",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5379,
+        "deckCount": 10,
+        "asOf": "2026-10-07"
+      }
+    },
+    {
+      "slug": "tomik-orzhov-lawmage",
+      "name": "Tomik, Orzhov Lawmage",
+      "firstSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-07",
+      "findingIds": [
+        "tomik-orzhov-lawmage-edhrec-momentum-2026-10-07"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/tomik-orzhov-lawmage",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4967,
+        "deckCount": 16,
+        "asOf": "2026-10-07"
+      }
+    },
+    {
+      "slug": "zellix-sanity-flayer-shameless-charlatan",
+      "name": "Zellix, Sanity Flayer // Shameless Charlatan",
+      "firstSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-07",
+      "findingIds": [
+        "zellix-sanity-flayer-shameless-charlatan-edhrec-momentum-2026-10-07"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/zellix-sanity-flayer-shameless-charlatan",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5261,
+        "deckCount": 11,
+        "asOf": "2026-10-07"
+      }
+    },
+    {
       "slug": "danitha-sword-of-hope",
       "name": "Danitha, Sword of Hope",
       "firstSurfacedAt": "2026-10-06",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
-        "danitha-sword-of-hope-edhrec-momentum-2026-10-06"
+        "danitha-sword-of-hope-edhrec-momentum-2026-10-06",
+        "danitha-sword-of-hope-edhrec-momentum-2026-10-07"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -406,12 +557,13 @@
       "slug": "massacre-girl-most-wanted",
       "name": "Massacre Girl, Most Wanted",
       "firstSurfacedAt": "2026-10-03",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "massacre-girl-most-wanted-edhrec-momentum-2026-10-03",
-        "massacre-girl-most-wanted-edhrec-momentum-2026-10-04"
+        "massacre-girl-most-wanted-edhrec-momentum-2026-10-04",
+        "massacre-girl-most-wanted-edhrec-momentum-2026-10-07"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -559,11 +711,12 @@
       "slug": "gallia-the-merrymaker",
       "name": "Gallia, the Merrymaker",
       "firstSurfacedAt": "2026-10-02",
-      "lastSurfacedAt": "2026-10-02",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
-        "gallia-the-merrymaker-edhrec-momentum-2026-10-02"
+        "gallia-the-merrymaker-edhrec-momentum-2026-10-02",
+        "gallia-the-merrymaker-edhrec-momentum-2026-10-07"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -843,13 +996,14 @@
       "slug": "yuriko-hope-from-the-shadows",
       "name": "Yuriko, Hope from the Shadows",
       "firstSurfacedAt": "2026-10-01",
-      "lastSurfacedAt": "2026-10-05",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "yuriko-hope-from-the-shadows-edhrec-momentum-2026-10-01",
         "yuriko-hope-from-the-shadows-edhrec-momentum-2026-10-04",
-        "yuriko-hope-from-the-shadows-edhrec-momentum-2026-10-05"
+        "yuriko-hope-from-the-shadows-edhrec-momentum-2026-10-05",
+        "yuriko-hope-from-the-shadows-edhrec-momentum-2026-10-07"
       ],
-      "timesSurfaced": 3,
+      "timesSurfaced": 4,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -948,7 +1102,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -1495,7 +1649,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -1548,7 +1702,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -1573,7 +1727,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -1715,7 +1869,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -1740,7 +1894,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -1765,7 +1919,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -1817,7 +1971,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -1850,7 +2004,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -1900,7 +2054,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -1955,7 +2109,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -1980,7 +2134,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -2031,7 +2185,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -2056,7 +2210,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -2091,7 +2245,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-07",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
