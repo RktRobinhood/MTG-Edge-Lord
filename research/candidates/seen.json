@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T07:47:59.300Z",
+  "updatedAt": "2026-10-07T07:47:36.167Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -830,6 +830,22 @@
       "reason": "rank 402, meta baseline; the cEDH Brewer's Corner tap/untap entry (listed under its back face, Doun's Mind) does not change that",
       "firstSeenAt": "2026-10-05",
       "lastSeenAt": "2026-10-05"
+    },
+    {
+      "slug": "liliana-the-repentant",
+      "name": "Liliana the Repentant",
+      "status": "rejected",
+      "reason": "new Reality Fracture commander in band at 2,261 with mentions ahead of its build count, but the only Archidekt write-up is stock mono-black self-mill reanimator; mill-on-ETB plus exhaust reanimation reads as one-track",
+      "firstSeenAt": "2026-10-07",
+      "lastSeenAt": "2026-10-07"
+    },
+    {
+      "slug": "tetsuko-umezawa-fugitive",
+      "name": "Tetsuko Umezawa, Fugitive",
+      "status": "rejected",
+      "reason": "in band at 1,153 via a Reality Fracture reprint, but a 2018 unblockable-tempo commander with an established shell; nothing new read",
+      "firstSeenAt": "2026-10-07",
+      "lastSeenAt": "2026-10-07"
     }
   ],
   "sources": [
@@ -1126,8 +1142,8 @@
       "name": "MTGGoldfish Atom",
       "status": "rejected",
       "firstSeenAt": "2026-09-23",
-      "lastSeenAt": "2026-10-04",
-      "reason": "2026-10-04: Standard, Pioneer, Pauper, Legacy, Vintage, a $50 Reality Fracture precon roundup and a Commander Clash partners episode; no single-commander deck tech"
+      "lastSeenAt": "2026-10-07",
+      "reason": "2026-10-07: Commander Clash podcast on deckbuilding traps, Modern Tarmogoyf, god-packs podcast; no commander deck tech"
     },
     {
       "firstSeenAt": "2026-09-23",
@@ -1238,8 +1254,8 @@
       "name": "EDHREC articles feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-06",
-      "reason": "2026-10-06: salt-score week (three salt pieces), Time Spiral top-10, Secret Lair and booster news, and a Foundations precon guide; no single-commander deck tech in band"
+      "lastSeenAt": "2026-10-07",
+      "reason": "2026-10-07: budget Niv-Mizzet Ghost Counsel (already filed), cEDH Abolisher comparison, salt pieces, Secret Lair and booster news; no in-band deck tech"
     },
     {
       "url": "https://articles.starcitygames.com/feed/",
@@ -1352,6 +1368,14 @@
       "reason": "commander already surfaced by the momentum feed (archived 2026-09-24); on-page text is a video pitch, per-card reasoning is in the video",
       "firstSeenAt": "2026-10-05",
       "lastSeenAt": "2026-10-05"
+    },
+    {
+      "url": "https://archidekt.com/decks/26232203/",
+      "name": "Liliana the Repentant: Ghoul Dinner (Archidekt)",
+      "status": "rejected",
+      "reason": "generic reanimator primer (Sheoldred, Kokusho targets); no idea specific to the commander",
+      "firstSeenAt": "2026-10-07",
+      "lastSeenAt": "2026-10-07"
     }
   ]
 }
