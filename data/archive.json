@@ -2,6 +2,181 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "black-tom-cassidy",
+      "name": "Black Tom Cassidy",
+      "firstSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-08",
+      "findingIds": [
+        "black-tom-cassidy-edhrec-momentum-2026-10-08"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/black-tom-cassidy",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5028,
+        "deckCount": 15,
+        "asOf": "2026-10-08"
+      }
+    },
+    {
+      "slug": "breeches-brazen-plunderer-ikra-shidiqi-the-usurper",
+      "name": "Breeches, Brazen Plunderer // Ikra Shidiqi, the Usurper",
+      "firstSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-08",
+      "findingIds": [
+        "breeches-brazen-plunderer-ikra-shidiqi-the-usurper-edhrec-momentum-2026-10-08"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/breeches-brazen-plunderer-ikra-shidiqi-the-usurper",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5158,
+        "deckCount": 12,
+        "asOf": "2026-10-08"
+      }
+    },
+    {
+      "slug": "bruse-tarl-boorish-herder-eligeth-crossroads-augur",
+      "name": "Bruse Tarl, Boorish Herder // Eligeth, Crossroads Augur",
+      "firstSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-08",
+      "findingIds": [
+        "bruse-tarl-boorish-herder-eligeth-crossroads-augur-edhrec-momentum-2026-10-08"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/bruse-tarl-boorish-herder-eligeth-crossroads-augur",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5304,
+        "deckCount": 10,
+        "asOf": "2026-10-08"
+      }
+    },
+    {
+      "slug": "gallia-tragic-host",
+      "name": "Gallia, Tragic Host",
+      "firstSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-08",
+      "findingIds": [
+        "gallia-tragic-host-edhrec-momentum-2026-10-08"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/gallia-tragic-host",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5386,
+        "deckCount": 10,
+        "asOf": "2026-10-08"
+      }
+    },
+    {
+      "slug": "gert-and-old-lace-runaways",
+      "name": "Gert and Old Lace, Runaways",
+      "firstSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-08",
+      "findingIds": [
+        "gert-and-old-lace-runaways-edhrec-momentum-2026-10-08"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/gert-and-old-lace-runaways",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5382,
+        "deckCount": 10,
+        "asOf": "2026-10-08"
+      }
+    },
+    {
+      "slug": "gollum-silent-slinker",
+      "name": "Gollum, Silent Slinker",
+      "firstSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-08",
+      "findingIds": [
+        "gollum-silent-slinker-edhrec-momentum-2026-10-08"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/gollum-silent-slinker",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5478,
+        "deckCount": 9,
+        "asOf": "2026-10-08"
+      }
+    },
+    {
+      "slug": "the-war-doctor-nyssa-of-traken",
+      "name": "The War Doctor // Nyssa of Traken",
+      "firstSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-08",
+      "findingIds": [
+        "the-war-doctor-nyssa-of-traken-edhrec-momentum-2026-10-08"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/the-war-doctor-nyssa-of-traken",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5455,
+        "deckCount": 9,
+        "asOf": "2026-10-08"
+      }
+    },
+    {
       "slug": "alharu-solemn-ritualist-tevesh-szat-doom-of-fools",
       "name": "Alharu, Solemn Ritualist // Tevesh Szat, Doom of Fools",
       "firstSurfacedAt": "2026-10-07",
@@ -105,11 +280,12 @@
       "slug": "tomik-orzhov-lawmage",
       "name": "Tomik, Orzhov Lawmage",
       "firstSurfacedAt": "2026-10-07",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
-        "tomik-orzhov-lawmage-edhrec-momentum-2026-10-07"
+        "tomik-orzhov-lawmage-edhrec-momentum-2026-10-07",
+        "tomik-orzhov-lawmage-edhrec-momentum-2026-10-08"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -813,11 +989,12 @@
       "slug": "hapatra-the-desert-fang",
       "name": "Hapatra, the Desert Fang",
       "firstSurfacedAt": "2026-10-01",
-      "lastSurfacedAt": "2026-10-01",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
-        "hapatra-the-desert-fang-edhrec-momentum-2026-10-01"
+        "hapatra-the-desert-fang-edhrec-momentum-2026-10-01",
+        "hapatra-the-desert-fang-edhrec-momentum-2026-10-08"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -918,12 +1095,13 @@
       "slug": "winter-tormented-loner",
       "name": "Winter, Tormented Loner",
       "firstSurfacedAt": "2026-10-01",
-      "lastSurfacedAt": "2026-10-05",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "winter-tormented-loner-edhrec-momentum-2026-10-01",
-        "winter-tormented-loner-edhrec-momentum-2026-10-05"
+        "winter-tormented-loner-edhrec-momentum-2026-10-05",
+        "winter-tormented-loner-edhrec-momentum-2026-10-08"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -1102,7 +1280,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -1649,7 +1827,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -1702,7 +1880,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -1727,7 +1905,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -1869,7 +2047,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -1894,7 +2072,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -1919,7 +2097,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -1971,7 +2149,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -2004,7 +2182,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -2054,7 +2232,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -2109,7 +2287,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -2134,7 +2312,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -2185,7 +2363,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -2210,7 +2388,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -2245,7 +2423,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-10-07",
+      "lastSurfacedAt": "2026-10-08",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
