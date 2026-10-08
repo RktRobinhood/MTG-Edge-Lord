@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T07:47:36.167Z",
+  "updatedAt": "2026-10-08T08:00:00Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -1142,8 +1142,8 @@
       "name": "MTGGoldfish Atom",
       "status": "rejected",
       "firstSeenAt": "2026-09-23",
-      "lastSeenAt": "2026-10-07",
-      "reason": "2026-10-07: Commander Clash podcast on deckbuilding traps, Modern Tarmogoyf, god-packs podcast; no commander deck tech"
+      "lastSeenAt": "2026-10-08T08:00:00Z",
+      "reason": "re-read 2026-10-08: Legacy, Standard, podcasts and a $50 precon roundup; no commander deck tech"
     },
     {
       "firstSeenAt": "2026-09-23",
@@ -1254,16 +1254,16 @@
       "name": "EDHREC articles feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-07",
-      "reason": "2026-10-07: budget Niv-Mizzet Ghost Counsel (already filed), cEDH Abolisher comparison, salt pieces, Secret Lair and booster news; no in-band deck tech"
+      "lastSeenAt": "2026-10-08T08:00:00Z",
+      "reason": "re-read 2026-10-08: salt-week columns, an Am I the Bolas column, a five-ways card article (Flickering Hound) and the Archidekt contest; no single-commander deck tech"
     },
     {
       "url": "https://articles.starcitygames.com/feed/",
       "name": "StarCityGames feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-06",
-      "reason": "2026-10-06: news, Secret Lair, Riftbound and booster changes since the 2026-10-01 Spike Feeders column already rejected; no single-commander deck tech"
+      "lastSeenAt": "2026-10-08T08:00:00Z",
+      "reason": "re-read 2026-10-08: one news item and Commander VS #510; nothing else Commander-specific"
     },
     {
       "url": "https://archidekt.com/decks/12375268",
@@ -1376,6 +1376,13 @@
       "reason": "generic reanimator primer (Sheoldred, Kokusho targets); no idea specific to the commander",
       "firstSeenAt": "2026-10-07",
       "lastSeenAt": "2026-10-07"
+    },
+    {
+      "url": "https://articles.starcitygames.com/magic-the-gathering/commander-vs-510-reality-fracture-elder-sphinx-showdown/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-08T08:00:00Z",
+      "lastSeenAt": "2026-10-08T08:00:00Z",
+      "reason": "gameplay with Kwia Vigorbloom (already archived 2026-09-24) and Denzilore Fatehold (rejected 2026-09-30); nothing new to file"
     }
   ]
 }
