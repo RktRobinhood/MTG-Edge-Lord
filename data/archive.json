@@ -2,6 +2,231 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "alharu-solemn-ritualist-ich-tekik-salvage-splicer",
+      "name": "Alharu, Solemn Ritualist // Ich-Tekik, Salvage Splicer",
+      "firstSurfacedAt": "2026-10-09",
+      "lastSurfacedAt": "2026-10-09",
+      "findingIds": [
+        "alharu-solemn-ritualist-ich-tekik-salvage-splicer-edhrec-momentum-2026-10-09"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/alharu-solemn-ritualist-ich-tekik-salvage-splicer",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5597,
+        "deckCount": 7,
+        "asOf": "2026-10-09"
+      }
+    },
+    {
+      "slug": "alharu-solemn-ritualist-thrasios-triton-hero",
+      "name": "Alharu, Solemn Ritualist // Thrasios, Triton Hero",
+      "firstSurfacedAt": "2026-10-09",
+      "lastSurfacedAt": "2026-10-09",
+      "findingIds": [
+        "alharu-solemn-ritualist-thrasios-triton-hero-edhrec-momentum-2026-10-09"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/alharu-solemn-ritualist-thrasios-triton-hero",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5304,
+        "deckCount": 10,
+        "asOf": "2026-10-09"
+      }
+    },
+    {
+      "slug": "boomerang-blade-flinger",
+      "name": "Boomerang, Blade Flinger",
+      "firstSurfacedAt": "2026-10-09",
+      "lastSurfacedAt": "2026-10-09",
+      "findingIds": [
+        "boomerang-blade-flinger-edhrec-momentum-2026-10-09"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/boomerang-blade-flinger",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5852,
+        "deckCount": 6,
+        "asOf": "2026-10-09"
+      }
+    },
+    {
+      "slug": "colossus-steel-stalwart",
+      "name": "Colossus, Steel Stalwart",
+      "firstSurfacedAt": "2026-10-09",
+      "lastSurfacedAt": "2026-10-09",
+      "findingIds": [
+        "colossus-steel-stalwart-edhrec-momentum-2026-10-09"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/colossus-steel-stalwart",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5700,
+        "deckCount": 7,
+        "asOf": "2026-10-09"
+      }
+    },
+    {
+      "slug": "ghost-of-ramirez-depietro-jeska-thrice-reborn",
+      "name": "Ghost of Ramirez DePietro // Jeska, Thrice Reborn",
+      "firstSurfacedAt": "2026-10-09",
+      "lastSurfacedAt": "2026-10-09",
+      "findingIds": [
+        "ghost-of-ramirez-depietro-jeska-thrice-reborn-edhrec-momentum-2026-10-09"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/ghost-of-ramirez-depietro-jeska-thrice-reborn",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5246,
+        "deckCount": 11,
+        "asOf": "2026-10-09"
+      }
+    },
+    {
+      "slug": "ikra-shidiqi-the-usurper-radiant-serra-archangel",
+      "name": "Ikra Shidiqi, the Usurper // Radiant, Serra Archangel",
+      "firstSurfacedAt": "2026-10-09",
+      "lastSurfacedAt": "2026-10-09",
+      "findingIds": [
+        "ikra-shidiqi-the-usurper-radiant-serra-archangel-edhrec-momentum-2026-10-09"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/ikra-shidiqi-the-usurper-radiant-serra-archangel",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5304,
+        "deckCount": 10,
+        "asOf": "2026-10-09"
+      }
+    },
+    {
+      "slug": "pipsqueak-rebel-strongarm",
+      "name": "Pipsqueak, Rebel Strongarm",
+      "firstSurfacedAt": "2026-10-09",
+      "lastSurfacedAt": "2026-10-09",
+      "findingIds": [
+        "pipsqueak-rebel-strongarm-edhrec-momentum-2026-10-09"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/pipsqueak-rebel-strongarm",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5470,
+        "deckCount": 9,
+        "asOf": "2026-10-09"
+      }
+    },
+    {
+      "slug": "tormod-the-desecrator-yoshimaru-ever-faithful",
+      "name": "Tormod, the Desecrator // Yoshimaru, Ever Faithful",
+      "firstSurfacedAt": "2026-10-09",
+      "lastSurfacedAt": "2026-10-09",
+      "findingIds": [
+        "tormod-the-desecrator-yoshimaru-ever-faithful-edhrec-momentum-2026-10-09"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/tormod-the-desecrator-yoshimaru-ever-faithful",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5501,
+        "deckCount": 8,
+        "asOf": "2026-10-09"
+      }
+    },
+    {
+      "slug": "yoshimaru-scrappy-stray",
+      "name": "Yoshimaru, Scrappy Stray",
+      "firstSurfacedAt": "2026-10-09",
+      "lastSurfacedAt": "2026-10-09",
+      "findingIds": [
+        "yoshimaru-scrappy-stray-edhrec-momentum-2026-10-09"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/yoshimaru-scrappy-stray",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5862,
+        "deckCount": 6,
+        "asOf": "2026-10-09"
+      }
+    },
+    {
       "slug": "black-tom-cassidy",
       "name": "Black Tom Cassidy",
       "firstSurfacedAt": "2026-10-08",
@@ -432,11 +657,12 @@
       "slug": "thalia-the-survivor",
       "name": "Thalia, the Survivor",
       "firstSurfacedAt": "2026-10-06",
-      "lastSurfacedAt": "2026-10-06",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
-        "thalia-the-survivor-edhrec-momentum-2026-10-06"
+        "thalia-the-survivor-edhrec-momentum-2026-10-06",
+        "thalia-the-survivor-edhrec-momentum-2026-10-09"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -1280,7 +1506,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -1827,7 +2053,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -1880,7 +2106,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -1905,7 +2131,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -2047,7 +2273,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -2072,7 +2298,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -2097,7 +2323,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -2149,7 +2375,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -2182,7 +2408,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -2232,7 +2458,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -2287,7 +2513,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -2312,7 +2538,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -2363,7 +2589,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -2388,7 +2614,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -2423,7 +2649,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-10-08",
+      "lastSurfacedAt": "2026-10-09",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
