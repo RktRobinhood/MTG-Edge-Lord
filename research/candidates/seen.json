@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T08:00:00Z",
+  "updatedAt": "2026-10-09T08:00:00Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -846,6 +846,14 @@
       "reason": "in band at 1,153 via a Reality Fracture reprint, but a 2018 unblockable-tempo commander with an established shell; nothing new read",
       "firstSeenAt": "2026-10-07",
       "lastSeenAt": "2026-10-07"
+    },
+    {
+      "slug": "carth-the-lion",
+      "name": "Carth the Lion",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-09",
+      "lastSeenAt": "2026-10-09",
+      "reason": "in band at 683, but the only read is an EDHREC budget Bracket 2 average-deck refresh with Reality Fracture walker cards; superfriends is its established plan, no new idea"
     }
   ],
   "sources": [
@@ -1142,8 +1150,8 @@
       "name": "MTGGoldfish Atom",
       "status": "rejected",
       "firstSeenAt": "2026-09-23",
-      "lastSeenAt": "2026-10-08T08:00:00Z",
-      "reason": "re-read 2026-10-08: Legacy, Standard, podcasts and a $50 precon roundup; no commander deck tech"
+      "lastSeenAt": "2026-10-09T08:00:00Z",
+      "reason": "re-read 2026-10-09: Vintage, Legacy, Pioneer, Standard and podcasts; no commander deck tech"
     },
     {
       "firstSeenAt": "2026-09-23",
@@ -1254,16 +1262,16 @@
       "name": "EDHREC articles feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-08T08:00:00Z",
-      "reason": "re-read 2026-10-08: salt-week columns, an Am I the Bolas column, a five-ways card article (Flickering Hound) and the Archidekt contest; no single-commander deck tech"
+      "lastSeenAt": "2026-10-09T08:00:00Z",
+      "reason": "re-read 2026-10-09: Carth budget refresh (rejected), Avacyn Angel of Horror deck tech (already archived), salt and mechanics columns; no new in-band find"
     },
     {
       "url": "https://articles.starcitygames.com/feed/",
       "name": "StarCityGames feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-08T08:00:00Z",
-      "reason": "re-read 2026-10-08: one news item and Commander VS #510; nothing else Commander-specific"
+      "lastSeenAt": "2026-10-09T08:00:00Z",
+      "reason": "re-read 2026-10-09: Spike Feeders Reality Fracture brews championship (all four commanders already surfaced) plus news"
     },
     {
       "url": "https://archidekt.com/decks/12375268",
@@ -1383,6 +1391,27 @@
       "firstSeenAt": "2026-10-08T08:00:00Z",
       "lastSeenAt": "2026-10-08T08:00:00Z",
       "reason": "gameplay with Kwia Vigorbloom (already archived 2026-09-24) and Denzilore Fatehold (rejected 2026-09-30); nothing new to file"
+    },
+    {
+      "url": "https://edhrec.com/articles/empowering-carth-with-reality-fracture/",
+      "status": "rejected",
+      "reason": "budget average-deck refresh of an established superfriends commander; no new idea",
+      "firstSeenAt": "2026-10-09",
+      "lastSeenAt": "2026-10-09"
+    },
+    {
+      "url": "https://edhrec.com/articles/raising-the-nine-hells-with-avacyn-angel-of-horror/",
+      "status": "rejected",
+      "reason": "Avacyn already surfaced by the feed (archived 2026-09-23); nothing to add",
+      "firstSeenAt": "2026-10-09",
+      "lastSeenAt": "2026-10-09"
+    },
+    {
+      "url": "https://articles.starcitygames.com/magic-the-gathering/the-spike-feeders-reality-fracture-brews-championship/",
+      "status": "rejected",
+      "reason": "gameplay showdown of Vraska Soul of Stone, Denzilore, Uldaros Theorix and Kwia Vigorbloom; every one already published, archived or rejected",
+      "firstSeenAt": "2026-10-09",
+      "lastSeenAt": "2026-10-09"
     }
   ]
 }
