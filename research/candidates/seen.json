@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T08:00:00Z",
+  "updatedAt": "2026-10-10T08:00:00Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -854,6 +854,22 @@
       "firstSeenAt": "2026-10-09",
       "lastSeenAt": "2026-10-09",
       "reason": "in band at 683, but the only read is an EDHREC budget Bracket 2 average-deck refresh with Reality Fracture walker cards; superfriends is its established plan, no new idea"
+    },
+    {
+      "slug": "meren-of-clan-nel-toth",
+      "name": "Meren of Clan Nel Toth",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-10",
+      "lastSeenAt": "2026-10-10",
+      "reason": "meta baseline (fourth-most-played Golgari commander per EDHREC); precon remaster column, not a find"
+    },
+    {
+      "slug": "tergrid-god-of-fright",
+      "name": "Tergrid, God of Fright",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-10",
+      "lastSeenAt": "2026-10-10",
+      "reason": "rank 175, meta baseline; hot/cold inclusion-rate column"
     }
   ],
   "sources": [
@@ -1310,8 +1326,8 @@
       "name": "MTGGoldfish Atom",
       "status": "rejected",
       "firstSeenAt": "2026-09-30",
-      "lastSeenAt": "2026-10-06",
-      "reason": "2026-10-06: podcast, Standard history, 0 Reality Fracture precon update, Modern and Pioneer; no single-commander deck tech"
+      "lastSeenAt": "2026-10-10",
+      "reason": "2026-10-10: Commander Clash one-card-per-set gimmick, Standard/Pauper/Vintage/Legacy content, Against the Odds is constructed; no Commander deck tech"
     },
     {
       "url": "https://edhrec.com/articles/thalia-the-survivor-aggressive-stax-deck/",
@@ -1412,6 +1428,34 @@
       "reason": "gameplay showdown of Vraska Soul of Stone, Denzilore, Uldaros Theorix and Kwia Vigorbloom; every one already published, archived or rejected",
       "firstSeenAt": "2026-10-09",
       "lastSeenAt": "2026-10-09"
+    },
+    {
+      "url": "https://edhrec.com/articles/plunder-the-graves-precon-remastered/",
+      "status": "rejected",
+      "reason": "budget remaster of the Commander 2015 Meren precon; Meren is a meta-baseline Golgari commander",
+      "firstSeenAt": "2026-10-10",
+      "lastSeenAt": "2026-10-10"
+    },
+    {
+      "url": "https://edhrec.com/articles/mass-land-denial-is-fun-actually/",
+      "status": "rejected",
+      "reason": "opinion piece on mass land denial as a strategy; no commander or build idea attached",
+      "firstSeenAt": "2026-10-10",
+      "lastSeenAt": "2026-10-10"
+    },
+    {
+      "url": "https://edhrec.com/articles/fire-and-ice-which-cards-are-hot-and-cold-for-tergrid-god-of-fright/",
+      "status": "rejected",
+      "reason": "hot/cold inclusion-rate column on Tergrid, rank 175, meta baseline",
+      "firstSeenAt": "2026-10-10",
+      "lastSeenAt": "2026-10-10"
+    },
+    {
+      "url": "https://articles.starcitygames.com/magic-the-gathering/the-spike-feeders-reality-fracture-last-chance-qualifier/",
+      "status": "rejected",
+      "reason": "38-word video post with decklists for Ghalta the Immovable, Aerid Konstrari, Ingris Stingerquill and Vraska Soul of Stone; all already archived or rejected, no written reasoning",
+      "firstSeenAt": "2026-10-10",
+      "lastSeenAt": "2026-10-10"
     }
   ]
 }
