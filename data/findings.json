@@ -2,24 +2,24 @@
   "schemaVersion": 1,
   "findings": [
     {
-      "id": "gallia-tragic-host-edhrec-momentum-2026-10-12",
+      "id": "alharu-solemn-ritualist-thrasios-triton-hero-edhrec-momentum-2026-10-13",
       "findingType": "discovery_signal",
-      "title": "Gallia, Tragic Host is moving above its recent baseline",
-      "summary": "Gallia, Tragic Host moved 78 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Alharu, Solemn Ritualist // Thrasios, Triton Hero is moving above its recent baseline",
+      "summary": "Alharu, Solemn Ritualist // Thrasios, Triton Hero moved 72 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/gallia-tragic-host",
+        "url": "https://edhrec.com/commanders/alharu-solemn-ritualist-thrasios-triton-hero",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-12",
-      "observedAt": "2026-10-12T00:00:00.000Z",
+      "publishedAt": "2026-10-13",
+      "observedAt": "2026-10-13T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Gallia, Tragic Host",
-          "slug": "gallia-tragic-host",
-          "scryfallId": "498fa810-8522-4020-b773-52ad404c9f65"
+          "name": "Alharu, Solemn Ritualist // Thrasios, Triton Hero",
+          "slug": "alharu-solemn-ritualist-thrasios-triton-hero",
+          "scryfallId": "3fdf5020-ea97-4f95-a096-cb5688dad2e2"
         }
       ],
       "cards": [],
@@ -38,16 +38,16 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 5312,
+        "edhrecRank": 5241,
         "deckCount": 11,
-        "asOf": "2026-10-12"
+        "asOf": "2026-10-13"
       },
       "movement": {
         "7d": 100,
         "30d": 100,
         "90d": 100
       },
-      "fingerprint": "c33de4ae3013a3f242eb9290a805ebe5da388f16b0a6b5c99da00b7be41f2976",
+      "fingerprint": "9e9dea587a0d9e92fd6a585744e8fae875bd353e3c81a4b6963252936aa696f5",
       "score": {
         "total": 47,
         "components": {
@@ -66,24 +66,24 @@
       }
     },
     {
-      "id": "hapatra-the-desert-fang-edhrec-momentum-2026-10-12",
+      "id": "brawn-amadeus-cho-edhrec-momentum-2026-10-13",
       "findingType": "discovery_signal",
-      "title": "Hapatra, the Desert Fang is moving above its recent baseline",
-      "summary": "Hapatra, the Desert Fang moved 79 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Brawn, Amadeus Cho is moving above its recent baseline",
+      "summary": "Brawn, Amadeus Cho moved 89 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/hapatra-the-desert-fang",
+        "url": "https://edhrec.com/commanders/brawn-amadeus-cho",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-12",
-      "observedAt": "2026-10-12T00:00:00.000Z",
+      "publishedAt": "2026-10-13",
+      "observedAt": "2026-10-13T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Hapatra, the Desert Fang",
-          "slug": "hapatra-the-desert-fang",
-          "scryfallId": "cf7c1534-af41-4991-b3c3-f0a34ae330b5"
+          "name": "Brawn, Amadeus Cho",
+          "slug": "brawn-amadeus-cho",
+          "scryfallId": "813ef553-28f2-46d5-b14b-76ebcbe061d4"
         }
       ],
       "cards": [],
@@ -102,20 +102,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 4714,
-        "deckCount": 21,
-        "asOf": "2026-10-12"
+        "edhrecRank": 4576,
+        "deckCount": 24,
+        "asOf": "2026-10-13"
       },
       "movement": {
         "7d": 100,
         "30d": 100,
         "90d": 100
       },
-      "fingerprint": "36297f8a798996a2bf9367ffd0b7aab369c04147de948714d7ff27abaf56d0af",
+      "fingerprint": "56eb4b0f7cb2afef361a941c2aa970132a1898e7c151c55d586da6ddbf607b13",
       "score": {
-        "total": 46.3,
+        "total": 46.1,
         "components": {
-          "obscurity": 88.1,
+          "obscurity": 87.6,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -130,24 +130,24 @@
       }
     },
     {
-      "id": "radiant-serra-archangel-vial-smasher-the-fierce-edhrec-momentum-2026-10-12",
+      "id": "saheeli-consul-of-oversight-edhrec-momentum-2026-10-13",
       "findingType": "discovery_signal",
-      "title": "Radiant, Serra Archangel // Vial Smasher the Fierce is moving above its recent baseline",
-      "summary": "Radiant, Serra Archangel // Vial Smasher the Fierce moved 79 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Saheeli, Consul of Oversight is moving above its recent baseline",
+      "summary": "Saheeli, Consul of Oversight moved 89 rank places while adding 3 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/radiant-serra-archangel-vial-smasher-the-fierce",
+        "url": "https://edhrec.com/commanders/saheeli-consul-of-oversight",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-12",
-      "observedAt": "2026-10-12T00:00:00.000Z",
+      "publishedAt": "2026-10-13",
+      "observedAt": "2026-10-13T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Radiant, Serra Archangel // Vial Smasher the Fierce",
-          "slug": "radiant-serra-archangel-vial-smasher-the-fierce",
-          "scryfallId": "38b00110-e3de-40ce-b2bd-9466fe9e53a3"
+          "name": "Saheeli, Consul of Oversight",
+          "slug": "saheeli-consul-of-oversight",
+          "scryfallId": "07572be0-6610-493c-a21e-14b78e9805c9"
         }
       ],
       "cards": [],
@@ -166,24 +166,152 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 5313,
-        "deckCount": 10,
-        "asOf": "2026-10-12"
+        "edhrecRank": 4386,
+        "deckCount": 30,
+        "asOf": "2026-10-13"
       },
       "movement": {
-        "7d": 78.9,
-        "30d": 63.9,
-        "90d": 63.9
+        "7d": 100,
+        "30d": 100,
+        "90d": 100
       },
-      "fingerprint": "f2dac97945a421821134828697ff49e94241ccb30148c9dcd37c5523a9233cef",
+      "fingerprint": "6c20de57633ef864e94554f4f36549c32550dd08cedce66b76243916abd581e0",
       "score": {
-        "total": 45.1,
+        "total": 45.9,
+        "components": {
+          "obscurity": 86.7,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "rescue-girl-first-responder-edhrec-momentum-2026-10-13",
+      "findingType": "discovery_signal",
+      "title": "Rescue Girl, First Responder is moving above its recent baseline",
+      "summary": "Rescue Girl, First Responder moved 85 rank places while adding 7 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/rescue-girl-first-responder",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-13",
+      "observedAt": "2026-10-13T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Rescue Girl, First Responder",
+          "slug": "rescue-girl-first-responder",
+          "scryfallId": "699874e3-1ccf-4a6c-8371-61040de82d08"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 3702,
+        "deckCount": 65,
+        "asOf": "2026-10-13"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "6d34aef595ea0082cd56038f7fdf2bbe5af921ed52d670ea8b21444e8609d529",
+      "score": {
+        "total": 45,
+        "components": {
+          "obscurity": 83.7,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "shadowheart-dark-justiciar-guild-artisan-edhrec-momentum-2026-10-13",
+      "findingType": "discovery_signal",
+      "title": "Shadowheart, Dark Justiciar // Guild Artisan is moving above its recent baseline",
+      "summary": "Shadowheart, Dark Justiciar // Guild Artisan moved 75 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/shadowheart-dark-justiciar-guild-artisan",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-13",
+      "observedAt": "2026-10-13T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Shadowheart, Dark Justiciar // Guild Artisan",
+          "slug": "shadowheart-dark-justiciar-guild-artisan",
+          "scryfallId": "13a0913d-776b-4ef8-adef-8861349df2b5"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 5353,
+        "deckCount": 10,
+        "asOf": "2026-10-13"
+      },
+      "movement": {
+        "7d": 78.4,
+        "30d": 63.4,
+        "90d": 63.4
+      },
+      "fingerprint": "6d29c14e4bbef5307bdea8376d42efa7c69c3136a04665187f4b5628b114bc79",
+      "score": {
+        "total": 45,
         "components": {
           "obscurity": 91,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
-          "momentum": 78.9,
+          "momentum": 78.4,
           "validation": 0
         },
         "reasons": [
@@ -194,24 +322,24 @@
       }
     },
     {
-      "id": "faceless-one-agent-of-the-iron-throne-edhrec-momentum-2026-10-12",
+      "id": "renari-merchant-of-marvels-far-traveler-edhrec-momentum-2026-10-13",
       "findingType": "discovery_signal",
-      "title": "Faceless One // Agent of the Iron Throne is moving above its recent baseline",
-      "summary": "Faceless One // Agent of the Iron Throne moved 81 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Renari, Merchant of Marvels // Far Traveler is moving above its recent baseline",
+      "summary": "Renari, Merchant of Marvels // Far Traveler moved 85 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/faceless-one-agent-of-the-iron-throne",
+        "url": "https://edhrec.com/commanders/renari-merchant-of-marvels-far-traveler",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-12",
-      "observedAt": "2026-10-12T00:00:00.000Z",
+      "publishedAt": "2026-10-13",
+      "observedAt": "2026-10-13T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Faceless One // Agent of the Iron Throne",
-          "slug": "faceless-one-agent-of-the-iron-throne",
-          "scryfallId": "25564fba-5765-457b-8dd3-f26b877221b8"
+          "name": "Renari, Merchant of Marvels // Far Traveler",
+          "slug": "renari-merchant-of-marvels-far-traveler",
+          "scryfallId": "1c044363-d661-4703-841c-8279fa4aa5e5"
         }
       ],
       "cards": [],
@@ -230,16 +358,16 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 5266,
+        "edhrecRank": 5268,
         "deckCount": 11,
-        "asOf": "2026-10-12"
+        "asOf": "2026-10-13"
       },
       "movement": {
         "7d": 75.5,
-        "30d": 55.5,
-        "90d": 55.5
+        "30d": 54.5,
+        "90d": 54.5
       },
-      "fingerprint": "8fe2cf896ffb897ded2e5f0929514d78e4a16e4cad16ad111f4a0f4992a6601a",
+      "fingerprint": "318a54560062d076a3e0ce4bc58f405494ae44faea988b90af747f454622a53c",
       "score": {
         "total": 44.6,
         "components": {
@@ -258,24 +386,24 @@
       }
     },
     {
-      "id": "wilson-refined-grizzly-acolyte-of-bahamut-edhrec-momentum-2026-10-12",
+      "id": "esior-wardwing-familiar-gilanra-caller-of-wirewood-edhrec-momentum-2026-10-13",
       "findingType": "discovery_signal",
-      "title": "Wilson, Refined Grizzly // Acolyte of Bahamut is moving above its recent baseline",
-      "summary": "Wilson, Refined Grizzly // Acolyte of Bahamut moved 81 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Esior, Wardwing Familiar // Gilanra, Caller of Wirewood is moving above its recent baseline",
+      "summary": "Esior, Wardwing Familiar // Gilanra, Caller of Wirewood moved 77 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/wilson-refined-grizzly-acolyte-of-bahamut",
+        "url": "https://edhrec.com/commanders/esior-wardwing-familiar-gilanra-caller-of-wirewood",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-12",
-      "observedAt": "2026-10-12T00:00:00.000Z",
+      "publishedAt": "2026-10-13",
+      "observedAt": "2026-10-13T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Wilson, Refined Grizzly // Acolyte of Bahamut",
-          "slug": "wilson-refined-grizzly-acolyte-of-bahamut",
-          "scryfallId": "dfe0daf8-43da-484b-baa1-76f8313c5a0c"
+          "name": "Esior, Wardwing Familiar // Gilanra, Caller of Wirewood",
+          "slug": "esior-wardwing-familiar-gilanra-caller-of-wirewood",
+          "scryfallId": "86958821-76eb-43a5-974b-7c945e826a66"
         }
       ],
       "cards": [],
@@ -294,24 +422,24 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 5266,
+        "edhrecRank": 5253,
         "deckCount": 11,
-        "asOf": "2026-10-12"
+        "asOf": "2026-10-13"
       },
       "movement": {
-        "7d": 75.5,
-        "30d": 55.5,
-        "90d": 55.5
+        "7d": 73,
+        "30d": 52,
+        "90d": 52
       },
-      "fingerprint": "37afa7a6c88cb4d09c46ed2acae9c2952d673c7c25d8dce22879f703a6931f6a",
+      "fingerprint": "77deb612580491620a83ffd77dfe962af4e826434662269b2a18741dcc2ddc3e",
       "score": {
-        "total": 44.6,
+        "total": 44.3,
         "components": {
           "obscurity": 90.6,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
-          "momentum": 75.5,
+          "momentum": 73,
           "validation": 0
         },
         "reasons": [
@@ -322,138 +450,10 @@
       }
     },
     {
-      "id": "the-sixth-doctor-k-9-mark-i-edhrec-momentum-2026-10-12",
-      "findingType": "discovery_signal",
-      "title": "The Sixth Doctor // K-9, Mark I is moving above its recent baseline",
-      "summary": "The Sixth Doctor // K-9, Mark I moved 76 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/the-sixth-doctor-k-9-mark-i",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-12",
-      "observedAt": "2026-10-12T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "The Sixth Doctor // K-9, Mark I",
-          "slug": "the-sixth-doctor-k-9-mark-i",
-          "scryfallId": "c045ccb2-28d1-4bbe-9feb-3e86988fd24d"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 5294,
-        "deckCount": 11,
-        "asOf": "2026-10-12"
-      },
-      "movement": {
-        "7d": 76,
-        "30d": 56.5,
-        "90d": 56.5
-      },
-      "fingerprint": "2496dfebaf47c55d05ec624a61608387eb9849ce6e5faedf372d3a0efc3136fb",
-      "score": {
-        "total": 44.6,
-        "components": {
-          "obscurity": 90.6,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 76,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "the-ninth-doctor-romana-ii-edhrec-momentum-2026-10-12",
-      "findingType": "discovery_signal",
-      "title": "The Ninth Doctor // Romana II is moving above its recent baseline",
-      "summary": "The Ninth Doctor // Romana II moved 76 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/the-ninth-doctor-romana-ii",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-12",
-      "observedAt": "2026-10-12T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "The Ninth Doctor // Romana II",
-          "slug": "the-ninth-doctor-romana-ii",
-          "scryfallId": "74785b3b-44df-4555-a036-082572b7f4e7"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 5294,
-        "deckCount": 11,
-        "asOf": "2026-10-12"
-      },
-      "movement": {
-        "7d": 76,
-        "30d": 56.5,
-        "90d": 56.5
-      },
-      "fingerprint": "b24a4572ecf23e1f27c89af1448fd7af04a3d3474ef48921db9848d8158a26f0",
-      "score": {
-        "total": 44.6,
-        "components": {
-          "obscurity": 90.6,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 76,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "hela-mistress-of-darkness-edhrec-momentum-2026-10-12",
+      "id": "hela-mistress-of-darkness-edhrec-momentum-2026-10-13",
       "findingType": "discovery_signal",
       "title": "Hela, Mistress of Darkness is moving above its recent baseline",
-      "summary": "Hela, Mistress of Darkness moved 367 rank places while adding 13 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Hela, Mistress of Darkness moved 108 rank places while adding 5 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -461,8 +461,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-12",
-      "observedAt": "2026-10-12T00:00:00.000Z",
+      "publishedAt": "2026-10-13",
+      "observedAt": "2026-10-13T00:00:00.000Z",
       "commanders": [
         {
           "name": "Hela, Mistress of Darkness",
@@ -486,20 +486,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 4169,
-        "deckCount": 38,
-        "asOf": "2026-10-12"
+        "edhrecRank": 4061,
+        "deckCount": 43,
+        "asOf": "2026-10-13"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "5538855e8f636f5a22993dd1bd7e6b722f85967d250ba7f62945d02b4e5644b9",
+      "fingerprint": "9e83b5f4a25c80c0fea0ef14fc6f5df9cd572778738e3c1ea8b404ba7d7239cf",
       "score": {
-        "total": 35.6,
+        "total": 35.5,
         "components": {
-          "obscurity": 85.8,
+          "obscurity": 85.3,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -513,10 +513,10 @@
       }
     },
     {
-      "id": "gargantos-the-endbringer-edhrec-momentum-2026-10-12",
+      "id": "gargantos-the-endbringer-edhrec-momentum-2026-10-13",
       "findingType": "discovery_signal",
       "title": "Gargantos, the Endbringer is moving above its recent baseline",
-      "summary": "Gargantos, the Endbringer moved 414 rank places while adding 58 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Gargantos, the Endbringer moved 165 rank places while adding 37 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -524,8 +524,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-12",
-      "observedAt": "2026-10-12T00:00:00.000Z",
+      "publishedAt": "2026-10-13",
+      "observedAt": "2026-10-13T00:00:00.000Z",
       "commanders": [
         {
           "name": "Gargantos, the Endbringer",
@@ -549,20 +549,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 3136,
-        "deckCount": 138,
-        "asOf": "2026-10-12"
+        "edhrecRank": 2971,
+        "deckCount": 175,
+        "asOf": "2026-10-13"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "bc19a41121330a564877333f28270ed045d075730b018348452f43aaa1b0468e",
+      "fingerprint": "f7c787498cd7f066b2c38f28b3c3202dfa0fe59cc3e511d0a26045f4b1497ae6",
       "score": {
-        "total": 34.1,
+        "total": 33.8,
         "components": {
-          "obscurity": 80.7,
+          "obscurity": 79.8,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -576,10 +576,10 @@
       }
     },
     {
-      "id": "magik-illyana-rasputin-edhrec-momentum-2026-10-12",
+      "id": "magik-illyana-rasputin-edhrec-momentum-2026-10-13",
       "findingType": "discovery_signal",
       "title": "Magik, Illyana Rasputin is moving above its recent baseline",
-      "summary": "Magik, Illyana Rasputin moved 250 rank places while adding 44 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Magik, Illyana Rasputin moved 290 rank places while adding 71 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -587,8 +587,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-12",
-      "observedAt": "2026-10-12T00:00:00.000Z",
+      "publishedAt": "2026-10-13",
+      "observedAt": "2026-10-13T00:00:00.000Z",
       "commanders": [
         {
           "name": "Magik, Illyana Rasputin",
@@ -612,20 +612,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 3059,
-        "deckCount": 154,
-        "asOf": "2026-10-12"
+        "edhrecRank": 2769,
+        "deckCount": 225,
+        "asOf": "2026-10-13"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "2fd38f9c1da12ffee40d9467540c513e3485cddaa5ab0a56d0a3c560cb017eda",
+      "fingerprint": "66bb3baa972086d3db868903f4e063186a0d82e6cb6c83468f573105c403e7ba",
       "score": {
-        "total": 34,
+        "total": 33.5,
         "components": {
-          "obscurity": 80.3,
+          "obscurity": 78.8,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
