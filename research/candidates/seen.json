@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T08:00:00Z",
+  "updatedAt": "2026-10-14T08:15:00Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -870,6 +870,22 @@
       "firstSeenAt": "2026-10-10",
       "lastSeenAt": "2026-10-10",
       "reason": "rank 175, meta baseline; hot/cold inclusion-rate column"
+    },
+    {
+      "slug": "loot-the-anomaly",
+      "name": "Loot, the Anomaly",
+      "status": "filed",
+      "firstSeenAt": "2026-10-14",
+      "lastSeenAt": "2026-10-14",
+      "reason": "new Reality Fracture uncommon in band at 2,084; EDHREC deck tech explains an inverted-Voltron rule (shrinking him grows his damage) with several routes: infect, one-sided -X/-X wraths, Ring evasion, Cauldron kill"
+    },
+    {
+      "slug": "witherbloom-the-balancer",
+      "name": "Witherbloom, the Balancer",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-14",
+      "lastSeenAt": "2026-10-14",
+      "reason": "rank 99, meta baseline; one of four lists in an SCG video post"
     }
   ],
   "sources": [
@@ -1278,16 +1294,16 @@
       "name": "EDHREC articles feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-09T08:00:00Z",
-      "reason": "re-read 2026-10-09: Carth budget refresh (rejected), Avacyn Angel of Horror deck tech (already archived), salt and mechanics columns; no new in-band find"
+      "lastSeenAt": "2026-10-14",
+      "reason": "re-read 2026-10-14: Loot deck tech (filed), Dack Fayden cEDH and Denzilore budget (both already surfaced), site redesign posts, sleeve reviews, Planar Chaos top-10, Secret Lair"
     },
     {
       "url": "https://articles.starcitygames.com/feed/",
       "name": "StarCityGames feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-09T08:00:00Z",
-      "reason": "re-read 2026-10-09: Spike Feeders Reality Fracture brews championship (all four commanders already surfaced) plus news"
+      "lastSeenAt": "2026-10-14",
+      "reason": "re-read 2026-10-14: Spike Feeders bone-zone decklist video (rejected), Secret Lair/Marvel news, RC coverage; no commander deck tech"
     },
     {
       "url": "https://archidekt.com/decks/12375268",
@@ -1326,8 +1342,8 @@
       "name": "MTGGoldfish Atom",
       "status": "rejected",
       "firstSeenAt": "2026-09-30",
-      "lastSeenAt": "2026-10-10",
-      "reason": "2026-10-10: Commander Clash one-card-per-set gimmick, Standard/Pauper/Vintage/Legacy content, Against the Odds is constructed; no Commander deck tech"
+      "lastSeenAt": "2026-10-14",
+      "reason": "re-read 2026-10-14: Commander Clash one-card-per-set and podcasts, Standard/Pauper/Vintage/Legacy content; no single-commander deck tech"
     },
     {
       "url": "https://edhrec.com/articles/thalia-the-survivor-aggressive-stax-deck/",
@@ -1456,6 +1472,34 @@
       "reason": "38-word video post with decklists for Ghalta the Immovable, Aerid Konstrari, Ingris Stingerquill and Vraska Soul of Stone; all already archived or rejected, no written reasoning",
       "firstSeenAt": "2026-10-10",
       "lastSeenAt": "2026-10-10"
+    },
+    {
+      "url": "https://edhrec.com/articles/reality-fracture-deck-tech-loot-the-anomaly/",
+      "status": "filed",
+      "reason": "reasoned deck tech on Loot, the Anomaly; filed as loot-the-anomaly-inverted-voltron-2026-10-14",
+      "firstSeenAt": "2026-10-14",
+      "lastSeenAt": "2026-10-14"
+    },
+    {
+      "url": "https://edhrec.com/articles/building-dack-fayden-helping-hand-for-cedh/",
+      "status": "rejected",
+      "reason": "Dack Fayden, Helping Hand already archived 2026-09-23 and rejected 2026-09-24; now rank 798",
+      "firstSeenAt": "2026-10-14",
+      "lastSeenAt": "2026-10-14"
+    },
+    {
+      "url": "https://edhrec.com/articles/denzilore-fatehold-azorius-1-1-counters-scry-surveil-on-a-budget/",
+      "status": "rejected",
+      "reason": "Denzilore already archived 2026-09-24 and rejected 2026-09-30; budget build, no new idea",
+      "firstSeenAt": "2026-10-14",
+      "lastSeenAt": "2026-10-14"
+    },
+    {
+      "url": "https://articles.starcitygames.com/magic-the-gathering/the-spike-feeders-commander-in-the-bone-zone/",
+      "status": "rejected",
+      "reason": "~120-word video post with decklists for Witherbloom the Balancer (rank 99), Melek Izzet Paragon, The Council of Four and Xu-Ifit; no written reasoning",
+      "firstSeenAt": "2026-10-14",
+      "lastSeenAt": "2026-10-14"
     }
   ]
 }

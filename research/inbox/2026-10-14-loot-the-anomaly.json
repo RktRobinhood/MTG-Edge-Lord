@@ -1,0 +1,98 @@
+{
+  "id": "loot-the-anomaly-inverted-voltron-2026-10-14",
+  "findingType": "deep_dive_resource",
+  "title": "Loot, the Anomaly hits harder the smaller he gets, so symmetrical shrink effects become a one-sided pump",
+  "summary": "Loot starts at -2 power and assigns combat damage as if negative power were positive, and his own threshold ability sacrifices a creature to push him further down. That turns the usual Voltron plan inside out: -X/-X sweepers and -1/-1 counters that hurt everyone else make Loot a bigger threat, and 'low power' evasion such as skulk or being the Ring-bearer makes him nearly unblockable. The EDHREC deck tech sketches several routes off the same chassis - an infect Aura that grows him each upkeep, one-sided wraths, Ring tempting, and a Soul Cauldron line for a one-turn kill.",
+  "source": {
+    "name": "Reality Fracture Deck Tech: Loot, the Anomaly",
+    "type": "article",
+    "url": "https://edhrec.com/articles/reality-fracture-deck-tech-loot-the-anomaly/",
+    "creator": "Bennie Smith",
+    "resourceDepth": "deep_dive"
+  },
+  "publishedAt": "2026-10-13",
+  "observedAt": "2026-10-14T08:10:00.000Z",
+  "commanders": [
+    {
+      "name": "Loot, the Anomaly",
+      "slug": "loot-the-anomaly"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Glistening Oil",
+      "slug": "glistening-oil"
+    },
+    {
+      "name": "Black Sun's Zenith",
+      "slug": "black-suns-zenith"
+    },
+    {
+      "name": "Toxic Deluge",
+      "slug": "toxic-deluge"
+    },
+    {
+      "name": "Call of the Ring",
+      "slug": "call-of-the-ring"
+    },
+    {
+      "name": "Skeleton Key",
+      "slug": "skeleton-key"
+    },
+    {
+      "name": "Agatha's Soul Cauldron",
+      "slug": "agathas-soul-cauldron"
+    },
+    {
+      "name": "Viscid Lemures",
+      "slug": "viscid-lemures"
+    }
+  ],
+  "evidence": {
+    "strength": 0.62,
+    "independentSourceCount": 1,
+    "conversationDepth": "reasoned",
+    "communityReasoned": true,
+    "tested": false,
+    "notes": [
+      "Oracle text checked on Scryfall 2026-10-14: a {2}{B} -2/4 uncommon from Reality Fracture (released 2026-10-02) whose threshold sacrifice gives him -2/-0, so the commander carries its own sac outlet and its own pump.",
+      "The article explains each interaction rather than listing cards: why a returning infect Aura gets stronger on Loot instead of weaker, why X=3 on a -X/-X sweeper leaves him alive at 5 damage, and why toughness boosts raise the ceiling on how far he can shrink.",
+      "Range is the case for filing: poison, commander damage via one-sided wraths, aristocrats drains off the sacrifice ability, and a Cauldron/Lemures kill are all reachable from the same rule, and 'shrink it to grow it' ports to any future negative-power creature.",
+      "No games are reported and the author frames it as a fun casual build, not cEDH; the strongest competitive angle is that Toxic Deluge and Black Sun's Zenith become one-sided for this deck.",
+      "New-commander cohort: about 594 EDHREC decks and 513 Archidekt decks within two weeks of release, but the most-viewed Archidekt lists carry no description, card notes or primer, so this article is the only written reasoning found.",
+      "Not to be confused with Liliana the Repentant, a fellow Reality Fracture card the article runs as a threshold enabler (rejected as a commander on 2026-10-07)."
+    ],
+    "corroboratingSources": [],
+    "alternatives": [
+      {
+        "name": "Infect via Glistening Oil",
+        "status": "supporting",
+        "reason": "The -1/-1 counter the Aura adds each upkeep is a drawback on any other creature and a growing poison clock on Loot."
+      },
+      {
+        "name": "One-sided sweepers",
+        "status": "supporting",
+        "reason": "Black Sun's Zenith, Toxic Deluge and similar -X/-X effects clear blockers while increasing Loot's damage."
+      },
+      {
+        "name": "Ring-bearer evasion",
+        "status": "supporting",
+        "reason": "The Ring's 'can't be blocked by creatures with greater power' clause is close to unblockable on a commander with negative power."
+      }
+    ]
+  },
+  "tags": [
+    "ci-b",
+    "arch-voltron",
+    "arch-aristocrats",
+    "mech-negative-power",
+    "mech-minus-counters",
+    "band-2000-3000",
+    "recheck-30d"
+  ],
+  "popularity": {
+    "edhrecRank": 2084,
+    "deckCount": 594,
+    "asOf": "2026-10-13"
+  }
+}
