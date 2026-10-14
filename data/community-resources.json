@@ -2,6 +2,61 @@
   "schemaVersion": 1,
   "resources": [
     {
+      "findingId": "loot-the-anomaly-inverted-voltron-2026-10-14",
+      "title": "Loot, the Anomaly hits harder the smaller he gets, so symmetrical shrink effects become a one-sided pump",
+      "summary": "Loot starts at -2 power and assigns combat damage as if negative power were positive, and his own threshold ability sacrifices a creature to push him further down. That turns the usual Voltron plan inside out: -X/-X sweepers and -1/-1 counters that hurt everyone else make Loot a bigger threat, and 'low power' evasion such as skulk or being the Ring-bearer makes him nearly unblockable. The EDHREC deck tech sketches several routes off the same chassis - an infect Aura that grows him each upkeep, one-sided wraths, Ring tempting, and a Soul Cauldron line for a one-turn kill.",
+      "name": "Reality Fracture Deck Tech: Loot, the Anomaly",
+      "type": "article",
+      "url": "https://edhrec.com/articles/reality-fracture-deck-tech-loot-the-anomaly/",
+      "creator": "Bennie Smith",
+      "resourceDepth": "deep_dive",
+      "commanders": [
+        {
+          "name": "Loot, the Anomaly",
+          "slug": "loot-the-anomaly",
+          "scryfallId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Agatha's Soul Cauldron",
+          "slug": "agathas-soul-cauldron",
+          "scryfallId": "019b51b0-e5c6-4208-922b-7736686dddcd"
+        },
+        {
+          "name": "Black Sun's Zenith",
+          "slug": "black-suns-zenith",
+          "scryfallId": "eda98f51-a918-4ef7-a123-7d4200c79620"
+        },
+        {
+          "name": "Call of the Ring",
+          "slug": "call-of-the-ring",
+          "scryfallId": "a92a2c5a-e450-494a-b23b-7ac0a6c50535"
+        },
+        {
+          "name": "Glistening Oil",
+          "slug": "glistening-oil",
+          "scryfallId": "483e99fd-7e48-400d-9817-451089089e0c"
+        },
+        {
+          "name": "Skeleton Key",
+          "slug": "skeleton-key",
+          "scryfallId": "3168317b-b166-483e-9d9a-20cdfcdc255c"
+        },
+        {
+          "name": "Toxic Deluge",
+          "slug": "toxic-deluge",
+          "scryfallId": "de5afccc-8d42-4bd6-b068-b9ea2361655e"
+        },
+        {
+          "name": "Viscid Lemures",
+          "slug": "viscid-lemures",
+          "scryfallId": "863f04d7-da34-41e3-9153-97891a428889"
+        }
+      ],
+      "publishedAt": "2026-10-13"
+    },
+    {
       "findingId": "oswald-fiddlebender-secret-commander-2026-09-30",
       "title": "Oswald Fiddlebender is a tutor chassis, and three builders aim it at three different artifacts",
       "summary": "Oswald sacrifices an artifact to put one costing exactly one more onto the battlefield, so a mono-white deck gets to pick its real win condition from the library each game. One primer climbs from two-drops to Monument to Endurance, then copies it, because each copy can make every opponent lose 3 life once a turn off a discard. An unrelated build climbs one step further to Giggling Skitterspike and grows it with Modular counters. The cEDH Decklist Database's Brewer's Corner lists a third, competitive route that chains into Marvin, Murderous Mimic and Pili-Pala for combo turns 3-4. Same commander, three payloads that share little beyond the chain.",

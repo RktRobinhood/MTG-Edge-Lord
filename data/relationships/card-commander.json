@@ -1990,6 +1990,167 @@
       "relationshipScore": 16.5
     },
     {
+      "id": "agathas-soul-cauldron--loot-the-anomaly",
+      "card": {
+        "name": "Agatha's Soul Cauldron",
+        "slug": "agathas-soul-cauldron",
+        "scryfallId": "019b51b0-e5c6-4208-922b-7736686dddcd"
+      },
+      "commander": {
+        "name": "Loot, the Anomaly",
+        "slug": "loot-the-anomaly",
+        "scryfallId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff"
+      },
+      "findingIds": [
+        "loot-the-anomaly-inverted-voltron-2026-10-14"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/reality-fracture-deck-tech-loot-the-anomaly/"
+      ],
+      "evidenceStrength": 0.62,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15.5
+    },
+    {
+      "id": "black-suns-zenith--loot-the-anomaly",
+      "card": {
+        "name": "Black Sun's Zenith",
+        "slug": "black-suns-zenith",
+        "scryfallId": "eda98f51-a918-4ef7-a123-7d4200c79620"
+      },
+      "commander": {
+        "name": "Loot, the Anomaly",
+        "slug": "loot-the-anomaly",
+        "scryfallId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff"
+      },
+      "findingIds": [
+        "loot-the-anomaly-inverted-voltron-2026-10-14"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/reality-fracture-deck-tech-loot-the-anomaly/"
+      ],
+      "evidenceStrength": 0.62,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15.5
+    },
+    {
+      "id": "call-of-the-ring--loot-the-anomaly",
+      "card": {
+        "name": "Call of the Ring",
+        "slug": "call-of-the-ring",
+        "scryfallId": "a92a2c5a-e450-494a-b23b-7ac0a6c50535"
+      },
+      "commander": {
+        "name": "Loot, the Anomaly",
+        "slug": "loot-the-anomaly",
+        "scryfallId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff"
+      },
+      "findingIds": [
+        "loot-the-anomaly-inverted-voltron-2026-10-14"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/reality-fracture-deck-tech-loot-the-anomaly/"
+      ],
+      "evidenceStrength": 0.62,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15.5
+    },
+    {
+      "id": "glistening-oil--loot-the-anomaly",
+      "card": {
+        "name": "Glistening Oil",
+        "slug": "glistening-oil",
+        "scryfallId": "483e99fd-7e48-400d-9817-451089089e0c"
+      },
+      "commander": {
+        "name": "Loot, the Anomaly",
+        "slug": "loot-the-anomaly",
+        "scryfallId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff"
+      },
+      "findingIds": [
+        "loot-the-anomaly-inverted-voltron-2026-10-14"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/reality-fracture-deck-tech-loot-the-anomaly/"
+      ],
+      "evidenceStrength": 0.62,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15.5
+    },
+    {
+      "id": "skeleton-key--loot-the-anomaly",
+      "card": {
+        "name": "Skeleton Key",
+        "slug": "skeleton-key",
+        "scryfallId": "3168317b-b166-483e-9d9a-20cdfcdc255c"
+      },
+      "commander": {
+        "name": "Loot, the Anomaly",
+        "slug": "loot-the-anomaly",
+        "scryfallId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff"
+      },
+      "findingIds": [
+        "loot-the-anomaly-inverted-voltron-2026-10-14"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/reality-fracture-deck-tech-loot-the-anomaly/"
+      ],
+      "evidenceStrength": 0.62,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15.5
+    },
+    {
+      "id": "toxic-deluge--loot-the-anomaly",
+      "card": {
+        "name": "Toxic Deluge",
+        "slug": "toxic-deluge",
+        "scryfallId": "de5afccc-8d42-4bd6-b068-b9ea2361655e"
+      },
+      "commander": {
+        "name": "Loot, the Anomaly",
+        "slug": "loot-the-anomaly",
+        "scryfallId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff"
+      },
+      "findingIds": [
+        "loot-the-anomaly-inverted-voltron-2026-10-14"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/reality-fracture-deck-tech-loot-the-anomaly/"
+      ],
+      "evidenceStrength": 0.62,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15.5
+    },
+    {
+      "id": "viscid-lemures--loot-the-anomaly",
+      "card": {
+        "name": "Viscid Lemures",
+        "slug": "viscid-lemures",
+        "scryfallId": "863f04d7-da34-41e3-9153-97891a428889"
+      },
+      "commander": {
+        "name": "Loot, the Anomaly",
+        "slug": "loot-the-anomaly",
+        "scryfallId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff"
+      },
+      "findingIds": [
+        "loot-the-anomaly-inverted-voltron-2026-10-14"
+      ],
+      "sourceUrls": [
+        "https://edhrec.com/articles/reality-fracture-deck-tech-loot-the-anomaly/"
+      ],
+      "evidenceStrength": 0.62,
+      "independentSourceCount": 1,
+      "metrics": {},
+      "relationshipScore": 15.5
+    },
+    {
       "id": "combat-celebrant--calamity-galloping-inferno",
       "card": {
         "name": "Combat Celebrant",
