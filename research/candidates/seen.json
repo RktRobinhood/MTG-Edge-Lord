@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T08:15:00Z",
+  "updatedAt": "2026-10-15T07:49:18.104Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -886,6 +886,30 @@
       "firstSeenAt": "2026-10-14",
       "lastSeenAt": "2026-10-14",
       "reason": "rank 99, meta baseline; one of four lists in an SCG video post"
+    },
+    {
+      "slug": "katilda-and-lier",
+      "name": "Katilda and Lier",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-15",
+      "lastSeenAt": "2026-10-15",
+      "reason": "in band at 1,080, but the read is an EDHREC sub-$1.11 budget-trim column building Persistent Petitioners, which is already this commander's leading EDHREC theme; one-track, not off-meta"
+    },
+    {
+      "slug": "ghen-arcanum-weaver",
+      "name": "Ghen, Arcanum Weaver",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-15",
+      "lastSeenAt": "2026-10-15",
+      "reason": "in band at 823, but its only appearance is a fan-submitted decklist in an SCG Commander VS video post with no written reasoning; a mention"
+    },
+    {
+      "slug": "memnarch",
+      "name": "Memnarch",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-15",
+      "lastSeenAt": "2026-10-15",
+      "reason": "in band at 1,059, but only a fan-submitted decklist in the same SCG Commander VS post; no reasoning on the page, and artifact theft is Memnarch's established identity"
     }
   ],
   "sources": [
@@ -1294,16 +1318,16 @@
       "name": "EDHREC articles feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-14",
-      "reason": "re-read 2026-10-14: Loot deck tech (filed), Dack Fayden cEDH and Denzilore budget (both already surfaced), site redesign posts, sleeve reviews, Planar Chaos top-10, Secret Lair"
+      "lastSeenAt": "2026-10-15",
+      "reason": "read 2026-10-15: no in-band off-meta Commander effort piece among new items"
     },
     {
       "url": "https://articles.starcitygames.com/feed/",
       "name": "StarCityGames feed",
       "status": "rejected",
       "firstSeenAt": "2026-09-24",
-      "lastSeenAt": "2026-10-14",
-      "reason": "re-read 2026-10-14: Spike Feeders bone-zone decklist video (rejected), Secret Lair/Marvel news, RC coverage; no commander deck tech"
+      "lastSeenAt": "2026-10-15",
+      "reason": "read 2026-10-15: no in-band off-meta Commander effort piece among new items"
     },
     {
       "url": "https://archidekt.com/decks/12375268",
@@ -1342,8 +1366,8 @@
       "name": "MTGGoldfish Atom",
       "status": "rejected",
       "firstSeenAt": "2026-09-30",
-      "lastSeenAt": "2026-10-14",
-      "reason": "re-read 2026-10-14: Commander Clash one-card-per-set and podcasts, Standard/Pauper/Vintage/Legacy content; no single-commander deck tech"
+      "lastSeenAt": "2026-10-15",
+      "reason": "read 2026-10-15: no in-band off-meta Commander effort piece among new items"
     },
     {
       "url": "https://edhrec.com/articles/thalia-the-survivor-aggressive-stax-deck/",
@@ -1500,6 +1524,20 @@
       "reason": "~120-word video post with decklists for Witherbloom the Balancer (rank 99), Melek Izzet Paragon, The Council of Four and Xu-Ifit; no written reasoning",
       "firstSeenAt": "2026-10-14",
       "lastSeenAt": "2026-10-14"
+    },
+    {
+      "url": "https://edhrec.com/articles/pester-and-petition-with-this-katilda-and-lier-trimmed-deck/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-15",
+      "lastSeenAt": "2026-10-15",
+      "reason": "budget-trim column on Katilda and Lier Petitioners, the commander's main theme"
+    },
+    {
+      "url": "https://articles.starcitygames.com/magic-the-gathering/commander-vs-511-brews-from-the-fans/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-15",
+      "lastSeenAt": "2026-10-15",
+      "reason": "video post carrying four fan decklists (Memnarch, Ghen, Volo, Kefka) and no written reasoning"
     }
   ]
 }
