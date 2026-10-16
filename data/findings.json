@@ -2,24 +2,24 @@
   "schemaVersion": 1,
   "findings": [
     {
-      "id": "esior-wardwing-familiar-slurrk-all-ingesting-edhrec-momentum-2026-10-14",
+      "id": "yargle-goliath-of-otaria-edhrec-momentum-2026-10-16",
       "findingType": "discovery_signal",
-      "title": "Esior, Wardwing Familiar // Slurrk, All-Ingesting is moving above its recent baseline",
-      "summary": "Esior, Wardwing Familiar // Slurrk, All-Ingesting moved 78 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Yargle, Goliath of Otaria is moving above its recent baseline",
+      "summary": "Yargle, Goliath of Otaria moved 119 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/esior-wardwing-familiar-slurrk-all-ingesting",
+        "url": "https://edhrec.com/commanders/yargle-goliath-of-otaria",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-14",
-      "observedAt": "2026-10-14T00:00:00.000Z",
+      "publishedAt": "2026-10-16",
+      "observedAt": "2026-10-16T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Esior, Wardwing Familiar // Slurrk, All-Ingesting",
-          "slug": "esior-wardwing-familiar-slurrk-all-ingesting",
-          "scryfallId": "86958821-76eb-43a5-974b-7c945e826a66"
+          "name": "Yargle, Goliath of Otaria",
+          "slug": "yargle-goliath-of-otaria",
+          "scryfallId": "f45ba926-6496-4bd4-96eb-663946d56bbf"
         }
       ],
       "cards": [],
@@ -38,148 +38,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 5253,
-        "deckCount": 11,
-        "asOf": "2026-10-14"
-      },
-      "movement": {
-        "7d": 73.5,
-        "30d": 100,
-        "90d": 100
-      },
-      "fingerprint": "e846edbd41e4fe3c787328456e39eae220922c72b20df6c966e820bd25c85b19",
-      "score": {
-        "total": 47,
-        "components": {
-          "obscurity": 90.6,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "jaheira-friend-of-the-forest-dungeon-delver-edhrec-momentum-2026-10-14",
-      "findingType": "discovery_signal",
-      "title": "Jaheira, Friend of the Forest // Dungeon Delver is moving above its recent baseline",
-      "summary": "Jaheira, Friend of the Forest // Dungeon Delver moved 137 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/jaheira-friend-of-the-forest-dungeon-delver",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-14",
-      "observedAt": "2026-10-14T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Jaheira, Friend of the Forest // Dungeon Delver",
-          "slug": "jaheira-friend-of-the-forest-dungeon-delver",
-          "scryfallId": "feb7ad1b-4466-48f7-b46d-cc83d4e22b51"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 5067,
-        "deckCount": 14,
-        "asOf": "2026-10-14"
-      },
-      "movement": {
-        "7d": 100,
-        "30d": 36.3,
-        "90d": 36.3
-      },
-      "fingerprint": "f3887d4c3a9b29066b72dfeb6f30f1070ea62eb48bd5160f5914938b723dfa99",
-      "score": {
-        "total": 46.8,
-        "components": {
-          "obscurity": 89.7,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "proft-consulting-detective-edhrec-momentum-2026-10-14",
-      "findingType": "discovery_signal",
-      "title": "Proft, Consulting Detective is moving above its recent baseline",
-      "summary": "Proft, Consulting Detective moved 127 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/proft-consulting-detective",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-14",
-      "observedAt": "2026-10-14T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Proft, Consulting Detective",
-          "slug": "proft-consulting-detective",
-          "scryfallId": "b8466593-40fe-4557-89b2-760c1c92087b"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 5042,
-        "deckCount": 15,
-        "asOf": "2026-10-14"
+        "edhrecRank": 4856,
+        "deckCount": 18,
+        "asOf": "2026-10-16"
       },
       "movement": {
         "7d": 100,
         "30d": 100,
         "90d": 100
       },
-      "fingerprint": "bec5b0e73558a02a3b002030e18a2b15f855d752015cfbfd0eb62d25469a4ba5",
+      "fingerprint": "b6664f6f2ed4830352e31dc0db1425ef82a7dc9a6e84287c75d312ea3a15ad7c",
       "score": {
-        "total": 46.7,
+        "total": 46.5,
         "components": {
-          "obscurity": 89.4,
+          "obscurity": 88.7,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -194,24 +66,24 @@
       }
     },
     {
-      "id": "ruric-thar-magecrusher-edhrec-momentum-2026-10-14",
+      "id": "arni-renowned-champion-edhrec-momentum-2026-10-16",
       "findingType": "discovery_signal",
-      "title": "Ruric Thar, Magecrusher is moving above its recent baseline",
-      "summary": "Ruric Thar, Magecrusher moved 82 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Arni, Renowned Champion is moving above its recent baseline",
+      "summary": "Arni, Renowned Champion moved 122 rank places while adding 3 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/ruric-thar-magecrusher",
+        "url": "https://edhrec.com/commanders/arni-renowned-champion",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-14",
-      "observedAt": "2026-10-14T00:00:00.000Z",
+      "publishedAt": "2026-10-16",
+      "observedAt": "2026-10-16T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Ruric Thar, Magecrusher",
-          "slug": "ruric-thar-magecrusher",
-          "scryfallId": "eed83302-dc2c-45f4-a4bd-af9da51edef5"
+          "name": "Arni, Renowned Champion",
+          "slug": "arni-renowned-champion",
+          "scryfallId": "bd8db649-1dba-457d-8327-e1f1da1aab36"
         }
       ],
       "cards": [],
@@ -230,80 +102,16 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 4714,
-        "deckCount": 21,
-        "asOf": "2026-10-14"
-      },
-      "movement": {
-        "7d": 100,
-        "30d": 100,
-        "90d": 100
-      },
-      "fingerprint": "91f3ab3db990d964e5609861198ac557329ac84391f1036331754412144d16cf",
-      "score": {
-        "total": 46.3,
-        "components": {
-          "obscurity": 88.1,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "tomik-orzhov-lawmage-edhrec-momentum-2026-10-14",
-      "findingType": "discovery_signal",
-      "title": "Tomik, Orzhov Lawmage is moving above its recent baseline",
-      "summary": "Tomik, Orzhov Lawmage moved 79 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/tomik-orzhov-lawmage",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-14",
-      "observedAt": "2026-10-14T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Tomik, Orzhov Lawmage",
-          "slug": "tomik-orzhov-lawmage",
-          "scryfallId": "7ca95235-6e54-4ff8-bc2e-6a3d483ff007"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 4673,
+        "edhrecRank": 4677,
         "deckCount": 22,
-        "asOf": "2026-10-14"
+        "asOf": "2026-10-16"
       },
       "movement": {
         "7d": 100,
         "30d": 100,
         "90d": 100
       },
-      "fingerprint": "6ae8c94e0f2b7e13a675cc23ab0b788c6e99fc55b9635af5b95b59cd6098ed33",
+      "fingerprint": "a2f3ff1ec8809a5524fc4c3637d4e0ff95b959e16b1addf9b29becec520c3a0d",
       "score": {
         "total": 46.2,
         "components": {
@@ -322,24 +130,24 @@
       }
     },
     {
-      "id": "winter-tormented-loner-edhrec-momentum-2026-10-14",
+      "id": "marwyn-the-clearcutter-edhrec-momentum-2026-10-16",
       "findingType": "discovery_signal",
-      "title": "Winter, Tormented Loner is moving above its recent baseline",
-      "summary": "Winter, Tormented Loner moved 98 rank places while adding 3 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Marwyn, the Clearcutter is moving above its recent baseline",
+      "summary": "Marwyn, the Clearcutter moved 93 rank places while adding 3 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/winter-tormented-loner",
+        "url": "https://edhrec.com/commanders/marwyn-the-clearcutter",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-14",
-      "observedAt": "2026-10-14T00:00:00.000Z",
+      "publishedAt": "2026-10-16",
+      "observedAt": "2026-10-16T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Winter, Tormented Loner",
-          "slug": "winter-tormented-loner",
-          "scryfallId": "9670f754-f41f-45ac-8e8b-025ad2c0f66b"
+          "name": "Marwyn, the Clearcutter",
+          "slug": "marwyn-the-clearcutter",
+          "scryfallId": "f93da73c-ca8b-438e-8387-6109dac3fc1a"
         }
       ],
       "cards": [],
@@ -358,16 +166,16 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 4287,
+        "edhrecRank": 4291,
         "deckCount": 33,
-        "asOf": "2026-10-14"
+        "asOf": "2026-10-16"
       },
       "movement": {
         "7d": 100,
         "30d": 100,
         "90d": 100
       },
-      "fingerprint": "458fcc63351a544ed7e0b403f3c2741b01c01418b308e8ef3e406f9ae13a9dd4",
+      "fingerprint": "cfbe7015ef900bb021f264946ccec5c80dc488bb07d150bc2f7365fd1e5697fc",
       "score": {
         "total": 45.8,
         "components": {
@@ -386,10 +194,10 @@
       }
     },
     {
-      "id": "iron-man-futurist-paragon-edhrec-momentum-2026-10-14",
+      "id": "iron-man-futurist-paragon-edhrec-momentum-2026-10-16",
       "findingType": "discovery_signal",
       "title": "Iron Man, Futurist Paragon is moving above its recent baseline",
-      "summary": "Iron Man, Futurist Paragon moved 96 rank places while adding 3 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Iron Man, Futurist Paragon moved 102 rank places while adding 4 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -397,8 +205,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-14",
-      "observedAt": "2026-10-14T00:00:00.000Z",
+      "publishedAt": "2026-10-16",
+      "observedAt": "2026-10-16T00:00:00.000Z",
       "commanders": [
         {
           "name": "Iron Man, Futurist Paragon",
@@ -422,20 +230,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 4347,
-        "deckCount": 31,
-        "asOf": "2026-10-14"
+        "edhrecRank": 4245,
+        "deckCount": 35,
+        "asOf": "2026-10-16"
       },
       "movement": {
         "7d": 100,
         "30d": 100,
         "90d": 100
       },
-      "fingerprint": "c34498a5f2f4767d3940fde2c19027b752a97d9c6971b539cdcf9def7c5a90e0",
+      "fingerprint": "d3b670c761aa74e0c63ccc90445961e70d11e421c5492673579e261c965dae30",
       "score": {
-        "total": 45.8,
+        "total": 45.7,
         "components": {
-          "obscurity": 86.6,
+          "obscurity": 86.1,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -450,10 +258,201 @@
       }
     },
     {
-      "id": "hela-mistress-of-darkness-edhrec-momentum-2026-10-14",
+      "id": "volo-itinerant-scholar-cultist-of-the-absolute-edhrec-momentum-2026-10-16",
+      "findingType": "discovery_signal",
+      "title": "Volo, Itinerant Scholar // Cultist of the Absolute is moving above its recent baseline",
+      "summary": "Volo, Itinerant Scholar // Cultist of the Absolute moved 84 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/volo-itinerant-scholar-cultist-of-the-absolute",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-16",
+      "observedAt": "2026-10-16T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Volo, Itinerant Scholar // Cultist of the Absolute",
+          "slug": "volo-itinerant-scholar-cultist-of-the-absolute",
+          "scryfallId": "862b6d5e-548f-4765-9d39-08d6115b4012"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 5122,
+        "deckCount": 13,
+        "asOf": "2026-10-16"
+      },
+      "movement": {
+        "7d": 67.8,
+        "30d": 46.3,
+        "90d": 46.3
+      },
+      "fingerprint": "2dfe488e9dd4f789eee2ae4f2d3eb561658982ab436ad5efc7ca3a45f2e2ee10",
+      "score": {
+        "total": 43.6,
+        "components": {
+          "obscurity": 90,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 67.8,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "viconia-drow-apostate-dungeon-delver-edhrec-momentum-2026-10-16",
+      "findingType": "discovery_signal",
+      "title": "Viconia, Drow Apostate // Dungeon Delver is moving above its recent baseline",
+      "summary": "Viconia, Drow Apostate // Dungeon Delver moved 84 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/viconia-drow-apostate-dungeon-delver",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-16",
+      "observedAt": "2026-10-16T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Viconia, Drow Apostate // Dungeon Delver",
+          "slug": "viconia-drow-apostate-dungeon-delver",
+          "scryfallId": "f631762a-e833-40a5-a6e9-b6cde38f62f0"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 5122,
+        "deckCount": 13,
+        "asOf": "2026-10-16"
+      },
+      "movement": {
+        "7d": 67.8,
+        "30d": 46.3,
+        "90d": 46.3
+      },
+      "fingerprint": "65922265dd8c4c6628b15776b9cb5684d3c26b59c00c1d507419d8931aec64aa",
+      "score": {
+        "total": 43.6,
+        "components": {
+          "obscurity": 90,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 67.8,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "ardenn-intrepid-archaeologist-francisco-fowl-marauder-edhrec-momentum-2026-10-16",
+      "findingType": "discovery_signal",
+      "title": "Ardenn, Intrepid Archaeologist // Francisco, Fowl Marauder is moving above its recent baseline",
+      "summary": "Ardenn, Intrepid Archaeologist // Francisco, Fowl Marauder moved 97 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/ardenn-intrepid-archaeologist-francisco-fowl-marauder",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-16",
+      "observedAt": "2026-10-16T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Ardenn, Intrepid Archaeologist // Francisco, Fowl Marauder",
+          "slug": "ardenn-intrepid-archaeologist-francisco-fowl-marauder",
+          "scryfallId": "728b802c-969b-4865-b7a0-871c585d097a"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 4628,
+        "deckCount": 22,
+        "asOf": "2026-10-16"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "af1be757076f6cd765dc75f91214d57a6af88f49219c6d60e625a4cb3eca3e9e",
+      "score": {
+        "total": 36.2,
+        "components": {
+          "obscurity": 87.9,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "hela-mistress-of-darkness-edhrec-momentum-2026-10-16",
       "findingType": "discovery_signal",
       "title": "Hela, Mistress of Darkness is moving above its recent baseline",
-      "summary": "Hela, Mistress of Darkness moved 202 rank places while adding 11 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Hela, Mistress of Darkness moved 140 rank places while adding 10 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -461,8 +460,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-14",
-      "observedAt": "2026-10-14T00:00:00.000Z",
+      "publishedAt": "2026-10-16",
+      "observedAt": "2026-10-16T00:00:00.000Z",
       "commanders": [
         {
           "name": "Hela, Mistress of Darkness",
@@ -486,20 +485,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 3859,
-        "deckCount": 54,
-        "asOf": "2026-10-14"
+        "edhrecRank": 3719,
+        "deckCount": 64,
+        "asOf": "2026-10-16"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "a97c98b5212265f6f031e4ee6bd86835908fd532bdefc093459d0fe01947ec41",
+      "fingerprint": "7902c19105be3fb9f37d8eaf13b3ce64405d86ce0dd5a8d9ff2c726099a81a5c",
       "score": {
-        "total": 35.2,
+        "total": 35,
         "components": {
-          "obscurity": 84.4,
+          "obscurity": 83.7,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -513,10 +512,10 @@
       }
     },
     {
-      "id": "gargantos-the-endbringer-edhrec-momentum-2026-10-14",
+      "id": "gargantos-the-endbringer-edhrec-momentum-2026-10-16",
       "findingType": "discovery_signal",
       "title": "Gargantos, the Endbringer is moving above its recent baseline",
-      "summary": "Gargantos, the Endbringer moved 127 rank places while adding 32 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Gargantos, the Endbringer moved 165 rank places while adding 48 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -524,8 +523,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-14",
-      "observedAt": "2026-10-14T00:00:00.000Z",
+      "publishedAt": "2026-10-16",
+      "observedAt": "2026-10-16T00:00:00.000Z",
       "commanders": [
         {
           "name": "Gargantos, the Endbringer",
@@ -549,20 +548,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 2844,
-        "deckCount": 207,
-        "asOf": "2026-10-14"
+        "edhrecRank": 2679,
+        "deckCount": 255,
+        "asOf": "2026-10-16"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "3cfa5195964dee57ba2bcd9cee6f3969126da89fe0662f7dabd29269553a6539",
+      "fingerprint": "417fc21d2ba80e2b0e82de05500189f360e7dd325e41b2781cc8a4d0da3e92e7",
       "score": {
-        "total": 33.6,
+        "total": 33.3,
         "components": {
-          "obscurity": 79.2,
+          "obscurity": 78.3,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -576,10 +575,10 @@
       }
     },
     {
-      "id": "magik-illyana-rasputin-edhrec-momentum-2026-10-14",
+      "id": "magik-illyana-rasputin-edhrec-momentum-2026-10-16",
       "findingType": "discovery_signal",
       "title": "Magik, Illyana Rasputin is moving above its recent baseline",
-      "summary": "Magik, Illyana Rasputin moved 198 rank places while adding 69 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Magik, Illyana Rasputin moved 118 rank places while adding 61 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -587,8 +586,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-14",
-      "observedAt": "2026-10-14T00:00:00.000Z",
+      "publishedAt": "2026-10-16",
+      "observedAt": "2026-10-16T00:00:00.000Z",
       "commanders": [
         {
           "name": "Magik, Illyana Rasputin",
@@ -612,20 +611,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 2571,
-        "deckCount": 294,
-        "asOf": "2026-10-14"
+        "edhrecRank": 2453,
+        "deckCount": 355,
+        "asOf": "2026-10-16"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "c8ec09406282f7d873f650e8d40f9cc144788f6574085bab11d5da44ea36b1a5",
+      "fingerprint": "a254b7c5bf4d350bad46f2c6585d6061b24038b068a8377ba4deb4071930e11d",
       "score": {
-        "total": 33.2,
+        "total": 32.9,
         "components": {
-          "obscurity": 77.8,
+          "obscurity": 76.9,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
