@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0d0cef0b5045d286",
-  "generatedAt": "2026-10-16T14:49:27.074Z",
+  "dataVersion": "0912e2c7a928fc72",
+  "generatedAt": "2026-10-17T13:42:14.764Z",
   "files": {
     "findings.json": {
-      "sha256": "7d6e5a3a9fbc3e18a7a45357ac653375b77f8e297a0a0d0440c0d70419fd5482",
-      "bytes": 99546
+      "sha256": "43a4ef6e82dada49d905c2b2cccdc027ecb29df224c89b2af240cc21a8b39437",
+      "bytes": 78097
     },
     "commanders.json": {
-      "sha256": "29a776ab407e274e3bc4a7c77ab7a1b784d117776423ec09cb92394e7bb06272",
-      "bytes": 1498293
+      "sha256": "a964d1549e2dbb798a82062c5179559fd2bd99032fda39405791e1e08ce6b733",
+      "bytes": 1501996
     },
     "commander-detail.json": {
       "sha256": "efe5df9314b80c90e082f2765684b411d937e8eb6157c6db700d48ca8e8cad54",
@@ -28,7 +28,7 @@
       "bytes": 77530
     },
     "archive.json": {
-      "sha256": "66d35f869d5ad920b0b09d71005a422ae013848b18ba2bae494f400a67c8ce91",
+      "sha256": "b99671e4affec916ae06a380ac7d68c44798590d358b6f5d6d0b1453bcafaf19",
       "bytes": 95289
     }
   }
