@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T07:44:47.813Z",
+  "updatedAt": "2026-10-18T07:46:16.386Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -918,6 +918,46 @@
       "firstSeenAt": "2026-10-16",
       "lastSeenAt": "2026-10-16",
       "reason": "in band at 1,008, but the EDHREC 60-to-100 Jund conversion runs it on Life from the Loam and discard-a-land, its established lands/discard identity; reasoned, no games, not off-meta"
+    },
+    {
+      "slug": "zurzoth-chaos-rider",
+      "name": "Zurzoth, Chaos Rider",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-18",
+      "lastSeenAt": "2026-10-18",
+      "reason": "in band at 765 with momentum 49.6, but the only read is an EDHREC spooky-month Devil typal build: burn plus damage doublers, the on-theme plan with no surprising mechanical claim and no games"
+    },
+    {
+      "slug": "the-wandering-minstrel",
+      "name": "The Wandering Minstrel",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-18",
+      "lastSeenAt": "2026-10-18",
+      "reason": "rank 67, meta baseline; its cEDH Brewer's Corner lands-combo entry (last updated 2026-02-16) does not change that"
+    },
+    {
+      "slug": "ob-nixilis-captive-kingpin",
+      "name": "Ob Nixilis, Captive Kingpin",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-18",
+      "lastSeenAt": "2026-10-18",
+      "reason": "rank 226, meta baseline; EDHREC hot/cold inclusion-rate column"
+    },
+    {
+      "slug": "kenrith-the-returned-king",
+      "name": "Kenrith, the Returned King",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-18",
+      "lastSeenAt": "2026-10-18",
+      "reason": "rank 22, meta baseline; EDHREC Commander Makeover column"
+    },
+    {
+      "slug": "whtz-the-bibliophile",
+      "name": "Whtz, the Bibliophile",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-18",
+      "lastSeenAt": "2026-10-18",
+      "reason": "rank 450, meta baseline; MTGGoldfish Commander Clash gameplay episode with four lists and no written reasoning"
     }
   ],
   "sources": [
@@ -1588,6 +1628,48 @@
       "firstSeenAt": "2026-10-16",
       "lastSeenAt": "2026-10-16",
       "reason": "Ur-Sphinx deck tech; commander already archived, and EDHLab is not on the approved list in docs/SOURCES.md, so not opened"
+    },
+    {
+      "name": "https://edhrec.com/articles/zurzoth-chaos-rider-i-a-devilish-typal-deck/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-18",
+      "lastSeenAt": "2026-10-18",
+      "reason": "straightforward Devil typal build on Zurzoth; themed, no surprising claim"
+    },
+    {
+      "name": "https://edhrec.com/articles/which-cards-are-hot-and-cold-for-ob-nixilis-captive-kingpin-fire-and-ice/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-18",
+      "lastSeenAt": "2026-10-18",
+      "reason": "hot/cold inclusion-rate column on a meta-baseline commander (rank 226)"
+    },
+    {
+      "name": "https://edhrec.com/articles/kenrith-the-returned-king-commander-makeover/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-18",
+      "lastSeenAt": "2026-10-18",
+      "reason": "makeover column on Kenrith, rank 22, meta baseline"
+    },
+    {
+      "name": "https://edhrec.com/articles/top-10-forests/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-18",
+      "lastSeenAt": "2026-10-18",
+      "reason": "card top-ten list; no commander thesis"
+    },
+    {
+      "name": "https://edhrec.com/articles/salt-vote-results-2026/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-18",
+      "lastSeenAt": "2026-10-18",
+      "reason": "salt-score results; no commander thesis"
+    },
+    {
+      "name": "https://www.mtggoldfish.com/articles/battle-of-whtz-commander-clash-s20-e23",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-18",
+      "lastSeenAt": "2026-10-18",
+      "reason": "gameplay episode, four Whtz lists (rank 450, meta), no written reasoning"
     }
   ]
 }
