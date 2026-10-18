@@ -2,6 +2,646 @@
   "schemaVersion": 1,
   "findings": [
     {
+      "id": "breeches-brazen-plunderer-kodama-of-the-east-tree-edhrec-momentum-2026-10-18",
+      "findingType": "discovery_signal",
+      "title": "Breeches, Brazen Plunderer // Kodama of the East Tree is moving above its recent baseline",
+      "summary": "Breeches, Brazen Plunderer // Kodama of the East Tree moved 77 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/breeches-brazen-plunderer-kodama-of-the-east-tree",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-18",
+      "observedAt": "2026-10-18T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Breeches, Brazen Plunderer // Kodama of the East Tree",
+          "slug": "breeches-brazen-plunderer-kodama-of-the-east-tree",
+          "scryfallId": "fb6dc94e-9b57-4161-a835-15e46c3bb13a"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 5332,
+        "deckCount": 10,
+        "asOf": "2026-10-18"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "12473a6ce5f2a10139be2a2a1f15c4ed9599190570cdadf0c754a93dc76ab0ec",
+      "score": {
+        "total": 47.2,
+        "components": {
+          "obscurity": 91,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "the-masters-of-evil-edhrec-momentum-2026-10-18",
+      "findingType": "discovery_signal",
+      "title": "The Masters of Evil is moving above its recent baseline",
+      "summary": "The Masters of Evil moved 91 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/the-masters-of-evil",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-18",
+      "observedAt": "2026-10-18T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "The Masters of Evil",
+          "slug": "the-masters-of-evil",
+          "scryfallId": "65ba4439-3282-4179-85b9-67a25e2e5d24"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 5390,
+        "deckCount": 10,
+        "asOf": "2026-10-18"
+      },
+      "movement": {
+        "7d": 88.9,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "762b2a8c4adbfb9725fc4d7e1d3ecb3714bf261c1398a850b5634a52ce1cf62c",
+      "score": {
+        "total": 47.2,
+        "components": {
+          "obscurity": 91,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "black-panther-claws-of-bast-edhrec-momentum-2026-10-18",
+      "findingType": "discovery_signal",
+      "title": "Black Panther, Claws of Bast is moving above its recent baseline",
+      "summary": "Black Panther, Claws of Bast moved 121 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/black-panther-claws-of-bast",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-18",
+      "observedAt": "2026-10-18T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Black Panther, Claws of Bast",
+          "slug": "black-panther-claws-of-bast",
+          "scryfallId": "4cb5a5ad-35fb-4e90-bc8b-d70a9d3bfba7"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 5040,
+        "deckCount": 15,
+        "asOf": "2026-10-18"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "0214d9ebc801d66e298a7b4e592564d262f495a49b33f588527cfa23d71ec04d",
+      "score": {
+        "total": 46.7,
+        "components": {
+          "obscurity": 89.4,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "alena-kessig-trapper-anara-wolvid-familiar-edhrec-momentum-2026-10-18",
+      "findingType": "discovery_signal",
+      "title": "Alena, Kessig Trapper // Anara, Wolvid Familiar is moving above its recent baseline",
+      "summary": "Alena, Kessig Trapper // Anara, Wolvid Familiar moved 118 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/alena-kessig-trapper-anara-wolvid-familiar",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-18",
+      "observedAt": "2026-10-18T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Alena, Kessig Trapper // Anara, Wolvid Familiar",
+          "slug": "alena-kessig-trapper-anara-wolvid-familiar",
+          "scryfallId": "90c51949-b1ef-4c6e-98b0-4fb33a81db24"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 4935,
+        "deckCount": 16,
+        "asOf": "2026-10-18"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "1ab5d4355f561284d3c225626541efb23a31879d3fbef3fa32ed70b8491f66ee",
+      "score": {
+        "total": 46.6,
+        "components": {
+          "obscurity": 89.2,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "thalia-the-survivor-edhrec-momentum-2026-10-18",
+      "findingType": "discovery_signal",
+      "title": "Thalia, the Survivor is moving above its recent baseline",
+      "summary": "Thalia, the Survivor moved 168 rank places while adding 3 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/thalia-the-survivor",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-18",
+      "observedAt": "2026-10-18T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Thalia, the Survivor",
+          "slug": "thalia-the-survivor",
+          "scryfallId": "80226231-9e70-430e-aabc-f262f70b9226"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 4757,
+        "deckCount": 20,
+        "asOf": "2026-10-18"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "edb69aed871badca1fd3bfe168604ffd68cdd6cbd0c3df18cab4496742e9393f",
+      "score": {
+        "total": 46.3,
+        "components": {
+          "obscurity": 88.3,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "arni-renowned-champion-edhrec-momentum-2026-10-18",
+      "findingType": "discovery_signal",
+      "title": "Arni, Renowned Champion is moving above its recent baseline",
+      "summary": "Arni, Renowned Champion moved 134 rank places while adding 3 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/arni-renowned-champion",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-18",
+      "observedAt": "2026-10-18T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Arni, Renowned Champion",
+          "slug": "arni-renowned-champion",
+          "scryfallId": "bd8db649-1dba-457d-8327-e1f1da1aab36"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 4543,
+        "deckCount": 25,
+        "asOf": "2026-10-18"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "33b67b98f968258678d05c8ae3f1b7f08504776cd1f3096339f37b20ea4d9433",
+      "score": {
+        "total": 46.1,
+        "components": {
+          "obscurity": 87.4,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "justice-vance-astrovik-edhrec-momentum-2026-10-18",
+      "findingType": "discovery_signal",
+      "title": "Justice, Vance Astrovik is moving above its recent baseline",
+      "summary": "Justice, Vance Astrovik moved 90 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/justice-vance-astrovik",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-18",
+      "observedAt": "2026-10-18T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Justice, Vance Astrovik",
+          "slug": "justice-vance-astrovik",
+          "scryfallId": "f1448731-d50e-4b9c-8eb2-3d85c21516c6"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 4581,
+        "deckCount": 24,
+        "asOf": "2026-10-18"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "f6e915119aec043e8c13dd39ee57e1caccdf5a7b5f31e17a850d48da32e18e00",
+      "score": {
+        "total": 46.1,
+        "components": {
+          "obscurity": 87.6,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "the-seventh-doctor-graham-obrien-edhrec-momentum-2026-10-18",
+      "findingType": "discovery_signal",
+      "title": "The Seventh Doctor // Graham O'Brien is moving above its recent baseline",
+      "summary": "The Seventh Doctor // Graham O'Brien moved 83 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/the-seventh-doctor-graham-obrien",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-18",
+      "observedAt": "2026-10-18T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "The Seventh Doctor // Graham O'Brien",
+          "slug": "the-seventh-doctor-graham-obrien",
+          "scryfallId": "8dd6bfb3-1338-4ee6-9281-30a7428200d2"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 5377,
+        "deckCount": 10,
+        "asOf": "2026-10-18"
+      },
+      "movement": {
+        "7d": 86.4,
+        "30d": 66.4,
+        "90d": 66.4
+      },
+      "fingerprint": "de9aab779c987e7a7bb2c5fd57e53d90ee35ccbde5161277988286bc6ad73391",
+      "score": {
+        "total": 45.8,
+        "components": {
+          "obscurity": 91,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 86.4,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "tomik-izzet-sparkmage-edhrec-momentum-2026-10-18",
+      "findingType": "discovery_signal",
+      "title": "Tomik, Izzet Sparkmage is moving above its recent baseline",
+      "summary": "Tomik, Izzet Sparkmage moved 82 rank places while adding 4 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/tomik-izzet-sparkmage",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-18",
+      "observedAt": "2026-10-18T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Tomik, Izzet Sparkmage",
+          "slug": "tomik-izzet-sparkmage",
+          "scryfallId": "5c5afd5f-6f37-4c3e-83f0-68fdcea98810"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 4065,
+        "deckCount": 43,
+        "asOf": "2026-10-18"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "e78e20c7d7262c0021535b1c82cc9764c5f4859d2d7aff8dc1b1ccc4d618f624",
+      "score": {
+        "total": 45.5,
+        "components": {
+          "obscurity": 85.3,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "gargantos-the-endbringer-edhrec-momentum-2026-10-18",
+      "findingType": "discovery_signal",
+      "title": "Gargantos, the Endbringer is moving above its recent baseline",
+      "summary": "Gargantos, the Endbringer moved 126 rank places while adding 50 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/gargantos-the-endbringer",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-18",
+      "observedAt": "2026-10-18T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Gargantos, the Endbringer",
+          "slug": "gargantos-the-endbringer",
+          "scryfallId": "60b48730-3590-4c8c-b0e8-6007bb36d6b6"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 2553,
+        "deckCount": 305,
+        "asOf": "2026-10-18"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "1da7efca376ec62aef748021ac95d6d4db1981c08e2e211e0848d0759fd28962",
+      "score": {
+        "total": 43.1,
+        "components": {
+          "obscurity": 77.6,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
       "id": "loot-the-anomaly-inverted-voltron-2026-10-14",
       "findingType": "deep_dive_resource",
       "title": "Loot, the Anomaly hits harder the smaller he gets, so symmetrical shrink effects become a one-sided pump",

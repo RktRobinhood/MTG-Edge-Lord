@@ -2,6 +2,131 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "alena-kessig-trapper-anara-wolvid-familiar",
+      "name": "Alena, Kessig Trapper // Anara, Wolvid Familiar",
+      "firstSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-18",
+      "findingIds": [
+        "alena-kessig-trapper-anara-wolvid-familiar-edhrec-momentum-2026-10-18"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/alena-kessig-trapper-anara-wolvid-familiar",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4935,
+        "deckCount": 16,
+        "asOf": "2026-10-18"
+      }
+    },
+    {
+      "slug": "breeches-brazen-plunderer-kodama-of-the-east-tree",
+      "name": "Breeches, Brazen Plunderer // Kodama of the East Tree",
+      "firstSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-18",
+      "findingIds": [
+        "breeches-brazen-plunderer-kodama-of-the-east-tree-edhrec-momentum-2026-10-18"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/breeches-brazen-plunderer-kodama-of-the-east-tree",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5332,
+        "deckCount": 10,
+        "asOf": "2026-10-18"
+      }
+    },
+    {
+      "slug": "justice-vance-astrovik",
+      "name": "Justice, Vance Astrovik",
+      "firstSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-18",
+      "findingIds": [
+        "justice-vance-astrovik-edhrec-momentum-2026-10-18"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/justice-vance-astrovik",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4581,
+        "deckCount": 24,
+        "asOf": "2026-10-18"
+      }
+    },
+    {
+      "slug": "the-masters-of-evil",
+      "name": "The Masters of Evil",
+      "firstSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-18",
+      "findingIds": [
+        "the-masters-of-evil-edhrec-momentum-2026-10-18"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/the-masters-of-evil",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5390,
+        "deckCount": 10,
+        "asOf": "2026-10-18"
+      }
+    },
+    {
+      "slug": "the-seventh-doctor-graham-obrien",
+      "name": "The Seventh Doctor // Graham O'Brien",
+      "firstSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-18",
+      "findingIds": [
+        "the-seventh-doctor-graham-obrien-edhrec-momentum-2026-10-18"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/the-seventh-doctor-graham-obrien",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5377,
+        "deckCount": 10,
+        "asOf": "2026-10-18"
+      }
+    },
+    {
       "slug": "ardenn-intrepid-archaeologist-francisco-fowl-marauder",
       "name": "Ardenn, Intrepid Archaeologist // Francisco, Fowl Marauder",
       "firstSurfacedAt": "2026-10-16",
@@ -30,11 +155,12 @@
       "slug": "arni-renowned-champion",
       "name": "Arni, Renowned Champion",
       "firstSurfacedAt": "2026-10-16",
-      "lastSurfacedAt": "2026-10-16",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
-        "arni-renowned-champion-edhrec-momentum-2026-10-16"
+        "arni-renowned-champion-edhrec-momentum-2026-10-16",
+        "arni-renowned-champion-edhrec-momentum-2026-10-18"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -206,7 +332,7 @@
       "slug": "loot-the-anomaly",
       "name": "Loot, the Anomaly",
       "firstSurfacedAt": "2026-10-14",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "loot-the-anomaly-inverted-voltron-2026-10-14"
       ],
@@ -381,14 +507,15 @@
       "slug": "gargantos-the-endbringer",
       "name": "Gargantos, the Endbringer",
       "firstSurfacedAt": "2026-10-12",
-      "lastSurfacedAt": "2026-10-16",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "gargantos-the-endbringer-edhrec-momentum-2026-10-12",
         "gargantos-the-endbringer-edhrec-momentum-2026-10-13",
         "gargantos-the-endbringer-edhrec-momentum-2026-10-14",
-        "gargantos-the-endbringer-edhrec-momentum-2026-10-16"
+        "gargantos-the-endbringer-edhrec-momentum-2026-10-16",
+        "gargantos-the-endbringer-edhrec-momentum-2026-10-18"
       ],
-      "timesSurfaced": 4,
+      "timesSurfaced": 5,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -1297,12 +1424,13 @@
       "slug": "thalia-the-survivor",
       "name": "Thalia, the Survivor",
       "firstSurfacedAt": "2026-10-06",
-      "lastSurfacedAt": "2026-10-09",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "thalia-the-survivor-edhrec-momentum-2026-10-06",
-        "thalia-the-survivor-edhrec-momentum-2026-10-09"
+        "thalia-the-survivor-edhrec-momentum-2026-10-09",
+        "thalia-the-survivor-edhrec-momentum-2026-10-18"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -1473,11 +1601,12 @@
       "slug": "black-panther-claws-of-bast",
       "name": "Black Panther, Claws of Bast",
       "firstSurfacedAt": "2026-10-04",
-      "lastSurfacedAt": "2026-10-04",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
-        "black-panther-claws-of-bast-edhrec-momentum-2026-10-04"
+        "black-panther-claws-of-bast-edhrec-momentum-2026-10-04",
+        "black-panther-claws-of-bast-edhrec-momentum-2026-10-18"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -1703,14 +1832,15 @@
       "slug": "tomik-izzet-sparkmage",
       "name": "Tomik, Izzet Sparkmage",
       "firstSurfacedAt": "2026-10-03",
-      "lastSurfacedAt": "2026-10-11",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "tomik-izzet-sparkmage-edhrec-momentum-2026-10-03",
         "tomik-izzet-sparkmage-edhrec-momentum-2026-10-04",
         "tomik-izzet-sparkmage-edhrec-momentum-2026-10-05",
-        "tomik-izzet-sparkmage-edhrec-momentum-2026-10-11"
+        "tomik-izzet-sparkmage-edhrec-momentum-2026-10-11",
+        "tomik-izzet-sparkmage-edhrec-momentum-2026-10-18"
       ],
-      "timesSurfaced": 4,
+      "timesSurfaced": 5,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -2155,7 +2285,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -2704,7 +2834,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -2757,7 +2887,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -2782,7 +2912,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -2924,7 +3054,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -2949,7 +3079,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -2974,7 +3104,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -3026,7 +3156,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -3059,7 +3189,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -3109,7 +3239,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -3164,7 +3294,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -3189,7 +3319,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -3240,7 +3370,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -3265,7 +3395,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -3300,7 +3430,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-10-17",
+      "lastSurfacedAt": "2026-10-18",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
