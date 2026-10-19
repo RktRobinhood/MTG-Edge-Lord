@@ -2,6 +2,231 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "akiri-line-slinger-ghost-of-ramirez-depietro",
+      "name": "Akiri, Line-Slinger // Ghost of Ramirez DePietro",
+      "firstSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-19",
+      "findingIds": [
+        "akiri-line-slinger-ghost-of-ramirez-depietro-edhrec-momentum-2026-10-19"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/akiri-line-slinger-ghost-of-ramirez-depietro",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 6033,
+        "deckCount": 4,
+        "asOf": "2026-10-19"
+      }
+    },
+    {
+      "slug": "alena-kessig-trapper-siani-eye-of-the-storm",
+      "name": "Alena, Kessig Trapper // Siani, Eye of the Storm",
+      "firstSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-19",
+      "findingIds": [
+        "alena-kessig-trapper-siani-eye-of-the-storm-edhrec-momentum-2026-10-19"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/alena-kessig-trapper-siani-eye-of-the-storm",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 6068,
+        "deckCount": 4,
+        "asOf": "2026-10-19"
+      }
+    },
+    {
+      "slug": "doctor-strange-master-of-magic",
+      "name": "Doctor Strange, Master of Magic",
+      "firstSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-19",
+      "findingIds": [
+        "doctor-strange-master-of-magic-edhrec-momentum-2026-10-19"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/doctor-strange-master-of-magic",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4806,
+        "deckCount": 19,
+        "asOf": "2026-10-19"
+      }
+    },
+    {
+      "slug": "jeska-thrice-reborn-miara-thorn-of-the-glade",
+      "name": "Jeska, Thrice Reborn // Miara, Thorn of the Glade",
+      "firstSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-19",
+      "findingIds": [
+        "jeska-thrice-reborn-miara-thorn-of-the-glade-edhrec-momentum-2026-10-19"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/jeska-thrice-reborn-miara-thorn-of-the-glade",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 6068,
+        "deckCount": 4,
+        "asOf": "2026-10-19"
+      }
+    },
+    {
+      "slug": "keleth-sunmane-familiar-tevesh-szat-doom-of-fools",
+      "name": "Keleth, Sunmane Familiar // Tevesh Szat, Doom of Fools",
+      "firstSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-19",
+      "findingIds": [
+        "keleth-sunmane-familiar-tevesh-szat-doom-of-fools-edhrec-momentum-2026-10-19"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/keleth-sunmane-familiar-tevesh-szat-doom-of-fools",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5610,
+        "deckCount": 7,
+        "asOf": "2026-10-19"
+      }
+    },
+    {
+      "slug": "livaan-cultist-of-tiamat-candlekeep-sage",
+      "name": "Livaan, Cultist of Tiamat // Candlekeep Sage",
+      "firstSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-19",
+      "findingIds": [
+        "livaan-cultist-of-tiamat-candlekeep-sage-edhrec-momentum-2026-10-19"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/livaan-cultist-of-tiamat-candlekeep-sage",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5648,
+        "deckCount": 7,
+        "asOf": "2026-10-19"
+      }
+    },
+    {
+      "slug": "rasaad-yn-bashir-hardy-outlander",
+      "name": "Rasaad yn Bashir // Hardy Outlander",
+      "firstSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-19",
+      "findingIds": [
+        "rasaad-yn-bashir-hardy-outlander-edhrec-momentum-2026-10-19"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/rasaad-yn-bashir-hardy-outlander",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 6343,
+        "deckCount": 3,
+        "asOf": "2026-10-19"
+      }
+    },
+    {
+      "slug": "the-eighth-doctor-graham-obrien",
+      "name": "The Eighth Doctor // Graham O'Brien",
+      "firstSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-19",
+      "findingIds": [
+        "the-eighth-doctor-graham-obrien-edhrec-momentum-2026-10-19"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/the-eighth-doctor-graham-obrien",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5846,
+        "deckCount": 6,
+        "asOf": "2026-10-19"
+      }
+    },
+    {
+      "slug": "the-second-doctor-nardole-resourceful-cyborg",
+      "name": "The Second Doctor // Nardole, Resourceful Cyborg",
+      "firstSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-19",
+      "findingIds": [
+        "the-second-doctor-nardole-resourceful-cyborg-edhrec-momentum-2026-10-19"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/the-second-doctor-nardole-resourceful-cyborg",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5565,
+        "deckCount": 8,
+        "asOf": "2026-10-19"
+      }
+    },
+    {
       "slug": "alena-kessig-trapper-anara-wolvid-familiar",
       "name": "Alena, Kessig Trapper // Anara, Wolvid Familiar",
       "firstSurfacedAt": "2026-10-18",
@@ -332,7 +557,7 @@
       "slug": "loot-the-anomaly",
       "name": "Loot, the Anomaly",
       "firstSurfacedAt": "2026-10-14",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "loot-the-anomaly-inverted-voltron-2026-10-14"
       ],
@@ -968,11 +1193,12 @@
       "slug": "yoshimaru-scrappy-stray",
       "name": "Yoshimaru, Scrappy Stray",
       "firstSurfacedAt": "2026-10-09",
-      "lastSurfacedAt": "2026-10-09",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
-        "yoshimaru-scrappy-stray-edhrec-momentum-2026-10-09"
+        "yoshimaru-scrappy-stray-edhrec-momentum-2026-10-09",
+        "yoshimaru-scrappy-stray-edhrec-momentum-2026-10-19"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -2285,7 +2511,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -2834,7 +3060,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -2887,7 +3113,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -2912,7 +3138,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -3054,7 +3280,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -3079,7 +3305,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -3104,7 +3330,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -3156,7 +3382,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -3189,7 +3415,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -3239,7 +3465,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -3294,7 +3520,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -3319,7 +3545,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -3370,7 +3596,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -3395,7 +3621,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -3430,7 +3656,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-19",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
