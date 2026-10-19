@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T07:46:16.386Z",
+  "updatedAt": "2026-10-19T07:45:15.367Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -958,6 +958,30 @@
       "firstSeenAt": "2026-10-18",
       "lastSeenAt": "2026-10-18",
       "reason": "rank 450, meta baseline; MTGGoldfish Commander Clash gameplay episode with four lists and no written reasoning"
+    },
+    {
+      "slug": "agrus-kos-eternal-soldier",
+      "name": "Agrus Kos, Eternal Soldier",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-19",
+      "lastSeenAt": "2026-10-19",
+      "reason": "in band at 1,666 and a genuinely flexible engine (equipment, land and planeswalker abilities all copy), but the only effort source is a December 2022 launch-week SCG deep dive with no games; no current primer or per-card notes. Re-check if someone writes one"
+    },
+    {
+      "slug": "gwenna-eyes-of-gaea",
+      "name": "Gwenna, Eyes of Gaea",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-19",
+      "lastSeenAt": "2026-10-19",
+      "reason": "in band at 1,834, but one-track creature-only ramp into big stompy; sources are a 2022 review, generated guide sites and a Draftsim underrated listicle"
+    },
+    {
+      "slug": "arcades-the-strategist",
+      "name": "Arcades, the Strategist",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-19",
+      "lastSeenAt": "2026-10-19",
+      "reason": "rank 41, meta baseline; named in an Uncommon Realm tribal listicle"
     }
   ],
   "sources": [
@@ -1670,6 +1694,34 @@
       "firstSeenAt": "2026-10-18",
       "lastSeenAt": "2026-10-18",
       "reason": "gameplay episode, four Whtz lists (rank 450, meta), no written reasoning"
+    },
+    {
+      "name": "https://articles.starcitygames.com/magic-the-gathering/commander-deep-dive-agrus-kos-eternal-soldier/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-19",
+      "lastSeenAt": "2026-10-19",
+      "reason": "Bennie Smith 2022-12-05 first-look deep dive on Agrus Kos; reasoned but theorycraft, nearly four years old"
+    },
+    {
+      "name": "https://archidekt.com/decks/15479221/agrus_kos_eternal_soldier",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-19",
+      "lastSeenAt": "2026-10-19",
+      "reason": "Agrus Kos list with empty description and no per-card notes"
+    },
+    {
+      "name": "https://draftsim.com/mtg-underrated-commanders/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-19",
+      "lastSeenAt": "2026-10-19",
+      "reason": "underrated-commanders listicle; mentions only"
+    },
+    {
+      "name": "https://www.coolstuffinc.com/a/stephenjohnson-12122022-gwenna-eyes-of-gaea-in-commander",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-19",
+      "lastSeenAt": "2026-10-19",
+      "reason": "2022 set-release Gwenna review; one-track stompy"
     }
   ]
 }
