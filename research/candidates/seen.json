@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T07:45:15.367Z",
+  "updatedAt": "2026-10-20T07:45:09.413Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -982,6 +982,30 @@
       "firstSeenAt": "2026-10-19",
       "lastSeenAt": "2026-10-19",
       "reason": "rank 41, meta baseline; named in an Uncommon Realm tribal listicle"
+    },
+    {
+      "slug": "crosis-the-purger",
+      "name": "Crosis, the Purger",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-20",
+      "lastSeenAt": "2026-10-20",
+      "reason": "in band at 1,590, but the only read is an EDHREC Bracket 3 discard build deliberately softened to let opponents choose; discard is already its listed theme, no games, commander left to a reader vote"
+    },
+    {
+      "slug": "nicol-bolas",
+      "name": "Nicol Bolas",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-20",
+      "lastSeenAt": "2026-10-20",
+      "reason": "in band at 1,399, the other half of the same EDHREC reader-vote Grixis discard column; on-theme, not a new idea"
+    },
+    {
+      "slug": "amalia-benavides-aguirre",
+      "name": "Amalia Benavides Aguirre",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-20",
+      "lastSeenAt": "2026-10-20",
+      "reason": "rank 498, meta baseline; Panzer MTG lifegain video guide on Archidekt"
     }
   ],
   "sources": [
@@ -1722,6 +1746,34 @@
       "firstSeenAt": "2026-10-19",
       "lastSeenAt": "2026-10-19",
       "reason": "2022 set-release Gwenna review; one-track stompy"
+    },
+    {
+      "name": "https://edhrec.com/articles/making-grixis-discard-fun/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-20",
+      "lastSeenAt": "2026-10-20",
+      "reason": "reasoned but intentionally defanged Bracket 3 discard deck on Crosis or Nicol Bolas; on-theme, untested, not competitive"
+    },
+    {
+      "name": "https://archidekt.com/decks/27482826/weaponizing_lifegain_amalia_video_guide",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-20",
+      "lastSeenAt": "2026-10-20",
+      "reason": "Panzer MTG Amalia list; commander is rank 498, meta baseline"
+    },
+    {
+      "name": "https://edhrec.com/articles/mel-or-vorthos-breaking-down-every-reality-fracture-echo-pair/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-20",
+      "lastSeenAt": "2026-10-20",
+      "reason": "set design analysis of Echo pairs; mentions, no build idea"
+    },
+    {
+      "name": "https://www.mtggoldfish.com/articles/weekly-update-oct-18-no-maximum-deck-size-commander-decks",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-20",
+      "lastSeenAt": "2026-10-20",
+      "reason": "news roundup; no commander thesis"
     }
   ]
 }
