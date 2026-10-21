@@ -2,24 +2,24 @@
   "schemaVersion": 1,
   "findings": [
     {
-      "id": "rasaad-yn-bashir-hardy-outlander-edhrec-momentum-2026-10-19",
+      "id": "halsin-emerald-archdruid-haunted-one-edhrec-momentum-2026-10-21",
       "findingType": "discovery_signal",
-      "title": "Rasaad yn Bashir // Hardy Outlander is moving above its recent baseline",
-      "summary": "Rasaad yn Bashir // Hardy Outlander moved 202 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Halsin, Emerald Archdruid // Haunted One is moving above its recent baseline",
+      "summary": "Halsin, Emerald Archdruid // Haunted One moved 69 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/rasaad-yn-bashir-hardy-outlander",
+        "url": "https://edhrec.com/commanders/halsin-emerald-archdruid-haunted-one",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-19",
-      "observedAt": "2026-10-19T00:00:00.000Z",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-21T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Rasaad yn Bashir // Hardy Outlander",
-          "slug": "rasaad-yn-bashir-hardy-outlander",
-          "scryfallId": "f6597ec7-0fc8-4aa5-a8a6-ea5f95f4ce15"
+          "name": "Halsin, Emerald Archdruid // Haunted One",
+          "slug": "halsin-emerald-archdruid-haunted-one",
+          "scryfallId": "5e185e5c-b6f9-4d36-a6b1-d7315de38fca"
         }
       ],
       "cards": [],
@@ -38,20 +38,84 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 6343,
-        "deckCount": 3,
-        "asOf": "2026-10-19"
+        "edhrecRank": 5364,
+        "deckCount": 10,
+        "asOf": "2026-10-21"
+      },
+      "movement": {
+        "7d": 77.9,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "3c11d744cdfce5bdbda6c26a8985b872cecbaa86b6e866182a5b8f64bd42372e",
+      "score": {
+        "total": 47.2,
+        "components": {
+          "obscurity": 91,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "queen-mother-ramonda-edhrec-momentum-2026-10-21",
+      "findingType": "discovery_signal",
+      "title": "Queen Mother Ramonda is moving above its recent baseline",
+      "summary": "Queen Mother Ramonda moved 158 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/queen-mother-ramonda",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-21T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Queen Mother Ramonda",
+          "slug": "queen-mother-ramonda",
+          "scryfallId": "6b971f0b-42de-46bc-8e26-51eb5be447ec"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 5326,
+        "deckCount": 11,
+        "asOf": "2026-10-21"
       },
       "movement": {
         "7d": 100,
         "30d": 100,
         "90d": 100
       },
-      "fingerprint": "5b30d537e44420db39c1e8f887d454c7a4467b77448e5864a02694b5936ae1b4",
+      "fingerprint": "be5acade98b74680837314f7543f6a5678bc79d13ca785c830331070d2562197",
       "score": {
-        "total": 48.6,
+        "total": 47,
         "components": {
-          "obscurity": 95.7,
+          "obscurity": 90.6,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -66,24 +130,24 @@
       }
     },
     {
-      "id": "akiri-line-slinger-ghost-of-ramirez-depietro-edhrec-momentum-2026-10-19",
+      "id": "uss-enterprise-d-galaxy-class-edhrec-momentum-2026-10-21",
       "findingType": "discovery_signal",
-      "title": "Akiri, Line-Slinger // Ghost of Ramirez DePietro is moving above its recent baseline",
-      "summary": "Akiri, Line-Slinger // Ghost of Ramirez DePietro moved 206 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "U.S.S. Enterprise-D, Galaxy-Class is moving above its recent baseline",
+      "summary": "U.S.S. Enterprise-D, Galaxy-Class moved 114 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/akiri-line-slinger-ghost-of-ramirez-depietro",
+        "url": "https://edhrec.com/commanders/uss-enterprise-d-galaxy-class",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-19",
-      "observedAt": "2026-10-19T00:00:00.000Z",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-21T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Akiri, Line-Slinger // Ghost of Ramirez DePietro",
-          "slug": "akiri-line-slinger-ghost-of-ramirez-depietro",
-          "scryfallId": "3b951e0c-a4dd-4a20-87c6-eaa947e33aa4"
+          "name": "U.S.S. Enterprise-D, Galaxy-Class",
+          "slug": "uss-enterprise-d-galaxy-class",
+          "scryfallId": "057a4413-6a17-491e-bfd7-6cd427b1a442"
         }
       ],
       "cards": [],
@@ -102,20 +166,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 6033,
-        "deckCount": 4,
-        "asOf": "2026-10-19"
+        "edhrecRank": 4866,
+        "deckCount": 18,
+        "asOf": "2026-10-21"
       },
       "movement": {
         "7d": 100,
         "30d": 100,
         "90d": 100
       },
-      "fingerprint": "1401091bd97cfb1a9485f17430fffbcafe6bfee611a4bb514076072c5138e6a1",
+      "fingerprint": "b7304714ca9d0c6247e7ba1105938e1b00362c7d2f64e6c89b6afb0908a53a0b",
       "score": {
-        "total": 48.2,
+        "total": 46.5,
         "components": {
-          "obscurity": 94.6,
+          "obscurity": 88.7,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -130,24 +194,24 @@
       }
     },
     {
-      "id": "jeska-thrice-reborn-miara-thorn-of-the-glade-edhrec-momentum-2026-10-19",
+      "id": "thalia-the-survivor-edhrec-momentum-2026-10-21",
       "findingType": "discovery_signal",
-      "title": "Jeska, Thrice Reborn // Miara, Thorn of the Glade is moving above its recent baseline",
-      "summary": "Jeska, Thrice Reborn // Miara, Thorn of the Glade moved 201 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Thalia, the Survivor is moving above its recent baseline",
+      "summary": "Thalia, the Survivor moved 78 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/jeska-thrice-reborn-miara-thorn-of-the-glade",
+        "url": "https://edhrec.com/commanders/thalia-the-survivor",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-19",
-      "observedAt": "2026-10-19T00:00:00.000Z",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-21T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Jeska, Thrice Reborn // Miara, Thorn of the Glade",
-          "slug": "jeska-thrice-reborn-miara-thorn-of-the-glade",
-          "scryfallId": "48caf4c4-745c-4072-bf3d-1a3fa7c3bc9c"
+          "name": "Thalia, the Survivor",
+          "slug": "thalia-the-survivor",
+          "scryfallId": "80226231-9e70-430e-aabc-f262f70b9226"
         }
       ],
       "cards": [],
@@ -166,20 +230,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 6068,
-        "deckCount": 4,
-        "asOf": "2026-10-19"
+        "edhrecRank": 4635,
+        "deckCount": 23,
+        "asOf": "2026-10-21"
       },
       "movement": {
         "7d": 100,
         "30d": 100,
         "90d": 100
       },
-      "fingerprint": "a512b21bcce935abd027a3c66b5ee5cd7ee5bfa5ab4d3a19d90465b93c818e9c",
+      "fingerprint": "8ee337dfa58955d9b61adef22e58a84af8dbe7903f21386a1f0f3773947997b6",
       "score": {
-        "total": 48.2,
+        "total": 46.2,
         "components": {
-          "obscurity": 94.6,
+          "obscurity": 87.7,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -194,24 +258,24 @@
       }
     },
     {
-      "id": "alena-kessig-trapper-siani-eye-of-the-storm-edhrec-momentum-2026-10-19",
+      "id": "ruric-thar-magecrusher-edhrec-momentum-2026-10-21",
       "findingType": "discovery_signal",
-      "title": "Alena, Kessig Trapper // Siani, Eye of the Storm is moving above its recent baseline",
-      "summary": "Alena, Kessig Trapper // Siani, Eye of the Storm moved 394 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Ruric Thar, Magecrusher is moving above its recent baseline",
+      "summary": "Ruric Thar, Magecrusher moved 78 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/alena-kessig-trapper-siani-eye-of-the-storm",
+        "url": "https://edhrec.com/commanders/ruric-thar-magecrusher",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-19",
-      "observedAt": "2026-10-19T00:00:00.000Z",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-21T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Alena, Kessig Trapper // Siani, Eye of the Storm",
-          "slug": "alena-kessig-trapper-siani-eye-of-the-storm",
-          "scryfallId": "90c51949-b1ef-4c6e-98b0-4fb33a81db24"
+          "name": "Ruric Thar, Magecrusher",
+          "slug": "ruric-thar-magecrusher",
+          "scryfallId": "eed83302-dc2c-45f4-a4bd-af9da51edef5"
         }
       ],
       "cards": [],
@@ -230,20 +294,84 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 6068,
-        "deckCount": 4,
-        "asOf": "2026-10-19"
+        "edhrecRank": 4635,
+        "deckCount": 23,
+        "asOf": "2026-10-21"
+      },
+      "movement": {
+        "7d": 77.6,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "c9ef9a4e86a0c47586c5555febb8a2e7aa93de58530fe28ec903adbd9dccafc2",
+      "score": {
+        "total": 46.2,
+        "components": {
+          "obscurity": 87.7,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "durnan-of-the-yawning-portal-noble-heritage-edhrec-momentum-2026-10-21",
+      "findingType": "discovery_signal",
+      "title": "Durnan of the Yawning Portal // Noble Heritage is moving above its recent baseline",
+      "summary": "Durnan of the Yawning Portal // Noble Heritage moved 108 rank places while adding 3 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/durnan-of-the-yawning-portal-noble-heritage",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-21T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Durnan of the Yawning Portal // Noble Heritage",
+          "slug": "durnan-of-the-yawning-portal-noble-heritage",
+          "scryfallId": "53f287c1-bd17-43fd-b0e3-b52472b0aa70"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 4535,
+        "deckCount": 25,
+        "asOf": "2026-10-21"
       },
       "movement": {
         "7d": 100,
         "30d": 100,
         "90d": 100
       },
-      "fingerprint": "ec3275eabd7f15f71915ea085ba2a4c2fa834d74e13fae11e570c0cb2961488d",
+      "fingerprint": "fbb5195ebfa94dd5f7750a652f2915fa759711e74dcbb1f1a3e0e070f0d36ebc",
       "score": {
-        "total": 48.2,
+        "total": 46.1,
         "components": {
-          "obscurity": 94.6,
+          "obscurity": 87.4,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -258,24 +386,24 @@
       }
     },
     {
-      "id": "the-eighth-doctor-graham-obrien-edhrec-momentum-2026-10-19",
+      "id": "tomik-orzhov-lawmage-edhrec-momentum-2026-10-21",
       "findingType": "discovery_signal",
-      "title": "The Eighth Doctor // Graham O'Brien is moving above its recent baseline",
-      "summary": "The Eighth Doctor // Graham O'Brien moved 155 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Tomik, Orzhov Lawmage is moving above its recent baseline",
+      "summary": "Tomik, Orzhov Lawmage moved 91 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/the-eighth-doctor-graham-obrien",
+        "url": "https://edhrec.com/commanders/tomik-orzhov-lawmage",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-19",
-      "observedAt": "2026-10-19T00:00:00.000Z",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-21T00:00:00.000Z",
       "commanders": [
         {
-          "name": "The Eighth Doctor // Graham O'Brien",
-          "slug": "the-eighth-doctor-graham-obrien",
-          "scryfallId": "a26bf6fd-ced3-4c37-8adb-9a75c6d6d5cc"
+          "name": "Tomik, Orzhov Lawmage",
+          "slug": "tomik-orzhov-lawmage",
+          "scryfallId": "7ca95235-6e54-4ff8-bc2e-6a3d483ff007"
         }
       ],
       "cards": [],
@@ -294,20 +422,84 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 5846,
-        "deckCount": 6,
-        "asOf": "2026-10-19"
+        "edhrecRank": 4587,
+        "deckCount": 24,
+        "asOf": "2026-10-21"
+      },
+      "movement": {
+        "7d": 79.4,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "14d008643cdc0f259b97a45f7c7b30b522ebf161f74521872fdc0638d8d46b13",
+      "score": {
+        "total": 46.1,
+        "components": {
+          "obscurity": 87.6,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "rescue-girl-first-responder-edhrec-momentum-2026-10-21",
+      "findingType": "discovery_signal",
+      "title": "Rescue Girl, First Responder is moving above its recent baseline",
+      "summary": "Rescue Girl, First Responder moved 81 rank places while adding 9 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/rescue-girl-first-responder",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-21T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Rescue Girl, First Responder",
+          "slug": "rescue-girl-first-responder",
+          "scryfallId": "699874e3-1ccf-4a6c-8371-61040de82d08"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 3509,
+        "deckCount": 86,
+        "asOf": "2026-10-21"
       },
       "movement": {
         "7d": 100,
         "30d": 100,
         "90d": 100
       },
-      "fingerprint": "6a9340346580e55f369824debff6010153cbfb1f8d253dd07a49183f9dae02bd",
+      "fingerprint": "c49b4b26ed56c15809c9dbb5b354aa0570603aaa5d11a5898e496637a69a2a25",
       "score": {
-        "total": 47.8,
+        "total": 44.6,
         "components": {
-          "obscurity": 93,
+          "obscurity": 82.6,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -322,24 +514,24 @@
       }
     },
     {
-      "id": "keleth-sunmane-familiar-tevesh-szat-doom-of-fools-edhrec-momentum-2026-10-19",
+      "id": "captain-kathryn-janeway-edhrec-momentum-2026-10-21",
       "findingType": "discovery_signal",
-      "title": "Keleth, Sunmane Familiar // Tevesh Szat, Doom of Fools is moving above its recent baseline",
-      "summary": "Keleth, Sunmane Familiar // Tevesh Szat, Doom of Fools moved 138 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Captain Kathryn Janeway is moving above its recent baseline",
+      "summary": "Captain Kathryn Janeway moved 163 rank places while adding 21 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/keleth-sunmane-familiar-tevesh-szat-doom-of-fools",
+        "url": "https://edhrec.com/commanders/captain-kathryn-janeway",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-19",
-      "observedAt": "2026-10-19T00:00:00.000Z",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-21T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Keleth, Sunmane Familiar // Tevesh Szat, Doom of Fools",
-          "slug": "keleth-sunmane-familiar-tevesh-szat-doom-of-fools",
-          "scryfallId": "fc95324a-9a7f-4ed9-a3da-36a3eca91936"
+          "name": "Captain Kathryn Janeway",
+          "slug": "captain-kathryn-janeway",
+          "scryfallId": "d17ea45c-7f9c-411f-b7d3-ca7100ffe53b"
         }
       ],
       "cards": [],
@@ -358,20 +550,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 5610,
-        "deckCount": 7,
-        "asOf": "2026-10-19"
+        "edhrecRank": 3331,
+        "deckCount": 109,
+        "asOf": "2026-10-21"
       },
       "movement": {
         "7d": 100,
         "30d": 100,
         "90d": 100
       },
-      "fingerprint": "e6e9f625d1fd14e59e193227770bdccba5983c7da7e1b672d5d39bbf6aee36dc",
+      "fingerprint": "a88685cf8ef2271a3d0971e7af57148f43356779b604ddbed2cbbb00d1f0f288",
       "score": {
-        "total": 47.6,
+        "total": 44.4,
         "components": {
-          "obscurity": 92.4,
+          "obscurity": 81.7,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -386,202 +578,10 @@
       }
     },
     {
-      "id": "livaan-cultist-of-tiamat-candlekeep-sage-edhrec-momentum-2026-10-19",
-      "findingType": "discovery_signal",
-      "title": "Livaan, Cultist of Tiamat // Candlekeep Sage is moving above its recent baseline",
-      "summary": "Livaan, Cultist of Tiamat // Candlekeep Sage moved 159 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/livaan-cultist-of-tiamat-candlekeep-sage",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-19",
-      "observedAt": "2026-10-19T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Livaan, Cultist of Tiamat // Candlekeep Sage",
-          "slug": "livaan-cultist-of-tiamat-candlekeep-sage",
-          "scryfallId": "616c5b52-94bc-48e3-8e4f-e2db1eca7536"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 5648,
-        "deckCount": 7,
-        "asOf": "2026-10-19"
-      },
-      "movement": {
-        "7d": 100,
-        "30d": 100,
-        "90d": 100
-      },
-      "fingerprint": "51eded8e36344363e0702bd9abf7d07a9b8e7df52518058f59f4fe6140b6190b",
-      "score": {
-        "total": 47.6,
-        "components": {
-          "obscurity": 92.4,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "the-second-doctor-nardole-resourceful-cyborg-edhrec-momentum-2026-10-19",
-      "findingType": "discovery_signal",
-      "title": "The Second Doctor // Nardole, Resourceful Cyborg is moving above its recent baseline",
-      "summary": "The Second Doctor // Nardole, Resourceful Cyborg moved 121 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/the-second-doctor-nardole-resourceful-cyborg",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-19",
-      "observedAt": "2026-10-19T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "The Second Doctor // Nardole, Resourceful Cyborg",
-          "slug": "the-second-doctor-nardole-resourceful-cyborg",
-          "scryfallId": "568c2687-4381-4954-9cab-f669d1fe6306"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 5565,
-        "deckCount": 8,
-        "asOf": "2026-10-19"
-      },
-      "movement": {
-        "7d": 100,
-        "30d": 95.6,
-        "90d": 95.6
-      },
-      "fingerprint": "97aa40495b115b0a5bc3650a48b1f3eb3f0e0ba3516ebd216977df76f3c3828d",
-      "score": {
-        "total": 47.4,
-        "components": {
-          "obscurity": 91.9,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "yoshimaru-scrappy-stray-edhrec-momentum-2026-10-19",
-      "findingType": "discovery_signal",
-      "title": "Yoshimaru, Scrappy Stray is moving above its recent baseline",
-      "summary": "Yoshimaru, Scrappy Stray moved 135 rank places while adding 1 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/yoshimaru-scrappy-stray",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-19",
-      "observedAt": "2026-10-19T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Yoshimaru, Scrappy Stray",
-          "slug": "yoshimaru-scrappy-stray",
-          "scryfallId": "b8dfd087-2434-42c6-ac4c-1decbcdde2db"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 5591,
-        "deckCount": 8,
-        "asOf": "2026-10-19"
-      },
-      "movement": {
-        "7d": 100,
-        "30d": 100,
-        "90d": 100
-      },
-      "fingerprint": "731a47d3afbe491311bb4e4a9c0344ee91c7e93046029a42e044bb0cd77a292c",
-      "score": {
-        "total": 47.4,
-        "components": {
-          "obscurity": 91.9,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "doctor-strange-master-of-magic-edhrec-momentum-2026-10-19",
+      "id": "doctor-strange-master-of-magic-edhrec-momentum-2026-10-21",
       "findingType": "discovery_signal",
       "title": "Doctor Strange, Master of Magic is moving above its recent baseline",
-      "summary": "Doctor Strange, Master of Magic moved 439 rank places while adding 7 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Doctor Strange, Master of Magic moved 538 rank places while adding 15 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -589,8 +589,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-19",
-      "observedAt": "2026-10-19T00:00:00.000Z",
+      "publishedAt": "2026-10-21",
+      "observedAt": "2026-10-21T00:00:00.000Z",
       "commanders": [
         {
           "name": "Doctor Strange, Master of Magic",
@@ -614,20 +614,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 4806,
-        "deckCount": 19,
-        "asOf": "2026-10-19"
+        "edhrecRank": 4268,
+        "deckCount": 34,
+        "asOf": "2026-10-21"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "3281317da4ab43633fbac11a5b094987b63ab0c16960c4e784d8aa407aece1c6",
+      "fingerprint": "48d88c72a8306740c57a5c6538d6d46ef4d8a0b2939933489c85ce988cde4a1b",
       "score": {
-        "total": 36.4,
+        "total": 35.7,
         "components": {
-          "obscurity": 88.5,
+          "obscurity": 86.2,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,

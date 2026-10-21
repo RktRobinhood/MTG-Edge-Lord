@@ -2,6 +2,131 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "captain-kathryn-janeway",
+      "name": "Captain Kathryn Janeway",
+      "firstSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-21",
+      "findingIds": [
+        "captain-kathryn-janeway-edhrec-momentum-2026-10-21"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/captain-kathryn-janeway",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 3331,
+        "deckCount": 109,
+        "asOf": "2026-10-21"
+      }
+    },
+    {
+      "slug": "durnan-of-the-yawning-portal-noble-heritage",
+      "name": "Durnan of the Yawning Portal // Noble Heritage",
+      "firstSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-21",
+      "findingIds": [
+        "durnan-of-the-yawning-portal-noble-heritage-edhrec-momentum-2026-10-21"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/durnan-of-the-yawning-portal-noble-heritage",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4535,
+        "deckCount": 25,
+        "asOf": "2026-10-21"
+      }
+    },
+    {
+      "slug": "halsin-emerald-archdruid-haunted-one",
+      "name": "Halsin, Emerald Archdruid // Haunted One",
+      "firstSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-21",
+      "findingIds": [
+        "halsin-emerald-archdruid-haunted-one-edhrec-momentum-2026-10-21"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/halsin-emerald-archdruid-haunted-one",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5364,
+        "deckCount": 10,
+        "asOf": "2026-10-21"
+      }
+    },
+    {
+      "slug": "queen-mother-ramonda",
+      "name": "Queen Mother Ramonda",
+      "firstSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-21",
+      "findingIds": [
+        "queen-mother-ramonda-edhrec-momentum-2026-10-21"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/queen-mother-ramonda",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5326,
+        "deckCount": 11,
+        "asOf": "2026-10-21"
+      }
+    },
+    {
+      "slug": "uss-enterprise-d-galaxy-class",
+      "name": "U.S.S. Enterprise-D, Galaxy-Class",
+      "firstSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-21",
+      "findingIds": [
+        "uss-enterprise-d-galaxy-class-edhrec-momentum-2026-10-21"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/uss-enterprise-d-galaxy-class",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4866,
+        "deckCount": 18,
+        "asOf": "2026-10-21"
+      }
+    },
+    {
       "slug": "akiri-line-slinger-ghost-of-ramirez-depietro",
       "name": "Akiri, Line-Slinger // Ghost of Ramirez DePietro",
       "firstSurfacedAt": "2026-10-19",
@@ -55,11 +180,12 @@
       "slug": "doctor-strange-master-of-magic",
       "name": "Doctor Strange, Master of Magic",
       "firstSurfacedAt": "2026-10-19",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
-        "doctor-strange-master-of-magic-edhrec-momentum-2026-10-19"
+        "doctor-strange-master-of-magic-edhrec-momentum-2026-10-19",
+        "doctor-strange-master-of-magic-edhrec-momentum-2026-10-21"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -557,7 +683,7 @@
       "slug": "loot-the-anomaly",
       "name": "Loot, the Anomaly",
       "firstSurfacedAt": "2026-10-14",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "loot-the-anomaly-inverted-voltron-2026-10-14"
       ],
@@ -1495,13 +1621,14 @@
       "slug": "tomik-orzhov-lawmage",
       "name": "Tomik, Orzhov Lawmage",
       "firstSurfacedAt": "2026-10-07",
-      "lastSurfacedAt": "2026-10-14",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "tomik-orzhov-lawmage-edhrec-momentum-2026-10-07",
         "tomik-orzhov-lawmage-edhrec-momentum-2026-10-08",
-        "tomik-orzhov-lawmage-edhrec-momentum-2026-10-14"
+        "tomik-orzhov-lawmage-edhrec-momentum-2026-10-14",
+        "tomik-orzhov-lawmage-edhrec-momentum-2026-10-21"
       ],
-      "timesSurfaced": 3,
+      "timesSurfaced": 4,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -1598,12 +1725,13 @@
       "slug": "rescue-girl-first-responder",
       "name": "Rescue Girl, First Responder",
       "firstSurfacedAt": "2026-10-06",
-      "lastSurfacedAt": "2026-10-13",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "rescue-girl-first-responder-edhrec-momentum-2026-10-06",
-        "rescue-girl-first-responder-edhrec-momentum-2026-10-13"
+        "rescue-girl-first-responder-edhrec-momentum-2026-10-13",
+        "rescue-girl-first-responder-edhrec-momentum-2026-10-21"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -1650,13 +1778,14 @@
       "slug": "thalia-the-survivor",
       "name": "Thalia, the Survivor",
       "firstSurfacedAt": "2026-10-06",
-      "lastSurfacedAt": "2026-10-18",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "thalia-the-survivor-edhrec-momentum-2026-10-06",
         "thalia-the-survivor-edhrec-momentum-2026-10-09",
-        "thalia-the-survivor-edhrec-momentum-2026-10-18"
+        "thalia-the-survivor-edhrec-momentum-2026-10-18",
+        "thalia-the-survivor-edhrec-momentum-2026-10-21"
       ],
-      "timesSurfaced": 3,
+      "timesSurfaced": 4,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -1853,13 +1982,14 @@
       "slug": "ruric-thar-magecrusher",
       "name": "Ruric Thar, Magecrusher",
       "firstSurfacedAt": "2026-10-04",
-      "lastSurfacedAt": "2026-10-14",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "ruric-thar-magecrusher-edhrec-momentum-2026-10-04",
         "ruric-thar-magecrusher-edhrec-momentum-2026-10-05",
-        "ruric-thar-magecrusher-edhrec-momentum-2026-10-14"
+        "ruric-thar-magecrusher-edhrec-momentum-2026-10-14",
+        "ruric-thar-magecrusher-edhrec-momentum-2026-10-21"
       ],
-      "timesSurfaced": 3,
+      "timesSurfaced": 4,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -2511,7 +2641,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -3060,7 +3190,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -3113,7 +3243,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -3138,7 +3268,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -3280,7 +3410,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -3305,7 +3435,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -3330,7 +3460,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -3382,7 +3512,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -3415,7 +3545,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -3465,7 +3595,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -3520,7 +3650,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -3545,7 +3675,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -3596,7 +3726,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -3621,7 +3751,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -3656,7 +3786,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-10-19",
+      "lastSurfacedAt": "2026-10-21",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
