@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T07:45:09.413Z",
+  "updatedAt": "2026-10-21T07:45:45.381Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -1006,6 +1006,38 @@
       "firstSeenAt": "2026-10-20",
       "lastSeenAt": "2026-10-20",
       "reason": "rank 498, meta baseline; Panzer MTG lifegain video guide on Archidekt"
+    },
+    {
+      "slug": "meria-scholar-of-antiquity",
+      "name": "Meria, Scholar of Antiquity",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-21",
+      "lastSeenAt": "2026-10-21",
+      "reason": "in band at 770, but every read (Draftsim, Card Kingdom, CSI-era guides) is the cheerios/artifact combo shell already in its listed themes; dated, no games"
+    },
+    {
+      "slug": "tocasia-dig-site-mentor",
+      "name": "Tocasia, Dig Site Mentor",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-21",
+      "lastSeenAt": "2026-10-21",
+      "reason": "in band at 1,417; only effort is a 2023 CSI artifact-value guide and a Commander's Herald piece (excluded source); on-theme artifacts/surveil, nothing fresh"
+    },
+    {
+      "slug": "yasharn-implacable-earth",
+      "name": "Yasharn, Implacable Earth",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-21",
+      "lastSeenAt": "2026-10-21",
+      "reason": "in band at 1,553; cEDH stax primers are years old and stax is its listed theme; EDHTop16 placings are bottom-half"
+    },
+    {
+      "slug": "pia-nalaar-consul-of-revival",
+      "name": "Pia Nalaar, Consul of Revival",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-21",
+      "lastSeenAt": "2026-10-21",
+      "reason": "in band at 882; exile-cast thopters is its listed theme and the deck techs found are years old; surfaced only via a Draftsim listicle"
     }
   ],
   "sources": [
@@ -1774,6 +1806,55 @@
       "firstSeenAt": "2026-10-20",
       "lastSeenAt": "2026-10-20",
       "reason": "news roundup; no commander thesis"
+    },
+    {
+      "name": "https://edhrec.com/articles/aerid-konstrari-gruul-artifact-aggro-on-a-budget/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-21",
+      "lastSeenAt": "2026-10-21",
+      "reason": "Aerid Konstrari already archived 2026-09-24; budget build on its listed artifact theme"
+    },
+    {
+      "name": "https://edhrec.com/articles/darkhold-destiny-deck-tech-gargantos-the-endbringer/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-21",
+      "lastSeenAt": "2026-10-21",
+      "reason": "Gargantos already archived 2026-10-12"
+    },
+    {
+      "name": "https://edhrec.com/articles/a-look-at-wheels-in-cedh/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-21",
+      "lastSeenAt": "2026-10-21",
+      "reason": "card-pool survey of wheels across meta cEDH commanders; no off-meta commander"
+    },
+    {
+      "name": "https://www.threeforonetrading.com/en/commanders-that-you-missed",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-21",
+      "lastSeenAt": "2026-10-21",
+      "reason": "listicle mentions (Meria, Tocasia); no effort"
+    },
+    {
+      "name": "https://draftsim.com/meria-scholar-of-antiquity-edh-deck/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-21",
+      "lastSeenAt": "2026-10-21",
+      "reason": "generic Meria guide on its listed cheerios/combo theme"
+    },
+    {
+      "name": "https://www.coolstuffinc.com/a/markwischkaemper-02072023-mark-wischkaemper-02072023-how-to-build-around-tocasia-dig-site-mentor",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-21",
+      "lastSeenAt": "2026-10-21",
+      "reason": "2023 Tocasia artifact-value guide; on-theme, stale"
+    },
+    {
+      "name": "https://mtg.cardsrealm.com/en-us/articles/commander-deck-tech-pia-nalaar-consul-of-revival",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-21",
+      "lastSeenAt": "2026-10-21",
+      "reason": "old Pia exile-thopters deck tech; on-theme"
     }
   ]
 }
