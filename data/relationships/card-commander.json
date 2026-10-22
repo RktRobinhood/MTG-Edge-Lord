@@ -2478,6 +2478,167 @@
       "independentSourceCount": 2,
       "metrics": {},
       "relationshipScore": 15
+    },
+    {
+      "id": "basilisk-collar--grismold-the-dreadsower",
+      "card": {
+        "name": "Basilisk Collar",
+        "slug": "basilisk-collar",
+        "scryfallId": "7b36fba7-71f7-4b7f-bde5-b3a9752ad21c"
+      },
+      "commander": {
+        "name": "Grismold, the Dreadsower",
+        "slug": "grismold-the-dreadsower",
+        "scryfallId": "8df64c80-9e98-4429-b869-7ac824fe9580"
+      },
+      "findingIds": [
+        "grismold-the-dreadsower-lure-deathtouch-2026-10-22"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/27417233/grismold_goes_fishing"
+      ],
+      "evidenceStrength": 0.55,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 13.8
+    },
+    {
+      "id": "death-tyrant--grismold-the-dreadsower",
+      "card": {
+        "name": "Death Tyrant",
+        "slug": "death-tyrant",
+        "scryfallId": "b9e508e9-c190-4db2-a278-9dbb09515ae2"
+      },
+      "commander": {
+        "name": "Grismold, the Dreadsower",
+        "slug": "grismold-the-dreadsower",
+        "scryfallId": "8df64c80-9e98-4429-b869-7ac824fe9580"
+      },
+      "findingIds": [
+        "grismold-the-dreadsower-lure-deathtouch-2026-10-22"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/27417233/grismold_goes_fishing"
+      ],
+      "evidenceStrength": 0.55,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 13.8
+    },
+    {
+      "id": "infiltration-lens--grismold-the-dreadsower",
+      "card": {
+        "name": "Infiltration Lens",
+        "slug": "infiltration-lens",
+        "scryfallId": "1baa10da-2733-4657-a1ea-74eb5a5a82b1"
+      },
+      "commander": {
+        "name": "Grismold, the Dreadsower",
+        "slug": "grismold-the-dreadsower",
+        "scryfallId": "8df64c80-9e98-4429-b869-7ac824fe9580"
+      },
+      "findingIds": [
+        "grismold-the-dreadsower-lure-deathtouch-2026-10-22"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/27417233/grismold_goes_fishing"
+      ],
+      "evidenceStrength": 0.55,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 13.8
+    },
+    {
+      "id": "lure--grismold-the-dreadsower",
+      "card": {
+        "name": "Lure",
+        "slug": "lure",
+        "scryfallId": "72c8336d-54cf-45af-a9ef-a1428facf91b"
+      },
+      "commander": {
+        "name": "Grismold, the Dreadsower",
+        "slug": "grismold-the-dreadsower",
+        "scryfallId": "8df64c80-9e98-4429-b869-7ac824fe9580"
+      },
+      "findingIds": [
+        "grismold-the-dreadsower-lure-deathtouch-2026-10-22"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/27417233/grismold_goes_fishing"
+      ],
+      "evidenceStrength": 0.55,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 13.8
+    },
+    {
+      "id": "touch-of-moonglove--grismold-the-dreadsower",
+      "card": {
+        "name": "Touch of Moonglove",
+        "slug": "touch-of-moonglove",
+        "scryfallId": "bf659f2f-983c-4a62-a969-4176e5fbe193"
+      },
+      "commander": {
+        "name": "Grismold, the Dreadsower",
+        "slug": "grismold-the-dreadsower",
+        "scryfallId": "8df64c80-9e98-4429-b869-7ac824fe9580"
+      },
+      "findingIds": [
+        "grismold-the-dreadsower-lure-deathtouch-2026-10-22"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/27417233/grismold_goes_fishing"
+      ],
+      "evidenceStrength": 0.55,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 13.8
+    },
+    {
+      "id": "trailblazers-torch--grismold-the-dreadsower",
+      "card": {
+        "name": "Trailblazer's Torch",
+        "slug": "trailblazers-torch",
+        "scryfallId": "0c4f76ae-e93b-4ca1-ac62-753707f6319e"
+      },
+      "commander": {
+        "name": "Grismold, the Dreadsower",
+        "slug": "grismold-the-dreadsower",
+        "scryfallId": "8df64c80-9e98-4429-b869-7ac824fe9580"
+      },
+      "findingIds": [
+        "grismold-the-dreadsower-lure-deathtouch-2026-10-22"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/27417233/grismold_goes_fishing"
+      ],
+      "evidenceStrength": 0.55,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 13.8
+    },
+    {
+      "id": "vicious-battlerager--grismold-the-dreadsower",
+      "card": {
+        "name": "Vicious Battlerager",
+        "slug": "vicious-battlerager",
+        "scryfallId": "20f939d8-3d41-4d8b-baea-7f022104c704"
+      },
+      "commander": {
+        "name": "Grismold, the Dreadsower",
+        "slug": "grismold-the-dreadsower",
+        "scryfallId": "8df64c80-9e98-4429-b869-7ac824fe9580"
+      },
+      "findingIds": [
+        "grismold-the-dreadsower-lure-deathtouch-2026-10-22"
+      ],
+      "sourceUrls": [
+        "https://archidekt.com/decks/27417233/grismold_goes_fishing"
+      ],
+      "evidenceStrength": 0.55,
+      "independentSourceCount": 2,
+      "metrics": {},
+      "relationshipScore": 13.8
     }
   ]
 }

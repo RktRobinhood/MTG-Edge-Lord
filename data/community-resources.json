@@ -2,6 +2,61 @@
   "schemaVersion": 1,
   "resources": [
     {
+      "findingId": "grismold-the-dreadsower-lure-deathtouch-2026-10-22",
+      "title": "Grismold hands every player a blocker, so a Lure-plus-deathtouch attack turns those gifts into a one-sided wipe that grows him",
+      "summary": "Grismold gives each player a 1/1 Plant at your end step and gets a +1/+1 counter whenever a creature token dies, which normally reads as group hug with a small payoff. This build leans into the gift: Lure effects force every opposing creature to block one attacker, deathtouch means a single point of damage kills each blocker, and Grismold's own trample carries the rest through. Every Plant that dies grows him, and opponents who sacrifice their tokens to dodge it grow him too. Payoffs for mass blocks (card draw, theft, token makers) and Trailblazer's Torch extend the trick past the commander. The Archidekt primer explains each piece; an EDHREC contest put it among October's three finalists.",
+      "name": "Grismold goes fishing (Archidekt primer)",
+      "type": "primer",
+      "url": "https://archidekt.com/decks/27417233/grismold_goes_fishing",
+      "creator": "foldedboats",
+      "resourceDepth": "primer",
+      "commanders": [
+        {
+          "name": "Grismold, the Dreadsower",
+          "slug": "grismold-the-dreadsower",
+          "scryfallId": "8df64c80-9e98-4429-b869-7ac824fe9580"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Basilisk Collar",
+          "slug": "basilisk-collar",
+          "scryfallId": "7b36fba7-71f7-4b7f-bde5-b3a9752ad21c"
+        },
+        {
+          "name": "Death Tyrant",
+          "slug": "death-tyrant",
+          "scryfallId": "b9e508e9-c190-4db2-a278-9dbb09515ae2"
+        },
+        {
+          "name": "Infiltration Lens",
+          "slug": "infiltration-lens",
+          "scryfallId": "1baa10da-2733-4657-a1ea-74eb5a5a82b1"
+        },
+        {
+          "name": "Lure",
+          "slug": "lure",
+          "scryfallId": "72c8336d-54cf-45af-a9ef-a1428facf91b"
+        },
+        {
+          "name": "Touch of Moonglove",
+          "slug": "touch-of-moonglove",
+          "scryfallId": "bf659f2f-983c-4a62-a969-4176e5fbe193"
+        },
+        {
+          "name": "Trailblazer's Torch",
+          "slug": "trailblazers-torch",
+          "scryfallId": "0c4f76ae-e93b-4ca1-ac62-753707f6319e"
+        },
+        {
+          "name": "Vicious Battlerager",
+          "slug": "vicious-battlerager",
+          "scryfallId": "20f939d8-3d41-4d8b-baea-7f022104c704"
+        }
+      ],
+      "publishedAt": "2026-10-14"
+    },
+    {
       "findingId": "loot-the-anomaly-inverted-voltron-2026-10-14",
       "title": "Loot, the Anomaly hits harder the smaller he gets, so symmetrical shrink effects become a one-sided pump",
       "summary": "Loot starts at -2 power and assigns combat damage as if negative power were positive, and his own threshold ability sacrifices a creature to push him further down. That turns the usual Voltron plan inside out: -X/-X sweepers and -1/-1 counters that hurt everyone else make Loot a bigger threat, and 'low power' evasion such as skulk or being the Ring-bearer makes him nearly unblockable. The EDHREC deck tech sketches several routes off the same chassis - an infect Aura that grows him each upkeep, one-sided wraths, Ring tempting, and a Soul Cauldron line for a one-turn kill.",

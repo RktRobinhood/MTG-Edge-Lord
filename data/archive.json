@@ -2,6 +2,506 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "captain-benjamin-sisko",
+      "name": "Captain Benjamin Sisko",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "captain-benjamin-sisko-edhrec-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/captain-benjamin-sisko",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4644,
+        "deckCount": 23,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "captain-jean-luc-picard",
+      "name": "Captain Jean-Luc Picard",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "captain-jean-luc-picard-edhrec-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/captain-jean-luc-picard",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4231,
+        "deckCount": 36,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "commander-spock",
+      "name": "Commander Spock",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "commander-spock-edhrec-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/commander-spock",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4276,
+        "deckCount": 34,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "eris-roar-of-the-storm",
+      "name": "Eris, Roar of the Storm",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "eris-roar-of-the-storm-discussion-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "Community coverage trend",
+          "url": "https://edhrec.com/commanders/eris-roar-of-the-storm",
+          "creator": "MTG Edge Lord"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 670,
+        "deckCount": 4500,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "faldorn-dread-wolf-herald",
+      "name": "Faldorn, Dread Wolf Herald",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "faldorn-dread-wolf-herald-discussion-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "Community coverage trend",
+          "url": "https://edhrec.com/commanders/faldorn-dread-wolf-herald",
+          "creator": "MTG Edge Lord"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 549,
+        "deckCount": 5490,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "garth-one-eye",
+      "name": "Garth One-Eye",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "garth-one-eye-discussion-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "Community coverage trend",
+          "url": "https://edhrec.com/commanders/garth-one-eye",
+          "creator": "MTG Edge Lord"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 542,
+        "deckCount": 5562,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "general-tazri",
+      "name": "General Tazri",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "general-tazri-discussion-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "Community coverage trend",
+          "url": "https://edhrec.com/commanders/general-tazri",
+          "creator": "MTG Edge Lord"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 751,
+        "deckCount": 3787,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "grismold-the-dreadsower",
+      "name": "Grismold, the Dreadsower",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "grismold-the-dreadsower-lure-deathtouch-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "deep_dive_resource"
+      ],
+      "sources": [
+        {
+          "name": "Grismold goes fishing (Archidekt primer)",
+          "url": "https://archidekt.com/decks/27417233/grismold_goes_fishing",
+          "creator": "foldedboats"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 940,
+        "deckCount": 2743,
+        "asOf": "2026-10-21"
+      }
+    },
+    {
+      "slug": "imskir-iron-eater",
+      "name": "Imskir Iron-Eater",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "imskir-iron-eater-discussion-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "Community coverage trend",
+          "url": "https://edhrec.com/commanders/imskir-iron-eater",
+          "creator": "MTG Edge Lord"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 622,
+        "deckCount": 4851,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "jean-luc-picard-luminary",
+      "name": "Jean-Luc Picard, Luminary",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "jean-luc-picard-luminary-edhrec-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/jean-luc-picard-luminary",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4693,
+        "deckCount": 22,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "kamiz-obscura-oculus",
+      "name": "Kamiz, Obscura Oculus",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "kamiz-obscura-oculus-discussion-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "Community coverage trend",
+          "url": "https://edhrec.com/commanders/kamiz-obscura-oculus",
+          "creator": "MTG Edge Lord"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 743,
+        "deckCount": 3871,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "keleth-sunmane-familiar-tymna-the-weaver",
+      "name": "Keleth, Sunmane Familiar // Tymna the Weaver",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "keleth-sunmane-familiar-tymna-the-weaver-edhrec-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/keleth-sunmane-familiar-tymna-the-weaver",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4556,
+        "deckCount": 24,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "locutus-of-borg",
+      "name": "Locutus of Borg",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "locutus-of-borg-edhrec-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/locutus-of-borg",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4401,
+        "deckCount": 30,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "muerra-trash-tactician",
+      "name": "Muerra, Trash Tactician",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "muerra-trash-tactician-discussion-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "Community coverage trend",
+          "url": "https://edhrec.com/commanders/muerra-trash-tactician",
+          "creator": "MTG Edge Lord"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 551,
+        "deckCount": 5487,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "phelddagrif",
+      "name": "Phelddagrif",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "phelddagrif-discussion-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "Community coverage trend",
+          "url": "https://edhrec.com/commanders/phelddagrif",
+          "creator": "MTG Edge Lord"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 782,
+        "deckCount": 3592,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "q-stacking-the-deck",
+      "name": "Q, Stacking the Deck",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "q-stacking-the-deck-edhrec-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/q-stacking-the-deck",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 2617,
+        "deckCount": 282,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "quark-humble-proprietor",
+      "name": "Quark, Humble Proprietor",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "quark-humble-proprietor-edhrec-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/quark-humble-proprietor",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 3825,
+        "deckCount": 57,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "roon-of-the-hidden-realm",
+      "name": "Roon of the Hidden Realm",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "roon-of-the-hidden-realm-discussion-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "Community coverage trend",
+          "url": "https://edhrec.com/commanders/roon-of-the-hidden-realm",
+          "creator": "MTG Edge Lord"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 776,
+        "deckCount": 3629,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "the-borg-queen",
+      "name": "The Borg Queen",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "the-borg-queen-edhrec-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/the-borg-queen",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 3763,
+        "deckCount": 61,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
+      "slug": "urza-lord-protector",
+      "name": "Urza, Lord Protector",
+      "firstSurfacedAt": "2026-10-22",
+      "lastSurfacedAt": "2026-10-22",
+      "findingIds": [
+        "urza-lord-protector-discussion-momentum-2026-10-22"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "Community coverage trend",
+          "url": "https://edhrec.com/commanders/urza-lord-protector",
+          "creator": "MTG Edge Lord"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 692,
+        "deckCount": 4289,
+        "asOf": "2026-10-22"
+      }
+    },
+    {
       "slug": "captain-kathryn-janeway",
       "name": "Captain Kathryn Janeway",
       "firstSurfacedAt": "2026-10-21",
@@ -683,7 +1183,7 @@
       "slug": "loot-the-anomaly",
       "name": "Loot, the Anomaly",
       "firstSurfacedAt": "2026-10-14",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "loot-the-anomaly-inverted-voltron-2026-10-14"
       ],
@@ -2344,13 +2844,14 @@
       "slug": "hapatra-the-desert-fang",
       "name": "Hapatra, the Desert Fang",
       "firstSurfacedAt": "2026-10-01",
-      "lastSurfacedAt": "2026-10-12",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "hapatra-the-desert-fang-edhrec-momentum-2026-10-01",
         "hapatra-the-desert-fang-edhrec-momentum-2026-10-08",
-        "hapatra-the-desert-fang-edhrec-momentum-2026-10-12"
+        "hapatra-the-desert-fang-edhrec-momentum-2026-10-12",
+        "hapatra-the-desert-fang-edhrec-momentum-2026-10-22"
       ],
-      "timesSurfaced": 3,
+      "timesSurfaced": 4,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -2641,7 +3142,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -3190,7 +3691,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -3243,7 +3744,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -3268,7 +3769,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -3410,7 +3911,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -3435,7 +3936,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -3460,7 +3961,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -3512,7 +4013,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -3545,7 +4046,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -3595,7 +4096,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -3650,7 +4151,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -3675,7 +4176,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -3726,7 +4227,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -3751,7 +4252,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -3786,7 +4287,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-10-21",
+      "lastSurfacedAt": "2026-10-22",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
