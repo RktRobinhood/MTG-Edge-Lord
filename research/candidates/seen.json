@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T07:45:45.381Z",
+  "updatedAt": "2026-10-22T07:47:09.577Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -1012,8 +1012,8 @@
       "name": "Meria, Scholar of Antiquity",
       "status": "rejected",
       "firstSeenAt": "2026-10-21",
-      "lastSeenAt": "2026-10-21",
-      "reason": "in band at 770, but every read (Draftsim, Card Kingdom, CSI-era guides) is the cheerios/artifact combo shell already in its listed themes; dated, no games"
+      "lastSeenAt": "2026-10-22",
+      "reason": "re-checked 2026-10-22 for EDHREC Inside Out stax-control piece: stax is already a listed theme, concept only, no games"
     },
     {
       "slug": "tocasia-dig-site-mentor",
@@ -1038,6 +1038,30 @@
       "firstSeenAt": "2026-10-21",
       "lastSeenAt": "2026-10-21",
       "reason": "in band at 882; exile-cast thopters is its listed theme and the deck techs found are years old; surfaced only via a Draftsim listicle"
+    },
+    {
+      "slug": "grismold-the-dreadsower",
+      "name": "Grismold, the Dreadsower",
+      "status": "filed",
+      "firstSeenAt": "2026-10-22",
+      "lastSeenAt": "2026-10-22",
+      "reason": "rank 940; Archidekt primer explains Lure + deathtouch + trample turning his gifted Plants into a one-sided wipe; EDHREC October contest finalist; untested"
+    },
+    {
+      "slug": "roon-of-the-hidden-realm",
+      "name": "Roon of the Hidden Realm",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-22",
+      "lastSeenAt": "2026-10-22",
+      "reason": "rank 777; contest deck that skips all its own turns and wins by decking/concession; novelty jank, not competitive"
+    },
+    {
+      "slug": "katilda-dawnhart-martyr",
+      "name": "Katilda, Dawnhart Martyr",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-22",
+      "lastSeenAt": "2026-10-22",
+      "reason": "rank 2,367; only an Am I the Bolas pillowfort mention, no build effort"
     }
   ],
   "sources": [
@@ -1855,6 +1879,48 @@
       "firstSeenAt": "2026-10-21",
       "lastSeenAt": "2026-10-21",
       "reason": "old Pia exile-thopters deck tech; on-theme"
+    },
+    {
+      "name": "https://archidekt.com/decks/27417233/grismold_goes_fishing",
+      "status": "filed",
+      "firstSeenAt": "2026-10-22",
+      "lastSeenAt": "2026-10-22",
+      "reason": "Grismold Lure primer by foldedboats; filed 2026-10-22"
+    },
+    {
+      "name": "https://edhrec.com/articles/octobers-deckbuilding-contest-finalists-vote-now/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-22",
+      "lastSeenAt": "2026-10-22",
+      "reason": "contest finalists roundup; used only as corroboration for Grismold; Roon jank, Brenard rank 272 meta"
+    },
+    {
+      "name": "https://edhrec.com/articles/inside-out-this-meria-scholar-of-antiquity-deck-wants-control/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-22",
+      "lastSeenAt": "2026-10-22",
+      "reason": "Meria stax concept piece; stax already a listed theme, no games"
+    },
+    {
+      "name": "https://edhrec.com/articles/am-i-the-bolas-pillowfort-time-suck/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-22",
+      "lastSeenAt": "2026-10-22",
+      "reason": "etiquette column; commanders named as examples only"
+    },
+    {
+      "name": "https://edhrec.com/articles/which-jace-is-best-for-commander/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-22",
+      "lastSeenAt": "2026-10-22",
+      "reason": "ranking listicle; Jace, Multiverse Architect already rejected"
+    },
+    {
+      "name": "https://edhrec.com/articles/star-trek-debut-stream-preview-recap/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-22",
+      "lastSeenAt": "2026-10-22",
+      "reason": "preview recap of precon faces; mentions, no build effort"
     }
   ]
 }
