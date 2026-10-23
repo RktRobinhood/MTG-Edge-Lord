@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T07:47:09.577Z",
+  "updatedAt": "2026-10-23T07:45:46.036Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -1921,6 +1921,41 @@
       "firstSeenAt": "2026-10-22",
       "lastSeenAt": "2026-10-22",
       "reason": "preview recap of precon faces; mentions, no build effort"
+    },
+    {
+      "name": "https://edhrec.com/articles/building-izzet-spellementals-in-commander/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-23",
+      "lastSeenAt": "2026-10-23",
+      "reason": "Eris, Roar of the Storm deck tech with games played; Eris (rank 670) already published 2026-10-22, nothing to add"
+    },
+    {
+      "name": "https://edhrec.com/articles/denzilore-fatehold-1-1-counters-deck/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-23",
+      "lastSeenAt": "2026-10-23",
+      "reason": "Denzilore (rank 610) already archived 2026-09-24; counters is its listed theme"
+    },
+    {
+      "name": "https://edhrec.com/articles/spock-logical-choice-a-flash-primer-for-new-players/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-23",
+      "lastSeenAt": "2026-10-23",
+      "reason": "Spock already archived 2026-10-04 at rank 5,296, outside the band; beginner flash primer"
+    },
+    {
+      "name": "https://www.mtggoldfish.com/articles/commander-clash-podcast-274-ranking-archetypes-by-how-much-they-suck-to-play-against",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-23",
+      "lastSeenAt": "2026-10-23",
+      "reason": "archetype ranking podcast; no commander thesis"
+    },
+    {
+      "name": "https://edhrec.com/articles/ravnica-time-spiral-coldsnap-and-9th-edition-the-block-era/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-23",
+      "lastSeenAt": "2026-10-23",
+      "reason": "set-history retrospective; no commander thesis"
     }
   ]
 }
