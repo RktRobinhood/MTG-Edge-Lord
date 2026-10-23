@@ -1,0 +1,3330 @@
+{
+  "schemaVersion": 1,
+  "findings": [
+    {
+      "id": "uss-enterprise-d-galaxy-class-edhrec-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "U.S.S. Enterprise-D, Galaxy-Class is moving above its recent baseline",
+      "summary": "U.S.S. Enterprise-D, Galaxy-Class moved 88 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/uss-enterprise-d-galaxy-class",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "U.S.S. Enterprise-D, Galaxy-Class",
+          "slug": "uss-enterprise-d-galaxy-class",
+          "scryfallId": "057a4413-6a17-491e-bfd7-6cd427b1a442"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 4727,
+        "deckCount": 21,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 100,
+        "90d": 100
+      },
+      "fingerprint": "0ea91a09907d3c5a3ef45a259229c7b81b9014c1d67d06779733fa92bb042dd8",
+      "score": {
+        "total": 46.3,
+        "components": {
+          "obscurity": 88.1,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "spot-felis-catus-edhrec-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Spot, Felis catus is moving above its recent baseline",
+      "summary": "Spot, Felis catus moved 501 rank places while adding 10 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/spot-felis-catus",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Spot, Felis catus",
+          "slug": "spot-felis-catus",
+          "scryfallId": "ccdc8c1a-68ba-4498-a336-13676d8de107"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 4559,
+        "deckCount": 25,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "7681179216d5624b902ad05933c2d0d34fa5622047cd7f6629daca653443630c",
+      "score": {
+        "total": 36.1,
+        "components": {
+          "obscurity": 87.4,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "jean-luc-picard-luminary-edhrec-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Jean-Luc Picard, Luminary is moving above its recent baseline",
+      "summary": "Jean-Luc Picard, Luminary moved 508 rank places while adding 16 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/jean-luc-picard-luminary",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Jean-Luc Picard, Luminary",
+          "slug": "jean-luc-picard-luminary",
+          "scryfallId": "901eaed9-dbea-4a31-87b0-e17e9bcabfed"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 4185,
+        "deckCount": 38,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "51f85a6051d51984fd9868255d78f1d2f07b5085b3b4122529aaebb4b339c65a",
+      "score": {
+        "total": 35.6,
+        "components": {
+          "obscurity": 85.8,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "commander-spock-edhrec-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Commander Spock is moving above its recent baseline",
+      "summary": "Commander Spock moved 249 rank places while adding 12 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/commander-spock",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Commander Spock",
+          "slug": "commander-spock",
+          "scryfallId": "cf114392-a38d-4117-aa41-911d6dc1051b"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 4027,
+        "deckCount": 46,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "a0848b496f1ea49ca50941318b56526746911429dc226633dc031e9d2051e825",
+      "score": {
+        "total": 35.4,
+        "components": {
+          "obscurity": 85,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "captain-benjamin-sisko-edhrec-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Captain Benjamin Sisko is moving above its recent baseline",
+      "summary": "Captain Benjamin Sisko moved 617 rank places while adding 23 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/captain-benjamin-sisko",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Captain Benjamin Sisko",
+          "slug": "captain-benjamin-sisko",
+          "scryfallId": "51338fb2-13a3-41b8-981f-05fa35e87e2e"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 4027,
+        "deckCount": 46,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "a3a1805b18d28617c592df7585cbc269e2378e5623c76cd09d2ed9172c0edd89",
+      "score": {
+        "total": 35.4,
+        "components": {
+          "obscurity": 85,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "locutus-of-borg-edhrec-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Locutus of Borg is moving above its recent baseline",
+      "summary": "Locutus of Borg moved 436 rank places while adding 19 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/locutus-of-borg",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Locutus of Borg",
+          "slug": "locutus-of-borg",
+          "scryfallId": "1b2e5971-d31c-4f6d-9bee-4b13a402e798"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 3965,
+        "deckCount": 49,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "71c71354b2232ed5f03a6009b0a9d64574ef6fe48d4676647527e148d2c968cf",
+      "score": {
+        "total": 35.3,
+        "components": {
+          "obscurity": 84.8,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "captain-jean-luc-picard-edhrec-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Captain Jean-Luc Picard is moving above its recent baseline",
+      "summary": "Captain Jean-Luc Picard moved 553 rank places while adding 33 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/captain-jean-luc-picard",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Captain Jean-Luc Picard",
+          "slug": "captain-jean-luc-picard",
+          "scryfallId": "b7114271-eb05-41e2-ad96-a34f53492312"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 3678,
+        "deckCount": 69,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "052c1c4c17c182b3639dfafd254d6fae6ed6555b370a001e0361952873467ec9",
+      "score": {
+        "total": 34.9,
+        "components": {
+          "obscurity": 83.5,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "quark-humble-proprietor-edhrec-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Quark, Humble Proprietor is moving above its recent baseline",
+      "summary": "Quark, Humble Proprietor moved 236 rank places while adding 21 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/quark-humble-proprietor",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Quark, Humble Proprietor",
+          "slug": "quark-humble-proprietor",
+          "scryfallId": "96104754-57e2-46e9-948d-628aab2aa0ad"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 3589,
+        "deckCount": 78,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "7a1da4f62a9257fa086f316e36d6d2f6907147442f145853b05041d57fe5b47c",
+      "score": {
+        "total": 34.8,
+        "components": {
+          "obscurity": 83,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "the-borg-queen-edhrec-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "The Borg Queen is moving above its recent baseline",
+      "summary": "The Borg Queen moved 351 rank places while adding 38 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/the-borg-queen",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "The Borg Queen",
+          "slug": "the-borg-queen",
+          "scryfallId": "8ed939ba-bf8d-4a68-ae9f-f8ca4eb301ab"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 3412,
+        "deckCount": 99,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "21b248819aebc94a26b99da8e488e38815c949bd5871076c31283ee5c351cbe3",
+      "score": {
+        "total": 34.5,
+        "components": {
+          "obscurity": 82,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "q-stacking-the-deck-edhrec-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Q, Stacking the Deck is moving above its recent baseline",
+      "summary": "Q, Stacking the Deck moved 315 rank places while adding 162 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/q-stacking-the-deck",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Q, Stacking the Deck",
+          "slug": "q-stacking-the-deck",
+          "scryfallId": "dcbe34db-0065-4960-92b8-3ea1d336e803"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 2302,
+        "deckCount": 444,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "2d48eb2abd875ef23a429e6ef22b9312a3408dc32e6e1c03428373565de71711",
+      "score": {
+        "total": 32.5,
+        "components": {
+          "obscurity": 75.6,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "general-marhault-elsdragon-discussion-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "General Marhault Elsdragon is being discussed faster than it is being built",
+      "summary": "General Marhault Elsdragon was named by 3 independent sources across 3 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved -0.8%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/general-marhault-elsdragon",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "General Marhault Elsdragon",
+          "slug": "general-marhault-elsdragon",
+          "scryfallId": "bf2931bd-bedc-45e8-b3f0-e2a220dbac1b"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.45,
+        "independentSourceCount": 3,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 9 coverage records across 3 independent sources in the 30 days to 2026-10-23. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 1116,
+        "deckCount": 2177,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "e2ba3c88df365897432e3392fe840c525a0ab9206aadddba57cc81d24661e4a3",
+      "score": {
+        "total": 30.2,
+        "components": {
+          "obscurity": 64.3,
+          "community": 44.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "3 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "ephara-god-of-the-polis-discussion-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Ephara, God of the Polis is being discussed faster than it is being built",
+      "summary": "Ephara, God of the Polis was named by 3 independent sources across 2 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved 0.6%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/ephara-god-of-the-polis",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Ephara, God of the Polis",
+          "slug": "ephara-god-of-the-polis",
+          "scryfallId": "6832e495-7ee9-43e0-94ea-03c88344080e"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.45,
+        "independentSourceCount": 3,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 6 coverage records across 3 independent sources in the 30 days to 2026-10-23. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 993,
+        "deckCount": 2519,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 2.6,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "06158a17142b641498aabac6c618670e9444be837359d614ed6f5c990aad15f7",
+      "score": {
+        "total": 30,
+        "components": {
+          "obscurity": 62.9,
+          "community": 44.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 2.6,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "3 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "lurrus-of-the-dream-den-discussion-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Lurrus of the Dream-Den is being discussed faster than it is being built",
+      "summary": "Lurrus of the Dream-Den was named by 3 independent sources across 3 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved 0.7%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/lurrus-of-the-dream-den",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Lurrus of the Dream-Den",
+          "slug": "lurrus-of-the-dream-den",
+          "scryfallId": "5ad36fb2-c44e-4085-ba0d-54277841ad3a"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.45,
+        "independentSourceCount": 3,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 9 coverage records across 3 independent sources in the 30 days to 2026-10-23. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 916,
+        "deckCount": 2873,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0.1,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "0074e7fdf72021087288e2df57e4b9c007606799248b8c09352503a51da91fd3",
+      "score": {
+        "total": 29.4,
+        "components": {
+          "obscurity": 61.8,
+          "community": 44.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0.1,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "3 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "lotho-corrupt-shirriff-discussion-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Lotho, Corrupt Shirriff is being discussed faster than it is being built",
+      "summary": "Lotho, Corrupt Shirriff was named by 2 independent sources across 3 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved 0.8%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/lotho-corrupt-shirriff",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Lotho, Corrupt Shirriff",
+          "slug": "lotho-corrupt-shirriff",
+          "scryfallId": "ce01ff8f-a037-484f-9148-c847ffaabc5a"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.45,
+        "independentSourceCount": 2,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 6 coverage records across 2 independent sources in the 30 days to 2026-10-23. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 1185,
+        "deckCount": 1950,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 2.7,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "37c02265e852b9fdbac341faaa526648ee8b521a579764a7e7cfbce74a41bf7b",
+      "score": {
+        "total": 29.3,
+        "components": {
+          "obscurity": 65.1,
+          "community": 37.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 2.7,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "etrata-deadly-fugitive-discussion-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Etrata, Deadly Fugitive is being discussed faster than it is being built",
+      "summary": "Etrata, Deadly Fugitive was named by 3 independent sources across 2 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved 0.1%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/etrata-deadly-fugitive",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Etrata, Deadly Fugitive",
+          "slug": "etrata-deadly-fugitive",
+          "scryfallId": "4410db5a-62af-43ac-979d-88a7c975f7bd"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.45,
+        "independentSourceCount": 3,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 6 coverage records across 3 independent sources in the 30 days to 2026-10-23. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 830,
+        "deckCount": 3278,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "ff54c9782cd41ace7c9c4f6f1fd0e4511bbb5d0d21d857c4f61408aaad1e7cbb",
+      "score": {
+        "total": 29,
+        "components": {
+          "obscurity": 60.6,
+          "community": 44.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "3 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "basim-ibn-ishaq-discussion-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Basim Ibn Ishaq is being discussed faster than it is being built",
+      "summary": "Basim Ibn Ishaq was named by 2 independent sources across 2 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved -0.2%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/basim-ibn-ishaq",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Basim Ibn Ishaq",
+          "slug": "basim-ibn-ishaq",
+          "scryfallId": "f8aa19c1-4e87-4f42-814c-490e75565f6e"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.45,
+        "independentSourceCount": 2,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 6 coverage records across 2 independent sources in the 30 days to 2026-10-23. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 1065,
+        "deckCount": 2309,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 1.1,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "2a6f86dd27343dec72fa1c3a010db107d0dba06761406dfd6b8fc88a951efd97",
+      "score": {
+        "total": 28.7,
+        "components": {
+          "obscurity": 63.7,
+          "community": 37.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 1.1,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "merieke-ri-berit-discussion-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Merieke Ri Berit is being discussed faster than it is being built",
+      "summary": "Merieke Ri Berit was named by 2 independent sources across 3 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved 0.6%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/merieke-ri-berit",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Merieke Ri Berit",
+          "slug": "merieke-ri-berit",
+          "scryfallId": "63f7cf94-78f6-4f30-ab24-8b90231520f1"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.45,
+        "independentSourceCount": 2,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 6 coverage records across 2 independent sources in the 30 days to 2026-10-23. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 890,
+        "deckCount": 2996,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "d6a796478f82ebaabbd74719863118640fc332536baad9c55423fe9f737e257f",
+      "score": {
+        "total": 27.9,
+        "components": {
+          "obscurity": 61.5,
+          "community": 37.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "the-pride-of-hull-clade-discussion-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "The Pride of Hull Clade is being discussed faster than it is being built",
+      "summary": "The Pride of Hull Clade was named by 2 independent sources across 3 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved -1.2%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/the-pride-of-hull-clade",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "The Pride of Hull Clade",
+          "slug": "the-pride-of-hull-clade",
+          "scryfallId": "edb40ab9-e552-4eb5-9c35-09094136dd4f"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.45,
+        "independentSourceCount": 2,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 6 coverage records across 2 independent sources in the 30 days to 2026-10-23. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 848,
+        "deckCount": 3204,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "69acc1ebc6d403c97228c99550087b641435d75946c56cee75132a7a85eb74fa",
+      "score": {
+        "total": 27.7,
+        "components": {
+          "obscurity": 60.8,
+          "community": 37.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "roon-of-the-hidden-realm-discussion-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Roon of the Hidden Realm is being discussed faster than it is being built",
+      "summary": "Roon of the Hidden Realm was named by 2 independent sources across 3 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved 0.6%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/roon-of-the-hidden-realm",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Roon of the Hidden Realm",
+          "slug": "roon-of-the-hidden-realm",
+          "scryfallId": "54e2d6c2-a233-4e37-94c9-673a4a957e0c"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.45,
+        "independentSourceCount": 2,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 6 coverage records across 2 independent sources in the 30 days to 2026-10-23. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 777,
+        "deckCount": 3627,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "302edc0b78ed3f532f2fd0fa7bc93a782e14b8d097d5eac107933360342b428c",
+      "score": {
+        "total": 27.4,
+        "components": {
+          "obscurity": 59.7,
+          "community": 37.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "2 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "phelddagrif-discussion-momentum-2026-10-23",
+      "findingType": "discovery_signal",
+      "title": "Phelddagrif is being discussed faster than it is being built",
+      "summary": "Phelddagrif was named by 2 independent sources across 3 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved 0.1%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/phelddagrif",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-23",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Phelddagrif",
+          "slug": "phelddagrif",
+          "scryfallId": "493a72f0-2e35-4e06-a1b2-d42d432b9b2c"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.45,
+        "independentSourceCount": 2,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 6 coverage records across 2 independent sources in the 30 days to 2026-10-23. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 784,
+        "deckCount": 3589,
+        "asOf": "2026-10-23"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "192a19f8664a7e0c3c3eaf6552b691594383cb64d5f7fcaabc25656bdbe78b52",
+      "score": {
+        "total": 27.4,
+        "components": {
+          "obscurity": 59.9,
+          "community": 37.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "2 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "grismold-the-dreadsower-lure-deathtouch-2026-10-22",
+      "findingType": "deep_dive_resource",
+      "title": "Grismold hands every player a blocker, so a Lure-plus-deathtouch attack turns those gifts into a one-sided wipe that grows him",
+      "summary": "Grismold gives each player a 1/1 Plant at your end step and gets a +1/+1 counter whenever a creature token dies, which normally reads as group hug with a small payoff. This build leans into the gift: Lure effects force every opposing creature to block one attacker, deathtouch means a single point of damage kills each blocker, and Grismold's own trample carries the rest through. Every Plant that dies grows him, and opponents who sacrifice their tokens to dodge it grow him too. Payoffs for mass blocks (card draw, theft, token makers) and Trailblazer's Torch extend the trick past the commander. The Archidekt primer explains each piece; an EDHREC contest put it among October's three finalists.",
+      "source": {
+        "name": "Grismold goes fishing (Archidekt primer)",
+        "type": "primer",
+        "url": "https://archidekt.com/decks/27417233/grismold_goes_fishing",
+        "creator": "foldedboats",
+        "resourceDepth": "primer"
+      },
+      "publishedAt": "2026-10-14",
+      "observedAt": "2026-10-22T07:40:00.000Z",
+      "commanders": [
+        {
+          "name": "Grismold, the Dreadsower",
+          "slug": "grismold-the-dreadsower",
+          "scryfallId": "8df64c80-9e98-4429-b869-7ac824fe9580"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Basilisk Collar",
+          "slug": "basilisk-collar",
+          "scryfallId": "7b36fba7-71f7-4b7f-bde5-b3a9752ad21c"
+        },
+        {
+          "name": "Death Tyrant",
+          "slug": "death-tyrant",
+          "scryfallId": "b9e508e9-c190-4db2-a278-9dbb09515ae2"
+        },
+        {
+          "name": "Infiltration Lens",
+          "slug": "infiltration-lens",
+          "scryfallId": "1baa10da-2733-4657-a1ea-74eb5a5a82b1"
+        },
+        {
+          "name": "Lure",
+          "slug": "lure",
+          "scryfallId": "72c8336d-54cf-45af-a9ef-a1428facf91b"
+        },
+        {
+          "name": "Touch of Moonglove",
+          "slug": "touch-of-moonglove",
+          "scryfallId": "bf659f2f-983c-4a62-a969-4176e5fbe193"
+        },
+        {
+          "name": "Trailblazer's Torch",
+          "slug": "trailblazers-torch",
+          "scryfallId": "0c4f76ae-e93b-4ca1-ac62-753707f6319e"
+        },
+        {
+          "name": "Vicious Battlerager",
+          "slug": "vicious-battlerager",
+          "scryfallId": "20f939d8-3d41-4d8b-baea-7f022104c704"
+        }
+      ],
+      "evidence": {
+        "strength": 0.55,
+        "independentSourceCount": 2,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "Oracle text checked on Scryfall 2026-10-22: Commander 2019, trample, each player makes a 1/1 Plant at your end step, and any creature token dying (anyone's) puts a +1/+1 counter on him.",
+          "The primer explains why the pieces fit rather than listing them: deathtouch makes each forced blocker cost one point of damage, trample pushes the rest through, and sacrificing the Plants to escape a Lure attack still feeds Grismold.",
+          "Corroboration is editorial, not results: the deck is one of three finalists in EDHREC's October deckbuilding contest (Dana Roach, 2026-10-21, https://edhrec.com/articles/octobers-deckbuilding-contest-finalists-vote-now/). No games are reported.",
+          "Range is the case for filing: the Lure-deathtouch-trample package ports to any trampling commander, and Grismold also supports aristocrats and +1/+1-counter shells off the same token-death trigger. Lure is not among his EDHREC themes.",
+          "Honest limit: the builder admits running every workable Lure including some at awkward mana values, so the card quality is uneven; the interaction is the find, not the list."
+        ],
+        "corroboratingSources": [],
+        "alternatives": [
+          {
+            "name": "Group hug tokens",
+            "status": "rejected",
+            "reason": "The listed default treats the Plants as a political gift; this build treats them as ammunition."
+          },
+          {
+            "name": "Deathtouch plus trample",
+            "status": "supporting",
+            "reason": "Deathtouch lets a trampler assign one damage per blocker and the rest to the player, so a forced mass block becomes a wipe and a hit."
+          }
+        ]
+      },
+      "tags": [
+        "arch-tokens",
+        "arch-voltron",
+        "band-500-1000",
+        "ci-bg",
+        "mech-deathtouch",
+        "mech-lure",
+        "recheck-90d"
+      ],
+      "popularity": {
+        "edhrecRank": 940,
+        "deckCount": 2743,
+        "asOf": "2026-10-21"
+      },
+      "fingerprint": "46553abcc831a303cc417dabeb16997315cd6fef64fdcfa3cecd4326e3ff2fb0",
+      "score": {
+        "total": 53.6,
+        "components": {
+          "obscurity": 62.2,
+          "community": 47.8,
+          "expert": 78,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal.",
+          "A primer gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "loot-the-anomaly-inverted-voltron-2026-10-14",
+      "findingType": "deep_dive_resource",
+      "title": "Loot, the Anomaly hits harder the smaller he gets, so symmetrical shrink effects become a one-sided pump",
+      "summary": "Loot starts at -2 power and assigns combat damage as if negative power were positive, and his own threshold ability sacrifices a creature to push him further down. That turns the usual Voltron plan inside out: -X/-X sweepers and -1/-1 counters that hurt everyone else make Loot a bigger threat, and 'low power' evasion such as skulk or being the Ring-bearer makes him nearly unblockable. The EDHREC deck tech sketches several routes off the same chassis - an infect Aura that grows him each upkeep, one-sided wraths, Ring tempting, and a Soul Cauldron line for a one-turn kill.",
+      "source": {
+        "name": "Reality Fracture Deck Tech: Loot, the Anomaly",
+        "type": "article",
+        "url": "https://edhrec.com/articles/reality-fracture-deck-tech-loot-the-anomaly/",
+        "creator": "Bennie Smith",
+        "resourceDepth": "deep_dive"
+      },
+      "publishedAt": "2026-10-13",
+      "observedAt": "2026-10-14T08:10:00.000Z",
+      "commanders": [
+        {
+          "name": "Loot, the Anomaly",
+          "slug": "loot-the-anomaly",
+          "scryfallId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Agatha's Soul Cauldron",
+          "slug": "agathas-soul-cauldron",
+          "scryfallId": "019b51b0-e5c6-4208-922b-7736686dddcd"
+        },
+        {
+          "name": "Black Sun's Zenith",
+          "slug": "black-suns-zenith",
+          "scryfallId": "eda98f51-a918-4ef7-a123-7d4200c79620"
+        },
+        {
+          "name": "Call of the Ring",
+          "slug": "call-of-the-ring",
+          "scryfallId": "a92a2c5a-e450-494a-b23b-7ac0a6c50535"
+        },
+        {
+          "name": "Glistening Oil",
+          "slug": "glistening-oil",
+          "scryfallId": "483e99fd-7e48-400d-9817-451089089e0c"
+        },
+        {
+          "name": "Skeleton Key",
+          "slug": "skeleton-key",
+          "scryfallId": "3168317b-b166-483e-9d9a-20cdfcdc255c"
+        },
+        {
+          "name": "Toxic Deluge",
+          "slug": "toxic-deluge",
+          "scryfallId": "de5afccc-8d42-4bd6-b068-b9ea2361655e"
+        },
+        {
+          "name": "Viscid Lemures",
+          "slug": "viscid-lemures",
+          "scryfallId": "863f04d7-da34-41e3-9153-97891a428889"
+        }
+      ],
+      "evidence": {
+        "strength": 0.62,
+        "independentSourceCount": 1,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "Oracle text checked on Scryfall 2026-10-14: a {2}{B} -2/4 uncommon from Reality Fracture (released 2026-10-02) whose threshold sacrifice gives him -2/-0, so the commander carries its own sac outlet and its own pump.",
+          "The article explains each interaction rather than listing cards: why a returning infect Aura gets stronger on Loot instead of weaker, why X=3 on a -X/-X sweeper leaves him alive at 5 damage, and why toughness boosts raise the ceiling on how far he can shrink.",
+          "Range is the case for filing: poison, commander damage via one-sided wraths, aristocrats drains off the sacrifice ability, and a Cauldron/Lemures kill are all reachable from the same rule, and 'shrink it to grow it' ports to any future negative-power creature.",
+          "No games are reported and the author frames it as a fun casual build, not cEDH; the strongest competitive angle is that Toxic Deluge and Black Sun's Zenith become one-sided for this deck.",
+          "New-commander cohort: about 594 EDHREC decks and 513 Archidekt decks within two weeks of release, but the most-viewed Archidekt lists carry no description, card notes or primer, so this article is the only written reasoning found.",
+          "Not to be confused with Liliana the Repentant, a fellow Reality Fracture card the article runs as a threshold enabler (rejected as a commander on 2026-10-07)."
+        ],
+        "corroboratingSources": [],
+        "alternatives": [
+          {
+            "name": "Infect via Glistening Oil",
+            "status": "supporting",
+            "reason": "The -1/-1 counter the Aura adds each upkeep is a drawback on any other creature and a growing poison clock on Loot."
+          },
+          {
+            "name": "One-sided sweepers",
+            "status": "supporting",
+            "reason": "Black Sun's Zenith, Toxic Deluge and similar -X/-X effects clear blockers while increasing Loot's damage."
+          },
+          {
+            "name": "Ring-bearer evasion",
+            "status": "supporting",
+            "reason": "The Ring's 'can't be blocked by creatures with greater power' clause is close to unblockable on a commander with negative power."
+          }
+        ]
+      },
+      "tags": [
+        "arch-aristocrats",
+        "arch-voltron",
+        "band-2000-3000",
+        "ci-b",
+        "mech-minus-counters",
+        "mech-negative-power",
+        "recheck-30d"
+      ],
+      "popularity": {
+        "edhrecRank": 2084,
+        "deckCount": 594,
+        "asOf": "2026-10-13"
+      },
+      "fingerprint": "a650f18fb15f816651e1cf675031e1642b87b14250752baeafee2a8c84b44ab2",
+      "score": {
+        "total": 59.1,
+        "components": {
+          "obscurity": 73.8,
+          "community": 43.9,
+          "expert": 92,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "A deep dive gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "oswald-fiddlebender-secret-commander-2026-09-30",
+      "findingType": "deep_dive_resource",
+      "title": "Oswald Fiddlebender is a tutor chassis, and three builders aim it at three different artifacts",
+      "summary": "Oswald sacrifices an artifact to put one costing exactly one more onto the battlefield, so a mono-white deck gets to pick its real win condition from the library each game. One primer climbs from two-drops to Monument to Endurance, then copies it, because each copy can make every opponent lose 3 life once a turn off a discard. An unrelated build climbs one step further to Giggling Skitterspike and grows it with Modular counters. The cEDH Decklist Database's Brewer's Corner lists a third, competitive route that chains into Marvin, Murderous Mimic and Pili-Pala for combo turns 3-4. Same commander, three payloads that share little beyond the chain.",
+      "source": {
+        "name": "Monumental Oswald - Primer",
+        "type": "primer",
+        "url": "https://archidekt.com/decks/12375268",
+        "creator": "NoahReden",
+        "resourceDepth": "deep_dive"
+      },
+      "publishedAt": "2026-09-23",
+      "observedAt": "2026-09-30T08:05:00.000Z",
+      "commanders": [
+        {
+          "name": "Oswald Fiddlebender",
+          "slug": "oswald-fiddlebender",
+          "scryfallId": "bba1650f-eddf-49a9-820e-489cb8d5b6fa"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Giggling Skitterspike",
+          "slug": "giggling-skitterspike",
+          "scryfallId": "fba20e7e-9581-4a9b-bdda-5c85d3450d4c"
+        },
+        {
+          "name": "Marvin, Murderous Mimic",
+          "slug": "marvin-murderous-mimic",
+          "scryfallId": "66898970-b99b-48f2-9240-68c301c95500"
+        },
+        {
+          "name": "Mirage Mirror",
+          "slug": "mirage-mirror",
+          "scryfallId": "e516bc14-749c-4da6-b5d3-cb5c16316e0c"
+        },
+        {
+          "name": "Monument to Endurance",
+          "slug": "monument-to-endurance",
+          "scryfallId": "d21433ba-0a14-42bc-ad0b-a4ef823a3295"
+        },
+        {
+          "name": "Patchwork Gnomes",
+          "slug": "patchwork-gnomes",
+          "scryfallId": "3002ccef-5322-4f99-9fce-3b4303347240"
+        },
+        {
+          "name": "Pili-Pala",
+          "slug": "pili-pala",
+          "scryfallId": "4892c152-1f4a-4616-8e7f-0ca4911e621a"
+        }
+      ],
+      "evidence": {
+        "strength": 0.7,
+        "independentSourceCount": 3,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": true,
+        "notes": [
+          "The Monument primer is long-form and still maintained (updated 2026-09-23, about 8,700 views): it gives a turn-by-turn opening, what to tutor first depending on whether a discard outlet is already down, and the damage maths once the Monument is copied.",
+          "The Monument primer reports its own play experience - consistent in multiplayer, strong in Two-Headed Giant, weak to repeat games against people who learn to exile the Monument - but no game logs.",
+          "The Skitterspike build is an independent author and a different payload: a four-drop reached one sacrifice later, with a Modular and counter-doubling package feeding it.",
+          "The cEDH Decklist Database lists Oswald in the Brewer's Corner (entry dated 2026-08-19), describing a toolbox that dumps artifacts early and breaks parity on stax like Trinisphere. Its decklists are on Moxfield and were not opened.",
+          "Range is the case for filing: the chain is the constant and the top of it is a deckbuilding choice, which is the several-shells shape the bar asks for."
+        ],
+        "corroboratingSources": [
+          {
+            "name": "Oswald Secret Commander=Giggling Skitterspike",
+            "url": "https://archidekt.com/decks/23426010",
+            "creator": "ErichEichenkrug"
+          },
+          {
+            "name": "cEDH Decklist Database - Brewer's Corner: Fancy a Fiddle",
+            "url": "https://cedh-decklist-database.com/",
+            "creator": "cEDH Decklist Database"
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "Monument to Endurance as the payload",
+            "status": "supporting",
+            "reason": "A three-drop reached from any two-drop artifact; free discard creatures and copies of the Monument turn it into a burn clock."
+          },
+          {
+            "name": "Giggling Skitterspike as the payload",
+            "status": "supporting",
+            "reason": "An indestructible four-drop that deals its power to each opponent whenever it attacks, blocks or is targeted, grown by Modular creatures dying around it."
+          },
+          {
+            "name": "Marvin and Pili-Pala combo",
+            "status": "supporting",
+            "reason": "The competitive route: Marvin copies Oswald's ability, and the chain assembles a combo while the deck plays under its own stax."
+          }
+        ]
+      },
+      "tags": [
+        "arch-artifacts",
+        "arch-toolbox",
+        "band-1000-2000",
+        "ci-w",
+        "mech-tutor-chain",
+        "recheck-90d"
+      ],
+      "popularity": {
+        "edhrecRank": 1028,
+        "deckCount": 2358,
+        "asOf": "2026-09-29"
+      },
+      "fingerprint": "3511bc6a4ac529aa702580481aedcd96357058099347faa71f1edf7a31fe7b7f",
+      "score": {
+        "total": 64.7,
+        "components": {
+          "obscurity": 63.4,
+          "community": 61.5,
+          "expert": 92,
+          "mechanical": 100,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "3 independent sources reinforce the signal.",
+          "The relationship has tested or maintained deck evidence.",
+          "A deep dive gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "niv-mizzet-supreme-eidolon-package-2026-09-23",
+      "findingType": "deep_dive_resource",
+      "title": "Niv-Mizzet, Supreme plays a package it never casts, because the Eidolons return themselves",
+      "summary": "Two months of iteration on the five Dissension Eidolons, which return from the graveyard to hand whenever their controller casts a multicolored spell. That inverts the usual cost of looting and rummaging: the discard is free, so every modern discard payoff becomes an engine rather than a resource trade. The write-up prices the constraint openly at roughly two dozen multicolored cards, which is why the least-played of the seven Niv-Mizzets is the all-in home rather than a tighter Grixis shell, and it names the commanders in other colours the same package slots into. Pauper, Vintage and Premodern precedent is cited as evidence the engine is real rather than cute.",
+      "source": {
+        "name": "EDHREC Articles",
+        "type": "article",
+        "url": "https://edhrec.com/articles/the-best-cards-youre-not-playing-are-ones-youll-never-cast/",
+        "creator": "Jesse Barker Plotkin",
+        "resourceDepth": "deep_dive"
+      },
+      "publishedAt": "2026-09-23",
+      "observedAt": "2026-09-23T11:19:34.000Z",
+      "commanders": [
+        {
+          "name": "Niv-Mizzet, Supreme",
+          "slug": "niv-mizzet-supreme",
+          "scryfallId": "da1ff886-d3c8-43e5-8bf0-ba4f0b259781"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Aurora Eidolon",
+          "slug": "aurora-eidolon",
+          "scryfallId": "51bb3d0b-8630-4373-b863-bc831cf08098"
+        },
+        {
+          "name": "Krovikan Horror",
+          "slug": "krovikan-horror",
+          "scryfallId": "8321977d-69bf-4e10-a776-8d714b0b9d46"
+        },
+        {
+          "name": "Magus of the Bazaar",
+          "slug": "magus-of-the-bazaar",
+          "scryfallId": "d117ed81-7b5c-4e29-b958-6126d48ac5a6"
+        },
+        {
+          "name": "Monument to Endurance",
+          "slug": "monument-to-endurance",
+          "scryfallId": "d21433ba-0a14-42bc-ad0b-a4ef823a3295"
+        },
+        {
+          "name": "Psychic Frog",
+          "slug": "psychic-frog",
+          "scryfallId": "68924203-c3d9-41ce-8ca8-c6dd491eb3ca"
+        },
+        {
+          "name": "Sandstorm Eidolon",
+          "slug": "sandstorm-eidolon",
+          "scryfallId": "49e61ce3-e2cc-401c-b998-8baf8836e83a"
+        }
+      ],
+      "evidence": {
+        "strength": 0.66,
+        "independentSourceCount": 1,
+        "conversationDepth": "tested",
+        "communityReasoned": true,
+        "tested": true,
+        "notes": [
+          "The author reports two months of iterating variants and names the resulting list their favourite deck to play.",
+          "The deckbuilding cost is stated as a number rather than waved at: the Eidolons need enough multicolored spells to fire, and the five-colour build is what pays it.",
+          "The package is portable — the same eight-or-so cards are offered to Varina, Raffine, Quintorius and Rydia decks, so the idea is not locked to one commander."
+        ],
+        "alternatives": [
+          {
+            "name": "A Grixis shell under a popular commander",
+            "status": "rejected",
+            "reason": "Named as the seamless fit, but passed over because it runs fewer multicolored spells and the Eidolons come back less often."
+          },
+          {
+            "name": "Squee and Master of Death alone",
+            "status": "rejected",
+            "reason": "Easier, but already in tens of thousands of decks, which is why the article reaches past them."
+          }
+        ]
+      },
+      "tags": [
+        "arch-discard",
+        "arch-graveyard",
+        "arch-spellslinger",
+        "band-1000-2000",
+        "ci-wubrg",
+        "mech-multicolor-matters",
+        "mech-return-to-hand",
+        "recheck-180d"
+      ],
+      "popularity": {
+        "edhrecRank": 1030,
+        "deckCount": 2331,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "73078d0faa2ff0fdd9d4d9a16a43ee320a0905fc236735bf41820f67bd21cdba",
+      "score": {
+        "total": 62.4,
+        "components": {
+          "obscurity": 63.5,
+          "community": 49.7,
+          "expert": 92,
+          "mechanical": 100,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "The relationship has tested or maintained deck evidence.",
+          "A deep dive gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
+      "findingType": "emerging_brew",
+      "title": "Vraska's Sculpture tokens are creatures, and two builders route around it differently",
+      "summary": "Reality Fracture's Jeskai Vraska turns every noncreature spell into a 1/1 Sculpture Treasure, but the tokens are artifact creatures, so they cannot tap for mana the turn they arrive. A budget EDHREC deck tech and an unrelated high-power Archidekt primer each build around that constraint and land on opposite answers: the budget list spends the tokens on costs that tap a summoning-sick creature, while the primer adds haste granters so they tap for mana straight away.",
+      "source": {
+        "name": "EDHREC Articles",
+        "type": "article",
+        "url": "https://edhrec.com/articles/vraska-soul-of-stone-jeskai-weaponized-treasures-on-a-budget/",
+        "creator": "Tyler Bucks",
+        "resourceDepth": "deep_dive"
+      },
+      "publishedAt": "2026-09-22",
+      "observedAt": "2026-09-23T06:20:00.000Z",
+      "commanders": [
+        {
+          "name": "Vraska, Soul of Stone",
+          "slug": "vraska-soul-of-stone",
+          "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Alibou, Ancient Witness",
+          "slug": "alibou-ancient-witness",
+          "scryfallId": "10ff4bac-1f93-4dd3-987a-523a6f733a1e"
+        },
+        {
+          "name": "Brudiclad, Telchor Engineer",
+          "slug": "brudiclad-telchor-engineer",
+          "scryfallId": "d24bf1df-5087-4ad6-a1aa-4eda2340cd8b"
+        },
+        {
+          "name": "Losheel, Clockwork Scholar",
+          "slug": "losheel-clockwork-scholar",
+          "scryfallId": "ee6b54de-8e79-4f60-b642-3d259bf74ea0"
+        },
+        {
+          "name": "Springleaf Drum",
+          "slug": "springleaf-drum",
+          "scryfallId": "e15ab0aa-4059-4923-9816-6f7a9e5b5a18"
+        },
+        {
+          "name": "The Regalia",
+          "slug": "the-regalia",
+          "scryfallId": "dc420e79-c483-474f-97cd-e9c6a636c306"
+        },
+        {
+          "name": "Third Path Iconoclast",
+          "slug": "third-path-iconoclast",
+          "scryfallId": "ca29f373-7051-4cbe-bda8-e711fda4f9bb"
+        }
+      ],
+      "evidence": {
+        "strength": 0.72,
+        "independentSourceCount": 2,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "Both sources name the summoning-sickness limit explicitly and build to answer it, rather than listing the commander as a set-review highlight.",
+          "The two answers are mechanically distinct: costs that tap an untapped creature ignore summoning sickness, whereas haste lets the token use its own mana ability.",
+          "Neither source reports games played, so this is reasoned rather than tested.",
+          "Highest deck count in the Reality Fracture cohort outside Tetsuko, at 1,225 decks against a catalogue trend z-score of 4.77."
+        ],
+        "corroboratingSources": [
+          {
+            "name": "Vraska, Soul of Stone: Sculpture of Limitations",
+            "url": "https://archidekt.com/decks/26289709",
+            "creator": "MTGDeckVault"
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "Haste granters for the Sculpture tokens",
+            "status": "supporting",
+            "reason": "Alibou and Brudiclad let a freshly made Sculpture tap for mana or attack the turn it is created."
+          },
+          {
+            "name": "Costs that tap a creature without using its own ability",
+            "status": "supporting",
+            "reason": "Springleaf Drum and crewing a Vehicle both tap a summoning-sick creature legally, so the token converts to value immediately without haste."
+          },
+          {
+            "name": "Chaining spells off token mana the turn they are made",
+            "status": "rejected",
+            "reason": "The tokens are creatures, so their mana ability is unavailable until they have been controlled since the start of a turn."
+          }
+        ]
+      },
+      "tags": [
+        "arch-artifacts",
+        "arch-tokens",
+        "band-1000-2000",
+        "ci-wur",
+        "mech-crew",
+        "mech-summoning-sickness",
+        "recheck-30d",
+        "seed-2026-09"
+      ],
+      "popularity": {
+        "edhrecRank": 1501,
+        "deckCount": 1225,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "8c3a8ab770f21f45c9210a87a2b36b69ebed3e87bc98bab473ec31f268fd017a",
+      "score": {
+        "total": 59.8,
+        "components": {
+          "obscurity": 68.6,
+          "community": 55.4,
+          "expert": 92,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal.",
+          "A deep dive gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "niv-mizzet-ghost-counsel-life-neutral-draw-2026-09-24",
+      "findingType": "emerging_brew",
+      "title": "Confessor makes Niv's draw life-neutral, so Skirge Familiar's discard pays for itself",
+      "summary": "Reality Fracture's Orzhov Niv-Mizzet converts any life gained into that many cards, paid for with the same life. A bracket-4 Archidekt primer pairs it with Confessor, which gains a life whenever any player discards. Each Skirge Familiar activation then discards a card for a black mana, gains one life, and Niv turns that life back into the replacement draw: life neutral, hand neutral, one mana ahead. Discarding Kozilek shuffles the graveyard back, so the library never empties. A second builder deliberately avoids the instant-kill loops and runs the same commander as a bracket-2 lifegain draw engine, and Commander Spellbook already registers two-card infinite draw with Sheoldred.",
+      "source": {
+        "name": "Niv-Spirret",
+        "type": "decklist",
+        "url": "https://archidekt.com/decks/26575861",
+        "creator": "amber-card-addict",
+        "resourceDepth": "primer"
+      },
+      "publishedAt": "2026-09-22",
+      "observedAt": "2026-09-24T07:40:00.000Z",
+      "commanders": [
+        {
+          "name": "Niv-Mizzet, Ghost Counsel",
+          "slug": "niv-mizzet-ghost-counsel",
+          "scryfallId": "0ad0e168-ac5c-4e1b-83f2-0488067a58d7"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Confessor",
+          "slug": "confessor",
+          "scryfallId": "984c0bdb-e9e2-435e-aa68-2dbad52c3dbd"
+        },
+        {
+          "name": "Kozilek, Butcher of Truth",
+          "slug": "kozilek-butcher-of-truth",
+          "scryfallId": "d27cf7b7-7982-46bd-a559-7789c0e74bae"
+        },
+        {
+          "name": "Mana Tithe",
+          "slug": "mana-tithe",
+          "scryfallId": "9ae707d5-d81d-4320-b947-6016dc188898"
+        },
+        {
+          "name": "Sheoldred, the Apocalypse",
+          "slug": "sheoldred-the-apocalypse",
+          "scryfallId": "d67be074-cdd4-41d9-ac89-0a0456c4e4b2"
+        },
+        {
+          "name": "Skirge Familiar",
+          "slug": "skirge-familiar",
+          "scryfallId": "2d92fcf1-2ccd-47d2-9a24-f44b766a0b68"
+        }
+      ],
+      "evidence": {
+        "strength": 0.74,
+        "independentSourceCount": 2,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "The primer states the loop mechanically - discard outlet into the lifegain trigger into the draw - rather than naming the commander as a set-review highlight.",
+          "The pieces are old and cheap: Confessor is an Odyssey common and Skirge Familiar a Modern Horizons 2 uncommon, so the line does not depend on Reality Fracture cards.",
+          "The same lifegain-on-discard shape is already registered on Commander Spellbook with Oloro in the Niv slot, which is independent support for the mechanism.",
+          "Two builders reached different shells on purpose - a bracket-4 control-into-combo list and a bracket-2 engine that skips the instant kills - so the commander has room in it rather than one line.",
+          "Neither builder reports games played, so this is reasoned rather than tested."
+        ],
+        "corroboratingSources": [
+          {
+            "name": "Niv-Mizzet, Ghost Counsel: Parun-Normal Activity",
+            "url": "https://archidekt.com/decks/26511556",
+            "creator": "MTGDeckVault"
+          },
+          {
+            "name": "Commander Spellbook: Niv-Mizzet, Ghost Counsel with Sheoldred, the Apocalypse",
+            "url": "https://commanderspellbook.com/combo/2498-8192/",
+            "creator": "Commander Spellbook"
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "Confessor plus a free discard outlet",
+            "status": "supporting",
+            "reason": "Confessor triggers on any player discarding, so a repeatable outlet converts the commander's life-for-cards clause into a mana engine that costs nothing."
+          },
+          {
+            "name": "Kozilek, Butcher of Truth as the fuel tank",
+            "status": "supporting",
+            "reason": "Being put into the graveyard from anywhere shuffles the graveyard into the library, so discarding it refills the deck the loop is drawing through."
+          },
+          {
+            "name": "Sanguine Bond style symmetric lifegain kills",
+            "status": "rejected",
+            "reason": "The second builder cut them on purpose, because the drain loops end the game before the draw engine does anything and make the commander interchangeable."
+          }
+        ]
+      },
+      "tags": [
+        "arch-combo",
+        "arch-lifegain",
+        "band-1000-2000",
+        "ci-wb",
+        "mech-discard-outlet",
+        "mech-lifegain-triggers",
+        "recheck-30d"
+      ],
+      "popularity": {
+        "edhrecRank": 1587,
+        "deckCount": 1090,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "35f7d2d751e3a2981e538b16cd12eb52ef6becfce0137f284bb74be1a716a205",
+      "score": {
+        "total": 57.5,
+        "components": {
+          "obscurity": 69.5,
+          "community": 56.3,
+          "expert": 78,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal.",
+          "A primer gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "massimo-vraska-spree-2026-09-20",
+      "findingType": "relationship_signal",
+      "title": "Massimo turns Vraska tokens and Spree spells into a repeatable engine",
+      "summary": "A repeat Massimo brewer and follow-up discussion connect Vraska's spell-triggered creature tokens to Massimo's bind ability. Multiple discussions also converge on one-mana Spree cards, especially Great Train Heist, because their additional costs remain payable when Massimo recasts them.",
+      "source": {
+        "name": "r/EDHBrews",
+        "type": "reddit",
+        "url": "https://www.reddit.com/r/EDHBrews/comments/1wlpa42/massimo_the_magician_need_suggestions_of_my_first/",
+        "creator": "Nivosus and r/EDHBrews contributors",
+        "resourceDepth": "discussion"
+      },
+      "publishedAt": "2026-09-20",
+      "observedAt": "2026-09-20T20:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Massimo, the Magician",
+          "slug": "massimo-the-magician",
+          "scryfallId": "bed6b0c6-6e25-4129-9d11-3e80157ddb42"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Great Train Heist",
+          "slug": "great-train-heist",
+          "scryfallId": "357dd9b2-5d2d-49f6-86f0-f5c4d63474dd"
+        },
+        {
+          "name": "Kykar, Wind's Fury",
+          "slug": "kykar-winds-fury",
+          "scryfallId": "fdb034c8-bae0-4f66-98f1-1b3cdc072f17"
+        },
+        {
+          "name": "Three Steps Ahead",
+          "slug": "three-steps-ahead",
+          "scryfallId": "8fffd839-2337-4a14-9312-cee085a17f4b"
+        },
+        {
+          "name": "Vraska, Soul of Stone",
+          "slug": "vraska-soul-of-stone",
+          "scryfallId": "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+        }
+      ],
+      "evidence": {
+        "strength": 0.76,
+        "independentSourceCount": 2,
+        "conversationDepth": "tested",
+        "communityReasoned": true,
+        "tested": true,
+        "notes": [
+          "The brewer linked a maintained paper list and described Great Train Heist as a principal win condition.",
+          "The token engine and Spree rules interaction were explained mechanically rather than merely named."
+        ],
+        "corroboratingSources": [
+          {
+            "name": "Massimo. What the hell do we do with this?",
+            "url": "https://www.reddit.com/r/EDH/comments/1vdvd2t/massimo_what_the_hell_do_we_do_with_this/",
+            "creator": "r/EDH contributors"
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "Vraska tokens as immediate mana",
+            "status": "rejected",
+            "reason": "Without haste, Vraska's creature Treasures cannot tap immediately, and sacrificing a token carrying a bound spell loses that spell."
+          },
+          {
+            "name": "Kykar, Wind's Fury",
+            "status": "supporting",
+            "reason": "Kykar supplies evasive tokens and can convert Spirits to mana, strengthening the Great Train Heist line."
+          }
+        ]
+      },
+      "tags": [
+        "combat",
+        "jeskai",
+        "spell-copying",
+        "spree",
+        "tokens"
+      ],
+      "popularity": {
+        "edhrecRank": 1050,
+        "deckCount": 2200,
+        "asOf": "2026-09-20"
+      },
+      "movement": {
+        "7d": 22,
+        "30d": 38,
+        "90d": 44
+      },
+      "fingerprint": "7102dec0b49e351e050048e9c69f90bfbf21bcaa45395ce64622a5c9537e3c74",
+      "score": {
+        "total": 57.8,
+        "components": {
+          "obscurity": 63.8,
+          "community": 61.2,
+          "expert": 35,
+          "mechanical": 100,
+          "momentum": 44,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal.",
+          "The relationship has tested or maintained deck evidence.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "calamity-galloping-inferno-double-saddle-2026-09-23",
+      "findingType": "relationship_signal",
+      "title": "Calamity's saddle trigger repeats, making two copies and doubling an ETB",
+      "summary": "A budget mono-red build is organised around the second half of the attack trigger, which runs the copy process twice rather than once. Because the commander has haste it can be cast, saddled with a cheap enter-the-battlefield creature and attack on the same turn, doubling that trigger immediately for mana, cards, removal or damage. The copy only happens for a nonlegendary saddler, which pushes the creature base toward cheap repeatable enter triggers instead of marquee legends.",
+      "source": {
+        "name": "Archidekt",
+        "type": "primer",
+        "url": "https://archidekt.com/decks/26597078",
+        "creator": "Panzer-MTG",
+        "resourceDepth": "primer"
+      },
+      "publishedAt": "2026-09-20",
+      "observedAt": "2026-09-23T07:10:00.000Z",
+      "commanders": [
+        {
+          "name": "Calamity, Galloping Inferno",
+          "slug": "calamity-galloping-inferno",
+          "scryfallId": "e7a70f5a-2056-4c26-b6ea-9f751b5d0d8c"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Combat Celebrant",
+          "slug": "combat-celebrant",
+          "scryfallId": "28b63c3d-2e55-4343-b49a-11fa602ec473"
+        },
+        {
+          "name": "Emrakul's Hatcher",
+          "slug": "emrakul-s-hatcher",
+          "scryfallId": "35fab29d-1bcc-4ba0-90bf-427d95bf6699"
+        },
+        {
+          "name": "Flameshadow Conjuring",
+          "slug": "flameshadow-conjuring",
+          "scryfallId": "ae113258-288f-47d5-8f79-e2e51b6326de"
+        },
+        {
+          "name": "Hoarding Dragon",
+          "slug": "hoarding-dragon",
+          "scryfallId": "c3a35b3b-0c92-4b40-8210-86a5b5f275eb"
+        },
+        {
+          "name": "Meteor Golem",
+          "slug": "meteor-golem",
+          "scryfallId": "a1a1cfec-72ca-499b-b621-fa2d8502ea20"
+        },
+        {
+          "name": "Panharmonicon",
+          "slug": "panharmonicon",
+          "scryfallId": "998d0cc8-ca2a-41c3-ab65-d05c26ab8278"
+        },
+        {
+          "name": "Seize the Day",
+          "slug": "seize-the-day",
+          "scryfallId": "9cb5d064-f474-4db9-b349-b9f71c587742"
+        }
+      ],
+      "evidence": {
+        "strength": 0.6,
+        "independentSourceCount": 1,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "The primer names the exact rules clause the build hangs on and explains why haste makes it work the turn the commander lands.",
+          "From a channel that specialises in overlooked commanders, which is the targeting signal docs/SOURCES.md describes."
+        ],
+        "alternatives": [
+          {
+            "name": "Saddling with legendary bombs",
+            "status": "rejected",
+            "reason": "The trigger only copies a nonlegendary creature that saddled it, so a legendary saddler produces nothing at all."
+          },
+          {
+            "name": "Building it as a go-wide token board",
+            "status": "rejected",
+            "reason": "The copies are sacrificed at the beginning of the next end step, so value has to be banked the same turn rather than accumulated."
+          }
+        ]
+      },
+      "tags": [
+        "arch-clones",
+        "arch-tokens",
+        "band-1000-2000",
+        "ci-r",
+        "mech-etb-doubling",
+        "mech-saddle",
+        "recheck-90d",
+        "seed-2026-09"
+      ],
+      "popularity": {
+        "edhrecRank": 1219,
+        "deckCount": 1793,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "8a3a8034ca9245a2a8c8e6cf19a1f4e3070f279b98289fe5f4a2aef5097a93cf",
+      "score": {
+        "total": 53.7,
+        "components": {
+          "obscurity": 65.7,
+          "community": 43,
+          "expert": 78,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "A primer gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "the-scarlet-witch-ritual-threshold-2026-09-23",
+      "findingType": "emerging_brew",
+      "title": "The Scarlet Witch only discounts big spells, so the deck runs rituals not cantrips",
+      "summary": "Spells are selected to clear the mana-value-four threshold and give red mana back, so each cast is mana-neutral or better once her power reduces the cost, with refund effects bolted onto the spells that do not produce mana themselves. Her power is then pumped by equipment that scales off instants and sorceries in the graveyard, which the wheels are already filling. The finish is an X spell whose own mana value carries the discount, and the primer gives the power threshold each option needs.",
+      "source": {
+        "name": "Archidekt",
+        "type": "primer",
+        "url": "https://archidekt.com/decks/23886957",
+        "creator": "Verisarity",
+        "resourceDepth": "primer"
+      },
+      "publishedAt": "2026-09-18",
+      "observedAt": "2026-09-23T07:10:00.000Z",
+      "commanders": [
+        {
+          "name": "The Scarlet Witch",
+          "slug": "the-scarlet-witch",
+          "scryfallId": "407e8993-e56d-477d-ab85-d10a2522eab3"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Big Score",
+          "slug": "big-score",
+          "scryfallId": "3383a939-4ab3-4546-9995-6c65cd3f4441"
+        },
+        {
+          "name": "Birgi, God of Storytelling",
+          "slug": "birgi-god-of-storytelling"
+        },
+        {
+          "name": "Comet Storm",
+          "slug": "comet-storm",
+          "scryfallId": "bb5f586d-6bf0-4590-ad73-2d46b2a45b1a"
+        },
+        {
+          "name": "Crackle with Power",
+          "slug": "crackle-with-power",
+          "scryfallId": "de547f52-3798-4b3a-947d-24873251204b"
+        },
+        {
+          "name": "Glamdring",
+          "slug": "glamdring",
+          "scryfallId": "8296ebf7-45ed-4b38-acf2-b48d9fb3e706"
+        },
+        {
+          "name": "Runechanter's Pike",
+          "slug": "runechanter-s-pike",
+          "scryfallId": "0f54e38b-b4a0-4406-a635-7a5ab3722f25"
+        },
+        {
+          "name": "Unexpected Windfall",
+          "slug": "unexpected-windfall",
+          "scryfallId": "bae6a5fb-39f5-4cf8-85f7-661cb4570507"
+        }
+      ],
+      "evidence": {
+        "strength": 0.74,
+        "independentSourceCount": 1,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "Per-card notes do the mana arithmetic for each inclusion rather than asserting the deck is mana-positive.",
+          "Each finisher is given the exact power threshold it needs to be lethal."
+        ],
+        "alternatives": [
+          {
+            "name": "Cheap-cantrip spellslinger",
+            "status": "rejected",
+            "reason": "Spells under mana value four get no discount from her at all, so the usual mono-red spellslinger curve turns the commander off entirely."
+          },
+          {
+            "name": "Voltron Scarlet Witch",
+            "status": "rejected",
+            "reason": "The builder pumps power as a cost reducer rather than a damage plan; commander damage only becomes relevant incidentally."
+          }
+        ]
+      },
+      "tags": [
+        "arch-spellslinger",
+        "arch-storm",
+        "band-1000-2000",
+        "ci-r",
+        "mech-cost-reduction",
+        "recheck-90d",
+        "seed-2026-09"
+      ],
+      "popularity": {
+        "edhrecRank": 1121,
+        "deckCount": 2042,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "4eb99bfe0c06cdc2d759e196d50afb410670c81022b9f46f4bc92c894733ca52",
+      "score": {
+        "total": 54.6,
+        "components": {
+          "obscurity": 64.6,
+          "community": 49.3,
+          "expert": 78,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "A primer gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "uldaros-theorix-no-ramp-dredge-2026-09-23",
+      "findingType": "emerging_brew",
+      "title": "Uldaros cuts all ramp, because a turn-two looter beats a turn-two Signet",
+      "summary": "The commander's exile-copy-cast trigger invites a two-card graveyard combo, and the author deliberately builds away from it, running a looter-plus-dredge engine instead that activates at instant speed in response to graveyard hate. The no-ramp decision is argued on mulligan and sequencing grounds rather than curve: ramp muddies which opening hands are keepable. Uldaros bridges to the mass-reanimation top end by casting a cheap reanimate effect that returns a spell-recurring creature, and the manabase runs multi-type lands so card-type-counting payoffs stay live.",
+      "source": {
+        "name": "EDHREC Articles",
+        "type": "article",
+        "url": "https://edhrec.com/articles/uldaros-theorix-commander-deck-tech/",
+        "creator": "Kara Blinebry",
+        "resourceDepth": "deep_dive"
+      },
+      "publishedAt": "2026-09-17",
+      "observedAt": "2026-09-23T07:10:00.000Z",
+      "commanders": [
+        {
+          "name": "Uldaros Theorix",
+          "slug": "uldaros-theorix",
+          "scryfallId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Magus of the Bazaar",
+          "slug": "magus-of-the-bazaar",
+          "scryfallId": "d117ed81-7b5c-4e29-b958-6126d48ac5a6"
+        },
+        {
+          "name": "Merfolk Looter",
+          "slug": "merfolk-looter",
+          "scryfallId": "6d740928-bf61-4420-a403-63097538b97d"
+        },
+        {
+          "name": "Monument to Endurance",
+          "slug": "monument-to-endurance",
+          "scryfallId": "d21433ba-0a14-42bc-ad0b-a4ef823a3295"
+        },
+        {
+          "name": "Polluted Cistern",
+          "slug": "polluted-cistern"
+        },
+        {
+          "name": "Rise of the Dark Realms",
+          "slug": "rise-of-the-dark-realms",
+          "scryfallId": "8645bf0c-631f-4003-bd24-3e069ae23513"
+        },
+        {
+          "name": "Scholar of the Lost Trove",
+          "slug": "scholar-of-the-lost-trove",
+          "scryfallId": "aa254a86-3c30-408d-9c14-befd472f9740"
+        },
+        {
+          "name": "Stinkweed Imp",
+          "slug": "stinkweed-imp",
+          "scryfallId": "2ab08d69-210b-4b06-88a2-45281a1a4e1e"
+        },
+        {
+          "name": "Teval's Judgment",
+          "slug": "teval-s-judgment",
+          "scryfallId": "40ed0cef-8ff6-4169-a9f3-7dd5cf56b79f"
+        }
+      ],
+      "evidence": {
+        "strength": 0.66,
+        "independentSourceCount": 1,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "A stated and defended deckbuilding heresy — no ramp — with the sequencing reasoning behind it rather than an assertion.",
+          "Pre-release commander: the rank and deck count are still forming and should be re-read once the set is out."
+        ],
+        "alternatives": [
+          {
+            "name": "Thassa's Oracle plus Tainted Pact, the default line",
+            "status": "rejected",
+            "reason": "The commander's trigger invites it, but the author deliberately builds away from instant-win two-card combos."
+          },
+          {
+            "name": "Arcane Signet and the usual ramp suite",
+            "status": "rejected",
+            "reason": "It slows the turn-two looter into turn-three payoff curve and clouds mulligan decisions."
+          },
+          {
+            "name": "The Mimeoplasm dredge shell",
+            "status": "rejected",
+            "reason": "The closest analogue and it shares the engine, but it reanimates an army of small creatures rather than a few heavy hitters."
+          }
+        ]
+      },
+      "tags": [
+        "arch-reanimator",
+        "arch-self-mill",
+        "band-2000-3000",
+        "ci-ub",
+        "mech-dredge",
+        "recheck-30d",
+        "seed-2026-09"
+      ],
+      "popularity": {
+        "edhrecRank": 2449,
+        "deckCount": 344,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "65aafff94568e72f3b17ffb9200f3f40e8b2983a2f039a04d06d9fea8f8abbb8",
+      "score": {
+        "total": 60.4,
+        "components": {
+          "obscurity": 77,
+          "community": 45.7,
+          "expert": 92,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "A deep dive gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "liliana-the-faultless-spellshaper-outlet-2026-09-23",
+      "findingType": "relationship_signal",
+      "title": "Liliana is templated like a Spellshaper, giving mono-white its discard outlet",
+      "summary": "The build is around the cost of the ability rather than its effect: the discard is the point and the hexproof is incidental. Because the ability needs another creature to target, the deck backfills with actual Spellshapers that share the template and so never lack a target, then treats the cleanup step as a second outlet by running catch-up land tutors to push the grip past seven while the one-land-per-turn rule keeps the excess there. Recursion runs off Emeria, the Sky Ruin, duplicated with land-copying effects rather than tutored for once.",
+      "source": {
+        "name": "EDHREC Articles",
+        "type": "article",
+        "url": "https://edhrec.com/articles/liliana-the-faultless-a-mono-white-bracket-2-reanimator/",
+        "creator": "John Sherwood",
+        "resourceDepth": "deep_dive"
+      },
+      "publishedAt": "2026-09-07",
+      "observedAt": "2026-09-23T07:10:00.000Z",
+      "commanders": [
+        {
+          "name": "Liliana the Faultless",
+          "slug": "liliana-the-faultless",
+          "scryfallId": "70d8c400-87dc-4f15-808f-e54a95d779fc"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Adarkar Valkyrie",
+          "slug": "adarkar-valkyrie",
+          "scryfallId": "fc2a4abc-85da-46a6-a616-9aa607ce7372"
+        },
+        {
+          "name": "Devout Witness",
+          "slug": "devout-witness",
+          "scryfallId": "fdafbdbd-002d-4a4d-a9f9-f6d365b9cf0b"
+        },
+        {
+          "name": "Emeria, the Sky Ruin",
+          "slug": "emeria-the-sky-ruin",
+          "scryfallId": "90f148e6-1a5e-46fc-9557-40c5c0038069"
+        },
+        {
+          "name": "Gift of Estates",
+          "slug": "gift-of-estates",
+          "scryfallId": "561e1994-0b8d-436c-9934-41c486dc8ff8"
+        },
+        {
+          "name": "Oreskos Explorer",
+          "slug": "oreskos-explorer",
+          "scryfallId": "5ebabe38-a035-4c2d-89b5-760712f311b8"
+        },
+        {
+          "name": "Reya Dawnbringer",
+          "slug": "reya-dawnbringer",
+          "scryfallId": "44b45bdd-829a-4fc1-ad37-17c2bd57fac8"
+        },
+        {
+          "name": "Thespian's Stage",
+          "slug": "thespian-s-stage",
+          "scryfallId": "269a926d-7788-4668-8bd8-7572dbf5f5eb"
+        },
+        {
+          "name": "Tonic Peddler",
+          "slug": "tonic-peddler",
+          "scryfallId": "334bbd9d-3549-4352-9635-d772aab28503"
+        }
+      ],
+      "evidence": {
+        "strength": 0.68,
+        "independentSourceCount": 1,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "The effort is a template observation — that the ability reads like a Spellshaper — and a worked answer to mono-white's missing discard outlet.",
+          "Pre-release commander: the rank and deck count are still forming and should be re-read once the set is out."
+        ],
+        "alternatives": [
+          {
+            "name": "Reliquary Tower",
+            "status": "rejected",
+            "reason": "Raising maximum hand size is anti-synergy here, because the cleanup-step discard is the engine rather than a cost to be avoided."
+          },
+          {
+            "name": "Reya Dawnbringer as the commander",
+            "status": "rejected",
+            "reason": "A fine mono-white reanimator general in her own right, but she completes the loop from the 99 instead of setting it up."
+          },
+          {
+            "name": "Esper Sentinel or Secret Rendezvous as the draw",
+            "status": "rejected",
+            "reason": "White's card draw is either too expensive or hands opponents cards, so land tutors fill the hand instead."
+          }
+        ]
+      },
+      "tags": [
+        "arch-reanimator",
+        "band-2000-3000",
+        "ci-w",
+        "mech-cleanup-step",
+        "mech-spellshaper",
+        "recheck-30d",
+        "seed-2026-09"
+      ],
+      "popularity": {
+        "edhrecRank": 2386,
+        "deckCount": 374,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "fc7bf5fe15201c7190b99285d50f98c459b71453d76144c371270121ee8f24c5",
+      "score": {
+        "total": 60.4,
+        "components": {
+          "obscurity": 76.5,
+          "community": 46.6,
+          "expert": 92,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "A deep dive gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "lagrella-the-magpie-bounce-not-blink-2026-09-23",
+      "findingType": "emerging_brew",
+      "title": "Bounce beats blink for Lagrella, because recasting re-fires cast triggers",
+      "summary": "The argument is that cheap creatures which return one of your own permanents to hand beat the standard blink package on three counts: they mostly cost two mana, they can save noncreature permanents and lands, and recasting re-fires cast triggers a flicker skips. That last point is the whole reason the shell exists, and it is what makes Shardless Agent and The One Ring work here. Lagrella was picked last, chosen to fit a game plan already built rather than to define it, so the deck survives her being answered.",
+      "source": {
+        "name": "EDHREC Articles",
+        "type": "article",
+        "url": "https://edhrec.com/articles/lagrella-the-magpie-a-bant-pixie-combo-deck-tech/",
+        "creator": "Benjamin Levin",
+        "resourceDepth": "deep_dive"
+      },
+      "publishedAt": "2026-09-01",
+      "observedAt": "2026-09-23T07:10:00.000Z",
+      "commanders": [
+        {
+          "name": "Lagrella, the Magpie",
+          "slug": "lagrella-the-magpie",
+          "scryfallId": "dd20f271-26c8-429f-a422-e7d95f3bda74"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Ambrosia Whiteheart",
+          "slug": "ambrosia-whiteheart",
+          "scryfallId": "f2596767-7d19-4110-86ed-3cfc93ac7483"
+        },
+        {
+          "name": "Displacer Kitten",
+          "slug": "displacer-kitten",
+          "scryfallId": "c7a401b8-29fb-46ef-a663-427f66724d5c"
+        },
+        {
+          "name": "Kor Skyfisher",
+          "slug": "kor-skyfisher",
+          "scryfallId": "d7501662-1216-4e08-bd2b-e0a459057942"
+        },
+        {
+          "name": "Nurturing Pixie",
+          "slug": "nurturing-pixie",
+          "scryfallId": "0fe155f6-888b-41a0-a9a0-be7bea998718"
+        },
+        {
+          "name": "Shardless Agent",
+          "slug": "shardless-agent",
+          "scryfallId": "b0824e77-c84b-464a-aa0c-44af5f6faa50"
+        },
+        {
+          "name": "The One Ring",
+          "slug": "the-one-ring",
+          "scryfallId": "d5806e68-1054-458e-866d-1f2470f682b2"
+        },
+        {
+          "name": "Whitemane Lion",
+          "slug": "whitemane-lion",
+          "scryfallId": "a358def9-65a0-4741-896c-b2a8c8947768"
+        }
+      ],
+      "evidence": {
+        "strength": 0.72,
+        "independentSourceCount": 2,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "The archetype thesis is defended against the obvious alternative rather than asserted, with three named and rejected alternative commanders.",
+          "The author answers a reader who pushed back on the same premise in a prior column, so the reasoning has been contested."
+        ],
+        "corroboratingSources": [
+          {
+            "name": "Nurturing Pixie: The Best One-Drop You Aren't Playing",
+            "url": "https://edhrec.com/articles/nurturing-pixie-the-best-one-drop-you-arent-playing",
+            "creator": "Benjamin Levin"
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "The standard white blink package",
+            "status": "rejected",
+            "reason": "Flickering skips the cast trigger, so it does nothing for Shardless Agent or The One Ring, which are the payoffs the shell is built on."
+          },
+          {
+            "name": "Aang, at the Crossroads",
+            "status": "rejected",
+            "reason": "Reaches almost every creature in the shell and flips easily, but misses the two evoke five-drops the curve leans on."
+          },
+          {
+            "name": "Amareth, the Lustrous",
+            "status": "rejected",
+            "reason": "A strong value engine, but six mana is out of step with a deliberately low curve."
+          }
+        ]
+      },
+      "tags": [
+        "arch-blink",
+        "arch-combo",
+        "band-1000-2000",
+        "ci-wug",
+        "mech-cast-triggers",
+        "recheck-180d",
+        "seed-2026-09"
+      ],
+      "popularity": {
+        "edhrecRank": 1102,
+        "deckCount": 2092,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "af7857b0257d4e54edc2d407126efe0b8fd7903ab2c961a8a3602ae127d84b09",
+      "score": {
+        "total": 58.6,
+        "components": {
+          "obscurity": 64.4,
+          "community": 55.4,
+          "expert": 92,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal.",
+          "A deep dive gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "the-muckslinger-gang-noncombat-anthem-2026-09-23",
+      "findingType": "relationship_signal",
+      "title": "The Muckslinger Gang's anthem switches off in combat, so cash in size elsewhere",
+      "summary": "The commander pumps your other creatures only while they are not attacking or blocking, and separately pumps creature cards you own in every zone but the battlefield and the stack. A Jund build treats that as a deckbuilding instruction rather than an anthem: it grows creatures with permanent counters, then converts power into damage and cards through sacrifice, fling effects and power-threshold payoffs, leaving the team home as blockers. Because the buff reaches the graveyard, effects that read power off a card in the yard get bigger for free.",
+      "source": {
+        "name": "Archidekt",
+        "type": "primer",
+        "url": "https://archidekt.com/decks/25857066",
+        "creator": "Panzer-MTG",
+        "resourceDepth": "primer"
+      },
+      "publishedAt": "2026-08-29",
+      "observedAt": "2026-09-23T07:10:00.000Z",
+      "commanders": [
+        {
+          "name": "The Muckslinger Gang",
+          "slug": "the-muckslinger-gang",
+          "scryfallId": "99e4f6ac-c998-4ab3-a554-0503b16e936e"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Chandra's Ignition",
+          "slug": "chandra-s-ignition",
+          "scryfallId": "960f45a3-f9cf-41e6-b813-f3dee620a944"
+        },
+        {
+          "name": "Garruk's Uprising",
+          "slug": "garruk-s-uprising",
+          "scryfallId": "b58c4033-f764-42f6-966f-b7202a2babbf"
+        },
+        {
+          "name": "Greater Good",
+          "slug": "greater-good",
+          "scryfallId": "9dd8b16f-3dfd-4e04-a2e9-ec87d0e007c9"
+        },
+        {
+          "name": "Kazuul's Fury",
+          "slug": "kazuul-s-fury"
+        },
+        {
+          "name": "Terror of the Peaks",
+          "slug": "terror-of-the-peaks",
+          "scryfallId": "904ff94a-4db4-44a6-8593-89c32905b3fc"
+        },
+        {
+          "name": "The Great Henge",
+          "slug": "the-great-henge",
+          "scryfallId": "6340e0f3-7f9c-4d71-8daf-e1be5505eb5b"
+        },
+        {
+          "name": "Varolz, the Scar-Striped",
+          "slug": "varolz-the-scar-striped",
+          "scryfallId": "4c3ae3db-c14a-4ffc-805c-a3a51da9370d"
+        }
+      ],
+      "evidence": {
+        "strength": 0.75,
+        "independentSourceCount": 2,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "Two independent builders — an off-meta channel's primer and an EDHREC columnist — reach the same non-obvious reading, that the combat exclusion is the build instruction.",
+          "The graveyard half of the anthem is the part most readings miss, and it is what makes the power-from-the-yard effects work."
+        ],
+        "corroboratingSources": [
+          {
+            "name": "Deck Tech: The Muckslinger Gang",
+            "url": "https://edhrec.com/articles/deck-tech-the-muckslinger-gang",
+            "creator": "Bennie Smith"
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "Treating it as a conventional Jund aggro anthem",
+            "status": "rejected",
+            "reason": "The bonus is removed exactly when a creature attacks or blocks, so every combat step gives the whole thing back."
+          },
+          {
+            "name": "A standard Jund sacrifice-value pile",
+            "status": "rejected",
+            "reason": "It ignores the zone clause and the non-combat restriction, so the commander adds nothing a generic aristocrats build was not already doing."
+          }
+        ]
+      },
+      "tags": [
+        "arch-aristocrats",
+        "arch-power-matters",
+        "band-1000-2000",
+        "ci-brg",
+        "mech-fling",
+        "mech-zone-anthem",
+        "recheck-90d",
+        "seed-2026-09"
+      ],
+      "popularity": {
+        "edhrecRank": 1179,
+        "deckCount": 1879,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "7d26bc70dd4e84cd96fd90965cfe579ed9fb7f8e56de4b58885c446fcdeaf2a4",
+      "score": {
+        "total": 56.3,
+        "components": {
+          "obscurity": 65.3,
+          "community": 56.8,
+          "expert": 78,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal.",
+          "A primer gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "the-queen-of-dale-soldiers-as-resources-2026-09-24",
+      "findingType": "deep_dive_resource",
+      "title": "Two Queen of Dale builds disagree on whether the Soldiers are a board or ramp",
+      "summary": "The Queen of Dale recruits on each opponent's first noncreature spell each turn, which hands mono-white a repeatable discard outlet it normally has no access to. An EDHREC deck tech spends the triggers binning oversized Angels for Restoration Seminar and Emeria, and plays the Human Soldier tokens as a board to anthem and convoke. An unrelated Archidekt primer keeps the reanimator half and spends the same tokens as resources instead: Ashnod's Altar converts them to mana for the expensive value spells, and Settle the Wreckage aimed at his own attack exiles them for basic Plains, which is what turns Emeria on.",
+      "source": {
+        "name": "The Queen of Dale | A Mono-White Reanimator Deck",
+        "type": "article",
+        "url": "https://edhrec.com/articles/the-queen-of-dale-a-mono-white-reanimator-deck",
+        "creator": "Brian Cain",
+        "resourceDepth": "deep_dive"
+      },
+      "publishedAt": "2026-08-03",
+      "observedAt": "2026-09-24T07:45:00.000Z",
+      "commanders": [
+        {
+          "name": "The Queen of Dale",
+          "slug": "the-queen-of-dale",
+          "scryfallId": "c977fb5f-4436-41d0-af68-93b6d05897e5"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Ashnod's Altar",
+          "slug": "ashnods-altar",
+          "scryfallId": "3c0f7157-a375-499c-92c7-d47d2e95dbad"
+        },
+        {
+          "name": "Blasting Station",
+          "slug": "blasting-station",
+          "scryfallId": "71e2f832-6601-4232-b250-fd1c88538fbd"
+        },
+        {
+          "name": "Emeria, the Sky Ruin",
+          "slug": "emeria-the-sky-ruin",
+          "scryfallId": "90f148e6-1a5e-46fc-9557-40c5c0038069"
+        },
+        {
+          "name": "Moonshaker Cavalry",
+          "slug": "moonshaker-cavalry",
+          "scryfallId": "ca90d382-7e13-4637-a624-2a1b82abe56c"
+        },
+        {
+          "name": "Restoration Seminar",
+          "slug": "restoration-seminar",
+          "scryfallId": "9ebc4ecf-2fa2-4ab8-afde-3b91cf5eadb6"
+        },
+        {
+          "name": "Settle the Wreckage",
+          "slug": "settle-the-wreckage",
+          "scryfallId": "31a7a5e2-4cb8-48fc-8351-18344b4a7560"
+        }
+      ],
+      "evidence": {
+        "strength": 0.68,
+        "independentSourceCount": 2,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "The article walks the trigger's wording out as a worked example - one trigger per opponent per turn, counterspells on other players' turns included - rather than asserting that the commander draws cards.",
+          "Settle the Wreckage pointed at your own attacking tokens is the non-obvious half: it exiles them and fetches that many basic Plains, so a wide board converts into the land count Emeria wants.",
+          "The two reads diverge on the same question and neither is a variation of the other: tokens as an attacking board with anthems and Divine Visitation, against tokens as altar fodder and ramp.",
+          "Caveat for review: this commander has broad coverage for its rank and has been called a staple elsewhere, so the novelty is in the resource reading, not in the commander.",
+          "Neither source reports games played."
+        ],
+        "corroboratingSources": [
+          {
+            "name": "Reanimator? I hardly know 'er!",
+            "url": "https://archidekt.com/decks/25210724",
+            "creator": "Devitar"
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "Soldiers as altar fodder and ramp",
+            "status": "supporting",
+            "reason": "Ashnod's Altar turns a token into mana the turn it arrives, and Settle the Wreckage converts the rest of the board into basic Plains for Emeria."
+          },
+          {
+            "name": "Soldiers as an attacking board",
+            "status": "supporting",
+            "reason": "Anthems, convoke outlets and Moonshaker Cavalry make the same tokens a clock, which is the reading the article builds toward."
+          },
+          {
+            "name": "Treating recruit as pure card draw",
+            "status": "rejected",
+            "reason": "Recruit draws then discards, so it is filtering rather than advantage; the value comes from what the discard puts in the graveyard and what the token is then spent on."
+          }
+        ]
+      },
+      "tags": [
+        "arch-reanimator",
+        "arch-tokens",
+        "band-1000-2000",
+        "ci-w",
+        "mech-discard-outlet",
+        "mech-recruit",
+        "recheck-90d"
+      ],
+      "popularity": {
+        "edhrecRank": 1644,
+        "deckCount": 1014,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "010287440b7bb9b80c410a88a8331641317853656b07356c00fd769ffd49f157",
+      "score": {
+        "total": 59.9,
+        "components": {
+          "obscurity": 70,
+          "community": 53.6,
+          "expert": 92,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal.",
+          "A deep dive gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "baron-helmut-zemo-landless-boast-2026-09-23",
+      "findingType": "emerging_brew",
+      "title": "Zemo's boast is the reanimation spell, so Oops All Spells needs nothing in hand",
+      "summary": "Cutting lands entirely lets a self-targeted Balustrade Spy mill the whole deck, after which attacking with Zemo and paying his boast free-casts three creatures out of the graveyard to drain the table. Zemo also fixes the archetype's usual dead-draw problem, because his connive filters toward combo pieces and the boast casts from the graveyard rather than the hand, so it never bricks the Oops line. Cards stranded in hand are dumped with Phantasmagorian before the mill.",
+      "source": {
+        "name": "Archidekt",
+        "type": "primer",
+        "url": "https://archidekt.com/decks/18424569",
+        "creator": "ShinyChicken",
+        "resourceDepth": "primer"
+      },
+      "publishedAt": "2026-06-22",
+      "observedAt": "2026-09-23T07:10:00.000Z",
+      "commanders": [
+        {
+          "name": "Baron Helmut Zemo",
+          "slug": "baron-helmut-zemo",
+          "scryfallId": "c2aadc25-7755-4bc8-a8af-b01d27eec364"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Balustrade Spy",
+          "slug": "balustrade-spy",
+          "scryfallId": "24c852a5-4f38-464b-89b6-2100cf405ff5"
+        },
+        {
+          "name": "Bloodletter of Aclazotz",
+          "slug": "bloodletter-of-aclazotz",
+          "scryfallId": "d4f6027a-003a-4f9d-929a-0b6da1fa42c9"
+        },
+        {
+          "name": "Bridge from Below",
+          "slug": "bridge-from-below",
+          "scryfallId": "3faaa657-8b02-41a9-8a99-31a223d2caa5"
+        },
+        {
+          "name": "Dread Return",
+          "slug": "dread-return",
+          "scryfallId": "34a87901-98bb-41dd-b566-bcb510c20022"
+        },
+        {
+          "name": "Gray Merchant of Asphodel",
+          "slug": "gray-merchant-of-asphodel",
+          "scryfallId": "00d001d0-fd29-4b7c-9d0e-9131b995f910"
+        },
+        {
+          "name": "Phantasmagorian",
+          "slug": "phantasmagorian",
+          "scryfallId": "19bcd780-70a6-4c25-8611-8b750a50aa3d"
+        },
+        {
+          "name": "Twilight Diviner",
+          "slug": "twilight-diviner",
+          "scryfallId": "443b6f30-1493-4d48-93d9-a91e22a7ebb3"
+        }
+      ],
+      "evidence": {
+        "strength": 0.78,
+        "independentSourceCount": 2,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "A written step-by-step win line with a stated reason this commander is the right one for it, rather than a list of black staples.",
+          "A second Zemo primer, kept as corroboration, adds the rules point that boast only needs an attacker to have been declared, so it can be activated before blockers."
+        ],
+        "corroboratingSources": [
+          {
+            "name": "A Captive Audience - Baron Helmut Zemo",
+            "url": "https://archidekt.com/decks/25691642",
+            "creator": "MidFrequency"
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "Battlecruiser reanimator Zemo",
+            "status": "rejected",
+            "reason": "The more common shell plays lands, so the boast recurs value rather than closing the game and the commander stops being the payoff."
+          },
+          {
+            "name": "Yawgmoth's Will storm as the primary line",
+            "status": "rejected",
+            "reason": "Kept only as a fallback for when Zemo is not on the battlefield; it needs real mana and a separate finisher rather than the free boast cast."
+          }
+        ]
+      },
+      "tags": [
+        "arch-combo",
+        "arch-reanimator",
+        "band-1000-2000",
+        "ci-b",
+        "mech-boast",
+        "mech-self-mill",
+        "recheck-90d",
+        "seed-2026-09"
+      ],
+      "popularity": {
+        "edhrecRank": 1001,
+        "deckCount": 2412,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "99486563a50893c14d4f86a5db12649df422cacf524db7ea48aa621c8a310d3b",
+      "score": {
+        "total": 55.9,
+        "components": {
+          "obscurity": 63.1,
+          "community": 58.1,
+          "expert": 78,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal.",
+          "A primer gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "selenia-dark-angel-lifecost-loop-2026-09-23",
+      "findingType": "emerging_brew",
+      "title": "Cost-reduce Selenia to zero mana and her bounce loop costs only life",
+      "summary": "Generic cost reducers take Selenia down to one white and one black pip, and the two Defilers let both pips be paid with life, so each bounce-and-recast loop costs six life and no mana. The deck treats the draining life total as the resource rather than the problem: cumulative-upkeep creatures are run deliberately as life sinks, proliferate adds age counters to the builder's own permanents to spend life faster, and life-total swap effects reset the clock. The primer is honest that this is six laps from a full life total, not an infinite combo.",
+      "source": {
+        "name": "Archidekt",
+        "type": "primer",
+        "url": "https://archidekt.com/decks/23210749",
+        "creator": "GlitchHunter",
+        "resourceDepth": "primer"
+      },
+      "publishedAt": "2026-06-20",
+      "observedAt": "2026-09-23T07:10:00.000Z",
+      "commanders": [
+        {
+          "name": "Selenia, Dark Angel",
+          "slug": "selenia-dark-angel",
+          "scryfallId": "664b57e3-9476-4d6a-8301-5a2f96bcfbf7"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Axis of Mortality",
+          "slug": "axis-of-mortality",
+          "scryfallId": "3b9d72a8-8acf-42c6-8adf-cbaecb4a985a"
+        },
+        {
+          "name": "Contagion Clasp",
+          "slug": "contagion-clasp",
+          "scryfallId": "edd7f08a-3baf-4fb0-921e-b0e7b4a1a545"
+        },
+        {
+          "name": "Defiler of Faith",
+          "slug": "defiler-of-faith",
+          "scryfallId": "2cfe404d-1a27-4627-9284-56188d92d5d5"
+        },
+        {
+          "name": "Defiler of Flesh",
+          "slug": "defiler-of-flesh",
+          "scryfallId": "61a4dd11-6166-4a54-95c0-728c623d0fbc"
+        },
+        {
+          "name": "Gideon of the Trials",
+          "slug": "gideon-of-the-trials",
+          "scryfallId": "959ce13f-519f-4472-bbd1-f26a972723d7"
+        },
+        {
+          "name": "Karn's Bastion",
+          "slug": "karn-s-bastion",
+          "scryfallId": "22017ec2-3552-4865-af76-dba042b141f5"
+        },
+        {
+          "name": "Phyrexian Vindicator",
+          "slug": "phyrexian-vindicator",
+          "scryfallId": "e18780ce-add4-4346-8028-4bc3b4099d71"
+        }
+      ],
+      "evidence": {
+        "strength": 0.6,
+        "independentSourceCount": 2,
+        "conversationDepth": "reasoned",
+        "communityReasoned": true,
+        "tested": false,
+        "notes": [
+          "The builder does the cost-reduction arithmetic out loud and caps the loop honestly rather than calling it infinite.",
+          "A second Selenia primer reaches the same colours from the opposite direction and is kept as corroboration, not as a separate idea."
+        ],
+        "corroboratingSources": [
+          {
+            "name": "Selenia - Life Shennanigans",
+            "url": "https://archidekt.com/decks/14950356",
+            "creator": "Gjezuz"
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "Inner Sanctum",
+            "status": "rejected",
+            "reason": "The builder flags that it switches off the Phyrexian Vindicator damage line the deck also runs, and keeps it only for boards where the Vindicator is absent."
+          },
+          {
+            "name": "Conventional Orzhov lifegain",
+            "status": "rejected",
+            "reason": "Gaining life makes the two-life bounce cheap but removes the reason to swap totals; this deck wants a low life total as the resource state, not a high one."
+          }
+        ]
+      },
+      "tags": [
+        "arch-combo",
+        "arch-life-exchange",
+        "band-1000-2000",
+        "ci-wb",
+        "mech-cost-reduction",
+        "mech-cumulative-upkeep",
+        "mech-proliferate",
+        "recheck-90d",
+        "seed-2026-09"
+      ],
+      "popularity": {
+        "edhrecRank": 1676,
+        "deckCount": 975,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "96601fe5265e21a6abb53601e90ceeb7685010a6509de6e620bf51e0d4c5a021",
+      "score": {
+        "total": 56.4,
+        "components": {
+          "obscurity": 70.3,
+          "community": 50,
+          "expert": 78,
+          "mechanical": 65,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal.",
+          "A primer gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "mairsil-the-pretender-caged-loyalty-2026-09-23",
+      "findingType": "deep_dive_resource",
+      "title": "Encroaching Mycosynth lets Mairsil cage planeswalkers for their loyalty abilities",
+      "summary": "Encroaching Mycosynth turns planeswalker cards into artifacts, which is a card type Mairsil's cage trigger can exile, so he gains loyalty abilities without ever being a planeswalker. A caged Chandra, Flameshaper is the engine: her plus ability makes a hasty token copy of Mairsil, and because the per-turn loyalty restriction applies per permanent, each new token can activate again. The primer catalogues a dozen loyalty-ability kill routes and works through the rules edges, including why making Mairsil an actual planeswalker kills him to state-based actions.",
+      "source": {
+        "name": "Archidekt",
+        "type": "primer",
+        "url": "https://archidekt.com/decks/3698836",
+        "creator": "kws",
+        "resourceDepth": "deep_dive"
+      },
+      "publishedAt": "2026-05-27",
+      "observedAt": "2026-09-23T07:10:00.000Z",
+      "commanders": [
+        {
+          "name": "Mairsil, the Pretender",
+          "slug": "mairsil-the-pretender",
+          "scryfallId": "87b71b08-668c-4b32-8243-8def1a9acf26"
+        }
+      ],
+      "cards": [
+        {
+          "name": "Aetherling",
+          "slug": "aetherling",
+          "scryfallId": "9c93313b-cf43-47e9-a911-717b4d14b0b5"
+        },
+        {
+          "name": "Chandra, Flameshaper",
+          "slug": "chandra-flameshaper",
+          "scryfallId": "a22d21ec-0fb3-4574-a803-6442ec13167e"
+        },
+        {
+          "name": "Encroaching Mycosynth",
+          "slug": "encroaching-mycosynth",
+          "scryfallId": "65a2fcc9-2317-48a1-a5eb-234fb3300364"
+        },
+        {
+          "name": "Jeska, Thrice Reborn",
+          "slug": "jeska-thrice-reborn",
+          "scryfallId": "48caf4c4-745c-4072-bf3d-1a3fa7c3bc9c"
+        },
+        {
+          "name": "Nicol Bolas, Dragon-God",
+          "slug": "nicol-bolas-dragon-god",
+          "scryfallId": "c5408607-af8f-48fe-bc40-32828d1976de"
+        },
+        {
+          "name": "Tevesh Szat, Doom of Fools",
+          "slug": "tevesh-szat-doom-of-fools",
+          "scryfallId": "8f244716-78ab-46f5-b6e9-fc1e6db28052"
+        },
+        {
+          "name": "The Ozolith",
+          "slug": "the-ozolith",
+          "scryfallId": "9341ed06-53db-4604-b60a-3ea9129afbc2"
+        }
+      ],
+      "evidence": {
+        "strength": 0.85,
+        "independentSourceCount": 1,
+        "conversationDepth": "maintained",
+        "communityReasoned": true,
+        "tested": true,
+        "notes": [
+          "Four years of maintained revision notes, with per-card reasoning recording why cards were cut after play.",
+          "The rules section resolves five specific interactions rather than asserting the line works."
+        ],
+        "alternatives": [
+          {
+            "name": "Mycosynth Lattice",
+            "status": "rejected",
+            "reason": "It makes opponents' cards artifacts too, handing the same caging options to anyone who steals or copies Mairsil; Encroaching Mycosynth is ownership-scoped and reaches hand and graveyard, which is where the cage trigger looks."
+          },
+          {
+            "name": "Clone effects that give Mairsil the planeswalker type",
+            "status": "rejected",
+            "reason": "State-based actions bin any permanent with the planeswalker type and no loyalty counters, so making Mairsil a real planeswalker kills him instead of enabling him."
+          },
+          {
+            "name": "The Nevinyrral's Disk cage shell",
+            "status": "rejected",
+            "reason": "The published Mairsil line; this build deliberately goes past it into loyalty abilities rather than repeating it."
+          }
+        ]
+      },
+      "tags": [
+        "arch-combo",
+        "arch-toolbox",
+        "band-1000-2000",
+        "ci-ubr",
+        "mech-loyalty-abilities",
+        "mech-type-changing",
+        "recheck-90d",
+        "seed-2026-09"
+      ],
+      "popularity": {
+        "edhrecRank": 1036,
+        "deckCount": 2315,
+        "asOf": "2026-09-22"
+      },
+      "fingerprint": "f57551f239b23a89bad9144f0ad1f61bd8951e50881d18bea3d1ad05b5f1a69a",
+      "score": {
+        "total": 64.8,
+        "components": {
+          "obscurity": 63.5,
+          "community": 61.7,
+          "expert": 92,
+          "mechanical": 100,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "The relationship has tested or maintained deck evidence.",
+          "A deep dive gives the idea unusual depth."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    }
+  ]
+}
