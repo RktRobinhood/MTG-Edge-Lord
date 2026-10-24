@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T07:45:46.036Z",
+  "updatedAt": "2026-10-24T07:44:45.300Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -1062,6 +1062,14 @@
       "firstSeenAt": "2026-10-22",
       "lastSeenAt": "2026-10-22",
       "reason": "rank 2,367; only an Am I the Bolas pillowfort mention, no build effort"
+    },
+    {
+      "slug": "thor-god-of-thunder",
+      "name": "Thor, God of Thunder",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-24",
+      "lastSeenAt": "2026-10-24",
+      "reason": "rank 1,302 but only surfaced as a Commander Clash video deck; burn/spellslinger is its listed theme and no primer effort found"
     }
   ],
   "sources": [
@@ -1956,6 +1964,48 @@
       "firstSeenAt": "2026-10-23",
       "lastSeenAt": "2026-10-23",
       "reason": "set-history retrospective; no commander thesis"
+    },
+    {
+      "name": "https://edhrec.com/articles/minn-wily-illusionist-building-illusion-typal/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-24",
+      "lastSeenAt": "2026-10-24",
+      "reason": "Minn (rank 457) is meta baseline; Illusion typal is its listed theme"
+    },
+    {
+      "name": "https://edhrec.com/articles/swell-the-host-precon-remastered/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-24",
+      "lastSeenAt": "2026-10-24",
+      "reason": "precon-upgrade series; no off-meta commander thesis"
+    },
+    {
+      "name": "https://edhrec.com/articles/top-10-large-life-loss-cards-for-hela-mistress-of-darkness/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-24",
+      "lastSeenAt": "2026-10-24",
+      "reason": "top-ten list; Hela (rank 3,604) already archived 2026-10-12 and outside the band"
+    },
+    {
+      "name": "https://edhrec.com/articles/which-cards-are-hot-and-cold-for-the-second-draw-matters-scryfall-tag-fire-and-ice/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-24",
+      "lastSeenAt": "2026-10-24",
+      "reason": "card-tag stats column; no commander thesis"
+    },
+    {
+      "name": "https://edhrec.com/articles/changelog-redesign-follow-up/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-24",
+      "lastSeenAt": "2026-10-24",
+      "reason": "site changelog"
+    },
+    {
+      "name": "https://www.mtggoldfish.com/articles/mono-red-control-vs-our-sanity-commander-clash-s20-e22",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-24",
+      "lastSeenAt": "2026-10-24",
+      "reason": "gameplay video page; readable text is only deck names (Thor, Erinis, Denzilore, Hapatra), no written thesis"
     }
   ]
 }
