@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T07:44:45.300Z",
+  "updatedAt": "2026-10-28T08:46:28.054Z",
   "commanders": [
     {
       "slug": "massimo-the-magician",
@@ -1070,6 +1070,30 @@
       "firstSeenAt": "2026-10-24",
       "lastSeenAt": "2026-10-24",
       "reason": "rank 1,302 but only surfaced as a Commander Clash video deck; burn/spellslinger is its listed theme and no primer effort found"
+    },
+    {
+      "slug": "seven-of-nine",
+      "name": "Seven of Nine",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "new Star Trek commander in band at 2,581; the EDHREC budget deck tech builds its listed modal-spells draw-go theme, the expected preview-season tech"
+    },
+    {
+      "slug": "khan-vengeful-heart",
+      "name": "Khan, Vengeful Heart",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "new Star Trek card at rank 6,077 (5 decks); the EDHREC cEDH piece treats it as a Food Chain combo piece in the 99 of meta Golgari-plus shells, not as a commander"
+    },
+    {
+      "slug": "borg-queen-perfection-manifest",
+      "name": "Borg Queen, Perfection Manifest",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "rank 3,868, past the surfacing limit; EDHREC preview deck tech"
     }
   ],
   "sources": [
@@ -2006,6 +2030,97 @@
       "firstSeenAt": "2026-10-24",
       "lastSeenAt": "2026-10-24",
       "reason": "gameplay video page; readable text is only deck names (Thor, Erinis, Denzilore, Hapatra), no written thesis"
+    },
+    {
+      "name": "https://edhrec.com/articles/seven-of-nine-dimir-dilemmas-built-on-a-budget/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "budget deck tech on Seven of Nine building its listed modal-spells theme"
+    },
+    {
+      "name": "https://edhrec.com/articles/khan-vengeful-heart-the-new-face-of-cedh-food-chain-combo/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "cEDH card analysis: Khan as a Food Chain piece for meta shells; no off-meta commander thesis"
+    },
+    {
+      "name": "https://edhrec.com/articles/star-trek-deck-tech-borg-queen-perfection-manifest/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "preview deck tech; Borg Queen rank 3,868, past the band"
+    },
+    {
+      "name": "https://edhrec.com/articles/codie-ravenous-codex-a-150-prepared-spell-deck/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "Codie already archived 2026-09-23"
+    },
+    {
+      "name": "https://edhrec.com/articles/five-ways-to-use-the-darkhold/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "card-use roundup; no commander thesis"
+    },
+    {
+      "name": "https://edhrec.com/articles/the-top-10-most-played-modern-horizons-2-cards/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "top-ten card list; no commander thesis"
+    },
+    {
+      "name": "https://edhrec.com/articles/brewing-to-cook-a-culinary-analysis-of-commander-deckbuilding/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "deckbuilding philosophy essay; no commander thesis"
+    },
+    {
+      "name": "https://edhrec.com/articles/when-is-it-okay-to-spite-play/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "etiquette column; no commander thesis"
+    },
+    {
+      "name": "https://edhrec.com/articles/secret-lair-announces-set-phasers-to-superdrop/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "product announcement"
+    },
+    {
+      "name": "https://www.mtggoldfish.com/articles/commander-clash-podcast-275-the-best-card-of-every-color-combination",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "podcast ranking cards by colour pair; no commander thesis"
+    },
+    {
+      "name": "https://www.mtggoldfish.com/articles/star-trek-commander-decklists",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "precon decklists; no build effort"
+    },
+    {
+      "name": "https://articles.starcitygames.com/magic-the-gathering/the-spike-feeders-goofy-and-lighthearted-cedh/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "video post with decklists (Rograkh/Silas Renn and others), no written reasoning; Rograkh already rejected"
+    },
+    {
+      "name": "https://articles.starcitygames.com/magic-the-gathering/commander-vs-512-reality-fracture-companion-chaos/",
+      "status": "rejected",
+      "firstSeenAt": "2026-10-28",
+      "lastSeenAt": "2026-10-28",
+      "reason": "video post with decklists (Traxos and others), no written reasoning"
     }
   ]
 }
