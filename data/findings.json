@@ -2,138 +2,10 @@
   "schemaVersion": 1,
   "findings": [
     {
-      "id": "commander-spock-edhrec-momentum-2026-10-29",
-      "findingType": "discovery_signal",
-      "title": "Commander Spock is moving above its recent baseline",
-      "summary": "Commander Spock moved 177 rank places while adding 28 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/commander-spock",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Commander Spock",
-          "slug": "commander-spock",
-          "scryfallId": "cf114392-a38d-4117-aa41-911d6dc1051b"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 3157,
-        "deckCount": 139,
-        "asOf": "2026-10-29"
-      },
-      "movement": {
-        "7d": 100,
-        "30d": 0,
-        "90d": 0
-      },
-      "fingerprint": "09ce29e3fb589b0f8451c44d8561c8b08de4f296a6753da81aaa04ce48dc7eac",
-      "score": {
-        "total": 44.1,
-        "components": {
-          "obscurity": 80.7,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "jean-luc-picard-luminary-edhrec-momentum-2026-10-29",
-      "findingType": "discovery_signal",
-      "title": "Jean-Luc Picard, Luminary is moving above its recent baseline",
-      "summary": "Jean-Luc Picard, Luminary moved 235 rank places while adding 40 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/jean-luc-picard-luminary",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Jean-Luc Picard, Luminary",
-          "slug": "jean-luc-picard-luminary",
-          "scryfallId": "901eaed9-dbea-4a31-87b0-e17e9bcabfed"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 3099,
-        "deckCount": 151,
-        "asOf": "2026-10-29"
-      },
-      "movement": {
-        "7d": 100,
-        "30d": 0,
-        "90d": 0
-      },
-      "fingerprint": "85d10d57dee16cf816ed44a5f1090079ba4bfb1a9673261a5fea0d974fc93257",
-      "score": {
-        "total": 44,
-        "components": {
-          "obscurity": 80.4,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "captain-benjamin-sisko-edhrec-momentum-2026-10-29",
+      "id": "captain-benjamin-sisko-edhrec-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Captain Benjamin Sisko is moving above its recent baseline",
-      "summary": "Captain Benjamin Sisko moved 151 rank places while adding 25 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Captain Benjamin Sisko moved 115 rank places while adding 25 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -141,8 +13,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Captain Benjamin Sisko",
@@ -166,20 +38,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 3140,
-        "deckCount": 142,
-        "asOf": "2026-10-29"
+        "edhrecRank": 3025,
+        "deckCount": 167,
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 100,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "6d8fa76cf0cee512bad91a75068fe301f1a933c7c1dabc2a9e3d3b6970250cb0",
+      "fingerprint": "46c8eaa1cd3f3fef67a23cb3d1682da222d4fa19f465fc59540a20cc356ff63f",
       "score": {
-        "total": 44,
+        "total": 43.9,
         "components": {
-          "obscurity": 80.6,
+          "obscurity": 80,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -194,10 +66,202 @@
       }
     },
     {
-      "id": "locutus-of-borg-edhrec-momentum-2026-10-29",
+      "id": "captain-jean-luc-picard-edhrec-momentum-2026-10-30",
+      "findingType": "discovery_signal",
+      "title": "Captain Jean-Luc Picard is moving above its recent baseline",
+      "summary": "Captain Jean-Luc Picard moved 163 rank places while adding 41 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/captain-jean-luc-picard",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Captain Jean-Luc Picard",
+          "slug": "captain-jean-luc-picard",
+          "scryfallId": "b7114271-eb05-41e2-ad96-a34f53492312"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 2919,
+        "deckCount": 195,
+        "asOf": "2026-10-30"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "fb4174fe8353316104eb0860bd7ce0984c9af9e05e273ce6778dcbfa31844dd4",
+      "score": {
+        "total": 43.7,
+        "components": {
+          "obscurity": 79.4,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "jean-luc-picard-luminary-edhrec-momentum-2026-10-30",
+      "findingType": "discovery_signal",
+      "title": "Jean-Luc Picard, Luminary is moving above its recent baseline",
+      "summary": "Jean-Luc Picard, Luminary moved 338 rank places while adding 82 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/jean-luc-picard-luminary",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Jean-Luc Picard, Luminary",
+          "slug": "jean-luc-picard-luminary",
+          "scryfallId": "901eaed9-dbea-4a31-87b0-e17e9bcabfed"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 2761,
+        "deckCount": 233,
+        "asOf": "2026-10-30"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "7664976ea23f5c00fe2974f241c5f468ac068cdb439d662212358b6da2e07961",
+      "score": {
+        "total": 43.5,
+        "components": {
+          "obscurity": 78.7,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "commander-spock-edhrec-momentum-2026-10-30",
+      "findingType": "discovery_signal",
+      "title": "Commander Spock is moving above its recent baseline",
+      "summary": "Commander Spock moved 350 rank places while adding 81 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/commander-spock",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Commander Spock",
+          "slug": "commander-spock",
+          "scryfallId": "cf114392-a38d-4117-aa41-911d6dc1051b"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 2807,
+        "deckCount": 220,
+        "asOf": "2026-10-30"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "7c58d9b7b0b79a6a0b614ef9d0750ff6d613a053fab1ea797a74a766b56eb760",
+      "score": {
+        "total": 43.5,
+        "components": {
+          "obscurity": 78.9,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "locutus-of-borg-edhrec-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Locutus of Borg is moving above its recent baseline",
-      "summary": "Locutus of Borg moved 205 rank places while adding 56 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Locutus of Borg moved 144 rank places while adding 56 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -205,8 +269,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Locutus of Borg",
@@ -230,20 +294,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 2713,
-        "deckCount": 248,
-        "asOf": "2026-10-29"
+        "edhrecRank": 2569,
+        "deckCount": 304,
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 100,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "ae9170146ced1ef4930977d005e49030083d1309bff4539ad6b90f3a903580b2",
+      "fingerprint": "cdbd4f02de3989972101f4677917eab7c1824bc630fd0d0fee29dcc6625de1a5",
       "score": {
-        "total": 43.4,
+        "total": 43.2,
         "components": {
-          "obscurity": 78.4,
+          "obscurity": 77.7,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -258,10 +322,10 @@
       }
     },
     {
-      "id": "the-borg-queen-edhrec-momentum-2026-10-29",
+      "id": "the-borg-queen-edhrec-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "The Borg Queen is moving above its recent baseline",
-      "summary": "The Borg Queen moved 160 rank places while adding 101 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "The Borg Queen moved 105 rank places while adding 83 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -269,8 +333,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "The Borg Queen",
@@ -294,20 +358,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 2240,
-        "deckCount": 488,
-        "asOf": "2026-10-29"
+        "edhrecRank": 2135,
+        "deckCount": 571,
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 100,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "3132b13549bfd141f923b9dac43879e76f6f27c70f1d6d9c87605f7927ccf450",
+      "fingerprint": "60f38617d13fb7cb4c8096091d83a507856e818916ed11be398a0f52262a2b40",
       "score": {
-        "total": 42.4,
+        "total": 42.1,
         "components": {
-          "obscurity": 75,
+          "obscurity": 74.1,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -322,73 +386,10 @@
       }
     },
     {
-      "id": "one-borg-evolved-edhrec-momentum-2026-10-29",
-      "findingType": "discovery_signal",
-      "title": "One, Borg Evolved is moving above its recent baseline",
-      "summary": "One, Borg Evolved moved 238 rank places while adding 16 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/one-borg-evolved",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "One, Borg Evolved",
-          "slug": "one-borg-evolved",
-          "scryfallId": "85b7aef6-33fd-45ff-bbe7-1e943e43bb19"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 3721,
-        "deckCount": 66,
-        "asOf": "2026-10-29"
-      },
-      "movement": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 0
-      },
-      "fingerprint": "33845d879a64e7d049ce3f77c078e863d6c7096deae05c0e7a7269cbdf3a08f4",
-      "score": {
-        "total": 34.9,
-        "components": {
-          "obscurity": 83.6,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 0,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "cmdr-troi-outgoing-empath-edhrec-momentum-2026-10-29",
+      "id": "cmdr-troi-outgoing-empath-edhrec-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Cmdr. Troi, Outgoing Empath is moving above its recent baseline",
-      "summary": "Cmdr. Troi, Outgoing Empath moved 748 rank places while adding 71 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Cmdr. Troi, Outgoing Empath moved 331 rank places while adding 63 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -396,8 +397,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Cmdr. Troi, Outgoing Empath",
@@ -421,20 +422,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 3301,
-        "deckCount": 116,
-        "asOf": "2026-10-29"
+        "edhrecRank": 2970,
+        "deckCount": 179,
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "1a2082c6f8aa3faee3dc30c1e453a101851c5441b176b8ba0dde56cc51fd958b",
+      "fingerprint": "387eb49610b3196645c50409f8ebde9ff8a7d6d5dbad6da05e105d704b34431b",
       "score": {
-        "total": 34.3,
+        "total": 33.8,
         "components": {
-          "obscurity": 81.4,
+          "obscurity": 79.7,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -448,10 +449,10 @@
       }
     },
     {
-      "id": "dathon-his-heart-open-edhrec-momentum-2026-10-29",
+      "id": "dathon-his-heart-open-edhrec-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Dathon, His Heart Open is moving above its recent baseline",
-      "summary": "Dathon, His Heart Open moved 810 rank places while adding 73 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Dathon, His Heart Open moved 319 rank places while adding 60 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -459,8 +460,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Dathon, His Heart Open",
@@ -484,20 +485,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 3320,
-        "deckCount": 114,
-        "asOf": "2026-10-29"
+        "edhrecRank": 3001,
+        "deckCount": 174,
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "ffa718b1fd3c0ebbaddd0fed9d354f8f755aa4d125c69d4d088aa7b5a7a48435",
+      "fingerprint": "1a79a7247d423309cde9194b70dcbcec5b64ce109c8391df2f988a57eaec3b98",
       "score": {
-        "total": 34.3,
+        "total": 33.8,
         "components": {
-          "obscurity": 81.5,
+          "obscurity": 79.8,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -511,10 +512,10 @@
       }
     },
     {
-      "id": "hugh-first-of-many-edhrec-momentum-2026-10-29",
+      "id": "hugh-first-of-many-edhrec-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Hugh, First of Many is moving above its recent baseline",
-      "summary": "Hugh, First of Many moved 330 rank places while adding 53 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Hugh, First of Many moved 260 rank places while adding 62 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -522,8 +523,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Hugh, First of Many",
@@ -547,20 +548,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 3094,
-        "deckCount": 152,
-        "asOf": "2026-10-29"
+        "edhrecRank": 2834,
+        "deckCount": 214,
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "1cec5f7d560bef462d92e3e6669bab671fb31f2bd619a683568119e2f0772f14",
+      "fingerprint": "296489d90d759a1d199b0e577a52f40bbbbe583963cace9e4087ee8f39e018cd",
       "score": {
-        "total": 34,
+        "total": 33.6,
         "components": {
-          "obscurity": 80.4,
+          "obscurity": 79,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -574,10 +575,10 @@
       }
     },
     {
-      "id": "kira-nerys-firebrand-edhrec-momentum-2026-10-29",
+      "id": "kira-nerys-firebrand-edhrec-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Kira Nerys, Firebrand is moving above its recent baseline",
-      "summary": "Kira Nerys, Firebrand moved 107 rank places while adding 35 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Kira Nerys, Firebrand moved 80 rank places while adding 32 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -585,8 +586,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Kira Nerys, Firebrand",
@@ -610,20 +611,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 2689,
-        "deckCount": 258,
-        "asOf": "2026-10-29"
+        "edhrecRank": 2609,
+        "deckCount": 290,
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "c8e79d1272bb2ae16c918b6f2ca0db23a9b2a724e0adc800ab337bc62bd60a00",
+      "fingerprint": "4b1f25ebe3ad8e38ca15d98bfba35c9c705ba3ce62ad433eb65076f18f8c09dd",
       "score": {
-        "total": 33.3,
+        "total": 33.2,
         "components": {
-          "obscurity": 78.3,
+          "obscurity": 77.8,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -637,35 +638,35 @@
       }
     },
     {
-      "id": "loran-of-the-third-path-discussion-momentum-2026-10-29",
+      "id": "ebondeath-dracolich-discussion-momentum-2026-10-30",
       "findingType": "discovery_signal",
-      "title": "Loran of the Third Path is being discussed faster than it is being built",
-      "summary": "Loran of the Third Path was named by 2 independent sources across 3 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved 1.0%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "title": "Ebondeath, Dracolich is being discussed faster than it is being built",
+      "summary": "Ebondeath, Dracolich was named by 2 independent sources across 2 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved 0.3%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
       "source": {
         "name": "Community coverage trend",
         "type": "other",
-        "url": "https://edhrec.com/commanders/loran-of-the-third-path",
+        "url": "https://edhrec.com/commanders/ebondeath-dracolich",
         "creator": "MTG Edge Lord",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Loran of the Third Path",
-          "slug": "loran-of-the-third-path",
-          "scryfallId": "a39a24a4-cc0a-412e-8b1c-97ceff7539e7"
+          "name": "Ebondeath, Dracolich",
+          "slug": "ebondeath-dracolich",
+          "scryfallId": "e6b3f460-92ba-4af0-aad9-cf86615d4177"
         }
       ],
       "cards": [],
       "evidence": {
-        "strength": 0.45,
+        "strength": 0.39,
         "independentSourceCount": 2,
         "conversationDepth": "mention",
         "communityReasoned": false,
         "tested": false,
         "notes": [
-          "Derived from 6 coverage records across 2 independent sources in the 30 days to 2026-10-29. Each source is linked from its own finding; this one aggregates dates and attribution only."
+          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-10-30. Each source is linked from its own finding; this one aggregates dates and attribution only."
         ]
       },
       "tags": [
@@ -674,21 +675,21 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 2559,
-        "deckCount": 307,
-        "asOf": "2026-10-29"
+        "edhrecRank": 2548,
+        "deckCount": 313,
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "e502fed635bf8eff7be4a6513b3183958a3f96737f665f884a925bb616509d92",
+      "fingerprint": "e8072934ba0358c0b5555587fbd50078faa345f7658f4058e167054c52900b21",
       "score": {
-        "total": 32.7,
+        "total": 32.2,
         "components": {
-          "obscurity": 77.6,
-          "community": 37.3,
+          "obscurity": 77.5,
+          "community": 34.6,
           "expert": 10,
           "mechanical": 0,
           "momentum": 0,
@@ -702,7 +703,7 @@
       }
     },
     {
-      "id": "hazoret-the-fervent-discussion-momentum-2026-10-29",
+      "id": "hazoret-the-fervent-discussion-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Hazoret the Fervent is being discussed faster than it is being built",
       "summary": "Hazoret the Fervent was named by 2 independent sources across 2 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved 0.0%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
@@ -713,8 +714,8 @@
         "creator": "MTG Edge Lord",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Hazoret the Fervent",
@@ -730,7 +731,7 @@
         "communityReasoned": false,
         "tested": false,
         "notes": [
-          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-10-29. Each source is linked from its own finding; this one aggregates dates and attribution only."
+          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-10-30. Each source is linked from its own finding; this one aggregates dates and attribution only."
         ]
       },
       "tags": [
@@ -739,16 +740,16 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 2247,
+        "edhrecRank": 2249,
         "deckCount": 482,
-        "asOf": "2026-10-29"
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "8a8e093d9668b68ca8cb363e5c35bd9614225dfec9280ac18ffd560de2593952",
+      "fingerprint": "b8c8db4b2c3b9ce43f567e49775fcf10bdfd8473581cb03c14edbed7b0814a93",
       "score": {
         "total": 31.5,
         "components": {
@@ -767,137 +768,7 @@
       }
     },
     {
-      "id": "catti-brie-of-mithral-hall-discussion-momentum-2026-10-29",
-      "findingType": "discovery_signal",
-      "title": "Catti-brie of Mithral Hall is being discussed faster than it is being built",
-      "summary": "Catti-brie of Mithral Hall was named by 2 independent sources across 2 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved 0.0%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
-      "source": {
-        "name": "Community coverage trend",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/catti-brie-of-mithral-hall",
-        "creator": "MTG Edge Lord",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Catti-brie of Mithral Hall",
-          "slug": "catti-brie-of-mithral-hall",
-          "scryfallId": "d3626ede-6c69-4fd5-8de1-cf85f50cd435"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.39,
-        "independentSourceCount": 2,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-10-29. Each source is linked from its own finding; this one aggregates dates and attribution only."
-        ]
-      },
-      "tags": [
-        "discussion-momentum",
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 2135,
-        "deckCount": 571,
-        "asOf": "2026-10-29"
-      },
-      "movement": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 0
-      },
-      "fingerprint": "ad3de11f9c5d26dd5eea72cf71399982446c3f3546ae697ec13af6ea89dc9042",
-      "score": {
-        "total": 31.2,
-        "components": {
-          "obscurity": 74.1,
-          "community": 34.6,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 0,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "2 independent sources reinforce the signal."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "thalia-guardian-of-thraben-discussion-momentum-2026-10-29",
-      "findingType": "discovery_signal",
-      "title": "Thalia, Guardian of Thraben is being discussed faster than it is being built",
-      "summary": "Thalia, Guardian of Thraben was named by 2 independent sources across 3 days in the last 30, against 0 coverage records in the 30 before, while its indexed deck count moved 0.8%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
-      "source": {
-        "name": "Community coverage trend",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/thalia-guardian-of-thraben",
-        "creator": "MTG Edge Lord",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Thalia, Guardian of Thraben",
-          "slug": "thalia-guardian-of-thraben",
-          "scryfallId": "c9f8b8fb-1cd8-450e-a1fe-892e7a323479"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.39,
-        "independentSourceCount": 2,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-10-29. Each source is linked from its own finding; this one aggregates dates and attribution only."
-        ]
-      },
-      "tags": [
-        "discussion-momentum",
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 2057,
-        "deckCount": 628,
-        "asOf": "2026-10-29"
-      },
-      "movement": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 0
-      },
-      "fingerprint": "37d9664c4387b0b9a5b58716c85dfe4b6252e765b3ce9b5862ea984b0f502141",
-      "score": {
-        "total": 30.9,
-        "components": {
-          "obscurity": 73.4,
-          "community": 34.6,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 0,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "2 independent sources reinforce the signal."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "questing-beast-discussion-momentum-2026-10-29",
+      "id": "questing-beast-discussion-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Questing Beast is being discussed faster than it is being built",
       "summary": "Questing Beast was named by 3 independent sources across 2 days in the last 30, against 2 coverage records in the 30 before, while its indexed deck count moved -0.1%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
@@ -908,8 +779,8 @@
         "creator": "MTG Edge Lord",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Questing Beast",
@@ -925,7 +796,7 @@
         "communityReasoned": false,
         "tested": false,
         "notes": [
-          "Derived from 5 coverage records across 3 independent sources in the 30 days to 2026-10-29. Each source is linked from its own finding; this one aggregates dates and attribution only."
+          "Derived from 5 coverage records across 3 independent sources in the 30 days to 2026-10-30. Each source is linked from its own finding; this one aggregates dates and attribution only."
         ]
       },
       "tags": [
@@ -935,15 +806,15 @@
       ],
       "popularity": {
         "edhrecRank": 1618,
-        "deckCount": 1099,
-        "asOf": "2026-10-29"
+        "deckCount": 1097,
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "0e8868020d4bab48352edafb9d5f7d5e7290da20791b4605286b263accdf8388",
+      "fingerprint": "e36699f082bb4146a23f3f256d8dfa582e734cac7e1321a802986d71082fd0d6",
       "score": {
         "total": 30.6,
         "components": {
@@ -962,7 +833,135 @@
       }
     },
     {
-      "id": "pia-nalaar-consul-of-revival-discussion-momentum-2026-10-29",
+      "id": "urza-lord-protector-discussion-momentum-2026-10-30",
+      "findingType": "discovery_signal",
+      "title": "Urza, Lord Protector is being discussed faster than it is being built",
+      "summary": "Urza, Lord Protector was named by 3 independent sources across 2 days in the last 30, against 3 coverage records in the 30 before, while its indexed deck count moved -0.1%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/urza-lord-protector",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Urza, Lord Protector",
+          "slug": "urza-lord-protector",
+          "scryfallId": "8aefe8bd-216a-4ec1-9362-3f9dbf7fd083"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.3125,
+        "independentSourceCount": 3,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 6 coverage records across 3 independent sources in the 30 days to 2026-10-30. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 693,
+        "deckCount": 4296,
+        "asOf": "2026-10-30"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "7d0e99812ad8c4265200b716520d6a9aa8264fb4fc75e46afa632730b9aa3608",
+      "score": {
+        "total": 27.1,
+        "components": {
+          "obscurity": 58.3,
+          "community": 38.1,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "3 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "imskir-iron-eater-discussion-momentum-2026-10-30",
+      "findingType": "discovery_signal",
+      "title": "Imskir Iron-Eater is being discussed faster than it is being built",
+      "summary": "Imskir Iron-Eater was named by 3 independent sources across 2 days in the last 30, against 3 coverage records in the 30 before, while its indexed deck count moved -0.5%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/imskir-iron-eater",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Imskir Iron-Eater",
+          "slug": "imskir-iron-eater",
+          "scryfallId": "541209fa-38b6-4d61-a72d-26bfb6ad5ead"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.3125,
+        "independentSourceCount": 3,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 6 coverage records across 3 independent sources in the 30 days to 2026-10-30. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 627,
+        "deckCount": 4859,
+        "asOf": "2026-10-30"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "500f2285cbca47687af4ff6e0ebda64d82f03828b13c4abc07425ba04b16d45a",
+      "score": {
+        "total": 26.8,
+        "components": {
+          "obscurity": 57.1,
+          "community": 38.1,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "3 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "pia-nalaar-consul-of-revival-discussion-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Pia Nalaar, Consul of Revival is being discussed faster than it is being built",
       "summary": "Pia Nalaar, Consul of Revival was named by 2 independent sources across 2 days in the last 30, against 1 coverage record in the 30 before, while its indexed deck count moved 0.1%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
@@ -973,8 +972,8 @@
         "creator": "MTG Edge Lord",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Pia Nalaar, Consul of Revival",
@@ -990,7 +989,7 @@
         "communityReasoned": false,
         "tested": false,
         "notes": [
-          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-10-29. Each source is linked from its own finding; this one aggregates dates and attribution only."
+          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-10-30. Each source is linked from its own finding; this one aggregates dates and attribution only."
         ]
       },
       "tags": [
@@ -1001,14 +1000,14 @@
       "popularity": {
         "edhrecRank": 891,
         "deckCount": 3006,
-        "asOf": "2026-10-29"
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "dd148ec704fb13d1b1c7023139b795197679b25ef0346738f63eee21f6d16923",
+      "fingerprint": "3535853689047185c949daad534c9654e8d2f77e185668775342fb80b558d850",
       "score": {
         "total": 26.7,
         "components": {
@@ -1027,10 +1026,10 @@
       }
     },
     {
-      "id": "garth-one-eye-discussion-momentum-2026-10-29",
+      "id": "garth-one-eye-discussion-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Garth One-Eye is being discussed faster than it is being built",
-      "summary": "Garth One-Eye was named by 3 independent sources across 2 days in the last 30, against 2 coverage records in the 30 before, while its indexed deck count moved 0.5%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "summary": "Garth One-Eye was named by 3 independent sources across 2 days in the last 30, against 2 coverage records in the 30 before, while its indexed deck count moved 0.6%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
       "source": {
         "name": "Community coverage trend",
         "type": "other",
@@ -1038,8 +1037,8 @@
         "creator": "MTG Edge Lord",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Garth One-Eye",
@@ -1055,7 +1054,7 @@
         "communityReasoned": false,
         "tested": false,
         "notes": [
-          "Derived from 6 coverage records across 3 independent sources in the 30 days to 2026-10-29. Each source is linked from its own finding; this one aggregates dates and attribution only."
+          "Derived from 6 coverage records across 3 independent sources in the 30 days to 2026-10-30. Each source is linked from its own finding; this one aggregates dates and attribution only."
         ]
       },
       "tags": [
@@ -1065,15 +1064,15 @@
       ],
       "popularity": {
         "edhrecRank": 544,
-        "deckCount": 5581,
-        "asOf": "2026-10-29"
+        "deckCount": 5583,
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 0.4,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "e9a243ead56cf4318d839e1c52d834756e5e1ecbb176c8ea581404b0c9a89152",
+      "fingerprint": "c09fcc3d251622ca5fef1d3c7d81a9f5c7143f680103993d4d8366373e12a386",
       "score": {
         "total": 26.5,
         "components": {
@@ -1091,10 +1090,10 @@
       }
     },
     {
-      "id": "faldorn-dread-wolf-herald-discussion-momentum-2026-10-29",
+      "id": "faldorn-dread-wolf-herald-discussion-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Faldorn, Dread Wolf Herald is being discussed faster than it is being built",
-      "summary": "Faldorn, Dread Wolf Herald was named by 3 independent sources across 2 days in the last 30, against 2 coverage records in the 30 before, while its indexed deck count moved -0.5%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "summary": "Faldorn, Dread Wolf Herald was named by 3 independent sources across 2 days in the last 30, against 2 coverage records in the 30 before, while its indexed deck count moved -0.6%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
       "source": {
         "name": "Community coverage trend",
         "type": "other",
@@ -1102,8 +1101,8 @@
         "creator": "MTG Edge Lord",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Faldorn, Dread Wolf Herald",
@@ -1119,7 +1118,7 @@
         "communityReasoned": false,
         "tested": false,
         "notes": [
-          "Derived from 6 coverage records across 3 independent sources in the 30 days to 2026-10-29. Each source is linked from its own finding; this one aggregates dates and attribution only."
+          "Derived from 6 coverage records across 3 independent sources in the 30 days to 2026-10-30. Each source is linked from its own finding; this one aggregates dates and attribution only."
         ]
       },
       "tags": [
@@ -1128,16 +1127,16 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 559,
+        "edhrecRank": 561,
         "deckCount": 5479,
-        "asOf": "2026-10-29"
+        "asOf": "2026-10-30"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "0182553135d53ca6eb274579cabbafea826918f3826be817b01d8cc2f94d126e",
+      "fingerprint": "31f0a9e4048a4517a8776ab4a468fc1e2afbfdb0f8f7f38a780fcd837e781921",
       "score": {
         "total": 26.5,
         "components": {
@@ -1155,7 +1154,7 @@
       }
     },
     {
-      "id": "bruna-light-of-alabaster-discussion-momentum-2026-10-29",
+      "id": "bruna-light-of-alabaster-discussion-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Bruna, Light of Alabaster is being discussed faster than it is being built",
       "summary": "Bruna, Light of Alabaster was named by 2 independent sources across 2 days in the last 30, against 1 coverage record in the 30 before, while its indexed deck count moved 0.8%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
@@ -1166,8 +1165,8 @@
         "creator": "MTG Edge Lord",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Bruna, Light of Alabaster",
@@ -1183,7 +1182,7 @@
         "communityReasoned": false,
         "tested": false,
         "notes": [
-          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-10-29. Each source is linked from its own finding; this one aggregates dates and attribution only."
+          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-10-30. Each source is linked from its own finding; this one aggregates dates and attribution only."
         ]
       },
       "tags": [
@@ -1192,24 +1191,24 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 786,
-        "deckCount": 3601,
-        "asOf": "2026-10-29"
+        "edhrecRank": 788,
+        "deckCount": 3598,
+        "asOf": "2026-10-30"
       },
       "movement": {
-        "7d": 0.8,
+        "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "b6a0bc036bba11c95a4964fe4f37a35792b6f3202df06ca86ccd08f2dac7ac4c",
+      "fingerprint": "949c84fe728853fe6743fa8ca6b95ab1c93c81a31cb41e2f0f12f81b9571521f",
       "score": {
-        "total": 26.3,
+        "total": 26.2,
         "components": {
           "obscurity": 59.9,
           "community": 31.2,
           "expert": 10,
           "mechanical": 0,
-          "momentum": 0.8,
+          "momentum": 0,
           "validation": 0
         },
         "reasons": [
@@ -1219,7 +1218,7 @@
       }
     },
     {
-      "id": "taii-wakeen-perfect-shot-discussion-momentum-2026-10-29",
+      "id": "taii-wakeen-perfect-shot-discussion-momentum-2026-10-30",
       "findingType": "discovery_signal",
       "title": "Taii Wakeen, Perfect Shot is being discussed faster than it is being built",
       "summary": "Taii Wakeen, Perfect Shot was named by 2 independent sources across 2 days in the last 30, against 1 coverage record in the 30 before, while its indexed deck count moved 0.9%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
@@ -1230,8 +1229,8 @@
         "creator": "MTG Edge Lord",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-10-29",
-      "observedAt": "2026-10-29T00:00:00.000Z",
+      "publishedAt": "2026-10-30",
+      "observedAt": "2026-10-30T00:00:00.000Z",
       "commanders": [
         {
           "name": "Taii Wakeen, Perfect Shot",
@@ -1247,7 +1246,7 @@
         "communityReasoned": false,
         "tested": false,
         "notes": [
-          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-10-29. Each source is linked from its own finding; this one aggregates dates and attribution only."
+          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-10-30. Each source is linked from its own finding; this one aggregates dates and attribution only."
         ]
       },
       "tags": [
@@ -1256,24 +1255,24 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 550,
+        "edhrecRank": 551,
         "deckCount": 5509,
-        "asOf": "2026-10-29"
+        "asOf": "2026-10-30"
       },
       "movement": {
-        "7d": 1.6,
-        "30d": 0.7,
+        "7d": 0.2,
+        "30d": 0,
         "90d": 0
       },
-      "fingerprint": "321edb9139091b72f660773df81689220ce837941f0aae289c9b7e7736c97aa1",
+      "fingerprint": "83d9d3cfd0e90530a5b87c95b9314ce9a56352d5e3d738af15cdc3527a42da57",
       "score": {
-        "total": 25.1,
+        "total": 25,
         "components": {
           "obscurity": 55.7,
           "community": 31.2,
           "expert": 10,
           "mechanical": 0,
-          "momentum": 1.6,
+          "momentum": 0.2,
           "validation": 0
         },
         "reasons": [
