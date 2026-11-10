@@ -2,10 +2,266 @@
   "schemaVersion": 1,
   "findings": [
     {
-      "id": "lieutenant-commander-data-edhrec-momentum-2026-11-09",
+      "id": "gowron-eager-for-battle-edhrec-momentum-2026-11-10",
+      "findingType": "discovery_signal",
+      "title": "Gowron, Eager for Battle is moving above its recent baseline",
+      "summary": "Gowron, Eager for Battle moved 127 rank places while adding 7 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/gowron-eager-for-battle",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-10T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Gowron, Eager for Battle",
+          "slug": "gowron-eager-for-battle",
+          "scryfallId": "d60613c2-5655-4051-babd-fc0f3a73fc77"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 3884,
+        "deckCount": 56,
+        "asOf": "2026-11-10"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "9b10c6e60f974cae8f3cded4eaf29bbaf10808d27dbc59d80a247bd8ea83673e",
+      "score": {
+        "total": 45.2,
+        "components": {
+          "obscurity": 84.3,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "hms-bounty-unlikely-timeship-edhrec-momentum-2026-11-10",
+      "findingType": "discovery_signal",
+      "title": "H.M.S. Bounty, Unlikely Timeship is moving above its recent baseline",
+      "summary": "H.M.S. Bounty, Unlikely Timeship moved 108 rank places while adding 7 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/hms-bounty-unlikely-timeship",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-10T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "H.M.S. Bounty, Unlikely Timeship",
+          "slug": "hms-bounty-unlikely-timeship",
+          "scryfallId": "d75f0991-39a3-474e-8c01-9b3363c41a9f"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 3832,
+        "deckCount": 60,
+        "asOf": "2026-11-10"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "948e319e4f7e81d1b48a51d1484bd706a3bed34a790e6795b094c5dc51b9be5a",
+      "score": {
+        "total": 45.1,
+        "components": {
+          "obscurity": 84,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "chief-miles-obrien-edhrec-momentum-2026-11-10",
+      "findingType": "discovery_signal",
+      "title": "Chief Miles O'Brien is moving above its recent baseline",
+      "summary": "Chief Miles O'Brien moved 128 rank places while adding 10 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/chief-miles-obrien",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-10T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Chief Miles O'Brien",
+          "slug": "chief-miles-obrien",
+          "scryfallId": "f8d20229-bae2-4130-8a93-302d2ad5eef0"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 3730,
+        "deckCount": 68,
+        "asOf": "2026-11-10"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "e75ebfee02ec3825580de6e9181d9be8680fc48a2122cfc679706dc512cd51c6",
+      "score": {
+        "total": 44.9,
+        "components": {
+          "obscurity": 83.5,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "kor-cause-of-vengeance-edhrec-momentum-2026-11-10",
+      "findingType": "discovery_signal",
+      "title": "Kor, Cause of Vengeance is moving above its recent baseline",
+      "summary": "Kor, Cause of Vengeance moved 88 rank places while adding 8 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/kor-cause-of-vengeance",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-10T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Kor, Cause of Vengeance",
+          "slug": "kor-cause-of-vengeance",
+          "scryfallId": "9e4364a4-6dac-4eea-be75-9f8ce1b3e334"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 3632,
+        "deckCount": 77,
+        "asOf": "2026-11-10"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "1c4f296c295dd0c26b639fae5beda89405f5ce28cdc682b0d131ed634466706c",
+      "score": {
+        "total": 44.8,
+        "components": {
+          "obscurity": 83,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "lieutenant-commander-data-edhrec-momentum-2026-11-10",
       "findingType": "discovery_signal",
       "title": "Lieutenant Commander Data is moving above its recent baseline",
-      "summary": "Lieutenant Commander Data moved 84 rank places while adding 7 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Lieutenant Commander Data moved 99 rank places while adding 9 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -13,8 +269,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-09",
-      "observedAt": "2026-11-09T00:00:00.000Z",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-10T00:00:00.000Z",
       "commanders": [
         {
           "name": "Lieutenant Commander Data",
@@ -38,84 +294,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 3739,
-        "deckCount": 67,
-        "asOf": "2026-11-09"
+        "edhrecRank": 3640,
+        "deckCount": 76,
+        "asOf": "2026-11-10"
       },
       "movement": {
         "7d": 100,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "3501a1766dd35551f8f148bac2767d0508282391210e5a3812c71195b24814b5",
-      "score": {
-        "total": 44.9,
-        "components": {
-          "obscurity": 83.6,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "lt-cmdr-geordi-la-forge-edhrec-momentum-2026-11-09",
-      "findingType": "discovery_signal",
-      "title": "Lt. Cmdr. Geordi La Forge is moving above its recent baseline",
-      "summary": "Lt. Cmdr. Geordi La Forge moved 100 rank places while adding 9 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/lt-cmdr-geordi-la-forge",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-11-09",
-      "observedAt": "2026-11-09T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Lt. Cmdr. Geordi La Forge",
-          "slug": "lt-cmdr-geordi-la-forge",
-          "scryfallId": "3a558d82-7efd-49b3-9f7b-ace639b44a35"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 3695,
-        "deckCount": 71,
-        "asOf": "2026-11-09"
-      },
-      "movement": {
-        "7d": 100,
-        "30d": 0,
-        "90d": 0
-      },
-      "fingerprint": "d3388820033c9d734edb37a2016f062e513c6dfd17a83c6bf545609f706d5efb",
+      "fingerprint": "070e112f01ad32baa3e2271581346d18df119e1044374372ed08984704706934",
       "score": {
         "total": 44.8,
         "components": {
-          "obscurity": 83.3,
+          "obscurity": 83.1,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -130,10 +322,10 @@
       }
     },
     {
-      "id": "alexander-ships-fool-edhrec-momentum-2026-11-09",
+      "id": "alexander-ships-fool-edhrec-momentum-2026-11-10",
       "findingType": "discovery_signal",
       "title": "Alexander, Ship's Fool is moving above its recent baseline",
-      "summary": "Alexander, Ship's Fool moved 188 rank places while adding 21 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Alexander, Ship's Fool moved 256 rank places while adding 35 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -141,8 +333,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-09",
-      "observedAt": "2026-11-09T00:00:00.000Z",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-10T00:00:00.000Z",
       "commanders": [
         {
           "name": "Alexander, Ship's Fool",
@@ -166,84 +358,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 3529,
-        "deckCount": 90,
-        "asOf": "2026-11-09"
+        "edhrecRank": 3273,
+        "deckCount": 125,
+        "asOf": "2026-11-10"
       },
       "movement": {
         "7d": 100,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "62e006c3dc9b581cac259c678ff8591cc329fc5dabeedea9ddc00bc6e4ccd9c3",
-      "score": {
-        "total": 44.6,
-        "components": {
-          "obscurity": 82.4,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "koloth-tribble-hunter-edhrec-momentum-2026-11-09",
-      "findingType": "discovery_signal",
-      "title": "Koloth, Tribble Hunter is moving above its recent baseline",
-      "summary": "Koloth, Tribble Hunter moved 70 rank places while adding 12 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/koloth-tribble-hunter",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-11-09",
-      "observedAt": "2026-11-09T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Koloth, Tribble Hunter",
-          "slug": "koloth-tribble-hunter",
-          "scryfallId": "33bfbd68-fc0f-41ce-b033-975fe9ba960a"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 3252,
-        "deckCount": 128,
-        "asOf": "2026-11-09"
-      },
-      "movement": {
-        "7d": 100,
-        "30d": 0,
-        "90d": 0
-      },
-      "fingerprint": "6f844f1a589fbaf8b7001ec32cd87d8465cea5ad63f0ca68e9cf1245a507f197",
+      "fingerprint": "7cdf4288cba2eee78abe0864d84435ff3396119e70113d792a4807cc8e8d2619",
       "score": {
         "total": 44.2,
         "components": {
-          "obscurity": 81,
+          "obscurity": 81.1,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -258,24 +386,24 @@
       }
     },
     {
-      "id": "worf-defiant-commander-edhrec-momentum-2026-11-09",
+      "id": "gwyndala-the-progeny-edhrec-momentum-2026-11-10",
       "findingType": "discovery_signal",
-      "title": "Worf, Defiant Commander is moving above its recent baseline",
-      "summary": "Worf, Defiant Commander moved 92 rank places while adding 21 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Gwyndala, the Progeny is moving above its recent baseline",
+      "summary": "Gwyndala, the Progeny moved 143 rank places while adding 26 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/worf-defiant-commander",
+        "url": "https://edhrec.com/commanders/gwyndala-the-progeny",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-09",
-      "observedAt": "2026-11-09T00:00:00.000Z",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-10T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Worf, Defiant Commander",
-          "slug": "worf-defiant-commander",
-          "scryfallId": "da030114-a4ee-46d7-a6fd-6c0d8e779bcf"
+          "name": "Gwyndala, the Progeny",
+          "slug": "gwyndala-the-progeny",
+          "scryfallId": "a82f5db5-787e-4e4a-ab3c-4a488c6f4990"
         }
       ],
       "cards": [],
@@ -294,20 +422,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 3024,
-        "deckCount": 172,
-        "asOf": "2026-11-09"
+        "edhrecRank": 3104,
+        "deckCount": 155,
+        "asOf": "2026-11-10"
       },
       "movement": {
         "7d": 100,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "cd2ff6af98fa8d2f52b06483a12aa85c2ab2845e8b89261bc529306d3dbc8bb5",
+      "fingerprint": "4a7f1eb01c4805ea1f1a34e88c550e322f3791bed24aa23e6fb6faadc7f280de",
       "score": {
-        "total": 43.8,
+        "total": 44,
         "components": {
-          "obscurity": 79.9,
+          "obscurity": 80.3,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -322,24 +450,24 @@
       }
     },
     {
-      "id": "sarek-federation-ambassador-edhrec-momentum-2026-11-09",
+      "id": "captain-kirk-boldly-going-edhrec-momentum-2026-11-10",
       "findingType": "discovery_signal",
-      "title": "Sarek, Federation Ambassador is moving above its recent baseline",
-      "summary": "Sarek, Federation Ambassador moved 106 rank places while adding 33 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Captain Kirk, Boldly Going is moving above its recent baseline",
+      "summary": "Captain Kirk, Boldly Going moved 78 rank places while adding 30 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/sarek-federation-ambassador",
+        "url": "https://edhrec.com/commanders/captain-kirk-boldly-going",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-09",
-      "observedAt": "2026-11-09T00:00:00.000Z",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-10T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Sarek, Federation Ambassador",
-          "slug": "sarek-federation-ambassador",
-          "scryfallId": "94ad9063-9663-49d8-b7ba-05be865bd20a"
+          "name": "Captain Kirk, Boldly Going",
+          "slug": "captain-kirk-boldly-going",
+          "scryfallId": "6b5d9bd2-cc78-4c30-b6ee-65b76c60a588"
         }
       ],
       "cards": [],
@@ -358,20 +486,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 2732,
-        "deckCount": 250,
-        "asOf": "2026-11-09"
+        "edhrecRank": 2499,
+        "deckCount": 342,
+        "asOf": "2026-11-10"
       },
       "movement": {
         "7d": 100,
-        "30d": 0,
-        "90d": 0
+        "30d": 100,
+        "90d": 100
       },
-      "fingerprint": "eabf218d7e3b732e099f94b28c5b35d15ef26cc6edb9a28f182b441f7458b826",
+      "fingerprint": "070f9bce94006314e63781e8210ffec901ea9526ce00cb5aedf4da1a29519c72",
       "score": {
-        "total": 43.4,
+        "total": 43,
         "components": {
-          "obscurity": 78.4,
+          "obscurity": 77.2,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -386,10 +514,10 @@
       }
     },
     {
-      "id": "locutus-of-borg-edhrec-momentum-2026-11-09",
+      "id": "locutus-of-borg-edhrec-momentum-2026-11-10",
       "findingType": "discovery_signal",
       "title": "Locutus of Borg is moving above its recent baseline",
-      "summary": "Locutus of Borg moved 79 rank places while adding 62 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Locutus of Borg moved 89 rank places while adding 75 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -397,8 +525,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-09",
-      "observedAt": "2026-11-09T00:00:00.000Z",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-10T00:00:00.000Z",
       "commanders": [
         {
           "name": "Locutus of Borg",
@@ -422,20 +550,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 2014,
-        "deckCount": 668,
-        "asOf": "2026-11-09"
+        "edhrecRank": 1925,
+        "deckCount": 743,
+        "asOf": "2026-11-10"
       },
       "movement": {
         "7d": 100,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "36abc04296943c2099ef593bcfe830fad049a40c553454c1c671e30c695c48f1",
+      "fingerprint": "22964812c00b34e08ead5248e5ee2f1684fd981861e0bd836d94781f83bc2c83",
       "score": {
-        "total": 41.8,
+        "total": 41.6,
         "components": {
-          "obscurity": 73.1,
+          "obscurity": 72.3,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -450,10 +578,10 @@
       }
     },
     {
-      "id": "commander-spock-edhrec-momentum-2026-11-09",
+      "id": "commander-spock-edhrec-momentum-2026-11-10",
       "findingType": "discovery_signal",
       "title": "Commander Spock is moving above its recent baseline",
-      "summary": "Commander Spock moved 91 rank places while adding 76 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Commander Spock moved 81 rank places while adding 78 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -461,8 +589,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-09",
-      "observedAt": "2026-11-09T00:00:00.000Z",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-10T00:00:00.000Z",
       "commanders": [
         {
           "name": "Commander Spock",
@@ -486,84 +614,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 1986,
-        "deckCount": 691,
-        "asOf": "2026-11-09"
+        "edhrecRank": 1905,
+        "deckCount": 769,
+        "asOf": "2026-11-10"
       },
       "movement": {
         "7d": 100,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "833a691c7a071cf62dac096aecc9529fedc74489df4d1b16efa0a0b8fa04d133",
-      "score": {
-        "total": 41.7,
-        "components": {
-          "obscurity": 72.8,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "jean-luc-picard-luminary-edhrec-momentum-2026-11-09",
-      "findingType": "discovery_signal",
-      "title": "Jean-Luc Picard, Luminary is moving above its recent baseline",
-      "summary": "Jean-Luc Picard, Luminary moved 80 rank places while adding 74 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/jean-luc-picard-luminary",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-11-09",
-      "observedAt": "2026-11-09T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Jean-Luc Picard, Luminary",
-          "slug": "jean-luc-picard-luminary",
-          "scryfallId": "136b07f3-b902-41af-8732-92c6448b6ef9"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 1912,
-        "deckCount": 758,
-        "asOf": "2026-11-09"
-      },
-      "movement": {
-        "7d": 100,
-        "30d": 0,
-        "90d": 0
-      },
-      "fingerprint": "a8448ee0f90af990a2afc59c3d8fea6dd65e880400b27cad9a3a7f6efd6bc08d",
+      "fingerprint": "b476cb0e55cb03a31f07c1bfa9e8b51260f6031c222a2b68994fc0a52320d65a",
       "score": {
         "total": 41.5,
         "components": {
-          "obscurity": 72.2,
+          "obscurity": 72.1,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -578,74 +642,10 @@
       }
     },
     {
-      "id": "the-borg-queen-edhrec-momentum-2026-11-09",
-      "findingType": "discovery_signal",
-      "title": "The Borg Queen is moving above its recent baseline",
-      "summary": "The Borg Queen moved 74 rank places while adding 124 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/the-borg-queen",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-11-09",
-      "observedAt": "2026-11-09T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "The Borg Queen",
-          "slug": "the-borg-queen",
-          "scryfallId": "8ed939ba-bf8d-4a68-ae9f-f8ca4eb301ab"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 1433,
-        "deckCount": 1397,
-        "asOf": "2026-11-09"
-      },
-      "movement": {
-        "7d": 100,
-        "30d": 0,
-        "90d": 0
-      },
-      "fingerprint": "ba03c8ff3e2ec0421434e191778e46a92dc0dcc63bb340acd41fe36ca8b6396e",
-      "score": {
-        "total": 40.2,
-        "components": {
-          "obscurity": 67.8,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "thalia-guardian-of-thraben-discussion-momentum-2026-11-09",
+      "id": "thalia-guardian-of-thraben-discussion-momentum-2026-11-10",
       "findingType": "discovery_signal",
       "title": "Thalia, Guardian of Thraben is being discussed faster than it is being built",
-      "summary": "Thalia, Guardian of Thraben was named by 2 independent sources across 2 days in the last 30, against 1 coverage record in the 30 before, while its indexed deck count moved 0.2%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "summary": "Thalia, Guardian of Thraben was named by 2 independent sources across 2 days in the last 30, against 1 coverage record in the 30 before, while its indexed deck count moved -0.2%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
       "source": {
         "name": "Community coverage trend",
         "type": "other",
@@ -653,8 +653,8 @@
         "creator": "MTG Edge Lord",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-09",
-      "observedAt": "2026-11-09T00:00:00.000Z",
+      "publishedAt": "2026-11-10",
+      "observedAt": "2026-11-10T00:00:00.000Z",
       "commanders": [
         {
           "name": "Thalia, Guardian of Thraben",
@@ -670,7 +670,7 @@
         "communityReasoned": false,
         "tested": false,
         "notes": [
-          "Derived from 3 coverage records across 2 independent sources in the 30 days to 2026-11-09. Each source is linked from its own finding; this one aggregates dates and attribution only."
+          "Derived from 3 coverage records across 2 independent sources in the 30 days to 2026-11-10. Each source is linked from its own finding; this one aggregates dates and attribution only."
         ]
       },
       "tags": [
@@ -679,16 +679,16 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 2073,
+        "edhrecRank": 2074,
         "deckCount": 622,
-        "asOf": "2026-11-09"
+        "asOf": "2026-11-10"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "865a79273c754f6c5ca5306cb989640c98ed7091ab493d9e782a275cd53ca904",
+      "fingerprint": "2a321724c403d9b0805578a9d5c584c068ac7729dbcee1138ac463cf4220953c",
       "score": {
         "total": 30.2,
         "components": {
