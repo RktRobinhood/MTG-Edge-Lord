@@ -210,11 +210,12 @@
       "slug": "mccoy-not-a-bricklayer",
       "name": "McCoy, Not a Bricklayer",
       "firstSurfacedAt": "2026-11-06",
-      "lastSurfacedAt": "2026-11-06",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
-        "mccoy-not-a-bricklayer-edhrec-momentum-2026-11-06"
+        "mccoy-not-a-bricklayer-edhrec-momentum-2026-11-06",
+        "mccoy-not-a-bricklayer-edhrec-momentum-2026-11-11"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -235,11 +236,12 @@
       "slug": "pavel-chekov-first-posting",
       "name": "Pavel Chekov, First Posting",
       "firstSurfacedAt": "2026-11-06",
-      "lastSurfacedAt": "2026-11-06",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
-        "pavel-chekov-first-posting-edhrec-momentum-2026-11-06"
+        "pavel-chekov-first-posting-edhrec-momentum-2026-11-06",
+        "pavel-chekov-first-posting-edhrec-momentum-2026-11-11"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -335,13 +337,14 @@
       "slug": "nog-ambitious-cadet",
       "name": "Nog, Ambitious Cadet",
       "firstSurfacedAt": "2026-11-05",
-      "lastSurfacedAt": "2026-11-07",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "nog-ambitious-cadet-edhrec-momentum-2026-11-05",
         "nog-ambitious-cadet-edhrec-momentum-2026-11-06",
-        "nog-ambitious-cadet-edhrec-momentum-2026-11-07"
+        "nog-ambitious-cadet-edhrec-momentum-2026-11-07",
+        "nog-ambitious-cadet-edhrec-momentum-2026-11-11"
       ],
-      "timesSurfaced": 3,
+      "timesSurfaced": 4,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -387,12 +390,13 @@
       "slug": "the-caretaker",
       "name": "The Caretaker",
       "firstSurfacedAt": "2026-11-05",
-      "lastSurfacedAt": "2026-11-08",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "the-caretaker-edhrec-momentum-2026-11-05",
-        "the-caretaker-edhrec-momentum-2026-11-08"
+        "the-caretaker-edhrec-momentum-2026-11-08",
+        "the-caretaker-edhrec-momentum-2026-11-11"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -413,12 +417,13 @@
       "slug": "uss-farragut-bold-explorer",
       "name": "U.S.S. Farragut, Bold Explorer",
       "firstSurfacedAt": "2026-11-05",
-      "lastSurfacedAt": "2026-11-06",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "uss-farragut-bold-explorer-edhrec-momentum-2026-11-05",
-        "uss-farragut-bold-explorer-edhrec-momentum-2026-11-06"
+        "uss-farragut-bold-explorer-edhrec-momentum-2026-11-06",
+        "uss-farragut-bold-explorer-edhrec-momentum-2026-11-11"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -439,14 +444,15 @@
       "slug": "gowron-eager-for-battle",
       "name": "Gowron, Eager for Battle",
       "firstSurfacedAt": "2026-11-04",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "gowron-eager-for-battle-edhrec-momentum-2026-11-04",
         "gowron-eager-for-battle-edhrec-momentum-2026-11-06",
         "gowron-eager-for-battle-edhrec-momentum-2026-11-07",
-        "gowron-eager-for-battle-edhrec-momentum-2026-11-10"
+        "gowron-eager-for-battle-edhrec-momentum-2026-11-10",
+        "gowron-eager-for-battle-edhrec-momentum-2026-11-11"
       ],
-      "timesSurfaced": 4,
+      "timesSurfaced": 5,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -467,12 +473,13 @@
       "slug": "gwyndala-the-progeny",
       "name": "Gwyndala, the Progeny",
       "firstSurfacedAt": "2026-11-04",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "gwyndala-the-progeny-edhrec-momentum-2026-11-04",
-        "gwyndala-the-progeny-edhrec-momentum-2026-11-10"
+        "gwyndala-the-progeny-edhrec-momentum-2026-11-10",
+        "gwyndala-the-progeny-edhrec-momentum-2026-11-11"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -546,14 +553,15 @@
       "slug": "alexander-ships-fool",
       "name": "Alexander, Ship's Fool",
       "firstSurfacedAt": "2026-11-03",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "alexander-ships-fool-edhrec-momentum-2026-11-03",
         "alexander-ships-fool-edhrec-momentum-2026-11-05",
         "alexander-ships-fool-edhrec-momentum-2026-11-09",
-        "alexander-ships-fool-edhrec-momentum-2026-11-10"
+        "alexander-ships-fool-edhrec-momentum-2026-11-10",
+        "alexander-ships-fool-edhrec-momentum-2026-11-11"
       ],
-      "timesSurfaced": 4,
+      "timesSurfaced": 5,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -624,11 +632,12 @@
       "slug": "jean-luc-mon-capitaine",
       "name": "Jean-Luc, Mon Capitaine",
       "firstSurfacedAt": "2026-11-03",
-      "lastSurfacedAt": "2026-11-03",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
-        "jean-luc-mon-capitaine-edhrec-momentum-2026-11-03"
+        "jean-luc-mon-capitaine-edhrec-momentum-2026-11-03",
+        "jean-luc-mon-capitaine-edhrec-momentum-2026-11-11"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -649,13 +658,14 @@
       "slug": "will-riker-first-in-the-field",
       "name": "Will Riker, First in the Field",
       "firstSurfacedAt": "2026-11-03",
-      "lastSurfacedAt": "2026-11-07",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "will-riker-first-in-the-field-edhrec-momentum-2026-11-03",
         "will-riker-first-in-the-field-edhrec-momentum-2026-11-04",
-        "will-riker-first-in-the-field-edhrec-momentum-2026-11-07"
+        "will-riker-first-in-the-field-edhrec-momentum-2026-11-07",
+        "will-riker-first-in-the-field-edhrec-momentum-2026-11-11"
       ],
-      "timesSurfaced": 3,
+      "timesSurfaced": 4,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -1061,7 +1071,7 @@
       "slug": "thalia-guardian-of-thraben",
       "name": "Thalia, Guardian of Thraben",
       "firstSurfacedAt": "2026-10-28",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "thalia-guardian-of-thraben-discussion-momentum-2026-10-28",
         "thalia-guardian-of-thraben-discussion-momentum-2026-10-29",
@@ -1070,9 +1080,10 @@
         "thalia-guardian-of-thraben-discussion-momentum-2026-11-07",
         "thalia-guardian-of-thraben-discussion-momentum-2026-11-08",
         "thalia-guardian-of-thraben-discussion-momentum-2026-11-09",
-        "thalia-guardian-of-thraben-discussion-momentum-2026-11-10"
+        "thalia-guardian-of-thraben-discussion-momentum-2026-11-10",
+        "thalia-guardian-of-thraben-discussion-momentum-2026-11-11"
       ],
-      "timesSurfaced": 8,
+      "timesSurfaced": 9,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -2118,7 +2129,7 @@
       "slug": "grismold-the-dreadsower",
       "name": "Grismold, the Dreadsower",
       "firstSurfacedAt": "2026-10-22",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "grismold-the-dreadsower-lure-deathtouch-2026-10-22"
       ],
@@ -3184,7 +3195,7 @@
       "slug": "loot-the-anomaly",
       "name": "Loot, the Anomaly",
       "firstSurfacedAt": "2026-10-14",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "loot-the-anomaly-inverted-voltron-2026-10-14"
       ],
@@ -5143,7 +5154,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -5692,7 +5703,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -5745,7 +5756,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -5770,7 +5781,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -5912,7 +5923,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -5937,7 +5948,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -5962,7 +5973,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -6014,7 +6025,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -6047,7 +6058,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -6097,7 +6108,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -6152,7 +6163,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -6177,7 +6188,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -6228,7 +6239,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -6253,7 +6264,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -6288,7 +6299,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-11-10",
+      "lastSurfacedAt": "2026-11-11",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
