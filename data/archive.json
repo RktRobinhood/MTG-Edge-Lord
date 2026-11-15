@@ -2,6 +2,156 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "goramou-the-coral-taken",
+      "name": "Goramou the Coral-Taken",
+      "firstSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-15",
+      "findingIds": [
+        "goramou-the-coral-taken-edhrec-momentum-2026-11-15"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/goramou-the-coral-taken",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 3009,
+        "deckCount": 177,
+        "asOf": "2026-11-15"
+      }
+    },
+    {
+      "slug": "lrell-fierce-visionary",
+      "name": "L'Rell, Fierce Visionary",
+      "firstSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-15",
+      "findingIds": [
+        "lrell-fierce-visionary-edhrec-momentum-2026-11-15"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/lrell-fierce-visionary",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5088,
+        "deckCount": 16,
+        "asOf": "2026-11-15"
+      }
+    },
+    {
+      "slug": "marvel-boy-noh-varr",
+      "name": "Marvel Boy, Noh-Varr",
+      "firstSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-15",
+      "findingIds": [
+        "marvel-boy-noh-varr-edhrec-momentum-2026-11-15"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/marvel-boy-noh-varr",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4373,
+        "deckCount": 33,
+        "asOf": "2026-11-15"
+      }
+    },
+    {
+      "slug": "salinae-the-ocean-mother",
+      "name": "Salinae, the Ocean Mother",
+      "firstSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-15",
+      "findingIds": [
+        "salinae-the-ocean-mother-edhrec-momentum-2026-11-15"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/salinae-the-ocean-mother",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 3175,
+        "deckCount": 142,
+        "asOf": "2026-11-15"
+      }
+    },
+    {
+      "slug": "tecton-malignant-ruin",
+      "name": "Tecton, Malignant Ruin",
+      "firstSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-15",
+      "findingIds": [
+        "tecton-malignant-ruin-edhrec-momentum-2026-11-15"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/tecton-malignant-ruin",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4054,
+        "deckCount": 48,
+        "asOf": "2026-11-15"
+      }
+    },
+    {
+      "slug": "zero-incorporeal-sensate",
+      "name": "Zero, Incorporeal Sensate",
+      "firstSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-15",
+      "findingIds": [
+        "zero-incorporeal-sensate-edhrec-momentum-2026-11-15"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/zero-incorporeal-sensate",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5088,
+        "deckCount": 16,
+        "asOf": "2026-11-15"
+      }
+    },
+    {
       "slug": "bruse-tarl-boorish-herder-slurrk-all-ingesting",
       "name": "Bruse Tarl, Boorish Herder // Slurrk, All-Ingesting",
       "firstSurfacedAt": "2026-11-14",
@@ -205,12 +355,13 @@
       "slug": "cleveland-booker-empath",
       "name": "Cleveland Booker, Empath",
       "firstSurfacedAt": "2026-11-13",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "cleveland-booker-empath-edhrec-momentum-2026-11-13",
-        "cleveland-booker-empath-edhrec-momentum-2026-11-14"
+        "cleveland-booker-empath-edhrec-momentum-2026-11-14",
+        "cleveland-booker-empath-edhrec-momentum-2026-11-15"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -617,12 +768,13 @@
       "slug": "beta-ray-bill",
       "name": "Beta Ray Bill",
       "firstSurfacedAt": "2026-11-05",
-      "lastSurfacedAt": "2026-11-13",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "beta-ray-bill-edhrec-momentum-2026-11-05",
-        "beta-ray-bill-edhrec-momentum-2026-11-13"
+        "beta-ray-bill-edhrec-momentum-2026-11-13",
+        "beta-ray-bill-edhrec-momentum-2026-11-15"
       ],
-      "timesSurfaced": 2,
+      "timesSurfaced": 3,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -722,16 +874,17 @@
       "slug": "the-caretaker",
       "name": "The Caretaker",
       "firstSurfacedAt": "2026-11-05",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "the-caretaker-edhrec-momentum-2026-11-05",
         "the-caretaker-edhrec-momentum-2026-11-08",
         "the-caretaker-edhrec-momentum-2026-11-11",
         "the-caretaker-edhrec-momentum-2026-11-12",
         "the-caretaker-edhrec-momentum-2026-11-13",
-        "the-caretaker-edhrec-momentum-2026-11-14"
+        "the-caretaker-edhrec-momentum-2026-11-14",
+        "the-caretaker-edhrec-momentum-2026-11-15"
       ],
-      "timesSurfaced": 6,
+      "timesSurfaced": 7,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -1091,15 +1244,16 @@
       "slug": "worf-defiant-commander",
       "name": "Worf, Defiant Commander",
       "firstSurfacedAt": "2026-11-01",
-      "lastSurfacedAt": "2026-11-12",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "worf-defiant-commander-edhrec-momentum-2026-11-01",
         "worf-defiant-commander-edhrec-momentum-2026-11-03",
         "worf-defiant-commander-edhrec-momentum-2026-11-08",
         "worf-defiant-commander-edhrec-momentum-2026-11-09",
-        "worf-defiant-commander-edhrec-momentum-2026-11-12"
+        "worf-defiant-commander-edhrec-momentum-2026-11-12",
+        "worf-defiant-commander-edhrec-momentum-2026-11-15"
       ],
-      "timesSurfaced": 5,
+      "timesSurfaced": 6,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -2471,7 +2625,7 @@
       "slug": "grismold-the-dreadsower",
       "name": "Grismold, the Dreadsower",
       "firstSurfacedAt": "2026-10-22",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "grismold-the-dreadsower-lure-deathtouch-2026-10-22"
       ],
@@ -3537,7 +3691,7 @@
       "slug": "loot-the-anomaly",
       "name": "Loot, the Anomaly",
       "firstSurfacedAt": "2026-10-14",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "loot-the-anomaly-inverted-voltron-2026-10-14"
       ],
@@ -5496,7 +5650,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -6045,7 +6199,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -6098,7 +6252,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -6123,7 +6277,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -6265,7 +6419,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -6290,7 +6444,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -6315,7 +6469,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -6367,7 +6521,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -6400,7 +6554,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -6450,7 +6604,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -6505,7 +6659,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -6530,7 +6684,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -6581,7 +6735,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -6606,7 +6760,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -6641,7 +6795,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-11-14",
+      "lastSurfacedAt": "2026-11-15",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
