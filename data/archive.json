@@ -2,14 +2,190 @@
   "schemaVersion": 1,
   "archive": [
     {
+      "slug": "anara-wolvid-familiar-livio-oathsworn-sentinel",
+      "name": "Anara, Wolvid Familiar // Livio, Oathsworn Sentinel",
+      "firstSurfacedAt": "2026-11-16",
+      "lastSurfacedAt": "2026-11-16",
+      "findingIds": [
+        "anara-wolvid-familiar-livio-oathsworn-sentinel-edhrec-momentum-2026-11-16"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/anara-wolvid-familiar-livio-oathsworn-sentinel",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5382,
+        "deckCount": 11,
+        "asOf": "2026-11-16"
+      }
+    },
+    {
+      "slug": "gul-dukat-colonial-prefect",
+      "name": "Gul Dukat, Colonial Prefect",
+      "firstSurfacedAt": "2026-11-16",
+      "lastSurfacedAt": "2026-11-16",
+      "findingIds": [
+        "gul-dukat-colonial-prefect-edhrec-momentum-2026-11-16"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/gul-dukat-colonial-prefect",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4198,
+        "deckCount": 41,
+        "asOf": "2026-11-16"
+      }
+    },
+    {
+      "slug": "kirk-man-of-action",
+      "name": "Kirk, Man of Action",
+      "firstSurfacedAt": "2026-11-16",
+      "lastSurfacedAt": "2026-11-16",
+      "findingIds": [
+        "kirk-man-of-action-edhrec-momentum-2026-11-16"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/kirk-man-of-action",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4410,
+        "deckCount": 32,
+        "asOf": "2026-11-16"
+      }
+    },
+    {
+      "slug": "the-frightful-four",
+      "name": "The Frightful Four",
+      "firstSurfacedAt": "2026-11-16",
+      "lastSurfacedAt": "2026-11-16",
+      "findingIds": [
+        "the-frightful-four-edhrec-momentum-2026-11-16"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/the-frightful-four",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 5366,
+        "deckCount": 12,
+        "asOf": "2026-11-16"
+      }
+    },
+    {
+      "slug": "the-guardian-of-forever",
+      "name": "The Guardian of Forever",
+      "firstSurfacedAt": "2026-11-16",
+      "lastSurfacedAt": "2026-11-16",
+      "findingIds": [
+        "the-guardian-of-forever-edhrec-momentum-2026-11-16"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/the-guardian-of-forever",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4724,
+        "deckCount": 23,
+        "asOf": "2026-11-16"
+      }
+    },
+    {
+      "slug": "the-traveler",
+      "name": "The Traveler",
+      "firstSurfacedAt": "2026-11-16",
+      "lastSurfacedAt": "2026-11-16",
+      "findingIds": [
+        "the-traveler-edhrec-momentum-2026-11-16"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/the-traveler",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4545,
+        "deckCount": 28,
+        "asOf": "2026-11-16"
+      }
+    },
+    {
+      "slug": "zefram-cochrane-warp-pioneer",
+      "name": "Zefram Cochrane, Warp Pioneer",
+      "firstSurfacedAt": "2026-11-16",
+      "lastSurfacedAt": "2026-11-16",
+      "findingIds": [
+        "zefram-cochrane-warp-pioneer-edhrec-momentum-2026-11-16"
+      ],
+      "timesSurfaced": 1,
+      "findingTypes": [
+        "discovery_signal"
+      ],
+      "sources": [
+        {
+          "name": "EDHREC commander index",
+          "url": "https://edhrec.com/commanders/zefram-cochrane-warp-pioneer",
+          "creator": "EDHREC"
+        }
+      ],
+      "popularityAtFirstSurface": {
+        "edhrecRank": 4987,
+        "deckCount": 18,
+        "asOf": "2026-11-16"
+      }
+    },
+    {
       "slug": "goramou-the-coral-taken",
       "name": "Goramou the Coral-Taken",
       "firstSurfacedAt": "2026-11-15",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
-        "goramou-the-coral-taken-edhrec-momentum-2026-11-15"
+        "goramou-the-coral-taken-edhrec-momentum-2026-11-15",
+        "goramou-the-coral-taken-edhrec-momentum-2026-11-16"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -80,11 +256,12 @@
       "slug": "salinae-the-ocean-mother",
       "name": "Salinae, the Ocean Mother",
       "firstSurfacedAt": "2026-11-15",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
-        "salinae-the-ocean-mother-edhrec-momentum-2026-11-15"
+        "salinae-the-ocean-mother-edhrec-momentum-2026-11-15",
+        "salinae-the-ocean-mother-edhrec-momentum-2026-11-16"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -105,11 +282,12 @@
       "slug": "tecton-malignant-ruin",
       "name": "Tecton, Malignant Ruin",
       "firstSurfacedAt": "2026-11-15",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
-        "tecton-malignant-ruin-edhrec-momentum-2026-11-15"
+        "tecton-malignant-ruin-edhrec-momentum-2026-11-15",
+        "tecton-malignant-ruin-edhrec-momentum-2026-11-16"
       ],
-      "timesSurfaced": 1,
+      "timesSurfaced": 2,
       "findingTypes": [
         "discovery_signal"
       ],
@@ -2625,7 +2803,7 @@
       "slug": "grismold-the-dreadsower",
       "name": "Grismold, the Dreadsower",
       "firstSurfacedAt": "2026-10-22",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "grismold-the-dreadsower-lure-deathtouch-2026-10-22"
       ],
@@ -3691,7 +3869,7 @@
       "slug": "loot-the-anomaly",
       "name": "Loot, the Anomaly",
       "firstSurfacedAt": "2026-10-14",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "loot-the-anomaly-inverted-voltron-2026-10-14"
       ],
@@ -5650,7 +5828,7 @@
       "slug": "oswald-fiddlebender",
       "name": "Oswald Fiddlebender",
       "firstSurfacedAt": "2026-09-30",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "oswald-fiddlebender-secret-commander-2026-09-30"
       ],
@@ -6199,7 +6377,7 @@
       "slug": "the-queen-of-dale",
       "name": "The Queen of Dale",
       "firstSurfacedAt": "2026-09-24",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "the-queen-of-dale-soldiers-as-resources-2026-09-24"
       ],
@@ -6252,7 +6430,7 @@
       "slug": "baron-helmut-zemo",
       "name": "Baron Helmut Zemo",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "baron-helmut-zemo-landless-boast-2026-09-23"
       ],
@@ -6277,7 +6455,7 @@
       "slug": "calamity-galloping-inferno",
       "name": "Calamity, Galloping Inferno",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "calamity-galloping-inferno-double-saddle-2026-09-23"
       ],
@@ -6419,7 +6597,7 @@
       "slug": "lagrella-the-magpie",
       "name": "Lagrella, the Magpie",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "lagrella-the-magpie-bounce-not-blink-2026-09-23"
       ],
@@ -6444,7 +6622,7 @@
       "slug": "liliana-the-faultless",
       "name": "Liliana the Faultless",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "liliana-the-faultless-spellshaper-outlet-2026-09-23"
       ],
@@ -6469,7 +6647,7 @@
       "slug": "mairsil-the-pretender",
       "name": "Mairsil, the Pretender",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "mairsil-the-pretender-caged-loyalty-2026-09-23"
       ],
@@ -6521,7 +6699,7 @@
       "slug": "niv-mizzet-ghost-counsel",
       "name": "Niv-Mizzet, Ghost Counsel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-23",
         "niv-mizzet-ghost-counsel-edhrec-momentum-2026-09-24",
@@ -6554,7 +6732,7 @@
       "slug": "niv-mizzet-supreme",
       "name": "Niv-Mizzet, Supreme",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "niv-mizzet-supreme-eidolon-package-2026-09-23"
       ],
@@ -6604,7 +6782,7 @@
       "slug": "selenia-dark-angel",
       "name": "Selenia, Dark Angel",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "selenia-dark-angel-lifecost-loop-2026-09-23"
       ],
@@ -6659,7 +6837,7 @@
       "slug": "the-muckslinger-gang",
       "name": "The Muckslinger Gang",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "the-muckslinger-gang-noncombat-anthem-2026-09-23"
       ],
@@ -6684,7 +6862,7 @@
       "slug": "the-scarlet-witch",
       "name": "The Scarlet Witch",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "the-scarlet-witch-ritual-threshold-2026-09-23"
       ],
@@ -6735,7 +6913,7 @@
       "slug": "uldaros-theorix",
       "name": "Uldaros Theorix",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "uldaros-theorix-no-ramp-dredge-2026-09-23"
       ],
@@ -6760,7 +6938,7 @@
       "slug": "vraska-soul-of-stone",
       "name": "Vraska, Soul of Stone",
       "firstSurfacedAt": "2026-09-23",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "vraska-soul-of-stone-sculpture-tempo-2026-09-23",
         "vraska-soul-of-stone-edhrec-momentum-2026-09-24",
@@ -6795,7 +6973,7 @@
       "slug": "massimo-the-magician",
       "name": "Massimo, the Magician",
       "firstSurfacedAt": "2026-09-22",
-      "lastSurfacedAt": "2026-11-15",
+      "lastSurfacedAt": "2026-11-16",
       "findingIds": [
         "massimo-vraska-spree-2026-09-20"
       ],
