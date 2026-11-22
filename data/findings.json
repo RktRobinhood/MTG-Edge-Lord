@@ -2,24 +2,24 @@
   "schemaVersion": 1,
   "findings": [
     {
-      "id": "kydele-chosen-of-kruphix-the-prismatic-piper-edhrec-momentum-2026-11-21",
+      "id": "spider-byte-web-warden-edhrec-momentum-2026-11-22",
       "findingType": "discovery_signal",
-      "title": "Kydele, Chosen of Kruphix // The Prismatic Piper is moving above its recent baseline",
-      "summary": "Kydele, Chosen of Kruphix // The Prismatic Piper moved 91 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Spider-Byte, Web Warden is moving above its recent baseline",
+      "summary": "Spider-Byte, Web Warden moved 104 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/kydele-chosen-of-kruphix-the-prismatic-piper",
+        "url": "https://edhrec.com/commanders/spider-byte-web-warden",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-21",
-      "observedAt": "2026-11-21T00:00:00.000Z",
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Kydele, Chosen of Kruphix // The Prismatic Piper",
-          "slug": "kydele-chosen-of-kruphix-the-prismatic-piper",
-          "scryfallId": "0f961cec-2f1f-4cd5-bcc3-72e1deb8779e"
+          "name": "Spider-Byte, Web Warden",
+          "slug": "spider-byte-web-warden",
+          "scryfallId": "210ae606-12a4-453b-bfb4-73ca9c22b8b5"
         }
       ],
       "cards": [],
@@ -38,24 +38,24 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 4840,
-        "deckCount": 20,
-        "asOf": "2026-11-21"
+        "edhrecRank": 4991,
+        "deckCount": 18,
+        "asOf": "2026-11-22"
       },
       "movement": {
-        "7d": 82.9,
-        "30d": 89.1,
-        "90d": 100
+        "7d": 93,
+        "30d": 50.5,
+        "90d": 78
       },
-      "fingerprint": "c42e00f14acbb3417173045b68ee9485f1fb773c4b363851c987516244d7d687",
+      "fingerprint": "ffe3adb2f7af360cdb8fe5f0aeb6cc44772f0d1e45899515ceb3ed7254fe4b04",
       "score": {
-        "total": 46.3,
+        "total": 45.8,
         "components": {
-          "obscurity": 88.3,
+          "obscurity": 88.7,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
-          "momentum": 100,
+          "momentum": 93,
           "validation": 0
         },
         "reasons": [
@@ -66,24 +66,24 @@
       }
     },
     {
-      "id": "radioactive-man-edhrec-momentum-2026-11-21",
+      "id": "reg-barclay-fidgety-fantasist-edhrec-momentum-2026-11-22",
       "findingType": "discovery_signal",
-      "title": "Radioactive Man is moving above its recent baseline",
-      "summary": "Radioactive Man moved 78 rank places while adding 2 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "title": "Reg Barclay, Fidgety Fantasist is moving above its recent baseline",
+      "summary": "Reg Barclay, Fidgety Fantasist moved 121 rank places while adding 5 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
-        "url": "https://edhrec.com/commanders/radioactive-man",
+        "url": "https://edhrec.com/commanders/reg-barclay-fidgety-fantasist",
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-21",
-      "observedAt": "2026-11-21T00:00:00.000Z",
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
       "commanders": [
         {
-          "name": "Radioactive Man",
-          "slug": "radioactive-man",
-          "scryfallId": "8a195220-26ce-4254-9dd9-7ecf89569b51"
+          "name": "Reg Barclay, Fidgety Fantasist",
+          "slug": "reg-barclay-fidgety-fantasist",
+          "scryfallId": "663a6877-6963-4fa0-9d28-da6ecb4fd550"
         }
       ],
       "cards": [],
@@ -102,84 +102,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 4699,
-        "deckCount": 24,
-        "asOf": "2026-11-21"
+        "edhrecRank": 4251,
+        "deckCount": 39,
+        "asOf": "2026-11-22"
       },
       "movement": {
         "7d": 100,
-        "30d": 100,
-        "90d": 100
-      },
-      "fingerprint": "77b8cb1467955cce8210a0cd3cc8dd2e796bcf7980a3e6cd7fe243c98d71650e",
-      "score": {
-        "total": 46.1,
-        "components": {
-          "obscurity": 87.6,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 100,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery.",
-          "Recent movement suggests the idea is gaining attention."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "worf-honor-bound-warrior-edhrec-momentum-2026-11-21",
-      "findingType": "discovery_signal",
-      "title": "Worf, Honor-Bound Warrior is moving above its recent baseline",
-      "summary": "Worf, Honor-Bound Warrior moved 90 rank places while adding 4 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/worf-honor-bound-warrior",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-11-21",
-      "observedAt": "2026-11-21T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "Worf, Honor-Bound Warrior",
-          "slug": "worf-honor-bound-warrior",
-          "scryfallId": "b2d1955f-e834-4157-a139-9b6ec94bcd2a"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 4134,
-        "deckCount": 44,
-        "asOf": "2026-11-21"
-      },
-      "movement": {
-        "7d": 100,
-        "30d": 100,
+        "30d": 0,
         "90d": 0
       },
-      "fingerprint": "0f811c620c68df029016521a5b4c2816c3fd012e91f6eacfd613e5d48c00d8a9",
+      "fingerprint": "8cabd6d9d491c0f0989d51531ac1a237cbac96f4a20f11b7fefe4be379bd468d",
       "score": {
-        "total": 45.4,
+        "total": 45.6,
         "components": {
-          "obscurity": 85.2,
+          "obscurity": 85.7,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -194,10 +130,74 @@
       }
     },
     {
-      "id": "reverend-mother-jessica-edhrec-momentum-2026-11-21",
+      "id": "tecton-malignant-ruin-edhrec-momentum-2026-11-22",
+      "findingType": "discovery_signal",
+      "title": "Tecton, Malignant Ruin is moving above its recent baseline",
+      "summary": "Tecton, Malignant Ruin moved 114 rank places while adding 26 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/tecton-malignant-ruin",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "Tecton, Malignant Ruin",
+          "slug": "tecton-malignant-ruin",
+          "scryfallId": "68803f4c-4be7-489d-9edf-474e15d70191"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 2998,
+        "deckCount": 183,
+        "asOf": "2026-11-22"
+      },
+      "movement": {
+        "7d": 100,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "4b15230bda5c07c6ef5074d7b4eb518b58acff37a383586c44a61802aa51fee5",
+      "score": {
+        "total": 43.7,
+        "components": {
+          "obscurity": 79.6,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 100,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery.",
+          "Recent movement suggests the idea is gaining attention."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "reverend-mother-jessica-edhrec-momentum-2026-11-22",
       "findingType": "discovery_signal",
       "title": "Reverend Mother Jessica is moving above its recent baseline",
-      "summary": "Reverend Mother Jessica moved 385 rank places while adding 11 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Reverend Mother Jessica moved 234 rank places while adding 10 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -205,8 +205,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-21",
-      "observedAt": "2026-11-21T00:00:00.000Z",
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
       "commanders": [
         {
           "name": "Reverend Mother Jessica",
@@ -230,20 +230,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 4397,
-        "deckCount": 33,
-        "asOf": "2026-11-21"
+        "edhrecRank": 4163,
+        "deckCount": 43,
+        "asOf": "2026-11-22"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "22c8d0d8bd83332b7cdeaeee53e0e0ce3eb6835eb5d7714744f449536e404558",
+      "fingerprint": "3221a03fe99be05efa506b333e4457ecc86d2a2a715844f594706c97cfdee32e",
       "score": {
-        "total": 35.8,
+        "total": 35.5,
         "components": {
-          "obscurity": 86.3,
+          "obscurity": 85.3,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -257,10 +257,10 @@
       }
     },
     {
-      "id": "baron-vladimir-harkonnen-edhrec-momentum-2026-11-21",
+      "id": "baron-vladimir-harkonnen-edhrec-momentum-2026-11-22",
       "findingType": "discovery_signal",
       "title": "Baron Vladimir Harkonnen is moving above its recent baseline",
-      "summary": "Baron Vladimir Harkonnen moved 342 rank places while adding 11 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Baron Vladimir Harkonnen moved 183 rank places while adding 8 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -268,8 +268,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-21",
-      "observedAt": "2026-11-21T00:00:00.000Z",
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
       "commanders": [
         {
           "name": "Baron Vladimir Harkonnen",
@@ -293,20 +293,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 4323,
-        "deckCount": 36,
-        "asOf": "2026-11-21"
+        "edhrecRank": 4140,
+        "deckCount": 44,
+        "asOf": "2026-11-22"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "207dc589d4a7683ece971aa64b40b68f3b67c042b508c49f97e8a30b4348cf75",
+      "fingerprint": "3a3916762872d660324a2fff43a0921966b69b0e7258c076fe6c930c39be273c",
       "score": {
-        "total": 35.7,
+        "total": 35.4,
         "components": {
-          "obscurity": 86,
+          "obscurity": 85.2,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -320,73 +320,10 @@
       }
     },
     {
-      "id": "the-ignoble-serpent-edhrec-momentum-2026-11-21",
-      "findingType": "discovery_signal",
-      "title": "\"The Ignoble Serpent\" is moving above its recent baseline",
-      "summary": "\"The Ignoble Serpent\" moved 168 rank places while adding 9 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
-      "source": {
-        "name": "EDHREC commander index",
-        "type": "other",
-        "url": "https://edhrec.com/commanders/the-ignoble-serpent",
-        "creator": "EDHREC",
-        "resourceDepth": "mention"
-      },
-      "publishedAt": "2026-11-21",
-      "observedAt": "2026-11-21T00:00:00.000Z",
-      "commanders": [
-        {
-          "name": "\"The Ignoble Serpent\"",
-          "slug": "the-ignoble-serpent",
-          "scryfallId": "a1510c0a-30d8-48b3-857f-6214f5e0efaf"
-        }
-      ],
-      "cards": [],
-      "evidence": {
-        "strength": 0.65,
-        "independentSourceCount": 1,
-        "conversationDepth": "mention",
-        "communityReasoned": false,
-        "tested": false,
-        "notes": [
-          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
-        ]
-      },
-      "tags": [
-        "momentum",
-        "needs-research"
-      ],
-      "popularity": {
-        "edhrecRank": 3946,
-        "deckCount": 54,
-        "asOf": "2026-11-21"
-      },
-      "movement": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 0
-      },
-      "fingerprint": "f17dd2f03fb2f80121e2286c4074a5dc417a05c68493305b5d020b60471dd545",
-      "score": {
-        "total": 35.2,
-        "components": {
-          "obscurity": 84.4,
-          "community": 39.3,
-          "expert": 10,
-          "mechanical": 0,
-          "momentum": 0,
-          "validation": 0
-        },
-        "reasons": [
-          "Low current popularity leaves room for genuine discovery."
-        ],
-        "modelVersion": "diamond-v1"
-      }
-    },
-    {
-      "id": "chani-blade-of-sietch-tabr-edhrec-momentum-2026-11-21",
+      "id": "chani-blade-of-sietch-tabr-edhrec-momentum-2026-11-22",
       "findingType": "discovery_signal",
       "title": "Chani, Blade of Sietch Tabr is moving above its recent baseline",
-      "summary": "Chani, Blade of Sietch Tabr moved 387 rank places while adding 18 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Chani, Blade of Sietch Tabr moved 220 rank places while adding 14 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -394,8 +331,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-21",
-      "observedAt": "2026-11-21T00:00:00.000Z",
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
       "commanders": [
         {
           "name": "Chani, Blade of Sietch Tabr",
@@ -419,20 +356,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 4005,
-        "deckCount": 51,
-        "asOf": "2026-11-21"
+        "edhrecRank": 3785,
+        "deckCount": 65,
+        "asOf": "2026-11-22"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "db1cd51fcbdf740699e9b1263d93fe2cca784ab47f6ab0c1c9d88ea9d3f82abf",
+      "fingerprint": "6d36853fd1d08e5803a5cbb5df5474504d7ad7d18f820d6ce004278b9b31baab",
       "score": {
-        "total": 35.2,
+        "total": 35,
         "components": {
-          "obscurity": 84.6,
+          "obscurity": 83.7,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -446,10 +383,73 @@
       }
     },
     {
-      "id": "mohiam-imperial-truthsayer-edhrec-momentum-2026-11-21",
+      "id": "the-ignoble-serpent-edhrec-momentum-2026-11-22",
+      "findingType": "discovery_signal",
+      "title": "\"The Ignoble Serpent\" is moving above its recent baseline",
+      "summary": "\"The Ignoble Serpent\" moved 128 rank places while adding 9 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "source": {
+        "name": "EDHREC commander index",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/the-ignoble-serpent",
+        "creator": "EDHREC",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "\"The Ignoble Serpent\"",
+          "slug": "the-ignoble-serpent",
+          "scryfallId": "a1510c0a-30d8-48b3-857f-6214f5e0efaf"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.65,
+        "independentSourceCount": 1,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Automatically derived from consecutive EDHREC commander index snapshots; editorial follow-up is still needed."
+        ]
+      },
+      "tags": [
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 3818,
+        "deckCount": 63,
+        "asOf": "2026-11-22"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "e5d0294b3369e1d10d4e20cbbe3a5a40a8fdb816014e603e70823caafdf75025",
+      "score": {
+        "total": 35,
+        "components": {
+          "obscurity": 83.8,
+          "community": 39.3,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
+          "Low current popularity leaves room for genuine discovery."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "mohiam-imperial-truthsayer-edhrec-momentum-2026-11-22",
       "findingType": "discovery_signal",
       "title": "Mohiam, Imperial Truthsayer is moving above its recent baseline",
-      "summary": "Mohiam, Imperial Truthsayer moved 339 rank places while adding 26 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Mohiam, Imperial Truthsayer moved 144 rank places while adding 18 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -457,8 +457,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-21",
-      "observedAt": "2026-11-21T00:00:00.000Z",
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
       "commanders": [
         {
           "name": "Mohiam, Imperial Truthsayer",
@@ -482,20 +482,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 3662,
-        "deckCount": 77,
-        "asOf": "2026-11-21"
+        "edhrecRank": 3518,
+        "deckCount": 95,
+        "asOf": "2026-11-22"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "df64935ebf0665f1692570341b22f016e97103e441107526c18825c99122b756",
+      "fingerprint": "29e8a4cff1eed8b1fe6aae4df811c148704e24f624327bad5a8fe491520df8ee",
       "score": {
-        "total": 34.8,
+        "total": 34.5,
         "components": {
-          "obscurity": 83,
+          "obscurity": 82.2,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -509,10 +509,10 @@
       }
     },
     {
-      "id": "princess-irulan-corrino-edhrec-momentum-2026-11-21",
+      "id": "princess-irulan-corrino-edhrec-momentum-2026-11-22",
       "findingType": "discovery_signal",
       "title": "Princess Irulan Corrino is moving above its recent baseline",
-      "summary": "Princess Irulan Corrino moved 249 rank places while adding 58 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Princess Irulan Corrino moved 150 rank places while adding 45 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -520,8 +520,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-21",
-      "observedAt": "2026-11-21T00:00:00.000Z",
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
       "commanders": [
         {
           "name": "Princess Irulan Corrino",
@@ -545,20 +545,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 2892,
-        "deckCount": 208,
-        "asOf": "2026-11-21"
+        "edhrecRank": 2742,
+        "deckCount": 253,
+        "asOf": "2026-11-22"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "0e04cf0bca969d897ffd98cf2f209a33c9cd1a51ccb92b8f0eddee60ddc1335d",
+      "fingerprint": "c5da261c74fa9c0947bb9a7ad2b95e37a6ee6fd1fbc439d3a24ea5997aaac10c",
       "score": {
-        "total": 33.6,
+        "total": 33.4,
         "components": {
-          "obscurity": 79.1,
+          "obscurity": 78.4,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -572,10 +572,10 @@
       }
     },
     {
-      "id": "muaddib-prophet-foretold-edhrec-momentum-2026-11-21",
+      "id": "muaddib-prophet-foretold-edhrec-momentum-2026-11-22",
       "findingType": "discovery_signal",
       "title": "Muad'Dib, Prophet Foretold is moving above its recent baseline",
-      "summary": "Muad'Dib, Prophet Foretold moved 225 rank places while adding 100 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
+      "summary": "Muad'Dib, Prophet Foretold moved 141 rank places while adding 81 indexed decks since the previous snapshot. This is an aggregate momentum signal for investigation, not proof of a community consensus or competitive result.",
       "source": {
         "name": "EDHREC commander index",
         "type": "other",
@@ -583,8 +583,8 @@
         "creator": "EDHREC",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-21",
-      "observedAt": "2026-11-21T00:00:00.000Z",
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
       "commanders": [
         {
           "name": "Muad'Dib, Prophet Foretold",
@@ -608,20 +608,20 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 2483,
-        "deckCount": 364,
-        "asOf": "2026-11-21"
+        "edhrecRank": 2342,
+        "deckCount": 445,
+        "asOf": "2026-11-22"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "4b34534a76dcacaf390b5aec3f2d5ca138718eca520a0b6ab6466cbc5d90ae90",
+      "fingerprint": "cb755337ac9082e0d490af2e1dbf57a998e7980e58a74fc3977ab1d76afde43a",
       "score": {
-        "total": 32.9,
+        "total": 32.6,
         "components": {
-          "obscurity": 76.9,
+          "obscurity": 75.7,
           "community": 39.3,
           "expert": 10,
           "mechanical": 0,
@@ -635,7 +635,7 @@
       }
     },
     {
-      "id": "tyvar-the-pummeler-discussion-momentum-2026-11-21",
+      "id": "tyvar-the-pummeler-discussion-momentum-2026-11-22",
       "findingType": "discovery_signal",
       "title": "Tyvar, the Pummeler is being discussed faster than it is being built",
       "summary": "Tyvar, the Pummeler was named by 3 independent sources across 2 days in the last 30, against 3 coverage records in the 30 before, while its indexed deck count moved -2.5%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
@@ -646,8 +646,8 @@
         "creator": "MTG Edge Lord",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-21",
-      "observedAt": "2026-11-21T00:00:00.000Z",
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
       "commanders": [
         {
           "name": "Tyvar, the Pummeler",
@@ -663,7 +663,7 @@
         "communityReasoned": false,
         "tested": false,
         "notes": [
-          "Derived from 6 coverage records across 3 independent sources in the 30 days to 2026-11-21. Each source is linked from its own finding; this one aggregates dates and attribution only."
+          "Derived from 6 coverage records across 3 independent sources in the 30 days to 2026-11-22. Each source is linked from its own finding; this one aggregates dates and attribution only."
         ]
       },
       "tags": [
@@ -672,24 +672,24 @@
         "needs-research"
       ],
       "popularity": {
-        "edhrecRank": 1825,
-        "deckCount": 860,
-        "asOf": "2026-11-21"
+        "edhrecRank": 1826,
+        "deckCount": 859,
+        "asOf": "2026-11-22"
       },
       "movement": {
-        "7d": 0,
+        "7d": 1.4,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "c5b8c335c7083f80b48bac2c834f38b364942e900da0f6bea451b0a9112a0a23",
+      "fingerprint": "a364b2a84e2794b87910c8cf8865f69dce538472a8a677a94071c941950809e9",
       "score": {
-        "total": 31,
+        "total": 31.2,
         "components": {
           "obscurity": 71.4,
           "community": 38.1,
           "expert": 10,
           "mechanical": 0,
-          "momentum": 0,
+          "momentum": 1.4,
           "validation": 0
         },
         "reasons": [
@@ -700,7 +700,7 @@
       }
     },
     {
-      "id": "geralf-visionary-stitcher-discussion-momentum-2026-11-21",
+      "id": "geralf-visionary-stitcher-discussion-momentum-2026-11-22",
       "findingType": "discovery_signal",
       "title": "Geralf, Visionary Stitcher is being discussed faster than it is being built",
       "summary": "Geralf, Visionary Stitcher was named by 2 independent sources across 4 days in the last 30, against 1 coverage record in the 30 before, while its indexed deck count moved 0.7%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
@@ -711,8 +711,8 @@
         "creator": "MTG Edge Lord",
         "resourceDepth": "mention"
       },
-      "publishedAt": "2026-11-21",
-      "observedAt": "2026-11-21T00:00:00.000Z",
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
       "commanders": [
         {
           "name": "Geralf, Visionary Stitcher",
@@ -728,7 +728,7 @@
         "communityReasoned": false,
         "tested": false,
         "notes": [
-          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-11-21. Each source is linked from its own finding; this one aggregates dates and attribution only."
+          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-11-22. Each source is linked from its own finding; this one aggregates dates and attribution only."
         ]
       },
       "tags": [
@@ -738,15 +738,15 @@
       ],
       "popularity": {
         "edhrecRank": 1550,
-        "deckCount": 1234,
-        "asOf": "2026-11-21"
+        "deckCount": 1233,
+        "asOf": "2026-11-22"
       },
       "movement": {
         "7d": 0,
         "30d": 0,
         "90d": 0
       },
-      "fingerprint": "0c155aee780191cfa69a09ed3b0603f11934561d55576af5178ea47d5f9aa23a",
+      "fingerprint": "3021506b329a8967a0a185e19808d7e90aea11bcf7773bb183d33f5957bb9af8",
       "score": {
         "total": 28.9,
         "components": {
@@ -759,6 +759,70 @@
         },
         "reasons": [
           "Low current popularity leaves room for genuine discovery.",
+          "2 independent sources reinforce the signal."
+        ],
+        "modelVersion": "diamond-v1"
+      }
+    },
+    {
+      "id": "the-capitoline-triad-discussion-momentum-2026-11-22",
+      "findingType": "discovery_signal",
+      "title": "The Capitoline Triad is being discussed faster than it is being built",
+      "summary": "The Capitoline Triad was named by 2 independent sources across 2 days in the last 30, against 1 coverage record in the 30 before, while its indexed deck count moved -0.7%. Interest running ahead of adoption is an early signal for investigation, not proof of a community consensus or a competitive result.",
+      "source": {
+        "name": "Community coverage trend",
+        "type": "other",
+        "url": "https://edhrec.com/commanders/the-capitoline-triad",
+        "creator": "MTG Edge Lord",
+        "resourceDepth": "mention"
+      },
+      "publishedAt": "2026-11-22",
+      "observedAt": "2026-11-22T00:00:00.000Z",
+      "commanders": [
+        {
+          "name": "The Capitoline Triad",
+          "slug": "the-capitoline-triad",
+          "scryfallId": "fa1b63ce-47d3-4633-9062-3fecd810e85f"
+        }
+      ],
+      "cards": [],
+      "evidence": {
+        "strength": 0.315,
+        "independentSourceCount": 2,
+        "conversationDepth": "mention",
+        "communityReasoned": false,
+        "tested": false,
+        "notes": [
+          "Derived from 4 coverage records across 2 independent sources in the 30 days to 2026-11-22. Each source is linked from its own finding; this one aggregates dates and attribution only."
+        ]
+      },
+      "tags": [
+        "discussion-momentum",
+        "momentum",
+        "needs-research"
+      ],
+      "popularity": {
+        "edhrecRank": 722,
+        "deckCount": 4091,
+        "asOf": "2026-11-22"
+      },
+      "movement": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0
+      },
+      "fingerprint": "b05a23e2b19970b73394040837aa042069f1fb1d93c46df27b5ec605ef54030a",
+      "score": {
+        "total": 25.9,
+        "components": {
+          "obscurity": 58.8,
+          "community": 31.2,
+          "expert": 10,
+          "mechanical": 0,
+          "momentum": 0,
+          "validation": 0
+        },
+        "reasons": [
           "2 independent sources reinforce the signal."
         ],
         "modelVersion": "diamond-v1"
